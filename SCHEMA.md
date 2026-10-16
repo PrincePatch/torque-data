@@ -33,6 +33,7 @@ motos/<id-moto>/
   fiabilite.json                 ← rappels, problèmes connus, rodage, contrôles avant départ, achat d'occasion
   regles.json                    ← règles contextuelles propres à cette moto
   modifications.json             ← accessoires et modifications compatibles
+  visserie.json                  ← toutes les vis : dimensions, empreintes, références, kits (§ 19)
   sources.json                   ← bibliographie (id → document, URL)
   credits.json                   ← images : auteur, licence, modifications
   schemas/*.svg                  ← schémas dessinés (profil gauche/droit, dessus, tableau de bord…)
@@ -159,8 +160,12 @@ Coût d'une opération = Σ `prix.moy` × (quantité utilisée ÷ `par.valeur`),
       "procedure": "pr-vidange-huile-filtre",
       "composants": ["co-filtre-huile", "co-bouchon-vidange"],
       "mesure": "me-…",
-      "duree_diy_min": 60,
+      "famille": "entretien" | "controle" | "usure" | "saison",
+      "duree_diy_min": 45,
+      "duree_debutant_min": 90,
       "temps_atelier_h": 0.8,
+      "conditions": Texte,
+      "materiel": [ { "id": "ou-bac-vidange" }, { "id": "cs-gants-nitrile", "quantite": { "valeur": 2, "unite": "piece" } } ],
       "difficulte": 2,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -177,6 +182,8 @@ Coût d'une opération = Σ `prix.moy` × (quantité utilisée ÷ `par.valeur`),
 - `categorie` ∈ `moteur`, `admission`, `allumage`, `refroidissement`, `transmission`, `freins`, `pneus`, `roues`, `suspensions`, `direction`, `electricite`, `eclairage`, `carrosserie`, `controle`, `nettoyage`, `stockage`.
 - `type` ∈ `remplacer`, `controler`, `regler`, `lubrifier`, `nettoyer`, `diagnostic`, `purger`.
 - `intervalle` : champs tous facultatifs. `km` / `mois` = périodicité ; `premiere_km` / `premiere_mois` = première échéance ponctuelle (rodage : vidange à 1 000 km, puis la grille reprend à 10 000, 20 000…) ; `decalage_km` = décalage de la grille constructeur quand elle ne part pas de zéro (contrôle du filtre à air à 10 000 puis 30 000 km → `km: 20000, decalage_km: 10000`) ; `severe` = usage sévère (ville, courts trajets, pluie, poussière) ; `piste` = usage piste ; `a_chaque_sortie: true` = contrôle avant chaque départ ; `repetition` : `les_deux_premier_atteint` (défaut : la première des deux échéances km/mois déclenche), `km_seulement`, `mois_seulement`, `une_fois` (ex. révision des 1 000 km).
+- `famille` : `entretien` = révision ou remplacement planifié (une carte par révision, ses contrôles dedans) ; `controle` = contrôle rapide fait par l'utilisateur (pression, niveaux, chaîne, éclairage : jamais « en retard depuis l'achat ») ; `usure` = pièce remplacée selon son état mesuré (pneus, plaquettes, kit chaîne, disques) ; `saison` = hivernage, remise en route, lavage.
+- **Préparer une intervention** : `pieces` (pièces neuves), `consommables` (produits : huile, liquide, nettoyant, lubrifiant…, **avec quantité**), `outils` (outils à main aux tailles exactes), `materiel` (matériel d'atelier et fournitures : béquille, bac, entonnoir, brosse, lampe, chiffons, gants jetables, carton…, ids d'`outils.json` ou de `pieces.json`), `conditions` (moteur froid / tiède, moto sur béquille d'atelier, sol plat…), `duree_diy_min` (habitué) et `duree_debutant_min` (première fois).
 - `gravite` (1-5) = conséquence d'un oubli : 1 confort, 2 usure prématurée, 3 panne probable, 4 casse moteur / coût élevé, 5 **sécurité** (freins, pneus, direction).
 - L'**urgence** (0-100) n'est pas stockée : l'appli la calcule (échéance restante en km et en jours, km/jour moyen de l'utilisateur, gravité, contexte).
 
@@ -216,7 +223,7 @@ Coût d'une opération = Σ `prix.moy` × (quantité utilisée ÷ `par.valeur`),
   ]
 }
 ```
-Les consommables (huile, liquide de frein, lubrifiant chaîne…) sont aussi dans `pieces.json`, avec `"type": "consommable"` et un id en `cs-…`, plus une liste de produits compatibles dans `references` (`origine: false`).
+Les consommables sont aussi dans `pieces.json`, avec `"type": "consommable"` et `categorie` = `produit` (huile, liquides, nettoyants, lubrifiants, graisses, frein-filet) ou `fourniture` (chiffons, gants jetables, papier absorbant, sacs, colliers) et un id en `cs-…`, plus une liste de produits compatibles dans `references` (`origine: false`).
 
 ## 7. `outils.json`
 ```json
@@ -226,6 +233,7 @@ Les consommables (huile, liquide de frein, lubrifiant chaîne…) sont aussi dan
     "ref_aprilia": "…", "prix": Prix, "operations": ["op-…"], "note": Texte, "confiance", "sources" }
 ] }
 ```
+`categorie` ∈ `cle`, `douille`, `embout`, `tournevis`, `pince`, `mesure`, `levage`, `electricite`, `materiel` (bac, entonnoir, brosse, lampe…), `protection` (gants, lunettes), `special` ; l'appli range ainsi la liste « à préparer » en Outils / Matériel / Protection.
 `niveau` : `courant` = entretien de base (huile, chaîne, pressions, plaquettes) ; `complet` = tout l'entretien programmé et le démontage ; `special` = outil spécifique Aprilia ou rare.
 
 ## 8. `couples.json`
@@ -394,3 +402,40 @@ Les consommables (huile, liquide de frein, lubrifiant chaîne…) sont aussi dan
 - **Ne jamais inventer** une valeur, une référence, un couple ou un prix : une donnée introuvable est **absente** (champ omis) ou marquée `"confiance": "incertain"` avec une note.
 - Pas de logo ni d'image protégée (manuels, éclatés, photos de presse) dans ce dépôt : les éclatés sont **liés** (`lien_eclate`).
 - « Aprilia », « RS 660 » : mentions textuelles nominatives seulement. L'application affiche l'avertissement de non-affiliation.
+
+## 19. `visserie.json` — toutes les vis de la moto
+Sert à deux choses : savoir **quels outils acheter** pour tout démonter (regroupement par empreinte) et **racheter des vis** (nomenclature exacte, références d'origine, kits de remplacement).
+```json
+{
+  "version_schema": 1, "maj": "…",
+  "fixations": [
+    {
+      "id": "vi-flanc-gauche-cadre",
+      "zone": "carenage",
+      "element": Texte,
+      "quantite": 4,
+      "designation": Texte,
+      "filetage": "M5", "pas_mm": 0.8, "longueur_mm": 16,
+      "tete": "bombee" | "cylindrique" | "fraisee" | "hexagonale" | "bride" | "ecrou" | "agrafe" | "clip" | "autre",
+      "empreinte": "Torx T25",
+      "outil": "ou-…",
+      "rondelle": Texte?, "matiere": Texte?,
+      "freinfilet": "aucun" | "faible" | "moyen" | "fort",
+      "couple": "cp-…", "carenage": "ca-…", "composant": "co-…", "procedure": "pr-…",
+      "references": [ { "marque": "Aprilia", "ref": "…", "origine": true, "designation_catalogue": "…", "confiance", "sources" } ],
+      "recherche_achat": "vis M5x16 inox tête bombée Torx",
+      "lien_eclate": "https://…",
+      "millesimes"?, "versions"?, "note": Texte?, "confiance", "sources"
+    }
+  ],
+  "kits": [
+    { "id": "kit-…", "marque": "…", "nom": Texte, "ref": "…", "matiere": "titane" | "inox" | "aluminium" | "acier",
+      "contenu": Texte, "zones": ["carenage"], "prix": Prix, "lien": "https://…", "recherche_achat": "…", "confiance", "sources" }
+  ],
+  "conseils": [ { "titre": Texte, "texte": Texte, "confiance", "sources" } ]
+}
+```
+- `zone` ∈ `carenage`, `selle-coque`, `eclairage`, `retroviseurs`, `guidon-commandes`, `reservoir`, `moteur`, `admission`, `refroidissement`, `echappement`, `transmission`, `freins`, `roues`, `suspensions`, `direction`, `cadre`, `electricite`, `protections`, `autre`.
+- `empreinte` : libellé normalisé (`Torx T25`, `Allen 5`, `Hexagonale 10`, `Cruciforme PH2`, `Torx femelle E10`…) ; `outil` = id d'`outils.json` qui la sert.
+- `recherche_achat` : requête courte et générique pour une boutique (dimension, tête, empreinte, matière), jamais une marque d'origine seule.
+- Une donnée inconnue (longueur, référence) est **omise**, jamais devinée ; une fixation dont seule l'empreinte est connue reste utile (choix des outils).

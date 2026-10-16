@@ -239,6 +239,9 @@ def verifier_moto(dossier: Path, communs: dict, rapport: Rapport) -> None:
         references(op.get("composants"), composants, fe, ctx, "composant")
         references(op.get("mesure"), mesures, fe, ctx, "mesure")
         references(op.get("groupe_revision"), revisions, fe, ctx, "révision")
+        references([l.get("id") for l in op.get("materiel", []) if isinstance(l, dict)], outils | pieces, fe, ctx, "matériel")
+        if op.get("famille") not in (None, "entretien", "controle", "usure", "saison"):
+            rapport.erreur(fe, f"{ctx} : famille inconnue « {op.get('famille')} »")
         gravite = op.get("gravite")
         if not isinstance(gravite, int) or not 1 <= gravite <= 5:
             rapport.erreur(fe, f"{ctx} : gravite doit être un entier 1-5")
@@ -279,6 +282,7 @@ def verifier_moto(dossier: Path, communs: dict, rapport: Rapport) -> None:
         references(proc.get("outils"), outils, fp, ctx, "outil")
         references(proc.get("pieces"), pieces, fp, ctx, "pièce")
         references(proc.get("couples"), couples, fp, ctx, "couple")
+        references([l.get("id") if isinstance(l, dict) else l for l in proc.get("materiel", [])], outils | pieces, fp, ctx, "matériel")
         for etape in proc.get("etapes", []):
             if not isinstance(etape, dict):
                 continue
@@ -346,6 +350,30 @@ def verifier_moto(dossier: Path, communs: dict, rapport: Rapport) -> None:
                 verifier_variable(variable, mesures, operations, fichier, rapport, ctx)
             references(regle.get("operations"), operations | rappels, fichier, ctx, "opération")
             references(regle.get("mesures"), mesures, fichier, ctx, "mesure")
+
+    # visserie.json
+    fv = f"{nom}/visserie.json"
+    ids_de(liste("visserie.json", "fixations"), fv, rapport, "fixations")
+    ids_de(liste("visserie.json", "kits"), fv, rapport, "kits")
+    zones_vis = {"carenage", "selle-coque", "eclairage", "retroviseurs", "guidon-commandes", "reservoir",
+                 "moteur", "admission", "refroidissement", "echappement", "transmission", "freins", "roues",
+                 "suspensions", "direction", "cadre", "electricite", "protections", "autre"}
+    for vis in liste("visserie.json", "fixations"):
+        if not isinstance(vis, dict):
+            continue
+        ctx = vis.get("id", "?")
+        if vis.get("zone") not in zones_vis:
+            rapport.erreur(fv, f"{ctx} : zone inconnue « {vis.get('zone')} »")
+        quantite = vis.get("quantite")
+        if not isinstance(quantite, int) or quantite < 1:
+            rapport.erreur(fv, f"{ctx} : quantite doit être un entier ≥ 1")
+        references(vis.get("outil"), outils, fv, ctx, "outil")
+        references(vis.get("couple"), couples, fv, ctx, "couple")
+        references(vis.get("carenage"), carenages, fv, ctx, "carénage")
+        references(vis.get("composant"), composants, fv, ctx, "composant")
+        references(vis.get("procedure"), procedures, fv, ctx, "procédure")
+        if not vis.get("empreinte") and not vis.get("filetage"):
+            rapport.avertir(fv, f"{ctx} : ni empreinte ni filetage (fixation peu utile)")
 
     # modifications.json
     for modification in liste("modifications.json", "modifications"):
