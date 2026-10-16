@@ -1758,7 +1758,7 @@
         "fr": "Huile moteur 10W-50",
         "en": "Engine oil 10W-50"
       },
-      "categorie": "moteur",
+      "categorie": "produit",
       "type": "consommable",
       "quantite_par_moto": {
         "valeur": 2.7,
@@ -1843,7 +1843,7 @@
         "fr": "Liquide de refroidissement",
         "en": "Coolant"
       },
-      "categorie": "refroidissement",
+      "categorie": "produit",
       "type": "consommable",
       "quantite_par_moto": {
         "valeur": 1.8,
@@ -1902,7 +1902,7 @@
         "fr": "Liquide de frein DOT 4",
         "en": "DOT 4 brake fluid"
       },
-      "categorie": "freins",
+      "categorie": "produit",
       "type": "consommable",
       "quantite_par_moto": {
         "valeur": 0.5,
@@ -1964,7 +1964,7 @@
         "fr": "Huile de fourche SAE 7.5W",
         "en": "Fork oil SAE 7.5W"
       },
-      "categorie": "suspensions",
+      "categorie": "produit",
       "type": "consommable",
       "quantite_par_moto": {
         "valeur": 0.936,
@@ -2036,7 +2036,7 @@
         "fr": "Essence sans plomb 95",
         "en": "Unleaded petrol 95"
       },
-      "categorie": "moteur",
+      "categorie": "produit",
       "type": "consommable",
       "quantite_par_moto": {
         "valeur": 15,
@@ -2086,7 +2086,7 @@
         "fr": "Lubrifiant de chaîne",
         "en": "Chain lube"
       },
-      "categorie": "transmission",
+      "categorie": "produit",
       "type": "consommable",
       "quantite_par_moto": {
         "valeur": 1,
@@ -2128,7 +2128,7 @@
         "fr": "Nettoyant de chaîne",
         "en": "Chain cleaner"
       },
-      "categorie": "transmission",
+      "categorie": "produit",
       "type": "consommable",
       "quantite_par_moto": {
         "valeur": 1,
@@ -2182,15 +2182,44 @@
         "fr": "Graisse lithium-calcium EP",
         "en": "Lithium-calcium EP grease"
       },
-      "categorie": "divers",
+      "categorie": "produit",
       "type": "consommable",
       "quantite_par_moto": {
         "valeur": 1,
         "unite": "piece"
       },
-      "references": [],
+      "references": [
+        {
+          "marque": "Bardahl",
+          "ref": "Graisse au lithium (cartouche 400 g)",
+          "origine": false,
+          "note": {
+            "fr": "Graisse au lithium : le manuel préconise une graisse lithium-calcium extrême pression très hydrofuge ; vérifier ces mentions sur l'emballage. Existe en tube de 150 g (10,10 €), plus pratique sans pompe à graisse."
+          },
+          "confiance": "incertain",
+          "sources": [
+            "src-lb-graisse-lithium"
+          ]
+        }
+      ],
       "specification": {
-        "fr": "Graisse à savon lithium-calcium, noire, additifs extrême pression, très hydrofuge (produit préconisé par le manuel). Articulations des leviers et des pédales, béquille, axes. Aucune marque citée ; prix non relevé."
+        "fr": "Graisse à savon lithium-calcium, noire, additifs extrême pression, très hydrofuge (produit préconisé par le manuel). Articulations des leviers et des pédales, béquille, axes. Aucune marque citée par Aprilia. Prix par cartouche de 400 g (Bardahl, 11,50 €) ; un tube de 150 g coûte 10,10 €.",
+        "en": "Black lithium-calcium soap grease with extreme-pressure additives, highly water-resistant (as specified by the manual). Lever and pedal pivots, side stand, spindles. No brand named by Aprilia. Price per 400 g cartridge (Bardahl, EUR 11.50); a 150 g tube costs EUR 10.10."
+      },
+      "prix": {
+        "min": 7.2,
+        "moy": 11.5,
+        "max": 20.0,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-lb-graisse-lithium"
+        ]
       }
     },
     {
@@ -2199,7 +2228,7 @@
         "fr": "Graisse neutre pour bornes de batterie",
         "en": "Battery terminal grease"
       },
-      "categorie": "electricite",
+      "categorie": "produit",
       "type": "consommable",
       "quantite_par_moto": {
         "valeur": 1,
@@ -2214,10 +2243,35 @@
           "sources": [
             "src-manuel-proprietaire#p153"
           ]
+        },
+        {
+          "marque": "Liqui Moly",
+          "ref": "Graisse pour bornes de batterie (tube 50 g)",
+          "origine": false,
+          "confiance": "une_source",
+          "sources": [
+            "src-lb-graisse-bornes"
+          ]
         }
       ],
       "specification": {
-        "fr": "Fine couche sur les bornes de la batterie au remontage. Prix non relevé."
+        "fr": "Fine couche sur les bornes de la batterie au remontage (graisse neutre ou vaseline selon le manuel). Prix par tube de 50 g (Liqui Moly, 4,10 €).",
+        "en": "Thin coat on the battery terminals when refitting (neutral grease or petroleum jelly per the manual). Price per 50 g tube (Liqui Moly, EUR 4.10)."
+      },
+      "prix": {
+        "min": 4.1,
+        "moy": 4.1,
+        "max": 4.1,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-lb-graisse-bornes"
+        ]
       }
     },
     {
@@ -2226,7 +2280,7 @@
         "fr": "Frein-filet moyen",
         "en": "Medium threadlocker"
       },
-      "categorie": "divers",
+      "categorie": "produit",
       "type": "consommable",
       "quantite_par_moto": {
         "valeur": 1,
@@ -2242,12 +2296,29 @@
           },
           "confiance": "une_source",
           "sources": [
-            "src-manuel-atelier#p33"
+            "src-manuel-atelier#p33",
+            "src-lb-loctite-243"
           ]
         }
       ],
       "specification": {
-        "fr": "Frein-filet de résistance moyenne : vis de pignon, vis d'étrier arrière, maître-cylindre arrière, axe de pédale, écrous d'amortisseur. Les vis pré-enduites d'origine se remplacent par des vis neuves après desserrage. Prix non relevé."
+        "fr": "Frein-filet de résistance moyenne : vis de pignon, vis d'étrier arrière, maître-cylindre arrière, axe de pédale, écrous d'amortisseur, vis du levier de sélecteur. Les vis pré-enduites d'origine se remplacent par des vis neuves après desserrage. Prix par tube de 5 mL (Loctite 243, 11,90 €) ; 24 mL 43,50 € ; 50 mL 75,90 €.",
+        "en": "Medium-strength threadlocker: front sprocket bolt, rear caliper bolts, rear master cylinder, brake pedal pivot, shock nuts, gear lever screw. Factory pre-coated screws are replaced with new ones once undone. Price per 5 mL tube (Loctite 243, EUR 11.90); 24 mL EUR 43.50; 50 mL EUR 75.90."
+      },
+      "prix": {
+        "min": 11.9,
+        "moy": 11.9,
+        "max": 11.9,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-lb-loctite-243"
+        ]
       }
     },
     {
@@ -2256,7 +2327,7 @@
         "fr": "Pâte de montage au bisulfure de molybdène",
         "en": "Molybdenum assembly paste"
       },
-      "categorie": "moteur",
+      "categorie": "produit",
       "type": "consommable",
       "quantite_par_moto": {
         "valeur": 1,
@@ -2269,12 +2340,29 @@
           "origine": false,
           "confiance": "ok",
           "sources": [
-            "src-manuel-atelier#p73"
+            "src-manuel-atelier#p73",
+            "src-cdp-molykote-g-rapid"
           ]
         }
       ],
       "specification": {
-        "fr": "Lubrification des arbres à cames, poussoirs et pastilles au remontage après réglage du jeu aux soupapes. Prix non relevé."
+        "fr": "Lubrification des arbres à cames, poussoirs et pastilles au remontage après réglage du jeu aux soupapes (atelier). Prix par tube de 50 g (Molykote G-Rapid Plus, 21,79 € chez Comptoir des Pros).",
+        "en": "Lubricates camshafts, buckets and shims on reassembly after a valve clearance adjustment (workshop). Price per 50 g tube (Molykote G-Rapid Plus, EUR 21.79 at Comptoir des Pros)."
+      },
+      "prix": {
+        "min": 18.23,
+        "moy": 21.79,
+        "max": 21.79,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-cdp-molykote-g-rapid"
+        ]
       }
     },
     {
@@ -2283,15 +2371,41 @@
         "fr": "Nettoyant pour freins",
         "en": "Brake cleaner"
       },
-      "categorie": "freins",
+      "categorie": "produit",
       "type": "consommable",
       "quantite_par_moto": {
         "valeur": 1,
         "unite": "piece"
       },
-      "references": [],
+      "references": [
+        {
+          "marque": "Motul",
+          "ref": "P2 Brake Clean (aérosol 400 mL)",
+          "origine": false,
+          "confiance": "une_source",
+          "sources": [
+            "src-lb-motul-p2"
+          ]
+        }
+      ],
       "specification": {
-        "fr": "Dégraissant sans résidu pour nettoyer étriers et pistons lors du changement de plaquettes ; ne pas en mettre sur les caoutchoucs ni sur les plaquettes neuves. Aucun produit cité par Aprilia ; prix non relevé."
+        "fr": "Dégraissant sans résidu pour nettoyer étriers, pistons et disques lors du changement de plaquettes ou de disques ; ne pas en mettre sur les caoutchoucs ni sur les plaquettes neuves. Aucun produit cité par Aprilia. Prix par aérosol de 400 mL (Motul P2 Brake Clean, 9,70 €).",
+        "en": "Residue-free degreaser to clean calipers, pistons and discs when changing pads or discs; keep it off rubber seals and new pads. No product named by Aprilia. Price per 400 mL aerosol (Motul P2 Brake Clean, EUR 9.70)."
+      },
+      "prix": {
+        "min": 3.9,
+        "moy": 9.7,
+        "max": 17.99,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-lb-motul-p2"
+        ]
       }
     },
     {
@@ -2300,11 +2414,11 @@
         "fr": "Shampooing de lavage",
         "en": "Wash shampoo"
       },
-      "categorie": "nettoyage",
+      "categorie": "produit",
       "type": "consommable",
       "quantite_par_moto": {
-        "valeur": 1,
-        "unite": "piece"
+        "valeur": 0.2,
+        "unite": "L"
       },
       "references": [
         {
@@ -2315,10 +2429,377 @@
           "sources": [
             "src-manuel-proprietaire#p170"
           ]
+        },
+        {
+          "marque": "Motul",
+          "ref": "E2 Moto Wash (1 L)",
+          "origine": false,
+          "note": {
+            "fr": "Nettoyant moto prêt à l'emploi (pulvériser, laisser agir, rincer) : alternative au shampooing auto dilué que décrit le manuel."
+          },
+          "confiance": "une_source",
+          "sources": [
+            "src-lb-motul-e2"
+          ]
         }
       ],
       "specification": {
-        "fr": "Shampooing auto dilué à 2 à 4 % dans l'eau, jet basse pression et éponge, jamais en plein soleil ni carrosserie chaude. Pas d'alcool ni de solvant sur les caoutchoucs et la selle. Couvrir prises d'air et sortie d'échappement. Prix non relevé."
+        "fr": "Shampooing auto dilué à 2 à 4 % dans l'eau (un seau de 10 L : 0,2 à 0,4 L), jet basse pression et éponge douce, jamais en plein soleil ni carrosserie chaude. Pas d'alcool ni de solvant sur les caoutchoucs et la selle. Couvrir prises d'air et sortie d'échappement. Prix au litre (Motul E2 Moto Wash 1 L, 14,00 €) ; quantité par lavage : environ 0,2 L, estimation.",
+        "en": "Car shampoo diluted to 2 to 4% in water (a 10 L bucket: 0.2 to 0.4 L), low-pressure hose and soft sponge, never in direct sun or on hot bodywork. No alcohol or solvent on rubber and the seat. Cover the air intakes and exhaust outlet. Price per litre (Motul E2 Moto Wash 1 L, EUR 14.00); about 0.2 L per wash, estimate."
+      },
+      "prix": {
+        "min": 5.2,
+        "moy": 14.0,
+        "max": 17.99,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "L"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-lb-motul-e2"
+        ]
+      }
+    },
+    {
+      "id": "cs-degraissant",
+      "nom": {
+        "fr": "Dégraissant mécanique (aérosol)",
+        "en": "Mechanical degreaser (aerosol)"
+      },
+      "categorie": "produit",
+      "type": "consommable",
+      "references": [
+        {
+          "marque": "Bardahl",
+          "ref": "Dégraissant mécanique multifonctions (aérosol 400 mL)",
+          "origine": false,
+          "confiance": "une_source",
+          "sources": [
+            "src-lb-degraissant-bardahl"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "Nettoyage des parties extérieures du moteur avant lavage (le manuel prescrit un détergent dégraissant, des pinceaux et de vieux chiffons). Jamais sur les plaquettes, les disques, les pneus ni la selle ; sur l'aluminium anodisé ou peint, savon neutre et eau. Prix par aérosol de 400 mL (Bardahl, 9,00 €).",
+        "en": "Cleans the outside of the engine before washing (the manual calls for a degreasing detergent, brushes and old rags). Never on pads, discs, tyres or the seat; on anodised or painted aluminium, use neutral soap and water. Price per 400 mL aerosol (Bardahl, EUR 9.00)."
+      },
+      "prix": {
+        "min": 5.92,
+        "moy": 9.0,
+        "max": 18.99,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-lb-degraissant-bardahl"
+        ]
+      }
+    },
+    {
+      "id": "cs-degrippant",
+      "nom": {
+        "fr": "Lubrifiant dégrippant (câbles, serrure)",
+        "en": "Penetrating lubricant (cables, lock)"
+      },
+      "categorie": "produit",
+      "type": "consommable",
+      "references": [
+        {
+          "marque": "Motul",
+          "ref": "P4 E.Z. Lube (aérosol 400 mL)",
+          "origine": false,
+          "note": {
+            "fr": "La fiche du produit cite la lubrification des câbles."
+          },
+          "confiance": "une_source",
+          "sources": [
+            "src-lb-motul-p4"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "Lubrification du câble d'embrayage et du contacteur à clé après lavage, comme le demande le manuel (qui ne précise pas le produit). Quelques pulvérisations, essuyer l'excédent ; jamais sur les freins ni les pneus. Prix par aérosol de 400 mL (Motul P4, 6,80 €).",
+        "en": "Lubricates the clutch cable and ignition lock after washing, as the manual asks (it does not name a product). A few sprays, wipe off the excess; never on brakes or tyres. Price per 400 mL aerosol (Motul P4, EUR 6.80)."
+      },
+      "prix": {
+        "min": 6.8,
+        "moy": 6.8,
+        "max": 11.2,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-lb-motul-p4"
+        ]
+      }
+    },
+    {
+      "id": "cs-stabilisateur-essence",
+      "nom": {
+        "fr": "Stabilisateur d'essence",
+        "en": "Fuel stabiliser"
+      },
+      "categorie": "produit",
+      "type": "consommable",
+      "references": [
+        {
+          "marque": "Motul",
+          "ref": "Fuel Stabilizer (flacon de 100 mL selon la fiche)",
+          "origine": false,
+          "note": {
+            "fr": "L'adresse de la page indique 250 mL, la fiche 100 mL."
+          },
+          "confiance": "une_source",
+          "sources": [
+            "src-lb-stabilisateur-motul"
+          ]
+        },
+        {
+          "marque": "Ipone",
+          "ref": "Stabilisateur d'essence (250 mL)",
+          "origine": false,
+          "note": {
+            "fr": "Relevé à 10,50 € le flacon de 250 mL."
+          },
+          "confiance": "une_source",
+          "sources": [
+            "src-lb-stabilisateur-motul"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "Ralentit le vieillissement de l'essence (E10 surtout) pendant une immobilisation de plusieurs mois : conseil de guides d'entretien, le manuel ne donnant aucune consigne carburant pour le stockage. Dosage propre à chaque produit : lire l'étiquette. Verser avant de faire le plein, puis rouler quelques kilomètres pour le faire circuler. Prix par flacon de 100 mL (Motul, 9,20 €).",
+        "en": "Slows petrol ageing (E10 especially) during a lay-up of several months: advice from maintenance guides, the manual gives no fuel instruction for storage. Dose differs by product: read the label. Pour in before filling up, then ride a few kilometres to circulate it. Price per 100 mL bottle (Motul, EUR 9.20)."
+      },
+      "prix": {
+        "min": 8.5,
+        "moy": 9.2,
+        "max": 22.2,
+        "devise": "EUR",
+        "par": {
+          "valeur": 100,
+          "unite": "mL"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-lb-stabilisateur-motul"
+        ]
+      }
+    },
+    {
+      "id": "cs-gants-nitrile",
+      "nom": {
+        "fr": "Gants nitrile jetables",
+        "en": "Disposable nitrile gloves"
+      },
+      "categorie": "fourniture",
+      "type": "consommable",
+      "references": [
+        {
+          "marque": "Générique",
+          "ref": "Boîte de 100 gants nitrile noirs (tailles S à XL)",
+          "origine": false,
+          "confiance": "une_source",
+          "sources": [
+            "src-lb-gants-nitrile"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "Le manuel conseille des gants imperméables pour l'huile moteur (nocive pour la peau à la longue) et des gants pour le liquide de refroidissement ; ils protègent aussi du liquide de frein, des nettoyants et de la graisse. Quantité comptée en gants : 2 = une paire ; prévoir deux paires pour une vidange (vidange, puis remplissage propre). Prix par boîte de 100 gants (9,90 €).",
+        "en": "The manual advises impermeable gloves for engine oil (harmful to skin over time) and gloves for coolant; they also protect from brake fluid, cleaners and grease. Counted in gloves: 2 = one pair; plan two pairs for an oil change (draining, then clean refilling). Price per box of 100 gloves (EUR 9.90)."
+      },
+      "prix": {
+        "min": 9.9,
+        "moy": 9.9,
+        "max": 33.0,
+        "devise": "EUR",
+        "par": {
+          "valeur": 100,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-lb-gants-nitrile"
+        ]
+      }
+    },
+    {
+      "id": "cs-essuie-mains",
+      "nom": {
+        "fr": "Essuie-tout d'atelier (papier)",
+        "en": "Workshop paper towel"
+      },
+      "categorie": "fourniture",
+      "type": "consommable",
+      "references": [
+        {
+          "marque": "Générique",
+          "ref": "Bobines essuie-mains blanc 1 000 feuilles 20 × 25 cm (lot de 2)",
+          "origine": false,
+          "note": {
+            "fr": "En rupture le 16/10/2026 ; en stock : 2 bobines de 800 feuilles à 20,50 €."
+          },
+          "confiance": "une_source",
+          "sources": [
+            "src-lb-essuie-mains"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "Papier jetable pour essuyer la jauge d'huile, les mains, une goutte de liquide ou un outil. Quantité comptée en feuilles de 20 × 25 cm. Prix par lot de 2 bobines de 1 000 feuilles (15,50 €).",
+        "en": "Disposable paper to wipe the dipstick, hands, a drop of fluid or a tool. Counted in 20 x 25 cm sheets. Price per pack of 2 rolls of 1,000 sheets (EUR 15.50)."
+      },
+      "prix": {
+        "min": 15.5,
+        "moy": 15.5,
+        "max": 49.6,
+        "devise": "EUR",
+        "par": {
+          "valeur": 2000,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-lb-essuie-mains"
+        ]
+      }
+    },
+    {
+      "id": "cs-chiffons",
+      "nom": {
+        "fr": "Chiffons d'atelier en coton (vrac)",
+        "en": "Cotton workshop rags (bulk)"
+      },
+      "categorie": "fourniture",
+      "type": "consommable",
+      "references": [
+        {
+          "marque": "Oxford",
+          "ref": "Chiffons multiusages (pack de 1 kg)",
+          "origine": false,
+          "confiance": "une_source",
+          "sources": [
+            "src-lb-chiffons-oxford"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "Chiffons absorbants pour l'huile et le liquide de refroidissement, pour protéger la peinture autour des bocaux de frein (le manuel demande un chiffon propre) et pour essuyer la chaîne. À jeter souillés, en sac fermé. Quantité en grammes (100 g ≈ 3 chiffons, estimation). Prix au kilo : pack Oxford de 1 kg (15,60 €) ; 500 g 9,60 € (19,20 €/kg) ; 10 kg 58,00 € (5,80 €/kg).",
+        "en": "Absorbent rags for oil and coolant, to protect paint around the brake reservoirs (the manual asks for a clean cloth) and to wipe the chain. Throw away soiled ones in a closed bag. Quantity in grams (100 g = about 3 rags, estimate). Price per kilo: Oxford 1 kg pack (EUR 15.60); 500 g EUR 9.60 (EUR 19.20/kg); 10 kg EUR 58.00 (EUR 5.80/kg)."
+      },
+      "prix": {
+        "min": 5.8,
+        "moy": 15.6,
+        "max": 19.2,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "kg"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-lb-chiffons-oxford"
+        ]
+      }
+    },
+    {
+      "id": "cs-colliers",
+      "nom": {
+        "fr": "Colliers de serrage plastique (assortiment)",
+        "en": "Plastic cable ties (assortment)"
+      },
+      "categorie": "fourniture",
+      "type": "consommable",
+      "references": [
+        {
+          "marque": "DIALL",
+          "ref": "Assortiment de 500 colliers de serrage",
+          "origine": false,
+          "confiance": "une_source",
+          "sources": [
+            "src-castorama-colliers"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "Remplacer chaque collier coupé au démontage (faisceaux, régulateur) ; attacher un étrier déposé au lieu de le laisser pendre par sa durite ; fixer le sac de protection du silencieux. Le manuel d'atelier fixe le faisceau avec des colliers noirs de 160 × 2,5 mm et 290 × 4 mm. Prix par assortiment de 500 colliers (Castorama, 16,50 €).",
+        "en": "Replace every tie cut during dismantling (harnesses, regulator); tie up a removed caliper instead of letting it hang on its hose; secure the exhaust protection bag. The workshop manual routes the harness with black 160 x 2.5 mm and 290 x 4 mm ties. Price per assortment of 500 ties (Castorama, EUR 16.50)."
+      },
+      "prix": {
+        "min": 16.5,
+        "moy": 16.5,
+        "max": 24.4,
+        "devise": "EUR",
+        "par": {
+          "valeur": 500,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-castorama-colliers"
+        ]
+      }
+    },
+    {
+      "id": "cs-sacs-plastique",
+      "nom": {
+        "fr": "Sacs plastique (protection et déchets)",
+        "en": "Plastic bags (protection and waste)"
+      },
+      "categorie": "fourniture",
+      "type": "consommable",
+      "references": [
+        {
+          "marque": "Générique",
+          "ref": "Sacs plastique solides (type sac congélation ou sac poubelle)",
+          "origine": false,
+          "confiance": "ok",
+          "sources": [
+            "src-manuel-proprietaire#p169",
+            "src-manuel-proprietaire#p171"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "Sac attaché sur la sortie du silencieux pendant l'hivernage, sacs pour couvrir prises d'air et échappement au lavage (manuel) ; sac fermé pour le filtre à huile usagé et les chiffons souillés, à rapporter en déchetterie. Prix non relevé.",
+        "en": "Bag tied over the silencer outlet during winter storage, bags to cover the air intakes and exhaust when washing (manual); closed bag for the used oil filter and soiled rags, to take to a recycling centre. Price not recorded."
+      }
+    },
+    {
+      "id": "cs-ruban-adhesif",
+      "nom": {
+        "fr": "Ruban adhésif de masquage",
+        "en": "Masking tape"
+      },
+      "categorie": "fourniture",
+      "type": "consommable",
+      "references": [
+        {
+          "marque": "Générique",
+          "ref": "Ruban de masquage papier (largeur 25 à 50 mm)",
+          "origine": false
+        }
+      ],
+      "specification": {
+        "fr": "Repères au mur pour le réglage du phare, repérage d'une pièce au démontage (sonde lambda droite, connecteur), mot « sac sur l'échappement » sur le guidon pendant l'hivernage. Se retire sans trace. Prix non relevé.",
+        "en": "Marks on the wall for headlight aim, labelling a part when dismantling (right lambda sensor, connector), an 'exhaust bag fitted' reminder on the handlebar during storage. Peels off cleanly. Price not recorded."
       }
     }
   ]

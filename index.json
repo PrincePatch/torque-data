@@ -1,8 +1,8 @@
 {
   "version_schema": 1,
   "maj": "2026-10-16",
-  "revision": 4,
-  "empreinte": "f57852f276d417a6f96a737b3bc394aeb581b13c52dfad3d15a08a56d62e39b0",
+  "revision": 7,
+  "empreinte": "2669215b9a6e83955bfc0d95dd21c8a210644ef0361fc4916d36d2e409e57074",
   "commun": [
     "commun/pictos/abs-avant.svg",
     "commun/pictos/abs.svg",
@@ -77,6 +77,7 @@
         "schemas/tableau-de-bord.svg",
         "schemas/vidange.svg",
         "sources.json",
+        "visserie.json",
         "voyants.json"
       ]
     }

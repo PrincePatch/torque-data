@@ -10,6 +10,7 @@
       },
       "categorie": "moteur",
       "type": "remplacer",
+      "famille": "entretien",
       "intervalle": {
         "km": 10000,
         "mois": 12,
@@ -61,13 +62,63 @@
       ],
       "outils": [
         "ou-bequille-arriere",
+        "ou-diabolos-m6",
         "ou-cle-allen-4",
         "ou-douille-17",
         "ou-cle-filtre-huile",
         "ou-jeu-douilles",
-        "ou-cle-dynamometrique-5-25",
-        "ou-bac-vidange",
-        "ou-entonnoir"
+        "ou-cle-dynamometrique-5-25"
+      ],
+      "materiel": [
+        {
+          "id": "ou-bac-vidange"
+        },
+        {
+          "id": "ou-entonnoir"
+        },
+        {
+          "id": "ou-bidon-huile-usagee"
+        },
+        {
+          "id": "ou-tapis-protection"
+        },
+        {
+          "id": "ou-lampe-frontale"
+        },
+        {
+          "id": "ou-bac-magnetique"
+        },
+        {
+          "id": "ou-lunettes-protection"
+        },
+        {
+          "id": "cs-gants-nitrile",
+          "quantite": {
+            "valeur": 4,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "cs-chiffons",
+          "quantite": {
+            "valeur": 100,
+            "unite": "g"
+          }
+        },
+        {
+          "id": "cs-essuie-mains",
+          "quantite": {
+            "valeur": 10,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "cs-sacs-plastique",
+          "quantite": {
+            "valeur": 1,
+            "unite": "piece"
+          }
+        }
       ],
       "procedure": "pr-vidange-huile-filtre",
       "composants": [
@@ -76,9 +127,15 @@
         "co-jauge-huile"
       ],
       "duree_diy_min": 60,
+      "duree_debutant_min": 120,
       "temps_atelier_h": 0.5,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Moteur chaud : rouler une quinzaine de kilomètres juste avant (jamais chauffer au ralenti à l'arrêt), puis laisser refroidir l'échappement quelques minutes avant de passer la main derrière les collecteurs. Moto sur béquille d'atelier arrière, sur sol plat et dur, tapis ou carton dessous. Gants nitrile et lunettes : l'huile sort chaude et d'un coup. Contrôle final du niveau moto droite sur ses deux roues (un aide la tient), jamais sur la béquille latérale, jauge posée sans être vissée. Huile usagée (bidon fermé) et filtre (sac fermé) à rapporter en déchetterie.",
+        "en": "Warm engine: ride about 15 km just before (never warm it up idling at a standstill), then let the exhaust cool for a few minutes before reaching behind the headers. Bike on a rear paddock stand, on flat hard ground, mat or cardboard underneath. Nitrile gloves and goggles: the oil comes out hot and all at once. Final level check with the bike upright on both wheels (a helper holds it), never on the side stand, dipstick resting without screwing it in. Take used oil (closed container) and filter (closed bag) to a recycling centre."
+      },
       "difficulte": 2,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -125,6 +182,7 @@
       },
       "categorie": "admission",
       "type": "controler",
+      "famille": "entretien",
       "intervalle": {
         "km": 20000,
         "decalage_km": 10000,
@@ -154,9 +212,46 @@
       "pieces": [],
       "consommables": [],
       "outils": [
+        "ou-jeu-embouts-allen",
+        "ou-jeu-douilles",
         "ou-tournevis-cruciforme",
-        "ou-tournevis-dynamometrique-1-5",
-        "ou-pince-colliers"
+        "ou-pince-colliers",
+        "ou-tournevis-dynamometrique-1-5"
+      ],
+      "materiel": [
+        {
+          "id": "ou-tapis-protection"
+        },
+        {
+          "id": "ou-chiffons-microfibre",
+          "quantite": {
+            "valeur": 2,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "ou-aimant-telescopique"
+        },
+        {
+          "id": "ou-lampe-frontale"
+        },
+        {
+          "id": "ou-bac-magnetique"
+        },
+        {
+          "id": "cs-gants-nitrile",
+          "quantite": {
+            "valeur": 2,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "cs-essuie-mains",
+          "quantite": {
+            "valeur": 5,
+            "unite": "piece"
+          }
+        }
       ],
       "procedure": "pr-filtre-air",
       "composants": [
@@ -165,9 +260,15 @@
         "co-filtre-air"
       ],
       "duree_diy_min": 75,
+      "duree_debutant_min": 150,
       "temps_atelier_h": 0.5,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Moteur froid, contact coupé. Réservoir presque vide (rouler jusqu'à la réserve) : il faut le déposer. Local ventilé, ni flamme ni étincelle (vapeurs d'essence). Moto stable sur sol plat (béquille latérale ou d'atelier arrière). Réservoir posé bouchon fermé sur un carton ou un tapis. Boîte à air ouverte : rien ne doit tomber dedans, couvrir l'ouverture d'un chiffon propre en cas de pause. Vis du couvercle dans le plastique : 1 à 1,2 Nm seulement.",
+        "en": "Cold engine, ignition off. Tank nearly empty (ride down to reserve): it has to come off. Ventilated area, no flame or spark (petrol vapour). Bike stable on flat ground (side stand or rear paddock stand). Tank laid cap closed on cardboard or a mat. Airbox open: nothing must fall in; cover the opening with a clean cloth if you take a break. Cover screws go into plastic: 1 to 1.2 Nm only."
+      },
       "difficulte": 3,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -200,6 +301,7 @@
       },
       "categorie": "admission",
       "type": "remplacer",
+      "famille": "entretien",
       "intervalle": {
         "km": 20000,
         "severe": {
@@ -231,9 +333,46 @@
       ],
       "consommables": [],
       "outils": [
+        "ou-jeu-embouts-allen",
+        "ou-jeu-douilles",
         "ou-tournevis-cruciforme",
-        "ou-tournevis-dynamometrique-1-5",
-        "ou-pince-colliers"
+        "ou-pince-colliers",
+        "ou-tournevis-dynamometrique-1-5"
+      ],
+      "materiel": [
+        {
+          "id": "ou-tapis-protection"
+        },
+        {
+          "id": "ou-chiffons-microfibre",
+          "quantite": {
+            "valeur": 2,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "ou-aimant-telescopique"
+        },
+        {
+          "id": "ou-lampe-frontale"
+        },
+        {
+          "id": "ou-bac-magnetique"
+        },
+        {
+          "id": "cs-gants-nitrile",
+          "quantite": {
+            "valeur": 2,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "cs-essuie-mains",
+          "quantite": {
+            "valeur": 5,
+            "unite": "piece"
+          }
+        }
       ],
       "procedure": "pr-filtre-air",
       "composants": [
@@ -243,9 +382,15 @@
         "co-capteur-temperature-admission"
       ],
       "duree_diy_min": 75,
+      "duree_debutant_min": 150,
       "temps_atelier_h": 0.5,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Moteur froid, contact coupé. Réservoir presque vide (rouler jusqu'à la réserve) : il faut le déposer. Local ventilé, ni flamme ni étincelle (vapeurs d'essence). Moto stable sur sol plat (béquille latérale ou d'atelier arrière). Réservoir posé bouchon fermé sur un carton ou un tapis. Boîte à air ouverte : rien ne doit tomber dedans ; vérifier que le filtre neuf porte sur tout son pourtour avant de refermer. Vis du couvercle dans le plastique : 1 à 1,2 Nm seulement.",
+        "en": "Cold engine, ignition off. Tank nearly empty (ride down to reserve): it has to come off. Ventilated area, no flame or spark (petrol vapour). Bike stable on flat ground (side stand or rear paddock stand). Tank laid cap closed on cardboard or a mat. Airbox open: nothing must fall in; check the new filter seats all the way round before closing. Cover screws go into plastic: 1 to 1.2 Nm only."
+      },
       "difficulte": 3,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -278,6 +423,7 @@
       },
       "categorie": "allumage",
       "type": "remplacer",
+      "famille": "entretien",
       "intervalle": {
         "km": 20000,
         "severe": {
@@ -309,11 +455,52 @@
       ],
       "consommables": [],
       "outils": [
-        "ou-tournevis-cruciforme",
-        "ou-tournevis-dynamometrique-1-5",
-        "ou-pince-colliers",
+        "ou-jeu-embouts-allen",
+        "ou-jeu-douilles",
         "ou-cle-bougie",
+        "ou-tournevis-cruciforme",
+        "ou-pince-colliers",
+        "ou-cales-epaisseur",
+        "ou-tournevis-dynamometrique-1-5",
         "ou-cle-dynamometrique-5-25"
+      ],
+      "materiel": [
+        {
+          "id": "ou-tapis-protection"
+        },
+        {
+          "id": "ou-chiffons-microfibre",
+          "quantite": {
+            "valeur": 2,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "ou-pinceau"
+        },
+        {
+          "id": "ou-aimant-telescopique"
+        },
+        {
+          "id": "ou-lampe-frontale"
+        },
+        {
+          "id": "ou-bac-magnetique"
+        },
+        {
+          "id": "cs-gants-nitrile",
+          "quantite": {
+            "valeur": 2,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "cs-essuie-mains",
+          "quantite": {
+            "valeur": 5,
+            "unite": "piece"
+          }
+        }
       ],
       "procedure": "pr-bougies",
       "composants": [
@@ -323,10 +510,16 @@
         "co-bobines",
         "co-bougies"
       ],
-      "duree_diy_min": 120,
+      "duree_diy_min": 150,
+      "duree_debutant_min": 270,
       "temps_atelier_h": 0.5,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Moteur complètement froid : culasse en aluminium, ne jamais dévisser une bougie moteur chaud (attendre plusieurs heures après avoir roulé). Contact coupé. Réservoir presque vide (rouler jusqu'à la réserve), local ventilé, ni flamme ni étincelle. Moto stable sur sol plat, avec de la place pour poser réservoir et boîte à air sur un carton. Conduits d'admission bouchés d'un chiffon propre dès qu'ils sont à nu ; puits de bougies dépoussiérés avant de dévisser ; bougies neuves vissées à la main jusqu'en butée avant le serrage à 12 Nm.",
+        "en": "Engine fully cold: aluminium head, never remove a spark plug from a hot engine (wait several hours after riding). Ignition off. Tank nearly empty (ride to reserve), ventilated area, no flame or spark. Bike stable on flat ground, with room to lay the tank and airbox on cardboard. Intake ducts plugged with a clean cloth as soon as they are exposed; plug wells dusted out before unscrewing; new plugs screwed in by hand to the stop before torquing to 12 Nm."
+      },
       "difficulte": 3,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -361,6 +554,7 @@
       },
       "categorie": "moteur",
       "type": "regler",
+      "famille": "entretien",
       "intervalle": {
         "km": 20000,
         "severe": {
@@ -390,20 +584,75 @@
           "quantite": 1
         }
       ],
-      "consommables": [],
+      "consommables": [
+        {
+          "id": "cs-pate-montage",
+          "quantite": {
+            "valeur": 0.1,
+            "unite": "piece"
+          },
+          "note": {
+            "fr": "Quelques grammes sur poussoirs et cames au remontage : estimation (un dixième du tube de 50 g)."
+          }
+        }
+      ],
       "outils": [
+        "ou-bequille-arriere",
+        "ou-diabolos-m6",
+        "ou-jeu-embouts-allen",
+        "ou-cle-allen-2-5",
+        "ou-cle-allen-4",
+        "ou-jeu-douilles",
+        "ou-douille-8",
+        "ou-jeu-embouts-torx",
+        "ou-embout-torx-t40",
         "ou-tournevis-cruciforme",
-        "ou-tournevis-dynamometrique-1-5",
         "ou-pince-colliers",
+        "ou-pince-chasse-goupille",
         "ou-cales-epaisseur",
         "ou-micrometre",
-        "ou-embout-torx-t40",
+        "ou-tournevis-dynamometrique-1-5",
         "ou-cle-dynamometrique-5-25",
-        "ou-sp-021044y",
-        "ou-sp-021043y",
         "ou-sp-020851y",
+        "ou-sp-021043y",
+        "ou-sp-021044y",
         "ou-sp-669n5",
         "ou-sp-736-10-10-1"
+      ],
+      "materiel": [
+        {
+          "id": "ou-tapis-protection"
+        },
+        {
+          "id": "ou-chiffons-microfibre",
+          "quantite": {
+            "valeur": 4,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "ou-aimant-telescopique"
+        },
+        {
+          "id": "ou-lampe-frontale"
+        },
+        {
+          "id": "ou-bac-magnetique"
+        },
+        {
+          "id": "cs-gants-nitrile",
+          "quantite": {
+            "valeur": 4,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "cs-essuie-mains",
+          "quantite": {
+            "valeur": 10,
+            "unite": "piece"
+          }
+        }
       ],
       "procedure": "pr-jeu-soupapes",
       "composants": [
@@ -412,10 +661,16 @@
         "co-canister",
         "co-couvre-culasse"
       ],
-      "duree_diy_min": 240,
+      "duree_diy_min": 300,
+      "duree_debutant_min": 480,
       "temps_atelier_h": 3.0,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "une_source",
+      "conditions": {
+        "fr": "Opération d'atelier : les outils spéciaux de calage Aprilia sont indispensables, une erreur de calage détruit le moteur. Moteur complètement froid (idéalement resté une nuit à l'arrêt). Moto sur béquille d'atelier arrière, sol plat, local propre, ventilé (dépose du réservoir) et bien éclairé. Chaque ouverture du moteur couverte d'un chiffon propre ; ne jamais lancer le démarreur avec une pige en place. Pastilles calibrées choisies selon les jeux mesurés.",
+        "en": "Workshop job: Aprilia's special timing tools are essential, a timing mistake destroys the engine. Engine fully cold (ideally left overnight). Bike on a rear paddock stand, flat ground, clean, ventilated (tank removal) and well-lit room. Every engine opening covered with a clean cloth; never crank the starter with a locking pin in place. Shims chosen according to the measured clearances."
+      },
       "difficulte": 5,
       "faisable_soi_meme": false,
       "outillage_special": true,
@@ -452,6 +707,7 @@
       },
       "categorie": "transmission",
       "type": "lubrifier",
+      "famille": "controle",
       "intervalle": {
         "km": 1000,
         "mois": 12,
@@ -504,12 +760,37 @@
       "outils": [
         "ou-bequille-arriere",
         "ou-diabolos-m6",
-        "ou-brosse-chaine",
+        "ou-jeu-cles-plates",
+        "ou-douille-26",
+        "ou-jeu-douilles",
         "ou-regle-graduee",
         "ou-jauge-usure-chaine",
-        "ou-douille-26",
-        "ou-jeu-cles-plates",
         "ou-cle-dynamometrique-40-210"
+      ],
+      "materiel": [
+        {
+          "id": "ou-brosse-chaine"
+        },
+        {
+          "id": "ou-tapis-protection"
+        },
+        {
+          "id": "ou-lunettes-protection"
+        },
+        {
+          "id": "cs-gants-nitrile",
+          "quantite": {
+            "valeur": 2,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "cs-chiffons",
+          "quantite": {
+            "valeur": 100,
+            "unite": "g"
+          }
+        }
       ],
       "procedure": "pr-chaine-entretien",
       "composants": [
@@ -528,9 +809,15 @@
         "me-etat-chaine"
       ],
       "duree_diy_min": 30,
+      "duree_debutant_min": 60,
       "temps_atelier_h": 0.2,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Moteur coupé, boîte au point mort : la roue se tourne à la main uniquement, doigts loin de la couronne. Flèche mesurée moto sur la béquille latérale, sur sol plat ; nettoyage, réglage et graissage moto sur béquille d'atelier arrière. Carton ou tapis sous la chaîne, chiffon tenu derrière le brin pour protéger pneu et disque arrière des projections. Jamais de jet haute pression ni de vapeur. Après graissage, laisser agir le temps indiqué sur l'aérosol avant de rouler (idéalement la veille).",
+        "en": "Engine off, gearbox in neutral: turn the wheel by hand only, fingers away from the sprocket. Measure slack with the bike on the side stand on flat ground; clean, adjust and lubricate with the bike on a rear paddock stand. Cardboard or mat under the chain, a rag held behind the run to shield the rear tyre and disc from spray. Never a pressure washer or steam. After lubricating, wait the time shown on the can before riding (ideally the evening before)."
+      },
       "difficulte": 2,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -572,6 +859,7 @@
       },
       "categorie": "transmission",
       "type": "lubrifier",
+      "famille": "entretien",
       "intervalle": {
         "km": 10000,
         "mois": 12,
@@ -600,10 +888,46 @@
         "fr": "Câble qui casse en roulant (plus d'embrayage), embrayage qui patine et s'use. Le manuel impose de remplacer un câble effiloché."
       },
       "pieces": [],
-      "consommables": [],
+      "consommables": [
+        {
+          "id": "cs-graisse",
+          "quantite": {
+            "valeur": 0.01,
+            "unite": "piece"
+          },
+          "note": {
+            "fr": "Articulation du levier et embout du câble : environ 4 g, estimation."
+          }
+        },
+        {
+          "id": "cs-degrippant",
+          "quantite": {
+            "valeur": 0.02,
+            "unite": "piece"
+          },
+          "note": {
+            "fr": "Extrémité du câble côté moteur : quelques pulvérisations, estimation (produit non précisé par le manuel)."
+          }
+        }
+      ],
       "outils": [
-        "ou-jeu-cles-plates",
-        "ou-jeu-douilles"
+        "ou-jeu-cles-plates"
+      ],
+      "materiel": [
+        {
+          "id": "cs-gants-nitrile",
+          "quantite": {
+            "valeur": 2,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "cs-essuie-mains",
+          "quantite": {
+            "valeur": 5,
+            "unite": "piece"
+          }
+        }
       ],
       "procedure": "pr-cable-embrayage",
       "composants": [
@@ -613,9 +937,15 @@
         "co-tendeur-cable-embrayage"
       ],
       "duree_diy_min": 15,
+      "duree_debutant_min": 30,
       "temps_atelier_h": 0.2,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Moteur coupé et froid : l'extrémité du câble est côté droit du moteur, près de l'échappement. Moto stable sur sa béquille, sol plat. De préférence après un lavage, câble et levier secs. Essuyer tout excédent de lubrifiant : rien sur le pneu ni sur les freins.",
+        "en": "Engine off and cold: the cable end is on the right side of the engine, near the exhaust. Bike stable on its stand, flat ground. Ideally after a wash, with cable and lever dry. Wipe off any excess lubricant: nothing on the tyre or brakes."
+      },
       "difficulte": 1,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -653,6 +983,7 @@
       },
       "categorie": "transmission",
       "type": "controler",
+      "famille": "entretien",
       "intervalle": {
         "km": 10000,
         "severe": {
@@ -680,7 +1011,29 @@
       "consommables": [],
       "outils": [
         "ou-bequille-arriere",
-        "ou-jauge-usure-chaine"
+        "ou-diabolos-m6",
+        "ou-jeu-douilles",
+        "ou-jauge-usure-chaine",
+        "ou-cle-dynamometrique"
+      ],
+      "materiel": [
+        {
+          "id": "ou-lampe-frontale"
+        },
+        {
+          "id": "cs-gants-nitrile",
+          "quantite": {
+            "valeur": 2,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "cs-chiffons",
+          "quantite": {
+            "valeur": 50,
+            "unite": "g"
+          }
+        }
       ],
       "procedure": "pr-controle-transmission",
       "composants": [
@@ -691,9 +1044,15 @@
       ],
       "mesure": "me-etat-chaine",
       "duree_diy_min": 15,
+      "duree_debutant_min": 30,
       "temps_atelier_h": 0.2,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Moteur coupé, boîte au point mort, roue arrière décollée sur béquille d'atelier et tournée à la main uniquement. Sol plat. Chaîne propre (après nettoyage) pour bien voir les dents, le patin et le guide-chaîne ; lampe pour le patin, à l'avant du bras oscillant.",
+        "en": "Engine off, gearbox in neutral, rear wheel off the ground on a paddock stand and turned by hand only. Flat ground. Clean chain (after cleaning) to see the teeth, slider and guide clearly; a torch for the slider at the front of the swingarm."
+      },
       "difficulte": 2,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -727,6 +1086,7 @@
       },
       "categorie": "suspensions",
       "type": "controler",
+      "famille": "entretien",
       "intervalle": {
         "km": 20000,
         "mois": 12,
@@ -755,14 +1115,42 @@
       },
       "pieces": [],
       "consommables": [],
-      "outils": [],
+      "outils": [
+        "ou-bequille-arriere",
+        "ou-diabolos-m6",
+        "ou-douille-15",
+        "ou-jeu-douilles",
+        "ou-douille-allen-8",
+        "ou-cle-dynamometrique",
+        "ou-cle-dynamometrique-40-210"
+      ],
+      "materiel": [
+        {
+          "id": "ou-lampe-frontale"
+        },
+        {
+          "id": "cs-chiffons",
+          "quantite": {
+            "valeur": 50,
+            "unite": "g"
+          }
+        }
+      ],
       "procedure": "pr-controle-amortisseur-biellettes",
       "composants": [
         "co-amortisseur",
         "co-bras-oscillant"
       ],
+      "duree_diy_min": 30,
+      "duree_debutant_min": 60,
       "temps_atelier_h": 0.5,
+      "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Essai de compression moto sur sa béquille latérale ; recherche de jeu moto sur béquille d'atelier arrière, roue décollée, sur sol plat. Corps d'amortisseur essuyé avant l'inspection pour repérer une fuite. Fixation basse de l'amortisseur accessible seulement roue arrière et cache de bras déposés (atelier).",
+        "en": "Compression test with the bike on its side stand; play check on a rear paddock stand, wheel off the ground, on flat ground. Wipe the shock body before inspecting so a leak shows. The lower shock mount is only reachable with the rear wheel and swingarm cover removed (workshop)."
+      },
       "difficulte": 3,
       "faisable_soi_meme": false,
       "outillage_special": false,
@@ -794,6 +1182,7 @@
       },
       "categorie": "controle",
       "type": "controler",
+      "famille": "entretien",
       "intervalle": {
         "km": 10000,
         "premiere_km": 1000,
@@ -821,7 +1210,16 @@
       "pieces": [],
       "consommables": [],
       "outils": [],
+      "materiel": [],
       "composants": [],
+      "duree_diy_min": 15,
+      "duree_debutant_min": 30,
+      "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
+      "conditions": {
+        "fr": "Fait par l'atelier pendant la révision : Aprilia n'en détaille pas le contenu. Demander ce qui a été vérifié et réglé (leviers, garde d'embrayage, chaîne, suspensions…).",
+        "en": "Done by the workshop during the service: Aprilia does not detail what it covers. Ask what was checked and adjusted (levers, clutch free play, chain, suspension…)."
+      },
       "faisable_soi_meme": false,
       "outillage_special": false,
       "garantie": {
@@ -841,7 +1239,8 @@
       "sources": [
         "src-manuel-proprietaire#p191",
         "src-manuel-atelier#p55"
-      ]
+      ],
+      "difficulte": 5
     },
     {
       "id": "op-controle-direction",
@@ -851,6 +1250,7 @@
       },
       "categorie": "direction",
       "type": "controler",
+      "famille": "entretien",
       "intervalle": {
         "km": 10000,
         "mois": 12,
@@ -883,8 +1283,12 @@
       "outils": [
         "ou-bequille-arriere",
         "ou-diabolos-m6",
-        "ou-bequille-avant"
+        "ou-leve-moto-colonne",
+        "ou-cle-dynamometrique",
+        "ou-cle-dynamometrique-40-210",
+        "ou-sp-ap8140190"
       ],
+      "materiel": [],
       "procedure": "pr-controle-direction",
       "composants": [
         "co-colonne-direction",
@@ -892,9 +1296,15 @@
         "co-fourche"
       ],
       "duree_diy_min": 15,
+      "duree_debutant_min": 30,
       "temps_atelier_h": 0.3,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Moto sur béquille d'atelier arrière, avant levé par la colonne de direction (pion Pit Bull n° 46 ou Woodcraft 19 mm), roue avant décollée, sol plat : le guidon doit pouvoir tourner librement d'une butée à l'autre. Contrôle du jeu moto au sol, frein avant serré. Réglage du serrage de direction : atelier uniquement (outil spécifique).",
+        "en": "Bike on a rear paddock stand, front lifted by the steering head (Pit Bull no. 46 or Woodcraft 19 mm pin), front wheel off the ground, flat ground: the bars must turn freely from lock to lock. Play check with the bike on its wheels, front brake on. Steering preload adjustment: workshop only (special tool)."
+      },
       "difficulte": 2,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -930,6 +1340,7 @@
       },
       "categorie": "roues",
       "type": "controler",
+      "famille": "entretien",
       "intervalle": {
         "km": 10000,
         "mois": 12,
@@ -962,7 +1373,26 @@
       "outils": [
         "ou-bequille-arriere",
         "ou-diabolos-m6",
-        "ou-bequille-avant"
+        "ou-leve-moto-colonne",
+        "ou-douille-26",
+        "ou-jeu-douilles",
+        "ou-douille-allen-14",
+        "ou-cle-dynamometrique-5-25",
+        "ou-cle-dynamometrique",
+        "ou-cle-dynamometrique-40-210",
+        "ou-arrache-roulement"
+      ],
+      "materiel": [
+        {
+          "id": "ou-lampe-frontale"
+        },
+        {
+          "id": "cs-chiffons",
+          "quantite": {
+            "valeur": 50,
+            "unite": "g"
+          }
+        }
       ],
       "procedure": "pr-controle-roues-roulements",
       "composants": [
@@ -971,10 +1401,16 @@
         "co-axe-roue-avant",
         "co-axe-roue-arriere"
       ],
-      "duree_diy_min": 20,
+      "duree_diy_min": 25,
+      "duree_debutant_min": 50,
       "temps_atelier_h": 0.3,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Moto sur béquille d'atelier arrière, puis avant levé par la colonne de direction : la roue contrôlée doit tourner librement, décollée du sol. Sol plat et dur. Serrages contrôlés au couple sans desserrer. Remplacement des roulements : atelier.",
+        "en": "Bike on a rear paddock stand, then front lifted by the steering head: the wheel being checked must spin freely off the ground. Flat hard ground. Torques checked without loosening. Bearing replacement: workshop."
+      },
       "difficulte": 2,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -1011,6 +1447,7 @@
       },
       "categorie": "electricite",
       "type": "diagnostic",
+      "famille": "entretien",
       "intervalle": {
         "km": 10000,
         "mois": 12,
@@ -1044,6 +1481,7 @@
         "ou-sp-020922y",
         "ou-sp-021017y"
       ],
+      "materiel": [],
       "composants": [
         "co-prise-diagnostic",
         "co-calculateur",
@@ -1052,8 +1490,16 @@
         "co-sonde-lambda",
         "co-tableau-de-bord"
       ],
+      "duree_diy_min": 25,
+      "duree_debutant_min": 25,
       "temps_atelier_h": 0.4,
+      "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Concession uniquement (outil de diagnostic Aprilia et câble OBD Euro 5). Batterie bien chargée ; contact mis, moteur à l'arrêt pendant la lecture des défauts. Durées : temps atelier estimé.",
+        "en": "Dealer only (Aprilia diagnostic tool and Euro 5 OBD cable). Battery well charged; ignition on, engine stopped while reading fault codes. Durations: estimated workshop time."
+      },
       "faisable_soi_meme": false,
       "outillage_special": true,
       "garantie": {
@@ -1079,7 +1525,8 @@
         "src-tsb-ecu-2023",
         "src-tsb-pmp4-2025",
         "src-v4forum-wartung-p4"
-      ]
+      ],
+      "difficulte": 5
     },
     {
       "id": "op-controle-freins",
@@ -1089,6 +1536,7 @@
       },
       "categorie": "freins",
       "type": "controler",
+      "famille": "entretien",
       "intervalle": {
         "a_chaque_sortie": true,
         "km": 10000,
@@ -1122,6 +1570,18 @@
       "outils": [
         "ou-micrometre"
       ],
+      "materiel": [
+        {
+          "id": "ou-lampe-frontale"
+        },
+        {
+          "id": "cs-essuie-mains",
+          "quantite": {
+            "valeur": 3,
+            "unite": "piece"
+          }
+        }
+      ],
       "procedure": "pr-controle-freins",
       "composants": [
         "co-etrier-avant",
@@ -1138,10 +1598,16 @@
         "me-epaisseur-plaquettes-avant",
         "me-epaisseur-plaquettes-arriere"
       ],
-      "duree_diy_min": 15,
+      "duree_diy_min": 20,
+      "duree_debutant_min": 40,
       "temps_atelier_h": 0.3,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Moto stable sur sa béquille, sol plat, freins froids (disques brûlants après un trajet). Bonne lumière ou lampe pour estimer la garniture des plaquettes à travers les étriers. Un frein douteux interdit de rouler.",
+        "en": "Bike stable on its stand, flat ground, brakes cold (discs are very hot after a ride). Good light or a torch to judge pad material through the calipers. A doubtful brake means no riding."
+      },
       "difficulte": 1,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -1181,6 +1647,7 @@
       },
       "categorie": "refroidissement",
       "type": "controler",
+      "famille": "entretien",
       "intervalle": {
         "km": 10000,
         "severe": {
@@ -1207,6 +1674,18 @@
       "pieces": [],
       "consommables": [],
       "outils": [],
+      "materiel": [
+        {
+          "id": "ou-lampe-frontale"
+        },
+        {
+          "id": "cs-essuie-mains",
+          "quantite": {
+            "valeur": 3,
+            "unite": "piece"
+          }
+        }
+      ],
       "procedure": "pr-controle-refroidissement",
       "composants": [
         "co-radiateur",
@@ -1215,9 +1694,15 @@
         "co-bouchon-radiateur"
       ],
       "duree_diy_min": 15,
+      "duree_debutant_min": 30,
       "temps_atelier_h": 0.3,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Moteur froid pour le niveau et toute ouverture du circuit (sous pression et brûlant à chaud). Moto droite sur ses deux roues, sol plat. Essai du ventilateur moteur chaud, à l'arrêt, dans un lieu ventilé ; en surchauffe, couper au coupe-circuit, jamais à la clé.",
+        "en": "Cold engine for the level and any opening of the circuit (pressurised and scalding when hot). Bike upright on both wheels, flat ground. Fan test with a warm engine, stationary, in a ventilated place; if it overheats, stop with the kill switch, never the key."
+      },
       "difficulte": 2,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -1251,6 +1736,7 @@
       },
       "categorie": "electricite",
       "type": "controler",
+      "famille": "controle",
       "intervalle": {
         "km": 10000,
         "mois": 12,
@@ -1280,7 +1766,11 @@
       },
       "pieces": [],
       "consommables": [],
-      "outils": [],
+      "outils": [
+        "ou-bequille-arriere",
+        "ou-diabolos-m6"
+      ],
+      "materiel": [],
       "procedure": "pr-controle-contacteurs-securite",
       "composants": [
         "co-contacteur-bequille",
@@ -1293,9 +1783,15 @@
         "co-poignee-gaz"
       ],
       "duree_diy_min": 10,
+      "duree_debutant_min": 20,
       "temps_atelier_h": 0.2,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Moto sur béquille d'atelier arrière, roue arrière décollée, sur sol plat et dégagé, personne devant ni derrière la roue. Lieu ventilé (essais moteur tournant). Boîte au point mort au départ de chaque essai.",
+        "en": "Bike on a rear paddock stand, rear wheel off the ground, on flat clear ground, nobody in front of or behind the wheel. Ventilated place (tests with the engine running). Gearbox in neutral at the start of each test."
+      },
       "difficulte": 1,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -1331,6 +1827,7 @@
       },
       "categorie": "freins",
       "type": "purger",
+      "famille": "entretien",
       "intervalle": {
         "mois": 24,
         "severe": {
@@ -1368,10 +1865,52 @@
         }
       ],
       "outils": [
-        "ou-kit-purge-frein",
-        "ou-seringue",
+        "ou-bequille-arriere",
+        "ou-diabolos-m6",
+        "ou-cle-allen-4",
+        "ou-jeu-cles-plates",
         "ou-tournevis-cruciforme",
-        "ou-cle-allen-4"
+        "ou-kit-purge-frein",
+        "ou-sp-020922y"
+      ],
+      "materiel": [
+        {
+          "id": "ou-seringue"
+        },
+        {
+          "id": "ou-tuyau-purge",
+          "quantite": {
+            "valeur": 0.5,
+            "unite": "m"
+          }
+        },
+        {
+          "id": "ou-bac-magnetique"
+        },
+        {
+          "id": "ou-lunettes-protection"
+        },
+        {
+          "id": "cs-gants-nitrile",
+          "quantite": {
+            "valeur": 4,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "cs-chiffons",
+          "quantite": {
+            "valeur": 150,
+            "unite": "g"
+          }
+        },
+        {
+          "id": "cs-essuie-mains",
+          "quantite": {
+            "valeur": 10,
+            "unite": "piece"
+          }
+        }
       ],
       "procedure": "pr-purge-liquide-frein",
       "composants": [
@@ -1385,9 +1924,15 @@
         "co-modulateur-abs"
       ],
       "duree_diy_min": 60,
+      "duree_debutant_min": 120,
       "temps_atelier_h": 0.7,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Moto droite sur béquille d'atelier arrière, sol plat, guidon tourné pour mettre le bocal avant à l'horizontale. Peinture, plastiques et tableau de bord protégés par des chiffons sous et autour des bocaux : le DOT 4 attaque la peinture, rincer à l'eau toute goutte. Gants et lunettes. Liquide neuf d'un flacon resté fermé (il absorbe l'humidité) ; temps sec de préférence. Ne jamais laisser un bocal se vider. Essai de freinage à basse vitesse avant de reprendre la route.",
+        "en": "Bike upright on a rear paddock stand, flat ground, bars turned so the front reservoir is level. Paint, plastics and dashboard protected by rags under and around the reservoirs: DOT 4 strips paint, rinse any drop with water. Gloves and goggles. New fluid from a bottle kept sealed (it absorbs moisture); dry weather preferably. Never let a reservoir run dry. Low-speed brake test before riding off."
+      },
       "difficulte": 3,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -1420,6 +1965,7 @@
       },
       "categorie": "refroidissement",
       "type": "remplacer",
+      "famille": "entretien",
       "intervalle": {
         "mois": 24,
         "severe": {
@@ -1457,14 +2003,58 @@
         }
       ],
       "outils": [
-        "ou-cle-allen-4",
+        "ou-bequille-arriere",
+        "ou-diabolos-m6",
         "ou-cle-allen-2-5",
         "ou-cle-allen-3",
-        "ou-jeu-embouts-torx",
+        "ou-cle-allen-4",
+        "ou-jeu-cles-plates",
         "ou-douille-8",
-        "ou-bac-vidange",
-        "ou-entonnoir",
+        "ou-jeu-douilles",
+        "ou-jeu-embouts-torx",
+        "ou-tournevis-cruciforme",
         "ou-pince-colliers"
+      ],
+      "materiel": [
+        {
+          "id": "ou-bac-vidange"
+        },
+        {
+          "id": "ou-entonnoir"
+        },
+        {
+          "id": "ou-tapis-protection"
+        },
+        {
+          "id": "ou-lampe-frontale"
+        },
+        {
+          "id": "ou-bac-magnetique"
+        },
+        {
+          "id": "ou-chiffons-microfibre",
+          "quantite": {
+            "valeur": 2,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "ou-lunettes-protection"
+        },
+        {
+          "id": "cs-gants-nitrile",
+          "quantite": {
+            "valeur": 4,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "cs-chiffons",
+          "quantite": {
+            "valeur": 100,
+            "unite": "g"
+          }
+        }
       ],
       "procedure": "pr-vidange-liquide-refroidissement",
       "composants": [
@@ -1474,9 +2064,15 @@
         "co-vis-vidange-refroidissement"
       ],
       "duree_diy_min": 120,
+      "duree_debutant_min": 210,
       "temps_atelier_h": 0.8,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Moteur complètement froid : jamais ouvrir le bouchon du radiateur ou du vase moteur chaud (liquide sous pression et brûlant). Moto droite sur béquille d'atelier arrière, sol plat, bac et tapis sous l'avant gauche du moteur. Gants et lunettes. Liquide toxique au goût sucré : rien à portée des enfants ni des animaux, essuyer toute flaque ; liquide usagé rapporté en déchetterie dans un bidon fermé (les bidons vides du liquide neuf conviennent), jamais mélangé à l'huile. Prévoir de laisser refroidir après l'essai moteur pour le contrôle final du niveau.",
+        "en": "Engine fully cold: never open the radiator or tank cap on a hot engine (pressurised, scalding coolant). Bike upright on a rear paddock stand, flat ground, pan and mat under the front left of the engine. Gloves and goggles. Toxic, sweet-tasting fluid: keep children and pets away, wipe up every puddle; take used coolant to a recycling centre in a closed container (the empty new-coolant bottles work), never mixed with oil. Allow cooling time after the engine run for the final level check."
+      },
       "difficulte": 3,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -1509,6 +2105,7 @@
       },
       "categorie": "suspensions",
       "type": "remplacer",
+      "famille": "entretien",
       "intervalle": {
         "km": 40000,
         "mois": 48,
@@ -1549,21 +2146,83 @@
         }
       ],
       "outils": [
-        "ou-leve-moto-colonne",
         "ou-bequille-arriere",
-        "ou-sp-020888s",
-        "ou-seringue",
+        "ou-diabolos-m6",
+        "ou-leve-moto-colonne",
+        "ou-bequille-avant",
+        "ou-jeu-cles-plates",
+        "ou-jeu-douilles",
+        "ou-douille-allen-8",
+        "ou-douille-allen-14",
         "ou-regle-graduee",
-        "ou-cle-dynamometrique"
+        "ou-tournevis-dynamometrique-1-5",
+        "ou-cle-dynamometrique-5-25",
+        "ou-cle-dynamometrique",
+        "ou-maillet-plastique",
+        "ou-sp-ap8140149",
+        "ou-sp-020888s",
+        "ou-sp-ap8140145",
+        "ou-sp-ap8140146"
+      ],
+      "materiel": [
+        {
+          "id": "ou-etau-mors-doux"
+        },
+        {
+          "id": "ou-seringue"
+        },
+        {
+          "id": "ou-bac-vidange"
+        },
+        {
+          "id": "ou-tapis-protection"
+        },
+        {
+          "id": "ou-bac-magnetique"
+        },
+        {
+          "id": "cs-colliers",
+          "quantite": {
+            "valeur": 2,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "cs-gants-nitrile",
+          "quantite": {
+            "valeur": 4,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "cs-chiffons",
+          "quantite": {
+            "valeur": 150,
+            "unite": "g"
+          }
+        },
+        {
+          "id": "cs-essuie-mains",
+          "quantite": {
+            "valeur": 5,
+            "unite": "piece"
+          }
+        }
       ],
       "procedure": "pr-huile-fourche",
       "composants": [
         "co-fourche"
       ],
       "duree_diy_min": 180,
+      "duree_debutant_min": 300,
       "temps_atelier_h": 1.5,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "une_source",
+      "conditions": {
+        "fr": "Opération d'atelier : ressort précontraint, outils spéciaux et deux personnes. Moto calée par la colonne de direction et sur béquille d'atelier arrière, sol plat, roue avant, garde-boue et étriers déposés (étriers attachés, jamais pendus par la durite). Tubes serrés dans un étau à mors protégés. Niveau d'huile réglé fourreau parfaitement vertical et comprimé, identique des deux côtés (98 mm). RS 660 Factory (Öhlins) : centre Öhlins.",
+        "en": "Workshop job: preloaded spring, special tools and two people. Bike held by the steering head and on a rear paddock stand, flat ground, front wheel, mudguard and calipers removed (calipers tied up, never hanging on their hoses). Tubes clamped in a vice with protected jaws. Oil level set with the leg perfectly vertical and compressed, identical on both sides (98 mm). RS 660 Factory (Öhlins): Öhlins service centre."
+      },
       "difficulte": 4,
       "faisable_soi_meme": false,
       "outillage_special": true,
@@ -1594,6 +2253,7 @@
       },
       "categorie": "suspensions",
       "type": "controler",
+      "famille": "entretien",
       "intervalle": {
         "km": 20000,
         "decalage_km": 10000,
@@ -1623,14 +2283,32 @@
       "pieces": [],
       "consommables": [],
       "outils": [],
+      "materiel": [
+        {
+          "id": "ou-lampe-frontale"
+        },
+        {
+          "id": "cs-essuie-mains",
+          "quantite": {
+            "valeur": 2,
+            "unite": "piece"
+          }
+        }
+      ],
       "procedure": "pr-controle-joints-spi-fourche",
       "composants": [
         "co-fourche"
       ],
       "duree_diy_min": 10,
+      "duree_debutant_min": 15,
       "temps_atelier_h": 0.2,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Moto sur ses roues, sol plat, frein avant serré pour comprimer la fourche ; tubes essuyés avant l'essai. Bonne lumière pour voir un film d'huile au bord des joints.",
+        "en": "Bike on its wheels, flat ground, front brake on to compress the fork; tubes wiped before the test. Good light to spot an oil film at the edge of the seals."
+      },
       "difficulte": 1,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -1660,6 +2338,7 @@
       },
       "categorie": "eclairage",
       "type": "controler",
+      "famille": "entretien",
       "intervalle": {
         "km": 10000,
         "severe": {
@@ -1685,16 +2364,34 @@
       },
       "pieces": [],
       "consommables": [],
-      "outils": [],
+      "outils": [
+        "ou-jeu-douilles",
+        "ou-metre-ruban"
+      ],
+      "materiel": [
+        {
+          "id": "cs-ruban-adhesif",
+          "quantite": {
+            "valeur": 1,
+            "unite": "m"
+          }
+        }
+      ],
       "procedure": "pr-reglage-phare",
       "composants": [
         "co-phare",
         "co-reglage-phare"
       ],
-      "duree_diy_min": 15,
+      "duree_diy_min": 20,
+      "duree_debutant_min": 40,
       "temps_atelier_h": 0.3,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Sol plat, moto droite à 10 m d'un mur vertical clair, dans la pénombre (soir ou garage). Pneus à la bonne pression, pilote assis, avec passager et bagages si la moto roule chargée. Feux de croisement allumés.",
+        "en": "Flat ground, bike upright 10 m from a light-coloured vertical wall, in dim light (evening or garage). Tyres at the right pressure, rider seated, with passenger and luggage if the bike is ridden loaded. Dipped beam on."
+      },
       "difficulte": 1,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -1729,6 +2426,7 @@
       },
       "categorie": "controle",
       "type": "controler",
+      "famille": "entretien",
       "intervalle": {
         "km": 10000,
         "premiere_km": 1000,
@@ -1754,13 +2452,39 @@
         "fr": "Perte d'un élément en roulant ; sur un axe de roue ou un étrier, risque de chute."
       },
       "pieces": [],
-      "consommables": [],
+      "consommables": [
+        {
+          "id": "cs-frein-filet-moyen",
+          "quantite": {
+            "valeur": 0.05,
+            "unite": "piece"
+          },
+          "note": {
+            "fr": "Seulement pour une vis à refreiner (levier de sélecteur) : une goutte, estimation."
+          }
+        }
+      ],
       "outils": [
-        "ou-jeu-douilles",
+        "ou-bequille-arriere",
+        "ou-diabolos-m6",
         "ou-jeu-embouts-allen",
+        "ou-douille-26",
+        "ou-jeu-douilles",
+        "ou-douille-allen-14",
+        "ou-douille-allen-8",
+        "ou-jeu-embouts-torx",
         "ou-cle-dynamometrique-5-25",
         "ou-cle-dynamometrique",
         "ou-cle-dynamometrique-40-210"
+      ],
+      "materiel": [
+        {
+          "id": "cs-essuie-mains",
+          "quantite": {
+            "valeur": 3,
+            "unite": "piece"
+          }
+        }
       ],
       "procedure": "pr-serrage-boulonnerie",
       "composants": [
@@ -1773,9 +2497,15 @@
         "co-repose-pied-pilote"
       ],
       "duree_diy_min": 45,
+      "duree_debutant_min": 90,
       "temps_atelier_h": 0.5,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Moto froide, stable sur béquille d'atelier arrière, sol plat. Contrôle au couple dans le sens du serrage, sans desserrer ; une vis montée au frein-filet qui tourne doit être déposée, nettoyée et refreinée (ou remplacée si elle était pré-enduite).",
+        "en": "Cold bike, stable on a rear paddock stand, flat ground. Check at the specified torque in the tightening direction, without loosening; a threadlocked screw that turns must be removed, cleaned and relocked (or replaced if it was pre-coated)."
+      },
       "difficulte": 2,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -1814,6 +2544,7 @@
       },
       "categorie": "controle",
       "type": "controler",
+      "famille": "entretien",
       "intervalle": {
         "km": 10000,
         "mois": 12,
@@ -1844,6 +2575,7 @@
       "pieces": [],
       "consommables": [],
       "outils": [],
+      "materiel": [],
       "composants": [
         "co-tableau-de-bord",
         "co-boite-fusibles",
@@ -1851,9 +2583,15 @@
         "co-klaxon"
       ],
       "duree_diy_min": 10,
+      "duree_debutant_min": 20,
       "temps_atelier_h": 0.3,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Vérifications à l'arrêt moto sur sa béquille, au point mort, dans un lieu ventilé (moteur tournant) ; puis court essai sur route dans un lieu sûr, à allure modérée.",
+        "en": "Stationary checks with the bike on its stand, in neutral, in a ventilated place (engine running); then a short road test somewhere safe, at moderate speed."
+      },
       "difficulte": 1,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -1890,6 +2628,7 @@
       },
       "categorie": "pneus",
       "type": "controler",
+      "famille": "controle",
       "intervalle": {
         "a_chaque_sortie": true,
         "mois": 1,
@@ -1911,7 +2650,13 @@
       "pieces": [],
       "consommables": [],
       "outils": [
-        "ou-manometre-pneus"
+        "ou-manometre-pneus",
+        "ou-jauge-profondeur-pneus"
+      ],
+      "materiel": [
+        {
+          "id": "ou-gonfleur"
+        }
       ],
       "procedure": "pr-pneus-pression-usure",
       "composants": [
@@ -1926,9 +2671,15 @@
         "me-pression-arriere"
       ],
       "duree_diy_min": 5,
+      "duree_debutant_min": 10,
       "temps_atelier_h": 0.1,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Pneus froids : avant de rouler, moto restée à l'ombre (un trajet ou le soleil faussent la mesure) ; jamais dégonfler un pneu chaud. Moto sur sa béquille, valve en haut pour poser le manomètre. Pressions route à froid : 2,5 bar à l'avant, 2,8 bar à l'arrière, en solo comme en duo.",
+        "en": "Cold tyres: before riding, bike parked in the shade (a ride or the sun skews the reading); never let air out of a hot tyre. Bike on its stand, valve at the top to fit the gauge. Cold road pressures: 2.5 bar front, 2.8 bar rear, solo or two-up."
+      },
       "difficulte": 1,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -1963,6 +2714,7 @@
       },
       "categorie": "pneus",
       "type": "controler",
+      "famille": "controle",
       "intervalle": {
         "a_chaque_sortie": true,
         "km": 1000,
@@ -1984,7 +2736,13 @@
       "pieces": [],
       "consommables": [],
       "outils": [
+        "ou-manometre-pneus",
         "ou-jauge-profondeur-pneus"
+      ],
+      "materiel": [
+        {
+          "id": "ou-gonfleur"
+        }
       ],
       "procedure": "pr-pneus-pression-usure",
       "composants": [
@@ -1997,9 +2755,15 @@
         "me-profondeur-pneu-arriere"
       ],
       "duree_diy_min": 5,
+      "duree_debutant_min": 10,
       "temps_atelier_h": 0.1,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Moto sur sa béquille, sol plat, bonne lumière ; faire avancer la moto (ou tourner la roue sur béquille d'atelier) pour inspecter tout le tour. Mesure dans les rainures, au centre de la bande à l'arrière.",
+        "en": "Bike on its stand, flat ground, good light; roll the bike forward (or spin the wheel on a paddock stand) to inspect the whole circumference. Measure in the grooves, in the centre of the tread at the rear."
+      },
       "difficulte": 1,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -2032,6 +2796,7 @@
       },
       "categorie": "moteur",
       "type": "controler",
+      "famille": "controle",
       "intervalle": {
         "a_chaque_sortie": true,
         "km": 1000,
@@ -2052,17 +2817,49 @@
         "fr": "Manque d'huile : usure rapide puis serrage ou casse du moteur. Un excès d'huile peut aussi causer des dégâts selon le manuel."
       },
       "pieces": [],
-      "consommables": [],
+      "consommables": [
+        {
+          "id": "cs-huile-moteur",
+          "quantite": {
+            "valeur": 0.1,
+            "unite": "L"
+          },
+          "note": {
+            "fr": "Appoint éventuel, seulement si le niveau est loin du MAX : garder un flacon de 1 L de la même huile et verser 0,1 L à la fois."
+          }
+        }
+      ],
       "outils": [],
+      "materiel": [
+        {
+          "id": "ou-entonnoir"
+        },
+        {
+          "id": "ou-lampe-frontale"
+        },
+        {
+          "id": "cs-essuie-mains",
+          "quantite": {
+            "valeur": 2,
+            "unite": "piece"
+          }
+        }
+      ],
       "procedure": "pr-niveau-huile",
       "composants": [
         "co-jauge-huile"
       ],
       "mesure": "me-niveau-huile",
       "duree_diy_min": 5,
+      "duree_debutant_min": 15,
       "temps_atelier_h": 0.1,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Moteur chaud : rouler environ 15 km hors agglomération (jamais chauffer au ralenti à l'arrêt), couper, attendre quelques secondes. Moto tenue droite sur ses deux roues sur sol plat (un aide la tient), jamais sur la béquille latérale. Jauge essuyée puis posée sans la visser ; lecture à la lumière. Attention à l'échappement chaud.",
+        "en": "Warm engine: ride about 15 km outside town (never warm it up idling), switch off, wait a few seconds. Bike held upright on both wheels on flat ground (a helper holds it), never on the side stand. Dipstick wiped then rested without screwing in; read it in good light. Mind the hot exhaust."
+      },
       "difficulte": 1,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -2087,6 +2884,7 @@
       },
       "categorie": "freins",
       "type": "controler",
+      "famille": "controle",
       "intervalle": {
         "a_chaque_sortie": true,
         "mois": 1,
@@ -2106,10 +2904,48 @@
         "fr": "Entrée d'air dans le circuit et perte de freinage si le niveau descend trop ; une fuite non traitée peut vider un circuit."
       },
       "pieces": [],
-      "consommables": [],
+      "consommables": [
+        {
+          "id": "cs-liquide-frein",
+          "quantite": {
+            "valeur": 0.05,
+            "unite": "L"
+          },
+          "note": {
+            "fr": "Appoint éventuel, seulement sous le MIN (après contrôle des plaquettes) : quelques centilitres d'un flacon neuf."
+          }
+        }
+      ],
       "outils": [
-        "ou-tournevis-cruciforme",
-        "ou-cle-allen-4"
+        "ou-cle-allen-4",
+        "ou-jeu-cles-plates",
+        "ou-tournevis-cruciforme"
+      ],
+      "materiel": [
+        {
+          "id": "ou-lunettes-protection"
+        },
+        {
+          "id": "cs-gants-nitrile",
+          "quantite": {
+            "valeur": 2,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "cs-chiffons",
+          "quantite": {
+            "valeur": 50,
+            "unite": "g"
+          }
+        },
+        {
+          "id": "cs-essuie-mains",
+          "quantite": {
+            "valeur": 2,
+            "unite": "piece"
+          }
+        }
       ],
       "procedure": "pr-niveau-liquide-frein",
       "composants": [
@@ -2122,9 +2958,15 @@
         "me-niveau-liquide-frein-arriere"
       ],
       "duree_diy_min": 5,
+      "duree_debutant_min": 15,
       "temps_atelier_h": 0.1,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Moto droite sur sol plat ; guidon tourné pour mettre le bocal avant à l'horizontale, bocal arrière lu moto droite. Pour un appoint : gants, lunettes, chiffon autour du bocal (le DOT 4 attaque la peinture), liquide d'un flacon neuf resté fermé, bocal ouvert le moins longtemps possible, jamais actionner levier ou pédale bocal ouvert.",
+        "en": "Bike upright on flat ground; bars turned so the front reservoir is level, rear reservoir read with the bike upright. For a top-up: gloves, goggles, a rag around the reservoir (DOT 4 strips paint), fluid from a new sealed bottle, reservoir open as briefly as possible, never pull the lever or press the pedal with it open."
+      },
       "difficulte": 1,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -2157,6 +2999,7 @@
       },
       "categorie": "refroidissement",
       "type": "controler",
+      "famille": "controle",
       "intervalle": {
         "a_chaque_sortie": true,
         "mois": 1,
@@ -2176,17 +3019,55 @@
         "fr": "Surchauffe et dégâts moteur ; par grand froid, un mélange trop dilué peut geler dans le circuit."
       },
       "pieces": [],
-      "consommables": [],
-      "outils": [],
+      "consommables": [
+        {
+          "id": "cs-liquide-refroidissement",
+          "quantite": {
+            "valeur": 0.1,
+            "unite": "L"
+          },
+          "note": {
+            "fr": "Appoint éventuel, seulement sous LOW : liquide prêt à l'emploi identique à celui du circuit."
+          }
+        }
+      ],
+      "outils": [
+        "ou-jeu-douilles"
+      ],
+      "materiel": [
+        {
+          "id": "ou-entonnoir"
+        },
+        {
+          "id": "cs-gants-nitrile",
+          "quantite": {
+            "valeur": 2,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "cs-essuie-mains",
+          "quantite": {
+            "valeur": 2,
+            "unite": "piece"
+          }
+        }
+      ],
       "procedure": "pr-niveau-liquide-refroidissement",
       "composants": [
         "co-vase-expansion"
       ],
       "mesure": "me-niveau-liquide-refroidissement",
       "duree_diy_min": 5,
+      "duree_debutant_min": 10,
       "temps_atelier_h": 0.1,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Moteur coupé et froid uniquement (circuit chaud sous pression et brûlant). Moto droite sur ses deux roues, sol plat ; niveau lu depuis le côté gauche à travers l'ouverture du carénage intérieur droit. Gants pour un appoint ; essuyer toute goutte (liquide toxique, attirant pour les animaux).",
+        "en": "Engine off and cold only (hot circuit is pressurised and scalding). Bike upright on both wheels, flat ground; level read from the left side through the opening in the right inner fairing. Gloves for a top-up; wipe up any drop (toxic fluid, attractive to animals)."
+      },
       "difficulte": 1,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -2217,6 +3098,7 @@
       },
       "categorie": "eclairage",
       "type": "controler",
+      "famille": "controle",
       "intervalle": {
         "a_chaque_sortie": true
       },
@@ -2238,6 +3120,7 @@
       "outils": [
         "ou-pince-fusibles"
       ],
+      "materiel": [],
       "procedure": "pr-controle-eclairage",
       "composants": [
         "co-phare",
@@ -2248,9 +3131,15 @@
         "co-boite-fusibles"
       ],
       "duree_diy_min": 5,
+      "duree_debutant_min": 10,
       "temps_atelier_h": 0.1,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Contact mis, moto à l'arrêt sur sa béquille ; un aide, ou un mur ou une vitrine derrière la moto, pour voir le feu stop et les clignotants arrière. Batterie chargée.",
+        "en": "Ignition on, bike stationary on its stand; a helper, or a wall or shop window behind the bike, to see the brake light and rear indicators. Charged battery."
+      },
       "difficulte": 1,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -2276,6 +3165,7 @@
       },
       "categorie": "freins",
       "type": "remplacer",
+      "famille": "usure",
       "intervalle": {},
       "gravite": 5,
       "resume": {
@@ -2293,7 +3183,10 @@
       "pieces": [
         {
           "id": "pc-plaquettes-avant",
-          "quantite": 2
+          "quantite": {
+            "valeur": 2,
+            "unite": "jeu"
+          }
         }
       ],
       "consommables": [
@@ -2309,11 +3202,40 @@
         }
       ],
       "outils": [
-        "ou-embout-torx-t30",
+        "ou-bequille-arriere",
+        "ou-diabolos-m6",
+        "ou-jeu-douilles",
         "ou-douille-allen-8",
-        "ou-cle-dynamometrique",
+        "ou-embout-torx-t30",
         "ou-pince-chasse-goupille",
+        "ou-cle-dynamometrique",
         "ou-repousse-piston"
+      ],
+      "materiel": [
+        {
+          "id": "ou-lunettes-protection"
+        },
+        {
+          "id": "cs-gants-nitrile",
+          "quantite": {
+            "valeur": 2,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "cs-essuie-mains",
+          "quantite": {
+            "valeur": 5,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "cs-colliers",
+          "quantite": {
+            "valeur": 2,
+            "unite": "piece"
+          }
+        }
       ],
       "procedure": "pr-plaquettes-avant",
       "composants": [
@@ -2328,9 +3250,15 @@
       ],
       "mesure": "me-epaisseur-plaquettes-avant",
       "duree_diy_min": 45,
+      "duree_debutant_min": 90,
       "temps_atelier_h": 0.6,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Moto sur béquille d'atelier arrière, sol plat, freins froids. Un étrier à la fois : ne jamais toucher le levier tant qu'un étrier est déposé, ne repousser les pistons que si l'autre étrier est encore monté, étrier posé ou attaché (jamais pendu par la durite). Plaquettes et disques sans graisse ni doigts gras ; nettoyant freins loin des joints caoutchouc. Ne pas rouler avant d'avoir retrouvé un levier ferme ; freiner en douceur les 100 premiers kilomètres.",
+        "en": "Bike on a rear paddock stand, flat ground, cold brakes. One caliper at a time: never touch the lever while a caliper is off, only push the pistons back if the other caliper is still mounted, caliper rested or tied up (never hanging on its hose). Pads and discs free of grease and greasy fingers; brake cleaner kept off rubber seals. Do not ride until the lever is firm again; brake gently for the first 100 km."
+      },
       "difficulte": 3,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -2360,6 +3288,7 @@
       },
       "categorie": "freins",
       "type": "remplacer",
+      "famille": "usure",
       "intervalle": {},
       "gravite": 5,
       "resume": {
@@ -2377,7 +3306,10 @@
       "pieces": [
         {
           "id": "pc-plaquettes-arriere",
-          "quantite": 1
+          "quantite": {
+            "valeur": 1,
+            "unite": "jeu"
+          }
         }
       ],
       "consommables": [
@@ -2403,10 +3335,31 @@
         }
       ],
       "outils": [
+        "ou-bequille-arriere",
+        "ou-diabolos-m6",
         "ou-jeu-douilles",
-        "ou-cle-dynamometrique",
         "ou-pince-chasse-goupille",
+        "ou-cle-dynamometrique",
         "ou-repousse-piston"
+      ],
+      "materiel": [
+        {
+          "id": "ou-lunettes-protection"
+        },
+        {
+          "id": "cs-gants-nitrile",
+          "quantite": {
+            "valeur": 2,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "cs-essuie-mains",
+          "quantite": {
+            "valeur": 5,
+            "unite": "piece"
+          }
+        }
       ],
       "procedure": "pr-plaquettes-arriere",
       "composants": [
@@ -2417,9 +3370,15 @@
       ],
       "mesure": "me-epaisseur-plaquettes-arriere",
       "duree_diy_min": 30,
+      "duree_debutant_min": 60,
       "temps_atelier_h": 0.5,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Moto sur béquille d'atelier arrière, sol plat, frein froid. Ne jamais appuyer sur la pédale plaquettes déposées. Photographier le ressort de sécurité avant de le retirer. Vis d'étrier remontées au frein-filet. Pédale ferme et feu stop vérifiés avant de rouler.",
+        "en": "Bike on a rear paddock stand, flat ground, cold brake. Never press the pedal with the pads out. Photograph the retaining spring before removing it. Caliper bolts refitted with threadlocker. Firm pedal and brake light checked before riding."
+      },
       "difficulte": 2,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -2448,6 +3407,7 @@
       },
       "categorie": "freins",
       "type": "remplacer",
+      "famille": "usure",
       "intervalle": {},
       "gravite": 5,
       "resume": {
@@ -2469,29 +3429,69 @@
         },
         {
           "id": "pc-plaquettes-avant",
-          "quantite": 2
+          "quantite": {
+            "valeur": 2,
+            "unite": "jeu"
+          }
         }
       ],
       "consommables": [
         {
           "id": "cs-nettoyant-freins",
           "quantite": {
-            "valeur": 0.1,
+            "valeur": 0.2,
             "unite": "piece"
           },
           "note": {
-            "fr": "Fraction de l'aérosol, du flacon ou du tube par intervention : estimation."
+            "fr": "Dégraissage des disques neufs et des étriers : environ un cinquième de l'aérosol, estimation."
           }
         }
       ],
       "outils": [
         "ou-bequille-arriere",
         "ou-diabolos-m6",
+        "ou-leve-moto-colonne",
         "ou-bequille-avant",
-        "ou-douille-allen-14",
+        "ou-jeu-cles-plates",
+        "ou-douille-26",
+        "ou-jeu-douilles",
         "ou-douille-allen-8",
+        "ou-douille-allen-14",
+        "ou-regle-graduee",
+        "ou-micrometre",
+        "ou-cle-dynamometrique-5-25",
         "ou-cle-dynamometrique",
-        "ou-micrometre"
+        "ou-cle-dynamometrique-40-210",
+        "ou-maillet-plastique"
+      ],
+      "materiel": [
+        {
+          "id": "ou-tapis-protection"
+        },
+        {
+          "id": "ou-lunettes-protection"
+        },
+        {
+          "id": "cs-gants-nitrile",
+          "quantite": {
+            "valeur": 2,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "cs-essuie-mains",
+          "quantite": {
+            "valeur": 10,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "cs-colliers",
+          "quantite": {
+            "valeur": 2,
+            "unite": "piece"
+          }
+        }
       ],
       "procedure": "pr-disques-frein",
       "composants": [
@@ -2502,9 +3502,15 @@
         "co-vis-etrier"
       ],
       "duree_diy_min": 120,
+      "duree_debutant_min": 240,
       "temps_atelier_h": 1.25,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Moto sur béquille d'atelier arrière, avant levé par la colonne de direction pour un disque avant ; ne déposer que la roue du disque concerné. Roue posée à plat sur des cales ou un carton, disque vers le haut. Disques et plaquettes jamais touchés avec des doigts gras. Disques neufs = plaquettes neuves ; freiner en douceur les premiers kilomètres.",
+        "en": "Bike on a rear paddock stand, front lifted by the steering head for a front disc; remove only the wheel of the disc concerned. Wheel laid flat on blocks or cardboard, disc facing up. Never touch discs or pads with greasy fingers. New discs = new pads; brake gently for the first kilometres."
+      },
       "difficulte": 3,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -2530,6 +3536,7 @@
       },
       "categorie": "pneus",
       "type": "remplacer",
+      "famille": "usure",
       "intervalle": {},
       "gravite": 5,
       "resume": {
@@ -2554,11 +3561,30 @@
       "outils": [
         "ou-bequille-arriere",
         "ou-diabolos-m6",
+        "ou-leve-moto-colonne",
         "ou-bequille-avant",
-        "ou-douille-allen-14",
+        "ou-jeu-douilles",
         "ou-douille-allen-8",
+        "ou-douille-allen-14",
+        "ou-cle-dynamometrique-5-25",
         "ou-cle-dynamometrique",
         "ou-maillet-plastique"
+      ],
+      "materiel": [
+        {
+          "id": "cs-colliers",
+          "quantite": {
+            "valeur": 2,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "cs-essuie-mains",
+          "quantite": {
+            "valeur": 5,
+            "unite": "piece"
+          }
+        }
       ],
       "procedure": "pr-depose-roue-avant",
       "composants": [
@@ -2569,9 +3595,15 @@
       ],
       "mesure": "me-profondeur-pneu-avant",
       "duree_diy_min": 45,
+      "duree_debutant_min": 90,
       "temps_atelier_h": 0.4,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Moto sur béquille d'atelier arrière puis avant levé (par la colonne de direction ou sous les fourreaux), roue avant décollée, sur sol plat et dur. Jamais actionner le levier étriers déposés ; étriers attachés, jamais pendus par la durite. Montage et équilibrage du pneu par un professionnel (roue apportée seule). Durées : dépose et repose de la roue.",
+        "en": "Bike on a rear paddock stand, then front lifted (by the steering head or under the fork legs), front wheel off the ground, on flat hard ground. Never pull the lever with the calipers off; calipers tied up, never hanging on their hoses. Tyre fitting and balancing by a professional (bring the wheel alone). Durations: wheel removal and refitting."
+      },
       "difficulte": 3,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -2599,6 +3631,7 @@
       },
       "categorie": "pneus",
       "type": "remplacer",
+      "famille": "usure",
       "intervalle": {},
       "gravite": 5,
       "resume": {
@@ -2623,10 +3656,28 @@
       "outils": [
         "ou-bequille-arriere",
         "ou-diabolos-m6",
-        "ou-douille-26",
         "ou-jeu-cles-plates",
+        "ou-douille-26",
+        "ou-jeu-douilles",
+        "ou-regle-graduee",
         "ou-cle-dynamometrique-40-210",
         "ou-maillet-plastique"
+      ],
+      "materiel": [
+        {
+          "id": "cs-gants-nitrile",
+          "quantite": {
+            "valeur": 2,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "cs-essuie-mains",
+          "quantite": {
+            "valeur": 5,
+            "unite": "piece"
+          }
+        }
       ],
       "procedure": "pr-depose-roue-arriere",
       "composants": [
@@ -2637,9 +3688,15 @@
       ],
       "mesure": "me-profondeur-pneu-arriere",
       "duree_diy_min": 45,
+      "duree_debutant_min": 90,
       "temps_atelier_h": 0.5,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Moto sur béquille d'atelier arrière (bras oscillant large : béquille presque à sa largeur maximale), sol plat et dur. Jamais appuyer sur la pédale roue déposée ; retenir l'étrier et son support quand l'axe sort. Montage et équilibrage du pneu par un professionnel. Durées : dépose et repose de la roue, réglage de chaîne compris.",
+        "en": "Bike on a rear paddock stand (wide swingarm: stand set almost to its maximum width), flat hard ground. Never press the pedal with the wheel out; hold the caliper and its bracket as the axle comes out. Tyre fitting and balancing by a professional. Durations: wheel removal and refitting, chain adjustment included."
+      },
       "difficulte": 3,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -2667,6 +3724,7 @@
       },
       "categorie": "transmission",
       "type": "remplacer",
+      "famille": "usure",
       "intervalle": {},
       "gravite": 4,
       "resume": {
@@ -2691,11 +3749,11 @@
         {
           "id": "cs-frein-filet-moyen",
           "quantite": {
-            "valeur": 0.05,
+            "valeur": 0.1,
             "unite": "piece"
           },
           "note": {
-            "fr": "Fraction de l'aérosol, du flacon ou du tube par intervention : estimation."
+            "fr": "Vis de pignon et vis du levier de sélecteur : une goutte chacune, estimation."
           }
         },
         {
@@ -2705,20 +3763,53 @@
             "unite": "piece"
           },
           "note": {
-            "fr": "Fraction de l'aérosol, du flacon ou du tube par intervention : estimation."
+            "fr": "Graissage de la chaîne neuve : environ un dixième de l'aérosol de 400 mL, estimation."
           }
         }
       ],
       "outils": [
         "ou-bequille-arriere",
         "ou-diabolos-m6",
-        "ou-derive-chaine",
+        "ou-jeu-cles-plates",
         "ou-douille-26",
         "ou-jeu-douilles",
-        "ou-jeu-cles-plates",
+        "ou-regle-graduee",
+        "ou-cle-dynamometrique-5-25",
         "ou-cle-dynamometrique",
         "ou-cle-dynamometrique-40-210",
-        "ou-jauge-usure-chaine"
+        "ou-maillet-plastique",
+        "ou-derive-chaine"
+      ],
+      "materiel": [
+        {
+          "id": "ou-etau-mors-doux"
+        },
+        {
+          "id": "ou-tapis-protection"
+        },
+        {
+          "id": "ou-bac-magnetique"
+        },
+        {
+          "id": "ou-lunettes-protection"
+        },
+        {
+          "id": "ou-gants-mecanique"
+        },
+        {
+          "id": "cs-gants-nitrile",
+          "quantite": {
+            "valeur": 4,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "cs-chiffons",
+          "quantite": {
+            "valeur": 150,
+            "unite": "g"
+          }
+        }
       ],
       "procedure": "pr-kit-chaine",
       "composants": [
@@ -2734,9 +3825,15 @@
       ],
       "mesure": "me-etat-chaine",
       "duree_diy_min": 150,
+      "duree_debutant_min": 300,
       "temps_atelier_h": 1.25,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Moto sur béquille d'atelier arrière, sol plat et dur ; roue arrière déposée en cours d'opération. Un aide pour débloquer puis serrer la vis du pignon (rapport engagé, frein arrière appuyé). Porte-couronne tenu dans un étau à mors doux. Rivetage du maillon d'attache contrôlé selon la notice de l'outil ; dans le doute, le faire vérifier. Tension et serrages recontrôlés après une centaine de kilomètres.",
+        "en": "Bike on a rear paddock stand, flat hard ground; rear wheel removed during the job. A helper to break loose then tighten the front sprocket bolt (gear engaged, rear brake on). Sprocket carrier held in a soft-jawed vice. Master link riveting checked per the tool's instructions; if in doubt, have it checked. Re-check tension and torques after about 100 km."
+      },
       "difficulte": 4,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -2767,6 +3864,7 @@
       },
       "categorie": "electricite",
       "type": "controler",
+      "famille": "usure",
       "intervalle": {},
       "gravite": 3,
       "resume": {
@@ -2795,10 +3893,20 @@
         }
       ],
       "outils": [
-        "ou-multimetre",
-        "ou-chargeur-lithium",
         "ou-jeu-douilles",
-        "ou-cle-allen-4"
+        "ou-douille-8",
+        "ou-douille-10",
+        "ou-multimetre",
+        "ou-chargeur-lithium"
+      ],
+      "materiel": [
+        {
+          "id": "cs-essuie-mains",
+          "quantite": {
+            "valeur": 2,
+            "unite": "piece"
+          }
+        }
       ],
       "procedure": "pr-batterie",
       "composants": [
@@ -2809,9 +3917,15 @@
       ],
       "mesure": "me-tension-batterie",
       "duree_diy_min": 15,
+      "duree_debutant_min": 30,
       "temps_atelier_h": 0.3,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Contact coupé, clé sur OFF, selles déposées. Charge dans un local aéré, sec et hors gel, avec un chargeur lithium (14 à 15 V, 2 A au maximum ; environ 2 h en charge normale, non comptées dans la durée). Tension mesurée batterie au repos, 1 à 2 h après la charge. Aucun outil ne doit toucher les deux bornes à la fois, ni la borne + et le cadre. Dépose : borne − d'abord ; repose : borne + d'abord.",
+        "en": "Ignition off, key at OFF, seats removed. Charge in a ventilated, dry, frost-free room with a lithium charger (14 to 15 V, 2 A max; about 2 h for a normal charge, not counted in the duration). Measure voltage with the battery at rest, 1 to 2 h after charging. No tool may touch both terminals at once, or the + terminal and the frame. Removal: − terminal first; refitting: + terminal first."
+      },
       "difficulte": 1,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -2838,6 +3952,7 @@
       },
       "categorie": "nettoyage",
       "type": "nettoyer",
+      "famille": "saison",
       "intervalle": {},
       "gravite": 2,
       "resume": {
@@ -2857,16 +3972,72 @@
         {
           "id": "cs-shampooing",
           "quantite": {
+            "valeur": 0.2,
+            "unite": "L"
+          },
+          "note": {
+            "fr": "Environ 0,2 L par lavage (2 à 4 % dans un seau de 10 L, ou nettoyant prêt à l'emploi) : estimation."
+          }
+        },
+        {
+          "id": "cs-degraissant",
+          "quantite": {
+            "valeur": 0.25,
+            "unite": "piece"
+          },
+          "note": {
+            "fr": "Extérieur du moteur seulement : environ un quart de l'aérosol, estimation."
+          }
+        },
+        {
+          "id": "cs-lubrifiant-chaine",
+          "quantite": {
             "valeur": 0.1,
             "unite": "piece"
           },
           "note": {
-            "fr": "Fraction de l'aérosol, du flacon ou du tube par intervention : estimation."
+            "fr": "Chaîne relubrifiée après séchage : environ un dixième de l'aérosol, estimation."
           }
         }
       ],
       "outils": [
-        "ou-bequille-arriere"
+        "ou-bequille-arriere",
+        "ou-diabolos-m6"
+      ],
+      "materiel": [
+        {
+          "id": "ou-seau-lavage"
+        },
+        {
+          "id": "ou-eponge-lavage"
+        },
+        {
+          "id": "ou-pinceau"
+        },
+        {
+          "id": "ou-chiffons-microfibre",
+          "quantite": {
+            "valeur": 3,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "ou-serviette-sechage"
+        },
+        {
+          "id": "cs-sacs-plastique",
+          "quantite": {
+            "valeur": 2,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "cs-gants-nitrile",
+          "quantite": {
+            "valeur": 2,
+            "unite": "piece"
+          }
+        }
       ],
       "procedure": "pr-lavage",
       "composants": [
@@ -2874,7 +4045,13 @@
         "co-chaine"
       ],
       "duree_diy_min": 45,
+      "duree_debutant_min": 75,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
+      "conditions": {
+        "fr": "Moteur et échappement froids ; à l'ombre, jamais en plein soleil ni carrosserie chaude. Prises d'air et sortie d'échappement couvertes de sacs plastique. Tuyau d'arrosage à jet doux : jamais de nettoyeur haute pression ni de vapeur (chaîne, roulements, connecteurs, plastiques) ; eau à moins de 40 °C sur les plastiques. En hiver, rincer le sel à l'eau froide juste après avoir roulé. Après lavage : sécher, lubrifier chaîne et commandes, freiner plusieurs fois à basse vitesse.",
+        "en": "Engine and exhaust cold; in the shade, never in direct sun or on hot bodywork. Air intakes and exhaust outlet covered with plastic bags. Garden hose on a gentle jet: never a pressure washer or steam (chain, bearings, connectors, plastics); water below 40 °C on plastics. In winter, rinse off salt with cold water right after riding. After washing: dry, lubricate chain and controls, brake several times at low speed."
+      },
       "difficulte": 1,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -2899,6 +4076,7 @@
       },
       "categorie": "controle",
       "type": "lubrifier",
+      "famille": "saison",
       "intervalle": {},
       "gravite": 2,
       "resume": {
@@ -2918,15 +4096,44 @@
         {
           "id": "cs-graisse",
           "quantite": {
-            "valeur": 0.05,
+            "valeur": 0.02,
             "unite": "piece"
           },
           "note": {
-            "fr": "Fraction de l'aérosol, du flacon ou du tube par intervention : estimation."
+            "fr": "Leviers, pédales, sélecteur, béquille, repose-pieds : environ 8 g, estimation."
+          }
+        },
+        {
+          "id": "cs-degrippant",
+          "quantite": {
+            "valeur": 0.02,
+            "unite": "piece"
+          },
+          "note": {
+            "fr": "Câble d'embrayage et contacteur à clé : quelques pulvérisations, estimation (produit non précisé par le manuel)."
           }
         }
       ],
       "outils": [],
+      "materiel": [
+        {
+          "id": "ou-pinceau"
+        },
+        {
+          "id": "cs-gants-nitrile",
+          "quantite": {
+            "valeur": 2,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "cs-essuie-mains",
+          "quantite": {
+            "valeur": 5,
+            "unite": "piece"
+          }
+        }
+      ],
       "procedure": "pr-lubrification-articulations",
       "composants": [
         "co-levier-frein-avant",
@@ -2938,7 +4145,13 @@
         "co-contacteur-cle"
       ],
       "duree_diy_min": 15,
+      "duree_debutant_min": 25,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
+      "conditions": {
+        "fr": "Moto propre et sèche (après lavage de préférence), stable sur sa béquille, sol plat. Aucune graisse sur les disques, les plaquettes, les pneus ni le capteur de béquille ; essuyer l'excédent.",
+        "en": "Bike clean and dry (ideally after washing), stable on its stand, flat ground. No grease on discs, pads, tyres or the side-stand sensor; wipe off the excess."
+      },
       "difficulte": 1,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -2961,6 +4174,7 @@
       },
       "categorie": "stockage",
       "type": "controler",
+      "famille": "saison",
       "intervalle": {},
       "gravite": 3,
       "resume": {
@@ -2976,16 +4190,142 @@
         "fr": "Batterie lithium détruite, corrosion de la chaîne et de la visserie, pneus marqués, démarrage difficile au printemps."
       },
       "pieces": [],
-      "consommables": [],
+      "consommables": [
+        {
+          "id": "cs-essence",
+          "quantite": {
+            "valeur": 15,
+            "unite": "L"
+          },
+          "note": {
+            "fr": "Le plein avant de remiser : jusqu'à 15 L selon le niveau restant."
+          }
+        },
+        {
+          "id": "cs-stabilisateur-essence",
+          "quantite": {
+            "valeur": 15,
+            "unite": "mL"
+          },
+          "note": {
+            "fr": "Dose propre à chaque produit (lire l'étiquette) : 15 mL pour un plein est une estimation."
+          }
+        },
+        {
+          "id": "cs-shampooing",
+          "quantite": {
+            "valeur": 0.2,
+            "unite": "L"
+          },
+          "note": {
+            "fr": "Lavage avant remisage : environ 0,2 L, estimation."
+          }
+        },
+        {
+          "id": "cs-nettoyant-chaine",
+          "quantite": {
+            "valeur": 0.1,
+            "unite": "piece"
+          },
+          "note": {
+            "fr": "Fraction de l'aérosol : estimation."
+          }
+        },
+        {
+          "id": "cs-lubrifiant-chaine",
+          "quantite": {
+            "valeur": 0.1,
+            "unite": "piece"
+          },
+          "note": {
+            "fr": "Fraction de l'aérosol : estimation."
+          }
+        },
+        {
+          "id": "cs-graisse",
+          "quantite": {
+            "valeur": 0.02,
+            "unite": "piece"
+          },
+          "note": {
+            "fr": "Articulations : environ 8 g, estimation."
+          }
+        }
+      ],
       "outils": [
         "ou-bequille-arriere",
         "ou-diabolos-m6",
         "ou-bequille-avant",
-        "ou-manometre-pneus",
-        "ou-chargeur-lithium",
-        "ou-multimetre",
+        "ou-cle-allen-4",
+        "ou-jeu-douilles",
+        "ou-douille-8",
+        "ou-douille-10",
         "ou-pince-fusibles",
-        "ou-cle-allen-4"
+        "ou-manometre-pneus",
+        "ou-multimetre",
+        "ou-chargeur-lithium"
+      ],
+      "materiel": [
+        {
+          "id": "ou-housse-moto"
+        },
+        {
+          "id": "ou-gonfleur"
+        },
+        {
+          "id": "ou-seau-lavage"
+        },
+        {
+          "id": "ou-eponge-lavage"
+        },
+        {
+          "id": "ou-serviette-sechage"
+        },
+        {
+          "id": "ou-chiffons-microfibre",
+          "quantite": {
+            "valeur": 3,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "ou-brosse-chaine"
+        },
+        {
+          "id": "cs-sacs-plastique",
+          "quantite": {
+            "valeur": 3,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "cs-colliers",
+          "quantite": {
+            "valeur": 2,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "cs-ruban-adhesif",
+          "quantite": {
+            "valeur": 0.2,
+            "unite": "m"
+          }
+        },
+        {
+          "id": "cs-gants-nitrile",
+          "quantite": {
+            "valeur": 2,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "cs-chiffons",
+          "quantite": {
+            "valeur": 100,
+            "unite": "g"
+          }
+        }
       ],
       "procedure": "pr-hivernage",
       "composants": [
@@ -2996,7 +4336,13 @@
       ],
       "mesure": "me-tension-batterie",
       "duree_diy_min": 90,
+      "duree_debutant_min": 150,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
+      "conditions": {
+        "fr": "Faire d'abord les entretiens dus (la vidange reste due tous les 12 mois). Plein et stabilisant à l'extérieur, loin de toute flamme. Lavage à l'ombre, moto froide. Remisage dans un local sec, non chauffé, à température stable et à l'abri du soleil, moto sur béquilles d'atelier avant et arrière, les deux roues décollées. Batterie déposée (ou fusible de 30 A retiré), chargée au chargeur lithium environ 30 min tous les 2 mois, sans mainteneur branché en permanence. Sac sur la sortie du silencieux et mot sur le guidon pour penser à le retirer.",
+        "en": "Do any due maintenance first (the oil change is still due every 12 months). Refuel and add stabiliser outdoors, away from any flame. Wash in the shade, bike cold. Store in a dry, unheated room at a stable temperature, out of the sun, bike on front and rear paddock stands with both wheels off the ground. Battery removed (or 30 A fuse pulled), charged with a lithium charger for about 30 min every 2 months, no maintainer left connected. Bag over the silencer outlet and a note on the bars to remember to remove it."
+      },
       "difficulte": 2,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -3023,6 +4369,7 @@
       },
       "categorie": "stockage",
       "type": "controler",
+      "famille": "saison",
       "intervalle": {},
       "gravite": 3,
       "resume": {
@@ -3038,12 +4385,100 @@
         "fr": "Départ avec des pneus sous-gonflés ou des freins défaillants, démarrage impossible, moteur démarré avec la sortie d'échappement bouchée."
       },
       "pieces": [],
-      "consommables": [],
+      "consommables": [
+        {
+          "id": "cs-essence",
+          "quantite": {
+            "valeur": 15,
+            "unite": "L"
+          },
+          "note": {
+            "fr": "Le plein : jusqu'à 15 L selon le niveau ; renouveler une essence de plusieurs mois sans stabilisant."
+          }
+        },
+        {
+          "id": "cs-nettoyant-chaine",
+          "quantite": {
+            "valeur": 0.1,
+            "unite": "piece"
+          },
+          "note": {
+            "fr": "Fraction de l'aérosol : estimation."
+          }
+        },
+        {
+          "id": "cs-lubrifiant-chaine",
+          "quantite": {
+            "valeur": 0.1,
+            "unite": "piece"
+          },
+          "note": {
+            "fr": "Fraction de l'aérosol : estimation."
+          }
+        },
+        {
+          "id": "cs-graisse-bornes",
+          "quantite": {
+            "valeur": 0.05,
+            "unite": "piece"
+          },
+          "note": {
+            "fr": "Bornes de la batterie au remontage : estimation."
+          }
+        }
+      ],
       "outils": [
+        "ou-bequille-arriere",
+        "ou-diabolos-m6",
+        "ou-cle-allen-4",
+        "ou-jeu-douilles",
+        "ou-douille-8",
+        "ou-douille-10",
+        "ou-pince-fusibles",
         "ou-manometre-pneus",
-        "ou-chargeur-lithium",
+        "ou-jauge-profondeur-pneus",
+        "ou-regle-graduee",
         "ou-multimetre",
-        "ou-pince-fusibles"
+        "ou-chargeur-lithium"
+      ],
+      "materiel": [
+        {
+          "id": "ou-gonfleur"
+        },
+        {
+          "id": "ou-brosse-chaine"
+        },
+        {
+          "id": "ou-chiffons-microfibre",
+          "quantite": {
+            "valeur": 2,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "ou-lampe-frontale"
+        },
+        {
+          "id": "cs-gants-nitrile",
+          "quantite": {
+            "valeur": 2,
+            "unite": "piece"
+          }
+        },
+        {
+          "id": "cs-chiffons",
+          "quantite": {
+            "valeur": 100,
+            "unite": "g"
+          }
+        },
+        {
+          "id": "cs-essuie-mains",
+          "quantite": {
+            "valeur": 5,
+            "unite": "piece"
+          }
+        }
       ],
       "procedure": "pr-remise-en-route",
       "composants": [
@@ -3054,7 +4489,13 @@
       ],
       "mesure": "me-tension-batterie",
       "duree_diy_min": 45,
+      "duree_debutant_min": 90,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
+      "conditions": {
+        "fr": "Retirer le sac du silencieux avant de démarrer. Moto froide pour les niveaux (liquide de refroidissement) et les pressions. Premier démarrage dehors ou dans un lieu ventilé. Batterie lithium : jamais de booster ; sous 0 °C, la réveiller 30 s sur le chargeur ou feux allumés 1 à 2 min. Premiers kilomètres à allure modérée, loin de la circulation, en freinant plusieurs fois (disques parfois oxydés).",
+        "en": "Remove the silencer bag before starting. Cold bike for levels (coolant) and pressures. First start outdoors or in a ventilated place. Lithium battery: never a jump pack; below 0 °C, wake it up 30 s on the charger or with the lights on for 1 to 2 min. First kilometres at moderate speed, away from traffic, braking several times (discs may be oxidised)."
+      },
       "difficulte": 1,
       "faisable_soi_meme": true,
       "outillage_special": false,
@@ -3080,6 +4521,7 @@
       },
       "categorie": "electricite",
       "type": "diagnostic",
+      "famille": "entretien",
       "intervalle": {},
       "gravite": 3,
       "resume": {
@@ -3100,13 +4542,22 @@
         "ou-sp-020922y",
         "ou-sp-021017y"
       ],
+      "materiel": [],
       "composants": [
         "co-calculateur",
         "co-tableau-de-bord",
         "co-prise-diagnostic"
       ],
+      "duree_diy_min": 25,
+      "duree_debutant_min": 25,
       "temps_atelier_h": 0.4,
+      "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Concession uniquement (outil de diagnostic Aprilia, câble OBD Euro 5) : demander, numéro de cadre en main, les rappels et campagnes en attente. Batterie bien chargée pendant la mise à jour. Durées : temps atelier estimé.",
+        "en": "Dealer only (Aprilia diagnostic tool, Euro 5 OBD cable): ask, with the VIN to hand, for any pending recalls and campaigns. Battery well charged during the update. Durations: estimated workshop time."
+      },
       "faisable_soi_meme": false,
       "outillage_special": true,
       "garantie": {
@@ -3125,7 +4576,8 @@
         "src-tsb-ecu-2023",
         "src-tsb-pmp4-2025",
         "src-v4forum-wartung-p4"
-      ]
+      ],
+      "difficulte": 5
     },
     {
       "id": "op-reglage-suspensions-charge",
@@ -3135,6 +4587,7 @@
       },
       "categorie": "suspensions",
       "type": "regler",
+      "famille": "controle",
       "intervalle": {},
       "gravite": 3,
       "resume": {
@@ -3157,6 +4610,11 @@
         "ou-tournevis-plat",
         "ou-regle-graduee"
       ],
+      "materiel": [
+        {
+          "id": "ou-bac-magnetique"
+        }
+      ],
       "procedure": "pr-reglage-suspensions",
       "composants": [
         "co-amortisseur",
@@ -3165,9 +4623,15 @@
         "co-reglages-fourche"
       ],
       "duree_diy_min": 30,
+      "duree_debutant_min": 60,
       "temps_atelier_h": 0.3,
       "duree_diy_confiance": "incertain",
+      "duree_confiance": "incertain",
       "temps_atelier_confiance": "incertain",
+      "conditions": {
+        "fr": "Moto sur sa béquille, sol plat ; selles et flanc arrière gauche déposés pour l'amortisseur. Ne jamais forcer un réglage en butée ; compter clics et tours depuis la position fermée, même réglage sur les deux tubes de fourche. Essai sur route ensuite, à allure modérée ; revenir au réglage standard en solo.",
+        "en": "Bike on its stand, flat ground; seats and left rear side panel removed for the shock. Never force an adjuster against its stop; count clicks and turns from fully closed, same setting on both fork legs. Road test afterwards at moderate speed; go back to the standard setting when riding solo."
+      },
       "difficulte": 2,
       "faisable_soi_meme": true,
       "outillage_special": false,

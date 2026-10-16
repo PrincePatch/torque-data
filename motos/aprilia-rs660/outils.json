@@ -9,16 +9,17 @@
         "en": "4 mm hex key (T-handle)"
       },
       "taille": "4 mm",
-      "categorie": "cle-allen",
+      "categorie": "cle",
       "niveau": "courant",
       "operations": [
         "op-vidange-huile-filtre",
-        "op-niveau-liquide-frein",
+        "op-jeu-soupapes",
         "op-liquide-frein",
-        "op-batterie",
-        "op-reglage-suspensions-charge",
         "op-liquide-refroidissement",
-        "op-hivernage"
+        "op-niveau-liquide-frein",
+        "op-hivernage",
+        "op-remise-en-route",
+        "op-reglage-suspensions-charge"
       ],
       "note": {
         "fr": "Vis du bas de carénage (environ 3 par côté), des flancs arrière (fusible principal, réservoir de frein AR, réglage de détente de l'amortisseur), de la coque arrière et des flancs principaux. Nombre exact de vis du sabot non confirmé (6 ou 8)."
@@ -38,16 +39,14 @@
         "en": "Hex key and bit set (2.5 to 14 mm)"
       },
       "taille": "2,5 / 3 / 4 / 5 / 8 / 14 mm",
-      "categorie": "cle-allen",
+      "categorie": "cle",
       "niveau": "courant",
       "operations": [
-        "op-vidange-huile-filtre",
-        "op-plaquettes-avant",
-        "op-liquide-frein",
-        "op-batterie",
-        "op-liquide-refroidissement",
-        "op-reglage-suspensions-charge",
-        "op-pneu-avant"
+        "op-controle-filtre-air",
+        "op-remplacement-filtre-air",
+        "op-bougies",
+        "op-jeu-soupapes",
+        "op-serrage-boulonnerie"
       ],
       "note": {
         "fr": "Tailles utiles sur la RS 660 : 2,5 mm (carénage intérieur), 3 mm (petit carénage sous le phare), 4 mm (sabot, flancs, coque arrière), 5 mm (divers), 8 mm (vis d'étriers AV, en douille), 14 mm courte (axe de roue AV, en douille). Voir les entrées par taille."
@@ -72,11 +71,12 @@
       "categorie": "embout",
       "niveau": "courant",
       "operations": [
+        "op-controle-amortisseur-biellettes",
+        "op-huile-fourche",
+        "op-serrage-boulonnerie",
         "op-plaquettes-avant",
         "op-disques-frein",
-        "op-pneu-avant",
-        "op-controle-roues-roulements",
-        "op-controle-amortisseur-biellettes"
+        "op-pneu-avant"
       ],
       "note": {
         "fr": "Vis des étriers avant (TCC M10 × 55, 50 Nm) ; tient aussi la vis inférieure de l'amortisseur (avec une douille de 15 mm)."
@@ -118,10 +118,13 @@
       "categorie": "tournevis",
       "niveau": "courant",
       "operations": [
-        "op-niveau-liquide-frein",
-        "op-liquide-frein",
         "op-controle-filtre-air",
-        "op-remplacement-filtre-air"
+        "op-remplacement-filtre-air",
+        "op-bougies",
+        "op-jeu-soupapes",
+        "op-liquide-frein",
+        "op-liquide-refroidissement",
+        "op-niveau-liquide-frein"
       ],
       "note": {
         "fr": "Couvercle du réservoir de frein avant (2 vis), vis du carénage intérieur, 11 vis du couvercle de boîte à air (cruciformes selon un accessoiriste)."
@@ -159,7 +162,7 @@
         "en": "68 mm / 14-flute oil filter wrench"
       },
       "taille": "68 mm, 14 pans, carré 3/8\"",
-      "categorie": "vidange",
+      "categorie": "douille",
       "niveau": "courant",
       "operations": [
         "op-vidange-huile-filtre"
@@ -184,12 +187,15 @@
       "niveau": "courant",
       "operations": [
         "op-chaine-entretien",
-        "op-kit-chaine",
+        "op-controle-roues-roulements",
+        "op-serrage-boulonnerie",
+        "op-disques-frein",
         "op-pneu-arriere",
-        "op-controle-roues-roulements"
+        "op-kit-chaine"
       ],
       "note": {
-        "fr": "Écrou d'axe de roue arrière M20 × 1,5, serré à 120 Nm. Les écrous accessoires peuvent demander 27 mm (titane) ou 28 mm (alu)."
+        "fr": "Écrou d'axe de roue arrière M20 × 1,5, serré à 120 Nm : douille en carré 1/2 de pouce, à utiliser avec un cliquet ou une barre de force 1/2 pour débloquer et la clé dynamométrique 40-210 Nm pour serrer. Les écrous accessoires peuvent demander 27 mm (titane) ou 28 mm (alu).",
+        "en": "Rear axle nut M20 x 1.5, tightened to 120 Nm: 1/2 inch drive socket, used with a 1/2 ratchet or breaker bar to loosen and the 40-210 Nm torque wrench to tighten. Aftermarket nuts may need 27 mm (titanium) or 28 mm (aluminium)."
       },
       "confiance": "ok",
       "sources": [
@@ -207,7 +213,9 @@
       "categorie": "douille",
       "niveau": "courant",
       "operations": [
-        "op-batterie"
+        "op-batterie",
+        "op-hivernage",
+        "op-remise-en-route"
       ],
       "note": {
         "fr": "Vis centrale du plateau sous la selle (s'il est présent), écrou du garde-boue arrière, contre-écrous sous les supports de leviers."
@@ -227,8 +235,11 @@
       "categorie": "douille",
       "niveau": "courant",
       "operations": [
+        "op-jeu-soupapes",
+        "op-liquide-refroidissement",
         "op-batterie",
-        "op-liquide-refroidissement"
+        "op-hivernage",
+        "op-remise-en-route"
       ],
       "note": {
         "fr": "Vis latérales du plateau sous la selle (s'il est présent), une vis de chaque flanc principal, 8 vis du couvercle d'alternateur (12 Nm)."
@@ -266,13 +277,32 @@
       },
       "operations": [
         "op-vidange-huile-filtre",
-        "op-batterie",
+        "op-controle-filtre-air",
+        "op-remplacement-filtre-air",
+        "op-bougies",
+        "op-jeu-soupapes",
         "op-chaine-entretien",
-        "op-cable-embrayage",
-        "op-serrage-boulonnerie"
+        "op-controle-transmission",
+        "op-controle-amortisseur-biellettes",
+        "op-controle-roues-roulements",
+        "op-liquide-refroidissement",
+        "op-huile-fourche",
+        "op-reglage-phare",
+        "op-serrage-boulonnerie",
+        "op-niveau-liquide-refroidissement",
+        "op-plaquettes-avant",
+        "op-plaquettes-arriere",
+        "op-disques-frein",
+        "op-pneu-avant",
+        "op-pneu-arriere",
+        "op-kit-chaine",
+        "op-batterie",
+        "op-hivernage",
+        "op-remise-en-route"
       ],
       "note": {
-        "fr": "Base de l'outillage : vérifier qu'il contient les douilles de 8, 10 et 17 mm et des clés mixtes."
+        "fr": "Base de l'outillage : cliquets 1/4 et 1/2 de pouce (ou 3/8), douilles de 8, 10, 13, 14, 15 et 17 mm, rallonges, porte-embout. Choisir un coffret qui contient aussi des embouts six pans, Torx et cruciformes : il sert pour toutes les vis dont l'empreinte n'est pas encore relevée (cache et vis du réservoir, trappe du vase d'expansion, vis d'étrier arrière, écrous de couronne, vis de borne de batterie…).",
+        "en": "Core kit: 1/4 and 1/2 inch (or 3/8) ratchets, 8, 10, 13, 14, 15 and 17 mm sockets, extensions, bit holder. Pick a set that also contains hex, Torx and Phillips bits: it covers every screw whose head size has not been recorded yet (tank cover and bolts, expansion tank hatch, rear caliper bolts, sprocket nuts, battery terminal screws…)."
       },
       "confiance": "ok",
       "sources": [
@@ -289,8 +319,14 @@
       "categorie": "cle",
       "niveau": "courant",
       "operations": [
-        "op-cable-embrayage",
         "op-chaine-entretien",
+        "op-cable-embrayage",
+        "op-liquide-frein",
+        "op-liquide-refroidissement",
+        "op-huile-fourche",
+        "op-niveau-liquide-frein",
+        "op-disques-frein",
+        "op-pneu-arriere",
         "op-kit-chaine"
       ],
       "note": {
@@ -309,7 +345,7 @@
         "en": "1/4\" torque wrench 5-25 Nm"
       },
       "taille": "5-25 Nm",
-      "categorie": "cle-dynamometrique",
+      "categorie": "cle",
       "niveau": "courant",
       "prix": {
         "min": 49.2,
@@ -329,10 +365,17 @@
       "operations": [
         "op-vidange-huile-filtre",
         "op-bougies",
-        "op-serrage-boulonnerie"
+        "op-jeu-soupapes",
+        "op-controle-roues-roulements",
+        "op-huile-fourche",
+        "op-serrage-boulonnerie",
+        "op-disques-frein",
+        "op-pneu-avant",
+        "op-kit-chaine"
       ],
       "note": {
-        "fr": "Filtre à huile 15 Nm, bouchon de vidange 20 Nm, bougies 12 Nm, vis M6 10 à 12 Nm."
+        "fr": "Filtre à huile 15 Nm, bouchon de vidange 20 Nm, bougies et bobines 12 Nm, vis de levier de sélecteur 17 Nm, vis de blocage de l'axe avant 18 Nm, écrous de rétroviseurs 4 Nm (sous la plage : serrer très progressivement), vis M6 10 à 12 Nm. Carré 1/4 de pouce : prévoir un adaptateur 1/4 → 3/8 de pouce pour la clé à filtre cloche et les douilles 3/8.",
+        "en": "Oil filter 15 Nm, drain plug 20 Nm, spark plugs and coils 12 Nm, gear lever screw 17 Nm, front axle pinch bolt 18 Nm, mirror nuts 4 Nm (below the range: tighten very gradually), M6 screws 10 to 12 Nm. 1/4 inch drive: use a 1/4 to 3/8 inch adapter for the cup filter wrench and 3/8 sockets."
       },
       "confiance": "ok",
       "sources": [
@@ -347,7 +390,7 @@
         "en": "3/8\" torque wrench 20-120 Nm (main wrench)"
       },
       "taille": "20-120 Nm",
-      "categorie": "cle-dynamometrique",
+      "categorie": "cle",
       "niveau": "courant",
       "prix": {
         "min": 67.2,
@@ -365,18 +408,21 @@
         ]
       },
       "operations": [
+        "op-controle-transmission",
+        "op-controle-amortisseur-biellettes",
+        "op-controle-direction",
+        "op-controle-roues-roulements",
+        "op-huile-fourche",
+        "op-serrage-boulonnerie",
         "op-plaquettes-avant",
         "op-plaquettes-arriere",
         "op-disques-frein",
-        "op-chaine-entretien",
-        "op-kit-chaine",
         "op-pneu-avant",
-        "op-pneu-arriere",
-        "op-vidange-huile-filtre",
-        "op-serrage-boulonnerie"
+        "op-kit-chaine"
       ],
       "note": {
-        "fr": "Étriers AV 50 Nm, étrier AR 25 Nm, disques 25 Nm, couronne 50 Nm, axe AV 65 Nm, écrou d'axe AR 120 Nm (en haut de plage : une clé 40-210 Nm est plus confortable)."
+        "fr": "Étriers avant 50 Nm, étrier arrière 25 Nm, disques 25 Nm, couronne 50 Nm, vis de pignon 50 Nm, platine repose-pied 45 Nm, axe avant 65 Nm (avec la douille six pans de 14 mm). L'écrou d'axe arrière (120 Nm, douille de 26 mm en carré 1/2) se serre à la clé 40-210 Nm : 120 Nm est en butée haute de cette clé.",
+        "en": "Front calipers 50 Nm, rear caliper 25 Nm, discs 25 Nm, sprocket nuts 50 Nm, front sprocket bolt 50 Nm, footrest plate 45 Nm, front axle 65 Nm (with the 14 mm hex socket). The rear axle nut (120 Nm, 26 mm socket on a 1/2 drive) is tightened with the 40-210 Nm wrench: 120 Nm is at the very top of this one."
       },
       "confiance": "ok",
       "sources": [
@@ -411,12 +457,27 @@
         ]
       },
       "operations": [
+        "op-vidange-huile-filtre",
+        "op-jeu-soupapes",
         "op-chaine-entretien",
-        "op-kit-chaine",
-        "op-pneu-arriere",
+        "op-controle-transmission",
+        "op-controle-amortisseur-biellettes",
+        "op-controle-direction",
         "op-controle-roues-roulements",
+        "op-controle-contacteurs-securite",
+        "op-liquide-frein",
+        "op-liquide-refroidissement",
+        "op-huile-fourche",
+        "op-serrage-boulonnerie",
+        "op-plaquettes-avant",
+        "op-plaquettes-arriere",
+        "op-disques-frein",
+        "op-pneu-avant",
+        "op-pneu-arriere",
+        "op-kit-chaine",
+        "op-lavage",
         "op-hivernage",
-        "op-lavage"
+        "op-remise-en-route"
       ],
       "note": {
         "fr": "Bras oscillant large : certaines béquilles doivent être presque à leur largeur maximale."
@@ -437,10 +498,27 @@
       "categorie": "levage",
       "niveau": "courant",
       "operations": [
+        "op-vidange-huile-filtre",
+        "op-jeu-soupapes",
         "op-chaine-entretien",
-        "op-kit-chaine",
+        "op-controle-transmission",
+        "op-controle-amortisseur-biellettes",
+        "op-controle-direction",
+        "op-controle-roues-roulements",
+        "op-controle-contacteurs-securite",
+        "op-liquide-frein",
+        "op-liquide-refroidissement",
+        "op-huile-fourche",
+        "op-serrage-boulonnerie",
+        "op-plaquettes-avant",
+        "op-plaquettes-arriere",
+        "op-disques-frein",
+        "op-pneu-avant",
         "op-pneu-arriere",
-        "op-hivernage"
+        "op-kit-chaine",
+        "op-lavage",
+        "op-hivernage",
+        "op-remise-en-route"
       ],
       "note": {
         "fr": "Filetage M6 sur le bras oscillant (ex. Pit Bull F0013-000, Rizoma). Prix non relevé."
@@ -461,6 +539,7 @@
       "niveau": "courant",
       "operations": [
         "op-controle-pression-pneus",
+        "op-controle-usure-pneus",
         "op-hivernage",
         "op-remise-en-route"
       ],
@@ -481,7 +560,9 @@
       "categorie": "mesure",
       "niveau": "courant",
       "operations": [
-        "op-controle-usure-pneus"
+        "op-controle-pression-pneus",
+        "op-controle-usure-pneus",
+        "op-remise-en-route"
       ],
       "note": {
         "fr": "Profondeur minimale 2 mm avant et arrière, ou le minimum légal s'il est plus élevé. Prix non relevé."
@@ -501,6 +582,11 @@
       "niveau": "courant",
       "operations": [
         "op-chaine-entretien",
+        "op-huile-fourche",
+        "op-disques-frein",
+        "op-pneu-arriere",
+        "op-kit-chaine",
+        "op-remise-en-route",
         "op-reglage-suspensions-charge"
       ],
       "note": {
@@ -518,17 +604,37 @@
         "fr": "Brosse de nettoyage de chaîne",
         "en": "Chain cleaning brush"
       },
-      "categorie": "nettoyage",
+      "taille": "≈ 25 cm",
+      "categorie": "materiel",
       "niveau": "courant",
+      "prix": {
+        "min": 4.05,
+        "moy": 5.9,
+        "max": 20.9,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-lb-brosse-chaine"
+        ]
+      },
       "operations": [
-        "op-chaine-entretien"
+        "op-chaine-entretien",
+        "op-hivernage",
+        "op-remise-en-route"
       ],
       "note": {
-        "fr": "Nettoyage au pétrole ou au gazole avant graissage. Prix non relevé."
+        "fr": "Nettoyage de la chaîne au pétrole, au gazole ou au nettoyant compatible joints toriques, avant graissage. Une brosse à 3 faces nettoie le dessus et les deux flancs en une passe. Prix relevé : brosse One-Tek 25,5 cm (5,90 €) ; brosse Ipone 9,90 €.",
+        "en": "Cleaning the chain with paraffin, diesel or an O-ring-safe cleaner before lubricating. A three-sided brush cleans the top and both sides in one pass. Price: One-Tek 25.5 cm brush (EUR 5.90); Ipone brush EUR 9.90."
       },
       "confiance": "ok",
       "sources": [
-        "src-manuel-proprietaire#p178"
+        "src-manuel-proprietaire#p178",
+        "src-lb-brosse-chaine"
       ]
     },
     {
@@ -537,7 +643,7 @@
         "fr": "Repousse-piston ou levier plastique",
         "en": "Piston spreader or plastic lever"
       },
-      "categorie": "freins",
+      "categorie": "special",
       "niveau": "courant",
       "operations": [
         "op-plaquettes-avant",
@@ -557,9 +663,10 @@
         "fr": "Pince et petit chasse-goupille",
         "en": "Pliers and small pin punch"
       },
-      "categorie": "freins",
+      "categorie": "pince",
       "niveau": "courant",
       "operations": [
+        "op-jeu-soupapes",
         "op-plaquettes-avant",
         "op-plaquettes-arriere"
       ],
@@ -578,7 +685,7 @@
         "fr": "Pince à fusibles",
         "en": "Fuse puller"
       },
-      "categorie": "electricite",
+      "categorie": "pince",
       "niveau": "courant",
       "operations": [
         "op-controle-eclairage",
@@ -655,41 +762,82 @@
     {
       "id": "ou-bac-vidange",
       "nom": {
-        "fr": "Bac de vidange (3 L minimum)",
-        "en": "Drain pan (3 L minimum)"
+        "fr": "Bac de vidange (6 L conseillé, 3 L minimum)",
+        "en": "Drain pan (6 L recommended, 3 L minimum)"
       },
-      "categorie": "vidange",
+      "taille": "6 L",
+      "categorie": "materiel",
       "niveau": "courant",
+      "prix": {
+        "min": 4.5,
+        "moy": 7.0,
+        "max": 46.8,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-lb-bac-vidange-6l"
+        ]
+      },
       "operations": [
         "op-vidange-huile-filtre",
-        "op-liquide-refroidissement"
+        "op-liquide-refroidissement",
+        "op-huile-fourche"
       ],
       "note": {
-        "fr": "2,7 L d'huile à récupérer ; huile usagée à rapporter en déchetterie. Prix non relevé."
+        "fr": "Huile : 2,7 L à récupérer ; liquide de refroidissement : 1,8 L. Un bac de 6 L à bec verseur se transvase proprement dans le bidon de récupération. Huile et liquide de refroidissement usagés se rapportent séparément en déchetterie, jamais mélangés. Prix relevé : bac Oxford 6 L (7,00 €) ; fourchette 4,50 à 46,80 € pour les bacs d'au moins 5 L.",
+        "en": "Oil: 2.7 L to catch; coolant: 1.8 L. A 6 L pan with a spout pours cleanly into the waste container. Take used oil and coolant to a recycling centre separately, never mixed. Price: Oxford 6 L pan (EUR 7.00); EUR 4.50 to 46.80 for pans of 5 L or more."
       },
       "confiance": "ok",
       "sources": [
-        "src-manuel-proprietaire#p142"
+        "src-manuel-proprietaire#p142",
+        "src-manuel-atelier#p59",
+        "src-lb-bac-vidange-6l"
       ]
     },
     {
       "id": "ou-entonnoir",
       "nom": {
-        "fr": "Entonnoir propre",
-        "en": "Clean funnel"
+        "fr": "Entonnoir propre à bec flexible",
+        "en": "Clean funnel with flexible spout"
       },
-      "categorie": "vidange",
+      "taille": "Ø 160 mm, bec flexible",
+      "categorie": "materiel",
       "niveau": "courant",
+      "prix": {
+        "min": 1.5,
+        "moy": 10.2,
+        "max": 57.6,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-lb-entonnoir-pressol"
+        ]
+      },
       "operations": [
         "op-vidange-huile-filtre",
-        "op-liquide-refroidissement"
+        "op-liquide-refroidissement",
+        "op-niveau-huile",
+        "op-niveau-liquide-refroidissement"
       ],
       "note": {
-        "fr": "Prix non relevé."
+        "fr": "Remplissage d'huile (orifice du bouchon-jauge, côté droit du moteur), du vase d'expansion et du radiateur : le bec flexible évite de verser sur le carénage et l'échappement. Le manuel exige un entonnoir parfaitement propre ; en réserver un à l'huile et un au liquide de refroidissement. Prix relevé : Pressol Ø 160 mm à bec flexible (10,20 €).",
+        "en": "Filling oil (dipstick hole, right side of the engine), the expansion tank and the radiator: the flexible spout avoids spilling on the fairing and exhaust. The manual requires a perfectly clean funnel; keep one for oil and one for coolant. Price: Pressol 160 mm funnel with flexible spout (EUR 10.20)."
       },
       "confiance": "ok",
       "sources": [
-        "src-manuel-proprietaire#p142"
+        "src-manuel-proprietaire#p142",
+        "src-manuel-proprietaire#p148",
+        "src-lb-entonnoir-pressol"
       ]
     },
     {
@@ -699,9 +847,10 @@
         "en": "2.5 mm hex key"
       },
       "taille": "2,5 mm",
-      "categorie": "cle-allen",
+      "categorie": "cle",
       "niveau": "complet",
       "operations": [
+        "op-jeu-soupapes",
         "op-liquide-refroidissement"
       ],
       "note": {
@@ -721,7 +870,7 @@
         "en": "3 mm hex key"
       },
       "taille": "3 mm",
-      "categorie": "cle-allen",
+      "categorie": "cle",
       "niveau": "complet",
       "operations": [
         "op-liquide-refroidissement"
@@ -741,7 +890,7 @@
         "en": "5 mm hex key"
       },
       "taille": "5 mm",
-      "categorie": "cle-allen",
+      "categorie": "cle",
       "niveau": "complet",
       "operations": [],
       "note": {
@@ -762,9 +911,11 @@
       "categorie": "embout",
       "niveau": "complet",
       "operations": [
-        "op-pneu-avant",
         "op-controle-roues-roulements",
-        "op-disques-frein"
+        "op-huile-fourche",
+        "op-serrage-boulonnerie",
+        "op-disques-frein",
+        "op-pneu-avant"
       ],
       "note": {
         "fr": "Axe de roue avant M16, serré à 65 Nm."
@@ -823,8 +974,9 @@
       "categorie": "embout",
       "niveau": "complet",
       "operations": [
-        "op-controle-amortisseur-biellettes",
-        "op-liquide-refroidissement"
+        "op-jeu-soupapes",
+        "op-liquide-refroidissement",
+        "op-serrage-boulonnerie"
       ],
       "note": {
         "fr": "Vis de l'entourage de radiateur (taille non précisée), garde-boue arrière de roue et cache de bras oscillant."
@@ -934,7 +1086,7 @@
         "en": "1/2\" torque wrench 40-210 Nm"
       },
       "taille": "40-210 Nm",
-      "categorie": "cle-dynamometrique",
+      "categorie": "cle",
       "niveau": "complet",
       "prix": {
         "min": 76.8,
@@ -954,13 +1106,17 @@
       },
       "operations": [
         "op-chaine-entretien",
-        "op-kit-chaine",
-        "op-pneu-arriere",
         "op-controle-amortisseur-biellettes",
-        "op-controle-direction"
+        "op-controle-direction",
+        "op-controle-roues-roulements",
+        "op-serrage-boulonnerie",
+        "op-disques-frein",
+        "op-pneu-arriere",
+        "op-kit-chaine"
       ],
       "note": {
-        "fr": "Écrou d'axe AR 120 Nm, axe de bras oscillant 110 Nm, écrou de té supérieur 100 Nm ; écrou d'embrayage 175 Nm et vis de rotor 195 Nm en démontage moteur."
+        "fr": "Écrou d'axe arrière 120 Nm (douille de 26 mm en carré 1/2), écrou d'axe de bras oscillant 110 Nm, écrou de té supérieur 100 Nm ; écrou d'embrayage 175 Nm et vis de rotor 195 Nm en démontage moteur.",
+        "en": "Rear axle nut 120 Nm (26 mm socket on a 1/2 drive), swingarm pivot nut 110 Nm, top yoke nut 100 Nm; clutch nut 175 Nm and rotor bolt 195 Nm when stripping the engine."
       },
       "confiance": "ok",
       "sources": [
@@ -976,15 +1132,18 @@
         "en": "Torque screwdriver 1-5 Nm"
       },
       "taille": "1-5 Nm",
-      "categorie": "cle-dynamometrique",
+      "categorie": "tournevis",
       "niveau": "complet",
       "operations": [
         "op-controle-filtre-air",
         "op-remplacement-filtre-air",
-        "op-bougies"
+        "op-bougies",
+        "op-jeu-soupapes",
+        "op-huile-fourche"
       ],
       "note": {
-        "fr": "11 vis du couvercle de boîte à air serrées à 1-1,2 Nm (plastique), capteurs 0,5 à 1,2 Nm. Prix non relevé."
+        "fr": "11 vis du couvercle de boîte à air 1 à 1,2 Nm (plastique), vis de bride de pompe à essence 4 Nm, garde-boue avant 3 Nm, capteurs 0,5 à 1,2 Nm. Vis de bulle à 0,5 Nm : sous la plage de l'outil, serrer juste au contact. Prix non relevé.",
+        "en": "11 airbox cover screws 1 to 1.2 Nm (plastic), fuel pump flange screws 4 Nm, front mudguard 3 Nm, sensors 0.5 to 1.2 Nm. Screen screws at 0.5 Nm: below the tool's range, just snug them. Price not recorded."
       },
       "confiance": "une_source",
       "sources": [
@@ -1016,9 +1175,9 @@
         ]
       },
       "operations": [
+        "op-huile-fourche",
+        "op-disques-frein",
         "op-pneu-avant",
-        "op-controle-roues-roulements",
-        "op-controle-direction",
         "op-hivernage"
       ],
       "note": {
@@ -1039,10 +1198,11 @@
       "categorie": "levage",
       "niveau": "complet",
       "operations": [
-        "op-pneu-avant",
+        "op-controle-direction",
+        "op-controle-roues-roulements",
         "op-huile-fourche",
-        "op-controle-joints-spi-fourche",
-        "op-controle-direction"
+        "op-disques-frein",
+        "op-pneu-avant"
       ],
       "note": {
         "fr": "Un propriétaire signale qu'un pion n° 31 est très juste (câbles sous le té inférieur, bouchon de colonne difficile à retirer). Prix non relevé."
@@ -1060,7 +1220,7 @@
         "fr": "Kit de purge des freins",
         "en": "Brake bleeding kit"
       },
-      "categorie": "freins",
+      "categorie": "special",
       "niveau": "complet",
       "prix": {
         "min": 14.29,
@@ -1096,7 +1256,7 @@
         "fr": "Seringue de remplissage",
         "en": "Filling syringe"
       },
-      "categorie": "atelier",
+      "categorie": "materiel",
       "niveau": "complet",
       "prix": {
         "min": 11.9,
@@ -1115,8 +1275,8 @@
         ]
       },
       "operations": [
-        "op-huile-fourche",
-        "op-liquide-frein"
+        "op-liquide-frein",
+        "op-huile-fourche"
       ],
       "note": {
         "fr": "Réglage du niveau d'huile de fourche (98 mm) et appoints."
@@ -1152,6 +1312,7 @@
         ]
       },
       "operations": [
+        "op-bougies",
         "op-jeu-soupapes"
       ],
       "note": {
@@ -1173,6 +1334,7 @@
       "niveau": "complet",
       "operations": [
         "op-jeu-soupapes",
+        "op-controle-freins",
         "op-disques-frein"
       ],
       "note": {
@@ -1211,7 +1373,7 @@
         "en": "520 chain breaker and riveting tool"
       },
       "taille": "pas 520",
-      "categorie": "chaine",
+      "categorie": "special",
       "niveau": "complet",
       "prix": {
         "min": 28.99,
@@ -1248,13 +1410,12 @@
         "fr": "Jauge d'usure de chaîne",
         "en": "Chain wear gauge"
       },
-      "categorie": "chaine",
+      "categorie": "mesure",
       "niveau": "complet",
       "ref_aprilia": "Ognibene 529510001",
       "operations": [
-        "op-controle-transmission",
         "op-chaine-entretien",
-        "op-kit-chaine"
+        "op-controle-transmission"
       ],
       "note": {
         "fr": "Mesure sur 8 maillons ; remplacer la chaîne à 3 % d'allongement. Instrument Ognibene listé par le manuel d'atelier. Prix non relevé."
@@ -1270,7 +1431,7 @@
         "fr": "Clé à ergot (crochet)",
         "en": "Hook (C) spanner"
       },
-      "categorie": "suspension",
+      "categorie": "cle",
       "niveau": "complet",
       "operations": [
         "op-reglage-suspensions-charge"
@@ -1289,7 +1450,7 @@
         "fr": "Tournevis plat (vis de détente)",
         "en": "Flat screwdriver (rebound screws)"
       },
-      "categorie": "suspension",
+      "categorie": "tournevis",
       "niveau": "complet",
       "operations": [
         "op-reglage-suspensions-charge"
@@ -1308,7 +1469,7 @@
         "fr": "Arrache-roulement et extracteur de joint",
         "en": "Bearing puller and seal extractor"
       },
-      "categorie": "roulements",
+      "categorie": "special",
       "niveau": "complet",
       "operations": [
         "op-controle-roues-roulements"
@@ -1328,11 +1489,9 @@
         "fr": "Pince à circlips",
         "en": "Circlip pliers"
       },
-      "categorie": "roulements",
+      "categorie": "pince",
       "niveau": "complet",
-      "operations": [
-        "op-controle-roues-roulements"
-      ],
+      "operations": [],
       "note": {
         "fr": "Circlips des roulements de roues. Prix non relevé."
       },
@@ -1347,11 +1506,13 @@
         "fr": "Pince à colliers et coupe-colliers",
         "en": "Hose clamp pliers and cable-tie cutter"
       },
-      "categorie": "atelier",
+      "categorie": "pince",
       "niveau": "complet",
       "operations": [
-        "op-bougies",
+        "op-controle-filtre-air",
         "op-remplacement-filtre-air",
+        "op-bougies",
+        "op-jeu-soupapes",
         "op-liquide-refroidissement"
       ],
       "note": {
@@ -1369,11 +1530,14 @@
         "fr": "Maillet plastique",
         "en": "Plastic mallet"
       },
-      "categorie": "atelier",
+      "categorie": "special",
       "niveau": "complet",
       "operations": [
+        "op-huile-fourche",
+        "op-disques-frein",
+        "op-pneu-avant",
         "op-pneu-arriere",
-        "op-pneu-avant"
+        "op-kit-chaine"
       ],
       "note": {
         "fr": "Extraction et remise en place des axes de roue. Prix non relevé."
@@ -1406,7 +1570,7 @@
         "fr": "Tire-ressort d'échappement",
         "en": "Exhaust spring puller"
       },
-      "categorie": "atelier",
+      "categorie": "special",
       "niveau": "complet",
       "operations": [],
       "note": {
@@ -1423,7 +1587,7 @@
         "fr": "Pince à dénuder",
         "en": "Wire stripper"
       },
-      "categorie": "electricite",
+      "categorie": "pince",
       "niveau": "complet",
       "operations": [],
       "note": {
@@ -1816,9 +1980,7 @@
       "categorie": "special",
       "niveau": "special",
       "ref_aprilia": "020376Y",
-      "operations": [
-        "op-controle-roues-roulements"
-      ],
+      "operations": [],
       "note": {
         "fr": "Pose des roulements et joints de roue, avec l'adaptateur 020358Y."
       },
@@ -1836,9 +1998,7 @@
       "categorie": "special",
       "niveau": "special",
       "ref_aprilia": "020358Y",
-      "operations": [
-        "op-controle-roues-roulements"
-      ],
+      "operations": [],
       "note": {
         "fr": "Roulements et joints de roue avant, avec le manche 020376Y."
       },
@@ -1856,9 +2016,7 @@
       "categorie": "special",
       "niveau": "special",
       "ref_aprilia": "020414Y",
-      "operations": [
-        "op-controle-roues-roulements"
-      ],
+      "operations": [],
       "note": {
         "fr": "Roulements. Correspondance code-désignation à confirmer."
       },
@@ -1898,8 +2056,7 @@
       "niveau": "special",
       "ref_aprilia": "AP8140145",
       "operations": [
-        "op-huile-fourche",
-        "op-controle-joints-spi-fourche"
+        "op-huile-fourche"
       ],
       "note": {
         "fr": "Fourche Kayaba. Correspondance code-désignation à confirmer."
@@ -1919,8 +2076,7 @@
       "niveau": "special",
       "ref_aprilia": "AP8140146",
       "operations": [
-        "op-huile-fourche",
-        "op-controle-joints-spi-fourche"
+        "op-huile-fourche"
       ],
       "note": {
         "fr": "Fourche Kayaba. Correspondance code-désignation à confirmer."
@@ -1940,8 +2096,7 @@
       "niveau": "special",
       "ref_aprilia": "AP8140149",
       "operations": [
-        "op-huile-fourche",
-        "op-controle-joints-spi-fourche"
+        "op-huile-fourche"
       ],
       "note": {
         "fr": "Fourche Kayaba. Correspondance code-désignation à confirmer."
@@ -1977,13 +2132,13 @@
         "fr": "Outil de diagnostic Aprilia",
         "en": "Aprilia diagnostic tool"
       },
-      "categorie": "diagnostic",
+      "categorie": "special",
       "niveau": "special",
       "ref_aprilia": "020922Y",
       "operations": [
         "op-diagnostic-outil",
-        "op-mise-a-jour-logiciel",
-        "op-liquide-frein"
+        "op-liquide-frein",
+        "op-mise-a-jour-logiciel"
       ],
       "note": {
         "fr": "Lecture des défauts, mise à jour de la calibration à chaque entretien, purge ABS avant (« FRONT BLEEDING »). Outil de concession."
@@ -2001,13 +2156,12 @@
         "fr": "Câble OBD pour véhicules Euro 5",
         "en": "OBD cable for Euro 5 vehicles"
       },
-      "categorie": "diagnostic",
+      "categorie": "special",
       "niveau": "special",
       "ref_aprilia": "021017Y",
       "operations": [
         "op-diagnostic-outil",
-        "op-mise-a-jour-logiciel",
-        "op-liquide-frein"
+        "op-mise-a-jour-logiciel"
       ],
       "note": {
         "fr": "Relie l'outil de diagnostic 020922Y à la moto."
@@ -2015,6 +2169,616 @@
       "confiance": "ok",
       "sources": [
         "src-manuel-atelier#p53"
+      ]
+    },
+    {
+      "id": "ou-lampe-frontale",
+      "nom": {
+        "fr": "Lampe frontale LED (ou baladeuse)",
+        "en": "LED head torch (or inspection lamp)"
+      },
+      "taille": "≈ 350 lm, rechargeable",
+      "categorie": "materiel",
+      "niveau": "courant",
+      "prix": {
+        "min": 12.6,
+        "moy": 16.5,
+        "max": 101.3,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-lb-lampe-frontale"
+        ]
+      },
+      "operations": [
+        "op-vidange-huile-filtre",
+        "op-controle-filtre-air",
+        "op-remplacement-filtre-air",
+        "op-bougies",
+        "op-jeu-soupapes",
+        "op-controle-transmission",
+        "op-controle-amortisseur-biellettes",
+        "op-controle-roues-roulements",
+        "op-controle-freins",
+        "op-controle-refroidissement",
+        "op-liquide-refroidissement",
+        "op-controle-joints-spi-fourche",
+        "op-niveau-huile",
+        "op-remise-en-route"
+      ],
+      "note": {
+        "fr": "Garde les deux mains libres pour lire la jauge d'huile (réputée difficile à lire), voir l'usure des plaquettes à travers les étriers, le patin de chaîne ou une fuite sous le moteur. Prix relevé : JBM 350 lm rechargeable (16,50 €) ; baladeuse LED filaire JBM 400 lm : 17,40 €.",
+        "en": "Keeps both hands free to read the oil dipstick (known to be hard to read), see pad wear through the calipers, the chain slider or a leak under the engine. Price: JBM 350 lm rechargeable (EUR 16.50); JBM 400 lm corded LED inspection lamp: EUR 17.40."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-lb-lampe-frontale"
+      ]
+    },
+    {
+      "id": "ou-tapis-protection",
+      "nom": {
+        "fr": "Tapis absorbant de sol (ou grand carton)",
+        "en": "Absorbent floor mat (or large cardboard sheet)"
+      },
+      "taille": "≈ 100 × 200 cm",
+      "categorie": "materiel",
+      "niveau": "courant",
+      "prix": {
+        "min": 33.68,
+        "moy": 64.9,
+        "max": 168.7,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-lb-tapis-ipone"
+        ]
+      },
+      "operations": [
+        "op-vidange-huile-filtre",
+        "op-controle-filtre-air",
+        "op-remplacement-filtre-air",
+        "op-bougies",
+        "op-jeu-soupapes",
+        "op-chaine-entretien",
+        "op-liquide-refroidissement",
+        "op-huile-fourche",
+        "op-disques-frein",
+        "op-kit-chaine"
+      ],
+      "note": {
+        "fr": "Sous la moto pendant la vidange, le remplacement du liquide de refroidissement et le nettoyage de la chaîne : protège le sol des coulures et des projections ; on y pose aussi réservoir, roue ou carénages déposés. Un grand carton fait l'affaire gratuitement. Prix relevé : tapis environnemental Ipone 100 × 200 cm (64,90 €) ; tapis non absorbant BikeTek 190 × 80 cm : 49,00 €.",
+        "en": "Under the bike during oil changes, coolant changes and chain cleaning: protects the floor from drips and spray; also somewhere to lay a removed tank, wheel or fairing. A large sheet of cardboard does the job for free. Price: Ipone 100 x 200 cm environmental mat (EUR 64.90); BikeTek 190 x 80 cm non-absorbent mat: EUR 49.00."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-lb-tapis-ipone"
+      ]
+    },
+    {
+      "id": "ou-seau-lavage",
+      "nom": {
+        "fr": "Seau de lavage avec grille (20 L)",
+        "en": "Wash bucket with grit guard (20 L)"
+      },
+      "taille": "20 L",
+      "categorie": "materiel",
+      "niveau": "courant",
+      "prix": {
+        "min": 23.0,
+        "moy": 23.0,
+        "max": 23.0,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-lb-seau-oxford"
+        ]
+      },
+      "operations": [
+        "op-lavage",
+        "op-hivernage"
+      ],
+      "note": {
+        "fr": "Pour le shampooing dilué à 2 à 4 % dans l'eau (manuel) ; la grille au fond retient le sable qui rayerait la peinture. Prix relevé : seau Oxford 20 L avec grille (23,00 €).",
+        "en": "For shampoo diluted to 2 to 4% in water (manual); the grit guard at the bottom traps sand that would scratch the paint. Price: Oxford 20 L bucket with grit guard (EUR 23.00)."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-lb-seau-oxford",
+        "src-manuel-proprietaire#p172"
+      ]
+    },
+    {
+      "id": "ou-eponge-lavage",
+      "nom": {
+        "fr": "Éponge douce de carrosserie",
+        "en": "Soft body sponge"
+      },
+      "categorie": "materiel",
+      "niveau": "courant",
+      "prix": {
+        "min": 2.1,
+        "moy": 8.6,
+        "max": 22.4,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-lb-eponge-arexons"
+        ]
+      },
+      "operations": [
+        "op-lavage",
+        "op-hivernage"
+      ],
+      "note": {
+        "fr": "Le manuel prescrit une éponge douce de carrosserie bien imbibée de shampooing ; jamais d'éponge à face abrasive ni de brosse dure sur les plastiques et la peinture. Prix relevé : éponge Arexons super absorbante (8,60 €).",
+        "en": "The manual calls for a soft body sponge well soaked in shampoo; never an abrasive-faced sponge or a hard brush on plastics and paint. Price: Arexons super-absorbent sponge (EUR 8.60)."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-lb-eponge-arexons",
+        "src-manuel-proprietaire#p172"
+      ]
+    },
+    {
+      "id": "ou-chiffons-microfibre",
+      "nom": {
+        "fr": "Chiffons microfibres propres (boîte de 20)",
+        "en": "Clean microfibre cloths (box of 20)"
+      },
+      "taille": "23,5 × 23,5 cm",
+      "categorie": "materiel",
+      "niveau": "courant",
+      "prix": {
+        "moy": 9.0,
+        "devise": "EUR",
+        "par": {
+          "valeur": 20,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-lb-microfibres"
+        ]
+      },
+      "operations": [
+        "op-controle-filtre-air",
+        "op-remplacement-filtre-air",
+        "op-bougies",
+        "op-jeu-soupapes",
+        "op-liquide-refroidissement",
+        "op-lavage",
+        "op-hivernage",
+        "op-remise-en-route"
+      ],
+      "note": {
+        "fr": "Chiffons propres et doux, lavables : poser une pièce peinte (coque, flancs, réservoir), boucher un conduit d'admission ouvert, essuyer l'intérieur de la boîte à air, nettoyer le tableau de bord (chiffon doux et humide selon le manuel) et l'optique. Ne pas les réutiliser pour l'huile. Prix relevé : boîte dévidoir de 20 microfibres Planet Line (9,00 €) ; 6 microfibres Oxford 30 × 40 cm : 8,40 €.",
+        "en": "Clean, soft, washable cloths: lay a painted part on them (tail, side panels, tank), plug an open intake duct, wipe the inside of the airbox, clean the dashboard (soft damp cloth per the manual) and the headlight. Do not reuse them for oil. Price: Planet Line dispenser box of 20 microfibres (EUR 9.00); 6 Oxford 30 x 40 cm microfibres: EUR 8.40."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-lb-microfibres",
+        "src-manuel-proprietaire#p171"
+      ]
+    },
+    {
+      "id": "ou-pinceau",
+      "nom": {
+        "fr": "Pinceau de nettoyage",
+        "en": "Cleaning brush (paintbrush)"
+      },
+      "categorie": "materiel",
+      "niveau": "courant",
+      "prix": {
+        "min": 2.4,
+        "moy": 2.4,
+        "max": 14.2,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-lb-pinceau"
+        ]
+      },
+      "operations": [
+        "op-bougies",
+        "op-lavage",
+        "op-lubrification-articulations"
+      ],
+      "note": {
+        "fr": "Le manuel cite les pinceaux pour nettoyer l'extérieur du moteur au dégraissant ; sert aussi à dépoussiérer les puits de bougies avant de les dévisser et à étaler la graisse sur les articulations. Prix relevé : pinceau de précision Twin Air (2,40 €) ; kit Oxford de 5 pinceaux : 11,99 €.",
+        "en": "The manual mentions brushes to clean the outside of the engine with degreaser; also used to dust out the spark plug wells before unscrewing and to spread grease on pivots. Price: Twin Air precision brush (EUR 2.40); Oxford set of 5 brushes: EUR 11.99."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-lb-pinceau",
+        "src-manuel-proprietaire#p172"
+      ]
+    },
+    {
+      "id": "ou-bidon-huile-usagee",
+      "nom": {
+        "fr": "Bidon de récupération d'huile usagée (10 L)",
+        "en": "Used oil container (10 L)"
+      },
+      "taille": "10 L",
+      "categorie": "materiel",
+      "niveau": "courant",
+      "prix": {
+        "min": 19.9,
+        "moy": 21.9,
+        "max": 28.9,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-lb-eco-tank"
+        ]
+      },
+      "operations": [
+        "op-vidange-huile-filtre"
+      ],
+      "note": {
+        "fr": "Bidon fermé pour transporter l'huile usagée jusqu'à la déchetterie ou au garage (le manuel interdit de la jeter dans la nature) ; 10 L = 3 vidanges. Les bidons vides d'huile neuve font aussi l'affaire. Prix relevé : Eco-tank Rtech 10 L (21,90 €) ; 6 L 19,90 € ; 12 L 28,90 €.",
+        "en": "Closed container to carry used oil to a recycling centre or garage (the manual forbids dumping it); 10 L = 3 oil changes. Empty new-oil bottles also work. Price: Rtech Eco-tank 10 L (EUR 21.90); 6 L EUR 19.90; 12 L EUR 28.90."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-lb-eco-tank",
+        "src-manuel-proprietaire#p14"
+      ]
+    },
+    {
+      "id": "ou-tuyau-purge",
+      "nom": {
+        "fr": "Tuyau transparent de purge (Ø 5 × 8 mm)",
+        "en": "Clear bleed hose (5 x 8 mm)"
+      },
+      "taille": "Ø intérieur 5 mm, extérieur 8 mm ; 50 cm suffisent",
+      "categorie": "materiel",
+      "niveau": "complet",
+      "prix": {
+        "min": 2.4,
+        "moy": 3.0,
+        "max": 4.9,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "m"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-lb-durite-cristal"
+        ]
+      },
+      "operations": [
+        "op-liquide-frein"
+      ],
+      "note": {
+        "fr": "Emmanché sur la vis de purge, l'autre bout plongé dans une bouteille contenant un fond de liquide neuf : on voit sortir les bulles. Inutile si le kit de purge a déjà son tuyau. Diamètre de la vis de purge non relevé : vérifier que le tuyau serre bien. Prix relevé : durite cristal PVC 5 × 8 mm (3,00 € le mètre) ; purgeur universel à clapet anti-retour : 13,20 €.",
+        "en": "Pushed onto the bleed nipple, the other end in a bottle with a little fresh fluid: you can see the bubbles come out. Not needed if the bleed kit already has its hose. Bleed nipple size not recorded: check the hose fits snugly. Price: 5 x 8 mm clear PVC hose (EUR 3.00 per metre); universal one-way-valve bleeder: EUR 13.20."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-lb-durite-cristal",
+        "src-lb-purgeur-clapet",
+        "src-manuel-atelier#p359"
+      ]
+    },
+    {
+      "id": "ou-aimant-telescopique",
+      "nom": {
+        "fr": "Aimant télescopique",
+        "en": "Telescopic magnetic pick-up"
+      },
+      "taille": "90 à 810 mm",
+      "categorie": "materiel",
+      "niveau": "complet",
+      "prix": {
+        "min": 4.9,
+        "moy": 9.0,
+        "max": 29.9,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-lb-aimant-telescopique"
+        ]
+      },
+      "operations": [
+        "op-controle-filtre-air",
+        "op-remplacement-filtre-air",
+        "op-bougies",
+        "op-jeu-soupapes"
+      ],
+      "note": {
+        "fr": "Récupère une vis ou une rondelle tombée dans le carénage, la boîte à air ou le moteur ; le manuel d'atelier sort le tendeur de distribution, les poussoirs et les pastilles de soupapes à l'aimant. Prix relevé : aimant télescopique JBM avec LED (9,00 €).",
+        "en": "Retrieves a screw or washer dropped into the fairing, airbox or engine; the workshop manual removes the cam chain tensioner, buckets and valve shims with a magnet. Price: JBM telescopic magnet with LED (EUR 9.00)."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-lb-aimant-telescopique",
+        "src-manuel-atelier#p70"
+      ]
+    },
+    {
+      "id": "ou-lunettes-protection",
+      "nom": {
+        "fr": "Lunettes de protection",
+        "en": "Safety glasses"
+      },
+      "categorie": "protection",
+      "niveau": "courant",
+      "prix": {
+        "min": 7.99,
+        "moy": 7.99,
+        "max": 7.99,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-castorama-lunettes"
+        ]
+      },
+      "operations": [
+        "op-vidange-huile-filtre",
+        "op-chaine-entretien",
+        "op-liquide-frein",
+        "op-liquide-refroidissement",
+        "op-niveau-liquide-frein",
+        "op-plaquettes-avant",
+        "op-plaquettes-arriere",
+        "op-disques-frein",
+        "op-kit-chaine"
+      ],
+      "note": {
+        "fr": "Obligatoires selon le manuel pour toute intervention sur les freins (le liquide de frein est extrêmement nocif pour les yeux) ; aussi pour travailler sous la moto (huile chaude, liquide de refroidissement) et avec un aérosol (nettoyant chaîne ou freins). Prix relevé : lunettes transparentes Site 2101 chez Castorama (7,99 €).",
+        "en": "Required by the manual for any brake work (brake fluid is extremely harmful to the eyes); also when working under the bike (hot oil, coolant) and with aerosols (chain or brake cleaner). Price: Site 2101 clear glasses at Castorama (EUR 7.99)."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-castorama-lunettes",
+        "src-manuel-proprietaire#p14"
+      ]
+    },
+    {
+      "id": "ou-gants-mecanique",
+      "nom": {
+        "fr": "Gants de mécanicien",
+        "en": "Mechanic's gloves"
+      },
+      "taille": "M à XL",
+      "categorie": "protection",
+      "niveau": "courant",
+      "prix": {
+        "min": 1.9,
+        "moy": 8.08,
+        "max": 42.5,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-lb-gants-mecanique"
+        ]
+      },
+      "operations": [
+        "op-kit-chaine"
+      ],
+      "note": {
+        "fr": "Gants fins réutilisables pour les travaux de force (roue arrière, kit chaîne, échappement) : protègent des arêtes de la couronne et des pièces chaudes ; le manuel demande des gants isolants pour toucher moteur ou échappement encore chauds. Pour les fluides, préférer les gants nitrile jetables. Prix relevé : Draper, la paire (8,08 € ; XL 8,60 €).",
+        "en": "Thin reusable gloves for heavy jobs (rear wheel, chain kit, exhaust): protect from sprocket teeth and hot parts; the manual asks for insulating gloves to touch a still-hot engine or exhaust. For fluids, use disposable nitrile gloves. Price: Draper, per pair (EUR 8.08; XL EUR 8.60)."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-lb-gants-mecanique",
+        "src-manuel-proprietaire#p12"
+      ]
+    },
+    {
+      "id": "ou-housse-moto",
+      "nom": {
+        "fr": "Housse de moto respirante (intérieur)",
+        "en": "Breathable indoor bike cover"
+      },
+      "taille": "M (L pour une moto équipée d'un top case)",
+      "categorie": "materiel",
+      "niveau": "courant",
+      "prix": {
+        "min": 34.9,
+        "moy": 34.9,
+        "max": 79.95,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-lb-housse-dormex"
+        ]
+      },
+      "operations": [
+        "op-hivernage"
+      ],
+      "note": {
+        "fr": "Le manuel demande de couvrir la moto remisée sans plastique ni matière imperméable : une housse respirante laisse sortir l'humidité. Prix relevé : Oxford Dormex taille M (34,90 € ; taille L 36,90 €).",
+        "en": "The manual says to cover the stored bike without plastic or waterproof material: a breathable cover lets moisture out. Price: Oxford Dormex size M (EUR 34.90; size L EUR 36.90)."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-lb-housse-dormex",
+        "src-manuel-proprietaire#p170"
+      ]
+    },
+    {
+      "id": "ou-serviette-sechage",
+      "nom": {
+        "fr": "Serviette de séchage (ou peau de chamois)",
+        "en": "Drying towel (or chamois leather)"
+      },
+      "categorie": "materiel",
+      "niveau": "courant",
+      "prix": {
+        "min": 2.6,
+        "moy": 2.6,
+        "max": 36.0,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-lb-serviette-sechage"
+        ]
+      },
+      "operations": [
+        "op-lavage",
+        "op-hivernage"
+      ],
+      "note": {
+        "fr": "Séchage après rinçage : le manuel cite la peau de chamois. Sécher aussi la selle. Prix relevé : serviette de séchage Twin Air (2,60 €, dimensions non indiquées).",
+        "en": "Drying after rinsing: the manual mentions a chamois leather. Dry the seat too. Price: Twin Air drying towel (EUR 2.60, size not stated)."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-lb-serviette-sechage",
+        "src-manuel-proprietaire#p172"
+      ]
+    },
+    {
+      "id": "ou-bac-magnetique",
+      "nom": {
+        "fr": "Bac aimanté ou boîte à compartiments pour les vis",
+        "en": "Magnetic tray or compartment box for screws"
+      },
+      "categorie": "materiel",
+      "niveau": "courant",
+      "operations": [
+        "op-vidange-huile-filtre",
+        "op-controle-filtre-air",
+        "op-remplacement-filtre-air",
+        "op-bougies",
+        "op-jeu-soupapes",
+        "op-liquide-frein",
+        "op-liquide-refroidissement",
+        "op-huile-fourche",
+        "op-kit-chaine",
+        "op-reglage-suspensions-charge"
+      ],
+      "note": {
+        "fr": "Les vis de carénage n'ont pas toutes la même longueur : les ranger par côté et par emplacement à la dépose (photo du téléphone à l'appui) évite d'en visser une trop longue dans le plastique ou d'en oublier une. Prix non relevé.",
+        "en": "Fairing screws are not all the same length: sorting them by side and location as they come out (with a phone photo) avoids driving a long one into plastic or forgetting one. Price not recorded."
+      },
+      "confiance": "incertain"
+    },
+    {
+      "id": "ou-etau-mors-doux",
+      "nom": {
+        "fr": "Étau d'établi avec mordaches (mors doux)",
+        "en": "Bench vice with soft jaws"
+      },
+      "categorie": "materiel",
+      "niveau": "complet",
+      "operations": [
+        "op-huile-fourche",
+        "op-kit-chaine"
+      ],
+      "note": {
+        "fr": "Tenir le porte-couronne pendant le changement de couronne, ou un tube de fourche (mors protégés) : sans mordaches, l'étau marque l'aluminium. Le manuel d'atelier utilise un étau à mors protecteurs. Prix non relevé.",
+        "en": "Holds the sprocket carrier while changing the rear sprocket, or a fork tube (protected jaws): without soft jaws the vice marks aluminium. The workshop manual uses a vice with protective jaws. Price not recorded."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p196"
+      ]
+    },
+    {
+      "id": "ou-gonfleur",
+      "nom": {
+        "fr": "Gonfleur (compresseur, pompe ou station-service)",
+        "en": "Tyre inflator (compressor, pump or petrol station)"
+      },
+      "categorie": "materiel",
+      "niveau": "courant",
+      "operations": [
+        "op-controle-pression-pneus",
+        "op-controle-usure-pneus",
+        "op-hivernage",
+        "op-remise-en-route"
+      ],
+      "note": {
+        "fr": "Pour remettre la pression après la mesure au manomètre : pneus froids, 2,5 bar à l'avant et 2,8 bar à l'arrière. Le gonfleur d'une station-service suffit si le manomètre personnel sert de référence. Prix non relevé.",
+        "en": "To restore pressure after checking with the gauge: cold tyres, 2.5 bar front and 2.8 bar rear. A petrol-station inflator is fine if your own gauge is the reference. Price not recorded."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p186"
+      ]
+    },
+    {
+      "id": "ou-metre-ruban",
+      "nom": {
+        "fr": "Mètre ruban (5 m ou plus)",
+        "en": "Tape measure (5 m or longer)"
+      },
+      "taille": "5 m minimum",
+      "categorie": "mesure",
+      "niveau": "courant",
+      "operations": [
+        "op-reglage-phare"
+      ],
+      "note": {
+        "fr": "Réglage du phare : moto placée à 10 m d'un mur, hauteur du centre du phare reportée au mur (faisceau de croisement à environ 9/10 de cette hauteur). Prix non relevé.",
+        "en": "Headlight aim: bike placed 10 m from a wall, height of the headlight centre marked on the wall (dipped beam at about 9/10 of that height). Price not recorded."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p165"
       ]
     }
   ]

@@ -45,6 +45,20 @@
       "consulte": "2026-10-16"
     },
     {
+      "id": "src-24mx-cnc-kv464b",
+      "titre": "24MX — CNC Racing KV464B, kit de 9 vis de bas de carénage RS 660",
+      "type": "revendeur",
+      "url": "https://www.24mx.com/en-us/product/cnc-racing-screw-kit-lower-fairing/PM-4960813",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-24mx-cnc-kv477b",
+      "titre": "24MX — CNC Racing KV477B, kit de 15 vis de flancs RS 660",
+      "type": "revendeur",
+      "url": "https://www.24mx.com/en-us/product/cnc-racing-screw-kit-side-fairing/PM-4960814",
+      "consulte": "2026-10-16"
+    },
+    {
       "id": "src-3as-blog-2026",
       "titre": "3AS Racing : coût d'une révision moto par marque en 2026",
       "type": "revendeur",
@@ -437,6 +451,20 @@
       "consulte": "2026-10-16"
     },
     {
+      "id": "src-castorama-colliers",
+      "titre": "Castorama : assortiment de 500 colliers de serrage DIALL",
+      "type": "revendeur",
+      "url": "https://www.castorama.fr/500-colliers-de-serrage-diall-assortiment/3663602792536_CAFR.prd",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-castorama-lunettes",
+      "titre": "Castorama : lunettes de protection transparentes Site 2101",
+      "type": "revendeur",
+      "url": "https://www.castorama.fr/lunettes-de-protection-transparente-site-2101/5052931441280_CAFR.prd",
+      "consulte": "2026-10-16"
+    },
+    {
       "id": "src-castrol",
       "titre": "Castrol : huiles moto (partenaire cité par le groupe Piaggio)",
       "type": "fabricant",
@@ -469,6 +497,13 @@
       "titre": "CBC Moto — Why choose UpMap / Gabro to flash your ECU",
       "type": "revendeur",
       "url": "https://cbcmoto.com/blogs/faq/why-choose-upmap-gabro-to-flash-your-ecu",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-cdp-molykote-g-rapid",
+      "titre": "Comptoir des Pros : pâte de montage Molykote G-Rapid Plus, tube 50 g",
+      "type": "revendeur",
+      "url": "https://www.comptoirdespros.com/pate-de-montage-et-d-assemblage-g-rapid-plus-tube-50g-mk5500.html",
       "consulte": "2026-10-16"
     },
     {
@@ -997,6 +1032,20 @@
       "consulte": "2026-10-16"
     },
     {
+      "id": "src-lb-aimant-telescopique",
+      "titre": "La Bécanerie : aimant télescopique JBM avec LED (90-810 mm)",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/aimant-telescopique-jbm-avec-led.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-bac-vidange-6l",
+      "titre": "La Bécanerie : bac de vidange Oxford noir 6 L",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/bac-de-vidange-oxford-noir-6l.html",
+      "consulte": "2026-10-16"
+    },
+    {
       "id": "src-lb-bequille-ar-bikelift",
       "titre": "La Bécanerie : béquille arrière Bike-Lift RS-17",
       "type": "revendeur",
@@ -1039,10 +1088,24 @@
       "consulte": "2026-10-16"
     },
     {
+      "id": "src-lb-brosse-chaine",
+      "titre": "La Bécanerie : brosse de nettoyage de chaîne One-Tek (25,5 cm)",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/brosse-nettoyage-chaine-rouge.html",
+      "consulte": "2026-10-16"
+    },
+    {
       "id": "src-lb-bsli04",
       "titre": "La Bécanerie : batterie BS Battery BSLi-04 lithium",
       "type": "revendeur",
       "url": "https://www.la-becanerie.com/batterie-bs-battery-bsli-04-12v-4ah-lithium.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-chiffons-oxford",
+      "titre": "La Bécanerie : pack de 1 kg de chiffons multiusages Oxford",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/pack-1kg-chiffons-multiusages-oxford.html",
       "consulte": "2026-10-16"
     },
     {
@@ -1067,6 +1130,13 @@
       "consulte": "2026-10-16"
     },
     {
+      "id": "src-lb-degraissant-bardahl",
+      "titre": "La Bécanerie : dégraissant mécanique Bardahl multifonctions 400 mL",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/degraissant-mecanique-bardahl-multifonctions-400-ml.html",
+      "consulte": "2026-10-16"
+    },
+    {
       "id": "src-lb-dot4-motorex",
       "titre": "La Bécanerie : liquide de frein Motorex DOT 4 1 L",
       "type": "revendeur",
@@ -1088,6 +1158,41 @@
       "consulte": "2026-10-16"
     },
     {
+      "id": "src-lb-durite-cristal",
+      "titre": "La Bécanerie : durite cristal PVC transparente 5 × 8 mm (au mètre)",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/durite-dessence-cristal-5x8-transparent-1m.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-eco-tank",
+      "titre": "La Bécanerie : bidon de récupération d'huile Eco-tank Rtech 10 L",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/eco-tank-10l.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-entonnoir-pressol",
+      "titre": "La Bécanerie : entonnoir plastique Pressol à bec flexible Ø 160 mm",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/entonnoir-plastique-pressol-orange-avec-bec-flexible-o-160mm.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-eponge-arexons",
+      "titre": "La Bécanerie : éponge à laver Arexons super absorbante",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/eponge-a-laver-arexons-super-absorbante.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-essuie-mains",
+      "titre": "La Bécanerie : bobines essuie-mains 1 000 feuilles 20 × 25 cm (lot de 2)",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/bobines-essuie-main-blanc-1000-feuilles-20-x-25-cm.html",
+      "consulte": "2026-10-16"
+    },
+    {
       "id": "src-lb-filtre-air-origine",
       "titre": "La Bécanerie : filtre à air 2B006532",
       "type": "revendeur",
@@ -1099,6 +1204,34 @@
       "titre": "La Bécanerie : assortiment de 10 fusibles enfichables 7,5 à 30 A",
       "type": "revendeur",
       "url": "https://www.la-becanerie.com/assortiment-de-10-fusibles-plats-enfichables-75-10-15-20-25-30a.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-gants-mecanique",
+      "titre": "La Bécanerie : gants fins de mécanique Draper",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/gants-fin-de-mecanique-draper-bleu-noir.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-gants-nitrile",
+      "titre": "La Bécanerie : boîte de 100 gants nitrile noirs jetables",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/boite-de-100-gants-noir-jetables-nitriles.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-graisse-bornes",
+      "titre": "La Bécanerie : graisse Liqui Moly pour bornes de batterie 50 g",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/graisse-liqui-moly-pour-bornes-de-batterie-50g.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-graisse-lithium",
+      "titre": "La Bécanerie : cartouche de graisse au lithium Bardahl 400 g",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/cartouche-de-graisse-au-lithium-bardahl-400g.html",
       "consulte": "2026-10-16"
     },
     {
@@ -1120,6 +1253,13 @@
       "titre": "La Bécanerie : filtre à air HifloFiltro HFA6113",
       "type": "revendeur",
       "url": "https://www.la-becanerie.com/filtre-a-air-hiflofiltro-hfa6113.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-housse-dormex",
+      "titre": "La Bécanerie : housse moto d'intérieur Oxford Dormex (respirante)",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/housse-moto-interieur-oxford-dormex-noir.html",
       "consulte": "2026-10-16"
     },
     {
@@ -1193,6 +1333,20 @@
       "consulte": "2026-10-16"
     },
     {
+      "id": "src-lb-lampe-frontale",
+      "titre": "La Bécanerie : lampe frontale JBM 350 lm rechargeable",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/lampe-frontale-jbm-350-lm.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-loctite-243",
+      "titre": "La Bécanerie : frein-filet moyen Loctite 243 5 mL",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/loctite-243-frein-filet-moyen-5ml.html",
+      "consulte": "2026-10-16"
+    },
+    {
       "id": "src-lb-mallette-108",
       "titre": "La Bécanerie : mallette d'outils à cliquet JBM 108 pièces",
       "type": "revendeur",
@@ -1204,6 +1358,13 @@
       "titre": "La Bécanerie : mallette d'outils à cliquet JBM 59 pièces",
       "type": "revendeur",
       "url": "https://www.la-becanerie.com/mallette-doutils-a-cliquet-jbm-59-pieces.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-microfibres",
+      "titre": "La Bécanerie : boîte dévidoir de 20 chiffons microfibres Planet Line",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/boite-devidoir-20-chiffons-microfibres-planet-line.html",
       "consulte": "2026-10-16"
     },
     {
@@ -1256,6 +1417,27 @@
       "consulte": "2026-10-16"
     },
     {
+      "id": "src-lb-motul-e2",
+      "titre": "La Bécanerie : nettoyant Motul E2 Moto Wash 1 L",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/nettoyant-motul-e2-moto-wash-1l.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-motul-p2",
+      "titre": "La Bécanerie : nettoyant freins Motul P2 Brake Clean 400 mL",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/nettoyant-frein-motul-p2-brake-clean-400ml.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-motul-p4",
+      "titre": "La Bécanerie : dégrippant Motul P4 E.Z. Lube 400 mL",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/spray-degrippant-p4-ez-lube-400ml.html",
+      "consulte": "2026-10-16"
+    },
+    {
       "id": "src-lb-ng-1780g",
       "titre": "La Bécanerie : disque de frein NG Brakes 1780G",
       "type": "revendeur",
@@ -1274,6 +1456,13 @@
       "titre": "La Bécanerie : chargeur Optimate Lithium LiFePO4 0,8 A",
       "type": "revendeur",
       "url": "https://www.la-becanerie.com/chargeur-batterie-tecmate-optimate-lithium-lifepo4-08-a.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-pinceau",
+      "titre": "La Bécanerie : pinceau de précision Twin Air",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/pinceau-de-precision-twin-air.html",
       "consulte": "2026-10-16"
     },
     {
@@ -1323,6 +1512,13 @@
       "titre": "La Bécanerie : Michelin Power 6 180/55 ZR17",
       "type": "revendeur",
       "url": "https://www.la-becanerie.com/pneu-arriere-moto-michelin-power-6-180-55-zr-17-73w-tl.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-purgeur-clapet",
+      "titre": "La Bécanerie : purgeur de liquide de frein universel à clapet anti-retour",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/purgeur-de-liquide-frein-universel-avec-clapet-anti-retour.html",
       "consulte": "2026-10-16"
     },
     {
@@ -1382,6 +1578,13 @@
       "consulte": "2026-10-16"
     },
     {
+      "id": "src-lb-seau-oxford",
+      "titre": "La Bécanerie : seau de nettoyage Oxford 20 L avec grille",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/seau-de-nettoyage-avec-grille-oxford-20l.html",
+      "consulte": "2026-10-16"
+    },
+    {
       "id": "src-lb-seringue",
       "titre": "La Bécanerie : seringue de vidange Bardahl 350 mL",
       "type": "revendeur",
@@ -1389,10 +1592,31 @@
       "consulte": "2026-10-16"
     },
     {
+      "id": "src-lb-serviette-sechage",
+      "titre": "La Bécanerie : serviette de séchage Twin Air",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/serviette-de-sechage-twin-air.html",
+      "consulte": "2026-10-16"
+    },
+    {
       "id": "src-lb-spi-fourche",
       "titre": "La Bécanerie : joints spi de fourche NOK/Athena 41x53x8/10,5",
       "type": "revendeur",
       "url": "https://www.la-becanerie.com/joints-spis-de-fourche-nok-athena-41x53x8-105-mm.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-stabilisateur-motul",
+      "titre": "La Bécanerie : stabilisateur d'essence Motul (fiche : 100 mL)",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/stabilisateur-dessence-motul-250ml.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-tapis-ipone",
+      "titre": "La Bécanerie : tapis environnemental absorbant Ipone 100 × 200 cm",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/tapis-environnemental-ipone-100x200cm.html",
       "consulte": "2026-10-16"
     },
     {
@@ -1638,6 +1862,13 @@
       "titre": "Moto-Net — Contact avec une RS660 « coursifiée » par Aprilia France (2021)",
       "type": "presse",
       "url": "https://moto-net.com/article/contact-avec-une-rs660-coursifiee-par-aprilia-france.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-motod-probolt-disques",
+      "titre": "Moto-D Racing — vis de disque avant Pro-Bolt titane M8 × 1,25 × 20 (×12), compatibilité RS 660 / Tuono 660",
+      "type": "revendeur",
+      "url": "https://www.motodracing.com/pro-bolt-titanium-rotor-bolts-m8x-1-25-x20mm-12-pack-front",
       "consulte": "2026-10-16"
     },
     {
@@ -1970,6 +2201,13 @@
       "consulte": "2026-10-15"
     },
     {
+      "id": "src-msp-references-piaggio",
+      "titre": "Motorcycle Spare Parts (MSP) — fiches de références Piaggio/Aprilia avec désignations dimensionnées (ex. AP8152329 « Phillips screw, SWP M5X20 »)",
+      "type": "revendeur",
+      "url": "https://www.motorcyclespareparts.eu/en/piaggio-parts/ap8152329",
+      "consulte": "2026-10-16"
+    },
+    {
       "id": "src-nhtsa-21v502",
       "titre": "NHTSA — rappel 21V-502 (bielles, RS 660 et Tuono 660 2021)",
       "type": "officiel",
@@ -2051,6 +2289,20 @@
       "titre": "OEM Bike Parts — RS 660 4T 8V E5 ABS 2020 (EMEA), batterie lithium 2D000579",
       "type": "revendeur",
       "url": "https://oem-bike-parts.com/en/parts/aprilia/motorbike/rs-660/2021/rs-660-4t-8v-e5-abs-2020-emea-eu/electrical-systems-central-electrical-system/p/2d000579-piaggiogroup-lithium-battery",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-oem-bike-parts-rs660-2021-eu",
+      "titre": "oem-bike-parts.fr — RS 660 4T 8V E5 ABS 2020 EMEA (millésime 2021) : vues éclatées, références et quantités par dessin (56 groupes)",
+      "type": "revendeur",
+      "url": "https://oem-bike-parts.fr/fr/parts/aprilia/motorbike/rs-660/2021/rs-660-4t-8v-e5-abs-2020-emea-eu",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-oem-bike-parts-rs660-2025-eu",
+      "titre": "oem-bike-parts.fr — RS 660 4T E5+ 2025 EMEA : vues éclatées, références et quantités par dessin",
+      "type": "revendeur",
+      "url": "https://oem-bike-parts.fr/fr/parts/aprilia/motorbike/rs-660/2025/rs-660-4t-e5-2025-emea",
       "consulte": "2026-10-16"
     },
     {
@@ -2171,6 +2423,62 @@
       "type": "autre",
       "url": "https://prix-carburant.eu/article/carburant-immobilisation-duree-stockage-qualite",
       "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-probolt-eoap240hxre",
+      "titre": "Pro-Bolt — kit moteur aluminium « Race Spec » Aprilia RS 660 (EOAP240HXRE)",
+      "type": "fabricant",
+      "url": "https://www.pro-bolt.com/aluminium-engine-kit-aprilia-rs-660-race-spec-etched-eoap240hxre/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-probolt-eoap240sshx",
+      "titre": "Pro-Bolt — kit moteur inox tête hexagonale Aprilia RS 660 (EOAP240SSHX)",
+      "type": "fabricant",
+      "url": "https://www.pro-bolt.com/stainless-steel-engine-kit-aprilia-rs-660-flanged-hex-head-eoap240sshx/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-probolt-eoap240ssr",
+      "titre": "Pro-Bolt — kit moteur inox « Race Spec » Aprilia RS 660 (EOAP240SSR), avec la liste des autres kits moteur RS 660",
+      "type": "fabricant",
+      "url": "https://www.pro-bolt.com/stainless-steel-engine-kit-aprilia-rs-660-race-spec-eoap240ssr/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-probolt-eoap240tir",
+      "titre": "Pro-Bolt — kit moteur titane « Race Spec » Aprilia RS 660 (EOAP240TIR)",
+      "type": "fabricant",
+      "url": "https://www.pro-bolt.com/titanium-engine-kit-aprilia-rs-660-race-spec-eoap240tir/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-probolt-foap240",
+      "titre": "Pro-Bolt — kit carénage aluminium Aprilia RS 660 (FOAP240)",
+      "type": "fabricant",
+      "url": "https://www.pro-bolt.com/aluminium-fairing-kit-aprilia-rs-660-foap240/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-probolt-foap240ti",
+      "titre": "Pro-Bolt — kit carénage titane Aprilia RS 660 (FOAP240TI)",
+      "type": "fabricant",
+      "url": "https://www.pro-bolt.com/titanium-fairing-kit-aprilia-rs-660-foap240ti/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-probolt-ti12discduc10",
+      "titre": "Pro-Bolt — vis de disque titane M8 × 20, lot de 12 (TI12DISCDUC10) : liste de compatibilité",
+      "type": "fabricant",
+      "url": "https://www.pro-bolt.com/titanium-disc-bolts-m8x20mm-pack-x12-ti12discduc10/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-probolt-workshop-rs660",
+      "titre": "Pro-Bolt — « In the workshop: Aprilia RS660 » (montage complet de visserie Pro-Bolt, 03/2022)",
+      "type": "fabricant",
+      "url": "https://www.pro-bolt.com/in-the-workshop-arilia-rs660/",
+      "consulte": "2026-10-16"
     },
     {
       "id": "src-puig-de-rs660-2023",
