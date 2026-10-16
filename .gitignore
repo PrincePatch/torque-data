@@ -1,0 +1,4 @@
+# Fichiers de travail de la construction des données (jamais publiés)
+**/_fragments/
+__pycache__/
+*.pyc
