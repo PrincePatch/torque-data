@@ -1,0 +1,273 @@
+{
+  "version_schema": 1,
+  "maj": "2026-10-16",
+  "rappels": [
+    {
+      "id": "rap-bielles-2021",
+      "numero": "21V-502",
+      "organisme": "NHTSA",
+      "date": "2021-07-01",
+      "millesimes": [2021],
+      "titre": { "fr": "Bielles non conformes : remplacement du moteur", "en": "Non-compliant connecting rods: engine replacement" },
+      "description": { "fr": "Rappel mondial Aprilia PA2ZZQ2107, enregistré sous le n° 21V-502 aux États-Unis (rapport du 01/07/2021), 2021414 au Canada (Tuono 660) et recensé en Allemagne (12/2021). Un lot de bielles (réf. 1A011945) a reçu un traitement thermique non conforme chez un fournisseur. Une bielle peut casser et arrêter brutalement le moteur en roulant, avec un risque de chute. Sont concernées des RS 660 et Tuono 660 millésime 2021 produites du 03/02/2021 au 05/06/2021, avec des numéros de cadre non consécutifs : environ 700 motos dans le monde, dont 308 aux États-Unis et 110 en Allemagne (environ une centaine en France selon la filiale française, chiffre non vérifié). Premier cas en garantie : France, 13/04/2021." },
+      "symptomes": { "fr": "Le moteur devient bruyant avant la rupture (rapport de défaut Part 573). Ensuite : arrêt brutal du moteur en roulant." },
+      "action": { "fr": "Remplacement complet du moteur, gratuit, en concession (environ 346 min de main-d'œuvre), avec une garantie renouvelée sur toute la moto. Transport Canada : ne pas rouler avant la réparation, sauf pour se rendre chez le concessionnaire." },
+      "comment_verifier": { "fr": "Donner le numéro de cadre (VIN : sur la carte grise et frappé côté droit de la colonne de direction) à une concession Aprilia, qui consulte la liste des cadres concernés. Pour une 2021 d'occasion, demander une preuve écrite que la moto n'est pas concernée ou que son moteur a été remplacé. Les bielles défectueuses portent le marquage « DA », visible seulement moteur ouvert." },
+      "confiance": "ok",
+      "sources": ["src-nhtsa-21v502", "src-nhtsa-21v502-rapport", "src-transport-canada-2021414", "src-tsb-bielles-2021", "src-repaire-rappel-660", "src-motorrad-rappel-bielles", "src-motorradundreisen-rappels", "src-manuel-proprietaire#p103"]
+    },
+    {
+      "id": "rap-soupapes-echappement-2021",
+      "numero": "PA0ZZQ2101",
+      "organisme": "Aprilia (campagne technique A_210393_RC_EN)",
+      "date": "2021-04-13",
+      "millesimes": [2021],
+      "titre": { "fr": "Campagne : jeu aux soupapes d'échappement", "en": "Campaign: exhaust valve clearance" },
+      "description": { "fr": "Campagne technique sur les RS 660 et Tuono 660 de 2021 : contrôle et correction du jeu aux soupapes d'échappement pour éviter un bruit de soupapes, avec remplacement de la vis spéciale (avec joint) du tendeur de chaîne de distribution et du bouchon d'huile avec joint. Ce n'est pas un rappel de sécurité. La liste des cadres concernés est dans l'outil des concessions." },
+      "symptomes": { "fr": "Bruit de soupapes." },
+      "action": { "fr": "Intervention en concession dans le cadre de la campagne." },
+      "comment_verifier": { "fr": "Demander à une concession, avec le numéro de cadre, si la campagne PA0ZZQ2101 a été faite sur la moto." },
+      "confiance": "ok",
+      "sources": ["src-tsb-jeu-soupapes-2021"]
+    },
+    {
+      "id": "rap-poignee-gauche-reach-2025",
+      "organisme": "Aprilia",
+      "date": "2025-11",
+      "millesimes": [2025, 2026],
+      "titre": { "fr": "Poignée gauche : substances chimiques (REACH)", "en": "Left grip: chemical substances (REACH)" },
+      "description": { "fr": "Le caoutchouc de la poignée gauche dépasse les limites de substances chimiques du règlement européen REACH. Concerne les RS 457, RS 660 et Tuono 660 « actuels » (Euro 5+) ; millésimes exacts et nombre de motos non publiés (2025-2026 supposés). Aucun impact sur la sécurité de conduite." },
+      "symptomes": { "fr": "Aucun." },
+      "action": { "fr": "Remplacement gratuit de la poignée en concession, en quelques minutes. Porter des gants en attendant." },
+      "comment_verifier": { "fr": "Vérification par numéro de cadre en concession." },
+      "confiance": "incertain",
+      "sources": ["src-motorcycles-news-rappel-poignee-2025", "src-1000ps-rappel-poignee-2025"]
+    }
+  ],
+  "problemes_connus": [
+    {
+      "id": "pb-ecu-p1401-ralenti",
+      "titre": { "fr": "Voyant moteur (erreur P1401) et ralenti irrégulier", "en": "Engine light (P1401 error) and rough idle" },
+      "description": { "fr": "Sur les premières RS 660, le logiciel de l'ECU pouvait enregistrer une erreur P1401 intempestive à la mise du contact (voyant moteur). Des propriétaires de 2021-2022 rapportent aussi un ralenti irrégulier et des hésitations, liés aux papillons et à la programmation de l'ECU. Fréquence non chiffrée." },
+      "frequence": "occasionnel",
+      "millesimes": [2021, 2022],
+      "solution": { "fr": "Mise à jour de la cartographie ECU en concession (bulletins A_210321, A_210573 et A_210574 de 2021), suivie de l'apprentissage de la roue phonique de vilebrequin et des papillons." },
+      "gravite": 2,
+      "confiance": "ok",
+      "sources": ["src-tsb-ecu-2021", "src-tsb-ecu-2021-suivi-a", "src-tsb-ecu-2021-suivi-b", "src-apriliaforum-mil-quickshifter", "src-motoryk-rs660"]
+    },
+    {
+      "id": "pb-levier-selecteur",
+      "titre": { "fr": "Levier de sélecteur qui prend du jeu", "en": "Gear lever working loose" },
+      "description": { "fr": "Sur un lot limité de RS, Tuono et Tuareg 660 Euro 5, le levier de sélecteur peut être non conforme et glisser sur les cannelures de son axe : jeu au levier, passages de vitesses imprécis." },
+      "frequence": "rare",
+      "solution": { "fr": "Contrôle en concession selon le bulletin A_220510_TC_EN (05/2022) : vis serrée à 15 Nm et essai d'arrachement du levier 2 ou 3 fois. S'il tient : Loctite 243 et serrage à 17 Nm. S'il bouge : nouveau levier 2B011144. Vérifier aussi l'usure des cannelures." },
+      "gravite": 3,
+      "confiance": "ok",
+      "sources": ["src-tsb-levier-selecteur-2022", "src-suncoast-rs660"]
+    },
+    {
+      "id": "pb-point-mort-deuxieme",
+      "titre": { "fr": "Point mort intempestif en passant la 2e", "en": "False neutral when shifting into 2nd" },
+      "description": { "fr": "Une seule plainte de propriétaire, déposée à la NHTSA en 2022 et non vérifiée, décrit des passages au point mort en montant la 2e, avec des dents de l'axe de sélection abîmées près du capteur de quickshifter. Un essai presse de 2021 note aussi une montée parfois sèche et une descente qui demande une impulsion franche. Aucun bulletin constructeur." },
+      "frequence": "rare",
+      "solution": { "fr": "Si le symptôme apparaît : contrôle de la boîte et du capteur de quickshifter en concession. À l'achat d'une occasion, essayer tous les rapports, surtout la 2e." },
+      "gravite": 3,
+      "confiance": "une_source",
+      "sources": ["src-nhtsa-plaintes", "src-mcn-essai-2021"]
+    },
+    {
+      "id": "pb-frein-arriere-sifflement",
+      "titre": { "fr": "Frein arrière qui siffle", "en": "Squealing rear brake" },
+      "description": { "fr": "Sifflement du frein arrière sur RS 660 et Tuono 660, traité par un bulletin technique. Aucun défaut de freinage décrit. Fréquence non chiffrée." },
+      "frequence": "occasionnel",
+      "solution": { "fr": "Concession, bulletin A_221169_TC_EN (12/2022). Bruit aigu : vérifier les plaques anti-vibration des plaquettes. Bruit grave : rattraper le jeu entre la patte d'étrier et le pion anti-rotation en précontraignant le support d'étrier dans le sens horaire, axe de roue serré à 120 Nm." },
+      "gravite": 1,
+      "confiance": "ok",
+      "sources": ["src-tsb-frein-arriere-2022"]
+    },
+    {
+      "id": "pb-batterie-lithium",
+      "titre": { "fr": "Batterie lithium d'origine : démarrages ratés", "en": "Original lithium battery: failed starts" },
+      "description": { "fr": "Piaggio a publié en 2024 un bulletin sur la batterie lithium d'origine (réf. 2D000579, BS BSLi-04 des RS 660 2021-2024) après des échecs de démarrage, des immobilisations et des batteries dégradées. Causes citées : froid, chargeur au plomb, booster de démarrage, mainteneur de charge. Le type de batterie de la RS 660 standard 2025 n'est pas confirmé. Fréquence non chiffrée." },
+      "frequence": "occasionnel",
+      "solution": { "fr": "Suivre le bulletin A_240070_TC_EN : chargeur lithium uniquement (14 à 15 V, 2 A au maximum), jamais de booster ni de chargeur au plomb, pas de mainteneur ; charge d'environ 30 min tous les 2 mois d'inactivité, et au minimum tous les 6 mois. Sous 0 °C : réveiller la batterie (30 s sur le chargeur ou feux allumés 1 à 2 min), démarreur 5 s au maximum par essai, 5 s de pause, 3 min d'attente après 5 essais. Le manuel de 2020 est moins strict (chargeur au plomb toléré, fusible 30 A à retirer après 15 jours) : le bulletin, plus récent, prévaut." },
+      "gravite": 3,
+      "confiance": "ok",
+      "sources": ["src-tsb-batterie-lithium-2024", "src-manuel-proprietaire#p151", "src-manuel-proprietaire#p155", "src-manuel-proprietaire#p157", "src-manuel-proprietaire#p187"]
+    },
+    {
+      "id": "pb-suintement-huile",
+      "titre": { "fr": "Suintements ou fuites d'huile", "en": "Oil seepage or leaks" },
+      "description": { "fr": "Un revendeur signale des fuites aux plans de joint sur les premières séries. L'essai longue durée de MCN note un léger suintement en fin d'essai (environ 6 000 miles). Une plainte NHTSA de 2022, non vérifiée, décrit une fuite à 250 km due à un joint de pompe à eau mal monté. Aucun bulletin constructeur." },
+      "frequence": "rare",
+      "solution": { "fr": "Nettoyer, surveiller et recontrôler ; sous garantie, concession. Contrôler aussi les tubes de fourche : aucune trace d'huile ne doit apparaître." },
+      "gravite": 2,
+      "confiance": "une_source",
+      "sources": ["src-suncoast-rs660", "src-mcn-essai-longue-duree", "src-nhtsa-plaintes", "src-manuel-proprietaire#p115"]
+    },
+    {
+      "id": "pb-pmp4-appairage",
+      "titre": { "fr": "Module multimédia PMP4 : blocage de l'ECU à l'appairage", "en": "PMP4 multimedia unit: ECU lock when pairing" },
+      "description": { "fr": "Sur les RS et Tuono 660 Euro 5+ équipées du boîtier multimédia PMP4, lancer l'appairage depuis le smartphone peut bloquer l'ECU de façon irréversible. Le même bulletin corrige l'intercom, un compteur d'appels remis à zéro et la connexion entre le PMP4 et le tableau de bord. Fréquence non chiffrée." },
+      "frequence": "rare",
+      "millesimes": [2025, 2026],
+      "solution": { "fr": "Mise à jour du PMP4 en concession (bulletin A_250254_TC_EN, 04/2025). En attendant, toujours lancer l'appairage depuis le tableau de bord, jamais depuis le smartphone." },
+      "gravite": 4,
+      "confiance": "ok",
+      "sources": ["src-tsb-pmp4-2025"]
+    }
+  ],
+  "mises_a_jour": [
+    {
+      "id": "maj-ecu-p1401-2021",
+      "bulletin": "A_210321_TC_EN, A_210573_TC_EN, A_210574_TC_EN",
+      "date": "2021-03-17",
+      "millesimes": [2021],
+      "titre": { "fr": "Cartographie ECU : erreur P1401", "en": "ECU mapping: P1401 error" },
+      "description": { "fr": "Nouvelle cartographie de l'ECU (Europe CM301803, États-Unis CM301806, versions 35 kW et 70 kW, Tuono 660) : supprime l'erreur P1401 intempestive à la mise du contact et corrige des bugs. Suivie de l'apprentissage de la roue phonique de vilebrequin (Europe), de la configuration et de l'auto-apprentissage des papillons. Bulletins complémentaires du 24/05/2021." },
+      "operation": "op-mise-a-jour-logiciel",
+      "confiance": "ok",
+      "sources": ["src-tsb-ecu-2021", "src-tsb-ecu-2021-suivi-a", "src-tsb-ecu-2021-suivi-b"]
+    },
+    {
+      "id": "maj-tableau-de-bord-2021",
+      "bulletin": "A_210664_TC_EN",
+      "date": "2021-06-10",
+      "millesimes": [2021],
+      "titre": { "fr": "Calibration du tableau de bord", "en": "Dashboard calibration" },
+      "description": { "fr": "Calibration 60-UD-83423.104 du tableau de bord des RS 660 et Tuono 660, pour harmoniser sa gestion sur la gamme." },
+      "operation": "op-mise-a-jour-logiciel",
+      "confiance": "ok",
+      "sources": ["src-tsb-tableau-de-bord-2021"]
+    },
+    {
+      "id": "maj-ecu-2023",
+      "bulletin": "A_230339_TC_EN",
+      "date": "2023-03-21",
+      "millesimes": [2021, 2022, 2023, 2024],
+      "titre": { "fr": "Calibration moteur RS 660 Euro 5", "en": "RS 660 Euro 5 engine calibration" },
+      "description": { "fr": "Calibration P80K-AA15 (Europe) ou P80K-AB15 (États-Unis, Canada) : agrément de conduite, diagnostics et interventions de sécurité, et correction d'une erreur du capteur de pression dans des conditions environnementales limites." },
+      "operation": "op-mise-a-jour-logiciel",
+      "confiance": "ok",
+      "sources": ["src-tsb-ecu-2023"]
+    },
+    {
+      "id": "maj-pmp4-2025",
+      "bulletin": "A_250254_TC_EN",
+      "date": "2025-04-07",
+      "millesimes": [2025, 2026],
+      "titre": { "fr": "Calibration du module multimédia PMP4", "en": "PMP4 multimedia unit calibration" },
+      "description": { "fr": "Corrige le blocage irréversible de l'ECU quand l'appairage est lancé depuis le smartphone, l'intercom, le compteur d'appels et la connexion entre le PMP4 et le tableau de bord (RS 660 et Tuono 660 Euro 5+, RSV4 Factory 1100 2025)." },
+      "operation": "op-mise-a-jour-logiciel",
+      "confiance": "ok",
+      "sources": ["src-tsb-pmp4-2025"]
+    }
+  ],
+  "rodage": {
+    "km": 1000,
+    "etapes": [
+      { "jusqu_km": 100, "regime_max_tr_min": 7500, "texte": { "fr": "Freinages doux et progressifs : les plaquettes se rodent pendant les 100 premiers kilomètres. Pas plus de 7 500 tr/min." } },
+      { "jusqu_km": 1000, "regime_max_tr_min": 7500, "texte": { "fr": "Pas plus de 7 500 tr/min. Éviter les départs pleins gaz, les fortes accélérations, les freinages forts ou prolongés et les longues périodes à vitesse élevée constante ; préférer des parcours variés (routes sinueuses). Révision de fin de rodage à 1 000 km : toutes les performances ne sont disponibles qu'après." } },
+      { "jusqu_km": 2000, "regime_max_tr_min": 9500, "texte": { "fr": "Pas plus de 9 500 tr/min. Pendant comme après le rodage, ne jamais ouvrir les gaz en grand brutalement à bas régime." } }
+    ],
+    "confiance": "ok",
+    "sources": ["src-manuel-proprietaire#p119", "src-manuel-proprietaire#p120", "src-manuel-atelier#p16"]
+  },
+  "controles_avant_sortie": [
+    { "id": "avs-pneus", "texte": { "fr": "Pneus : état général, coupures, corps étrangers dans les sculptures, bouchons de valve en place, profondeur d'au moins 2 mm." }, "operation": "op-controle-usure-pneus", "sources": ["src-manuel-proprietaire#p107", "src-manuel-proprietaire#p144"] },
+    { "id": "avs-pression", "texte": { "fr": "Pression à froid, à température ambiante : 2,5 bar à l'avant et 2,8 bar à l'arrière, en solo comme en duo. Au moins une fois par semaine et avant tout long trajet ; ne jamais dégonfler un pneu chaud." }, "operation": "op-controle-pression-pneus", "sources": ["src-manuel-proprietaire#p142", "src-manuel-proprietaire#p186", "src-michelin-faq-moto"] },
+    { "id": "avs-roues-phoniques", "texte": { "fr": "Roues phoniques de l'ABS propres et en bon état." }, "sources": ["src-manuel-proprietaire#p108"] },
+    { "id": "avs-freins", "texte": { "fr": "Freins avant et arrière : fonctionnement, course des leviers et de la pédale, plaquettes, absence de fuite." }, "operation": "op-controle-freins", "sources": ["src-manuel-proprietaire#p106", "src-manuel-proprietaire#p107"] },
+    { "id": "avs-liquide-frein", "texte": { "fr": "Niveaux de liquide de frein avant et arrière." }, "operation": "op-niveau-liquide-frein", "sources": ["src-manuel-proprietaire#p107"] },
+    { "id": "avs-commandes", "texte": { "fr": "Poignée de gaz libre qui revient seule, leviers souples ; embrayage : garde au levier de 1 à 3 mm, câble non effiloché." }, "operation": "op-cable-embrayage", "sources": ["src-manuel-proprietaire#p106", "src-manuel-proprietaire#p119"] },
+    { "id": "avs-selecteur", "texte": { "fr": "Levier de sélecteur sans jeu sur son axe." }, "sources": ["src-tsb-levier-selecteur-2022"] },
+    { "id": "avs-direction", "texte": { "fr": "Direction libre d'une butée à l'autre, sans point dur ni jeu." }, "operation": "op-controle-direction", "sources": ["src-manuel-proprietaire#p108"] },
+    { "id": "avs-eclairage", "texte": { "fr": "Feux, clignotants, feu stop (avec chaque frein), klaxon et coupe-circuit." }, "operation": "op-controle-eclairage", "sources": ["src-manuel-proprietaire#p106", "src-msf-tclocs"] },
+    { "id": "avs-voyants", "texte": { "fr": "Contact mis : tous les témoins s'allument 2 à 3 s (autotest). Ensuite, pas d'icône batterie rouge ni de message ALARM ; le témoin ABS doit s'éteindre au-delà de 5 km/h." }, "sources": ["src-manuel-proprietaire#p88", "src-manuel-proprietaire#p106"] },
+    { "id": "avs-mode-conduite", "texte": { "fr": "Mode de conduite adapté à la météo (pluie : Commute, ou Individual avec ATC 7-8, ABS 3, AEM 3, AEB 3). Jamais d'ABS niveau 1 sur route." }, "sources": ["src-manuel-proprietaire#p87", "src-manuel-proprietaire#p97"] },
+    { "id": "avs-huile", "texte": { "fr": "Niveau d'huile moteur, moto droite, moteur chaud (après une quinzaine de kilomètres) : au moins une fois par semaine." }, "operation": "op-niveau-huile", "sources": ["src-manuel-proprietaire#p140"] },
+    { "id": "avs-refroidissement", "texte": { "fr": "Niveau du liquide de refroidissement, moteur froid, entre LOW et FULL (vase visible par l'ouverture du carénage intérieur droit) : chaque semaine." }, "operation": "op-niveau-liquide-refroidissement", "sources": ["src-manuel-proprietaire#p146"] },
+    { "id": "avs-carburant", "texte": { "fr": "Carburant suffisant pour le trajet et bouchon de réservoir bien fermé." }, "sources": ["src-manuel-proprietaire#p107"] },
+    { "id": "avs-fuites-fixations", "texte": { "fr": "Pas de fuite sous la moto ni de trace d'huile sur les tubes de fourche ; fixations non desserrées (chaque semaine)." }, "operation": "op-serrage-boulonnerie", "sources": ["src-manuel-proprietaire#p108", "src-manuel-proprietaire#p115"] },
+    { "id": "avs-chaine", "texte": { "fr": "Chaîne : flèche d'environ 30 mm (mesurée à 250 mm de l'axe de roue, moto sur béquille latérale), propre et lubrifiée ; pignon, couronne et patin en bon état. Au moins tous les 1 000 km." }, "operation": "op-chaine-entretien", "sources": ["src-manuel-proprietaire#p176", "src-manuel-proprietaire#p178", "src-manuel-proprietaire#p191"] },
+    { "id": "avs-bequille", "texte": { "fr": "Béquille latérale : coulisse librement, ressort qui la rappelle, contacteur de sécurité fonctionnel." }, "operation": "op-controle-contacteurs-securite", "sources": ["src-manuel-proprietaire#p108", "src-manuel-proprietaire#p123"] },
+    { "id": "avs-repose-pieds", "texte": { "fr": "En solo, repose-pieds passager repliés." }, "sources": ["src-manuel-proprietaire#p123"] }
+  ],
+  "occasion": {
+    "checklist": [
+      { "id": "occ-vin", "texte": { "fr": "Le numéro de cadre de la carte grise correspond à celui frappé côté droit de la colonne de direction (un numéro modifié annule la garantie)." }, "gravite": 5, "sources": ["src-manuel-proprietaire#p102", "src-manuel-proprietaire#p103"] },
+      { "id": "occ-rappels", "texte": { "fr": "Rappels et campagnes vérifiés par numéro de cadre en concession : moteur remplacé si la moto a été produite entre le 03/02 et le 05/06/2021 (rappel bielles), campagne soupapes 2021, levier de sélecteur, mises à jour ECU, tableau de bord et PMP4, poignée gauche (2025+)." }, "gravite": 5, "sources": ["src-nhtsa-21v502", "src-tsb-jeu-soupapes-2021", "src-tsb-levier-selecteur-2022", "src-tsb-ecu-2023", "src-tsb-pmp4-2025", "src-motorcycles-news-rappel-poignee-2025"] },
+      { "id": "occ-histovec", "texte": { "fr": "Rapport HistoVec fourni par le vendeur (gratuit) : propriétaires successifs, sinistres avec expertise, gage, vol, opposition." }, "gravite": 4, "sources": ["src-matmut-histovec", "src-ornikar-histovec"] },
+      { "id": "occ-controle-technique", "texte": { "fr": "France : procès-verbal de contrôle technique de moins de 6 mois (2 mois en cas de contre-visite) si la moto y est soumise. Premier contrôle en 2026 au plus tard pour une moto immatriculée en 2020-2021 ; dans les 6 mois avant le 5e anniversaire à partir de 2022 ; ensuite tous les 3 ans." }, "gravite": 4, "sources": ["src-service-public-ct-moto", "src-ecologie-ct", "src-legifrance-arrete-ct-2023", "src-codes-rousseau-ct"] },
+      { "id": "occ-factures", "texte": { "fr": "Carnet et factures : révision de rodage à 1 000 km, puis tous les 10 000 km ou 12 mois ; liquides de frein et de refroidissement remplacés tous les 24 mois ; jeu aux soupapes contrôlé à 20 000 km. Comparer le kilométrage aux factures et aux contrôles techniques." }, "gravite": 3, "sources": ["src-manuel-proprietaire#p191", "src-manuel-proprietaire#p192"] },
+      { "id": "occ-puissance", "texte": { "fr": "Puissance sur la carte grise : une version A2 de 35 kW ne se débride qu'en concession, avec une carte grise à mettre à jour. Lire aussi le PTAC (champ F.2)." }, "gravite": 2, "sources": ["src-moniteur-automobile-a2", "src-manuel-proprietaire#p182"] },
+      { "id": "occ-demarrage-froid", "texte": { "fr": "Démarrage à froid : aucun bruit moteur anormal (une rupture de bielle est précédée d'un moteur bruyant), ralenti stable, pas de témoin moteur ni d'icône batterie, témoin ABS éteint au-delà de 5 km/h." }, "gravite": 5, "sources": ["src-nhtsa-21v502-rapport", "src-manuel-proprietaire#p88"] },
+      { "id": "occ-boite", "texte": { "fr": "Boîte : passer tous les rapports à l'essai, surtout la 2e ; aucun jeu au levier de sélecteur ; quickshifter fonctionnel au-dessus de 3 000 tr/min." }, "gravite": 3, "sources": ["src-tsb-levier-selecteur-2022", "src-nhtsa-plaintes", "src-manuel-proprietaire#p96"] },
+      { "id": "occ-fuites", "texte": { "fr": "Fuites : carters, zone de la pompe à eau, tubes de fourche (comprimer la fourche : mouvement fluide, aucune trace d'huile)." }, "gravite": 3, "sources": ["src-manuel-proprietaire#p115", "src-nhtsa-plaintes", "src-suncoast-rs660"] },
+      { "id": "occ-chaine", "texte": { "fr": "Chaîne, pignon et couronne : rouleaux, maillons grippés ou rouillés, joints toriques, dents, patin ; flèche régulière sur un tour de roue." }, "gravite": 3, "sources": ["src-manuel-proprietaire#p176", "src-manuel-proprietaire#p177"] },
+      { "id": "occ-freins", "texte": { "fr": "Freins : disques, plaquettes, niveau et couleur du liquide ; un sifflement du frein arrière est connu et traité par bulletin." }, "gravite": 4, "sources": ["src-manuel-proprietaire#p107", "src-tsb-frein-arriere-2022"] },
+      { "id": "occ-pneus", "texte": { "fr": "Pneus : date de fabrication (code DOT), profondeur d'au moins 2 mm, gomme non durcie ni craquelée ; à remplacer au-delà de 10 ans." }, "gravite": 4, "sources": ["src-manuel-proprietaire#p143", "src-manuel-proprietaire#p144", "src-continental-age-pneu"] },
+      { "id": "occ-batterie", "texte": { "fr": "Batterie lithium : bouton TEST de la batterie, 5 ou 6 témoins attendus." }, "gravite": 2, "sources": ["src-manuel-proprietaire#p154"] },
+      { "id": "occ-chute", "texte": { "fr": "Traces de chute : bouts de leviers, embouts de guidon, repose-pieds, rétroviseurs, bas de carénage et ailerons (2025+), silencieux, radiateur (ailettes écrasées), alignement de la direction et des roues. Aprilia demande un contrôle en concession après toute chute." }, "gravite": 4, "sources": ["src-manuel-proprietaire#p8"] },
+      { "id": "occ-piste", "texte": { "fr": "Indices d'usage piste : pneus usés jusqu'au bord ou gomme arrachée, trous de fil à freiner, carénages de course, rétroviseurs et éclairage démontés, échappement non homologué." }, "gravite": 3, "sources": ["src-motoryk-rs660", "src-motodealers-mot"] },
+      { "id": "occ-kilometrage", "texte": { "fr": "Kilométrage cohérent avec l'usure (pneus, chaîne, repose-pieds, poignées, levier de sélecteur) et avec les factures. Aucune source ne montre que le diagnostic Aprilia permette de vérifier un kilométrage stocké ailleurs que dans le tableau de bord." }, "gravite": 3, "sources": [] }
+    ],
+    "apres_achat": [
+      { "operation": "op-mise-a-jour-logiciel", "pourquoi": { "fr": "Priorité 1 : vérifier en concession, par numéro de cadre, les rappels (bielles 2021), les campagnes et les mises à jour ECU, tableau de bord et PMP4, souvent non appliquées quand l'entretien a été fait hors réseau." } },
+      { "operation": "op-diagnostic-outil", "pourquoi": { "fr": "Profiter du passage en concession pour lire les défauts mémorisés." } },
+      { "operation": "op-controle-usure-pneus", "pourquoi": { "fr": "Priorité 2, sécurité : âge et usure ; remplacer un pneu sous 2 mm, de plus de 10 ans ou durci." } },
+      { "operation": "op-liquide-frein", "pourquoi": { "fr": "Priorité 3, sécurité : remplacer sans preuve d'un remplacement de moins de 24 mois (le liquide absorbe l'eau)." } },
+      { "operation": "op-vidange-huile-filtre", "pourquoi": { "fr": "Priorité 4 : échéance de 10 000 km ou 12 mois inconnue." } },
+      { "operation": "op-liquide-refroidissement", "pourquoi": { "fr": "Priorité 5 : remplacer sans preuve d'un remplacement de moins de 24 mois ; antigel adapté à l'hiver." } },
+      { "operation": "op-chaine-entretien", "pourquoi": { "fr": "Priorité 6 : contrôle, nettoyage, lubrification et tension ; remplacement du kit complet si les rouleaux ou les joints sont abîmés." } },
+      { "operation": "op-batterie", "pourquoi": { "fr": "Priorité 7 : test et charge selon le bulletin batterie lithium, vérification de l'absence d'icône batterie." } },
+      { "operation": "op-reglage-suspensions-charge", "pourquoi": { "fr": "Priorité 8 : remettre les suspensions au réglage standard du manuel (le propriétaire précédent a pu tout dérégler), puis les régler au poids de l'utilisateur." } },
+      { "operation": "op-controle-filtre-air", "pourquoi": { "fr": "Selon le kilométrage : contrôle du filtre à air à 10 000 km, remplacement à 20 000 km." } },
+      { "operation": "op-bougies", "pourquoi": { "fr": "Selon le kilométrage : bougies à remplacer à 20 000 km." } },
+      { "operation": "op-jeu-soupapes", "pourquoi": { "fr": "Selon le kilométrage : jeu aux soupapes à contrôler à 20 000 km, échéance lourde souvent repoussée." } },
+      { "operation": "op-huile-fourche", "pourquoi": { "fr": "Si la moto a plus de 4 ans ou plus de 40 000 km." } },
+      { "operation": "op-reglage-phare", "pourquoi": { "fr": "Sécurité : réglage du phare." } },
+      { "operation": "op-serrage-boulonnerie", "pourquoi": { "fr": "Sécurité : serrage de la visserie." } },
+      { "operation": "op-controle-direction", "pourquoi": { "fr": "Sécurité : roulements et jeu de direction." } },
+      { "operation": "op-controle-roues-roulements", "pourquoi": { "fr": "Sécurité : roues et roulements de roues." } }
+    ]
+  },
+  "garantie": {
+    "fr": "Durée : en France, Aprilia accorde 2 ans pièces et main-d'œuvre sur ses motos ; l'extension payante X-Care ajoute 1 ou 2 ans (jusqu'à 4 ans au total, sous plafond kilométrique), parfois offerte lors d'opérations commerciales (source presse unique). La garantie de 4 ans annoncée par Piaggio en 2025 concerne les scooters, pas les motos. Condition : selon le manuel, les révisions doivent être faites ponctuellement, aux intervalles prévus, pour maintenir la garantie ; un numéro de cadre modifié l'annule. Le texte complet des conditions de garantie Aprilia France n'a pas été trouvé. Entretien soi-même en Europe : le règlement (UE) 461/2010, prolongé jusqu'au 31/05/2028, et ses lignes directrices interdisent de lier la garantie à l'entretien dans le réseau, mais ils ne visent que les véhicules à trois roues ou plus : les motos n'y sont pas soumises. Le règlement (UE) 168/2013 (article 57) oblige seulement les constructeurs à donner aux réparateurs indépendants l'accès aux informations de réparation et d'entretien ; il ne dit rien de la garantie. En France, une source spécialisée estime que le constructeur ne peut pas retirer la garantie au seul motif d'un entretien hors réseau, mais qu'il peut refuser une prise en charge s'il prouve qu'une intervention mal faite a causé le dégât (analyse non tranchée juridiquement). La garantie légale de conformité, due par le vendeur, est distincte : 2 ans, défaut présumé exister à la vente pendant 2 ans pour un bien neuf et 1 an pour un bien d'occasion. Conseil prudent : pendant la garantie, faire au moins les révisions programmées en concession, ou chez un professionnel qui suit le plan Aprilia avec des factures détaillées (pièces et huiles aux spécifications, kilométrage, date) ; garder toutes les preuves, photos comprises, de l'entretien fait soi-même. Rappels, campagnes et mises à jour de l'ECU passent par la concession."
+  },
+  "garantie_confiance": "incertain",
+  "garantie_sources": ["src-motonet-garantie", "src-manuel-proprietaire#p102", "src-manuel-proprietaire#p190", "src-eurlex-reglement-2023-822", "src-bmf-garantie", "src-reglement-168-2013-art57", "src-repaire-garantie-hors-reseau", "src-dgccrf-garanties"],
+  "notes": [
+    {
+      "id": "note-verifications-rappels",
+      "texte": { "fr": "Vérifications faites le 15/10/2026 pour ne pas inventer de rappel : aucun rappel NHTSA pour les RS 660 de 2022 à 2026 ; aucun rappel Transport Canada au nom de la RS 660 (le 2021414 vise la Tuono 660, le 2025524 les RSV4 et Tuono V4) ; aucune fiche Aprilia dans RappelConso, base qui recense très peu de motos, donc sans valeur de preuve. La base européenne Safety Gate n'a pas été interrogée directement." },
+      "confiance": "ok",
+      "sources": ["src-nhtsa-api-rappels", "src-transport-canada-2021414", "src-rappelconso"]
+    },
+    {
+      "id": "note-absence-signalements",
+      "texte": { "fr": "Aucun signalement propre à la RS 660 n'a été trouvé pour : régulateur-redresseur, stator, joints spi de fourche, consommation d'huile, ventilateur. L'application ne doit pas générer d'alerte « problème connu » pour ces organes. L'absence de signalement ne prouve pas l'absence de problème : plusieurs forums étaient inaccessibles à la lecture automatique." },
+      "confiance": "incertain",
+      "sources": []
+    },
+    {
+      "id": "note-bilan-longue-duree",
+      "texte": { "fr": "Essai longue durée MCN (environ 6 000 miles) : démarrage à chaque fois, électronique sans défaut, outils sortis 2 fois pour retendre la chaîne, léger suintement d'huile en fin d'essai. Contrôle technique britannique (MOT) : 88,9 % de réussite sur 378 contrôles ; remarques les plus fréquentes : échappement trop bruyant, pneus sous 1 mm, éléments desserrés, axes ou bagues usés." },
+      "confiance": "une_source",
+      "sources": ["src-mcn-essai-longue-duree", "src-motodealers-mot"]
+    },
+    {
+      "id": "note-mises-a-jour-concession",
+      "texte": { "fr": "Les mises à jour logicielles se font en concession avec l'outil P.A.D.S., à la livraison, à une révision ou au premier passage en atelier. Un entretien fait soi-même ne les applique pas." },
+      "confiance": "ok",
+      "sources": ["src-tsb-ecu-2021", "src-tsb-ecu-2023"]
+    },
+    {
+      "id": "note-rodage-extrapolations",
+      "texte": { "fr": "Les règles de rodage du manuel valent pour une moto neuve. Les appliquer à un moteur de remplacement (rappel bielles) ou à des plaquettes neuves est une extrapolation. Pneus neufs : rouler prudemment les premiers kilomètres (film de démoulage), environ 150 km selon DEKRA." },
+      "confiance": "incertain",
+      "sources": ["src-manuel-proprietaire#p120", "src-manuel-proprietaire#p144", "src-dekra-pneus-froid"]
+    }
+  ]
+}

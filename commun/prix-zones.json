@@ -1,0 +1,1427 @@
+{
+  "version_schema": 1,
+  "maj": "2026-10-16",
+  "pays": [
+    {
+      "code": "FR",
+      "nom": {
+        "fr": "France",
+        "en": "France"
+      },
+      "devise": "EUR",
+      "taux_horaire": {
+        "concession": {
+          "min": 85,
+          "moy": 95,
+          "max": 110,
+          "devise": "EUR",
+          "par": {
+            "valeur": 1,
+            "unite": "h"
+          },
+          "date": "2026-10-16",
+          "confiance": "ok",
+          "sources": [
+            "src-hd-larochesuryon",
+            "src-3as-blog-2026",
+            "src-repaire-forum-2025"
+          ]
+        },
+        "independant": {
+          "min": 65,
+          "moy": 75,
+          "max": 90,
+          "devise": "EUR",
+          "par": {
+            "valeur": 1,
+            "unite": "h"
+          },
+          "date": "2026-10-16",
+          "confiance": "ok",
+          "sources": [
+            "src-atelier-du-motard",
+            "src-mecaservices92",
+            "src-olv-motors",
+            "src-gmh-performance",
+            "src-3as-blog-2026"
+          ]
+        }
+      },
+      "coef_pieces": 1.0,
+      "coef_main_oeuvre_vs_fr": 1.0,
+      "zone_defaut": "ville-moyenne",
+      "zones": [
+        {
+          "id": "paris-idf",
+          "libelle": {
+            "fr": "Paris et petite couronne",
+            "en": "Paris and inner suburbs"
+          },
+          "coef_main_oeuvre": 1.3,
+          "coef_min": 1.15,
+          "coef_max": 1.5,
+          "detection": {
+            "codes_postaux": [
+              "75",
+              "92",
+              "93",
+              "94"
+            ]
+          },
+          "taux_horaire": {
+            "concession": {
+              "min": 110,
+              "moy": 125,
+              "max": 145,
+              "devise": "EUR",
+              "par": {
+                "valeur": 1,
+                "unite": "h"
+              },
+              "date": "2026-10-16",
+              "confiance": "une_source",
+              "sources": [
+                "src-3as-blog-2026",
+                "src-repaire-forum-2025",
+                "src-idgarages-2026"
+              ]
+            },
+            "independant": {
+              "min": 75,
+              "moy": 85,
+              "max": 100,
+              "devise": "EUR",
+              "par": {
+                "valeur": 1,
+                "unite": "h"
+              },
+              "date": "2026-10-16",
+              "confiance": "ok",
+              "sources": [
+                "src-mecaservices92",
+                "src-3as-blog-2026"
+              ]
+            }
+          },
+          "confiance": "incertain",
+          "sources": [
+            "src-idgarages-2026",
+            "src-idgarages-2023",
+            "src-3as-blog-2026",
+            "src-mecaservices92"
+          ]
+        },
+        {
+          "id": "grande-ville",
+          "libelle": {
+            "fr": "Grande ville et grande couronne d'Île-de-France",
+            "en": "Large city and outer Paris suburbs"
+          },
+          "coef_main_oeuvre": 1.15,
+          "coef_min": 1.05,
+          "coef_max": 1.3,
+          "detection": {
+            "codes_postaux": [
+              "77",
+              "78",
+              "91",
+              "95"
+            ],
+            "population_min": 200000
+          },
+          "taux_horaire": {
+            "concession": {
+              "min": 95,
+              "moy": 110,
+              "max": 125,
+              "devise": "EUR",
+              "par": {
+                "valeur": 1,
+                "unite": "h"
+              },
+              "date": "2026-10-16",
+              "confiance": "incertain",
+              "sources": [
+                "src-3as-blog-2026"
+              ]
+            },
+            "independant": {
+              "min": 70,
+              "moy": 80,
+              "max": 90,
+              "devise": "EUR",
+              "par": {
+                "valeur": 1,
+                "unite": "h"
+              },
+              "date": "2026-10-16",
+              "confiance": "incertain",
+              "sources": [
+                "src-3as-blog-2026"
+              ]
+            }
+          },
+          "confiance": "incertain",
+          "sources": [
+            "src-3as-blog-2026"
+          ]
+        },
+        {
+          "id": "ville-moyenne",
+          "libelle": {
+            "fr": "Ville moyenne (référence)",
+            "en": "Mid-sized town (reference)"
+          },
+          "coef_main_oeuvre": 1.0,
+          "coef_min": 1.0,
+          "coef_max": 1.0,
+          "detection": {
+            "population_min": 10000
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-hd-larochesuryon",
+            "src-3as-blog-2026"
+          ]
+        },
+        {
+          "id": "rural",
+          "libelle": {
+            "fr": "Rural et petite ville",
+            "en": "Rural area and small town"
+          },
+          "coef_main_oeuvre": 0.9,
+          "coef_min": 0.75,
+          "coef_max": 1.0,
+          "detection": {
+            "population_max": 9999
+          },
+          "taux_horaire": {
+            "concession": {
+              "min": 72,
+              "moy": 85,
+              "max": 95,
+              "devise": "EUR",
+              "par": {
+                "valeur": 1,
+                "unite": "h"
+              },
+              "date": "2026-10-16",
+              "confiance": "une_source",
+              "sources": [
+                "src-hd-larochesuryon",
+                "src-repaire-forum-2025",
+                "src-atelier-du-motard"
+              ]
+            },
+            "independant": {
+              "min": 60,
+              "moy": 70,
+              "max": 90,
+              "devise": "EUR",
+              "par": {
+                "valeur": 1,
+                "unite": "h"
+              },
+              "date": "2026-10-16",
+              "confiance": "ok",
+              "sources": [
+                "src-atelier-du-motard",
+                "src-gmh-performance",
+                "src-olv-motors"
+              ]
+            }
+          },
+          "confiance": "une_source",
+          "sources": [
+            "src-hd-larochesuryon",
+            "src-repaire-forum-2025",
+            "src-atelier-du-motard"
+          ]
+        }
+      ],
+      "prestations": [
+        {
+          "id": "montage-pneu-roue-deposee",
+          "libelle": {
+            "fr": "Montage et équilibrage d'un pneu, roue déposée",
+            "en": "Tyre fitting and balancing, wheel removed"
+          },
+          "atelier": "independant",
+          "operations": [
+            "op-pneu-avant",
+            "op-pneu-arriere"
+          ],
+          "prix": {
+            "min": 15,
+            "moy": 15,
+            "max": 15,
+            "devise": "EUR",
+            "par": {
+              "valeur": 1,
+              "unite": "piece"
+            },
+            "date": "2026-10-16",
+            "confiance": "une_source",
+            "sources": [
+              "src-mecaservices92-partie-cycle"
+            ]
+          }
+        },
+        {
+          "id": "montage-pneu-sur-moto",
+          "libelle": {
+            "fr": "Montage et équilibrage d'un pneu, roue sur la moto",
+            "en": "Tyre fitting and balancing, wheel on bike"
+          },
+          "atelier": "independant",
+          "operations": [
+            "op-pneu-avant",
+            "op-pneu-arriere"
+          ],
+          "note": {
+            "fr": "Fourchette des enseignes 17 à 30 € ; concession 30 à 45 € par pneu."
+          },
+          "prix": {
+            "min": 17,
+            "moy": 25,
+            "max": 45,
+            "devise": "EUR",
+            "par": {
+              "valeur": 1,
+              "unite": "piece"
+            },
+            "date": "2026-10-16",
+            "confiance": "ok",
+            "sources": [
+              "src-mecaservices92-partie-cycle",
+              "src-atelier-du-motard",
+              "src-garage-caussade"
+            ]
+          }
+        },
+        {
+          "id": "purge-freins-av-ar",
+          "libelle": {
+            "fr": "Purge des freins avant et arrière (ABS), liquide compris",
+            "en": "Front and rear brake bleed (ABS), fluid included"
+          },
+          "atelier": "independant",
+          "operations": [
+            "op-liquide-frein"
+          ],
+          "note": {
+            "fr": "Mécaservices 92 : 40 € l'avant à double étrier ABS + 30 € l'arrière ABS ; Atelier du Motard : purge complète 50 €."
+          },
+          "prix": {
+            "min": 50,
+            "moy": 60,
+            "max": 70,
+            "devise": "EUR",
+            "par": {
+              "valeur": 1,
+              "unite": "piece"
+            },
+            "date": "2026-10-16",
+            "confiance": "ok",
+            "sources": [
+              "src-mecaservices92-freins",
+              "src-atelier-du-motard"
+            ]
+          }
+        },
+        {
+          "id": "pose-kit-chaine",
+          "libelle": {
+            "fr": "Pose d'un kit chaîne (main-d'œuvre seule)",
+            "en": "Chain kit fitting (labour only)"
+          },
+          "atelier": "independant",
+          "operations": [
+            "op-kit-chaine"
+          ],
+          "prix": {
+            "min": 75,
+            "moy": 82.5,
+            "max": 90,
+            "devise": "EUR",
+            "par": {
+              "valeur": 1,
+              "unite": "piece"
+            },
+            "date": "2026-10-16",
+            "confiance": "ok",
+            "sources": [
+              "src-mecaservices92",
+              "src-atelier-du-motard"
+            ]
+          }
+        },
+        {
+          "id": "spi-fourche-inversee-tout-compris",
+          "libelle": {
+            "fr": "Joints spi de fourche inversée, pièces et main-d'œuvre",
+            "en": "Upside-down fork seals, parts and labour"
+          },
+          "atelier": "independant",
+          "operations": [
+            "op-controle-joints-spi-fourche",
+            "op-huile-fourche"
+          ],
+          "prix": {
+            "min": 239,
+            "moy": 239,
+            "max": 239,
+            "devise": "EUR",
+            "par": {
+              "valeur": 1,
+              "unite": "piece"
+            },
+            "date": "2026-10-16",
+            "confiance": "une_source",
+            "sources": [
+              "src-mecaservices92-partie-cycle"
+            ]
+          }
+        },
+        {
+          "id": "spi-fourche-inversee-main-oeuvre",
+          "libelle": {
+            "fr": "Joints spi de fourche inversée, main-d'œuvre seule",
+            "en": "Upside-down fork seals, labour only"
+          },
+          "atelier": "independant",
+          "operations": [
+            "op-controle-joints-spi-fourche",
+            "op-huile-fourche"
+          ],
+          "prix": {
+            "min": 280,
+            "moy": 280,
+            "max": 280,
+            "devise": "EUR",
+            "par": {
+              "valeur": 1,
+              "unite": "piece"
+            },
+            "date": "2026-10-16",
+            "confiance": "une_source",
+            "sources": [
+              "src-atelier-du-motard"
+            ]
+          }
+        },
+        {
+          "id": "vidange-liquide-refroidissement",
+          "libelle": {
+            "fr": "Remplacement du liquide de refroidissement (main-d'œuvre seule)",
+            "en": "Coolant change (labour only)"
+          },
+          "atelier": "independant",
+          "operations": [
+            "op-liquide-refroidissement"
+          ],
+          "prix": {
+            "min": 70,
+            "moy": 70,
+            "max": 70,
+            "devise": "EUR",
+            "par": {
+              "valeur": 1,
+              "unite": "piece"
+            },
+            "date": "2026-10-16",
+            "confiance": "une_source",
+            "sources": [
+              "src-atelier-du-motard"
+            ]
+          }
+        },
+        {
+          "id": "self-garage",
+          "libelle": {
+            "fr": "Location d'un poste en self-garage",
+            "en": "Self-service workshop bay rental"
+          },
+          "atelier": "independant",
+          "operations": [],
+          "note": {
+            "fr": "20 € pour 1 h, 35 € pour 2 h, 100 € pour 7 h."
+          },
+          "prix": {
+            "min": 14.29,
+            "moy": 20,
+            "max": 20,
+            "devise": "EUR",
+            "par": {
+              "valeur": 1,
+              "unite": "h"
+            },
+            "date": "2026-10-16",
+            "confiance": "une_source",
+            "sources": [
+              "src-atelier-du-motard"
+            ]
+          }
+        }
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-hd-larochesuryon",
+        "src-3as-blog-2026",
+        "src-atelier-du-motard",
+        "src-mecaservices92",
+        "src-idgarages-2026"
+      ]
+    },
+    {
+      "code": "BE",
+      "nom": {
+        "fr": "Belgique",
+        "en": "Belgium"
+      },
+      "devise": "EUR",
+      "taux_horaire": {
+        "concession": {
+          "min": 90,
+          "moy": 100,
+          "max": 114,
+          "devise": "EUR",
+          "par": {
+            "valeur": 1,
+            "unite": "h"
+          },
+          "date": "2026-10-16",
+          "confiance": "incertain",
+          "sources": [
+            "src-garagemetrics-be"
+          ]
+        },
+        "independant": {
+          "min": 61,
+          "moy": 70,
+          "max": 79,
+          "devise": "EUR",
+          "par": {
+            "valeur": 1,
+            "unite": "h"
+          },
+          "date": "2026-10-16",
+          "confiance": "incertain",
+          "sources": [
+            "src-garagemetrics-be"
+          ]
+        }
+      },
+      "coef_pieces": 1.0,
+      "coef_main_oeuvre_vs_fr": 1.05,
+      "zones": [],
+      "note": {
+        "fr": "Aucune donnée moto trouvée : taux dérivés des garages automobiles (concession généraliste 75-95 € HTVA, indépendant 50-65 € HTVA, TVA 21 %). Estimation."
+      },
+      "confiance": "incertain",
+      "sources": [
+        "src-garagemetrics-be"
+      ]
+    },
+    {
+      "code": "CH",
+      "nom": {
+        "fr": "Suisse",
+        "en": "Switzerland"
+      },
+      "devise": "CHF",
+      "taux_horaire": {
+        "concession": {
+          "min": 120,
+          "moy": 160,
+          "max": 179,
+          "devise": "CHF",
+          "par": {
+            "valeur": 1,
+            "unite": "h"
+          },
+          "date": "2026-10-16",
+          "confiance": "une_source",
+          "sources": [
+            "src-moto-mader",
+            "src-v4forum-stundensatz",
+            "src-gearboxmotors"
+          ]
+        },
+        "independant": {
+          "min": 90,
+          "moy": 120,
+          "max": 145,
+          "devise": "CHF",
+          "par": {
+            "valeur": 1,
+            "unite": "h"
+          },
+          "date": "2026-10-16",
+          "confiance": "une_source",
+          "sources": [
+            "src-gearboxmotors",
+            "src-blackmoto"
+          ]
+        }
+      },
+      "coef_pieces": 1.2,
+      "coef_main_oeuvre_vs_fr": 1.7,
+      "zones": [],
+      "note": {
+        "fr": "Atelier Aprilia suisse à 167,55 € brut de l'heure (témoignage 2025), Moto Mader environ CHF 159-179, ateliers à CHF 120. Le coefficient des pièces (1,20) est une estimation non sourcée. Afficher en francs suisses, avec la mention « estimation »."
+      },
+      "confiance": "incertain",
+      "sources": [
+        "src-v4forum-stundensatz",
+        "src-moto-mader",
+        "src-gearboxmotors",
+        "src-blackmoto"
+      ]
+    },
+    {
+      "code": "ES",
+      "nom": {
+        "fr": "Espagne",
+        "en": "Spain"
+      },
+      "devise": "EUR",
+      "taux_horaire": {
+        "concession": {
+          "min": 64,
+          "moy": 71,
+          "max": 90,
+          "devise": "EUR",
+          "par": {
+            "valeur": 1,
+            "unite": "h"
+          },
+          "date": "2026-10-16",
+          "confiance": "une_source",
+          "sources": [
+            "src-infotaller",
+            "src-bragaboys"
+          ]
+        },
+        "independant": {
+          "min": 40,
+          "moy": 60,
+          "max": 90,
+          "devise": "EUR",
+          "par": {
+            "valeur": 1,
+            "unite": "h"
+          },
+          "date": "2026-10-16",
+          "confiance": "une_source",
+          "sources": [
+            "src-bragaboys",
+            "src-infotaller"
+          ]
+        }
+      },
+      "coef_pieces": 1.0,
+      "coef_main_oeuvre_vs_fr": 0.75,
+      "zones": [],
+      "note": {
+        "fr": "Ateliers officiels toutes marques : 70,9 €/h affiché, 64 €/h appliqué (2026) ; ateliers moto 40 à 90 €/h ; indépendant moto à Madrid 60 € TTC."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-infotaller",
+        "src-bragaboys"
+      ]
+    },
+    {
+      "code": "IT",
+      "nom": {
+        "fr": "Italie",
+        "en": "Italy"
+      },
+      "devise": "EUR",
+      "taux_horaire": {
+        "concession": {
+          "min": 80,
+          "moy": 85,
+          "max": 100,
+          "devise": "EUR",
+          "par": {
+            "valeur": 1,
+            "unite": "h"
+          },
+          "date": "2026-10-16",
+          "confiance": "une_source",
+          "sources": [
+            "src-virgilio",
+            "src-sicurmoto"
+          ]
+        },
+        "independant": {
+          "min": 45,
+          "moy": 57.5,
+          "max": 70,
+          "devise": "EUR",
+          "par": {
+            "valeur": 1,
+            "unite": "h"
+          },
+          "date": "2026-10-16",
+          "confiance": "une_source",
+          "sources": [
+            "src-virgilio"
+          ]
+        }
+      },
+      "coef_pieces": 1.0,
+      "coef_main_oeuvre_vs_fr": 0.9,
+      "zones": [],
+      "note": {
+        "fr": "Concessions officielles 80 à 100 €/h, ateliers agréés monomarque 80 à 120 € HT, indépendants 45 à 70 €. Révision des 1 000 km d'une Tuono 660 : 158 €."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-virgilio",
+        "src-sicurmoto",
+        "src-apriliav4-forum"
+      ]
+    },
+    {
+      "code": "DE",
+      "nom": {
+        "fr": "Allemagne",
+        "en": "Germany"
+      },
+      "devise": "EUR",
+      "taux_horaire": {
+        "concession": {
+          "min": 109,
+          "moy": 125,
+          "max": 165,
+          "devise": "EUR",
+          "par": {
+            "valeur": 1,
+            "unite": "h"
+          },
+          "date": "2026-10-16",
+          "confiance": "ok",
+          "sources": [
+            "src-v4forum-stundensatz",
+            "src-v4forum-wartung-p4"
+          ]
+        },
+        "independant": {
+          "min": 85,
+          "moy": 100,
+          "max": 120,
+          "devise": "EUR",
+          "par": {
+            "valeur": 1,
+            "unite": "h"
+          },
+          "date": "2026-10-16",
+          "confiance": "une_source",
+          "sources": [
+            "src-smartwerkstatt"
+          ]
+        }
+      },
+      "coef_pieces": 1.0,
+      "coef_main_oeuvre_vs_fr": 1.3,
+      "zones": [],
+      "note": {
+        "fr": "Ateliers Aprilia : 109 € brut (zone rurale) à 165 € brut ; Munich au-delà de 120 € HT."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-v4forum-stundensatz",
+        "src-v4forum-wartung-p4",
+        "src-smartwerkstatt"
+      ]
+    },
+    {
+      "code": "GB",
+      "nom": {
+        "fr": "Royaume-Uni",
+        "en": "United Kingdom"
+      },
+      "devise": "GBP",
+      "taux_horaire": {
+        "concession": {
+          "min": 83,
+          "moy": 95,
+          "max": 116,
+          "devise": "GBP",
+          "par": {
+            "valeur": 1,
+            "unite": "h"
+          },
+          "date": "2026-10-16",
+          "confiance": "incertain",
+          "sources": [
+            "src-stewarts",
+            "src-garagerevs",
+            "src-pistonheads",
+            "src-mcn-rs660"
+          ]
+        },
+        "independant": {
+          "min": 78,
+          "moy": 78,
+          "max": 92,
+          "devise": "GBP",
+          "par": {
+            "valeur": 1,
+            "unite": "h"
+          },
+          "date": "2026-10-16",
+          "confiance": "une_source",
+          "sources": [
+            "src-stewarts",
+            "src-garagerevs"
+          ]
+        }
+      },
+      "coef_pieces": 1.05,
+      "coef_main_oeuvre_vs_fr": 1.15,
+      "zones": [],
+      "note": {
+        "fr": "Aucun taux de concession moto récent trouvé : estimation à partir d'un indépendant moto (65 £ HT, soit 78 £ TTC), des garages auto (indépendants environ 77 £ HT) et des révisions des 1 000 km à 230-260 £. Coefficient des pièces estimé. Afficher en livres sterling, avec la mention « estimation »."
+      },
+      "confiance": "incertain",
+      "sources": [
+        "src-stewarts",
+        "src-garagerevs",
+        "src-pistonheads",
+        "src-mcn-rs660"
+      ]
+    }
+  ],
+  "methode": {
+    "fr": "Coût d'une opération = Σ prix.moy × (quantité utilisée ÷ par), pour chaque pièce et consommable (pieces.json), multiplié par le coef_pieces du pays ; en concession, ajouter temps_atelier_h (entretien.json) × taux horaire concession ; chez un indépendant, utiliser le taux « independant ». En DIY : pièces et consommables seuls, plus les prestations ponctuelles éventuelles (ex. montage des pneus) multipliées par le coefficient de zone. Taux horaire : si la zone porte un taux_horaire, il prime ; sinon taux du pays × coef_main_oeuvre de la zone. Pour la France, le taux du pays est celui de la ville moyenne de référence (95 € TTC en concession Aprilia). La fourchette s'obtient avec min et max (ou coef_min et coef_max) ; toujours afficher une fourchette, valeur moyenne en avant. Détection de la zone (France) : tester les zones dans l'ordre du fichier, la première qui correspond l'emporte. paris-idf si le code postal commence par 75, 92, 93 ou 94 ; grande-ville si le code postal commence par 77, 78, 91 ou 95, ou si la commune compte au moins 200 000 habitants ; ville-moyenne à partir de 10 000 habitants ; rural en dessous. Commune inconnue : zone_defaut. Les seuils de population sont un choix de conception, pas une donnée sourcée. La géographie ne joue que sur la main-d'œuvre : les pièces sont au prix national (prix e-commerce France dans pieces.json). Hors zone euro (CH, GB) : taux horaires en devise locale ; les prix de pieces.json sont en euros, à convertir avec un taux de change à jour (jamais codé en dur) avant d'appliquer coef_pieces, avec la mention « estimation ». coef_main_oeuvre_vs_fr est le rapport au taux de référence français, donné pour information. Pour les prestations et les révisions constatées, « par » vaut une prestation (1 pièce). Promotions fréquentes chez les vendeurs : mise à jour semestrielle conseillée."
+  },
+  "revisions_constatees": [
+    {
+      "revision": "revision-1000",
+      "pays": "FR",
+      "date_temoignage": "2025-05-14",
+      "contexte": {
+        "fr": "RS 660, concession."
+      },
+      "prix": {
+        "min": 170,
+        "moy": 170,
+        "max": 170,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-repaire-forum-2025"
+        ]
+      }
+    },
+    {
+      "revision": "revision-1000",
+      "pays": "DE",
+      "date_temoignage": "2021/2022",
+      "contexte": {
+        "fr": "Région de Nuremberg : 1,5 h, 2,7 L d'huile, filtre, joint."
+      },
+      "prix": {
+        "min": 188.06,
+        "moy": 188.06,
+        "max": 188.06,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-v4forum-wartung-p3"
+        ]
+      }
+    },
+    {
+      "revision": "revision-1000",
+      "pays": "DE",
+      "date_temoignage": "2023-12-14",
+      "contexte": {
+        "fr": "RS 660 Extrema, Karlsruhe, mise à jour logicielle comprise."
+      },
+      "prix": {
+        "min": 230,
+        "moy": 230,
+        "max": 230,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-v4forum-wartung-p4"
+        ]
+      }
+    },
+    {
+      "revision": "revision-1000",
+      "pays": "DE",
+      "date_temoignage": "2022",
+      "contexte": {
+        "fr": "Berlin."
+      },
+      "prix": {
+        "min": 375,
+        "moy": 375,
+        "max": 375,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-v4forum-wartung-p4"
+        ]
+      }
+    },
+    {
+      "revision": "revision-1000",
+      "pays": "IT",
+      "date_temoignage": "non daté",
+      "contexte": {
+        "fr": "Tuono 660 (même moteur), remise sur l'huile et le filtre."
+      },
+      "prix": {
+        "min": 158,
+        "moy": 158,
+        "max": 158,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-apriliav4-forum"
+        ]
+      }
+    },
+    {
+      "revision": "revision-1000",
+      "pays": "GB",
+      "date_temoignage": "2022-10-24",
+      "contexte": {
+        "fr": "RS 660, révision faite vers 400 miles."
+      },
+      "prix": {
+        "min": 230,
+        "moy": 230,
+        "max": 230,
+        "devise": "GBP",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-pistonheads"
+        ]
+      }
+    },
+    {
+      "revision": "revision-1000",
+      "pays": "GB",
+      "date_temoignage": "non daté",
+      "contexte": {
+        "fr": "RS 660 2021, avis de propriétaire (lu dans un extrait de recherche)."
+      },
+      "prix": {
+        "min": 260,
+        "moy": 260,
+        "max": 260,
+        "devise": "GBP",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-mcn-rs660"
+        ]
+      }
+    },
+    {
+      "revision": "revision-10000",
+      "pays": "FR",
+      "date_temoignage": "2023-09-06",
+      "contexte": {
+        "fr": "Tuono 660 (même moteur), « révision intermédiaire »."
+      },
+      "prix": {
+        "min": 185,
+        "moy": 185,
+        "max": 185,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-repaire-forum-2023"
+        ]
+      }
+    },
+    {
+      "revision": "revision-10000",
+      "pays": "DE",
+      "date_temoignage": "2023-05-18",
+      "contexte": {
+        "fr": "RS 660 2021, 2,32 L d'huile facturés."
+      },
+      "prix": {
+        "min": 228.86,
+        "moy": 228.86,
+        "max": 228.86,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-v4forum-wartung-p4"
+        ]
+      }
+    },
+    {
+      "revision": "revision-10000",
+      "pays": "AT",
+      "date_temoignage": "2022-03-01",
+      "contexte": {
+        "fr": "RS 660 2021, sud de Vienne."
+      },
+      "prix": {
+        "min": 275.6,
+        "moy": 275.6,
+        "max": 275.6,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-v4forum-wartung-p3"
+        ]
+      }
+    },
+    {
+      "revision": "revision-10000",
+      "pays": "DE",
+      "date_temoignage": "2022-03-24",
+      "contexte": {
+        "fr": "Concession de Munich, 110 min facturées."
+      },
+      "prix": {
+        "min": 309.3,
+        "moy": 309.3,
+        "max": 309.3,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-v4forum-wartung-p3"
+        ]
+      }
+    },
+    {
+      "revision": "revision-20000",
+      "pays": "FR",
+      "date_temoignage": "2023-01-14",
+      "contexte": {
+        "fr": "Jeu aux soupapes seul, « chez des garages Aprilia » (jugé cher par un autre membre)."
+      },
+      "prix": {
+        "min": 500,
+        "moy": 500,
+        "max": 500,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-repaire-forum-2023"
+        ]
+      }
+    },
+    {
+      "revision": "revision-20000",
+      "pays": "FR",
+      "date_temoignage": "2023-01-14",
+      "contexte": {
+        "fr": "Révision complète des 20 000 km."
+      },
+      "prix": {
+        "min": 800,
+        "moy": 800,
+        "max": 800,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-repaire-forum-2023"
+        ]
+      }
+    },
+    {
+      "revision": "revision-20000",
+      "pays": "FR",
+      "date_temoignage": "2025-05-13",
+      "contexte": {
+        "fr": "Tuono 660 : devis oral de plus de 1 000 €, jugé largement excessif par d'autres membres."
+      },
+      "prix": {
+        "min": 1000,
+        "moy": 1000,
+        "max": 1000,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-repaire-forum-2025"
+        ]
+      }
+    },
+    {
+      "revision": "revision-20000",
+      "pays": "DE",
+      "date_temoignage": "2022-11-10",
+      "contexte": {
+        "fr": "Munich : calcul d'un concessionnaire (190 min + 60 min, taux de plus de 120 €, matériel compris)."
+      },
+      "prix": {
+        "min": 750,
+        "moy": 775,
+        "max": 800,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-v4forum-wartung-p4"
+        ]
+      }
+    },
+    {
+      "revision": "revision-20000",
+      "pays": "DE",
+      "date_temoignage": "2022-11-10",
+      "contexte": {
+        "fr": "Munich : devis selon l'état des soupapes."
+      },
+      "prix": {
+        "min": 800,
+        "moy": 850,
+        "max": 900,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-v4forum-wartung-p4"
+        ]
+      }
+    }
+  ],
+  "temps_bareme_constate": [
+    {
+      "revision": "revision-1000",
+      "temps": {
+        "valeur": 1.5,
+        "unite": "h"
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-v4forum-wartung-p3"
+      ]
+    },
+    {
+      "revision": "revision-10000",
+      "temps": {
+        "valeur": 1.83,
+        "unite": "h"
+      },
+      "note": {
+        "fr": "110 minutes, temps constructeur cité par un concessionnaire."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-v4forum-wartung-p3",
+        "src-v4forum-wartung-p4"
+      ]
+    },
+    {
+      "revision": "revision-20000",
+      "temps": {
+        "valeur": 3.17,
+        "unite": "h"
+      },
+      "note": {
+        "fr": "190 minutes, plus environ 1 h si les soupapes doivent être réglées."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-v4forum-wartung-p4"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "src-hd-larochesuryon",
+      "titre": "Harley-Davidson La Roche-sur-Yon : tarifs atelier 2026",
+      "type": "revendeur",
+      "url": "https://hd-larochesuryon.com/latelier/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-repaire-forum-2025",
+      "titre": "Le Repaire des Motards : forum, révisions RS / Tuono 660 (mai 2025)",
+      "type": "forum",
+      "url": "http://www.lerepairedesmotards.com/forum/read.php?3,3383284,page=1",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-repaire-forum-2023",
+      "titre": "Le Repaire des Motards : forum, entretien RS / Tuono 660 (2023)",
+      "type": "forum",
+      "url": "http://www.lerepairedesmotards.com/forum/read.php?2,3279836",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-atelier-du-motard",
+      "titre": "Atelier du Motard (Beerwiller) : tarifs",
+      "type": "revendeur",
+      "url": "https://atelierdumotard.fr/tarifs-et-informations/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-mecaservices92",
+      "titre": "Mécaservices 92 : tarifs moteur et transmission",
+      "type": "revendeur",
+      "url": "https://mecaservices92.com/services/moteur-transmission/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-mecaservices92-partie-cycle",
+      "titre": "Mécaservices 92 : tarifs partie-cycle (pneus)",
+      "type": "revendeur",
+      "url": "https://mecaservices92.com/services/partie-cycle/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-mecaservices92-freins",
+      "titre": "Mécaservices 92 : tarifs freins",
+      "type": "revendeur",
+      "url": "https://mecaservices92.com/services/freins/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-olv-motors",
+      "titre": "OLV Motors : tarifs",
+      "type": "revendeur",
+      "url": "https://www.olv-motors.fr/en/pricing",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-gmh-performance",
+      "titre": "GMH Performance : tarifs",
+      "type": "revendeur",
+      "url": "https://gmhperformance.fr/tarifs/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-3as-blog-2026",
+      "titre": "3AS Racing : coût d'une révision moto par marque en 2026",
+      "type": "revendeur",
+      "url": "https://blog.3as-racing.com/cout-revision-moto-par-marque-2026/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-idgarages-2026",
+      "titre": "idGarages : baromètre de l'entretien auto 2026",
+      "type": "autre",
+      "url": "https://www.idgarages.com/fr-fr/a-propos/barometre-entretien-auto-2026",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-idgarages-2023",
+      "titre": "idGarages : baromètre de l'entretien auto 2023",
+      "type": "autre",
+      "url": "https://www.idgarages.com/fr-fr/a-propos/barometre-entretien-auto-2023",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-v4forum-wartung-p3",
+      "titre": "v4-forum.de : Wartungskosten 660er (page 3)",
+      "type": "forum",
+      "url": "https://v4-forum.de/threads/wartungskosten-660er.21673/page-3",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-v4forum-wartung-p4",
+      "titre": "v4-forum.de : Wartungskosten 660er (page 4)",
+      "type": "forum",
+      "url": "https://v4-forum.de/threads/wartungskosten-660er.21673/page-4",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-v4forum-stundensatz",
+      "titre": "v4-forum.de : Stundensatz in der Werkstatt (2025)",
+      "type": "forum",
+      "url": "https://v4-forum.de/threads/stundensatz-in-der-werkstatt.29497/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-smartwerkstatt",
+      "titre": "smartwerkstatt.cloud : taux horaires des ateliers moto en Allemagne (2026)",
+      "type": "autre",
+      "url": "https://smartwerkstatt.cloud/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-gearboxmotors",
+      "titre": "Gearboxmotors (Aarau) : prix de l'heure",
+      "type": "revendeur",
+      "url": "https://www.gearboxmotors.ch/Preise-Stunde/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-blackmoto",
+      "titre": "Blackmoto : prestations atelier",
+      "type": "revendeur",
+      "url": "https://www.blackmoto.ch/dienstleistungen1/index",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-moto-mader",
+      "titre": "Moto Mader : atelier",
+      "type": "revendeur",
+      "url": "https://www.moto-mader.ch/de/werkstatt",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-virgilio",
+      "titre": "Virgilio Motori : tarifs horaires des mécaniciens",
+      "type": "presse",
+      "url": "https://www.virgilio.it/motori/info-utili/meccanico-e-tariffe-orarie-quanto-ci-costa-la-manodopera/73537/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-sicurmoto",
+      "titre": "Sicurmoto : heures facturées par les réseaux officiels",
+      "type": "presse",
+      "url": "https://www.sicurmoto.it/manutenzione-e-fai-da-te/riparazioni-moto-le-reti-ufficiali-fatturano-piu-ore-delle-autorizzate/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-apriliav4-forum",
+      "titre": "apriliav4.it : forum, tagliando Tuono 660",
+      "type": "forum",
+      "url": "https://www.apriliav4.it/forum/viewtopic.php?t=69198",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-infotaller",
+      "titre": "Infotaller : main-d'œuvre horaire des ateliers en Espagne",
+      "type": "presse",
+      "url": "https://www.infotaller.tv/reparacion/estas-cobrando-lo-justo-en-tu-taller-asi-esta-la-mano-de-obra-por-hora-en-2025.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-bragaboys",
+      "titre": "Braga Boys Motos (Madrid) : prix de la main-d'œuvre",
+      "type": "revendeur",
+      "url": "https://www.bragaboysmotos.es/index.php/taller/precios-mano-de-obra",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-garagemetrics-be",
+      "titre": "Garagemetrics : taux horaire des garages belges (auto)",
+      "type": "autre",
+      "url": "https://www.garagemetrics.be/articles/taux-horaire-atelier-guide-garages-belges",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-stewarts",
+      "titre": "Stewarts Motorcycles : taux de main-d'œuvre",
+      "type": "revendeur",
+      "url": "https://www.stewarts-motorcycles.co.uk/labourRatesStewartsMotorcycleRepairs.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-garagerevs",
+      "titre": "GarageRevs : taux de main-d'œuvre des garages au Royaume-Uni",
+      "type": "autre",
+      "url": "https://garagerevs.com/blog/garage-operations/how-much-to-charge-for-labour",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-pistonheads",
+      "titre": "PistonHeads : forum, révision RS 660",
+      "type": "forum",
+      "url": "https://www.pistonheads.com/gassing/topic.asp?h=0&f=74&t=2007335",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-mcn-rs660",
+      "titre": "MCN : avis de propriétaires RS 660",
+      "type": "presse",
+      "url": "https://www.motorcyclenews.com/bike-reviews/aprilia/rs660/2020/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-garage-caussade",
+      "titre": "Garage Caussade Pneus : tarifs de montage de pneus moto",
+      "type": "revendeur",
+      "url": "https://garage-caussade-pneus.com/pneus-pneumatiques/tarif-montage-pneus-moto/",
+      "consulte": "2026-10-16"
+    }
+  ]
+}

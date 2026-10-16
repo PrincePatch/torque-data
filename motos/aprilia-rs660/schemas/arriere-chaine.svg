@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+<!-- Torque - transmission côté gauche : pignon 17, couronne 43, chaîne 520, tendeur - dessin original, licence CC BY 4.0. Aucun logo, aucune photo ni vue éclatée reproduite. -->
+<style>
+.trait{fill:none;stroke:#1d2229;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.carene{fill:#6c7d96;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.sombre{fill:#474f5c;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.moteur{fill:#7b8490;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.mecanique{fill:#aab3bf;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.metal{fill:#c9cfd8;stroke:#1d2229;stroke-width:2.5;stroke-linejoin:round}
+.echappement{fill:#8d8a85;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.pneu{fill:#373c44;stroke:#8d97a6;stroke-width:3}
+.detail{fill:none;stroke:#1d2229;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.detail-clair{fill:none;stroke:#c3cad4;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.optique{fill:#e3ebf4;stroke:#1d2229;stroke-width:2.5;stroke-linejoin:round}
+.feu{fill:#d8463f;stroke:#1d2229;stroke-width:2.5;stroke-linejoin:round}
+.orange{fill:#e8901f;stroke:#1d2229;stroke-width:2.5;stroke-linejoin:round}
+.vitre{fill:#9cc3e8;fill-opacity:.35;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.cache{fill:#e8901f;fill-opacity:.16;stroke:#d9731a;stroke-width:2.5;stroke-dasharray:9 6;stroke-linejoin:round}
+.depose{fill:none;stroke:#8d97a6;stroke-width:2.5;stroke-dasharray:12 8;stroke-linejoin:round}
+.sol{fill:none;stroke:#8d97a6;stroke-width:2;stroke-dasharray:4 10;stroke-linecap:round}
+.cote{fill:none;stroke:#d9731a;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.fleche{fill:#d9731a;stroke:none}
+.cote-texte{fill:#d9731a;font-family:Arial,Helvetica,sans-serif;font-weight:bold}
+.fluide{fill:#c08a2a;fill-opacity:.85;stroke:#1d2229;stroke-width:2}
+.liquide-frein{fill:#d9b44a;fill-opacity:.7;stroke:#1d2229;stroke-width:2}
+.chaine{fill:none;stroke:#1d2229;stroke-width:12;stroke-linejoin:round}
+.chaine-maillons{fill:none;stroke:#aab3bf;stroke-width:6;stroke-dasharray:7 5;stroke-linejoin:round}
+.vert{fill:#3fae5a;stroke:#1d2229;stroke-width:2.5}
+.rouge{fill:#d8463f;stroke:#1d2229;stroke-width:2.5}
+.bleu{fill:#3f7fd8;stroke:#1d2229;stroke-width:2.5}
+.ecran{fill:#20262e;stroke:#1d2229;stroke-width:3}
+</style>
+<g id="co-roue-arriere" opacity="0.35">
+<path class="pneu" fill-rule="evenodd" d="M712.8,564 a478,478 0 1,0 956,0 a478,478 0 1,0 -956,0 Z M850.8,564 a340,340 0 1,0 680,0 a340,340 0 1,0 -680,0 Z"/>
+<path class="mecanique" fill-rule="evenodd" d="M850.8,564 a340,340 0 1,0 680,0 a340,340 0 1,0 -680,0 Z M878.8,564 a312,312 0 1,0 624,0 a312,312 0 1,0 -624,0 Z"/>
+</g>
+<g id="co-couronne">
+<polygon class="metal" points="1350.2,571.5 1365.4,567.8 1365.4,560.2 1350.2,556.5 1349.6,548.2 1364.1,542.4 1362.9,534.8 1347.4,533.4 1345.6,525.2 1359.1,517.4 1356.9,510 1341.3,510.9 1338.3,503.1 1350.5,493.4 1347.2,486.4 1332,489.6 1327.9,482.3 1338.5,470.9 1334.3,464.5 1319.6,469.8 1314.5,463.2 1323.4,450.4 1318.3,444.7 1304.6,452.1 1298.5,446.2 1305.4,432.3 1299.5,427.4 1287,436.7 1280.2,431.8 1285,417 1278.5,413 1267.5,424 1260,420.2 1262.6,404.8 1255.5,401.8 1246.3,414.4 1238.3,411.6 1238.7,396.1 1231.2,394.2 1223.9,407.9 1215.7,406.3 1213.7,390.9 1206.1,390.1 1200.8,404.7 1192.4,404.4 1188.2,389.4 1180.6,389.7 1177.5,405 1169.2,405.9 1162.9,391.7 1155.3,393 1154.5,408.6 1146.4,410.7 1138.1,397.6 1130.8,400 1132.3,415.5 1124.5,418.8 1114.4,407 1107.6,410.5 1111.3,425.6 1104.1,430 1092.3,419.8 1086.1,424.3 1092,438.7 1085.5,444.1 1072.4,435.7 1066.9,441 1074.8,454.4 1069.2,460.7 1055,454.3 1050.3,460.3 1060.1,472.5 1055.4,479.5 1040.4,475.2 1036.7,481.9 1048.1,492.5 1044.6,500.1 1029.1,498.1 1026.4,505.2 1039.2,514 1036.8,522.1 1021.3,522.3 1019.6,529.8 1033.6,536.6 1032.3,544.9 1017,547.4 1016.4,555.1 1031.3,559.8 1031.3,568.2 1016.4,572.9 1017,580.6 1032.3,583.1 1033.6,591.4 1019.6,598.2 1021.3,605.7 1036.8,605.9 1039.2,614 1026.4,622.8 1029.1,629.9 1044.6,627.9 1048.1,635.5 1036.7,646.1 1040.4,652.8 1055.4,648.5 1060.1,655.5 1050.3,667.7 1055,673.7 1069.2,667.3 1074.8,673.6 1066.9,687 1072.4,692.3 1085.5,683.9 1092,689.3 1086.1,703.7 1092.3,708.2 1104.1,698 1111.3,702.4 1107.6,717.5 1114.4,721 1124.5,709.2 1132.3,712.5 1130.8,728 1138.1,730.4 1146.4,717.3 1154.5,719.4 1155.3,735 1162.9,736.3 1169.2,722.1 1177.5,723 1180.6,738.3 1188.2,738.6 1192.4,723.6 1200.8,723.3 1206.1,737.9 1213.7,737.1 1215.7,721.7 1223.9,720.1 1231.2,733.8 1238.7,731.9 1238.3,716.4 1246.3,713.6 1255.5,726.2 1262.6,723.2 1260,707.8 1267.5,704 1278.5,715 1285,711 1280.2,696.2 1287,691.3 1299.5,700.6 1305.4,695.7 1298.5,681.8 1304.6,675.9 1318.3,683.3 1323.4,677.6 1314.5,664.8 1319.6,658.2 1334.3,663.5 1338.5,657.1 1327.9,645.7 1332,638.4 1347.2,641.6 1350.5,634.6 1338.3,624.9 1341.3,617.1 1356.9,618 1359.1,610.6 1345.6,602.8 1347.4,594.6 1362.9,593.2 1364.1,585.6 1349.6,579.8"/>
+<path class="mecanique" fill-rule="evenodd" d="M1062.8,564 a128,128 0 1,0 256,0 a128,128 0 1,0 -256,0 Z M1116.8,564 a74,74 0 1,0 148,0 a74,74 0 1,0 -148,0 Z"/>
+</g>
+<g id="co-ecrous-couronne">
+<polygon class="sombre" points="1202.1,456.5 1190.8,450 1179.5,456.5 1179.5,469.5 1190.8,476 1202.1,469.5"/>
+<polygon class="sombre" points="1106,526.3 1094.7,519.8 1083.5,526.3 1083.5,539.3 1094.7,545.8 1106,539.3"/>
+<polygon class="sombre" points="1142.7,639.2 1131.4,632.7 1120.2,639.2 1120.2,652.2 1131.4,658.7 1142.7,652.2"/>
+<polygon class="sombre" points="1261.4,639.2 1250.2,632.7 1238.9,639.2 1238.9,652.2 1250.2,658.7 1261.4,652.2"/>
+<polygon class="sombre" points="1298.1,526.3 1286.9,519.8 1275.6,526.3 1275.6,539.3 1286.9,545.8 1298.1,539.3"/>
+</g>
+<g id="co-bras-oscillant">
+<polygon class="mecanique" points="340.1,379.3 1178.9,604.3 1202.7,523.7 376.3,256.5"/>
+<circle class="mecanique" cx="358.2" cy="317.9" r="62"/>
+<circle class="metal" cx="358.2" cy="317.9" r="22"/>
+</g>
+<g id="co-pignon">
+<polygon class="metal" points="340.3,387.2 354.6,384.1 354.6,375.9 340.3,372.8 338.8,364.9 351,356.9 348.1,349.2 333.6,351.5 329.4,344.7 337.9,332.8 332.3,326.7 319.7,334.1 313.3,329.2 317,315.1 309.5,311.4 300.5,322.9 292.7,320.6 291,306.1 282.8,305.4 278.4,319.3 270.4,320.1 263.6,307.1 255.6,309.4 256.6,324 249.4,327.6 238.4,318 231.7,323 238,336.2 232.5,342.2 218.8,337.2 214.4,344.3 225,354.4 222.1,361.9 207.4,362.2 205.9,370.4 219.4,376 219.4,384 205.9,389.6 207.4,397.8 222.1,398.1 225,405.6 214.4,415.7 218.8,422.8 232.5,417.8 238,423.8 231.7,437 238.4,442 249.4,432.4 256.6,436 255.6,450.6 263.6,452.9 270.4,439.9 278.4,440.7 282.8,454.6 291,453.9 292.7,439.4 300.5,437.1 309.5,448.6 317,444.9 313.3,430.8 319.7,425.9 332.3,433.3 337.9,427.2 329.4,415.3 333.6,408.5 348.1,410.8 351,403.1 338.8,395.1"/>
+<circle class="mecanique" cx="280" cy="380" r="34"/>
+</g>
+<g id="co-vis-pignon">
+<circle class="metal" cx="280" cy="380" r="24"/>
+<polygon class="mecanique" points="293,372.5 280,365 267,372.5 267,387.5 280,395 293,387.5"/>
+</g>
+<g id="co-patin-chaine">
+<polygon class="sombre" points="421.8,292.2 604,354 611.1,333.2 428.9,271.3"/>
+</g>
+<g id="co-chaine">
+<path class="chaine" d="M286.2,313.6 L1206.1,399.1 A165.6,165.6 0 1,1 1140.9,721.9 L259.9,443.6 A66.7,66.7 0 0,1 286.2,313.6 Z" style="stroke-width:26"/>
+<path class="chaine-maillons" d="M286.2,313.6 L1206.1,399.1 A165.6,165.6 0 1,1 1140.9,721.9 L259.9,443.6 A66.7,66.7 0 0,1 286.2,313.6 Z" style="stroke-width:13;stroke-dasharray:15 9"/>
+</g>
+<g id="ca-cache-pignon">
+<polygon class="depose" points="188,306.4 349,292.6 390.4,375.4 358.2,467.4 229.4,481.2 178.8,412.2"/>
+</g>
+<g id="co-tendeur-chaine-gauche">
+<rect class="metal" x="1142.8" y="524" width="140" height="80" rx="10"/>
+<line class="trait" x1="1282.8" y1="564" x2="1350.8" y2="564" style="stroke-width:16"/>
+<line class="trait" x1="1282.8" y1="564" x2="1350.8" y2="564" style="stroke:#c9cfd8;stroke-width:9"/>
+<rect class="mecanique" x="1294.8" y="544" width="22" height="40" rx="3"/>
+<polygon class="mecanique" points="1365.8,564 1358.3,551 1343.3,551 1335.8,564 1343.3,577 1358.3,577"/>
+<line class="trait" x1="1160.8" y1="524" x2="1160.8" y2="506" style="stroke-width:3"/>
+<line class="trait" x1="1178.8" y1="524" x2="1178.8" y2="514" style="stroke-width:3"/>
+<line class="trait" x1="1196.8" y1="524" x2="1196.8" y2="506" style="stroke-width:3"/>
+<line class="trait" x1="1214.8" y1="524" x2="1214.8" y2="514" style="stroke-width:3"/>
+<line class="trait" x1="1232.8" y1="524" x2="1232.8" y2="506" style="stroke-width:3"/>
+<line class="trait" x1="1250.8" y1="524" x2="1250.8" y2="514" style="stroke-width:3"/>
+<polygon class="orange" points="1196.8,520 1188.8,506 1204.8,506"/>
+</g>
+<g id="co-axe-roue-arriere">
+<circle class="mecanique" cx="1190.8" cy="564" r="40"/>
+<polygon class="metal" points="1216.8,549 1190.8,534 1164.8,549 1164.8,579 1190.8,594 1216.8,579"/>
+<circle class="mecanique" cx="1190.8" cy="564" r="12"/>
+</g>
+<g id="sens-rotation">
+<path class="cote" d="M1280.7,379.7 L1275.1,377.1 L1269.4,374.7 L1263.6,372.4 L1257.8,370.2 L1251.9,368.3 L1245.9,366.6 L1239.9,365 L1233.9,363.6 L1227.8,362.4 L1221.7,361.3 L1215.5,360.5 L1209.4,359.8 L1203.2,359.4 L1197,359.1 L1190.8,359 L1184.6,359.1 L1178.4,359.4 L1172.2,359.8 L1166.1,360.5 L1159.9,361.3 L1153.8,362.4 L1147.7,363.6 L1141.7,365 L1135.7,366.6 L1129.7,368.3 L1123.8,370.2 L1118,372.4 L1112.2,374.7" style="stroke-width:6"/>
+<polygon class="fleche" points="1090.4,384.5 1106.8,362.6 1117.7,386.7"/>
+</g>
+<g id="co-point-mesure-fleche">
+<path class="depose" d="M259.9,443.6 L811.3,595 L1140.9,721.9"/>
+<path class="depose" d="M259.9,443.6 L811.3,640.6 L1140.9,721.9"/>
+<circle class="orange" cx="811.3" cy="617.8" r="9"/>
+<line class="cote" x1="771.3" y1="617.8" x2="771.3" y2="603" style="stroke-width:4"/>
+<polygon class="fleche" points="771.3,591 777.9,603 764.7,603"/>
+<line class="cote" x1="771.3" y1="617.8" x2="771.3" y2="632.6" style="stroke-width:4"/>
+<polygon class="fleche" points="771.3,644.6 764.7,632.6 777.9,632.6"/>
+<text class="cote-texte" x="753.3" y="663.8" font-size="30" text-anchor="end">≈ 30 mm</text>
+<line class="cote" x1="1190.8" y1="608" x2="1190.8" y2="834" style="stroke-width:2;stroke-dasharray:6 6"/>
+<line class="cote" x1="811.3" y1="631.8" x2="811.3" y2="834" style="stroke-width:2;stroke-dasharray:6 6"/>
+<line class="cote" x1="829.3" y1="820" x2="1172.8" y2="820" style="stroke-width:3"/>
+<polygon class="fleche" points="1190.8,820 1172.8,829.9 1172.8,810.1"/>
+<polygon class="fleche" points="811.3,820 829.3,829.9 829.3,810.1"/>
+<text class="cote-texte" x="1001" y="806" font-size="32" text-anchor="middle">250 mm</text>
+</g>
+</svg>

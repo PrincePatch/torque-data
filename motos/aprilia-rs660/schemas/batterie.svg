@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+<!-- Torque - batterie et fusibles sous la selle pilote (vue de dessus, avant en haut) - dessin original, licence CC BY 4.0. Aucun logo, aucune photo ni vue éclatée reproduite. -->
+<style>
+.trait{fill:none;stroke:#1d2229;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.carene{fill:#6c7d96;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.sombre{fill:#474f5c;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.moteur{fill:#7b8490;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.mecanique{fill:#aab3bf;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.metal{fill:#c9cfd8;stroke:#1d2229;stroke-width:2.5;stroke-linejoin:round}
+.echappement{fill:#8d8a85;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.pneu{fill:#373c44;stroke:#8d97a6;stroke-width:3}
+.detail{fill:none;stroke:#1d2229;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.detail-clair{fill:none;stroke:#c3cad4;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.optique{fill:#e3ebf4;stroke:#1d2229;stroke-width:2.5;stroke-linejoin:round}
+.feu{fill:#d8463f;stroke:#1d2229;stroke-width:2.5;stroke-linejoin:round}
+.orange{fill:#e8901f;stroke:#1d2229;stroke-width:2.5;stroke-linejoin:round}
+.vitre{fill:#9cc3e8;fill-opacity:.35;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.cache{fill:#e8901f;fill-opacity:.16;stroke:#d9731a;stroke-width:2.5;stroke-dasharray:9 6;stroke-linejoin:round}
+.depose{fill:none;stroke:#8d97a6;stroke-width:2.5;stroke-dasharray:12 8;stroke-linejoin:round}
+.sol{fill:none;stroke:#8d97a6;stroke-width:2;stroke-dasharray:4 10;stroke-linecap:round}
+.cote{fill:none;stroke:#d9731a;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.fleche{fill:#d9731a;stroke:none}
+.cote-texte{fill:#d9731a;font-family:Arial,Helvetica,sans-serif;font-weight:bold}
+.fluide{fill:#c08a2a;fill-opacity:.85;stroke:#1d2229;stroke-width:2}
+.liquide-frein{fill:#d9b44a;fill-opacity:.7;stroke:#1d2229;stroke-width:2}
+.chaine{fill:none;stroke:#1d2229;stroke-width:12;stroke-linejoin:round}
+.chaine-maillons{fill:none;stroke:#aab3bf;stroke-width:6;stroke-dasharray:7 5;stroke-linejoin:round}
+.vert{fill:#3fae5a;stroke:#1d2229;stroke-width:2.5}
+.rouge{fill:#d8463f;stroke:#1d2229;stroke-width:2.5}
+.bleu{fill:#3f7fd8;stroke:#1d2229;stroke-width:2.5}
+.ecran{fill:#20262e;stroke:#1d2229;stroke-width:3}
+</style>
+<g id="sens-avant">
+<line class="cote" x1="800" y1="110" x2="800" y2="60" style="stroke-width:8"/>
+<polygon class="fleche" points="800,30 816.5,60 783.5,60"/>
+</g>
+<g id="co-cadre">
+<rect class="mecanique" x="330" y="120" width="40" height="860" rx="10"/>
+<rect class="mecanique" x="1230" y="120" width="40" height="860" rx="10"/>
+</g>
+<g id="ca-flanc-arriere-gauche">
+<path class="depose" d="M320,520 L200,560 L190,900 L320,960"/>
+</g>
+<g id="ca-flanc-arriere-droit">
+<path class="depose" d="M1280,520 L1400,560 L1410,900 L1280,960"/>
+</g>
+<g id="ca-selle-pilote">
+<rect class="depose" x="400" y="70" width="800" height="620" rx="60"/>
+</g>
+<g id="ca-plateau-documents">
+<rect class="depose" x="500" y="170" width="600" height="470" rx="20"/>
+<circle class="orange" cx="540" cy="210" r="14"/>
+<circle class="orange" cx="1060" cy="210" r="14"/>
+</g>
+<g id="co-batterie">
+<rect class="sombre" x="560" y="260" width="480" height="300" rx="18"/>
+<rect class="mecanique" x="600" y="286" width="90" height="70" rx="8"/>
+<rect class="feu" x="910" y="286" width="90" height="70" rx="8"/>
+<line class="trait" x1="625" y1="321" x2="665" y2="321" style="stroke:#e6eaf0;stroke-width:6"/>
+<line class="trait" x1="935" y1="321" x2="975" y2="321" style="stroke:#e6eaf0;stroke-width:6"/>
+<line class="trait" x1="955" y1="301" x2="955" y2="341" style="stroke:#e6eaf0;stroke-width:6"/>
+<circle class="metal" cx="800" cy="470" r="18"/>
+<circle class="vert" cx="740" cy="516" r="7" style="stroke-width:1.5"/>
+<circle class="vert" cx="764" cy="516" r="7" style="stroke-width:1.5"/>
+<circle class="vert" cx="788" cy="516" r="7" style="stroke-width:1.5"/>
+<circle class="vert" cx="812" cy="516" r="7" style="stroke-width:1.5"/>
+<circle class="vert" cx="836" cy="516" r="7" style="stroke-width:1.5"/>
+<circle class="led" cx="860" cy="516" r="7" style="stroke-width:1.5"/>
+</g>
+<g id="cable-negatif">
+<path class="trait" d="M645,300 C600,240 470,250 370,280" style="stroke-width:16"/>
+<path class="trait" d="M645,300 C600,240 470,250 370,280" style="stroke:#6b7380;stroke-width:9"/>
+</g>
+<g id="cable-positif">
+<path class="trait" d="M955,300 C1000,240 1120,250 1230,300" style="stroke:#d8463f;stroke-width:14"/>
+</g>
+<g id="ordre-debranchement">
+<circle class="orange" cx="645" cy="230" r="30"/>
+<text class="cote-texte" x="645" y="243" font-size="38" text-anchor="middle">1</text>
+<circle class="orange" cx="955" cy="230" r="30"/>
+<text class="cote-texte" x="955" y="243" font-size="38" text-anchor="middle">2</text>
+</g>
+<style>#ordre-debranchement .cote-texte{fill:#1d2229}</style>
+<g id="co-boite-fusibles">
+<rect class="sombre" x="560" y="700" width="220" height="150" rx="12"/>
+<rect class="metal" x="578" y="735" width="22" height="80" rx="3"/>
+<rect class="orange" x="581" y="750" width="16" height="50" rx="2" style="fill:#e8901f"/>
+<rect class="metal" x="611" y="735" width="22" height="80" rx="3"/>
+<rect class="orange" x="614" y="750" width="16" height="50" rx="2" style="fill:#d8463f"/>
+<rect class="metal" x="644" y="735" width="22" height="80" rx="3"/>
+<rect class="orange" x="647" y="750" width="16" height="50" rx="2" style="fill:#3f7fd8"/>
+<rect class="metal" x="677" y="735" width="22" height="80" rx="3"/>
+<rect class="orange" x="680" y="750" width="16" height="50" rx="2" style="fill:#e8901f"/>
+<rect class="metal" x="710" y="735" width="22" height="80" rx="3"/>
+<rect class="orange" x="713" y="750" width="16" height="50" rx="2" style="fill:#c9cfd8"/>
+<rect class="metal" x="743" y="735" width="22" height="80" rx="3"/>
+<rect class="orange" x="746" y="750" width="16" height="50" rx="2" style="fill:#3fae5a"/>
+<rect class="sombre" x="820" y="700" width="220" height="150" rx="12"/>
+<rect class="metal" x="838" y="735" width="22" height="80" rx="3"/>
+<rect class="orange" x="841" y="750" width="16" height="50" rx="2" style="fill:#e8901f"/>
+<rect class="metal" x="871" y="735" width="22" height="80" rx="3"/>
+<rect class="orange" x="874" y="750" width="16" height="50" rx="2" style="fill:#d8463f"/>
+<rect class="metal" x="904" y="735" width="22" height="80" rx="3"/>
+<rect class="orange" x="907" y="750" width="16" height="50" rx="2" style="fill:#3f7fd8"/>
+<rect class="metal" x="937" y="735" width="22" height="80" rx="3"/>
+<rect class="orange" x="940" y="750" width="16" height="50" rx="2" style="fill:#e8901f"/>
+<rect class="metal" x="970" y="735" width="22" height="80" rx="3"/>
+<rect class="orange" x="973" y="750" width="16" height="50" rx="2" style="fill:#c9cfd8"/>
+<rect class="metal" x="1003" y="735" width="22" height="80" rx="3"/>
+<rect class="orange" x="1006" y="750" width="16" height="50" rx="2" style="fill:#3fae5a"/>
+</g>
+<g id="co-fusible-principal">
+<rect class="sombre" x="60" y="700" width="200" height="150" rx="12"/>
+<rect class="metal" x="90" y="730" width="40" height="90" rx="4"/>
+<rect class="orange" x="96" y="745" width="28" height="60" rx="3" style="fill:#3fae5a"/>
+<rect class="metal" x="180" y="730" width="40" height="90" rx="4"/>
+<rect class="orange" x="186" y="745" width="28" height="60" rx="3" style="fill:#3fae5a"/>
+<line class="cote" x1="300" y1="775" x2="286" y2="775" style="stroke-width:5"/>
+<polygon class="fleche" points="268,775 286,765.1 286,784.9"/>
+</g>
+</svg>

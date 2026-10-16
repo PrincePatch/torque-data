@@ -1,0 +1,5106 @@
+{
+  "version_schema": 1,
+  "maj": "2026-10-16",
+  "vues": [
+    {
+      "id": "profil-gauche",
+      "fichier": "schemas/profil-gauche.svg",
+      "libelle": {
+        "fr": "Profil gauche",
+        "en": "Left side view"
+      },
+      "largeur": 1600,
+      "hauteur": 1000
+    },
+    {
+      "id": "profil-droit",
+      "fichier": "schemas/profil-droit.svg",
+      "libelle": {
+        "fr": "Profil droit",
+        "en": "Right side view"
+      },
+      "largeur": 1600,
+      "hauteur": 1000
+    },
+    {
+      "id": "dessus",
+      "fichier": "schemas/dessus.svg",
+      "libelle": {
+        "fr": "Vue de dessus (organes cachés en tirets)",
+        "en": "Top view (hidden parts dashed)"
+      },
+      "largeur": 1000,
+      "hauteur": 1600
+    },
+    {
+      "id": "tableau-de-bord",
+      "fichier": "schemas/tableau-de-bord.svg",
+      "libelle": {
+        "fr": "Tableau de bord TFT et témoins",
+        "en": "TFT dashboard and warning lights"
+      },
+      "largeur": 1600,
+      "hauteur": 1000,
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "id": "guidon",
+      "fichier": "schemas/guidon.svg",
+      "libelle": {
+        "fr": "Commodos et leviers",
+        "en": "Handlebar switches and levers"
+      },
+      "largeur": 1600,
+      "hauteur": 1000,
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ]
+    },
+    {
+      "id": "arriere-chaine",
+      "fichier": "schemas/arriere-chaine.svg",
+      "libelle": {
+        "fr": "Transmission (zoom côté gauche)",
+        "en": "Final drive (left side close-up)"
+      },
+      "largeur": 1600,
+      "hauteur": 1000
+    },
+    {
+      "id": "chaine-fleche",
+      "fichier": "schemas/chaine-fleche.svg",
+      "libelle": {
+        "fr": "Mesure de la flèche de chaîne",
+        "en": "Measuring chain slack"
+      },
+      "largeur": 1600,
+      "hauteur": 1000
+    },
+    {
+      "id": "vidange",
+      "fichier": "schemas/vidange.svg",
+      "libelle": {
+        "fr": "Vidange : bouchon, filtre, jauge",
+        "en": "Oil change: drain plug, filter, dipstick"
+      },
+      "largeur": 1600,
+      "hauteur": 1000
+    },
+    {
+      "id": "purge-frein",
+      "fichier": "schemas/purge-frein.svg",
+      "libelle": {
+        "fr": "Purge du frein avant",
+        "en": "Front brake bleeding"
+      },
+      "largeur": 1600,
+      "hauteur": 1000
+    },
+    {
+      "id": "plaquettes",
+      "fichier": "schemas/plaquettes.svg",
+      "libelle": {
+        "fr": "Plaquettes avant (étrier en coupe)",
+        "en": "Front brake pads (caliper cross-section)"
+      },
+      "largeur": 1600,
+      "hauteur": 1000
+    },
+    {
+      "id": "batterie",
+      "fichier": "schemas/batterie.svg",
+      "libelle": {
+        "fr": "Batterie et fusibles sous la selle",
+        "en": "Battery and fuses under the seat"
+      },
+      "largeur": 1600,
+      "hauteur": 1000
+    }
+  ],
+  "composants": [
+    {
+      "id": "co-batterie",
+      "nom": {
+        "fr": "Batterie",
+        "en": "Battery"
+      },
+      "groupe": "electricite",
+      "emplacement": {
+        "fr": "Partie centrale, sous la selle pilote, sous le compartiment à documents. D'origine : lithium BS Battery BSLi-04 (LiFePO4 12,8 V, 48 Wh) avec bouton TEST et voyants de charge."
+      },
+      "reperes": [
+        {
+          "vue": "dessus",
+          "x": 0.5,
+          "y": 0.575
+        },
+        {
+          "vue": "batterie",
+          "x": 0.5,
+          "y": 0.41
+        },
+        {
+          "vue": "profil-gauche",
+          "x": 0.574,
+          "y": 0.42
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.426,
+          "y": 0.42
+        }
+      ],
+      "acces": {
+        "fr": "Contact coupé. Selle passager puis selle pilote, 2 vis du compartiment à documents. Débrancher la cosse négative en premier, puis la positive ; au remontage : positive d'abord, négative ensuite, câbles posés sur le dessus."
+      },
+      "carenages_a_deposer": [
+        "ca-selle-passager",
+        "ca-selle-pilote",
+        "ca-plateau-documents"
+      ],
+      "operations": [
+        "op-batterie",
+        "op-hivernage",
+        "op-remise-en-route"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p152",
+        "src-manuel-proprietaire#p151",
+        "src-manuel-proprietaire#p153",
+        "src-manuel-proprietaire#p187"
+      ]
+    },
+    {
+      "id": "co-bouton-test-batterie",
+      "nom": {
+        "fr": "Bouton TEST de la batterie lithium",
+        "en": "Lithium battery TEST button"
+      },
+      "groupe": "electricite",
+      "emplacement": {
+        "fr": "Sur le dessus de la batterie lithium d'origine : 5-6 voyants = chargée, 3-4 = charge conseillée, 1-2 = charge nécessaire, 0 = défaut."
+      },
+      "reperes": [
+        {
+          "vue": "batterie",
+          "x": 0.5,
+          "y": 0.47
+        }
+      ],
+      "acces": {
+        "fr": "Accès comme pour la batterie (selles + compartiment à documents)."
+      },
+      "carenages_a_deposer": [
+        "ca-selle-passager",
+        "ca-selle-pilote",
+        "ca-plateau-documents"
+      ],
+      "operations": [
+        "op-batterie"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p154",
+        "src-manuel-proprietaire#p155"
+      ]
+    },
+    {
+      "id": "co-boite-fusibles",
+      "nom": {
+        "fr": "Boîtes à fusibles secondaires (A à K)",
+        "en": "Secondary fuse boxes (A to K)"
+      },
+      "groupe": "electricite",
+      "emplacement": {
+        "fr": "Deux boîtiers dans la partie centrale, sous la selle pilote, à côté de la batterie (couvercles à ouvrir), avec fusibles de rechange."
+      },
+      "reperes": [
+        {
+          "vue": "dessus",
+          "x": 0.5,
+          "y": 0.622
+        },
+        {
+          "vue": "batterie",
+          "x": 0.419,
+          "y": 0.775
+        }
+      ],
+      "acces": {
+        "fr": "Selles déposées, ouvrir les couvercles. Tester les fusibles un par un ; ne jamais réparer un fusible."
+      },
+      "carenages_a_deposer": [
+        "ca-selle-passager",
+        "ca-selle-pilote"
+      ],
+      "operations": [
+        "op-controle-eclairage",
+        "op-controle-fonctionnement-general"
+      ],
+      "note": {
+        "fr": "Disposition relative des deux boîtiers sur le schéma : approximative."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p159",
+        "src-manuel-proprietaire#p160",
+        "src-manuel-proprietaire#p161",
+        "src-manuel-atelier#p408"
+      ]
+    },
+    {
+      "id": "co-fusible-principal",
+      "nom": {
+        "fr": "Fusible principal 30 A (+ rechange)",
+        "en": "Main fuse 30 A (+ spare)"
+      },
+      "groupe": "electricite",
+      "emplacement": {
+        "fr": "Derrière le flanc arrière gauche, sous la selle pilote, dans un boîtier fermé par un capot."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.63,
+          "y": 0.413
+        },
+        {
+          "vue": "dessus",
+          "x": 0.409,
+          "y": 0.627
+        },
+        {
+          "vue": "batterie",
+          "x": 0.069,
+          "y": 0.775
+        }
+      ],
+      "acces": {
+        "fr": "Selles, flanc arrière gauche (vis haute + vis basse), 2 vis du capot, puis débrancher le connecteur. Retirer ce fusible pour une immobilisation de plus de 15 jours (remet à zéro horloge et trip)."
+      },
+      "carenages_a_deposer": [
+        "ca-selle-passager",
+        "ca-selle-pilote",
+        "ca-flanc-arriere-gauche",
+        "ca-capot-fusible-principal"
+      ],
+      "operations": [
+        "op-hivernage",
+        "op-batterie"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p157",
+        "src-manuel-proprietaire#p161",
+        "src-manuel-proprietaire#p162",
+        "src-manuel-proprietaire#p163"
+      ]
+    },
+    {
+      "id": "co-relais",
+      "nom": {
+        "fr": "Relais (relais principal et relais sur supports)",
+        "en": "Relays"
+      },
+      "groupe": "electricite",
+      "emplacement": {
+        "fr": "Passage de roue arrière / sous-cadre, sous la selle ; relais principal sous un capot à 2 vis."
+      },
+      "reperes": [
+        {
+          "vue": "dessus",
+          "x": 0.5,
+          "y": 0.658
+        }
+      ],
+      "acces": {
+        "fr": "Démontage lourd (passage de roue arrière) ; relais principal : 2 vis du capot."
+      },
+      "carenages_a_deposer": [
+        "ca-selle-passager",
+        "ca-selle-pilote",
+        "ca-flanc-arriere-gauche",
+        "ca-flanc-arriere-droit",
+        "ca-coque-arriere"
+      ],
+      "operations": [],
+      "note": {
+        "fr": "Position sur le schéma : approximative."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p406",
+        "src-manuel-atelier#p407"
+      ]
+    },
+    {
+      "id": "co-centrale-inertielle",
+      "nom": {
+        "fr": "Centrale inertielle (IMU)",
+        "en": "Inertial measurement unit (IMU)"
+      },
+      "groupe": "electricite",
+      "emplacement": {
+        "fr": "Sur le passage de roue arrière, sous la selle (2 vis M6x25)."
+      },
+      "reperes": [
+        {
+          "vue": "dessus",
+          "x": 0.5,
+          "y": 0.688
+        }
+      ],
+      "acces": {
+        "fr": "Selles, batterie, réservoir, coques arrière (procédure « passage de roue AR » du manuel d'atelier)."
+      },
+      "carenages_a_deposer": [
+        "ca-selle-passager",
+        "ca-selle-pilote",
+        "ca-flanc-arriere-gauche",
+        "ca-flanc-arriere-droit",
+        "ca-coque-arriere"
+      ],
+      "operations": [
+        "op-diagnostic-outil"
+      ],
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p405",
+        "src-manuel-atelier#p406",
+        "src-manuel-atelier#p35"
+      ]
+    },
+    {
+      "id": "co-calculateur",
+      "nom": {
+        "fr": "Calculateur moteur (ECU)",
+        "en": "Engine control unit (ECU)"
+      },
+      "groupe": "electricite",
+      "emplacement": {
+        "fr": "Sous le réservoir, sur un support fixé à la boîte à air (2 vis support ↔ boîte à air)."
+      },
+      "reperes": [
+        {
+          "vue": "dessus",
+          "x": 0.5,
+          "y": 0.359
+        },
+        {
+          "vue": "profil-gauche",
+          "x": 0.379,
+          "y": 0.346
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.621,
+          "y": 0.346
+        }
+      ],
+      "acces": {
+        "fr": "Selles, cache avant du réservoir (2 vis), puis dépose du réservoir (2 vis AV avec bagues, 1 vis AR, durites de mise à l'air, durite d'essence et connecteur de pompe)."
+      },
+      "carenages_a_deposer": [
+        "ca-selle-passager",
+        "ca-selle-pilote",
+        "ca-cache-reservoir"
+      ],
+      "operations": [
+        "op-diagnostic-outil",
+        "op-mise-a-jour-logiciel"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p66",
+        "src-cbcmoto-upmap",
+        "src-apriliaforum-ecu-upmap"
+      ]
+    },
+    {
+      "id": "co-prise-diagnostic",
+      "nom": {
+        "fr": "Prise diagnostic",
+        "en": "Diagnostic connector"
+      },
+      "groupe": "electricite",
+      "emplacement": {
+        "fr": "Non documentée clairement. Piste : connecteur 3 voies non étiqueté côté droit du cadre, visible après dépose du cache batterie."
+      },
+      "reperes": [
+        {
+          "vue": "dessus",
+          "x": 0.588,
+          "y": 0.565
+        }
+      ],
+      "acces": {
+        "fr": "Selles déposées (à confirmer sur la moto)."
+      },
+      "carenages_a_deposer": [
+        "ca-selle-passager",
+        "ca-selle-pilote"
+      ],
+      "operations": [
+        "op-diagnostic-outil"
+      ],
+      "confiance": "incertain",
+      "sources": [
+        "src-apriliaforum-prise-diag",
+        "src-manuel-atelier#p53"
+      ]
+    },
+    {
+      "id": "co-regulateur",
+      "nom": {
+        "fr": "Régulateur de tension",
+        "en": "Voltage regulator"
+      },
+      "groupe": "electricite",
+      "emplacement": {
+        "fr": "Sur le carénage intérieur gauche (2 écrous + 2 vis dans bagues « T »), câblage derrière la durite de radiateur."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.369,
+          "y": 0.495
+        },
+        {
+          "vue": "dessus",
+          "x": 0.333,
+          "y": 0.367
+        }
+      ],
+      "acces": {
+        "fr": "Flanc gauche puis carénage intérieur gauche (porte-régulateur)."
+      },
+      "carenages_a_deposer": [
+        "ca-carenage-interieur-gauche",
+        "ca-flanc-gauche",
+        "ca-carenage-radiateur-gauche"
+      ],
+      "operations": [
+        "op-batterie"
+      ],
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p399",
+        "src-manuel-atelier#p400",
+        "src-manuel-atelier#p35",
+        "src-manuel-atelier#p99"
+      ]
+    },
+    {
+      "id": "co-klaxon",
+      "nom": {
+        "fr": "Avertisseur (klaxon)",
+        "en": "Horn"
+      },
+      "groupe": "electricite",
+      "emplacement": {
+        "fr": "À l'avant, près du radiateur, côté gauche."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.294,
+          "y": 0.47
+        }
+      ],
+      "acces": {
+        "fr": "Flanc gauche."
+      },
+      "carenages_a_deposer": [
+        "ca-carenage-interieur-gauche",
+        "ca-flanc-gauche"
+      ],
+      "operations": [
+        "op-controle-eclairage"
+      ],
+      "note": {
+        "fr": "Position sur le schéma : approximative."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p20",
+        "src-manuel-atelier#p97"
+      ]
+    },
+    {
+      "id": "co-prise-usb",
+      "nom": {
+        "fr": "Prise USB (fusible G 2 A)",
+        "en": "USB socket (fuse G 2 A)"
+      },
+      "groupe": "electricite",
+      "emplacement": {
+        "fr": "Connecteur prévu sous l'instrumentation."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.291,
+          "y": 0.256
+        },
+        {
+          "vue": "dessus",
+          "x": 0.5,
+          "y": 0.286
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-proprietaire#p160",
+        "src-apriliaforum-prise-diag"
+      ]
+    },
+    {
+      "id": "co-boite-a-air",
+      "nom": {
+        "fr": "Boîte à air",
+        "en": "Airbox"
+      },
+      "groupe": "admission",
+      "emplacement": {
+        "fr": "Sous le réservoir, au-dessus des corps de papillon ; couvercle fermé par 11 vis (1-1,2 Nm)."
+      },
+      "reperes": [
+        {
+          "vue": "dessus",
+          "x": 0.548,
+          "y": 0.431
+        },
+        {
+          "vue": "profil-gauche",
+          "x": 0.406,
+          "y": 0.36
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.594,
+          "y": 0.36
+        }
+      ],
+      "acces": {
+        "fr": "Selles, cache avant du réservoir (2 vis), puis dépose du réservoir (2 vis AV avec bagues, 1 vis AR, durites de mise à l'air, durite d'essence et connecteur de pompe). Débrancher le capteur de température d'air, 11 vis du couvercle."
+      },
+      "carenages_a_deposer": [
+        "ca-selle-passager",
+        "ca-selle-pilote",
+        "ca-cache-reservoir"
+      ],
+      "operations": [
+        "op-controle-filtre-air",
+        "op-remplacement-filtre-air"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p61",
+        "src-manuel-atelier#p64",
+        "src-manuel-atelier#p65",
+        "src-manuel-atelier#p30"
+      ]
+    },
+    {
+      "id": "co-filtre-air",
+      "nom": {
+        "fr": "Filtre à air",
+        "en": "Air filter"
+      },
+      "groupe": "admission",
+      "emplacement": {
+        "fr": "Dans la boîte à air, sous le réservoir (élément maintenu par un cadre)."
+      },
+      "reperes": [
+        {
+          "vue": "dessus",
+          "x": 0.548,
+          "y": 0.431
+        },
+        {
+          "vue": "profil-gauche",
+          "x": 0.406,
+          "y": 0.36
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.594,
+          "y": 0.36
+        }
+      ],
+      "acces": {
+        "fr": "Selles, cache avant du réservoir (2 vis), puis dépose du réservoir (2 vis AV avec bagues, 1 vis AR, durites de mise à l'air, durite d'essence et connecteur de pompe). Puis couvercle de boîte à air (11 vis) et cadre de maintien."
+      },
+      "carenages_a_deposer": [
+        "ca-selle-passager",
+        "ca-selle-pilote",
+        "ca-cache-reservoir"
+      ],
+      "operations": [
+        "op-controle-filtre-air",
+        "op-remplacement-filtre-air"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p61",
+        "src-manuel-atelier#p64",
+        "src-manuel-atelier#p65"
+      ]
+    },
+    {
+      "id": "co-capteur-temperature-admission",
+      "nom": {
+        "fr": "Capteur de température d'air d'admission",
+        "en": "Intake air temperature sensor"
+      },
+      "groupe": "admission",
+      "emplacement": {
+        "fr": "Sur le couvercle de boîte à air (connecteur à débrancher pour l'ouvrir)."
+      },
+      "reperes": [
+        {
+          "vue": "dessus",
+          "x": 0.568,
+          "y": 0.383
+        }
+      ],
+      "acces": {
+        "fr": "Selles, cache avant du réservoir (2 vis), puis dépose du réservoir (2 vis AV avec bagues, 1 vis AR, durites de mise à l'air, durite d'essence et connecteur de pompe)."
+      },
+      "carenages_a_deposer": [
+        "ca-selle-passager",
+        "ca-selle-pilote",
+        "ca-cache-reservoir"
+      ],
+      "operations": [
+        "op-remplacement-filtre-air"
+      ],
+      "note": {
+        "fr": "Position exacte sur le couvercle : approximative."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p61",
+        "src-manuel-atelier#p64"
+      ]
+    },
+    {
+      "id": "co-capteur-map",
+      "nom": {
+        "fr": "Capteur de pression d'air (MAP)",
+        "en": "Manifold air pressure sensor (MAP)"
+      },
+      "groupe": "admission",
+      "emplacement": {
+        "fr": "Sur la boîte à air (vis autotaraudeuse)."
+      },
+      "reperes": [
+        {
+          "vue": "dessus",
+          "x": 0.42,
+          "y": 0.438
+        }
+      ],
+      "acces": {
+        "fr": "Selles, cache avant du réservoir (2 vis), puis dépose du réservoir (2 vis AV avec bagues, 1 vis AR, durites de mise à l'air, durite d'essence et connecteur de pompe)."
+      },
+      "carenages_a_deposer": [
+        "ca-selle-passager",
+        "ca-selle-pilote",
+        "ca-cache-reservoir"
+      ],
+      "operations": [],
+      "note": {
+        "fr": "Position exacte : approximative."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p30",
+        "src-manuel-atelier#p63"
+      ]
+    },
+    {
+      "id": "co-bougies",
+      "nom": {
+        "fr": "Bougies (2 × NGK IR MR9DI-7)",
+        "en": "Spark plugs (2 × NGK IR MR9DI-7)"
+      },
+      "groupe": "allumage",
+      "emplacement": {
+        "fr": "Dans le couvre-culasse, sous la boîte à air (une par cylindre)."
+      },
+      "reperes": [
+        {
+          "vue": "dessus",
+          "x": 0.452,
+          "y": 0.4
+        },
+        {
+          "vue": "dessus",
+          "x": 0.548,
+          "y": 0.4
+        },
+        {
+          "vue": "profil-gauche",
+          "x": 0.377,
+          "y": 0.442
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.623,
+          "y": 0.442
+        }
+      ],
+      "acces": {
+        "fr": "Selles, cache avant du réservoir (2 vis), puis dépose du réservoir (2 vis AV avec bagues, 1 vis AR, durites de mise à l'air, durite d'essence et connecteur de pompe). Puis boîte à air complète et canister, connecteurs et vis des bobines."
+      },
+      "carenages_a_deposer": [
+        "ca-selle-passager",
+        "ca-selle-pilote",
+        "ca-cache-reservoir"
+      ],
+      "operations": [
+        "op-bougies"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p57",
+        "src-manuel-atelier#p58",
+        "src-manuel-atelier#p40",
+        "src-manuel-proprietaire#p186",
+        "src-manuel-proprietaire#p187"
+      ]
+    },
+    {
+      "id": "co-bobines",
+      "nom": {
+        "fr": "Bobines crayon (×2)",
+        "en": "Pencil ignition coils (×2)"
+      },
+      "groupe": "allumage",
+      "emplacement": {
+        "fr": "Sur les bougies, fixées par une vis TE M6x16 chacune ; connecteurs sur le support du canister."
+      },
+      "reperes": [
+        {
+          "vue": "dessus",
+          "x": 0.452,
+          "y": 0.4
+        },
+        {
+          "vue": "dessus",
+          "x": 0.548,
+          "y": 0.4
+        }
+      ],
+      "acces": {
+        "fr": "Selles, cache avant du réservoir (2 vis), puis dépose du réservoir (2 vis AV avec bagues, 1 vis AR, durites de mise à l'air, durite d'essence et connecteur de pompe). Puis boîte à air et canister."
+      },
+      "carenages_a_deposer": [
+        "ca-selle-passager",
+        "ca-selle-pilote",
+        "ca-cache-reservoir"
+      ],
+      "operations": [
+        "op-bougies"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p57",
+        "src-manuel-atelier#p58",
+        "src-manuel-atelier#p40"
+      ]
+    },
+    {
+      "id": "co-canister",
+      "nom": {
+        "fr": "Canister (anti-évaporation)",
+        "en": "Evaporative canister"
+      },
+      "groupe": "carburant",
+      "emplacement": {
+        "fr": "Sous la boîte à air, sur un support fixé au couvre-culasse (porte aussi les connecteurs de bobines)."
+      },
+      "reperes": [
+        {
+          "vue": "dessus",
+          "x": 0.466,
+          "y": 0.414
+        }
+      ],
+      "acces": {
+        "fr": "Selles, cache avant du réservoir (2 vis), puis dépose du réservoir (2 vis AV avec bagues, 1 vis AR, durites de mise à l'air, durite d'essence et connecteur de pompe). Puis boîte à air."
+      },
+      "carenages_a_deposer": [
+        "ca-selle-passager",
+        "ca-selle-pilote",
+        "ca-cache-reservoir"
+      ],
+      "operations": [
+        "op-bougies",
+        "op-jeu-soupapes"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p57",
+        "src-manuel-atelier#p87"
+      ]
+    },
+    {
+      "id": "co-pompe-essence",
+      "nom": {
+        "fr": "Pompe à essence",
+        "en": "Fuel pump"
+      },
+      "groupe": "carburant",
+      "emplacement": {
+        "fr": "Dans le réservoir (bride 6 vis M5x15) ; connecteur et durite sous le réservoir."
+      },
+      "reperes": [
+        {
+          "vue": "dessus",
+          "x": 0.5,
+          "y": 0.479
+        },
+        {
+          "vue": "profil-gauche",
+          "x": 0.463,
+          "y": 0.38
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.537,
+          "y": 0.38
+        }
+      ],
+      "acces": {
+        "fr": "Selles, cache avant du réservoir (2 vis), puis dépose du réservoir (2 vis AV avec bagues, 1 vis AR, durites de mise à l'air, durite d'essence et connecteur de pompe)."
+      },
+      "carenages_a_deposer": [
+        "ca-selle-passager",
+        "ca-selle-pilote",
+        "ca-cache-reservoir"
+      ],
+      "operations": [],
+      "note": {
+        "fr": "Position de la bride sur le schéma : approximative."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p28",
+        "src-manuel-atelier#p405"
+      ]
+    },
+    {
+      "id": "co-reservoir-carburant",
+      "nom": {
+        "fr": "Réservoir de carburant (15 L dont 3,5 L de réserve)",
+        "en": "Fuel tank (15 L incl. 3.5 L reserve)"
+      },
+      "groupe": "carburant",
+      "emplacement": {
+        "fr": "Entre la colonne de direction et la selle pilote, sous un cache avant."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.459,
+          "y": 0.32
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.541,
+          "y": 0.32
+        },
+        {
+          "vue": "dessus",
+          "x": 0.44,
+          "y": 0.481
+        }
+      ],
+      "acces": {
+        "fr": "Selles, cache avant du réservoir (2 vis), puis dépose du réservoir (2 vis AV avec bagues, 1 vis AR, durites de mise à l'air, durite d'essence et connecteur de pompe)."
+      },
+      "carenages_a_deposer": [
+        "ca-selle-passager",
+        "ca-selle-pilote",
+        "ca-cache-reservoir"
+      ],
+      "operations": [
+        "op-hivernage",
+        "op-remise-en-route"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p109",
+        "src-manuel-atelier#p403",
+        "src-manuel-atelier#p404"
+      ]
+    },
+    {
+      "id": "co-bouchon-reservoir",
+      "nom": {
+        "fr": "Bouchon de réservoir (à clé)",
+        "en": "Fuel filler cap (key)"
+      },
+      "groupe": "carburant",
+      "emplacement": {
+        "fr": "Sur le dessus du réservoir ; s'ouvre avec la clé de contact."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.421,
+          "y": 0.282
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.579,
+          "y": 0.282
+        },
+        {
+          "vue": "dessus",
+          "x": 0.5,
+          "y": 0.421
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p75",
+        "src-manuel-proprietaire#p109"
+      ]
+    },
+    {
+      "id": "co-moteur",
+      "nom": {
+        "fr": "Moteur bicylindre en ligne 659 cm³",
+        "en": "659 cc parallel-twin engine"
+      },
+      "groupe": "moteur",
+      "emplacement": {
+        "fr": "Au centre, sous le réservoir ; cylindres inclinés vers l'avant."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.406,
+          "y": 0.564
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.594,
+          "y": 0.564
+        },
+        {
+          "vue": "dessus",
+          "x": 0.5,
+          "y": 0.375
+        },
+        {
+          "vue": "vidange",
+          "x": 0.469,
+          "y": 0.405
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p20"
+      ]
+    },
+    {
+      "id": "co-filtre-huile",
+      "nom": {
+        "fr": "Filtre à huile (cartouche M20x1)",
+        "en": "Oil filter (M20x1 cartridge)"
+      },
+      "groupe": "moteur",
+      "emplacement": {
+        "fr": "À l'avant du moteur, derrière les collecteurs d'échappement, visible côté gauche ; l'huile ne coule pas sur l'échappement au démontage."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.365,
+          "y": 0.712
+        },
+        {
+          "vue": "vidange",
+          "x": 0.274,
+          "y": 0.531
+        }
+      ],
+      "acces": {
+        "fr": "Déposer le bas de carénage (sabot), puis clé à filtre cloche 68 mm / 14 pans. Serrage 15 Nm."
+      },
+      "carenages_a_deposer": [
+        "ca-sabot"
+      ],
+      "operations": [
+        "op-vidange-huile-filtre"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p20",
+        "src-manuel-proprietaire#p181",
+        "src-scegliauto-vidange",
+        "src-youtube-vidange",
+        "src-apriliaforum-filtre-m20"
+      ]
+    },
+    {
+      "id": "co-bouchon-vidange",
+      "nom": {
+        "fr": "Bouchon de vidange aimanté",
+        "en": "Magnetic drain plug"
+      },
+      "groupe": "moteur",
+      "emplacement": {
+        "fr": "Sous le carter d'huile."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.446,
+          "y": 0.784
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.554,
+          "y": 0.784
+        },
+        {
+          "vue": "vidange",
+          "x": 0.417,
+          "y": 0.657
+        }
+      ],
+      "acces": {
+        "fr": "Bas de carénage déposé. Joint neuf, serrage 20 Nm."
+      },
+      "carenages_a_deposer": [
+        "ca-sabot"
+      ],
+      "operations": [
+        "op-vidange-huile-filtre"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p59",
+        "src-manuel-atelier#p44",
+        "src-youtube-vidange"
+      ]
+    },
+    {
+      "id": "co-jauge-huile",
+      "nom": {
+        "fr": "Bouchon-jauge d'huile (remplissage)",
+        "en": "Oil filler cap with dipstick"
+      },
+      "groupe": "moteur",
+      "emplacement": {
+        "fr": "Côté droit du moteur. Pas de hublot : lecture à la jauge, moto droite, roues au sol, sans visser la jauge."
+      },
+      "reperes": [
+        {
+          "vue": "profil-droit",
+          "x": 0.471,
+          "y": 0.596
+        },
+        {
+          "vue": "dessus",
+          "x": 0.696,
+          "y": 0.372
+        },
+        {
+          "vue": "vidange",
+          "x": 0.831,
+          "y": 0.158
+        }
+      ],
+      "acces": {
+        "fr": "Aucun carénage à déposer."
+      },
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-niveau-huile",
+        "op-vidange-huile-filtre"
+      ],
+      "note": {
+        "fr": "Position exacte sur le carter droit : approximative sur les schémas."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p20",
+        "src-manuel-proprietaire#p140",
+        "src-manuel-proprietaire#p141",
+        "src-manuel-atelier#p58",
+        "src-manuel-atelier#p59"
+      ]
+    },
+    {
+      "id": "co-couvre-culasse",
+      "nom": {
+        "fr": "Couvre-culasse (jeu aux soupapes)",
+        "en": "Cylinder head cover (valve clearance)"
+      },
+      "groupe": "moteur",
+      "emplacement": {
+        "fr": "Sur le haut du moteur, sous la boîte à air et le réservoir."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.373,
+          "y": 0.45
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.627,
+          "y": 0.45
+        }
+      ],
+      "acces": {
+        "fr": "Selles, cache avant du réservoir (2 vis), puis dépose du réservoir (2 vis AV avec bagues, 1 vis AR, durites de mise à l'air, durite d'essence et connecteur de pompe). Puis flancs, boîte à air complète, corps de papillon et canister."
+      },
+      "carenages_a_deposer": [
+        "ca-selle-passager",
+        "ca-selle-pilote",
+        "ca-cache-reservoir",
+        "ca-flanc-gauche",
+        "ca-flanc-droit"
+      ],
+      "operations": [
+        "op-jeu-soupapes"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p68",
+        "src-manuel-atelier#p77"
+      ]
+    },
+    {
+      "id": "co-carter-embrayage",
+      "nom": {
+        "fr": "Carter d'embrayage",
+        "en": "Clutch cover"
+      },
+      "groupe": "transmission",
+      "emplacement": {
+        "fr": "Côté droit du moteur (embrayage multidisque à bain d'huile, anti-dribble, commande par câble)."
+      },
+      "reperes": [
+        {
+          "vue": "profil-droit",
+          "x": 0.506,
+          "y": 0.655
+        },
+        {
+          "vue": "dessus",
+          "x": 0.668,
+          "y": 0.411
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p181",
+        "src-manuel-atelier#p84",
+        "src-manuel-atelier#p85"
+      ]
+    },
+    {
+      "id": "co-carter-alternateur",
+      "nom": {
+        "fr": "Carter d'alternateur",
+        "en": "Alternator cover"
+      },
+      "groupe": "electricite",
+      "emplacement": {
+        "fr": "Côté gauche du moteur, à l'avant (sous un cache de support de durite)."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.445,
+          "y": 0.68
+        },
+        {
+          "vue": "dessus",
+          "x": 0.338,
+          "y": 0.438
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "confiance": "une_source",
+      "sources": [
+        "src-af-pompe-eau"
+      ]
+    },
+    {
+      "id": "co-numero-moteur",
+      "nom": {
+        "fr": "Numéro de moteur",
+        "en": "Engine number"
+      },
+      "groupe": "moteur",
+      "emplacement": {
+        "fr": "Frappé sur le carter, à l'arrière, près de l'amortisseur (côté non précisé)."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.536,
+          "y": 0.652
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.464,
+          "y": 0.652
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "note": {
+        "fr": "Le côté n'est pas précisé : repère placé des deux côtés à titre indicatif."
+      },
+      "confiance": "incertain",
+      "sources": [
+        "src-manuel-proprietaire#p103"
+      ]
+    },
+    {
+      "id": "co-radiateur",
+      "nom": {
+        "fr": "Radiateur",
+        "en": "Radiator"
+      },
+      "groupe": "refroidissement",
+      "emplacement": {
+        "fr": "Devant le moteur, derrière la roue avant, caché par les flancs."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.326,
+          "y": 0.508
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.674,
+          "y": 0.508
+        }
+      ],
+      "acces": {
+        "fr": "Flancs et bas de carénage (pour le nettoyer, un simple contrôle se fait à travers les ouïes)."
+      },
+      "carenages_a_deposer": [
+        "ca-flanc-gauche",
+        "ca-flanc-droit",
+        "ca-sabot"
+      ],
+      "operations": [
+        "op-controle-refroidissement",
+        "op-liquide-refroidissement",
+        "op-lavage"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p31",
+        "src-manuel-atelier#p97",
+        "src-manuel-proprietaire#p20"
+      ]
+    },
+    {
+      "id": "co-ventilateur",
+      "nom": {
+        "fr": "Ventilateur électrique",
+        "en": "Electric cooling fan"
+      },
+      "groupe": "refroidissement",
+      "emplacement": {
+        "fr": "Fixé derrière le radiateur (3 vis M6)."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.343,
+          "y": 0.52
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.657,
+          "y": 0.52
+        }
+      ],
+      "acces": {
+        "fr": "Flancs et bas de carénage."
+      },
+      "carenages_a_deposer": [
+        "ca-flanc-gauche",
+        "ca-flanc-droit",
+        "ca-sabot"
+      ],
+      "operations": [
+        "op-controle-refroidissement"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p31",
+        "src-manuel-atelier#p97"
+      ]
+    },
+    {
+      "id": "co-bouchon-radiateur",
+      "nom": {
+        "fr": "Bouchon de radiateur",
+        "en": "Radiator cap"
+      },
+      "groupe": "refroidissement",
+      "emplacement": {
+        "fr": "Sur le radiateur, devant le moteur ; accessible une fois les flancs déposés. Ne jamais l'ouvrir moteur chaud."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.314,
+          "y": 0.412
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.686,
+          "y": 0.412
+        }
+      ],
+      "acces": {
+        "fr": "Flancs et bas de carénage."
+      },
+      "carenages_a_deposer": [
+        "ca-flanc-gauche",
+        "ca-flanc-droit",
+        "ca-sabot"
+      ],
+      "operations": [
+        "op-liquide-refroidissement"
+      ],
+      "note": {
+        "fr": "Position exacte sur le radiateur non documentée : repère approximatif."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p371",
+        "src-manuel-atelier#p374",
+        "src-manuel-proprietaire#p145"
+      ]
+    },
+    {
+      "id": "co-vase-expansion",
+      "nom": {
+        "fr": "Vase d'expansion (liquide de refroidissement)",
+        "en": "Coolant expansion tank"
+      },
+      "groupe": "refroidissement",
+      "emplacement": {
+        "fr": "Sur le carénage intérieur droit. Niveau FULL / LOW lisible depuis le côté gauche, à travers une ouverture du carénage intérieur droit ; bouchon côté droit sous une trappe (1 vis)."
+      },
+      "reperes": [
+        {
+          "vue": "profil-droit",
+          "x": 0.623,
+          "y": 0.504
+        },
+        {
+          "vue": "dessus",
+          "x": 0.666,
+          "y": 0.366
+        }
+      ],
+      "acces": {
+        "fr": "Contrôle : rien à déposer (moteur froid, moto droite). Appoint : vis et trappe côté droit, puis bouchon du vase."
+      },
+      "carenages_a_deposer": [
+        "ca-trappe-vase-expansion"
+      ],
+      "operations": [
+        "op-niveau-liquide-refroidissement",
+        "op-liquide-refroidissement",
+        "op-controle-refroidissement"
+      ],
+      "note": {
+        "fr": "Position sur les schémas : approximative."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p146",
+        "src-manuel-atelier#p80",
+        "src-manuel-atelier#p399"
+      ]
+    },
+    {
+      "id": "co-vis-vidange-refroidissement",
+      "nom": {
+        "fr": "Vis de vidange du circuit de refroidissement",
+        "en": "Coolant drain screw"
+      },
+      "groupe": "refroidissement",
+      "emplacement": {
+        "fr": "Côté gauche du moteur, en bas à l'avant (avec rondelle métallique)."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.383,
+          "y": 0.742
+        }
+      ],
+      "acces": {
+        "fr": "Flancs et bas de carénage."
+      },
+      "carenages_a_deposer": [
+        "ca-flanc-gauche",
+        "ca-flanc-droit",
+        "ca-sabot"
+      ],
+      "operations": [
+        "op-liquide-refroidissement"
+      ],
+      "note": {
+        "fr": "Position exacte : approximative."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p371"
+      ]
+    },
+    {
+      "id": "co-capteur-temperature-eau",
+      "nom": {
+        "fr": "Sonde de température d'eau",
+        "en": "Coolant temperature sensor"
+      },
+      "groupe": "refroidissement",
+      "emplacement": {
+        "fr": "Sur la culasse / boîtier de thermostat, sous la boîte à air."
+      },
+      "reperes": [
+        {
+          "vue": "dessus",
+          "x": 0.5,
+          "y": 0.388
+        }
+      ],
+      "acces": {
+        "fr": "Selles, cache avant du réservoir (2 vis), puis dépose du réservoir (2 vis AV avec bagues, 1 vis AR, durites de mise à l'air, durite d'essence et connecteur de pompe). Puis boîte à air."
+      },
+      "carenages_a_deposer": [
+        "ca-selle-passager",
+        "ca-selle-pilote",
+        "ca-cache-reservoir"
+      ],
+      "operations": [],
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p41",
+        "src-manuel-atelier#p91"
+      ]
+    },
+    {
+      "id": "co-echappement",
+      "nom": {
+        "fr": "Ligne d'échappement sous le moteur (collecteurs, précatalyseur, silencieux)",
+        "en": "Under-engine exhaust (headers, pre-catalyst, silencer)"
+      },
+      "groupe": "moteur",
+      "emplacement": {
+        "fr": "Ligne d'une seule pièce : collecteurs devant le moteur, silencieux sous le moteur, sortie côté droit devant le repose-pied."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.475,
+          "y": 0.77
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.525,
+          "y": 0.77
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.439,
+          "y": 0.781
+        }
+      ],
+      "acces": {
+        "fr": "Sabot, flancs, connecteurs des sondes lambda, vis du support de radiateur, écrous de bride (13 Nm)."
+      },
+      "carenages_a_deposer": [
+        "ca-sabot",
+        "ca-flanc-gauche",
+        "ca-flanc-droit"
+      ],
+      "operations": [],
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-notice-akrapovic-rs660"
+      ]
+    },
+    {
+      "id": "co-sonde-lambda",
+      "nom": {
+        "fr": "Sondes lambda (×2, M12)",
+        "en": "Lambda sensors (×2, M12)"
+      },
+      "groupe": "moteur",
+      "emplacement": {
+        "fr": "Sur les collecteurs d'échappement gauche et droit, devant le moteur ; connecteurs cachés dans le cadre."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.343,
+          "y": 0.6
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.657,
+          "y": 0.6
+        }
+      ],
+      "acces": {
+        "fr": "Bas de carénage et flancs. Débrancher avant de dévisser (25 Nm) ; repérer la sonde droite."
+      },
+      "carenages_a_deposer": [
+        "ca-sabot",
+        "ca-flanc-gauche",
+        "ca-flanc-droit"
+      ],
+      "operations": [
+        "op-diagnostic-outil"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p31",
+        "src-notice-akrapovic-rs660"
+      ]
+    },
+    {
+      "id": "co-capteur-temperature-air",
+      "nom": {
+        "fr": "Capteur de température d'air extérieur",
+        "en": "Ambient air temperature sensor"
+      },
+      "groupe": "electricite",
+      "emplacement": {
+        "fr": "Bridé sur le support d'instrumentation droit."
+      },
+      "reperes": [
+        {
+          "vue": "profil-droit",
+          "x": 0.705,
+          "y": 0.284
+        }
+      ],
+      "acces": {
+        "fr": "Tête de fourche."
+      },
+      "carenages_a_deposer": [
+        "ca-tete-de-fourche"
+      ],
+      "operations": [],
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p92"
+      ]
+    },
+    {
+      "id": "co-capteur-abs-avant",
+      "nom": {
+        "fr": "Capteur ABS avant",
+        "en": "Front ABS sensor"
+      },
+      "groupe": "freins",
+      "emplacement": {
+        "fr": "Sur la fourche, en bas, côté droit (repère 47 de la vue droite du manuel)."
+      },
+      "reperes": [
+        {
+          "vue": "profil-droit",
+          "x": 0.779,
+          "y": 0.672
+        }
+      ],
+      "acces": {
+        "fr": "Aucun carénage."
+      },
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-controle-freins"
+      ],
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-proprietaire#p20"
+      ]
+    },
+    {
+      "id": "co-capteur-abs-arriere",
+      "nom": {
+        "fr": "Capteur ABS arrière",
+        "en": "Rear ABS sensor"
+      },
+      "groupe": "freins",
+      "emplacement": {
+        "fr": "Près du moyeu arrière ; la légende du manuel le classe dans la vue gauche (repère 28), position exacte non confirmée."
+      },
+      "reperes": [
+        {
+          "vue": "profil-droit",
+          "x": 0.205,
+          "y": 0.678
+        }
+      ],
+      "acces": {
+        "fr": "Aucun carénage ; à dégager avec le passe-fil lors de la dépose de l'étrier AR."
+      },
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-plaquettes-arriere"
+      ],
+      "note": {
+        "fr": "Côté et position non confirmés : repère indicatif."
+      },
+      "confiance": "incertain",
+      "sources": [
+        "src-manuel-proprietaire#p20",
+        "src-manuel-atelier#p355"
+      ]
+    },
+    {
+      "id": "co-modulateur-abs",
+      "nom": {
+        "fr": "Modulateur ABS",
+        "en": "ABS modulator"
+      },
+      "groupe": "freins",
+      "emplacement": {
+        "fr": "Position non documentée (cité sans emplacement dans le manuel d'atelier)."
+      },
+      "reperes": [],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-liquide-frein"
+      ],
+      "confiance": "incertain",
+      "sources": [
+        "src-manuel-atelier#p331"
+      ]
+    },
+    {
+      "id": "co-contacteur-bequille",
+      "nom": {
+        "fr": "Contacteur de béquille latérale",
+        "en": "Side stand switch"
+      },
+      "groupe": "electricite",
+      "emplacement": {
+        "fr": "Sur la béquille latérale (côté gauche) ; câble passant dans 2 clips du côté gauche du sabot."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.517,
+          "y": 0.733
+        }
+      ],
+      "acces": {
+        "fr": "Rien pour le contrôle ; bas de carénage pour suivre le faisceau."
+      },
+      "carenages_a_deposer": [
+        "ca-sabot"
+      ],
+      "operations": [
+        "op-controle-contacteurs-securite",
+        "op-lubrification-articulations"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p403",
+        "src-af-pompe-eau"
+      ]
+    },
+    {
+      "id": "co-capteur-rapport",
+      "nom": {
+        "fr": "Capteur de rapport engagé",
+        "en": "Gear position sensor"
+      },
+      "groupe": "transmission",
+      "emplacement": {
+        "fr": "Sur le moteur (2 vis à tête ronde) ; position non précisée."
+      },
+      "reperes": [],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "confiance": "incertain",
+      "sources": [
+        "src-manuel-atelier#p43",
+        "src-manuel-atelier#p91"
+      ]
+    },
+    {
+      "id": "co-quickshifter",
+      "nom": {
+        "fr": "Quickshifter (AQS)",
+        "en": "Quickshifter (AQS)"
+      },
+      "groupe": "transmission",
+      "emplacement": {
+        "fr": "Sur la tringlerie du sélecteur, côté gauche ; connecteur vers le sous-cadre arrière."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.539,
+          "y": 0.618
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-lubrification-articulations"
+      ],
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p406"
+      ]
+    },
+    {
+      "id": "co-kit-outils",
+      "nom": {
+        "fr": "Clé six pans de bord",
+        "en": "On-board hex key"
+      },
+      "groupe": "carrosserie",
+      "emplacement": {
+        "fr": "Logée dans la coque arrière, sous la selle passager (taille de la clé non documentée)."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.735,
+          "y": 0.33
+        },
+        {
+          "vue": "dessus",
+          "x": 0.5,
+          "y": 0.726
+        }
+      ],
+      "acces": {
+        "fr": "Selle passager (clé de contact)."
+      },
+      "carenages_a_deposer": [
+        "ca-selle-passager"
+      ],
+      "operations": [],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p101"
+      ]
+    },
+    {
+      "id": "co-serrure-selle",
+      "nom": {
+        "fr": "Serrure de selle",
+        "en": "Seat lock"
+      },
+      "groupe": "carrosserie",
+      "emplacement": {
+        "fr": "Sous la coque arrière, côté gauche ; tourner la clé dans le sens horaire pour libérer la selle passager."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.738,
+          "y": 0.372
+        },
+        {
+          "vue": "dessus",
+          "x": 0.436,
+          "y": 0.744
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p380",
+        "src-manuel-proprietaire#p100"
+      ]
+    },
+    {
+      "id": "co-chaine",
+      "nom": {
+        "fr": "Chaîne 520 (110 maillons, attache rivée)",
+        "en": "520 chain (110 links, riveted link)"
+      },
+      "groupe": "transmission",
+      "emplacement": {
+        "fr": "Côté gauche, du pignon de sortie de boîte (17 dents) à la couronne (43 dents)."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.663,
+          "y": 0.604
+        },
+        {
+          "vue": "dessus",
+          "x": 0.372,
+          "y": 0.719
+        },
+        {
+          "vue": "arriere-chaine",
+          "x": 0.409,
+          "y": 0.348
+        },
+        {
+          "vue": "chaine-fleche",
+          "x": 0.188,
+          "y": 0.31
+        }
+      ],
+      "acces": {
+        "fr": "Aucun carénage pour l'entretien."
+      },
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-chaine-entretien",
+        "op-kit-chaine",
+        "op-controle-transmission",
+        "op-lavage"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p175",
+        "src-manuel-proprietaire#p176",
+        "src-manuel-proprietaire#p183"
+      ]
+    },
+    {
+      "id": "co-point-mesure-fleche",
+      "nom": {
+        "fr": "Point de mesure de la flèche de chaîne",
+        "en": "Chain slack measuring point"
+      },
+      "groupe": "transmission",
+      "emplacement": {
+        "fr": "Brin inférieur, à 250 mm du centre de l'axe de roue arrière. Moto sur béquille latérale, point mort : flèche verticale d'environ 30 mm, constante sur un tour de roue ; la chaîne ne doit pas toucher le dessous du bras oscillant."
+      },
+      "reperes": [
+        {
+          "vue": "arriere-chaine",
+          "x": 0.507,
+          "y": 0.618
+        },
+        {
+          "vue": "chaine-fleche",
+          "x": 0.45,
+          "y": 0.432
+        }
+      ],
+      "acces": {
+        "fr": "Aucun carénage."
+      },
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-chaine-entretien"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p176",
+        "src-manuel-atelier#p312"
+      ]
+    },
+    {
+      "id": "co-pignon",
+      "nom": {
+        "fr": "Pignon de sortie de boîte (17 dents)",
+        "en": "Front sprocket (17 teeth)"
+      },
+      "groupe": "transmission",
+      "emplacement": {
+        "fr": "Côté gauche du moteur, derrière le cache pignon (3 vis)."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.524,
+          "y": 0.612
+        },
+        {
+          "vue": "arriere-chaine",
+          "x": 0.136,
+          "y": 0.403
+        }
+      ],
+      "acces": {
+        "fr": "Cache pignon (3 vis avec bagues « T »)."
+      },
+      "carenages_a_deposer": [
+        "ca-cache-pignon"
+      ],
+      "operations": [
+        "op-kit-chaine",
+        "op-controle-transmission"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p175",
+        "src-manuel-atelier#p308"
+      ]
+    },
+    {
+      "id": "co-vis-pignon",
+      "nom": {
+        "fr": "Vis de pignon (M10x25, bague « T » + rondelle élastique)",
+        "en": "Front sprocket bolt (M10x25)"
+      },
+      "groupe": "transmission",
+      "emplacement": {
+        "fr": "Au centre du pignon de sortie de boîte ; 50 Nm + frein-filet."
+      },
+      "reperes": [
+        {
+          "vue": "arriere-chaine",
+          "x": 0.175,
+          "y": 0.38
+        }
+      ],
+      "acces": {
+        "fr": "Cache pignon."
+      },
+      "carenages_a_deposer": [
+        "ca-cache-pignon"
+      ],
+      "operations": [
+        "op-kit-chaine"
+      ],
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p43",
+        "src-manuel-atelier#p308"
+      ]
+    },
+    {
+      "id": "co-couronne",
+      "nom": {
+        "fr": "Couronne (43 dents)",
+        "en": "Rear sprocket (43 teeth)"
+      },
+      "groupe": "transmission",
+      "emplacement": {
+        "fr": "Côté gauche de la roue arrière, sur le porte-couronne à silentblocs."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.794,
+          "y": 0.756
+        },
+        {
+          "vue": "dessus",
+          "x": 0.372,
+          "y": 0.771
+        },
+        {
+          "vue": "arriere-chaine",
+          "x": 0.796,
+          "y": 0.707
+        },
+        {
+          "vue": "chaine-fleche",
+          "x": 0.765,
+          "y": 0.564
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-kit-chaine",
+        "op-controle-transmission"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p175",
+        "src-manuel-atelier#p282",
+        "src-manuel-atelier#p284"
+      ]
+    },
+    {
+      "id": "co-ecrous-couronne",
+      "nom": {
+        "fr": "Écrous de couronne (5 × M10)",
+        "en": "Rear sprocket nuts (5 × M10)"
+      },
+      "groupe": "transmission",
+      "emplacement": {
+        "fr": "Sur le porte-couronne, côté gauche ; 50 Nm en croix."
+      },
+      "reperes": [
+        {
+          "vue": "arriere-chaine",
+          "x": 0.707,
+          "y": 0.646
+        }
+      ],
+      "acces": {
+        "fr": "Roue arrière déposée."
+      },
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-kit-chaine"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p37",
+        "src-manuel-atelier#p282"
+      ]
+    },
+    {
+      "id": "co-tendeur-chaine-gauche",
+      "nom": {
+        "fr": "Tendeur de chaîne gauche",
+        "en": "Left chain adjuster"
+      },
+      "groupe": "transmission",
+      "emplacement": {
+        "fr": "Extrémité arrière de la branche gauche du bras oscillant : vis de réglage, contre-écrou et repères d'alignement."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.804,
+          "y": 0.692
+        },
+        {
+          "vue": "dessus",
+          "x": 0.393,
+          "y": 0.786
+        },
+        {
+          "vue": "arriere-chaine",
+          "x": 0.826,
+          "y": 0.564
+        }
+      ],
+      "acces": {
+        "fr": "Aucun carénage."
+      },
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-chaine-entretien",
+        "op-kit-chaine"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p283",
+        "src-manuel-atelier#p312",
+        "src-manuel-atelier#p313"
+      ]
+    },
+    {
+      "id": "co-tendeur-chaine-droit",
+      "nom": {
+        "fr": "Tendeur de chaîne droit",
+        "en": "Right chain adjuster"
+      },
+      "groupe": "transmission",
+      "emplacement": {
+        "fr": "Extrémité arrière de la branche droite du bras oscillant : vis de réglage, contre-écrou et repères d'alignement (régler à l'identique des deux côtés)."
+      },
+      "reperes": [
+        {
+          "vue": "profil-droit",
+          "x": 0.196,
+          "y": 0.692
+        },
+        {
+          "vue": "dessus",
+          "x": 0.607,
+          "y": 0.786
+        }
+      ],
+      "acces": {
+        "fr": "Aucun carénage."
+      },
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-chaine-entretien",
+        "op-kit-chaine"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p283",
+        "src-manuel-atelier#p312",
+        "src-manuel-atelier#p313"
+      ]
+    },
+    {
+      "id": "co-patin-chaine",
+      "nom": {
+        "fr": "Patin de chaîne",
+        "en": "Chain slider"
+      },
+      "groupe": "transmission",
+      "emplacement": {
+        "fr": "Sur l'avant du bras oscillant, côté gauche (2 vis SHC M5x16)."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.592,
+          "y": 0.599
+        },
+        {
+          "vue": "arriere-chaine",
+          "x": 0.323,
+          "y": 0.313
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-controle-transmission"
+      ],
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p37",
+        "src-manuel-proprietaire#p177"
+      ]
+    },
+    {
+      "id": "co-diabolos",
+      "nom": {
+        "fr": "Diabolos de béquille d'atelier (filetage M6)",
+        "en": "Paddock stand spools (M6 thread)"
+      },
+      "groupe": "chassis",
+      "emplacement": {
+        "fr": "Sous l'arrière du bras oscillant, des deux côtés."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.706,
+          "y": 0.685
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.294,
+          "y": 0.685
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-chaine-entretien",
+        "op-pneu-arriere"
+      ],
+      "note": {
+        "fr": "Position exacte sur le bras : approximative."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-pit-bull-rs660",
+        "src-af1-rizoma-diabolos-m6"
+      ]
+    },
+    {
+      "id": "co-selecteur",
+      "nom": {
+        "fr": "Sélecteur de vitesses",
+        "en": "Gear shift lever"
+      },
+      "groupe": "transmission",
+      "emplacement": {
+        "fr": "Côté gauche, devant le repose-pied pilote."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.55,
+          "y": 0.657
+        },
+        {
+          "vue": "dessus",
+          "x": 0.347,
+          "y": 0.539
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-lubrification-articulations"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p20"
+      ]
+    },
+    {
+      "id": "co-cable-embrayage",
+      "nom": {
+        "fr": "Câble d'embrayage",
+        "en": "Clutch cable"
+      },
+      "groupe": "transmission",
+      "emplacement": {
+        "fr": "Du levier gauche au côté droit du moteur (tendeur avec contre-écrou côté moteur)."
+      },
+      "reperes": [
+        {
+          "vue": "guidon",
+          "x": 0.299,
+          "y": 0.81
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.512,
+          "y": 0.578
+        }
+      ],
+      "acces": {
+        "fr": "Aucun carénage."
+      },
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-cable-embrayage",
+        "op-lubrification-articulations"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p119",
+        "src-manuel-proprietaire#p181",
+        "src-manuel-atelier#p84",
+        "src-manuel-atelier#p85"
+      ]
+    },
+    {
+      "id": "co-tendeur-cable-embrayage",
+      "nom": {
+        "fr": "Tendeur du câble d'embrayage (côté moteur)",
+        "en": "Clutch cable adjuster (engine side)"
+      },
+      "groupe": "transmission",
+      "emplacement": {
+        "fr": "Côté droit du moteur : contre-écrou + tendeur, pour une garde de 1 à 3 mm au levier."
+      },
+      "reperes": [
+        {
+          "vue": "profil-droit",
+          "x": 0.512,
+          "y": 0.578
+        }
+      ],
+      "acces": {
+        "fr": "Aucun carénage."
+      },
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-cable-embrayage"
+      ],
+      "note": {
+        "fr": "Position exacte : approximative."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p119",
+        "src-manuel-atelier#p84",
+        "src-manuel-atelier#p85"
+      ]
+    },
+    {
+      "id": "co-roue-avant",
+      "nom": {
+        "fr": "Roue avant (jante 3,50 x 17, pneu 120/70 ZR17)",
+        "en": "Front wheel (3.50 x 17 rim, 120/70 ZR17 tyre)"
+      },
+      "groupe": "roues",
+      "emplacement": {
+        "fr": "À l'avant ; pneu à contrôler à froid."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.103,
+          "y": 0.762
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.897,
+          "y": 0.762
+        },
+        {
+          "vue": "dessus",
+          "x": 0.5,
+          "y": 0.094
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-controle-pression-pneus",
+        "op-controle-usure-pneus",
+        "op-pneu-avant",
+        "op-controle-roues-roulements"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p186"
+      ]
+    },
+    {
+      "id": "co-roue-arriere",
+      "nom": {
+        "fr": "Roue arrière (jante 5,50 x 17)",
+        "en": "Rear wheel (5.50 x 17 rim)"
+      },
+      "groupe": "roues",
+      "emplacement": {
+        "fr": "À l'arrière, axe serré par un écrou de 26 mm côté gauche."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.669,
+          "y": 0.768
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.331,
+          "y": 0.768
+        },
+        {
+          "vue": "dessus",
+          "x": 0.552,
+          "y": 0.831
+        },
+        {
+          "vue": "arriere-chaine",
+          "x": 0.548,
+          "y": 0.828
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-controle-pression-pneus",
+        "op-controle-usure-pneus",
+        "op-pneu-arriere",
+        "op-controle-roues-roulements"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p186"
+      ]
+    },
+    {
+      "id": "co-valve-avant",
+      "nom": {
+        "fr": "Valve du pneu avant",
+        "en": "Front tyre valve"
+      },
+      "groupe": "pneus",
+      "emplacement": {
+        "fr": "Sur la jante avant (position variable selon la rotation de la roue)."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.251,
+          "y": 0.825
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.749,
+          "y": 0.825
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-controle-pression-pneus"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p186"
+      ]
+    },
+    {
+      "id": "co-valve-arriere",
+      "nom": {
+        "fr": "Valve du pneu arrière",
+        "en": "Rear tyre valve"
+      },
+      "groupe": "pneus",
+      "emplacement": {
+        "fr": "Sur la jante arrière (position variable selon la rotation de la roue)."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.816,
+          "y": 0.815
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.184,
+          "y": 0.815
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-controle-pression-pneus"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p186"
+      ]
+    },
+    {
+      "id": "co-axe-roue-avant",
+      "nom": {
+        "fr": "Axe de roue avant (M16)",
+        "en": "Front axle (M16)"
+      },
+      "groupe": "roues",
+      "emplacement": {
+        "fr": "Traverse les pieds de fourche ; serrage 65 Nm, vis de bridage M8 18 Nm."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.206,
+          "y": 0.702
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.794,
+          "y": 0.702
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-pneu-avant",
+        "op-controle-roues-roulements"
+      ],
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p22",
+        "src-manuel-atelier#p274",
+        "src-manuel-atelier#p275"
+      ]
+    },
+    {
+      "id": "co-axe-roue-arriere",
+      "nom": {
+        "fr": "Axe de roue arrière (écrou M20x1,5, douille 26 mm)",
+        "en": "Rear axle (M20x1.5 nut, 26 mm socket)"
+      },
+      "groupe": "roues",
+      "emplacement": {
+        "fr": "Écrou côté gauche ; l'axe se retire par le côté droit avec les deux tendeurs. Serrage 120 Nm."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.771,
+          "y": 0.692
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.229,
+          "y": 0.692
+        },
+        {
+          "vue": "arriere-chaine",
+          "x": 0.744,
+          "y": 0.564
+        },
+        {
+          "vue": "chaine-fleche",
+          "x": 0.887,
+          "y": 0.33
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-chaine-entretien",
+        "op-kit-chaine",
+        "op-pneu-arriere"
+      ],
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p283",
+        "src-manuel-atelier#p284",
+        "src-manuel-atelier#p285",
+        "src-manuel-atelier#p37"
+      ]
+    },
+    {
+      "id": "co-etrier-avant",
+      "nom": {
+        "fr": "Étriers avant radiaux 4 pistons (×2)",
+        "en": "Front radial 4-piston calipers (×2)"
+      },
+      "groupe": "freins",
+      "emplacement": {
+        "fr": "Un par fourreau, à l'arrière du pied de fourche ; fixés par 2 vis TCC M10x55 (six pans 8 mm, 50 Nm)."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.25,
+          "y": 0.643
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.75,
+          "y": 0.643
+        },
+        {
+          "vue": "purge-frein",
+          "x": 0.552,
+          "y": 0.773
+        },
+        {
+          "vue": "plaquettes",
+          "x": 0.35,
+          "y": 0.76
+        }
+      ],
+      "acces": {
+        "fr": "Aucun carénage."
+      },
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-plaquettes-avant",
+        "op-controle-freins",
+        "op-liquide-frein"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p23",
+        "src-manuel-atelier#p353",
+        "src-manuel-atelier#p354",
+        "src-youtube-plaquettes-rs660"
+      ]
+    },
+    {
+      "id": "co-vis-purge-avant",
+      "nom": {
+        "fr": "Vis de purge des étriers avant",
+        "en": "Front caliper bleed screws"
+      },
+      "groupe": "freins",
+      "emplacement": {
+        "fr": "En haut de chaque étrier avant, sous un capuchon caoutchouc (le maître-cylindre AV a aussi une vis de purge)."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.252,
+          "y": 0.62
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.748,
+          "y": 0.62
+        },
+        {
+          "vue": "purge-frein",
+          "x": 0.547,
+          "y": 0.645
+        }
+      ],
+      "acces": {
+        "fr": "Aucun carénage."
+      },
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-liquide-frein"
+      ],
+      "note": {
+        "fr": "Position exacte sur l'étrier : approximative."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p359",
+        "src-manuel-atelier#p360"
+      ]
+    },
+    {
+      "id": "co-plaquettes-avant",
+      "nom": {
+        "fr": "Plaquettes avant (2 jeux)",
+        "en": "Front brake pads (2 sets)"
+      },
+      "groupe": "freins",
+      "emplacement": {
+        "fr": "Dans chaque étrier avant ; contrôle visuel par le haut arrière de l'étrier ; limite ≈ 1,5 mm de garniture. Toujours changer les deux étriers."
+      },
+      "reperes": [
+        {
+          "vue": "plaquettes",
+          "x": 0.474,
+          "y": 0.395
+        },
+        {
+          "vue": "profil-gauche",
+          "x": 0.25,
+          "y": 0.643
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.75,
+          "y": 0.643
+        }
+      ],
+      "acces": {
+        "fr": "Aucun carénage."
+      },
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-plaquettes-avant",
+        "op-controle-freins"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p168",
+        "src-manuel-proprietaire#p169",
+        "src-manuel-atelier#p353",
+        "src-manuel-atelier#p354"
+      ]
+    },
+    {
+      "id": "co-axe-plaquettes",
+      "nom": {
+        "fr": "Axe de plaquettes avant (Torx T30)",
+        "en": "Front pad pin (Torx T30)"
+      },
+      "groupe": "freins",
+      "emplacement": {
+        "fr": "Traverse l'étrier au-dessus des plaquettes ; à débloquer avant de déposer l'étrier ; arrêté par une goupille."
+      },
+      "reperes": [
+        {
+          "vue": "plaquettes",
+          "x": 0.18,
+          "y": 0.091
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-plaquettes-avant"
+      ],
+      "confiance": "une_source",
+      "sources": [
+        "src-youtube-plaquettes-rs660",
+        "src-manuel-atelier#p353"
+      ]
+    },
+    {
+      "id": "co-goupille-axe",
+      "nom": {
+        "fr": "Goupille de l'axe de plaquettes",
+        "en": "Pad pin retaining clip"
+      },
+      "groupe": "freins",
+      "emplacement": {
+        "fr": "En bout d'axe de plaquettes."
+      },
+      "reperes": [
+        {
+          "vue": "plaquettes",
+          "x": 0.657,
+          "y": 0.092
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-plaquettes-avant"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p353",
+        "src-manuel-atelier#p354"
+      ]
+    },
+    {
+      "id": "co-ressort-plaquettes",
+      "nom": {
+        "fr": "Ressort de plaquettes",
+        "en": "Pad spring"
+      },
+      "groupe": "freins",
+      "emplacement": {
+        "fr": "Sous l'axe, sur les plaquettes ; se remonte avec la flèche vers le haut."
+      },
+      "reperes": [
+        {
+          "vue": "plaquettes",
+          "x": 0.463,
+          "y": 0.196
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-plaquettes-avant"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p353",
+        "src-manuel-atelier#p354",
+        "src-manuel-atelier#p358"
+      ]
+    },
+    {
+      "id": "co-pistons",
+      "nom": {
+        "fr": "Pistons d'étrier avant (4 par étrier)",
+        "en": "Front caliper pistons (4 per caliper)"
+      },
+      "groupe": "freins",
+      "emplacement": {
+        "fr": "Dans les deux demi-étriers ; les repousser seulement si l'autre étrier est encore monté."
+      },
+      "reperes": [
+        {
+          "vue": "plaquettes",
+          "x": 0.425,
+          "y": 0.69
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-plaquettes-avant"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p353",
+        "src-manuel-atelier#p354"
+      ]
+    },
+    {
+      "id": "co-vis-etrier",
+      "nom": {
+        "fr": "Vis de fixation d'étrier avant (six pans 8 mm)",
+        "en": "Front caliper bolts (8 mm hex)"
+      },
+      "groupe": "freins",
+      "emplacement": {
+        "fr": "Deux vis radiales par étrier, dans les pattes arrière du pied de fourche ; 50 Nm."
+      },
+      "reperes": [
+        {
+          "vue": "plaquettes",
+          "x": 0.669,
+          "y": 0.537
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-plaquettes-avant",
+        "op-pneu-avant"
+      ],
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p23",
+        "src-youtube-plaquettes-rs660"
+      ]
+    },
+    {
+      "id": "co-disque-avant",
+      "nom": {
+        "fr": "Disques avant (×2)",
+        "en": "Front discs (×2)"
+      },
+      "groupe": "freins",
+      "emplacement": {
+        "fr": "Sur la roue avant, un de chaque côté (vis M8x20, 25 Nm)."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.169,
+          "y": 0.773
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.831,
+          "y": 0.773
+        },
+        {
+          "vue": "purge-frein",
+          "x": 0.208,
+          "y": 0.676
+        },
+        {
+          "vue": "plaquettes",
+          "x": 0.5,
+          "y": 0.95
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-disques-frein",
+        "op-controle-freins"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p274",
+        "src-manuel-atelier#p275"
+      ]
+    },
+    {
+      "id": "co-etrier-arriere",
+      "nom": {
+        "fr": "Étrier arrière 2 pistons",
+        "en": "Rear 2-piston caliper"
+      },
+      "groupe": "freins",
+      "emplacement": {
+        "fr": "Sur la roue arrière, côté droit (la chaîne est à gauche) ; 2 vis TE M8 (25 Nm)."
+      },
+      "reperes": [
+        {
+          "vue": "profil-droit",
+          "x": 0.21,
+          "y": 0.635
+        }
+      ],
+      "acces": {
+        "fr": "Aucun carénage."
+      },
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-plaquettes-arriere",
+        "op-controle-freins",
+        "op-liquide-frein"
+      ],
+      "note": {
+        "fr": "Côté non précisé par le manuel ; vu côté droit sur une photo libre de la moto."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p355",
+        "src-manuel-atelier#p356",
+        "src-commons-rs660-arriere-droit"
+      ]
+    },
+    {
+      "id": "co-plaquettes-arriere",
+      "nom": {
+        "fr": "Plaquettes arrière",
+        "en": "Rear brake pads"
+      },
+      "groupe": "freins",
+      "emplacement": {
+        "fr": "Dans l'étrier arrière ; contrôle visuel par le bas arrière de l'étrier ; limite ≈ 1,5 mm."
+      },
+      "reperes": [
+        {
+          "vue": "profil-droit",
+          "x": 0.21,
+          "y": 0.635
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-plaquettes-arriere",
+        "op-controle-freins"
+      ],
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-proprietaire#p168",
+        "src-manuel-proprietaire#p169",
+        "src-manuel-atelier#p355",
+        "src-manuel-atelier#p356"
+      ]
+    },
+    {
+      "id": "co-vis-purge-arriere",
+      "nom": {
+        "fr": "Vis de purge de l'étrier arrière",
+        "en": "Rear caliper bleed screw"
+      },
+      "groupe": "freins",
+      "emplacement": {
+        "fr": "Sur l'étrier arrière, sous un capuchon."
+      },
+      "reperes": [
+        {
+          "vue": "profil-droit",
+          "x": 0.212,
+          "y": 0.617
+        }
+      ],
+      "acces": {
+        "fr": "Flanc arrière droit pour accéder au réservoir."
+      },
+      "carenages_a_deposer": [
+        "ca-flanc-arriere-droit"
+      ],
+      "operations": [
+        "op-liquide-frein"
+      ],
+      "note": {
+        "fr": "Position exacte : approximative."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p360"
+      ]
+    },
+    {
+      "id": "co-disque-arriere",
+      "nom": {
+        "fr": "Disque arrière",
+        "en": "Rear disc"
+      },
+      "groupe": "freins",
+      "emplacement": {
+        "fr": "Côté droit de la roue arrière."
+      },
+      "reperes": [
+        {
+          "vue": "profil-droit",
+          "x": 0.254,
+          "y": 0.74
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-disques-frein",
+        "op-controle-freins"
+      ],
+      "confiance": "une_source",
+      "sources": [
+        "src-commons-rs660-arriere-droit"
+      ]
+    },
+    {
+      "id": "co-reservoir-frein-avant",
+      "nom": {
+        "fr": "Réservoir de liquide de frein avant",
+        "en": "Front brake fluid reservoir"
+      },
+      "groupe": "freins",
+      "emplacement": {
+        "fr": "Sur le maître-cylindre radial, guidon droit ; couvercle à 2 vis cruciformes ; repères MIN / MAX."
+      },
+      "reperes": [
+        {
+          "vue": "profil-droit",
+          "x": 0.681,
+          "y": 0.318
+        },
+        {
+          "vue": "dessus",
+          "x": 0.605,
+          "y": 0.291
+        },
+        {
+          "vue": "guidon",
+          "x": 0.719,
+          "y": 0.46
+        },
+        {
+          "vue": "purge-frein",
+          "x": 0.281,
+          "y": 0.19
+        }
+      ],
+      "acces": {
+        "fr": "Aucun carénage ; guidon tourné pour mettre le réservoir à l'horizontale."
+      },
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-niveau-liquide-frein",
+        "op-liquide-frein"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p20",
+        "src-manuel-proprietaire#p147",
+        "src-manuel-proprietaire#p149"
+      ]
+    },
+    {
+      "id": "co-reservoir-frein-arriere",
+      "nom": {
+        "fr": "Réservoir de liquide de frein arrière",
+        "en": "Rear brake fluid reservoir"
+      },
+      "groupe": "freins",
+      "emplacement": {
+        "fr": "Derrière le flanc arrière droit ; fixé par 1 vis et 1 écrou."
+      },
+      "reperes": [
+        {
+          "vue": "profil-droit",
+          "x": 0.402,
+          "y": 0.424
+        },
+        {
+          "vue": "dessus",
+          "x": 0.611,
+          "y": 0.593
+        }
+      ],
+      "acces": {
+        "fr": "Flanc arrière droit (vis haute + vis basse + 2 ergots), puis vis du réservoir en tenant l'écrou."
+      },
+      "carenages_a_deposer": [
+        "ca-selle-passager",
+        "ca-selle-pilote",
+        "ca-flanc-arriere-droit"
+      ],
+      "operations": [
+        "op-niveau-liquide-frein",
+        "op-liquide-frein"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p149",
+        "src-manuel-proprietaire#p150",
+        "src-manuel-atelier#p83"
+      ]
+    },
+    {
+      "id": "co-maitre-cylindre-arriere",
+      "nom": {
+        "fr": "Maître-cylindre arrière",
+        "en": "Rear master cylinder"
+      },
+      "groupe": "freins",
+      "emplacement": {
+        "fr": "Côté droit, derrière le repose-pied pilote, relié à la pédale."
+      },
+      "reperes": [
+        {
+          "vue": "profil-droit",
+          "x": 0.405,
+          "y": 0.6
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-liquide-frein"
+      ],
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-proprietaire#p20",
+        "src-manuel-atelier#p84"
+      ]
+    },
+    {
+      "id": "co-pedale-frein",
+      "nom": {
+        "fr": "Pédale de frein arrière",
+        "en": "Rear brake pedal"
+      },
+      "groupe": "freins",
+      "emplacement": {
+        "fr": "Côté droit, devant le repose-pied ; réglage par vis et came."
+      },
+      "reperes": [
+        {
+          "vue": "profil-droit",
+          "x": 0.458,
+          "y": 0.668
+        },
+        {
+          "vue": "dessus",
+          "x": 0.655,
+          "y": 0.541
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-lubrification-articulations",
+        "op-controle-contacteurs-securite"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p20",
+        "src-manuel-atelier#p84"
+      ]
+    },
+    {
+      "id": "co-contacteur-stop-arriere",
+      "nom": {
+        "fr": "Contacteur de feu stop arrière",
+        "en": "Rear brake light switch"
+      },
+      "groupe": "electricite",
+      "emplacement": {
+        "fr": "Côté droit, près de la pédale de frein."
+      },
+      "reperes": [
+        {
+          "vue": "profil-droit",
+          "x": 0.426,
+          "y": 0.652
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-controle-contacteurs-securite",
+        "op-controle-eclairage"
+      ],
+      "note": {
+        "fr": "Position exacte : approximative."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p84"
+      ]
+    },
+    {
+      "id": "co-durite-frein-avant",
+      "nom": {
+        "fr": "Durite de frein avant",
+        "en": "Front brake hose"
+      },
+      "groupe": "freins",
+      "emplacement": {
+        "fr": "Du maître-cylindre (guidon droit) aux étriers avant."
+      },
+      "reperes": [
+        {
+          "vue": "purge-frein",
+          "x": 0.351,
+          "y": 0.562
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-controle-freins"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p359"
+      ]
+    },
+    {
+      "id": "co-fourche",
+      "nom": {
+        "fr": "Fourche inversée Ø41 (débattement 120 mm)",
+        "en": "Ø41 upside-down fork (120 mm travel)"
+      },
+      "groupe": "suspensions",
+      "emplacement": {
+        "fr": "À l'avant ; deux fourreaux."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.258,
+          "y": 0.515
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.742,
+          "y": 0.515
+        },
+        {
+          "vue": "purge-frein",
+          "x": 0.503,
+          "y": 0.452
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-huile-fourche",
+        "op-controle-joints-spi-fourche",
+        "op-controle-direction"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p116"
+      ]
+    },
+    {
+      "id": "co-reglages-fourche",
+      "nom": {
+        "fr": "Réglages de fourche (précharge et détente)",
+        "en": "Fork adjusters (preload and rebound)"
+      },
+      "groupe": "suspensions",
+      "emplacement": {
+        "fr": "En haut de chaque tube : écrou supérieur = précharge, vis supérieure = détente. Même réglage sur les deux tubes ; compter les clics depuis fermé à fond."
+      },
+      "reperes": [
+        {
+          "vue": "dessus",
+          "x": 0.432,
+          "y": 0.312
+        },
+        {
+          "vue": "dessus",
+          "x": 0.568,
+          "y": 0.312
+        }
+      ],
+      "acces": {
+        "fr": "Aucun carénage."
+      },
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-reglage-suspensions-charge"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p116",
+        "src-manuel-proprietaire#p117",
+        "src-manuel-proprietaire#p118"
+      ]
+    },
+    {
+      "id": "co-amortisseur",
+      "nom": {
+        "fr": "Amortisseur arrière (bonbonne séparée, débattement 52 mm)",
+        "en": "Rear shock (piggyback, 52 mm travel)"
+      },
+      "groupe": "suspensions",
+      "emplacement": {
+        "fr": "Derrière le moteur, au-dessus de l'avant du bras oscillant."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.606,
+          "y": 0.536
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.394,
+          "y": 0.536
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-controle-amortisseur-biellettes",
+        "op-reglage-suspensions-charge"
+      ],
+      "note": {
+        "fr": "Inclinaison et ancrages dessinés de façon schématique."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p111",
+        "src-manuel-proprietaire#p115"
+      ]
+    },
+    {
+      "id": "co-reglage-detente-amortisseur",
+      "nom": {
+        "fr": "Vis de détente de l'amortisseur",
+        "en": "Shock rebound adjuster"
+      },
+      "groupe": "suspensions",
+      "emplacement": {
+        "fr": "Sur l'amortisseur, accessible après dépose du flanc arrière gauche (vis haute + vis basse)."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.619,
+          "y": 0.454
+        }
+      ],
+      "acces": {
+        "fr": "Flanc arrière gauche."
+      },
+      "carenages_a_deposer": [
+        "ca-selle-passager",
+        "ca-selle-pilote",
+        "ca-flanc-arriere-gauche"
+      ],
+      "operations": [
+        "op-reglage-suspensions-charge"
+      ],
+      "note": {
+        "fr": "Position exacte sur l'amortisseur : approximative."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p112",
+        "src-manuel-proprietaire#p113"
+      ]
+    },
+    {
+      "id": "co-precharge-amortisseur",
+      "nom": {
+        "fr": "Bague de précharge de l'amortisseur (+ contre-bague)",
+        "en": "Shock preload ring (+ lock ring)"
+      },
+      "groupe": "suspensions",
+      "emplacement": {
+        "fr": "Sur le ressort de l'amortisseur ; clé à ergot spécifique."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.615,
+          "y": 0.48
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.385,
+          "y": 0.48
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-reglage-suspensions-charge"
+      ],
+      "note": {
+        "fr": "Position exacte : approximative."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p111",
+        "src-manuel-proprietaire#p113",
+        "src-manuel-proprietaire#p114"
+      ]
+    },
+    {
+      "id": "co-bras-oscillant",
+      "nom": {
+        "fr": "Bras oscillant",
+        "en": "Swingarm"
+      },
+      "groupe": "chassis",
+      "emplacement": {
+        "fr": "Entre l'arrière du moteur et la roue arrière."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.665,
+          "y": 0.642
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.335,
+          "y": 0.642
+        },
+        {
+          "vue": "dessus",
+          "x": 0.402,
+          "y": 0.7
+        },
+        {
+          "vue": "arriere-chaine",
+          "x": 0.51,
+          "y": 0.453
+        },
+        {
+          "vue": "chaine-fleche",
+          "x": 0.25,
+          "y": 0.034
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-controle-amortisseur-biellettes"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p283"
+      ]
+    },
+    {
+      "id": "co-cadre",
+      "nom": {
+        "fr": "Cadre aluminium",
+        "en": "Aluminium frame"
+      },
+      "groupe": "chassis",
+      "emplacement": {
+        "fr": "Longerons du cadre sous le réservoir, de la colonne de direction à l'axe du bras oscillant."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.438,
+          "y": 0.43
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.562,
+          "y": 0.43
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p20"
+      ]
+    },
+    {
+      "id": "co-colonne-direction",
+      "nom": {
+        "fr": "Colonne de direction (roulements)",
+        "en": "Steering head (bearings)"
+      },
+      "groupe": "direction",
+      "emplacement": {
+        "fr": "Derrière la tête de fourche."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.32,
+          "y": 0.352
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.68,
+          "y": 0.352
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-controle-direction"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p20"
+      ]
+    },
+    {
+      "id": "co-vin",
+      "nom": {
+        "fr": "Numéro de cadre (VIN)",
+        "en": "Frame number (VIN)"
+      },
+      "groupe": "chassis",
+      "emplacement": {
+        "fr": "Frappé sur le côté droit de la colonne de direction."
+      },
+      "reperes": [
+        {
+          "vue": "profil-droit",
+          "x": 0.674,
+          "y": 0.368
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p103"
+      ]
+    },
+    {
+      "id": "co-te-superieur",
+      "nom": {
+        "fr": "Té supérieur de fourche",
+        "en": "Top triple clamp"
+      },
+      "groupe": "direction",
+      "emplacement": {
+        "fr": "Au-dessus des fourreaux, devant le réservoir."
+      },
+      "reperes": [
+        {
+          "vue": "dessus",
+          "x": 0.5,
+          "y": 0.32
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-controle-direction"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p24"
+      ]
+    },
+    {
+      "id": "co-bequille",
+      "nom": {
+        "fr": "Béquille latérale",
+        "en": "Side stand"
+      },
+      "groupe": "chassis",
+      "emplacement": {
+        "fr": "Côté gauche, sous le moteur."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.502,
+          "y": 0.836
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-lubrification-articulations",
+        "op-controle-contacteurs-securite"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p403"
+      ]
+    },
+    {
+      "id": "co-repose-pied-pilote",
+      "nom": {
+        "fr": "Repose-pieds pilote",
+        "en": "Rider footpegs"
+      },
+      "groupe": "chassis",
+      "emplacement": {
+        "fr": "De chaque côté, derrière le moteur."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.581,
+          "y": 0.64
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.419,
+          "y": 0.64
+        },
+        {
+          "vue": "dessus",
+          "x": 0.38,
+          "y": 0.581
+        },
+        {
+          "vue": "dessus",
+          "x": 0.62,
+          "y": 0.581
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p20"
+      ]
+    },
+    {
+      "id": "co-repose-pied-passager",
+      "nom": {
+        "fr": "Repose-pieds passager",
+        "en": "Passenger footpegs"
+      },
+      "groupe": "chassis",
+      "emplacement": {
+        "fr": "De chaque côté, sous la coque arrière."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.672,
+          "y": 0.556
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.328,
+          "y": 0.556
+        },
+        {
+          "vue": "dessus",
+          "x": 0.394,
+          "y": 0.672
+        },
+        {
+          "vue": "dessus",
+          "x": 0.606,
+          "y": 0.672
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p20"
+      ]
+    },
+    {
+      "id": "co-phare",
+      "nom": {
+        "fr": "Bloc optique avant LED",
+        "en": "Front LED headlight unit"
+      },
+      "groupe": "eclairage",
+      "emplacement": {
+        "fr": "Nez de la tête de fourche : 2 modules de croisement, 1 de route, 2 feux de jour, clignotants avant intégrés (Europe), 2 feux de virage."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.156,
+          "y": 0.4
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.844,
+          "y": 0.4
+        },
+        {
+          "vue": "dessus",
+          "x": 0.5,
+          "y": 0.109
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-controle-eclairage",
+        "op-reglage-phare"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p164",
+        "src-manuel-proprietaire#p187"
+      ]
+    },
+    {
+      "id": "co-reglage-phare",
+      "nom": {
+        "fr": "Vis de réglage du phare",
+        "en": "Headlight aim screws"
+      },
+      "groupe": "eclairage",
+      "emplacement": {
+        "fr": "Croisement : 2 vis accessibles depuis l'arrière de la tête de fourche, sous l'habillage intérieur (serrer = monter). Route : 1 vis sous le bloc optique (serrer = descendre)."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.199,
+          "y": 0.384
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.801,
+          "y": 0.384
+        }
+      ],
+      "acces": {
+        "fr": "Aucun carénage à déposer (accès par l'arrière et le dessous de la tête de fourche)."
+      },
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-reglage-phare"
+      ],
+      "note": {
+        "fr": "Position exacte des vis : approximative."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p165",
+        "src-manuel-proprietaire#p166",
+        "src-manuel-atelier#p86"
+      ]
+    },
+    {
+      "id": "co-feu-arriere",
+      "nom": {
+        "fr": "Feu arrière LED",
+        "en": "LED tail light"
+      },
+      "groupe": "eclairage",
+      "emplacement": {
+        "fr": "À la pointe de la coque arrière."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.869,
+          "y": 0.26
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.131,
+          "y": 0.26
+        },
+        {
+          "vue": "dessus",
+          "x": 0.5,
+          "y": 0.873
+        }
+      ],
+      "acces": {
+        "fr": "Module complet à changer (pas d'ampoule) ; dépose : voir carénage « feu arrière »."
+      },
+      "carenages_a_deposer": [
+        "ca-poignee-arriere",
+        "ca-flanc-arriere-gauche",
+        "ca-flanc-arriere-droit"
+      ],
+      "operations": [
+        "op-controle-eclairage"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p164",
+        "src-manuel-atelier#p393",
+        "src-manuel-atelier#p394"
+      ]
+    },
+    {
+      "id": "co-clignotants-arriere",
+      "nom": {
+        "fr": "Clignotants arrière LED",
+        "en": "Rear LED indicators"
+      },
+      "groupe": "eclairage",
+      "emplacement": {
+        "fr": "Sur le support de plaque."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.846,
+          "y": 0.382
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.154,
+          "y": 0.382
+        },
+        {
+          "vue": "dessus",
+          "x": 0.44,
+          "y": 0.848
+        },
+        {
+          "vue": "dessus",
+          "x": 0.56,
+          "y": 0.848
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-controle-eclairage"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p164",
+        "src-manuel-proprietaire#p167"
+      ]
+    },
+    {
+      "id": "co-contacteur-cle",
+      "nom": {
+        "fr": "Contacteur à clé (LOCK / OFF / ON)",
+        "en": "Ignition switch (LOCK / OFF / ON)"
+      },
+      "groupe": "electricite",
+      "emplacement": {
+        "fr": "Devant le réservoir, entre les demi-guidons ; la même clé ouvre le bouchon de réservoir et la selle."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.324,
+          "y": 0.322
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.676,
+          "y": 0.322
+        },
+        {
+          "vue": "dessus",
+          "x": 0.5,
+          "y": 0.341
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p75",
+        "src-manuel-proprietaire#p76",
+        "src-manuel-proprietaire#p77"
+      ]
+    },
+    {
+      "id": "co-tableau-de-bord",
+      "nom": {
+        "fr": "Tableau de bord TFT couleur 5 pouces",
+        "en": "5-inch colour TFT dashboard"
+      },
+      "groupe": "instrumentation",
+      "emplacement": {
+        "fr": "Derrière la bulle ; témoins LED en arc et en colonnes autour de l'écran (2021-2024)."
+      },
+      "reperes": [
+        {
+          "vue": "profil-gauche",
+          "x": 0.291,
+          "y": 0.256
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.709,
+          "y": 0.256
+        },
+        {
+          "vue": "dessus",
+          "x": 0.5,
+          "y": 0.286
+        },
+        {
+          "vue": "tableau-de-bord",
+          "x": 0.5,
+          "y": 0.48
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-controle-fonctionnement-general",
+        "op-diagnostic-outil"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p21",
+        "src-manuel-proprietaire#p22",
+        "src-manuel-proprietaire#p24"
+      ]
+    },
+    {
+      "id": "co-ecran-tft",
+      "nom": {
+        "fr": "Écran TFT",
+        "en": "TFT screen"
+      },
+      "groupe": "instrumentation",
+      "emplacement": {
+        "fr": "Au centre du tableau de bord ; fond blanc (jour) ou noir (nuit)."
+      },
+      "reperes": [
+        {
+          "vue": "tableau-de-bord",
+          "x": 0.5,
+          "y": 0.515
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p24",
+        "src-manuel-proprietaire#p26",
+        "src-manuel-proprietaire#p27"
+      ]
+    },
+    {
+      "id": "co-odometre",
+      "nom": {
+        "fr": "Totalisateur (ODOMETER)",
+        "en": "Odometer"
+      },
+      "groupe": "instrumentation",
+      "emplacement": {
+        "fr": "Barre d'informations grise en bas à gauche de l'écran, page « ODOMETER » du Trip A ou B, en mode ROAD ou NAVI seulement."
+      },
+      "reperes": [
+        {
+          "vue": "tableau-de-bord",
+          "x": 0.429,
+          "y": 0.626
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p41",
+        "src-manuel-proprietaire#p42",
+        "src-ultimate-essai-2021"
+      ]
+    },
+    {
+      "id": "co-shift-light",
+      "nom": {
+        "fr": "Shift-light (8 LED)",
+        "en": "Shift light (8 LEDs)"
+      },
+      "groupe": "instrumentation",
+      "emplacement": {
+        "fr": "Arc de 8 LED au-dessus de l'écran : 2 orange à l'extérieur, 2 rouges à l'intérieur de chaque côté."
+      },
+      "reperes": [
+        {
+          "vue": "tableau-de-bord",
+          "x": 0.343,
+          "y": 0.214
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p24",
+        "src-manuel-proprietaire#p59",
+        "src-manuel-proprietaire#p122"
+      ]
+    },
+    {
+      "id": "co-temoin-immobiliseur",
+      "nom": {
+        "fr": "Témoin d'antidémarrage",
+        "en": "Immobiliser light"
+      },
+      "groupe": "instrumentation",
+      "emplacement": {
+        "fr": "Témoin LED rouge — Au-dessus de l'écran, sous les shift-lights intérieures gauches."
+      },
+      "reperes": [
+        {
+          "vue": "tableau-de-bord",
+          "x": 0.417,
+          "y": 0.248
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p24",
+        "src-video-hormigaz-tableau-de-bord",
+        "src-ultimate-essai-2021"
+      ]
+    },
+    {
+      "id": "co-temoin-clignotant-gauche",
+      "nom": {
+        "fr": "Témoin de clignotant gauche",
+        "en": "Left turn indicator light"
+      },
+      "groupe": "instrumentation",
+      "emplacement": {
+        "fr": "Témoin LED vert — En haut de la colonne gauche."
+      },
+      "reperes": [
+        {
+          "vue": "tableau-de-bord",
+          "x": 0.144,
+          "y": 0.33
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p24",
+        "src-video-hormigaz-tableau-de-bord",
+        "src-ultimate-essai-2021"
+      ]
+    },
+    {
+      "id": "co-temoin-moteur",
+      "nom": {
+        "fr": "Témoin de gestion moteur (MIL)",
+        "en": "Malfunction indicator lamp (MIL)"
+      },
+      "groupe": "instrumentation",
+      "emplacement": {
+        "fr": "Témoin LED orange — Colonne gauche, rangée du haut, à l'extérieur."
+      },
+      "reperes": [
+        {
+          "vue": "tableau-de-bord",
+          "x": 0.144,
+          "y": 0.43
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p24",
+        "src-video-hormigaz-tableau-de-bord",
+        "src-ultimate-essai-2021"
+      ]
+    },
+    {
+      "id": "co-temoin-abs",
+      "nom": {
+        "fr": "Témoin ABS",
+        "en": "ABS warning light"
+      },
+      "groupe": "instrumentation",
+      "emplacement": {
+        "fr": "Témoin LED orange — Colonne gauche, rangée du haut, à l'intérieur."
+      },
+      "reperes": [
+        {
+          "vue": "tableau-de-bord",
+          "x": 0.212,
+          "y": 0.43
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p24",
+        "src-video-hormigaz-tableau-de-bord",
+        "src-ultimate-essai-2021"
+      ]
+    },
+    {
+      "id": "co-temoin-regulateur",
+      "nom": {
+        "fr": "Témoin de régulateur de vitesse",
+        "en": "Cruise control light"
+      },
+      "groupe": "instrumentation",
+      "emplacement": {
+        "fr": "Témoin LED vert — Colonne gauche intérieure, 2e position."
+      },
+      "reperes": [
+        {
+          "vue": "tableau-de-bord",
+          "x": 0.212,
+          "y": 0.53
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-proprietaire#p24",
+        "src-video-hormigaz-tableau-de-bord",
+        "src-ultimate-essai-2021"
+      ]
+    },
+    {
+      "id": "co-temoin-feu-route",
+      "nom": {
+        "fr": "Témoin de feu de route",
+        "en": "High beam light"
+      },
+      "groupe": "instrumentation",
+      "emplacement": {
+        "fr": "Témoin LED bleu — Colonne gauche intérieure, 3e position."
+      },
+      "reperes": [
+        {
+          "vue": "tableau-de-bord",
+          "x": 0.212,
+          "y": 0.63
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p24",
+        "src-video-hormigaz-tableau-de-bord",
+        "src-ultimate-essai-2021"
+      ]
+    },
+    {
+      "id": "co-temoin-drl",
+      "nom": {
+        "fr": "Témoin de feux de jour (DRL)",
+        "en": "DRL light"
+      },
+      "groupe": "instrumentation",
+      "emplacement": {
+        "fr": "Témoin LED vert — En bas de la colonne gauche (le dessin du manuel le place à droite)."
+      },
+      "reperes": [
+        {
+          "vue": "tableau-de-bord",
+          "x": 0.212,
+          "y": 0.73
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-proprietaire#p24",
+        "src-video-hormigaz-tableau-de-bord",
+        "src-ultimate-essai-2021"
+      ]
+    },
+    {
+      "id": "co-temoin-clignotant-droit",
+      "nom": {
+        "fr": "Témoin de clignotant droit",
+        "en": "Right turn indicator light"
+      },
+      "groupe": "instrumentation",
+      "emplacement": {
+        "fr": "Témoin LED vert — En haut de la colonne droite."
+      },
+      "reperes": [
+        {
+          "vue": "tableau-de-bord",
+          "x": 0.856,
+          "y": 0.33
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p24",
+        "src-video-hormigaz-tableau-de-bord",
+        "src-ultimate-essai-2021"
+      ]
+    },
+    {
+      "id": "co-temoin-carburant",
+      "nom": {
+        "fr": "Témoin de réserve de carburant",
+        "en": "Low fuel light"
+      },
+      "groupe": "instrumentation",
+      "emplacement": {
+        "fr": "Témoin LED orange — Colonne droite, rangée du haut, à l'extérieur."
+      },
+      "reperes": [
+        {
+          "vue": "tableau-de-bord",
+          "x": 0.856,
+          "y": 0.43
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p24",
+        "src-video-hormigaz-tableau-de-bord",
+        "src-ultimate-essai-2021"
+      ]
+    },
+    {
+      "id": "co-temoin-aprc",
+      "nom": {
+        "fr": "Témoin a-PRC (contrôle de traction / anti-wheeling)",
+        "en": "a-PRC light (traction / wheelie control)"
+      },
+      "groupe": "instrumentation",
+      "emplacement": {
+        "fr": "Témoin LED orange — Colonne droite, rangée du haut, à l'intérieur."
+      },
+      "reperes": [
+        {
+          "vue": "tableau-de-bord",
+          "x": 0.787,
+          "y": 0.43
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p24",
+        "src-video-hormigaz-tableau-de-bord",
+        "src-ultimate-essai-2021"
+      ]
+    },
+    {
+      "id": "co-temoin-alerte",
+      "nom": {
+        "fr": "Témoin d'alerte générale",
+        "en": "General warning light"
+      },
+      "groupe": "instrumentation",
+      "emplacement": {
+        "fr": "Témoin LED rouge — Colonne droite, 2e position (sous a-PRC)."
+      },
+      "reperes": [
+        {
+          "vue": "tableau-de-bord",
+          "x": 0.787,
+          "y": 0.53
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p24",
+        "src-video-hormigaz-tableau-de-bord",
+        "src-ultimate-essai-2021"
+      ]
+    },
+    {
+      "id": "co-temoin-point-mort",
+      "nom": {
+        "fr": "Témoin de point mort (N)",
+        "en": "Neutral light (N)"
+      },
+      "groupe": "instrumentation",
+      "emplacement": {
+        "fr": "Témoin LED vert — Colonne droite, 3e position (le dessin du manuel le place en bas à gauche)."
+      },
+      "reperes": [
+        {
+          "vue": "tableau-de-bord",
+          "x": 0.787,
+          "y": 0.63
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-proprietaire#p24",
+        "src-video-hormigaz-tableau-de-bord",
+        "src-ultimate-essai-2021"
+      ]
+    },
+    {
+      "id": "co-temoin-bequille",
+      "nom": {
+        "fr": "Témoin de béquille latérale",
+        "en": "Side stand light"
+      },
+      "groupe": "instrumentation",
+      "emplacement": {
+        "fr": "Témoin LED orange — En bas de la colonne droite."
+      },
+      "reperes": [
+        {
+          "vue": "tableau-de-bord",
+          "x": 0.787,
+          "y": 0.73
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p24",
+        "src-video-hormigaz-tableau-de-bord",
+        "src-ultimate-essai-2021"
+      ]
+    },
+    {
+      "id": "co-commodo-gauche",
+      "nom": {
+        "fr": "Commodo gauche",
+        "en": "Left switch block"
+      },
+      "groupe": "commandes",
+      "emplacement": {
+        "fr": "Guidon gauche, à l'intérieur de la poignée."
+      },
+      "reperes": [
+        {
+          "vue": "guidon",
+          "x": 0.431,
+          "y": 0.755
+        },
+        {
+          "vue": "profil-gauche",
+          "x": 0.323,
+          "y": 0.357
+        },
+        {
+          "vue": "dessus",
+          "x": 0.359,
+          "y": 0.338
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p21",
+        "src-manuel-proprietaire#p22",
+        "src-manuel-proprietaire#p40",
+        "src-manuel-proprietaire#p41"
+      ]
+    },
+    {
+      "id": "co-commodo-droit",
+      "nom": {
+        "fr": "Commodo droit",
+        "en": "Right switch block"
+      },
+      "groupe": "commandes",
+      "emplacement": {
+        "fr": "Guidon droit, à l'intérieur de la poignée des gaz."
+      },
+      "reperes": [
+        {
+          "vue": "guidon",
+          "x": 0.574,
+          "y": 0.758
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.677,
+          "y": 0.357
+        },
+        {
+          "vue": "dessus",
+          "x": 0.641,
+          "y": 0.338
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p21",
+        "src-manuel-proprietaire#p22",
+        "src-manuel-proprietaire#p80",
+        "src-manuel-proprietaire#p81"
+      ]
+    },
+    {
+      "id": "co-pave-mode",
+      "nom": {
+        "fr": "Pavé de touches MODE (4 touches)",
+        "en": "MODE keypad (4 keys)"
+      },
+      "groupe": "commandes",
+      "emplacement": {
+        "fr": "Face avant du commodo gauche, en losange."
+      },
+      "reperes": [
+        {
+          "vue": "guidon",
+          "x": 0.416,
+          "y": 0.511
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "note": {
+        "fr": "Disposition des touches sur le schéma : simplifiée."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p40",
+        "src-manuel-proprietaire#p41",
+        "src-manuel-proprietaire#p73"
+      ]
+    },
+    {
+      "id": "co-bouton-mode-up",
+      "nom": {
+        "fr": "Touche MODE UP",
+        "en": "MODE UP key"
+      },
+      "groupe": "commandes",
+      "emplacement": {
+        "fr": "Haut du losange : monter, page Trip suivante, volume +."
+      },
+      "reperes": [
+        {
+          "vue": "guidon",
+          "x": 0.416,
+          "y": 0.46
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "note": {
+        "fr": "Disposition des touches sur le schéma : simplifiée."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p42"
+      ]
+    },
+    {
+      "id": "co-bouton-mode-down",
+      "nom": {
+        "fr": "Touche MODE DOWN",
+        "en": "MODE DOWN key"
+      },
+      "groupe": "commandes",
+      "emplacement": {
+        "fr": "Bas du losange : descendre, volume −."
+      },
+      "reperes": [
+        {
+          "vue": "guidon",
+          "x": 0.416,
+          "y": 0.562
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "note": {
+        "fr": "Disposition des touches sur le schéma : simplifiée."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p42"
+      ]
+    },
+    {
+      "id": "co-bouton-mode-right",
+      "nom": {
+        "fr": "Touche MODE RIGHT",
+        "en": "MODE RIGHT key"
+      },
+      "groupe": "commandes",
+      "emplacement": {
+        "fr": "Droite du losange : appui bref = page suivante de la barre d'infos ; maintenu = NAVI puis MENU (à l'arrêt)."
+      },
+      "reperes": [
+        {
+          "vue": "guidon",
+          "x": 0.449,
+          "y": 0.511
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "note": {
+        "fr": "Disposition des touches sur le schéma : simplifiée."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p25",
+        "src-manuel-proprietaire#p55"
+      ]
+    },
+    {
+      "id": "co-bouton-mode-set",
+      "nom": {
+        "fr": "Touche MODE SET",
+        "en": "MODE SET key"
+      },
+      "groupe": "commandes",
+      "emplacement": {
+        "fr": "Touche gauche du losange (position à confirmer) : valider / sortir ; maintenu = remise à zéro du Trip actif."
+      },
+      "reperes": [
+        {
+          "vue": "guidon",
+          "x": 0.384,
+          "y": 0.511
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "note": {
+        "fr": "Disposition des touches sur le schéma : simplifiée."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-proprietaire#p42",
+        "src-video-hormigaz-tableau-de-bord"
+      ]
+    },
+    {
+      "id": "co-commande-clignotants",
+      "nom": {
+        "fr": "Commande de clignotants",
+        "en": "Turn signal switch"
+      },
+      "groupe": "commandes",
+      "emplacement": {
+        "fr": "Sous le pavé MODE : pousser à gauche ou à droite, appuyer pour annuler."
+      },
+      "reperes": [
+        {
+          "vue": "guidon",
+          "x": 0.416,
+          "y": 0.641
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "note": {
+        "fr": "Disposition des touches sur le schéma : simplifiée."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p78"
+      ]
+    },
+    {
+      "id": "co-bouton-klaxon",
+      "nom": {
+        "fr": "Bouton d'avertisseur",
+        "en": "Horn button"
+      },
+      "groupe": "commandes",
+      "emplacement": {
+        "fr": "En bas du commodo gauche."
+      },
+      "reperes": [
+        {
+          "vue": "guidon",
+          "x": 0.416,
+          "y": 0.724
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "note": {
+        "fr": "Disposition des touches sur le schéma : simplifiée."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p77"
+      ]
+    },
+    {
+      "id": "co-inverseur-phare",
+      "nom": {
+        "fr": "Inverseur feu de route / appel de phare",
+        "en": "High beam / flash switch"
+      },
+      "groupe": "commandes",
+      "emplacement": {
+        "fr": "Dessus et arrière du commodo gauche (3 positions) ; la gâchette d'appel marque aussi les tours en mode RACE."
+      },
+      "reperes": [
+        {
+          "vue": "guidon",
+          "x": 0.38,
+          "y": 0.422
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "note": {
+        "fr": "Disposition des touches sur le schéma : simplifiée."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p29",
+        "src-manuel-proprietaire#p79"
+      ]
+    },
+    {
+      "id": "co-selecteur-regulateur",
+      "nom": {
+        "fr": "Sélecteur du régulateur / limiteur PIT",
+        "en": "Cruise control / PIT limiter selector"
+      },
+      "groupe": "commandes",
+      "emplacement": {
+        "fr": "Petit levier sur le dessus du commodo gauche."
+      },
+      "reperes": [
+        {
+          "vue": "guidon",
+          "x": 0.412,
+          "y": 0.35
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "note": {
+        "fr": "Disposition des touches sur le schéma : simplifiée."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p82",
+        "src-manuel-proprietaire#p83",
+        "src-manuel-proprietaire#p84"
+      ]
+    },
+    {
+      "id": "co-bouton-drl",
+      "nom": {
+        "fr": "Bouton feux de jour / croisement",
+        "en": "DRL / dipped beam button"
+      },
+      "groupe": "commandes",
+      "emplacement": {
+        "fr": "En haut du commodo droit."
+      },
+      "reperes": [
+        {
+          "vue": "guidon",
+          "x": 0.589,
+          "y": 0.445
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "note": {
+        "fr": "Disposition des touches sur le schéma : simplifiée."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p80"
+      ]
+    },
+    {
+      "id": "co-bascule-demarrage",
+      "nom": {
+        "fr": "Bascule démarrage / coupe-circuit",
+        "en": "Start / engine stop rocker"
+      },
+      "groupe": "commandes",
+      "emplacement": {
+        "fr": "Au milieu du commodo droit ; démarrage au neutre ou embrayage tiré, frein actionné."
+      },
+      "reperes": [
+        {
+          "vue": "guidon",
+          "x": 0.589,
+          "y": 0.576
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "note": {
+        "fr": "Disposition des touches sur le schéma : simplifiée."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p81",
+        "src-video-hormigaz-tableau-de-bord"
+      ]
+    },
+    {
+      "id": "co-bouton-riding-mode",
+      "nom": {
+        "fr": "Bouton RIDING MODE",
+        "en": "RIDING MODE button"
+      },
+      "groupe": "commandes",
+      "emplacement": {
+        "fr": "En bas du commodo droit : appui bref = mode suivant ; maintenu = réglage des aides."
+      },
+      "reperes": [
+        {
+          "vue": "guidon",
+          "x": 0.589,
+          "y": 0.707
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "note": {
+        "fr": "Disposition des touches sur le schéma : simplifiée."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p33",
+        "src-manuel-proprietaire#p38",
+        "src-manuel-proprietaire#p39",
+        "src-manuel-proprietaire#p40"
+      ]
+    },
+    {
+      "id": "co-levier-embrayage",
+      "nom": {
+        "fr": "Levier d'embrayage",
+        "en": "Clutch lever"
+      },
+      "groupe": "commandes",
+      "emplacement": {
+        "fr": "Guidon gauche ; garde de 1 à 3 mm."
+      },
+      "reperes": [
+        {
+          "vue": "guidon",
+          "x": 0.206,
+          "y": 0.55
+        },
+        {
+          "vue": "profil-gauche",
+          "x": 0.361,
+          "y": 0.344
+        },
+        {
+          "vue": "dessus",
+          "x": 0.3,
+          "y": 0.338
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-cable-embrayage",
+        "op-lubrification-articulations"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p119"
+      ]
+    },
+    {
+      "id": "co-reglage-levier-embrayage",
+      "nom": {
+        "fr": "Vis de réglage du levier d'embrayage",
+        "en": "Clutch lever adjuster"
+      },
+      "groupe": "commandes",
+      "emplacement": {
+        "fr": "Au pied du levier d'embrayage : tourner dans le sens du mouvement pour augmenter la garde."
+      },
+      "reperes": [
+        {
+          "vue": "guidon",
+          "x": 0.354,
+          "y": 0.576
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-cable-embrayage"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p119",
+        "src-manuel-atelier#p84"
+      ]
+    },
+    {
+      "id": "co-levier-frein-avant",
+      "nom": {
+        "fr": "Levier de frein avant",
+        "en": "Front brake lever"
+      },
+      "groupe": "commandes",
+      "emplacement": {
+        "fr": "Guidon droit."
+      },
+      "reperes": [
+        {
+          "vue": "guidon",
+          "x": 0.794,
+          "y": 0.55
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.639,
+          "y": 0.344
+        },
+        {
+          "vue": "dessus",
+          "x": 0.7,
+          "y": 0.338
+        },
+        {
+          "vue": "purge-frein",
+          "x": 0.094,
+          "y": 0.446
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [
+        "op-liquide-frein",
+        "op-lubrification-articulations"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p118"
+      ]
+    },
+    {
+      "id": "co-molette-levier-frein",
+      "nom": {
+        "fr": "Molette de réglage du levier de frein",
+        "en": "Brake lever span adjuster"
+      },
+      "groupe": "commandes",
+      "emplacement": {
+        "fr": "Au pied du levier de frein : pousser le levier vers l'avant et tourner (anti-horaire = levier plus proche)."
+      },
+      "reperes": [
+        {
+          "vue": "guidon",
+          "x": 0.647,
+          "y": 0.582
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p118",
+        "src-manuel-atelier#p83"
+      ]
+    },
+    {
+      "id": "co-poignee-gaz",
+      "nom": {
+        "fr": "Poignée des gaz (électronique)",
+        "en": "Throttle grip (ride-by-wire)"
+      },
+      "groupe": "commandes",
+      "emplacement": {
+        "fr": "Guidon droit."
+      },
+      "reperes": [
+        {
+          "vue": "guidon",
+          "x": 0.831,
+          "y": 0.652
+        },
+        {
+          "vue": "profil-droit",
+          "x": 0.646,
+          "y": 0.37
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p20"
+      ]
+    },
+    {
+      "id": "co-guidon-gauche",
+      "nom": {
+        "fr": "Demi-guidon gauche",
+        "en": "Left clip-on"
+      },
+      "groupe": "commandes",
+      "emplacement": {
+        "fr": "Sous le té supérieur, côté gauche."
+      },
+      "reperes": [
+        {
+          "vue": "guidon",
+          "x": 0.169,
+          "y": 0.652
+        },
+        {
+          "vue": "profil-gauche",
+          "x": 0.354,
+          "y": 0.37
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p24"
+      ]
+    },
+    {
+      "id": "co-guidon-droit",
+      "nom": {
+        "fr": "Demi-guidon droit",
+        "en": "Right clip-on"
+      },
+      "groupe": "commandes",
+      "emplacement": {
+        "fr": "Sous le té supérieur, côté droit."
+      },
+      "reperes": [
+        {
+          "vue": "profil-droit",
+          "x": 0.646,
+          "y": 0.37
+        }
+      ],
+      "carenages_a_deposer": [],
+      "operations": [],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p24"
+      ]
+    }
+  ]
+}

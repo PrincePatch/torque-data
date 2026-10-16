@@ -1,0 +1,2325 @@
+{
+  "version_schema": 1,
+  "maj": "2026-10-16",
+  "pieces": [
+    {
+      "id": "pc-filtre-huile",
+      "nom": {
+        "fr": "Filtre à huile",
+        "en": "Oil filter"
+      },
+      "categorie": "moteur",
+      "type": "piece",
+      "quantite_par_moto": {
+        "valeur": 1,
+        "unite": "piece"
+      },
+      "references": [
+        {
+          "marque": "Aprilia",
+          "ref": "857187",
+          "origine": true,
+          "note": {
+            "fr": "Référence des catalogues 2020 (UE et USA), remplacée par 1A023538."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-catalogue-gpc-2020-eu",
+            "src-maintenanceschedule",
+            "src-cyclegear-kn138",
+            "src-retzmoto-filtre-huile"
+          ]
+        },
+        {
+          "marque": "Aprilia",
+          "ref": "1A023538",
+          "origine": true,
+          "note": {
+            "fr": "Nouvelle référence qui remplace 857187 ; seule référence au catalogue 2025 E5+, vendue aussi pour les millésimes précédents."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-catalogue-gpc-2025",
+            "src-3as-filtre-huile",
+            "src-pogliani-filtre-huile"
+          ]
+        },
+        {
+          "marque": "HifloFiltro",
+          "ref": "HF138",
+          "origine": false,
+          "note": {
+            "fr": "Existe aussi en HF138C (chromé)."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-motostorm-hf138",
+            "src-maintenanceschedule",
+            "src-lb-hf138"
+          ]
+        },
+        {
+          "marque": "HifloFiltro",
+          "ref": "HF138RC",
+          "origine": false,
+          "note": {
+            "fr": "Version « racing » avec écrou de serrage."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-jpcycles-hf138",
+            "src-lb-hf138rc"
+          ]
+        },
+        {
+          "marque": "K&N",
+          "ref": "KN-138",
+          "origine": false,
+          "confiance": "ok",
+          "sources": [
+            "src-kn-filtre-huile",
+            "src-cyclegear-kn138"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "Cartouche vissée à l'avant du moteur, derrière les collecteurs d'échappement (bas de carénage à déposer). Huiler le joint, remplir le filtre au tiers d'huile neuve, serrer à 15 Nm. Ne jamais réutiliser un filtre. À remplacer à chaque vidange (1 000 km, puis 10 000 km ou 12 mois). Clé à filtre cloche de 68 mm à 14 pans."
+      },
+      "prix": {
+        "min": 7.7,
+        "moy": 8.1,
+        "max": 28.9,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "ok",
+        "sources": [
+          "src-lb-hf138",
+          "src-lb-hf138rc",
+          "src-3as-filtre-huile",
+          "src-pogliani-filtre-huile"
+        ]
+      },
+      "lien_eclate": "https://aprilia.genuine-parts-catalogue.com/diagram/12261-oil-pump-oil-filter?machine_id=384"
+    },
+    {
+      "id": "pc-joint-vidange",
+      "nom": {
+        "fr": "Joint du bouchon de vidange",
+        "en": "Drain plug washer"
+      },
+      "categorie": "moteur",
+      "type": "piece",
+      "quantite_par_moto": {
+        "valeur": 1,
+        "unite": "piece"
+      },
+      "references": [
+        {
+          "marque": "Aprilia",
+          "ref": "831393",
+          "origine": true,
+          "note": {
+            "fr": "Désigné « PACKING » dans le groupe pompe à huile du catalogue. AF1 Racing signale que certaines RS 660 de 2022 ont reçu un bouchon non conforme qui ne serre correctement qu'avec 3 joints 831393."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-lb-joint-vidange",
+            "src-af1-kit-vidange",
+            "src-catalogue-gpc-2020-eu"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "Joint du bouchon de vidange magnétique (Aprilia 1A012848), serré à 20 Nm. Le manuel d'atelier demande de contrôler ce joint à chaque vidange et de le remplacer si nécessaire ; le changer à chaque fois est la pratique courante. Cotes non confirmées pour la RS 660 : mesurer le joint d'origine à la première vidange."
+      },
+      "prix": {
+        "min": 1.0,
+        "moy": 1.0,
+        "max": 1.0,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "ok",
+        "sources": [
+          "src-lb-joint-vidange"
+        ]
+      },
+      "lien_eclate": "https://aprilia.genuine-parts-catalogue.com/diagram/12261-oil-pump-oil-filter?machine_id=384"
+    },
+    {
+      "id": "pc-filtre-air",
+      "nom": {
+        "fr": "Filtre à air",
+        "en": "Air filter"
+      },
+      "categorie": "admission",
+      "type": "piece",
+      "quantite_par_moto": {
+        "valeur": 1,
+        "unite": "piece"
+      },
+      "references": [
+        {
+          "marque": "Aprilia",
+          "ref": "2B006532",
+          "origine": true,
+          "note": {
+            "fr": "Élément d'origine en polyester ; même référence sur la 2025 E5+."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-catalogue-gpc-2020-eu",
+            "src-catalogue-gpc-2025",
+            "src-kn-al6620",
+            "src-dna-filtre-air",
+            "src-lb-filtre-air-origine"
+          ]
+        },
+        {
+          "marque": "K&N",
+          "ref": "AL-6620",
+          "origine": false,
+          "note": {
+            "fr": "Lavable et réutilisable ; annoncé RS 660 2020-2026."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-kn-al6620",
+            "src-lb-kn-al6620"
+          ]
+        },
+        {
+          "marque": "BMC",
+          "ref": "FM01117",
+          "origine": false,
+          "note": {
+            "fr": "Annoncé 2020-2022 ; version course FM01117RACE. Compatibilité 2023+ non annoncée."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-kn-al6620",
+            "src-lb-bmc-fm01117"
+          ]
+        },
+        {
+          "marque": "DNA",
+          "ref": "P-AP6S21-01",
+          "origine": false,
+          "confiance": "une_source",
+          "sources": [
+            "src-dna-filtre-air",
+            "src-maintenanceschedule"
+          ]
+        },
+        {
+          "marque": "Sprint Filter",
+          "ref": "P037 (406635)",
+          "origine": false,
+          "confiance": "une_source",
+          "sources": [
+            "src-hhr-filtres-air",
+            "src-brocks-sprint"
+          ]
+        },
+        {
+          "marque": "Sprint Filter",
+          "ref": "PM176S",
+          "origine": false,
+          "confiance": "une_source",
+          "sources": [
+            "src-maintenanceschedule"
+          ]
+        },
+        {
+          "marque": "HifloFiltro",
+          "ref": "HFA6113",
+          "origine": false,
+          "note": {
+            "fr": "Listé par un revendeur français ; aucun filtre à air Hiflo trouvé ailleurs pour la RS 660."
+          },
+          "confiance": "une_source",
+          "sources": [
+            "src-lb-hfa6113"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "Élément filtrant en polyester dans la boîte à air, sous le réservoir : dépose du réservoir, puis des 11 vis du couvercle (1 à 1,2 Nm au remontage, vis dans du plastique). Contrôle à 10 000 et 30 000 km, remplacement à 20 000 et 40 000 km ; intervalles divisés par deux en usage sévère."
+      },
+      "prix": {
+        "min": 15.4,
+        "moy": 62.0,
+        "max": 86.4,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "ok",
+        "sources": [
+          "src-lb-hfa6113",
+          "src-lb-kn-al6620",
+          "src-lb-filtre-air-origine",
+          "src-lb-bmc-fm01117"
+        ]
+      },
+      "lien_eclate": "https://aprilia.genuine-parts-catalogue.com/diagram/12241-air-box?machine_id=384"
+    },
+    {
+      "id": "pc-bougie",
+      "nom": {
+        "fr": "Bougie d'allumage",
+        "en": "Spark plug"
+      },
+      "categorie": "allumage",
+      "type": "piece",
+      "quantite_par_moto": {
+        "valeur": 2,
+        "unite": "piece"
+      },
+      "references": [
+        {
+          "marque": "Aprilia",
+          "ref": "1A015311",
+          "origine": true,
+          "note": {
+            "fr": "Bougie NGK MR9DI-7 sous référence Aprilia ; identique sur la 2025 E5+."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-catalogue-gpc-2020-eu",
+            "src-catalogue-gpc-2025",
+            "src-mieloch-1a015311",
+            "src-lb-bougie-1a015311"
+          ]
+        },
+        {
+          "marque": "NGK",
+          "ref": "MR9DI-7",
+          "origine": false,
+          "note": {
+            "fr": "Type préconisé par le manuel (iridium)."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-manuel-proprietaire#p186",
+            "src-manuel-atelier#p19",
+            "src-lb-ngk-mr9di7"
+          ]
+        },
+        {
+          "marque": "NGK",
+          "ref": "CR9EKB",
+          "origine": false,
+          "note": {
+            "fr": "Listée par un seul revendeur pour 2020-2022 et non conforme au manuel : ne pas la monter sans l'avis d'un concessionnaire."
+          },
+          "confiance": "incertain",
+          "sources": [
+            "src-wemoto-bougie"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "NGK iridium MR9DI-7, une par cylindre. Écartement 0,7 à 0,8 mm, serrage 12 Nm. Accès après dépose du réservoir et de toute la boîte à air, puis des bobines crayon. Remplacement à 20 000 et 40 000 km ; tous les 10 000 km en usage sévère."
+      },
+      "prix": {
+        "min": 21.5,
+        "moy": 21.5,
+        "max": 47.5,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "ok",
+        "sources": [
+          "src-lb-ngk-mr9di7",
+          "src-lb-bougie-1a015311"
+        ]
+      },
+      "lien_eclate": "https://aprilia.genuine-parts-catalogue.com/diagram/12242-cylinder-head-cover?machine_id=384"
+    },
+    {
+      "id": "pc-joint-puits-bougie",
+      "nom": {
+        "fr": "Joint de puits de bougie",
+        "en": "Spark plug well seal"
+      },
+      "categorie": "moteur",
+      "type": "piece",
+      "quantite_par_moto": {
+        "valeur": 2,
+        "unite": "piece"
+      },
+      "references": [],
+      "specification": {
+        "fr": "Joint d'origine Aprilia vendu pour la Tuareg 660 (même moteur) et listé parmi les joints RS 660 par un revendeur : compatibilité à confirmer. Référence non relevée. À prévoir lors du remplacement des bougies si le joint est abîmé."
+      },
+      "prix": {
+        "min": 2.9,
+        "moy": 2.9,
+        "max": 2.9,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-lb-joint-puits-bougie"
+        ]
+      }
+    },
+    {
+      "id": "pc-joint-couvre-culasse",
+      "nom": {
+        "fr": "Joint de couvre-culasse",
+        "en": "Valve cover gasket"
+      },
+      "categorie": "moteur",
+      "type": "piece",
+      "quantite_par_moto": {
+        "valeur": 1,
+        "unite": "piece"
+      },
+      "references": [
+        {
+          "marque": "Aprilia",
+          "ref": "1A011919",
+          "origine": true,
+          "note": {
+            "fr": "Listé pour RS 660 et Tuono 660."
+          },
+          "confiance": "une_source",
+          "sources": [
+            "src-lb-joint-couvre-culasse"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "À prévoir lors du contrôle du jeu aux soupapes (dépose du couvre-culasse ; vis serrées à 10 Nm)."
+      },
+      "prix": {
+        "min": 22.5,
+        "moy": 22.5,
+        "max": 22.5,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "ok",
+        "sources": [
+          "src-lb-joint-couvre-culasse"
+        ]
+      },
+      "lien_eclate": "https://aprilia.genuine-parts-catalogue.com/diagram/12242-cylinder-head-cover?machine_id=384"
+    },
+    {
+      "id": "pc-pastille-soupape",
+      "nom": {
+        "fr": "Pastille de réglage du jeu aux soupapes",
+        "en": "Valve adjustment shim"
+      },
+      "categorie": "moteur",
+      "type": "piece",
+      "quantite_par_moto": {
+        "valeur": 8,
+        "unite": "piece"
+      },
+      "references": [
+        {
+          "marque": "Aprilia",
+          "ref": "CM3270xx",
+          "origine": true,
+          "note": {
+            "fr": "Série de références, une par épaisseur (« TAPPET THICKNESS ») ; les derniers chiffres varient avec l'épaisseur."
+          },
+          "confiance": "une_source",
+          "sources": [
+            "src-catalogue-gpc-2020-eu"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "Pastilles calibrées sous les poussoirs à godet, de 1,75 à 3,15 mm par pas de 0,025 mm, épaisseur imprimée vers le haut. Jeu admission 0,10 à 0,15 mm, échappement 0,10 à 0,20 mm ; 8 soupapes. On ne remplace que les pastilles hors tolérance. Diamètre non confirmé. Prix unitaire non trouvé."
+      },
+      "lien_eclate": "https://aprilia.genuine-parts-catalogue.com/diagram/12266-pad?machine_id=384"
+    },
+    {
+      "id": "pc-kit-pastilles-soupapes",
+      "nom": {
+        "fr": "Kit de pastilles de soupapes (40 pièces)",
+        "en": "Valve shim kit (40 pcs)"
+      },
+      "categorie": "moteur",
+      "type": "piece",
+      "quantite_par_moto": {
+        "valeur": 1,
+        "unite": "piece"
+      },
+      "references": [
+        {
+          "marque": "Aprilia",
+          "ref": "2R000552",
+          "origine": true,
+          "confiance": "une_source",
+          "sources": [
+            "src-aspecialparts-cales"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "40 pastilles : 4 de chaque épaisseur de 2,05 à 2,50 mm par pas de 0,05 mm. Le manuel d'atelier prévoit des pas de 0,025 mm : le kit ne couvre pas toutes les épaisseurs. Prix TTC calculés depuis le prix HT affiché (TVA 20 %) : 196,61 € en promotion, 218,45 € au tarif catalogue."
+      },
+      "prix": {
+        "min": 196.61,
+        "moy": 218.45,
+        "max": 218.45,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "ok",
+        "sources": [
+          "src-aspecialparts-cales"
+        ]
+      },
+      "lien_eclate": "https://aprilia.genuine-parts-catalogue.com/diagram/12266-pad?machine_id=384"
+    },
+    {
+      "id": "pc-plaquettes-avant",
+      "nom": {
+        "fr": "Plaquettes de frein avant (jeu pour un étrier)",
+        "en": "Front brake pads (one caliper set)"
+      },
+      "categorie": "freins",
+      "type": "piece",
+      "quantite_par_moto": {
+        "valeur": 2,
+        "unite": "jeu"
+      },
+      "references": [
+        {
+          "marque": "Aprilia",
+          "ref": "2B000214",
+          "origine": true,
+          "note": {
+            "fr": "« BRAKE PADS COUPLE » : un jeu par étrier, donc 2 jeux pour l'avant."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-catalogue-gpc-2020-eu",
+            "src-catalogue-gpc-2025",
+            "src-aspecialparts-2b000214"
+          ]
+        },
+        {
+          "marque": "Brembo",
+          "ref": "07BB38 84",
+          "origine": false,
+          "note": {
+            "fr": "Présentée par le revendeur comme la plaquette montée d'origine."
+          },
+          "confiance": "une_source",
+          "sources": [
+            "src-lb-plaquettes-07bb3884",
+            "src-la-becanerie-rs660"
+          ]
+        },
+        {
+          "marque": "Brembo",
+          "ref": "07BB38SA",
+          "origine": false,
+          "confiance": "une_source",
+          "sources": [
+            "src-jpcycles-07bb38sa"
+          ]
+        },
+        {
+          "marque": "Brembo",
+          "ref": "07BB37SC",
+          "origine": false,
+          "note": {
+            "fr": "Forme différente de 07BB38, annoncée par un autre revendeur : contradiction non résolue, vérifier avant achat."
+          },
+          "confiance": "incertain",
+          "sources": [
+            "src-opp-07bb37sc"
+          ]
+        },
+        {
+          "marque": "EBC",
+          "ref": "FA630HH",
+          "origine": false,
+          "note": {
+            "fr": "Métal fritté."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-revzilla-fa630hh",
+            "src-maintenanceschedule"
+          ]
+        },
+        {
+          "marque": "EBC",
+          "ref": "FA630V",
+          "origine": false,
+          "note": {
+            "fr": "Semi-frittée."
+          },
+          "confiance": "une_source",
+          "sources": [
+            "src-stg-fa630v"
+          ]
+        },
+        {
+          "marque": "Galfer",
+          "ref": "FD475G1375",
+          "origine": false,
+          "note": {
+            "fr": "Route ; FD475G1375R pour la piste."
+          },
+          "confiance": "une_source",
+          "sources": [
+            "src-motodracing-galfer-fd475"
+          ]
+        },
+        {
+          "marque": "TRW",
+          "ref": "MCB856SV",
+          "origine": false,
+          "note": {
+            "fr": "Métal fritté."
+          },
+          "confiance": "une_source",
+          "sources": [
+            "src-lb-trw-mcb856sv"
+          ]
+        },
+        {
+          "marque": "SBS",
+          "ref": "900RST",
+          "origine": false,
+          "note": {
+            "fr": "Frittée."
+          },
+          "confiance": "une_source",
+          "sources": [
+            "src-lb-sbs-900rst"
+          ]
+        },
+        {
+          "marque": "Braking",
+          "ref": "960CM55",
+          "origine": false,
+          "confiance": "une_source",
+          "sources": [
+            "src-aspecialparts"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "2 étriers radiaux Brembo à 4 pistons Ø 32 mm, 2 plaquettes par étrier. Remplacer les deux étriers ensemble quand il reste environ 1,5 mm de garniture ou que le témoin d'usure a disparu. Le manuel demande des plaquettes d'origine (ABS) ; les autres références sont des équivalences de revendeurs. Axe de plaquettes Torx T30, vis d'étrier six pans 8 mm serrées à 50 Nm. Prix maximal : Aprilia 2B000214 au tarif catalogue (127,54 € HT), souvent vendu en promotion."
+      },
+      "prix": {
+        "min": 31.1,
+        "moy": 59.3,
+        "max": 153.05,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "jeu"
+        },
+        "date": "2026-10-16",
+        "confiance": "ok",
+        "sources": [
+          "src-lb-trw-mcb856sv",
+          "src-lb-plaquettes-07bb3884",
+          "src-aspecialparts-2b000214"
+        ]
+      },
+      "lien_eclate": "https://aprilia.genuine-parts-catalogue.com/diagram/12265-front-brake-caliper?machine_id=384"
+    },
+    {
+      "id": "pc-plaquettes-arriere",
+      "nom": {
+        "fr": "Plaquettes de frein arrière",
+        "en": "Rear brake pads"
+      },
+      "categorie": "freins",
+      "type": "piece",
+      "quantite_par_moto": {
+        "valeur": 1,
+        "unite": "jeu"
+      },
+      "references": [
+        {
+          "marque": "Aprilia",
+          "ref": "893969",
+          "origine": true,
+          "note": {
+            "fr": "Même référence sur la 2025 E5+."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-catalogue-gpc-2020-eu",
+            "src-catalogue-gpc-2025"
+          ]
+        },
+        {
+          "marque": "Brembo",
+          "ref": "07BB20 65",
+          "origine": false,
+          "note": {
+            "fr": "Métal fritté, présentée comme d'origine."
+          },
+          "confiance": "une_source",
+          "sources": [
+            "src-lb-plaquettes-07bb2065"
+          ]
+        },
+        {
+          "marque": "Brembo",
+          "ref": "07BB20SP",
+          "origine": false,
+          "note": {
+            "fr": "Annoncée 2021-2022 par J&P Cycles."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-jpcycles-07bb20sp",
+            "src-lb-plaquettes-rs660"
+          ]
+        },
+        {
+          "marque": "Brembo",
+          "ref": "07BB20CC",
+          "origine": false,
+          "confiance": "une_source",
+          "sources": [
+            "src-lb-plaquettes-rs660"
+          ]
+        },
+        {
+          "marque": "Brembo",
+          "ref": "07BB03SP",
+          "origine": false,
+          "note": {
+            "fr": "Contredit la famille 07BB20 : à vérifier."
+          },
+          "confiance": "incertain",
+          "sources": [
+            "src-cyclegear-07bb03sp"
+          ]
+        },
+        {
+          "marque": "EBC",
+          "ref": "FA266HH",
+          "origine": false,
+          "note": {
+            "fr": "Métal fritté."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-jpcycles-fa266hh",
+            "src-maintenanceschedule"
+          ]
+        },
+        {
+          "marque": "Galfer",
+          "ref": "FD220G1370",
+          "origine": false,
+          "confiance": "une_source",
+          "sources": [
+            "src-lb-plaquettes-rs660"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "Étrier Brembo à 2 pistons Ø 34 mm sur disque de 220 mm. Remplacer à environ 1,5 mm de garniture. Vis d'étrier M8 serrées à 25 Nm avec frein-filet."
+      },
+      "prix": {
+        "min": 25.9,
+        "moy": 42.3,
+        "max": 42.9,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "jeu"
+        },
+        "date": "2026-10-16",
+        "confiance": "ok",
+        "sources": [
+          "src-lb-plaquettes-rs660",
+          "src-lb-plaquettes-07bb2065"
+        ]
+      },
+      "lien_eclate": "https://aprilia.genuine-parts-catalogue.com/diagram/12264-rear-brake-caliper?machine_id=384"
+    },
+    {
+      "id": "pc-goupille-plaquettes-avant",
+      "nom": {
+        "fr": "Axe, ressort et goupille de plaquettes avant",
+        "en": "Front pad pin, spring and clip"
+      },
+      "categorie": "freins",
+      "type": "piece",
+      "quantite_par_moto": {
+        "valeur": 2,
+        "unite": "jeu"
+      },
+      "references": [
+        {
+          "marque": "Aprilia",
+          "ref": "B044598",
+          "origine": true,
+          "note": {
+            "fr": "« PADS SPRING-PIN-CLIP »."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-catalogue-gpc-2020-eu"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "Un jeu par étrier (quantité déduite des 2 étriers). Ressort à remonter flèche vers le haut ; goupille de sécurité à remettre. À changer si l'axe est marqué ou corrodé."
+      },
+      "lien_eclate": "https://aprilia.genuine-parts-catalogue.com/diagram/12265-front-brake-caliper?machine_id=384"
+    },
+    {
+      "id": "pc-axe-plaquettes-arriere",
+      "nom": {
+        "fr": "Axe et goupille de plaquettes arrière",
+        "en": "Rear pad pin and split pin"
+      },
+      "categorie": "freins",
+      "type": "piece",
+      "quantite_par_moto": {
+        "valeur": 1,
+        "unite": "jeu"
+      },
+      "references": [
+        {
+          "marque": "Aprilia",
+          "ref": "AP8113752",
+          "origine": true,
+          "note": {
+            "fr": "« PIN+SPLINT CALIPER »."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-catalogue-gpc-2020-eu"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "Axe, anneau d'arrêt et ressort de sécurité des plaquettes arrière (noter le sens du ressort au démontage)."
+      },
+      "lien_eclate": "https://aprilia.genuine-parts-catalogue.com/diagram/12264-rear-brake-caliper?machine_id=384"
+    },
+    {
+      "id": "pc-disque-avant",
+      "nom": {
+        "fr": "Disque de frein avant",
+        "en": "Front brake disc"
+      },
+      "categorie": "freins",
+      "type": "piece",
+      "quantite_par_moto": {
+        "valeur": 2,
+        "unite": "piece"
+      },
+      "references": [
+        {
+          "marque": "Aprilia",
+          "ref": "B044279",
+          "origine": true,
+          "note": {
+            "fr": "Disque avant droit."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-catalogue-gpc-2020-eu",
+            "src-catalogue-gpc-2025"
+          ]
+        },
+        {
+          "marque": "Aprilia",
+          "ref": "B044280",
+          "origine": true,
+          "note": {
+            "fr": "Disque avant gauche."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-catalogue-gpc-2020-eu",
+            "src-catalogue-gpc-2025"
+          ]
+        },
+        {
+          "marque": "NG Brakes",
+          "ref": "1780G",
+          "origine": false,
+          "note": {
+            "fr": "Flottant, annoncé 2020-2025."
+          },
+          "confiance": "une_source",
+          "sources": [
+            "src-lb-ng-1780g"
+          ]
+        },
+        {
+          "marque": "Brembo",
+          "ref": "Serie Oro",
+          "origine": false,
+          "note": {
+            "fr": "Disque flottant ; référence exacte non relevée."
+          },
+          "confiance": "une_source",
+          "sources": [
+            "src-motostorm-serie-oro"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "2 disques Ø 320 mm, épaisseur neuve 5 mm (fiche revendeur), épaisseur minimale 4,0 mm, voile maximal 0,15 mm. 6 vis M8 × 20 par disque, serrées à 25 Nm. Changer les plaquettes en même temps. Prix du disque d'origine non trouvé."
+      },
+      "prix": {
+        "min": 281.8,
+        "moy": 281.8,
+        "max": 330.93,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "ok",
+        "sources": [
+          "src-lb-ng-1780g",
+          "src-motostorm-serie-oro"
+        ]
+      },
+      "lien_eclate": "https://aprilia.genuine-parts-catalogue.com/diagram/12273-front-wheel?machine_id=384"
+    },
+    {
+      "id": "pc-disque-arriere",
+      "nom": {
+        "fr": "Disque de frein arrière",
+        "en": "Rear brake disc"
+      },
+      "categorie": "freins",
+      "type": "piece",
+      "quantite_par_moto": {
+        "valeur": 1,
+        "unite": "piece"
+      },
+      "references": [
+        {
+          "marque": "Aprilia",
+          "ref": "85248R",
+          "origine": true,
+          "confiance": "ok",
+          "sources": [
+            "src-catalogue-gpc-2020-eu",
+            "src-catalogue-gpc-2025"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "Ø 220 mm, épaisseur minimale 4,5 mm, voile maximal 0,1 mm. 5 vis M8 × 20 serrées à 25 Nm. Prix non trouvé."
+      },
+      "lien_eclate": "https://aprilia.genuine-parts-catalogue.com/diagram/12272-rear-wheel?machine_id=384"
+    },
+    {
+      "id": "pc-chaine",
+      "nom": {
+        "fr": "Chaîne de transmission",
+        "en": "Drive chain"
+      },
+      "categorie": "transmission",
+      "type": "piece",
+      "quantite_par_moto": {
+        "valeur": 1,
+        "unite": "piece"
+      },
+      "references": [
+        {
+          "marque": "Aprilia",
+          "ref": "AP8107168",
+          "origine": true,
+          "note": {
+            "fr": "« 520 CHAIN - 110 LINKS - CLOSED LOOP »."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-catalogue-gpc-2020-eu",
+            "src-catalogue-gpc-2025"
+          ]
+        },
+        {
+          "marque": "Regina",
+          "ref": "520 ZRA (135 ZRA), 110 maillons",
+          "origine": false,
+          "note": {
+            "fr": "Chaîne montée d'origine selon le manuel."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-manuel-proprietaire#p183",
+            "src-manuel-atelier#p19"
+          ]
+        },
+        {
+          "marque": "DID",
+          "ref": "520VX3, 110 maillons",
+          "origine": false,
+          "note": {
+            "fr": "Vendue en kit."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-mpartz-kit-did",
+            "src-lb-kit-did"
+          ]
+        },
+        {
+          "marque": "EK",
+          "ref": "520 ZVX3, 110 maillons",
+          "origine": false,
+          "note": {
+            "fr": "Vendue en kit."
+          },
+          "confiance": "une_source",
+          "sources": [
+            "src-lb-kit-ek"
+          ]
+        },
+        {
+          "marque": "AFAM",
+          "ref": "A520XSR-G, 110 maillons",
+          "origine": false,
+          "confiance": "une_source",
+          "sources": [
+            "src-ebay-afam"
+          ]
+        },
+        {
+          "marque": "Regina",
+          "ref": "520ZRE, 110 maillons (135ZRE/1003)",
+          "origine": false,
+          "note": {
+            "fr": "Millésimes non précisés par le revendeur."
+          },
+          "confiance": "une_source",
+          "sources": [
+            "src-dennis-kirk-regina"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "Pas 520, 110 maillons, joints toriques, attache rivée (dérive-riveteuse 520 nécessaire). Le manuel interdit de changer le nombre de maillons ou la démultiplication (17/43). Remplacer chaîne, pignon et couronne ensemble. Usure : contrôle sur 8 maillons, remplacement à 3 % d'allongement ou si la flèche varie sur un tour de roue. Prix de la chaîne seule non relevé : voir le kit."
+      },
+      "lien_eclate": "https://aprilia.genuine-parts-catalogue.com/diagram/12272-rear-wheel?machine_id=384"
+    },
+    {
+      "id": "pc-pignon",
+      "nom": {
+        "fr": "Pignon de sortie de boîte (17 dents)",
+        "en": "Front sprocket (17T)"
+      },
+      "categorie": "transmission",
+      "type": "piece",
+      "quantite_par_moto": {
+        "valeur": 1,
+        "unite": "piece"
+      },
+      "references": [
+        {
+          "marque": "Aprilia",
+          "ref": "2B006795",
+          "origine": true,
+          "note": {
+            "fr": "« Pinion Z17 », catalogue 2020 UE."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-catalogue-gpc-2020-eu"
+          ]
+        },
+        {
+          "marque": "AFAM",
+          "ref": "37500-17",
+          "origine": false,
+          "confiance": "une_source",
+          "sources": [
+            "src-ebay-afam"
+          ]
+        },
+        {
+          "marque": "Superlite",
+          "ref": "SL37500R",
+          "origine": false,
+          "confiance": "une_source",
+          "sources": [
+            "src-sprocketcenter-rs660"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "17 dents, pas 520. Vis M10 × 25 avec bague et rondelle élastique, serrée à 50 Nm avec frein-filet ; cache pignon fixé par 3 vis."
+      },
+      "lien_eclate": "https://aprilia.genuine-parts-catalogue.com/diagram/12230-gearbox?machine_id=384"
+    },
+    {
+      "id": "pc-couronne",
+      "nom": {
+        "fr": "Couronne (43 dents)",
+        "en": "Rear sprocket (43T)"
+      },
+      "categorie": "transmission",
+      "type": "piece",
+      "quantite_par_moto": {
+        "valeur": 1,
+        "unite": "piece"
+      },
+      "references": [
+        {
+          "marque": "Aprilia",
+          "ref": "CM306201",
+          "origine": true,
+          "note": {
+            "fr": "« DRIVEN SPROCKET Z=43 »."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-catalogue-gpc-2020-eu",
+            "src-catalogue-gpc-2025"
+          ]
+        },
+        {
+          "marque": "JT Sprockets",
+          "ref": "JTR703",
+          "origine": false,
+          "note": {
+            "fr": "Seule la version 40 dents est affichée : disponibilité en 43 dents à vérifier."
+          },
+          "confiance": "incertain",
+          "sources": [
+            "src-jpcycles-jtr703"
+          ]
+        },
+        {
+          "marque": "AFAM",
+          "ref": "35801-43",
+          "origine": false,
+          "note": {
+            "fr": "Deux annonces contradictoires : 35801-43 ou 36801-43."
+          },
+          "confiance": "incertain",
+          "sources": [
+            "src-ebay-afam"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "43 dents, pas 520. 5 écrous M10 serrés à 50 Nm ; montée sur le porte-couronne avec silentblocs."
+      },
+      "lien_eclate": "https://aprilia.genuine-parts-catalogue.com/diagram/12272-rear-wheel?machine_id=384"
+    },
+    {
+      "id": "pc-kit-chaine",
+      "nom": {
+        "fr": "Kit chaîne (chaîne, pignon, couronne)",
+        "en": "Chain and sprocket kit"
+      },
+      "categorie": "transmission",
+      "type": "piece",
+      "quantite_par_moto": {
+        "valeur": 1,
+        "unite": "piece"
+      },
+      "references": [
+        {
+          "marque": "DID",
+          "ref": "Kit 520VX3 17 × 43 à rivet",
+          "origine": false,
+          "note": {
+            "fr": "Annoncé 2020-2024 : pas confirmé pour 2025+."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-lb-kit-did",
+            "src-mpartz-kit-did",
+            "src-aspecialparts-kit-did"
+          ]
+        },
+        {
+          "marque": "EK / PBR",
+          "ref": "Kit 520 ZVX3 17 × 43 × 110",
+          "origine": false,
+          "note": {
+            "fr": "Annoncé 2020-2025."
+          },
+          "confiance": "une_source",
+          "sources": [
+            "src-lb-kit-ek"
+          ]
+        },
+        {
+          "marque": "AFAM",
+          "ref": "Kit 17 × 43",
+          "origine": false,
+          "note": {
+            "fr": "Annoncé RS 660 2020-2021 et Tuono 660 2021+."
+          },
+          "confiance": "une_source",
+          "sources": [
+            "src-lb-kit-afam"
+          ]
+        },
+        {
+          "marque": "Regina",
+          "ref": "KA042 (chaîne 520 ZRE)",
+          "origine": false,
+          "confiance": "une_source",
+          "sources": [
+            "src-california-regina-ka042"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "Chaîne 520 de 110 maillons, pignon 17 dents, couronne 43 dents. Kit d'origine Aprilia : prix non trouvé."
+      },
+      "prix": {
+        "min": 136.5,
+        "moy": 164.9,
+        "max": 204.62,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "ok",
+        "sources": [
+          "src-lb-kit-did",
+          "src-lb-kit-afam",
+          "src-lb-kit-ek",
+          "src-california-regina-ka042"
+        ]
+      },
+      "lien_eclate": "https://aprilia.genuine-parts-catalogue.com/diagram/12272-rear-wheel?machine_id=384"
+    },
+    {
+      "id": "pc-patin-chaine",
+      "nom": {
+        "fr": "Patin de chaîne",
+        "en": "Chain slider"
+      },
+      "categorie": "transmission",
+      "type": "piece",
+      "quantite_par_moto": {
+        "valeur": 1,
+        "unite": "piece"
+      },
+      "references": [],
+      "specification": {
+        "fr": "Patin de chaîne (« chain feeder shoe ») fixé sur le bras oscillant par 2 vis SHC M5 × 16 serrées à 2 Nm. À contrôler à chaque palier de 10 000 km avec le pignon et la couronne. Référence Aprilia non relevée ; prix non trouvé."
+      },
+      "lien_eclate": "https://aprilia.genuine-parts-catalogue.com/diagram/12253-swingarm?machine_id=384"
+    },
+    {
+      "id": "pc-batterie",
+      "nom": {
+        "fr": "Batterie",
+        "en": "Battery"
+      },
+      "categorie": "electricite",
+      "type": "piece",
+      "quantite_par_moto": {
+        "valeur": 1,
+        "unite": "piece"
+      },
+      "references": [
+        {
+          "marque": "Aprilia",
+          "ref": "2D000579",
+          "origine": true,
+          "note": {
+            "fr": "« LITHIUM BATTERY » ; même référence sur la 2025 E5+."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-catalogue-gpc-2020-eu",
+            "src-catalogue-gpc-2025"
+          ]
+        },
+        {
+          "marque": "BS Battery",
+          "ref": "BSLi-04",
+          "origine": false,
+          "note": {
+            "fr": "Batterie montée d'origine : lithium LiFePO4, 12 V, 48 Wh, 280 A."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-manuel-proprietaire#p187",
+            "src-manuel-atelier#p19"
+          ]
+        },
+        {
+          "marque": "BS Battery",
+          "ref": "360104 (BSLi-04/06)",
+          "origine": false,
+          "note": {
+            "fr": "Référence fabricant : 4 Ah, 280 A, 134 × 65 × 92 mm, environ 0,95 kg."
+          },
+          "confiance": "une_source",
+          "sources": [
+            "src-motodracing-bs"
+          ]
+        },
+        {
+          "marque": "Yuasa",
+          "ref": "YTZ10S",
+          "origine": false,
+          "note": {
+            "fr": "Alternative citée par le manuel (12 V, 8,6 Ah). Batterie plomb plus haute : retirer l'entretoise du porte-fusibles secondaires (3 vis)."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-manuel-proprietaire#p187",
+            "src-manuel-atelier#p19"
+          ]
+        },
+        {
+          "marque": "Yuasa",
+          "ref": "YT12A-BS",
+          "origine": false,
+          "note": {
+            "fr": "Plomb ; citée par le manuel en cas d'usage continu hors de la plage −20 / +55 °C."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-manuel-proprietaire#p151"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "Lithium sous la selle pilote, sous le compartiment à documents. Débrancher le − d'abord, rebrancher le + d'abord. Charge : chargeur 12 V sans désulfatation ni charge pulsée, 2 A pendant 2 h (rapide : 8 A pendant 30 min), jamais plus de 15 V ; recharger si la tension au repos est sous 12,4 V. Immobilisation de plus de 15 jours : recharger ou retirer le fusible principal. 2025+ : type de batterie de la version standard non confirmé (la batterie lithium allégée est présentée comme propre à la Factory)."
+      },
+      "prix": {
+        "min": 49.6,
+        "moy": 118.0,
+        "max": 145.0,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "ok",
+        "sources": [
+          "src-lb-ytz10s-gel",
+          "src-lb-ytz10s",
+          "src-lb-bsli04"
+        ]
+      },
+      "lien_eclate": "https://aprilia.genuine-parts-catalogue.com/diagram/12238-central-electrical-system?machine_id=384"
+    },
+    {
+      "id": "pc-fusible-principal",
+      "nom": {
+        "fr": "Fusible principal 30 A",
+        "en": "Main fuse 30 A"
+      },
+      "categorie": "electricite",
+      "type": "piece",
+      "quantite_par_moto": {
+        "valeur": 1,
+        "unite": "piece"
+      },
+      "references": [
+        {
+          "marque": "Aprilia",
+          "ref": "581440",
+          "origine": true,
+          "note": {
+            "fr": "« Fuse 30A »."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-catalogue-gpc-2020-eu"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "Derrière le flanc arrière gauche, sous la selle pilote, avec un fusible de réserve à côté. Protège la charge de la batterie et tous les consommateurs. Le retirer pour une longue immobilisation remet à zéro l'horloge et les compteurs partiels."
+      },
+      "lien_eclate": "https://aprilia.genuine-parts-catalogue.com/diagram/12237-front-electrical-system?machine_id=384"
+    },
+    {
+      "id": "pc-fusibles-secondaires",
+      "nom": {
+        "fr": "Fusibles secondaires",
+        "en": "Secondary fuses"
+      },
+      "categorie": "electricite",
+      "type": "piece",
+      "quantite_par_moto": {
+        "valeur": 11,
+        "unite": "piece"
+      },
+      "references": [
+        {
+          "marque": "Aprilia",
+          "ref": "CM225607",
+          "origine": true,
+          "note": {
+            "fr": "Fusible du catalogue ; le suffixe semble coder le calibre (non confirmé)."
+          },
+          "confiance": "incertain",
+          "sources": [
+            "src-catalogue-gpc-2020-eu"
+          ]
+        },
+        {
+          "marque": "Aprilia",
+          "ref": "CM225615",
+          "origine": true,
+          "note": {
+            "fr": "Fusible du catalogue ; le suffixe semble coder le calibre (non confirmé)."
+          },
+          "confiance": "incertain",
+          "sources": [
+            "src-catalogue-gpc-2020-eu"
+          ]
+        },
+        {
+          "marque": "Aprilia",
+          "ref": "CM225620",
+          "origine": true,
+          "note": {
+            "fr": "Fusible du catalogue ; le suffixe semble coder le calibre (non confirmé)."
+          },
+          "confiance": "incertain",
+          "sources": [
+            "src-catalogue-gpc-2020-eu"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "Deux boîtiers sous la selle pilote : 2 A × 1, 5 A × 5, 7,5 A × 3, 15 A × 1, 20 A × 1, plus des fusibles de réserve. Toujours remplacer par un fusible de même calibre ; un fusible qui grille souvent signale un court-circuit. Prix : assortiment de 10 fusibles enfichables de 7,5 à 30 A ; format (mini ou standard) à vérifier sur la moto."
+      },
+      "prix": {
+        "min": 3.5,
+        "moy": 3.5,
+        "max": 3.5,
+        "devise": "EUR",
+        "par": {
+          "valeur": 10,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "incertain",
+        "sources": [
+          "src-lb-fusibles"
+        ]
+      },
+      "lien_eclate": "https://aprilia.genuine-parts-catalogue.com/diagram/12238-central-electrical-system?machine_id=384"
+    },
+    {
+      "id": "pc-pneu-avant",
+      "nom": {
+        "fr": "Pneu avant",
+        "en": "Front tyre"
+      },
+      "categorie": "pneus",
+      "type": "piece",
+      "quantite_par_moto": {
+        "valeur": 1,
+        "unite": "piece"
+      },
+      "references": [
+        {
+          "marque": "Aprilia",
+          "ref": "2B006829",
+          "origine": true,
+          "note": {
+            "fr": "« Front tyre »."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-catalogue-gpc-2020-eu",
+            "src-catalogue-gpc-2025"
+          ]
+        },
+        {
+          "marque": "Pirelli",
+          "ref": "Diablo Rosso Corsa II 120/70 ZR17 58W",
+          "origine": false,
+          "note": {
+            "fr": "Monte d'origine 2021-2024."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-motorcycle-com-2021",
+            "src-bike-urious-2021"
+          ]
+        },
+        {
+          "marque": "Pirelli",
+          "ref": "Diablo Rosso IV Corsa 120/70 ZR17 58W",
+          "origine": false,
+          "note": {
+            "fr": "Monte d'origine annoncée pour 2025-2026."
+          },
+          "confiance": "une_source",
+          "sources": [
+            "src-motorcycle-com-2025",
+            "src-lb-rosso-iv-corsa"
+          ]
+        },
+        {
+          "marque": "Pirelli",
+          "ref": "Diablo Rosso IV 120/70 ZR17 58W",
+          "origine": false,
+          "confiance": "ok",
+          "sources": [
+            "src-allopneus-rosso-iv-av",
+            "src-lb-rosso-iv"
+          ]
+        },
+        {
+          "marque": "Michelin",
+          "ref": "Power 6 120/70 ZR17 58W",
+          "origine": false,
+          "confiance": "une_source",
+          "sources": [
+            "src-allopneus-power6-av"
+          ]
+        },
+        {
+          "marque": "Michelin",
+          "ref": "Power GP2 120/70 ZR17 58W",
+          "origine": false,
+          "confiance": "une_source",
+          "sources": [
+            "src-lb-power-gp2"
+          ]
+        },
+        {
+          "marque": "Bridgestone",
+          "ref": "Battlax S23 120/70 ZR17 58W",
+          "origine": false,
+          "confiance": "une_source",
+          "sources": [
+            "src-allopneus-s23"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "120/70 ZR17 (58W) sur jante 3,50 × 17, sans chambre. Profondeur minimale 2 mm ou le minimum légal s'il est plus élevé. Pression à froid 2,5 bar, solo comme duo. Remplacer si une perforation dépasse 5 mm ; équilibrer après toute réparation. Prix hors montage."
+      },
+      "prix": {
+        "min": 128.0,
+        "moy": 148.0,
+        "max": 199.3,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "ok",
+        "sources": [
+          "src-allopneus-power6-av",
+          "src-allopneus-rosso-iv-corsa",
+          "src-lb-rosso-iv-corsa"
+        ]
+      }
+    },
+    {
+      "id": "pc-pneu-arriere",
+      "nom": {
+        "fr": "Pneu arrière",
+        "en": "Rear tyre"
+      },
+      "categorie": "pneus",
+      "type": "piece",
+      "quantite_par_moto": {
+        "valeur": 1,
+        "unite": "piece"
+      },
+      "references": [
+        {
+          "marque": "Aprilia",
+          "ref": "2B006830",
+          "origine": true,
+          "note": {
+            "fr": "« Rear tyre »."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-catalogue-gpc-2020-eu",
+            "src-catalogue-gpc-2025"
+          ]
+        },
+        {
+          "marque": "Pirelli",
+          "ref": "Diablo Rosso Corsa II 180/55 ZR17 73W",
+          "origine": false,
+          "note": {
+            "fr": "Monte d'origine 2021-2024."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-motorcycle-com-2021",
+            "src-bike-urious-2021"
+          ]
+        },
+        {
+          "marque": "Pirelli",
+          "ref": "Diablo Rosso IV Corsa 180/55 ZR17 73W",
+          "origine": false,
+          "note": {
+            "fr": "Monte d'origine annoncée pour 2025-2026."
+          },
+          "confiance": "une_source",
+          "sources": [
+            "src-motorcycle-com-2025",
+            "src-allopneus-rosso-iv-corsa",
+            "src-lb-rosso-iv-corsa-ar"
+          ]
+        },
+        {
+          "marque": "Pirelli",
+          "ref": "Diablo Rosso IV 180/55 ZR17 73W",
+          "origine": false,
+          "confiance": "ok",
+          "sources": [
+            "src-allopneus-rosso-iv",
+            "src-lb-rosso-iv-ar"
+          ]
+        },
+        {
+          "marque": "Michelin",
+          "ref": "Power 6 180/55 ZR17 73W",
+          "origine": false,
+          "confiance": "ok",
+          "sources": [
+            "src-allopneus-power6",
+            "src-lb-power6"
+          ]
+        },
+        {
+          "marque": "Michelin",
+          "ref": "Power GP2 180/55 ZR17 73W",
+          "origine": false,
+          "confiance": "une_source",
+          "sources": [
+            "src-lb-power-gp2-ar"
+          ]
+        },
+        {
+          "marque": "Bridgestone",
+          "ref": "Battlax S23 180/55 ZR17 73W",
+          "origine": false,
+          "confiance": "une_source",
+          "sources": [
+            "src-allopneus-s23"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "180/55 ZR17 (73W) sur jante 5,50 × 17, ou 180/60 ZR17 (75W), dimension homologuée. Sans chambre. Profondeur minimale 2 mm ou le minimum légal. Pression à froid 2,8 bar, solo comme duo. Prix hors montage."
+      },
+      "prix": {
+        "min": 165.0,
+        "moy": 191.2,
+        "max": 264.3,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "ok",
+        "sources": [
+          "src-allopneus-power6",
+          "src-allopneus-rosso-iv-corsa",
+          "src-lb-rosso-iv-corsa-ar"
+        ]
+      }
+    },
+    {
+      "id": "pc-valve-pneu",
+      "nom": {
+        "fr": "Valve coudée 90° sans chambre",
+        "en": "90° tubeless valve"
+      },
+      "categorie": "roues",
+      "type": "piece",
+      "quantite_par_moto": {
+        "valeur": 2,
+        "unite": "piece"
+      },
+      "references": [
+        {
+          "marque": "Aprilia",
+          "ref": "AP8104728",
+          "origine": true,
+          "note": {
+            "fr": "« Tubeless tyre valve 90° »."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-catalogue-gpc-2020-eu",
+            "src-catalogue-gpc-2025"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "Valve coudée d'origine, une par roue. À vérifier lors du remplacement d'un pneu et à changer si elle est abîmée ou fuit. Prix non relevé."
+      }
+    },
+    {
+      "id": "pc-joints-spi-fourche",
+      "nom": {
+        "fr": "Joints spi de fourche",
+        "en": "Fork oil seals"
+      },
+      "categorie": "suspensions",
+      "type": "piece",
+      "quantite_par_moto": {
+        "valeur": 2,
+        "unite": "piece"
+      },
+      "references": [
+        {
+          "marque": "Athena (NOK)",
+          "ref": "41 × 53 × 8/10,5",
+          "origine": false,
+          "note": {
+            "fr": "Cotes données par la fiche RS 660 du revendeur."
+          },
+          "confiance": "une_source",
+          "sources": [
+            "src-lb-spi-fourche",
+            "src-la-becanerie-rs660"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "Fourche inversée Kayaba Ø 41 mm : un joint spi par fourreau. Contrôle à 10 000 et 30 000 km. Le remplacement impose de démonter et vidanger la fourche (outils Aprilia de pose des joints). Référence Aprilia non relevée. Fourche Öhlins NIX30 de la Factory : non couverte. Prix : produit tel que vendu, présumé par paire."
+      },
+      "prix": {
+        "min": 22.9,
+        "moy": 22.9,
+        "max": 22.9,
+        "devise": "EUR",
+        "par": {
+          "valeur": 2,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "une_source",
+        "sources": [
+          "src-lb-spi-fourche"
+        ]
+      },
+      "versions": [
+        "standard",
+        "a2",
+        "limited-edition",
+        "extrema"
+      ]
+    },
+    {
+      "id": "cs-huile-moteur",
+      "nom": {
+        "fr": "Huile moteur 10W-50",
+        "en": "Engine oil 10W-50"
+      },
+      "categorie": "moteur",
+      "type": "consommable",
+      "quantite_par_moto": {
+        "valeur": 2.7,
+        "unite": "L"
+      },
+      "references": [
+        {
+          "marque": "Castrol",
+          "ref": "POWER1 Racing 4T 10W-50",
+          "origine": false,
+          "note": {
+            "fr": "Castrol est le partenaire cité par le manuel ; la gamme POWER1 est indiquée par Castrol."
+          },
+          "confiance": "une_source",
+          "sources": [
+            "src-castrol",
+            "src-manuel-proprietaire#p192"
+          ]
+        },
+        {
+          "marque": "Motul",
+          "ref": "7100 4T 10W-50",
+          "origine": false,
+          "confiance": "ok",
+          "sources": [
+            "src-lb-motul-7100-1l",
+            "src-lb-motul-7100-4l"
+          ]
+        },
+        {
+          "marque": "Motul",
+          "ref": "300V Road Racing 10W-50",
+          "origine": false,
+          "confiance": "une_source",
+          "sources": [
+            "src-lb-motul-300v-4l"
+          ]
+        },
+        {
+          "marque": "Ipone",
+          "ref": "Katana 10W-50",
+          "origine": false,
+          "confiance": "une_source",
+          "sources": [
+            "src-lb-huiles-4t"
+          ]
+        },
+        {
+          "marque": "Bardahl",
+          "ref": "XTC-M 10W-50",
+          "origine": false,
+          "confiance": "une_source",
+          "sources": [
+            "src-lb-huiles-4t"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "SAE 10W-50 de synthèse, API SL ou supérieure, JASO MA2 (embrayage humide) : vérifier ces mentions sur le bidon. Pas de 10W-60. Capacité vidange + filtre : 2,7 L selon le manuel (d'autres sources donnent 2,3 à 2,6 L) ; verser, faire tourner le moteur, attendre 30 s puis ajuster à la jauge, moto droite sur ses deux roues, bouchon-jauge posé sans le visser. Acheter un bidon de 4 L ou 3 × 1 L. Prix ramené au litre."
+      },
+      "prix": {
+        "min": 16.08,
+        "moy": 16.8,
+        "max": 22.88,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "L"
+        },
+        "date": "2026-10-16",
+        "confiance": "ok",
+        "sources": [
+          "src-lb-motul-7100-4l",
+          "src-lb-motul-7100-1l",
+          "src-lb-motul-300v-4l"
+        ]
+      }
+    },
+    {
+      "id": "cs-liquide-refroidissement",
+      "nom": {
+        "fr": "Liquide de refroidissement",
+        "en": "Coolant"
+      },
+      "categorie": "refroidissement",
+      "type": "consommable",
+      "quantite_par_moto": {
+        "valeur": 1.8,
+        "unite": "L"
+      },
+      "references": [
+        {
+          "marque": "Motorex",
+          "ref": "Coolant M3.0",
+          "origine": false,
+          "note": {
+            "fr": "Recommandé pour la Tuareg 660 (même moteur)."
+          },
+          "confiance": "une_source",
+          "sources": [
+            "src-reddit-tuareg",
+            "src-lb-motorex-m30"
+          ]
+        },
+        {
+          "marque": "Motul",
+          "ref": "Motocool Expert",
+          "origine": false,
+          "note": {
+            "fr": "Prix relevé ; conformité aux normes du manuel non vérifiée : lire l'emballage."
+          },
+          "confiance": "incertain",
+          "sources": [
+            "src-lb-motocool"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "Antigel éthylène glycol à inhibiteurs organiques (OAT), rouge, prêt à l'emploi, normes ASTM D3306, D4656, D4985 et CUNA NC 956-16. Mélange 50 % eau distillée (jusqu'à 60 % d'antigel par grand froid). Capacité 1,8 ± 0,2 L. Ne jamais ouvrir le circuit moteur chaud. Prix au litre."
+      },
+      "prix": {
+        "min": 9.0,
+        "moy": 11.65,
+        "max": 14.3,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "L"
+        },
+        "date": "2026-10-16",
+        "confiance": "ok",
+        "sources": [
+          "src-lb-motocool",
+          "src-lb-motorex-m30"
+        ]
+      }
+    },
+    {
+      "id": "cs-liquide-frein",
+      "nom": {
+        "fr": "Liquide de frein DOT 4",
+        "en": "DOT 4 brake fluid"
+      },
+      "categorie": "freins",
+      "type": "consommable",
+      "quantite_par_moto": {
+        "valeur": 0.5,
+        "unite": "L"
+      },
+      "references": [
+        {
+          "marque": "Motul",
+          "ref": "DOT 4 LV",
+          "origine": false,
+          "confiance": "une_source",
+          "sources": [
+            "src-lb-dot4-motul"
+          ]
+        },
+        {
+          "marque": "Silkolene",
+          "ref": "Universal DOT 4",
+          "origine": false,
+          "confiance": "une_source",
+          "sources": [
+            "src-lb-dot4-silkolene"
+          ]
+        },
+        {
+          "marque": "Motorex",
+          "ref": "DOT 4",
+          "origine": false,
+          "confiance": "une_source",
+          "sources": [
+            "src-lb-dot4-motorex"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "DOT 4 synthétique (SAE J1703, FMVSS 116, ISO 4925, CUNA NC 956) ; vérifier la mention DOT 4. Remplacement tous les 2 ans (1 an en usage sévère). Volume du circuit non publié : la quantité de 0,5 L est une estimation (un flacon suffit en général pour l'avant et l'arrière). Corrosif pour la peinture. Prix par flacon de 500 mL (le prix moyen est celui du flacon de 1 L Motorex ramené à 500 mL)."
+      },
+      "prix": {
+        "min": 7.9,
+        "moy": 8.5,
+        "max": 9.5,
+        "devise": "EUR",
+        "par": {
+          "valeur": 0.5,
+          "unite": "L"
+        },
+        "date": "2026-10-16",
+        "confiance": "ok",
+        "sources": [
+          "src-lb-dot4-silkolene",
+          "src-lb-dot4-motorex",
+          "src-lb-dot4-motul"
+        ]
+      }
+    },
+    {
+      "id": "cs-huile-fourche",
+      "nom": {
+        "fr": "Huile de fourche SAE 7.5W",
+        "en": "Fork oil SAE 7.5W"
+      },
+      "categorie": "suspensions",
+      "type": "consommable",
+      "quantite_par_moto": {
+        "valeur": 0.936,
+        "unite": "L"
+      },
+      "references": [
+        {
+          "marque": "Bardahl",
+          "ref": "XTF Fork Oil SAE 7.5W",
+          "origine": false,
+          "confiance": "une_source",
+          "sources": [
+            "src-lb-huile-fourche-bardahl"
+          ]
+        },
+        {
+          "marque": "Motul",
+          "ref": "Fork Oil Factory Line 7.5W",
+          "origine": false,
+          "note": {
+            "fr": "Cité pour la Tuareg 660 (même grade)."
+          },
+          "confiance": "incertain",
+          "sources": [
+            "src-reddit-tuareg"
+          ]
+        },
+        {
+          "marque": "Motorex",
+          "ref": "Racing Fork Oil 7.5W",
+          "origine": false,
+          "note": {
+            "fr": "Cité pour la Tuareg 660 (même grade)."
+          },
+          "confiance": "incertain",
+          "sources": [
+            "src-reddit-tuareg"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "SAE 7.5W, 468 cm³ par fourreau (936 cm³ au total). Niveau 98 mm sous le bord du fourreau, sans ressort ni tube de précharge, fourche comprimée et verticale, identique des deux côtés. Remplacement à 40 000 km ou 4 ans (20 000 km ou 2 ans en usage sévère). Fourche Öhlins NIX30 de la Factory : huile et quantité non trouvées. Prix par flacon de 500 mL."
+      },
+      "prix": {
+        "min": 15.3,
+        "moy": 15.3,
+        "max": 15.3,
+        "devise": "EUR",
+        "par": {
+          "valeur": 0.5,
+          "unite": "L"
+        },
+        "date": "2026-10-16",
+        "confiance": "ok",
+        "sources": [
+          "src-lb-huile-fourche-bardahl"
+        ]
+      },
+      "versions": [
+        "standard",
+        "a2",
+        "limited-edition",
+        "extrema"
+      ]
+    },
+    {
+      "id": "cs-essence",
+      "nom": {
+        "fr": "Essence sans plomb 95",
+        "en": "Unleaded petrol 95"
+      },
+      "categorie": "moteur",
+      "type": "consommable",
+      "quantite_par_moto": {
+        "valeur": 15,
+        "unite": "L"
+      },
+      "references": [
+        {
+          "marque": "Générique",
+          "ref": "SP95-E10",
+          "origine": false,
+          "confiance": "ok",
+          "sources": [
+            "src-manuel-proprietaire#p109",
+            "src-manuel-proprietaire#p184"
+          ]
+        },
+        {
+          "marque": "Générique",
+          "ref": "SP95 (E5)",
+          "origine": false,
+          "confiance": "ok",
+          "sources": [
+            "src-manuel-proprietaire#p109",
+            "src-manuel-proprietaire#p184"
+          ]
+        },
+        {
+          "marque": "Générique",
+          "ref": "SP98 (E5)",
+          "origine": false,
+          "note": {
+            "fr": "Indice supérieur au minimum demandé ; non cité explicitement par le manuel."
+          },
+          "confiance": "incertain",
+          "sources": [
+            "src-manuel-proprietaire#p109"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "Sans plomb RON 95, E10 au maximum (E5 et E10 autorisés, E85 interdit), sans additif. Réservoir de 15 L dont environ 3,5 L de réserve (valeur du manuel 2021). Prix non suivi."
+      }
+    },
+    {
+      "id": "cs-lubrifiant-chaine",
+      "nom": {
+        "fr": "Lubrifiant de chaîne",
+        "en": "Chain lube"
+      },
+      "categorie": "transmission",
+      "type": "consommable",
+      "quantite_par_moto": {
+        "valeur": 1,
+        "unite": "piece"
+      },
+      "references": [
+        {
+          "marque": "Motul",
+          "ref": "C2 Chain Lube Road",
+          "origine": false,
+          "confiance": "une_source",
+          "sources": [
+            "src-lb-motul-c2"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "Graisse en aérosol pour chaîne à joints toriques (certains lubrifiants attaquent les joints). Chaîne propre et sèche ; ne pas rouler juste après le graissage. Tous les 1 000 km, plus souvent sous la pluie ou sur routes poussiéreuses. Prix par aérosol de 400 mL."
+      },
+      "prix": {
+        "min": 9.9,
+        "moy": 12.8,
+        "max": 19.9,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "ok",
+        "sources": [
+          "src-lb-motul-c2"
+        ]
+      }
+    },
+    {
+      "id": "cs-nettoyant-chaine",
+      "nom": {
+        "fr": "Nettoyant de chaîne",
+        "en": "Chain cleaner"
+      },
+      "categorie": "transmission",
+      "type": "consommable",
+      "quantite_par_moto": {
+        "valeur": 1,
+        "unite": "piece"
+      },
+      "references": [
+        {
+          "marque": "Motul",
+          "ref": "C1 Chain Clean",
+          "origine": false,
+          "confiance": "une_source",
+          "sources": [
+            "src-lb-motul-c1"
+          ]
+        },
+        {
+          "marque": "Générique",
+          "ref": "Pétrole ou gazole",
+          "origine": false,
+          "note": {
+            "fr": "Produits de nettoyage indiqués par le manuel."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-manuel-proprietaire#p178"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "Nettoyer au pétrole, au gazole ou avec un nettoyant compatible joints toriques. Jamais de jet haute pression, de vapeur ni de solvant très inflammable. Prix par aérosol de 400 mL."
+      },
+      "prix": {
+        "min": 9.9,
+        "moy": 10.9,
+        "max": 16.5,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "ok",
+        "sources": [
+          "src-lb-motul-c1"
+        ]
+      }
+    },
+    {
+      "id": "cs-graisse",
+      "nom": {
+        "fr": "Graisse lithium-calcium EP",
+        "en": "Lithium-calcium EP grease"
+      },
+      "categorie": "divers",
+      "type": "consommable",
+      "quantite_par_moto": {
+        "valeur": 1,
+        "unite": "piece"
+      },
+      "references": [],
+      "specification": {
+        "fr": "Graisse à savon lithium-calcium, noire, additifs extrême pression, très hydrofuge (produit préconisé par le manuel). Articulations des leviers et des pédales, béquille, axes. Aucune marque citée ; prix non relevé."
+      }
+    },
+    {
+      "id": "cs-graisse-bornes",
+      "nom": {
+        "fr": "Graisse neutre pour bornes de batterie",
+        "en": "Battery terminal grease"
+      },
+      "categorie": "electricite",
+      "type": "consommable",
+      "quantite_par_moto": {
+        "valeur": 1,
+        "unite": "piece"
+      },
+      "references": [
+        {
+          "marque": "Générique",
+          "ref": "Vaseline ou graisse neutre",
+          "origine": false,
+          "confiance": "ok",
+          "sources": [
+            "src-manuel-proprietaire#p153"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "Fine couche sur les bornes de la batterie au remontage. Prix non relevé."
+      }
+    },
+    {
+      "id": "cs-frein-filet-moyen",
+      "nom": {
+        "fr": "Frein-filet moyen",
+        "en": "Medium threadlocker"
+      },
+      "categorie": "divers",
+      "type": "consommable",
+      "quantite_par_moto": {
+        "valeur": 1,
+        "unite": "piece"
+      },
+      "references": [
+        {
+          "marque": "Loctite",
+          "ref": "243",
+          "origine": false,
+          "note": {
+            "fr": "Cité par le manuel d'atelier pour plusieurs vis du sélecteur et de la béquille."
+          },
+          "confiance": "une_source",
+          "sources": [
+            "src-manuel-atelier#p33"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "Frein-filet de résistance moyenne : vis de pignon, vis d'étrier arrière, maître-cylindre arrière, axe de pédale, écrous d'amortisseur. Les vis pré-enduites d'origine se remplacent par des vis neuves après desserrage. Prix non relevé."
+      }
+    },
+    {
+      "id": "cs-pate-montage",
+      "nom": {
+        "fr": "Pâte de montage au bisulfure de molybdène",
+        "en": "Molybdenum assembly paste"
+      },
+      "categorie": "moteur",
+      "type": "consommable",
+      "quantite_par_moto": {
+        "valeur": 1,
+        "unite": "piece"
+      },
+      "references": [
+        {
+          "marque": "Molykote",
+          "ref": "G-Rapid Plus",
+          "origine": false,
+          "confiance": "ok",
+          "sources": [
+            "src-manuel-atelier#p73"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "Lubrification des arbres à cames, poussoirs et pastilles au remontage après réglage du jeu aux soupapes. Prix non relevé."
+      }
+    },
+    {
+      "id": "cs-nettoyant-freins",
+      "nom": {
+        "fr": "Nettoyant pour freins",
+        "en": "Brake cleaner"
+      },
+      "categorie": "freins",
+      "type": "consommable",
+      "quantite_par_moto": {
+        "valeur": 1,
+        "unite": "piece"
+      },
+      "references": [],
+      "specification": {
+        "fr": "Dégraissant sans résidu pour nettoyer étriers et pistons lors du changement de plaquettes ; ne pas en mettre sur les caoutchoucs ni sur les plaquettes neuves. Aucun produit cité par Aprilia ; prix non relevé."
+      }
+    },
+    {
+      "id": "cs-shampooing",
+      "nom": {
+        "fr": "Shampooing de lavage",
+        "en": "Wash shampoo"
+      },
+      "categorie": "nettoyage",
+      "type": "consommable",
+      "quantite_par_moto": {
+        "valeur": 1,
+        "unite": "piece"
+      },
+      "references": [
+        {
+          "marque": "Générique",
+          "ref": "Shampooing auto dilué à 2-4 %",
+          "origine": false,
+          "confiance": "ok",
+          "sources": [
+            "src-manuel-proprietaire#p170"
+          ]
+        }
+      ],
+      "specification": {
+        "fr": "Shampooing auto dilué à 2 à 4 % dans l'eau, jet basse pression et éponge, jamais en plein soleil ni carrosserie chaude. Pas d'alcool ni de solvant sur les caoutchoucs et la selle. Couvrir prises d'air et sortie d'échappement. Prix non relevé."
+      }
+    }
+  ]
+}

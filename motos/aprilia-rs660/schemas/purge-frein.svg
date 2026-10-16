@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+<!-- Torque - purge du frein avant : réservoir, levier, vis de purge, tuyau, bocal - dessin original, licence CC BY 4.0. Aucun logo, aucune photo ni vue éclatée reproduite. -->
+<style>
+.trait{fill:none;stroke:#1d2229;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.carene{fill:#6c7d96;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.sombre{fill:#474f5c;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.moteur{fill:#7b8490;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.mecanique{fill:#aab3bf;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.metal{fill:#c9cfd8;stroke:#1d2229;stroke-width:2.5;stroke-linejoin:round}
+.echappement{fill:#8d8a85;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.pneu{fill:#373c44;stroke:#8d97a6;stroke-width:3}
+.detail{fill:none;stroke:#1d2229;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.detail-clair{fill:none;stroke:#c3cad4;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.optique{fill:#e3ebf4;stroke:#1d2229;stroke-width:2.5;stroke-linejoin:round}
+.feu{fill:#d8463f;stroke:#1d2229;stroke-width:2.5;stroke-linejoin:round}
+.orange{fill:#e8901f;stroke:#1d2229;stroke-width:2.5;stroke-linejoin:round}
+.vitre{fill:#9cc3e8;fill-opacity:.35;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.cache{fill:#e8901f;fill-opacity:.16;stroke:#d9731a;stroke-width:2.5;stroke-dasharray:9 6;stroke-linejoin:round}
+.depose{fill:none;stroke:#8d97a6;stroke-width:2.5;stroke-dasharray:12 8;stroke-linejoin:round}
+.sol{fill:none;stroke:#8d97a6;stroke-width:2;stroke-dasharray:4 10;stroke-linecap:round}
+.cote{fill:none;stroke:#d9731a;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.fleche{fill:#d9731a;stroke:none}
+.cote-texte{fill:#d9731a;font-family:Arial,Helvetica,sans-serif;font-weight:bold}
+.fluide{fill:#c08a2a;fill-opacity:.85;stroke:#1d2229;stroke-width:2}
+.liquide-frein{fill:#d9b44a;fill-opacity:.7;stroke:#1d2229;stroke-width:2}
+.chaine{fill:none;stroke:#1d2229;stroke-width:12;stroke-linejoin:round}
+.chaine-maillons{fill:none;stroke:#aab3bf;stroke-width:6;stroke-dasharray:7 5;stroke-linejoin:round}
+.vert{fill:#3fae5a;stroke:#1d2229;stroke-width:2.5}
+.rouge{fill:#d8463f;stroke:#1d2229;stroke-width:2.5}
+.bleu{fill:#3f7fd8;stroke:#1d2229;stroke-width:2.5}
+.ecran{fill:#20262e;stroke:#1d2229;stroke-width:3}
+</style>
+<g id="co-disque-avant">
+<path class="metal" fill-rule="evenodd" d="M120,1000 a440,440 0 1,0 880,0 a440,440 0 1,0 -880,0 Z M210,1000 a350,350 0 1,0 700,0 a350,350 0 1,0 -700,0 Z"/>
+<circle class="sombre" cx="941" cy="1000" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="964" cy="936" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="922.4" cy="882.3" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="924.4" cy="814.3" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="868.2" cy="776.1" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="849.2" cy="710.8" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="783.9" cy="691.8" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="745.7" cy="635.6" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="677.7" cy="637.6" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="624" cy="596" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="560" cy="619" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="496" cy="596" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="442.3" cy="637.6" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="374.3" cy="635.6" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="336.1" cy="691.8" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="270.8" cy="710.8" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="251.8" cy="776.1" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="195.6" cy="814.3" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="197.6" cy="882.3" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="156" cy="936" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="179" cy="1000" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="156" cy="1064" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="197.6" cy="1117.7" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="195.6" cy="1185.7" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="251.8" cy="1223.9" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="270.8" cy="1289.2" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="336.1" cy="1308.2" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="374.3" cy="1364.4" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="442.3" cy="1362.4" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="496" cy="1404" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="560" cy="1381" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="624" cy="1404" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="677.7" cy="1362.4" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="745.7" cy="1364.4" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="783.9" cy="1308.2" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="849.2" cy="1289.2" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="868.2" cy="1223.9" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="924.4" cy="1185.7" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="922.4" cy="1117.7" r="7" style="stroke-width:1.5"/>
+<circle class="sombre" cx="964" cy="1064" r="7" style="stroke-width:1.5"/>
+</g>
+<g id="co-fourche">
+<polygon class="mecanique" points="594.7,1015.5 903.8,321.2 834.4,290.2 525.3,984.5"/>
+</g>
+<g id="co-etrier-avant">
+<g transform="translate(883.6 773.4) rotate(55)"><rect class="sombre" x="-130" y="-62" width="260" height="124" rx="30"/><line class="detail-clair" x1="-100" y1="0" x2="100" y2="0"/><circle class="metal" cx="-96" cy="34" r="14"/><circle class="metal" cx="96" cy="34" r="14"/></g>
+</g>
+<g id="co-vis-purge-avant">
+<polygon class="metal" points="888.4,637.5 874.5,629.5 860.7,637.5 860.7,653.5 874.5,661.5 888.4,653.5"/>
+<circle class="mecanique" cx="874.5" cy="645.5" r="7"/>
+</g>
+<g id="outil-cle-purge">
+<line class="trait" x1="874.5" y1="645.5" x2="1104.5" y2="665.5" style="stroke-width:26"/>
+<line class="trait" x1="874.5" y1="645.5" x2="1104.5" y2="665.5" style="stroke:#c9cfd8;stroke-width:18"/>
+<path class="metal" fill-rule="evenodd" d="M844.5,645.5 a30,30 0 1,0 60,0 a30,30 0 1,0 -60,0 Z M857.5,645.5 a17,17 0 1,0 34,0 a17,17 0 1,0 -34,0 Z"/>
+<path class="cote" d="M937.6,656.6 L938.1,653.3 L938.4,649.9 L938.5,646.6 L938.5,643.2 L938.3,639.9 L937.9,636.6 L937.4,633.3 L936.6,630 L935.7,626.8 L934.7,623.6 L933.4,620.5 L932.1,617.4 L930.5,614.4 L928.8,611.6 L927,608.8 L925,606.1 L922.8,603.5 L920.6,601 L918.2,598.7 L915.7,596.4 L913.1,594.4 L910.3,592.4 L907.5,590.6 L904.6,589 L901.6,587.5 L898.5,586.1 L895.4,585 L892.2,584" style="stroke-width:6"/>
+<polygon class="fleche" points="870.7,579 894.9,572.2 889.5,595.7"/>
+</g>
+<g id="outil-tuyau">
+<path class="trait" d="M874.5,635.5 C884.5,445.5 1204.5,385.5 1290,620" style="stroke:#1d2229;stroke-width:22"/>
+<path class="trait" d="M874.5,635.5 C884.5,445.5 1204.5,385.5 1290,620" style="stroke:#d9e6f2;stroke-width:14"/>
+<path class="trait" d="M874.5,635.5 C884.5,445.5 1204.5,385.5 1290,620" style="stroke:#d9b44a;stroke-width:5;stroke-dasharray:14 10"/>
+</g>
+<g id="outil-bocal">
+<rect class="vitre" x="1190" y="610" width="200" height="290" rx="18"/>
+<rect class="liquide-frein" x="1198" y="760" width="184" height="132" rx="12"/>
+<circle class="optique" cx="1270" cy="790" r="8"/>
+<circle class="optique" cx="1300" cy="770" r="6"/>
+<circle class="optique" cx="1250" cy="812" r="5"/>
+<circle class="optique" cx="1320" cy="800" r="7"/>
+</g>
+<g id="co-levier-frein-avant">
+<rect class="mecanique" x="60" y="330" width="470" height="46" rx="10"/>
+<rect class="mecanique" x="380" y="300" width="120" height="100" rx="14"/>
+<path class="metal" d="M390,392 C300,430 170,440 70,436 C56,436 52,452 66,456 C180,462 310,456 400,420 Z"/>
+</g>
+<path class="cote" d="M313.9,466.1 L315.8,467.9 L317.7,469.7 L319.6,471.5 L321.6,473.2 L323.6,474.9 L325.6,476.6 L327.7,478.2 L329.7,479.8 L331.8,481.4 L334,482.9 L336.1,484.4 L338.3,485.8 L340.5,487.2 L342.7,488.6 L345,489.9 L347.3,491.2 L349.6,492.4 L351.9,493.7 L354.2,494.8 L356.6,495.9 L359,497 L361.4,498.1 L363.8,499.1 L366.2,500 L368.7,501 L371.2,501.8 L373.6,502.7 L376.1,503.4" style="stroke-width:7"/>
+<polygon class="fleche" points="401.1,510.6 372.2,517.2 380.1,489.7"/>
+<g id="co-reservoir-frein-avant">
+<rect class="vitre" x="370" y="90" width="160" height="170" rx="16"/>
+<rect class="liquide-frein" x="376" y="150" width="148" height="104" rx="12"/>
+<line class="cote" x1="380" y1="140" x2="520" y2="140" style="stroke-width:4"/>
+<line class="cote" x1="380" y1="226" x2="520" y2="226" style="stroke-width:4"/>
+<rect class="mecanique" x="420" y="258" width="60" height="46"/>
+<rect class="sombre" x="358" y="30" width="184" height="26" rx="6"/>
+<circle class="metal" cx="376" cy="43" r="7"/>
+<circle class="metal" cx="524" cy="43" r="7"/>
+<line class="cote" x1="450" y1="86" x2="450" y2="78" style="stroke-width:4"/>
+<polygon class="fleche" points="450,64 457.7,78 442.3,78"/>
+</g>
+<g id="co-durite-frein-avant">
+<path class="trait" d="M440,404 C470,560 600,560 843.6,733.4" style="stroke-width:12"/>
+<path class="trait" d="M440,404 C470,560 600,560 843.6,733.4" style="stroke:#6b7380;stroke-width:6"/>
+</g>
+</svg>

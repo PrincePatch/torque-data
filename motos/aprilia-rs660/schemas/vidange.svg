@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+<!-- Torque - vidange : filtre à l'avant du moteur, bouchon sous le carter, jauge côté droit - dessin original, licence CC BY 4.0. Aucun logo, aucune photo ni vue éclatée reproduite. -->
+<style>
+.trait{fill:none;stroke:#1d2229;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.carene{fill:#6c7d96;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.sombre{fill:#474f5c;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.moteur{fill:#7b8490;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.mecanique{fill:#aab3bf;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.metal{fill:#c9cfd8;stroke:#1d2229;stroke-width:2.5;stroke-linejoin:round}
+.echappement{fill:#8d8a85;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.pneu{fill:#373c44;stroke:#8d97a6;stroke-width:3}
+.detail{fill:none;stroke:#1d2229;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.detail-clair{fill:none;stroke:#c3cad4;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.optique{fill:#e3ebf4;stroke:#1d2229;stroke-width:2.5;stroke-linejoin:round}
+.feu{fill:#d8463f;stroke:#1d2229;stroke-width:2.5;stroke-linejoin:round}
+.orange{fill:#e8901f;stroke:#1d2229;stroke-width:2.5;stroke-linejoin:round}
+.vitre{fill:#9cc3e8;fill-opacity:.35;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.cache{fill:#e8901f;fill-opacity:.16;stroke:#d9731a;stroke-width:2.5;stroke-dasharray:9 6;stroke-linejoin:round}
+.depose{fill:none;stroke:#8d97a6;stroke-width:2.5;stroke-dasharray:12 8;stroke-linejoin:round}
+.sol{fill:none;stroke:#8d97a6;stroke-width:2;stroke-dasharray:4 10;stroke-linecap:round}
+.cote{fill:none;stroke:#d9731a;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.fleche{fill:#d9731a;stroke:none}
+.cote-texte{fill:#d9731a;font-family:Arial,Helvetica,sans-serif;font-weight:bold}
+.fluide{fill:#c08a2a;fill-opacity:.85;stroke:#1d2229;stroke-width:2}
+.liquide-frein{fill:#d9b44a;fill-opacity:.7;stroke:#1d2229;stroke-width:2}
+.chaine{fill:none;stroke:#1d2229;stroke-width:12;stroke-linejoin:round}
+.chaine-maillons{fill:none;stroke:#aab3bf;stroke-width:6;stroke-dasharray:7 5;stroke-linejoin:round}
+.vert{fill:#3fae5a;stroke:#1d2229;stroke-width:2.5}
+.rouge{fill:#d8463f;stroke:#1d2229;stroke-width:2.5}
+.bleu{fill:#3f7fd8;stroke:#1d2229;stroke-width:2.5}
+.ecran{fill:#20262e;stroke:#1d2229;stroke-width:3}
+</style>
+<g id="co-echappement">
+<path class="trait" d="M364,190.8 L375.5,265 L361.5,370 L386,461 L410.5,555.5 L470,615 L540,636" style="stroke:#8d8a85;stroke-width:34;stroke-linejoin:round"/>
+</g>
+<g id="co-moteur">
+<polygon class="moteur" points="634.3,133.2 587.8,41 359.1,146.8 399.3,242"/>
+<polygon class="moteur" points="701,310.6 617,137.4 413.7,231.5 491.4,407.6"/>
+<polygon class="moteur" points="463,352.5 557.5,307 723.8,286 907.5,275.5 939,342 932,492.5 879.5,588.8 767.5,636 561,646.5 480.5,601 449,499.5"/>
+<circle class="mecanique" cx="666" cy="510" r="105"/>
+<circle class="detail" cx="666" cy="510" r="73.5"/>
+</g>
+<g id="co-filtre-huile">
+<g transform="translate(438.5 531) rotate(-33)"><rect class="orange" x="-46" y="-42" width="92" height="84" rx="10"/><line class="detail" x1="-30" y1="-42" x2="-30" y2="42"/><line class="detail" x1="-14" y1="-42" x2="-14" y2="42"/><line class="detail" x1="2" y1="-42" x2="2" y2="42"/></g>
+</g>
+<g id="outil-cle-filtre">
+<g transform="translate(378 570.6) rotate(-33)">
+<rect class="metal" x="-36" y="-46" width="30" height="92" rx="6"/>
+<rect class="mecanique" x="-70" y="-9" width="40" height="18" rx="4"/>
+</g>
+<path class="cote" d="M298.5,601.9 L300.4,606.7 L302.7,611.3 L305.3,615.8 L308.2,620.1 L311.3,624.2 L314.8,628 L318.5,631.6 L322.5,634.9 L326.6,637.9 L331,640.7 L335.6,643.1 L340.3,645.2 L345.2,647 L350.1,648.4 L355.2,649.5 L360.3,650.2 L365.4,650.6 L370.6,650.6 L375.8,650.2 L380.9,649.5 L385.9,648.4 L390.9,647 L395.7,645.2 L400.5,643.1 L405,640.7 L409.4,637.9 L413.6,634.9 L417.5,631.6" style="stroke-width:6"/>
+<polygon class="fleche" points="434.2,614.3 427,640.8 408,622.4"/>
+</g>
+<text class="cote-texte" x="288.5" y="461" font-size="38" text-anchor="middle">15 Nm</text>
+<g id="co-bouchon-vidange">
+<rect class="metal" x="645.8" y="651" width="44" height="22" rx="3"/>
+<polygon class="metal" points="683.8,687 675.8,673.1 659.8,673.1 651.8,687 659.8,700.9 675.8,700.9"/>
+</g>
+<text class="cote-texte" x="757.8" y="687" font-size="38" text-anchor="start">20 Nm</text>
+<g id="huile-usagee">
+<path class="fluide" d="M659.8,671 C647.8,777 697.8,827 677.8,907 L693.8,907 C713.8,827 673.8,777 675.8,671 Z"/>
+</g>
+<g id="outil-bac-vidange">
+<path class="mecanique" d="M437.8,887 L917.8,887 L887.8,987 L467.8,987 Z"/>
+<path class="fluide" d="M453.8,927 L901.8,927 L889.8,975 L465.8,975 Z"/>
+</g>
+<g id="ca-sabot">
+<polygon class="depose" points="393,580 477,597.5 561,671 753.5,702.5 946,716.5 984.5,741 956.5,776 645,790 491,772.5 414,702.5"/>
+<line class="cote" x1="960" y1="715" x2="960" y2="785" style="stroke-width:5"/>
+<polygon class="fleche" points="960,805 949,785 971,785"/>
+</g>
+<g id="co-jauge-huile">
+<circle class="depose" cx="1330" cy="330" r="240"/>
+<rect class="orange" x="1280" y="130" width="100" height="56" rx="12"/>
+<rect class="orange" x="1296" y="186" width="68" height="36" rx="4"/>
+<rect class="metal" x="1318" y="222" width="24" height="300" rx="6"/>
+<rect class="fluide" x="1318" y="410" width="24" height="70" rx="4"/>
+<line class="cote" x1="1296" y1="410" x2="1364" y2="410" style="stroke-width:4"/>
+<line class="cote" x1="1296" y1="480" x2="1364" y2="480" style="stroke-width:4"/>
+<line class="detail" x1="1310" y1="445" x2="1350" y2="445"/>
+</g>
+</svg>

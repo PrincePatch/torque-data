@@ -1,0 +1,370 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+<!-- Torque - profil droit (sportive 660 bicylindre, millésimes 2021-2024) - dessin original, licence CC BY 4.0. Aucun logo, aucune photo ni vue éclatée reproduite. -->
+<style>
+.trait{fill:none;stroke:#1d2229;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.carene{fill:#6c7d96;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.sombre{fill:#474f5c;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.moteur{fill:#7b8490;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.mecanique{fill:#aab3bf;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.metal{fill:#c9cfd8;stroke:#1d2229;stroke-width:2.5;stroke-linejoin:round}
+.echappement{fill:#8d8a85;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.pneu{fill:#373c44;stroke:#8d97a6;stroke-width:3}
+.detail{fill:none;stroke:#1d2229;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.detail-clair{fill:none;stroke:#c3cad4;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.optique{fill:#e3ebf4;stroke:#1d2229;stroke-width:2.5;stroke-linejoin:round}
+.feu{fill:#d8463f;stroke:#1d2229;stroke-width:2.5;stroke-linejoin:round}
+.orange{fill:#e8901f;stroke:#1d2229;stroke-width:2.5;stroke-linejoin:round}
+.vitre{fill:#9cc3e8;fill-opacity:.35;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.cache{fill:#e8901f;fill-opacity:.16;stroke:#d9731a;stroke-width:2.5;stroke-dasharray:9 6;stroke-linejoin:round}
+.depose{fill:none;stroke:#8d97a6;stroke-width:2.5;stroke-dasharray:12 8;stroke-linejoin:round}
+.sol{fill:none;stroke:#8d97a6;stroke-width:2;stroke-dasharray:4 10;stroke-linecap:round}
+.cote{fill:none;stroke:#d9731a;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.fleche{fill:#d9731a;stroke:none}
+.cote-texte{fill:#d9731a;font-family:Arial,Helvetica,sans-serif;font-weight:bold}
+.fluide{fill:#c08a2a;fill-opacity:.85;stroke:#1d2229;stroke-width:2}
+.liquide-frein{fill:#d9b44a;fill-opacity:.7;stroke:#1d2229;stroke-width:2}
+.chaine{fill:none;stroke:#1d2229;stroke-width:12;stroke-linejoin:round}
+.chaine-maillons{fill:none;stroke:#aab3bf;stroke-width:6;stroke-dasharray:7 5;stroke-linejoin:round}
+.vert{fill:#3fae5a;stroke:#1d2229;stroke-width:2.5}
+.rouge{fill:#d8463f;stroke:#1d2229;stroke-width:2.5}
+.bleu{fill:#3f7fd8;stroke:#1d2229;stroke-width:2.5}
+.ecran{fill:#20262e;stroke:#1d2229;stroke-width:3}
+
+.rayon-contour{fill:none;stroke:#1d2229;stroke-width:17;stroke-linecap:round}
+.rayon{fill:none;stroke:#aab3bf;stroke-width:11;stroke-linecap:round}
+</style>
+<line class="sol" x1="90" y1="907" x2="1510" y2="907"/>
+<g transform="matrix(-1 0 0 1 1600 0)">
+<g id="co-roue-arriere">
+<path class="pneu" fill-rule="evenodd" d="M1026,692 a208,208 0 1,0 416,0 a208,208 0 1,0 -416,0 Z M1086,692 a148,148 0 1,0 296,0 a148,148 0 1,0 -296,0 Z"/>
+<circle class="detail" cx="1234" cy="692" r="194" style="stroke:#59606b;stroke-width:1.5"/>
+<path class="mecanique" fill-rule="evenodd" d="M1086,692 a148,148 0 1,0 296,0 a148,148 0 1,0 -296,0 Z M1099,692 a135,135 0 1,0 270,0 a135,135 0 1,0 -270,0 Z"/>
+<line class="rayon-contour" x1="1240.2" y1="668.8" x2="1252.6" y2="622.5"/>
+<line class="rayon-contour" x1="1252.6" y1="622.5" x2="1306.6" y2="575.8"/>
+<line class="rayon-contour" x1="1252.6" y1="622.5" x2="1229.2" y2="555.1"/>
+<line class="rayon-contour" x1="1210.8" y1="698.2" x2="1164.5" y2="710.6"/>
+<line class="rayon-contour" x1="1164.5" y1="710.6" x2="1097.1" y2="687.2"/>
+<line class="rayon-contour" x1="1164.5" y1="710.6" x2="1117.8" y2="764.6"/>
+<line class="rayon-contour" x1="1251" y1="709" x2="1284.9" y2="742.9"/>
+<line class="rayon-contour" x1="1284.9" y1="742.9" x2="1298.3" y2="813"/>
+<line class="rayon-contour" x1="1284.9" y1="742.9" x2="1355" y2="756.3"/>
+<line class="rayon" x1="1240.2" y1="668.8" x2="1252.6" y2="622.5"/>
+<line class="rayon" x1="1252.6" y1="622.5" x2="1306.6" y2="575.8"/>
+<line class="rayon" x1="1252.6" y1="622.5" x2="1229.2" y2="555.1"/>
+<line class="rayon" x1="1210.8" y1="698.2" x2="1164.5" y2="710.6"/>
+<line class="rayon" x1="1164.5" y1="710.6" x2="1097.1" y2="687.2"/>
+<line class="rayon" x1="1164.5" y1="710.6" x2="1117.8" y2="764.6"/>
+<line class="rayon" x1="1251" y1="709" x2="1284.9" y2="742.9"/>
+<line class="rayon" x1="1284.9" y1="742.9" x2="1298.3" y2="813"/>
+<line class="rayon" x1="1284.9" y1="742.9" x2="1355" y2="756.3"/>
+<circle class="mecanique" cx="1234" cy="692" r="32"/>
+</g>
+<circle class="metal" cx="1305" cy="815" r="4.5"/>
+<g id="co-disque-arriere">
+<path class="metal" fill-rule="evenodd" d="M1161,692 a73,73 0 1,0 146,0 a73,73 0 1,0 -146,0 Z M1182,692 a52,52 0 1,0 104,0 a52,52 0 1,0 -104,0 Z"/>
+<circle class="sombre" cx="1291.5" cy="692" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="1299.2" cy="674.5" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="1283.8" cy="663.2" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="1281.7" cy="644.3" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="1262.8" cy="642.2" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="1251.5" cy="626.8" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="1234" cy="634.5" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="1216.5" cy="626.8" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="1205.2" cy="642.2" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="1186.3" cy="644.3" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="1184.2" cy="663.2" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="1168.8" cy="674.5" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="1176.5" cy="692" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="1168.8" cy="709.5" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="1184.2" cy="720.8" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="1186.3" cy="739.7" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="1205.2" cy="741.8" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="1216.5" cy="757.2" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="1234" cy="749.5" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="1251.5" cy="757.2" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="1262.8" cy="741.8" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="1281.7" cy="739.7" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="1283.8" cy="720.8" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="1299.2" cy="709.5" r="2.6" style="stroke-width:1"/>
+<circle class="mecanique" cx="1282.3" cy="683.5" r="4.5" style="stroke-width:1.5"/>
+<line class="detail" x1="1263.5" y1="686.8" x2="1282.3" y2="683.5"/>
+<circle class="mecanique" cx="1250.8" cy="646" r="4.5" style="stroke-width:1.5"/>
+<line class="detail" x1="1244.3" y1="663.8" x2="1250.8" y2="646"/>
+<circle class="mecanique" cx="1202.5" cy="654.5" r="4.5" style="stroke-width:1.5"/>
+<line class="detail" x1="1214.7" y1="669" x2="1202.5" y2="654.5"/>
+<circle class="mecanique" cx="1185.7" cy="700.5" r="4.5" style="stroke-width:1.5"/>
+<line class="detail" x1="1204.5" y1="697.2" x2="1185.7" y2="700.5"/>
+<circle class="mecanique" cx="1217.2" cy="738" r="4.5" style="stroke-width:1.5"/>
+<line class="detail" x1="1223.7" y1="720.2" x2="1217.2" y2="738"/>
+<circle class="mecanique" cx="1265.5" cy="729.5" r="4.5" style="stroke-width:1.5"/>
+<line class="detail" x1="1253.3" y1="715" x2="1265.5" y2="729.5"/>
+</g>
+<g id="co-roue-avant">
+<path class="pneu" fill-rule="evenodd" d="M132,702 a198,198 0 1,0 396,0 a198,198 0 1,0 -396,0 Z M182,702 a148,148 0 1,0 296,0 a148,148 0 1,0 -296,0 Z"/>
+<circle class="detail" cx="330" cy="702" r="184" style="stroke:#59606b;stroke-width:1.5"/>
+<path class="mecanique" fill-rule="evenodd" d="M182,702 a148,148 0 1,0 296,0 a148,148 0 1,0 -296,0 Z M195,702 a135,135 0 1,0 270,0 a135,135 0 1,0 -270,0 Z"/>
+<line class="rayon-contour" x1="327.9" y1="678.1" x2="323.7" y2="630.3"/>
+<line class="rayon-contour" x1="323.7" y1="630.3" x2="358.5" y2="568"/>
+<line class="rayon-contour" x1="323.7" y1="630.3" x2="278.7" y2="575"/>
+<line class="rayon-contour" x1="310.3" y1="715.8" x2="271" y2="743.3"/>
+<line class="rayon-contour" x1="271" y1="743.3" x2="199.7" y2="744.3"/>
+<line class="rayon-contour" x1="271" y1="743.3" x2="245.7" y2="810"/>
+<line class="rayon-contour" x1="351.8" y1="712.1" x2="395.3" y2="732.4"/>
+<line class="rayon-contour" x1="395.3" y1="732.4" x2="431.8" y2="793.7"/>
+<line class="rayon-contour" x1="395.3" y1="732.4" x2="465.7" y2="721.1"/>
+<line class="rayon" x1="327.9" y1="678.1" x2="323.7" y2="630.3"/>
+<line class="rayon" x1="323.7" y1="630.3" x2="358.5" y2="568"/>
+<line class="rayon" x1="323.7" y1="630.3" x2="278.7" y2="575"/>
+<line class="rayon" x1="310.3" y1="715.8" x2="271" y2="743.3"/>
+<line class="rayon" x1="271" y1="743.3" x2="199.7" y2="744.3"/>
+<line class="rayon" x1="271" y1="743.3" x2="245.7" y2="810"/>
+<line class="rayon" x1="351.8" y1="712.1" x2="395.3" y2="732.4"/>
+<line class="rayon" x1="395.3" y1="732.4" x2="431.8" y2="793.7"/>
+<line class="rayon" x1="395.3" y1="732.4" x2="465.7" y2="721.1"/>
+<circle class="mecanique" cx="330" cy="702" r="32"/>
+</g>
+<circle class="metal" cx="401" cy="825" r="4.5"/>
+<g id="co-disque-avant">
+<path class="metal" fill-rule="evenodd" d="M224,702 a106,106 0 1,0 212,0 a106,106 0 1,0 -212,0 Z M250,702 a80,80 0 1,0 160,0 a80,80 0 1,0 -160,0 Z"/>
+<circle class="sombre" cx="418" cy="702" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="424.7" cy="676.6" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="406.2" cy="658" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="399.3" cy="632.7" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="374" cy="625.8" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="355.4" cy="607.3" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="330" cy="614" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="304.6" cy="607.3" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="286" cy="625.8" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="260.7" cy="632.7" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="253.8" cy="658" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="235.3" cy="676.6" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="242" cy="702" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="235.3" cy="727.4" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="253.8" cy="746" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="260.7" cy="771.3" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="286" cy="778.2" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="304.6" cy="796.7" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="330" cy="790" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="355.4" cy="796.7" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="374" cy="778.2" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="399.3" cy="771.3" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="406.2" cy="746" r="2.6" style="stroke-width:1"/>
+<circle class="sombre" cx="424.7" cy="727.4" r="2.6" style="stroke-width:1"/>
+<circle class="mecanique" cx="405.8" cy="688.6" r="4.5" style="stroke-width:1.5"/>
+<line class="detail" x1="359.5" y1="696.8" x2="405.8" y2="688.6"/>
+<circle class="mecanique" cx="356.3" cy="629.6" r="4.5" style="stroke-width:1.5"/>
+<line class="detail" x1="340.3" y1="673.8" x2="356.3" y2="629.6"/>
+<circle class="mecanique" cx="280.5" cy="643" r="4.5" style="stroke-width:1.5"/>
+<line class="detail" x1="310.7" y1="679" x2="280.5" y2="643"/>
+<circle class="mecanique" cx="254.2" cy="715.4" r="4.5" style="stroke-width:1.5"/>
+<line class="detail" x1="300.5" y1="707.2" x2="254.2" y2="715.4"/>
+<circle class="mecanique" cx="303.7" cy="774.4" r="4.5" style="stroke-width:1.5"/>
+<line class="detail" x1="319.7" y1="730.2" x2="303.7" y2="774.4"/>
+<circle class="mecanique" cx="379.5" cy="761" r="4.5" style="stroke-width:1.5"/>
+<line class="detail" x1="349.3" y1="725" x2="379.5" y2="761"/>
+</g>
+<g id="ca-garde-boue-avant">
+<polygon class="sombre" points="468.8,536.5 459,528.7 448.7,521.5 438,514.9 426.9,509 415.6,503.7 403.9,499 391.9,495.1 379.8,491.8 367.5,489.3 355.1,487.5 342.6,486.4 330,486 317.4,486.4 304.9,487.5 292.5,489.3 280.2,491.8 268.1,495.1 256.1,499 244.4,503.7 233.1,509 222,514.9 211.3,521.5 201,528.7 191.2,536.5 181.8,544.9 172.9,553.8 164.5,563.2 156.7,573 149.5,583.3 142.9,594 160,587.4 166.4,578.4 173.3,569.9 180.6,561.7 188.3,553.9 196.4,546.5 204.9,539.6 213.8,533.1 223,527.1 232.5,521.7 242.3,516.7 252.3,512.3 262.6,508.4 273,505.1 283.7,502.3 294.4,500.1 305.3,498.5 316.2,497.5 327.1,497 338.1,497.2 349.1,497.9 359.9,499.2 370.8,501.1 381.4,503.6 392,506.6 402.4,510.2 412.5,514.3 422.4,519 432.1,524.2 441.5,529.9 450.5,536.2"/>
+</g>
+<g id="co-amortisseur">
+<polygon class="metal" points="981.4,447.1 939.4,603.1 960.6,608.9 1002.6,452.9"/>
+<polygon class="feu" points="964.2,469.2 1006.2,481.2 1008.1,474.5 966.1,462.5"/>
+<polygon class="feu" points="960.4,483.2 1002.4,495.2 1004.3,488.5 962.3,476.5"/>
+<polygon class="feu" points="956.6,497.3 998.6,509.3 1000.5,502.6 958.5,490.6"/>
+<polygon class="feu" points="952.8,511.3 994.8,523.3 996.7,516.6 954.7,504.6"/>
+<polygon class="feu" points="949,525.4 991,537.4 993,530.6 951,518.6"/>
+<polygon class="feu" points="945.3,539.4 987.3,551.4 989.2,544.7 947.2,532.7"/>
+<polygon class="feu" points="941.5,553.4 983.5,565.4 985.4,558.7 943.4,546.7"/>
+<polygon class="feu" points="937.7,567.5 979.7,579.5 981.6,572.8 939.6,560.8"/>
+<circle class="mecanique" cx="992" cy="450" r="10"/>
+<circle class="mecanique" cx="950" cy="606" r="10"/>
+</g>
+<g id="co-bras-oscillant">
+<polygon class="mecanique" points="860.1,625.3 1226.9,716 1241.1,668 883.9,544.7"/>
+<circle class="mecanique" cx="872" cy="585" r="30"/>
+<circle class="metal" cx="872" cy="585" r="11"/>
+<line class="detail" x1="929.5" y1="600" x2="1159.7" y2="668"/>
+</g>
+<g id="co-diabolos">
+<circle class="metal" cx="1129" cy="685" r="9"/>
+<circle class="sombre" cx="1129" cy="685" r="4" style="stroke-width:1"/>
+</g>
+<g id="ca-leche-roue-arriere">
+<polygon class="sombre" points="1289.2,470.8 1278.8,468.4 1268.4,466.6 1257.8,465.2 1247.3,464.4 1236.7,464 1226,464.1 1215.5,464.8 1204.9,465.9 1194.4,467.5 1184,469.5 1173.7,472.1 1163.5,475.2 1153.5,478.7 1143.7,482.6 1134.1,487.1 1124.6,491.9 1115.4,497.3 1106.5,503 1097.8,509.1 1089.5,515.6 1081.4,522.6 1073.7,529.8 1066.3,537.5 1059.3,545.4 1078.6,542 1084.9,535.8 1091.3,529.8 1098.1,524.1 1105,518.7 1112.2,513.6 1119.5,508.8 1127.1,504.3 1134.8,500.1 1142.7,496.2 1150.8,492.7 1158.9,489.5 1167.3,486.6 1175.7,484 1184.2,481.8 1192.8,480 1201.5,478.5 1210.2,477.3 1218.9,476.5 1227.7,476.1 1236.5,476 1245.3,476.3 1254.1,476.9 1262.8,477.9 1271.5,479.3"/>
+</g>
+<g id="co-tendeur-chaine-droit">
+<rect class="metal" x="1214" y="675" width="58" height="34" rx="6"/>
+<line class="trait" x1="1272" y1="692" x2="1300" y2="692" style="stroke-width:7"/>
+<rect class="mecanique" x="1278" y="684" width="10" height="16" rx="2"/>
+<line class="detail" x1="1226" y1="675" x2="1226" y2="667"/>
+<line class="detail" x1="1236" y1="675" x2="1236" y2="667"/>
+<line class="detail" x1="1246" y1="675" x2="1246" y2="667"/>
+<line class="detail" x1="1256" y1="675" x2="1256" y2="667"/>
+</g>
+<g id="co-axe-roue-arriere">
+<polygon class="metal" points="1247,684.5 1234,677 1221,684.5 1221,699.5 1234,707 1247,699.5"/>
+<circle class="mecanique" cx="1234" cy="692" r="6"/>
+</g>
+<g id="co-moteur">
+<polygon class="moteur" points="600,430 700,440 812,506 852,586 850,604 700,578 640,584 612,520"/>
+<polygon class="moteur" points="596,610 650,584 745,572 850,566 868,604 864,690 834,745 770,772 652,778 606,752 588,694"/>
+<polygon class="moteur" points="732,586.1 684,487.1 567.8,540.8 612.2,641.5"/>
+<polygon class="moteur" points="693.9,484.7 667.3,432 536.6,492.5 559.6,546.9"/>
+<polygon class="sombre" points="660.9,437.2 642.8,412.5 537.6,461.2 544.7,490.9"/>
+<line class="detail" x1="684" y1="487.1" x2="567.8" y2="540.8"/>
+<rect class="metal" x="700" y="776" width="26" height="12" rx="2"/>
+</g>
+<g id="co-carter-embrayage">
+<circle class="mecanique" cx="790" cy="655" r="68"/>
+<circle class="metal" cx="790" cy="655" r="44"/>
+<circle class="sombre" cx="848" cy="655" r="3" style="stroke-width:1"/>
+<circle class="sombre" cx="836.9" cy="620.9" r="3" style="stroke-width:1"/>
+<circle class="sombre" cx="807.9" cy="599.8" r="3" style="stroke-width:1"/>
+<circle class="sombre" cx="772.1" cy="599.8" r="3" style="stroke-width:1"/>
+<circle class="sombre" cx="743.1" cy="620.9" r="3" style="stroke-width:1"/>
+<circle class="sombre" cx="732" cy="655" r="3" style="stroke-width:1"/>
+<circle class="sombre" cx="743.1" cy="689.1" r="3" style="stroke-width:1"/>
+<circle class="sombre" cx="772.1" cy="710.2" r="3" style="stroke-width:1"/>
+<circle class="sombre" cx="807.9" cy="710.2" r="3" style="stroke-width:1"/>
+<circle class="sombre" cx="836.9" cy="689.1" r="3" style="stroke-width:1"/>
+</g>
+<g id="co-jauge-huile">
+<rect class="orange" x="836" y="592" width="22" height="16" rx="4"/>
+<rect class="orange" x="841" y="583" width="12" height="10" rx="2"/>
+</g>
+<g id="co-tendeur-cable-embrayage">
+<line class="trait" x1="744" y1="588" x2="818" y2="566" style="stroke-width:5"/>
+<rect class="metal" x="770" y="572" width="22" height="12" rx="2" transform="rotate(-17 781 578)"/>
+</g>
+<g id="co-echappement">
+<path class="trait" d="M539.4,517.6 C546,548 536,612 550,672 C560,724 590,758 640,772" style="stroke:#1d2229;stroke-width:24"/>
+<path class="trait" d="M539.4,517.6 C546,548 536,612 550,672 C560,724 590,758 640,772" style="stroke:#8d8a85;stroke-width:17"/>
+<polygon class="echappement" points="630,744 846,748 886,762 882,792 652,794 618,772"/>
+<path class="echappement" d="M878,766 L904,770 L904,792 L880,794 Z"/>
+<circle class="sombre" cx="899" cy="781" r="7"/>
+</g>
+<g id="co-cadre">
+<polygon class="mecanique" points="498,318 560,326 830,440 884,500 888,628 862,640 852,586 812,506 540,376 494,366"/>
+<line class="detail" x1="576" y1="352" x2="826" y2="462"/>
+</g>
+<g id="co-fourche">
+<polygon class="metal" points="365.8,652.3 418.7,533.5 395.9,523.3 343,642.1"/>
+<polygon class="mecanique" points="416.3,559.8 513.9,340.6 475.5,323.5 377.9,542.7"/>
+<polygon class="mecanique" points="341.7,722.5 376.3,637.3 347.1,624.2 306.9,707.1"/>
+<circle class="metal" cx="330" cy="702" r="14"/>
+</g>
+<g id="co-etrier-avant">
+<g transform="translate(400.5,642.9) rotate(50)"><rect class="sombre" x="-40" y="-16" width="80" height="32" rx="10"/><line class="detail-clair" x1="-30" y1="0" x2="30" y2="0"/><circle class="metal" cx="-28" cy="-9" r="4"/></g>
+</g>
+<g id="co-etrier-arriere">
+<g transform="translate(1264,635.5) rotate(28)"><rect class="sombre" x="-31" y="-14" width="62" height="28" rx="10"/><line class="detail-clair" x1="-21" y1="0" x2="21" y2="0"/><circle class="metal" cx="-19" cy="-7" r="4"/></g>
+</g>
+<g id="ca-carenage-interieur-droit">
+<polygon class="sombre" points="232,432 330,380 470,328 548,318 606,344 622,420 612,470 596,560 520,540 420,476 300,470"/>
+</g>
+<g id="ca-flanc-droit">
+<path class="carene" fill-rule="evenodd" d="M226,474 L330,452 L470,418 L604,386 L590,420 L626,468 L606,528 L616,640 L586,694 L551.7,690.4 L548.9,664.8 L543.1,639.7 L534.5,615.5 L523.1,592.4 L509.1,570.8 L492.7,551 L474.2,533.2 L453.7,517.6 L431.5,504.6 L408,494.2 L383.4,486.5 L358.2,481.8 L332.5,480 L306.8,481.2 L262,480 L240,482 Z M440,470 L548,446 L566,478 L536,512 L488,506 Z"/>
+<path class="detail" d="M272,470 L560,410"/>
+<path class="detail" d="M572,560 L592,646"/>
+</g>
+<g id="ca-sabot">
+<polygon class="carene" points="556,690 604,700 652,742 762,760 872,768 894,782 878,802 700,810 612,800 568,760"/>
+<line class="detail" x1="640" y1="790" x2="860" y2="786"/>
+</g>
+<g id="ca-tete-de-fourche">
+<path class="carene" d="M168,420 C194,382 248,334 312,294 L448,254 L480,264 L494,300 L476,326 L392,348 L300,380 L230,420 L198,442 L178,440 Z"/>
+<polygon class="optique" points="174,422 226,392 302,372 310,382 240,410 190,436"/>
+<polygon class="optique" points="240,366 306,344 312,353 248,375"/>
+<path class="detail" d="M318,368 L470,316"/>
+</g>
+<g id="co-tableau-de-bord">
+<polygon class="ecran" points="446,240 474,232 490,270 460,278"/>
+</g>
+<g id="ca-bulle">
+<path class="vitre" d="M312,294 C340,244 380,204 418,184 L442,188 C452,214 466,238 480,264 L448,254 Z"/>
+</g>
+<g id="ca-retroviseur-droit">
+<polygon class="sombre" points="448.9,255 442.9,227 433.1,229 439.1,257"/>
+<polygon class="sombre" points="382,218 470,204 484,220 474,232 396,236"/>
+</g>
+<g id="co-reservoir-carburant">
+<path class="carene" d="M534,350 C536,318 556,296 596,290 C660,282 730,280 774,294 C802,304 820,324 828,350 L828,398 C760,404 650,402 600,394 L556,374 Z"/>
+<path class="detail" d="M640,394 C680,372 740,356 822,360"/>
+<rect class="metal" x="646" y="279" width="54" height="9" rx="4"/>
+</g>
+<g id="ca-cache-reservoir">
+<path class="carene" d="M534,350 C536,318 556,296 596,290 L606,322 C592,336 582,356 578,382 L556,374 Z"/>
+</g>
+<g id="co-contacteur-cle">
+<circle class="metal" cx="518" cy="322" r="9"/>
+<line class="detail" x1="514" y1="322" x2="522" y2="322"/>
+</g>
+<g id="ca-flanc-arriere-droit">
+<polygon class="sombre" points="828,382 1038,378 1072,408 1026,452 930,472 866,446 828,398"/>
+<line class="detail-clair" x1="884" y1="440" x2="1012" y2="420"/>
+</g>
+<g id="ca-coque-arriere">
+<polygon class="carene" points="1044,340 1210,294 1398,248 1402,263 1292,306 1146,384 1074,410 1040,380"/>
+<line class="detail" x1="1120" y1="378" x2="1360" y2="278"/>
+</g>
+<g id="ca-feu-arriere">
+<polygon class="feu" points="1376,256 1400,250 1403,263 1382,272"/>
+</g>
+<g id="ca-selle-passager">
+<path class="sombre" d="M1048,336 C1100,318 1170,300 1236,288 L1260,292 L1244,308 C1180,322 1112,340 1058,356 Z"/>
+</g>
+<g id="ca-selle-pilote">
+<path class="sombre" d="M826,344 Q920,366 1030,352 L1048,336 L1054,350 L1038,380 L828,384 Z"/>
+</g>
+<g id="ca-support-plaque">
+<polygon class="sombre" points="1282,314 1322,304 1412,430 1394,440"/>
+<polygon class="metal" points="1394,428 1416,424 1428,508 1406,512"/>
+</g>
+<g id="co-clignotants-arriere">
+<polygon class="orange" points="1338,380 1364,372 1370,384 1344,392"/>
+</g>
+<g id="co-repose-pied-passager">
+<polygon class="mecanique" points="1002,452 1044,448 1090,546 1074,566 1052,560"/>
+<circle class="sombre" cx="1076" cy="556" r="10"/>
+</g>
+<g id="co-repose-pied-pilote">
+<polygon class="mecanique" points="884,600 912,592 950,626 944,660 910,664 892,636"/>
+<circle class="sombre" cx="930" cy="640" r="13"/>
+<circle class="metal" cx="930" cy="640" r="5"/>
+</g>
+<g id="co-pedale-frein">
+<line class="trait" x1="926" y1="648" x2="868" y2="668" style="stroke-width:10"/>
+<line class="trait" x1="926" y1="648" x2="868" y2="668" style="stroke:#aab3bf;stroke-width:5"/>
+<rect class="sombre" x="852" y="662" width="20" height="12" rx="3"/>
+</g>
+<g id="co-maitre-cylindre-arriere">
+<polygon class="metal" points="946,581.4 942,631.4 958,632.6 962,582.6"/>
+<line class="detail" x1="950" y1="632" x2="930" y2="652"/>
+</g>
+<g id="co-guidon-droit">
+<polygon class="mecanique" points="488.2,356.8 588.2,383.8 591.8,370.2 491.8,343.2"/>
+<polygon class="sombre" points="531.1,372.6 589.1,388.6 594.9,367.4 536.9,351.4"/>
+<circle class="metal" cx="596" cy="379" r="11"/>
+<rect class="sombre" x="502" y="338" width="30" height="38" rx="8" transform="rotate(16 517 357)"/>
+<path class="trait" d="M514,340 C542,334 574,340 602,356" style="stroke:#1d2229;stroke-width:8"/>
+<path class="trait" d="M514,340 C542,334 574,340 602,356" style="stroke:#c9cfd8;stroke-width:4"/>
+<rect class="liquide-frein" x="496" y="310" width="30" height="22" rx="4"/>
+<rect class="sombre" x="494" y="304" width="34" height="8" rx="2"/>
+</g>
+<g id="co-radiateur">
+<polygon class="cache" points="482,410 540,398 562,600 506,616"/>
+</g>
+<g id="co-batterie">
+<rect class="cache" x="880" y="396" width="78" height="48" rx="4"/>
+</g>
+<g id="co-boite-a-air">
+<path class="cache" d="M584,334 L708,322 L718,390 L598,396 Z"/>
+</g>
+<g id="co-vase-expansion">
+<rect class="cache" x="590" y="480" width="28" height="48" rx="6"/>
+</g>
+<g id="co-reservoir-frein-arriere">
+<rect class="cache" x="944" y="404" width="26" height="40" rx="5"/>
+</g>
+</g>
+</svg>

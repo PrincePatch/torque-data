@@ -1,0 +1,445 @@
+{
+  "version_schema": 1,
+  "maj": "2026-10-16",
+  "voyants": [
+    {
+      "id": "vo-clignotant-gauche",
+      "nom": { "fr": "Clignotant gauche", "en": "Left turn indicator" },
+      "couleur": "vert",
+      "picto": "commun/pictos/clignotant-gauche.svg",
+      "description_picto": {
+        "fr": "Flèche pleine verte pointant vers la gauche.",
+        "en": "Solid green arrow pointing left."
+      },
+      "position": { "fr": "2021-2024 : témoin le plus haut, à gauche de l'écran, au-dessus de la rangée MIL / ABS. 2025-2026 : en haut de la colonne gauche, dans le verre (disposition déduite du manuel RSV4, à confirmer)." },
+      "comportement_normal": { "fr": "Clignote quand le clignotant gauche est actionné. Annulation automatique après environ 40 s ou 500 m en roulant." },
+      "signification": { "fr": "Clignotant gauche actif. Un clignotement anormalement rapide signale un module LED de clignotant en panne." },
+      "gravite": 1,
+      "action": { "fr": "Annuler le clignotant après la manœuvre (appui sur la commande). Clignotement rapide : vérifier les clignotants." },
+      "arret_immediat": false,
+      "operations": ["op-controle-eclairage"],
+      "confiance": "ok",
+      "sources": ["src-manuel-proprietaire#p24", "src-manuel-proprietaire#p78", "src-ultimate-essai-2021", "src-video-hormigaz-tableau-de-bord"]
+    },
+    {
+      "id": "vo-clignotant-droit",
+      "nom": { "fr": "Clignotant droit", "en": "Right turn indicator" },
+      "couleur": "vert",
+      "picto": "commun/pictos/clignotant-droit.svg",
+      "description_picto": {
+        "fr": "Flèche pleine verte pointant vers la droite.",
+        "en": "Solid green arrow pointing right."
+      },
+      "position": { "fr": "2021-2024 : témoin le plus haut, à droite de l'écran, au-dessus de la rangée a-PRC / réserve. 2025-2026 : en haut de la colonne droite, dans le verre (déduit, à confirmer)." },
+      "comportement_normal": { "fr": "Clignote quand le clignotant droit est actionné. Annulation automatique après environ 40 s ou 500 m en roulant." },
+      "signification": { "fr": "Clignotant droit actif. Un clignotement anormalement rapide signale un module LED de clignotant en panne." },
+      "gravite": 1,
+      "action": { "fr": "Annuler le clignotant après la manœuvre (appui sur la commande). Clignotement rapide : vérifier les clignotants." },
+      "arret_immediat": false,
+      "operations": ["op-controle-eclairage"],
+      "confiance": "ok",
+      "sources": ["src-manuel-proprietaire#p24", "src-manuel-proprietaire#p78", "src-ultimate-essai-2021", "src-video-hormigaz-tableau-de-bord"]
+    },
+    {
+      "id": "vo-feu-de-route",
+      "nom": { "fr": "Feu de route", "en": "High beam" },
+      "couleur": "bleu",
+      "picto": "commun/pictos/feu-route.svg",
+      "description_picto": {
+        "fr": "Symbole normalisé du feu de route : phare vu de profil (forme en D) avec des rayons horizontaux, en bleu. Forme exacte non vérifiée sur une photo allumée.",
+        "en": "Standard high-beam symbol: headlamp seen from the side (D shape) with horizontal rays, blue. Exact shape not verified on a lit photo."
+      },
+      "position": { "fr": "2021-2024 : colonne gauche, côté écran, 3e témoin (sous le régulateur, au-dessus du DRL). 2025-2026 : colonne gauche, 4e témoin en partant du haut (déduit, à confirmer)." },
+      "comportement_normal": { "fr": "Allumé tant que le feu de route est enclenché (commande sur le commodo gauche)." },
+      "signification": { "fr": "Feu de route allumé." },
+      "gravite": 1,
+      "action": { "fr": "Repasser en feu de croisement face à un autre usager." },
+      "arret_immediat": false,
+      "operations": ["op-controle-eclairage"],
+      "confiance": "une_source",
+      "sources": ["src-manuel-proprietaire#p24", "src-manuel-proprietaire#p79"]
+    },
+    {
+      "id": "vo-point-mort",
+      "nom": { "fr": "Point mort", "en": "Neutral" },
+      "couleur": "vert",
+      "picto": "commun/pictos/point-mort.svg",
+      "description_picto": {
+        "fr": "Lettre « N » verte, majuscule. Ne pas confondre avec le « N » affiché dans la case du rapport engagé sur l'écran (même signification).",
+        "en": "Green capital letter \"N\". Do not confuse with the \"N\" shown in the gear box on the screen (same meaning)."
+      },
+      "position": { "fr": "2021-2024 : colonne droite, côté écran, 3e témoin (sous le triangle rouge d'alerte générale) sur les motos de série ; le dessin du manuel le place à tort en bas à gauche. 2025-2026 : en bas de la colonne droite (vu allumé sur une photo de presse 2026)." },
+      "comportement_normal": { "fr": "Allumé contact mis, boîte au point mort." },
+      "signification": { "fr": "Boîte de vitesses au point mort." },
+      "gravite": 1,
+      "action": { "fr": "Aucune." },
+      "arret_immediat": false,
+      "operations": [],
+      "confiance": "ok",
+      "sources": ["src-manuel-proprietaire#p24", "src-ultimate-essai-2021", "src-video-hormigaz-tableau-de-bord", "src-motorcycle-com-factory-2026"]
+    },
+    {
+      "id": "vo-regulateur",
+      "nom": { "fr": "Régulateur de vitesse", "en": "Cruise control" },
+      "couleur": "vert",
+      "picto": "commun/pictos/regulateur.svg",
+      "description_picto": {
+        "fr": "Cadran de compteur de vitesse (demi-cercle gradué) avec une flèche, en vert. Sur l'écran, la vitesse de consigne s'affiche à droite de la vitesse avec un petit pictogramme de compteur.",
+        "en": "Speedometer dial (graduated half circle) with an arrow, green. On the screen, the set speed is shown right of the road speed with a small speedometer pictogram."
+      },
+      "position": { "fr": "2021-2024 : colonne gauche, côté écran, 2e témoin (sous l'ABS). 2025-2026 : colonne gauche, 3e témoin (déduit, à confirmer)." },
+      "comportement_normal": { "fr": "Clignote : régulateur activé mais pas engagé. Fixe : vitesse maintenue (SET), entre le 3e et le 6e rapport. 2025-2026 : activation en maintenant la touche gauche du pavé du commodo gauche (une seule source)." },
+      "signification": { "fr": "État du régulateur de vitesse." },
+      "gravite": 1,
+      "action": { "fr": "Aucune." },
+      "arret_immediat": false,
+      "operations": [],
+      "confiance": "ok",
+      "sources": ["src-manuel-proprietaire#p24", "src-manuel-proprietaire#p82", "src-manuel-proprietaire#p83", "src-video-regulateur-2025"]
+    },
+    {
+      "id": "vo-drl",
+      "nom": { "fr": "Feux de jour (DRL)", "en": "Daytime running lights (DRL)" },
+      "couleur": "vert",
+      "picto": "commun/pictos/drl.svg",
+      "description_picto": {
+        "fr": "Phare en forme d'ogive avec, sur sa gauche, des rangées de points (traits pointillés), en vert.",
+        "en": "Bullet-shaped headlamp with rows of dots (dotted lines) on its left, green."
+      },
+      "position": { "fr": "2021-2024 : en bas de la colonne gauche sur les motos de série ; le dessin du manuel le place à tort à droite. 2025-2026 : colonne droite, 3e témoin (déduit, à confirmer)." },
+      "comportement_normal": { "fr": "Allumé quand les feux de jour sont actifs (bouton DRL en haut du commodo droit)." },
+      "signification": { "fr": "Feux de jour allumés." },
+      "gravite": 1,
+      "action": { "fr": "Aucune." },
+      "arret_immediat": false,
+      "operations": ["op-controle-eclairage"],
+      "confiance": "une_source",
+      "sources": ["src-manuel-proprietaire#p24", "src-manuel-proprietaire#p80", "src-ultimate-essai-2021", "src-video-hormigaz-tableau-de-bord"]
+    },
+    {
+      "id": "vo-abs",
+      "nom": { "fr": "ABS", "en": "ABS" },
+      "couleur": "orange",
+      "picto": "commun/pictos/abs.svg",
+      "description_picto": {
+        "fr": "Lettres « ABS » dans un cercle, encadré de deux arcs (comme des parenthèses) à gauche et à droite, en orange.",
+        "en": "Letters \"ABS\" inside a circle, framed by two arcs (like brackets) on the left and right, orange."
+      },
+      "position": { "fr": "2021-2024 : à gauche de l'écran, rangée du haut, côté écran (à droite du MIL). 2025-2026 : colonne gauche, 2e témoin (déduit, à confirmer)." },
+      "comportement_normal": { "fr": "Clignote après la mise du contact et à l'arrêt, puis s'éteint dès que la moto dépasse 5 km/h." },
+      "signification": { "fr": "Fixe, ou clignotant au-delà de 5 km/h : défaut détecté, l'ABS est désactivé. Les freins fonctionnent, sans antiblocage." },
+      "gravite": 4,
+      "action": { "fr": "S'arrêter en sécurité, couper puis remettre le contact et rouler au-delà de 5 km/h. S'il reste allumé : freiner avec prudence et aller en concession." },
+      "arret_immediat": false,
+      "operations": ["op-controle-freins", "op-diagnostic-outil"],
+      "confiance": "ok",
+      "sources": ["src-manuel-proprietaire#p24", "src-manuel-proprietaire#p88", "src-ultimate-essai-2021"]
+    },
+    {
+      "id": "vo-abs-avant-seul",
+      "nom": { "fr": "ABS niveau 1 (roue avant seule)", "en": "ABS level 1 (front wheel only)" },
+      "couleur": "orange",
+      "picto": "commun/pictos/abs-avant.svg",
+      "description_picto": {
+        "fr": "Icône de l'écran TFT : « ABS » accompagné d'une petite moto, en orange.",
+        "en": "TFT screen icon: \"ABS\" next to a small motorcycle, orange."
+      },
+      "position": { "fr": "2021-2024 : dans l'écran, en haut à gauche, sous la jauge de température d'eau. 2025-2026 : non documenté." },
+      "comportement_normal": { "fr": "Affiché quand l'ABS est réglé au niveau 1 (mode Challenge, ou réglage personnel)." },
+      "signification": { "fr": "ABS actif sur la roue avant seulement, sans anti-soulèvement de la roue arrière ni ABS en courbe. Aprilia le réserve aux pilotes experts sur piste." },
+      "gravite": 3,
+      "action": { "fr": "Sur route, et surtout sous la pluie, choisir un mode avec ABS 2 ou 3 (Commute, Dynamic, ou Individual réglé)." },
+      "arret_immediat": false,
+      "operations": [],
+      "confiance": "ok",
+      "sources": ["src-manuel-proprietaire#p26", "src-manuel-proprietaire#p87"]
+    },
+    {
+      "id": "vo-mil",
+      "nom": { "fr": "Témoin moteur (MIL)", "en": "Engine warning light (MIL)" },
+      "couleur": "orange",
+      "picto": "commun/pictos/moteur.svg",
+      "description_picto": {
+        "fr": "Silhouette de moteur (symbole habituel du témoin « check engine »), en orange.",
+        "en": "Engine silhouette (usual \"check engine\" symbol), orange."
+      },
+      "position": { "fr": "2021-2024 : à gauche de l'écran, rangée du haut, côté extérieur (à gauche de l'ABS). 2025-2026 : en bas de la colonne gauche (vu allumé sur une photo de presse 2026)." },
+      "comportement_normal": { "fr": "Allumé contact mis moteur arrêté (contrôle du témoin), puis éteint moteur tournant. Comportement observé sur photos, non décrit par le manuel." },
+      "signification": { "fr": "Moteur tournant : défaut de gestion moteur ou d'antipollution (EOBD) mémorisé. Un clignotement à haut régime a été associé à des ratés d'allumage sur un forum." },
+      "gravite": 3,
+      "action": { "fr": "Rouler calmement et prendre rendez-vous en concession pour la lecture des codes (outil P.A.D.S.). S'il clignote, si le moteur a des ratés ou perd de la puissance : réduire l'allure et faire contrôler rapidement. Sur les 2021-2022, une mise à jour de l'ECU supprime une erreur P1401 intempestive." },
+      "arret_immediat": false,
+      "operations": ["op-diagnostic-outil", "op-mise-a-jour-logiciel"],
+      "confiance": "une_source",
+      "sources": ["src-manuel-proprietaire#p24", "src-manuel-proprietaire#p188", "src-ultimate-essai-2021", "src-video-hormigaz-tableau-de-bord", "src-apriliaforum-mil-quickshifter", "src-tsb-ecu-2021", "src-motorcycle-com-factory-2026"]
+    },
+    {
+      "id": "vo-reserve-carburant",
+      "nom": { "fr": "Réserve de carburant", "en": "Low fuel" },
+      "couleur": "orange",
+      "picto": "commun/pictos/carburant.svg",
+      "description_picto": {
+        "fr": "Pompe à essence (distributeur avec son tuyau), en orange. Sur l'écran, la petite pompe de la jauge E–F passe aussi à l'orange.",
+        "en": "Fuel pump (dispenser with its hose), orange. On the screen, the small pump of the E-F gauge also turns orange."
+      },
+      "position": { "fr": "2021-2024 : à droite de l'écran, rangée du haut, côté extérieur (à droite de l'a-PRC). 2025-2026 : colonne droite, 4e témoin (déduit, à confirmer)." },
+      "comportement_normal": { "fr": "S'allume quand la jauge descend sous la 3e barre, et reste allumé en réserve." },
+      "signification": { "fr": "Réserve atteinte : environ 3,5 L selon le manuel 2021 (4 à 4,2 L selon d'autres sources). S'il clignote dès la mise du contact, le capteur de niveau est probablement débranché." },
+      "gravite": 2,
+      "action": { "fr": "Faire le plein en sans-plomb 95, E10 au maximum. Éviter de rouler longtemps en réserve. Clignotant au contact : concession." },
+      "arret_immediat": false,
+      "operations": [],
+      "confiance": "ok",
+      "sources": ["src-manuel-proprietaire#p32", "src-manuel-proprietaire#p109", "src-manuel-proprietaire#p122", "src-manuel-proprietaire#p186"]
+    },
+    {
+      "id": "vo-aprc",
+      "nom": { "fr": "a-PRC (antipatinage / anti-wheeling)", "en": "a-PRC (traction / wheelie control)" },
+      "couleur": "orange",
+      "picto": "commun/pictos/aprc.svg",
+      "description_picto": {
+        "fr": "Triangle d'avertissement avec un « ! » à l'intérieur, entouré d'une flèche circulaire, en orange. Différent de l'alerte générale (triangle rouge sans flèche).",
+        "en": "Warning triangle with a \"!\" inside, surrounded by a circular arrow, orange. Different from the general warning (red triangle without arrow)."
+      },
+      "position": { "fr": "2021-2024 : à droite de l'écran, rangée du haut, côté écran (à gauche de la pompe à essence). 2025-2026 : colonne droite, 2e témoin (déduit, à confirmer)." },
+      "comportement_normal": { "fr": "Clignote lentement après le contact jusqu'à 5 km/h, puis s'éteint (antipatinage actif). Clignote vite en roulant quand l'ATC, l'AWC ou le launch control interviennent. Fixe si le pilote a mis l'ATC à 0 (message « ATC DISABLED » pendant 5 s) et après un rebranchement de la batterie." },
+      "signification": { "fr": "Fixe sans désactivation volontaire : antipatinage (ATC) et anti-wheeling (AWC) désactivés par un défaut, souvent avec le message ALARM ATC DISABLED." },
+      "gravite": 3,
+      "action": { "fr": "Couper puis remettre le contact, réactiver l'ATC, rouler au-delà de 5 km/h. S'il reste fixe : rouler prudemment (pas d'antipatinage) et aller en concession." },
+      "arret_immediat": false,
+      "operations": ["op-diagnostic-outil"],
+      "confiance": "ok",
+      "sources": ["src-manuel-proprietaire#p35", "src-manuel-proprietaire#p91", "src-manuel-proprietaire#p94", "src-manuel-proprietaire#p98", "src-ultimate-essai-2021"]
+    },
+    {
+      "id": "vo-alerte-generale",
+      "nom": { "fr": "Alerte générale", "en": "General warning" },
+      "couleur": "rouge",
+      "picto": "commun/pictos/alerte.svg",
+      "description_picto": {
+        "fr": "Triangle d'avertissement rouge avec un point d'exclamation, sans flèche autour. Toujours accompagné d'un bandeau de texte à l'écran : rouge « ALARM … » ou orange « WARNING … », avec un triangle blanc.",
+        "en": "Red warning triangle with an exclamation mark, no arrow around it. Always comes with a text banner on the screen: red \"ALARM ...\" or orange \"WARNING ...\", with a white triangle."
+      },
+      "position": { "fr": "2021-2024 : LED à droite de l'écran, 2e rangée côté écran (sous l'a-PRC). 2025-2026 : probablement une icône dans l'écran et non une LED (déduit du manuel RSV4)." },
+      "comportement_normal": { "fr": "S'allume seulement pendant l'autotest à la mise du contact." },
+      "signification": { "fr": "Défaut signalé ; la gravité dépend du message. Fixe : ALARM SERVICE (tableau de bord ou ECU), ALARM OIL SENSOR (capteur de pression d'huile), ALARM CAN BUS OFF, ALARM CAN HLU (phare déconnecté), ALARM IMMO + code (immobiliseur), ALARM BRAKE STUCK (frein actionné plus de 60 s), ALARM CAN ECU DISCONNECTED (feux de détresse automatiques). Clignotant : ALARM OIL PRESSURE ou surchauffe. Clignotant rapide : ALARM URGENT SERVICE." },
+      "gravite": 4,
+      "action": { "fr": "Lire le message affiché. ALARM OIL PRESSURE ou surchauffe : arrêt immédiat. ALARM CAN ECU DISCONNECTED : se ranger. ALARM URGENT SERVICE : rejoindre la concession à basse vitesse. BRAKE STUCK : relâcher le frein et vérifier le contacteur de stop. Autres messages : concession dès que possible." },
+      "arret_immediat": false,
+      "operations": ["op-diagnostic-outil"],
+      "confiance": "ok",
+      "sources": ["src-manuel-proprietaire#p31", "src-manuel-proprietaire#p33", "src-manuel-proprietaire#p34", "src-manuel-proprietaire#p35", "src-manuel-proprietaire#p36", "src-manuel-proprietaire#p37", "src-manuel-proprietaire#p123", "src-manuel-rsv4-2021#p27"]
+    },
+    {
+      "id": "vo-pression-huile",
+      "nom": { "fr": "Pression d'huile (ALARM OIL PRESSURE)", "en": "Oil pressure (ALARM OIL PRESSURE)" },
+      "couleur": "rouge",
+      "picto": "commun/pictos/huile.svg",
+      "description_picto": {
+        "fr": "Pas de témoin dédié sur la RS 660 : bandeau rouge en bas de l'écran avec un triangle blanc « ! » et le texte « ALARM OIL PRESSURE », alerte générale rouge clignotante.",
+        "en": "No dedicated light on the RS 660: red banner at the bottom of the screen with a white \"!\" triangle and the text \"ALARM OIL PRESSURE\", red general warning flashing."
+      },
+      "position": { "fr": "Bandeau à la place de la barre d'informations, en bas de l'écran, et LED d'alerte générale." },
+      "comportement_normal": { "fr": "Jamais affiché en fonctionnement normal." },
+      "signification": { "fr": "Pression d'huile anormale : risque de destruction du moteur. À ne pas confondre avec ALARM OIL SENSOR (alerte fixe : capteur défaillant, concession au plus vite)." },
+      "gravite": 5,
+      "action": { "fr": "Arrêter le moteur dès que possible en sécurité et ne pas le redémarrer. Contrôler le niveau d'huile et contacter la concession ou une assistance." },
+      "arret_immediat": true,
+      "operations": ["op-niveau-huile"],
+      "confiance": "ok",
+      "sources": ["src-manuel-proprietaire#p34"]
+    },
+    {
+      "id": "vo-surchauffe",
+      "nom": { "fr": "Surchauffe moteur", "en": "Engine overheating" },
+      "couleur": "rouge",
+      "picto": "commun/pictos/temperature.svg",
+      "description_picto": {
+        "fr": "Icône de l'écran : thermomètre plongé dans des vagues, en rouge, avec le dernier segment de la jauge C–H en rouge ; alerte générale rouge allumée. 2025-2026 : la température d'eau est chiffrée en haut à gauche (115 °C / 239 °F ou plus).",
+        "en": "Screen icon: thermometer dipped in waves, red, with the last segment of the C-H gauge red; red general warning on. 2025-2026: coolant temperature shown as a number at top left (115 °C / 239 °F or more)."
+      },
+      "position": { "fr": "En haut à gauche de l'écran (jauge de température d'eau), et LED d'alerte générale." },
+      "comportement_normal": { "fr": "Jauge à barres sans valeur chiffrée (2021-2024) : environ 3 barres en roulant, la 4e possible dans les bouchons (une seule source)." },
+      "signification": { "fr": "Liquide de refroidissement à 115 °C ou plus." },
+      "gravite": 5,
+      "action": { "fr": "S'arrêter. Procédure du manuel : laisser tourner environ 2 min vers 3 000 tr/min, puis couper avec le coupe-circuit (pas avec la clé : couper le contact arrête les ventilateurs). Laisser refroidir, contrôler le niveau moteur froid. Si l'alerte persiste : concession." },
+      "arret_immediat": true,
+      "operations": ["op-niveau-liquide-refroidissement", "op-controle-refroidissement"],
+      "confiance": "ok",
+      "sources": ["src-manuel-proprietaire#p31", "src-manuel-proprietaire#p35", "src-manuel-proprietaire#p127", "src-video-hormigaz-tableau-de-bord"]
+    },
+    {
+      "id": "vo-service-urgent",
+      "nom": { "fr": "Service urgent (mode dégradé)", "en": "Urgent service (limp mode)" },
+      "couleur": "rouge",
+      "picto": "commun/pictos/alerte.svg",
+      "description_picto": {
+        "fr": "Bandeau rouge en bas de l'écran avec un triangle blanc « ! » et le texte « ALARM URGENT SERVICE » ; alerte générale rouge clignotant rapidement (environ 2 fois par seconde).",
+        "en": "Red banner at the bottom of the screen with a white \"!\" triangle and the text \"ALARM URGENT SERVICE\"; red general warning flashing fast (about twice per second)."
+      },
+      "position": { "fr": "Bandeau à la place de la barre d'informations, et LED d'alerte générale." },
+      "comportement_normal": { "fr": "Jamais affiché en fonctionnement normal." },
+      "signification": { "fr": "Défaut grave : la moto passe en mode dégradé (couple réduit, ralenti accéléré sans toucher aux gaz, ou régime bloqué vers 3 000 tr/min)." },
+      "gravite": 4,
+      "action": { "fr": "Rejoindre la concession la plus proche à basse vitesse." },
+      "arret_immediat": false,
+      "operations": ["op-diagnostic-outil"],
+      "confiance": "ok",
+      "sources": ["src-manuel-proprietaire#p33", "src-manuel-proprietaire#p34"]
+    },
+    {
+      "id": "vo-batterie",
+      "nom": { "fr": "Batterie / charge", "en": "Battery / charging" },
+      "couleur": "rouge",
+      "picto": "commun/pictos/batterie.svg",
+      "description_picto": {
+        "fr": "Icône de l'écran : batterie (rectangle avec deux bornes, signes + et −), en rouge.",
+        "en": "Screen icon: battery (rectangle with two terminals, + and - signs), red."
+      },
+      "position": { "fr": "2021-2024 : rangée d'icônes en bas de l'écran, la plus à gauche. 2025-2026 : icône dans l'écran (emplacement non documenté)." },
+      "comportement_normal": { "fr": "Absente en fonctionnement normal." },
+      "signification": { "fr": "Défaut du circuit de charge ou batterie faible. Avec un capteur de pression des pneus (accessoire), la même icône peut signaler une pression basse." },
+      "gravite": 3,
+      "action": { "fr": "Faire contrôler le circuit de charge en concession. Tester la batterie (bouton TEST de la batterie lithium ; tension après charge et 1 à 2 h de repos : au moins 12,4 V)." },
+      "arret_immediat": false,
+      "operations": ["op-batterie"],
+      "confiance": "ok",
+      "sources": ["src-manuel-proprietaire#p27", "src-manuel-proprietaire#p31", "src-manuel-proprietaire#p154", "src-manuel-proprietaire#p156"]
+    },
+    {
+      "id": "vo-entretien",
+      "nom": { "fr": "Entretien dû (clé plate)", "en": "Service due (spanner)" },
+      "couleur": "orange",
+      "picto": "commun/pictos/cle-entretien.svg",
+      "description_picto": {
+        "fr": "Icône de l'écran : clé plate, en orange.",
+        "en": "Screen icon: open-end spanner, orange."
+      },
+      "position": { "fr": "2021-2024 : rangée d'icônes en bas de l'écran, 2e en partant de la gauche (à droite de la batterie). 2025-2026 : non documenté." },
+      "comportement_normal": { "fr": "Apparaît quand un seuil d'entretien est dépassé (1 000 km, puis 10 000, 20 000 km… selon des propriétaires) et reste affichée jusqu'à la remise à zéro en concession. Pas de compte à rebours ni de kilomètres restants." },
+      "signification": { "fr": "Révision due ou en retard. Ne bride pas la moto et n'est pas une panne." },
+      "gravite": 2,
+      "action": { "fr": "Faire la révision prévue. Remise à zéro par la concession (outil P.A.D.S.) : aucune manipulation fiable n'existe aux commandes." },
+      "arret_immediat": false,
+      "operations": ["op-vidange-huile-filtre", "op-diagnostic-outil"],
+      "confiance": "une_source",
+      "sources": ["src-manuel-proprietaire#p30", "src-manuel-proprietaire#p71", "src-ultimate-essai-2021", "src-apriliaforum-intervalles", "src-apriliaforum-cle-entretien"]
+    },
+    {
+      "id": "vo-verglas",
+      "nom": { "fr": "Risque de verglas", "en": "Ice warning" },
+      "couleur": "blanc",
+      "picto": "commun/pictos/verglas.svg",
+      "description_picto": {
+        "fr": "Icône de l'écran : flocon de neige monochrome (noir sur fond blanc en mode jour, blanc sur fond noir en mode nuit).",
+        "en": "Screen icon: monochrome snowflake (black on white background in day mode, white on black in night mode)."
+      },
+      "position": { "fr": "2021-2024 : à droite de l'écran, au-dessus de la température extérieure. 2025-2026 : non documenté." },
+      "comportement_normal": { "fr": "Affiché quand la température extérieure est comprise entre −15 et +3 °C." },
+      "signification": { "fr": "Route potentiellement verglacée." },
+      "gravite": 3,
+      "action": { "fr": "Rouler avec douceur, sans freinage ni manœuvre brusques ; prudence sur les ponts et les zones à l'ombre." },
+      "arret_immediat": false,
+      "operations": [],
+      "confiance": "ok",
+      "sources": ["src-manuel-proprietaire#p31", "src-manuel-proprietaire#p128"]
+    },
+    {
+      "id": "vo-quickshifter",
+      "nom": { "fr": "Quickshifter en défaut", "en": "Quickshifter fault" },
+      "couleur": "rouge",
+      "picto": "commun/pictos/quickshifter.svg",
+      "description_picto": {
+        "fr": "Icône de l'écran : case contenant un engrenage et une flèche. Blanche ou noire = shifter actif ; grise = désactivé par le pilote ; orange = indisponible (1re, point mort, régime trop bas) ; rouge = défaut. Seul l'état rouge est un voyant.",
+        "en": "Screen icon: box with a gear wheel and an arrow. White or black = shifter active; grey = switched off by the rider; orange = unavailable (1st gear, neutral, low revs); red = fault. Only the red state is a warning."
+      },
+      "position": { "fr": "2021-2024 : rangée d'icônes en bas de l'écran, la plus à droite. 2025-2026 : non documenté." },
+      "comportement_normal": { "fr": "Toujours affichée : blanche/noire, grise ou orange selon la situation. Le shifter fonctionne au-dessus d'environ 3 000 tr/min, en montée gaz ouverts." },
+      "signification": { "fr": "Rouge : défaut du quickshifter." },
+      "gravite": 2,
+      "action": { "fr": "Passer les rapports à l'embrayage et faire contrôler en concession." },
+      "arret_immediat": false,
+      "operations": ["op-diagnostic-outil"],
+      "confiance": "ok",
+      "sources": ["src-manuel-proprietaire#p60", "src-manuel-proprietaire#p96", "src-ultimate-essai-2021", "src-video-hormigaz-tableau-de-bord"]
+    },
+    {
+      "id": "vo-bequille",
+      "nom": { "fr": "Béquille latérale", "en": "Side stand" },
+      "couleur": "orange",
+      "picto": "commun/pictos/bequille.svg",
+      "description_picto": {
+        "fr": "Béquille latérale stylisée : jambe oblique avec de petits traits (pied au sol), en orange.",
+        "en": "Stylised side stand: slanted leg with small strokes (foot on the ground), orange."
+      },
+      "position": { "fr": "2021-2024 : LED en bas de la colonne droite. 2025-2026 : probablement une icône orange en bas à gauche de l'écran (déduit d'une photo de presse, à confirmer)." },
+      "comportement_normal": { "fr": "Allumé quand la béquille latérale est dépliée, donc normal moto garée." },
+      "signification": { "fr": "Béquille sortie. Clignotant : capteur de béquille en défaut, la coupure de sécurité ne fonctionne plus." },
+      "gravite": 3,
+      "action": { "fr": "Replier la béquille avant de rouler. S'il clignote : concession." },
+      "arret_immediat": false,
+      "operations": ["op-controle-contacteurs-securite"],
+      "confiance": "ok",
+      "sources": ["src-manuel-proprietaire#p24", "src-manuel-proprietaire#p129", "src-ultimate-essai-2021", "src-video-hormigaz-tableau-de-bord", "src-motorcycle-com-factory-2026"]
+    },
+    {
+      "id": "vo-immobiliseur",
+      "nom": { "fr": "Immobiliseur (antidémarrage)", "en": "Immobilizer" },
+      "couleur": "rouge",
+      "picto": "commun/pictos/immobiliseur.svg",
+      "description_picto": {
+        "fr": "Petite LED rouge isolée (pictogramme non identifié avec certitude), au-dessus de l'écran.",
+        "en": "Small isolated red LED (pictogram not identified with certainty), above the screen."
+      },
+      "position": { "fr": "2021-2024 : au-dessus de l'écran, à gauche du logo « aprilia », sous les shift-lights intérieures gauches. 2025-2026 : coin supérieur gauche de la façade (déduit, à confirmer)." },
+      "comportement_normal": { "fr": "Clignote contact coupé (antidémarrage armé), pendant environ 48 h." },
+      "signification": { "fr": "Allumé contact mis, avec l'alerte générale et le message ALARM IMMO suivi d'un code : clé non reconnue ou immobiliseur en défaut." },
+      "gravite": 3,
+      "action": { "fr": "Démarrer en saisissant le code personnel à 5 chiffres, puis concession." },
+      "arret_immediat": false,
+      "operations": [],
+      "confiance": "ok",
+      "sources": ["src-manuel-proprietaire#p32", "src-manuel-proprietaire#p36", "src-manuel-proprietaire#p99", "src-manuel-proprietaire#p100"]
+    },
+    {
+      "id": "vo-shift-light",
+      "nom": { "fr": "Shift-light", "en": "Shift light" },
+      "couleur": "orange",
+      "picto": "commun/pictos/shift-light.svg",
+      "description_picto": {
+        "fr": "Arc de 8 petits rectangles au-dessus de l'écran, 4 de chaque côté du logo « aprilia » : les 2 extérieurs orange, les 2 intérieurs rouges de chaque côté.",
+        "en": "Arc of 8 small rectangles above the screen, 4 on each side of the \"aprilia\" logo: the 2 outer ones orange, the 2 inner ones red on each side."
+      },
+      "position": { "fr": "2021-2024 : arc au-dessus de l'écran. 2025-2026 : pas d'arc de LED séparé visible ; l'indication semble intégrée au compte-tours circulaire (déduit)." },
+      "comportement_normal": { "fr": "S'allument au régime réglé (8 000 tr/min sur une moto neuve, réglable dans le menu). Orange seuls en roulant : intervention de l'antipatinage. Rouges et orange clignotants : limiteur de stand (PIT) actif." },
+      "signification": { "fr": "Monter le rapport, ou information sur l'antipatinage / le limiteur de stand." },
+      "gravite": 1,
+      "action": { "fr": "Aucune." },
+      "arret_immediat": false,
+      "operations": [],
+      "confiance": "ok",
+      "sources": ["src-manuel-proprietaire#p24", "src-manuel-proprietaire#p59", "src-manuel-proprietaire#p85", "src-manuel-proprietaire#p122", "src-video-hormigaz-tableau-de-bord"]
+    }
+  ],
+  "tableau_de_bord": {
+    "type": {
+      "fr": "Instrumentation TFT couleur de 5 pouces et témoins LED séparés. Deux générations. 2021-2024 (RS 660, Limited Edition, Extrema ; même instrumentation que la Tuono 660) : boîtier noir en forme de bouclier, logo « aprilia » gris en haut au centre, arc de 8 LED de shift-light au-dessus de l'écran, témoins LED en colonnes à gauche et à droite. Fond blanc et chiffres noirs le jour, fond noir et chiffres blancs la nuit (capteur automatique, ou réglage forcé dans le menu Display). 2025-2026 (RS 660 et Factory) : nouveau TFT 5 pouces à collage optique repris des RSV4 / Tuono V4, façade en verre bleu nuit de forme hexagonale allongée, compte-tours circulaire, commodos rétroéclairés. Le manuel 2025 n'a pas été trouvé : la disposition des témoins 2025-2026 est déduite du manuel RSV4 et d'une photo de presse.",
+      "en": "5-inch colour TFT with separate LED indicators. Two generations: 2021-2024 (black shield-shaped housing, LED arc above the screen) and 2025-2026 (new optically bonded TFT, dark blue glass face, round rev counter)."
+    },
+    "zones": {
+      "fr": "2021-2024, écran ROAD (par défaut) : en haut, température d'eau en barres C–H à gauche (sans valeur chiffrée), nom du mode au centre (COMMUTE, DYNAMIC, INDIVIDUAL…), jauge d'essence E–F avec pompe à droite (avec parfois l'autonomie au-dessus) ; compte-tours en barre horizontale (1 à 12 × 1 000 tr/min) ; au centre la vitesse en très gros chiffres ; à droite le rapport engagé dans une case bleu-vert, et « 35 kW » dessous sur une version A2 ; en bas à gauche la barre d'informations grise (carnets Trip A/B, onglet « A » ou « B ») ; tout en bas une rangée d'icônes (batterie, clé d'entretien, liaison smartphone, casques, GPS, AUTO, quickshifter), la température extérieure et l'heure à droite, le flocon de verglas au-dessus. Écran RACE : gros chrono au tour, rapport dans une case rouge, bloc ATC/AEM/AEB/AWC/ABS. Les alertes remplacent la barre d'informations par un bandeau rouge (ALARM) ou orange (WARNING). 2025-2026 (d'après une photo de presse) : nom du mode dans un onglet gris en haut, température d'eau chiffrée en haut à gauche, compte-tours circulaire autour du rapport (dans un cercle), vitesse à gauche, heure, température extérieure et une distance en haut à droite, jauge d'essence verticale à droite, encarts ATC et AWC, icônes orange en bas."
+    },
+    "odometre": {
+      "fr": "2021-2024 : le totalisateur ne s'affiche que sur l'écran ROAD (ou NAVI), dans la barre d'informations grise en bas à gauche, sous la forme « ODOMETER 952 mi » ou « ODOMETER 12345 km » : nombre entier, sans décimale, suivi de l'unité (km ou mi selon le réglage). Le libellé peut être traduit selon la langue de l'interface (libellé français non vérifié). Il n'apparaît jamais sur l'écran RACE. Pour l'afficher : contact mis, attendre la fin de l'autotest ; si l'écran est en RACE, à l'arrêt, maintenir MODE RIGHT, puis MENU → Vehicle → Mode → ROAD ; en ROAD, appuis brefs sur MODE RIGHT jusqu'à la page Trip A ou Trip B ; puis appuis brefs sur MODE UP ou MODE DOWN jusqu'à « ODOMETER ». La valeur est la même dans les carnets A et B et ne se remet jamais à zéro. 2025-2026 : emplacement du totalisateur non documenté ; la distance affichée en haut à droite, à côté de la température extérieure (ex. « 112 mi »), n'est pas identifiée (autonomie ou trajet partiel)."
+    },
+    "pieges_lecture": {
+      "fr": "Ne pas prendre pour le totalisateur : la vitesse (plus grands chiffres de l'écran, toujours 3 caractères avec des zéros de tête gris, ex. « 088 », suivie de km/h ou mph) ; « TRIP ODOMETER » (distance partielle, dans la même barre), « TRIP TIME », « MAX SPEED 255 km/h », vitesse moyenne, consommations ; l'autonomie (petit nombre près de la pompe en haut à droite, ex. « 68 mi », absente sur certains logiciels européens) ; l'heure (« 11:59 », sans AM/PM) ; la température extérieure (« 22°C ») ou d'eau (2025-2026, ex. « 169°F ») ; « 35 kW » (bridage A2) ; la vitesse du régulateur (nombre et pictogramme de compteur) ; la vitesse du limiteur de stand (drapeau à damier) ; le rapport engagé ; le chrono et les numéros de tour (RACE) ; les niveaux ATC/AEM/AEB/AWC/ABS ; le seuil de shift-light ou les numéros de version dans les menus ; l'écran du code personnel à 5 chiffres. Autres pièges : à la mise du contact, autotest de 2 à 3 s où tous les témoins s'allument ; reflets du soleil sur l'écran ; unité qui clignote 30 s à chaque contact si l'unité d'usine a été changée ; à l'arrêt moteur tournant, quelques km/h peuvent s'afficher ; sur le dessin du manuel 2021, les témoins N et DRL sont inversés par rapport aux motos de série."
+    },
+    "confiance": "une_source",
+    "sources": ["src-manuel-proprietaire#p22", "src-manuel-proprietaire#p24", "src-manuel-proprietaire#p25", "src-manuel-proprietaire#p26", "src-manuel-proprietaire#p28", "src-manuel-proprietaire#p41", "src-manuel-proprietaire#p42", "src-manuel-proprietaire#p69", "src-manuel-proprietaire#p89", "src-ultimate-essai-2021", "src-ultimate-motorcycling-2021", "src-video-hormigaz-tableau-de-bord", "src-apriliaforum-autonomie", "src-iamabiker-2020", "src-motorradundreisen-2021", "src-motorcycle-com-extrema-2024", "src-motorcycle-com-factory-2026", "src-motorcycle-com-2025-presentation", "src-insella-2025", "src-motorbox-eicma-2024", "src-repaire-factory-2025", "src-rider-2025", "src-manuel-rsv4-2021#p24"]
+  },
+  "brief_ia": {
+    "en": "You are reading ONE photo of the instrument cluster of an APRILIA RS 660 sport motorcycle (model years 2021-2026).\nGoals: (1) read the TOTAL odometer, (2) list the warning and indicator lights that are clearly lit, (3) copy any alert text.\nGolden rule: never guess. If a value or a light is not clearly readable, use null or leave it out, and lower \"confiance\".\nAnswer with ONE JSON object only, no text before or after it, no comments.\n\nSTEP 1 - IS THE PHOTO USABLE?\n- If it is not a motorcycle instrument cluster, or the screen is off, black, blurred or hidden by glare: odometre_km = null, voyants_allumes = [], explain in \"notes\".\n- Self-test: just after key-on, ALL indicator LEDs light up together for 2-3 s (with an \"aprilia\" animation). If most lights are lit at the same time, set \"autotest\": true and return voyants_allumes = [] (nothing is a fault).\n\nSTEP 2 - IDENTIFY THE GENERATION\n- GEN1 (2021-2024): black shield-shaped housing, grey \"aprilia\" logo top-centre, 5\" colour TFT. Arc of 8 small rectangular LEDs above the screen (2 outer orange, 2 inner red on each side = shift lights). Round LED pictograms on the black bezel, in columns LEFT and RIGHT of the screen. Horizontal bar rev counter (1-12 x1000 rpm), grey info bar at the bottom-left of the TFT.\n- GEN2 (2025-2026): dark navy-blue glass, elongated hexagonal face. CIRCULAR rev counter (0-12) around the gear letter in a circle; riding-mode name in a grey tab at the top (e.g. INDIVIDUAL); numeric coolant temperature top-left (e.g. 169°F); vertical fuel gauge on the right; one column of LED pictograms on each side inside the glass.\n- Day mode = white background, black digits; night mode = black background, white digits. Units can be km and km/h, or mi and mph.\n\nSTEP 3 - ODOMETER\nGEN1:\n- Shown ONLY on the ROAD (or NAVI) screen, in the grey info bar at the bottom-left of the TFT: the word \"ODOMETER\" (may be translated, e.g. ODOMETRO or KILOMETERSTAND; the French label is unknown) followed by an integer and its unit, e.g. \"ODOMETER 952 mi\" or \"ODOMETER 12345 km\". A small tab \"A\" or \"B\" (trip log) sits under that bar, with an up/down double arrow at its left end. The odometer is an integer with no decimal.\n- If that bar shows \"TRIP ODOMETER\" (partial distance), \"TRIP TIME\", \"MAX SPEED\", \"AVERAGE SPEED\", \"AVERAGE FUEL CONSUMPTION\", \"INSTANTANEOUS FUEL CONSUMPTION\", phone, music or tyre-pressure information, or if it is replaced by a red or orange ALARM / WARNING banner: the odometer is NOT visible, odometre_km = null. If it shows TRIP ODOMETER, set trip_detecte = true and put its value in trip_valeur.\n- The RACE screen (very large lap time like 01'52\"18, \"LAP\", \"BEST:\", block \"ATC 4 | AEM 3 | AEB 5 | AWC ON | ABS 2\", gear in a red box) never shows the odometer.\nGEN2:\n- The odometer location is not documented. Accept a number as odometer ONLY if it is labelled ODO / ODOMETER (or a translation) or clearly labelled as total distance. Otherwise odometre_km = null and list the number in \"autres_nombres\".\nNEVER TAKE FOR THE ODOMETER:\n- the road speed: largest digits in the centre, always 3 characters with pale grey leading zeros (\"088\", \"000\"), followed by km/h or mph;\n- TRIP ODOMETER, TRIP TIME, MAX SPEED (e.g. \"MAX SPEED 255 km/h\"), AVERAGE SPEED, fuel consumption (km/l, l/100km, mpg);\n- the remaining range: small number with km or mi next to the fuel pump and the E-F bars at the top right (e.g. \"68 mi\"); on GEN2, the distance next to the outside temperature at the top right (e.g. \"87°F 112 mi\") is unidentified (range or trip): do not use it;\n- the rev-counter scale numbers 1-12; the clock (\"11:59\", no AM/PM); the outside temperature (\"22°C\", \"83°F\"); the coolant temperature (GEN2, e.g. \"169°F\");\n- \"35 kW\" (A2 power restriction, under the gear box); the cruise-control set speed (number with a small speedometer pictogram, right of the speed); the pit-limiter speed (chequered flag and number);\n- the gear indicator (N or 1-6 in a coloured box or circle); lap times and lap numbers; ATC / AEM / AEB / AWC / ABS levels; the shift-light threshold (e.g. 8000) or software version numbers in menus; the 5-digit personal code screen.\nIf some digits are hidden, cut off or doubtful, return null rather than a guess.\n\nSTEP 4 - LIGHTS (use ONLY these ids)\nGEN1 LED layout (rider's view, production bikes):\n- Above the screen: vo-shift-light = arc of 8 rectangles (outer orange, inner red). vo-immobiliseur = small red LED just left of the \"aprilia\" logo, under the inner left shift lights.\n- LEFT of the screen, top to bottom: vo-clignotant-gauche (green arrow pointing left); then a row with vo-mil (orange engine silhouette, outer side) and vo-abs (orange \"ABS\" in a circle between two arcs, screen side); then, on the screen side: vo-regulateur (green speedometer dial with an arrow), vo-feu-de-route (blue headlamp with horizontal rays), vo-drl at the bottom (green bullet-shaped headlamp with rows of dots).\n- RIGHT of the screen, top to bottom: vo-clignotant-droit (green arrow pointing right); then a row with vo-aprc (orange triangle with \"!\" inside a circular arrow, screen side) and vo-reserve-carburant (orange fuel pump, outer side); then, on the screen side: vo-alerte-generale (RED triangle with \"!\", no arrow), vo-point-mort (green letter N), vo-bequille at the bottom (orange side-stand pictogram).\nGEN2 LED layout (probable): red vo-immobiliseur at the top-left corner; left column top to bottom: vo-clignotant-gauche, vo-abs, vo-regulateur, vo-feu-de-route, vo-mil; right column top to bottom: vo-clignotant-droit, vo-aprc, vo-drl, vo-reserve-carburant, vo-point-mort. On GEN2 the general warning and the side stand are probably icons inside the screen (orange icons at the bottom-left), and there is no separate shift-light arc.\nSCREEN ICONS AND ALERTS (both generations):\n- vo-surchauffe: red coolant thermometer icon and/or last segment of the C-H bars red (GEN2: coolant 115 °C / 239 °F or more), usually with the red general warning.\n- vo-pression-huile: red banner with a white \"!\" triangle and the text \"ALARM OIL PRESSURE\".\n- vo-service-urgent: red banner \"ALARM URGENT SERVICE\".\n- vo-batterie: RED battery icon (+ and -) in the bottom icon row.\n- vo-entretien: ORANGE spanner icon in the bottom icon row.\n- vo-abs-avant-seul: orange \"ABS\" icon with a small motorcycle, top-left of the screen under the coolant gauge (ABS level 1).\n- vo-verglas: snowflake icon on the right, above the outside temperature.\n- vo-quickshifter: ONLY if the quickshifter box (gear wheel and arrow, far right of the icon row) is RED. White, black, grey or orange: do not report it.\n- Any other red \"ALARM ...\" or orange \"WARNING ...\" banner: report vo-alerte-generale and copy the text in textes_alerte.\nNever report as lights: the fuel pump of the E-F gauge when it is not orange, the headlamp \"AUTO\" icon, the phone-link icon (circle with dots), phone battery, phone, two helmets, GPS pin, chequered flag (pit limiter), the riding-mode name, the ATC / AWC boxes.\n\nSTEP 5 - NORMAL SITUATIONS (put these ids in voyants_normaux, NOT in voyants_allumes)\n- vo-abs or vo-aprc lit while the displayed speed is 0 to 5 km/h (0 to 3 mph): normal, they flash until 5 km/h.\n- vo-mil lit while the engine is clearly not running (rev counter at zero, no rpm bar): normal bulb check. If the engine is running (rev counter at idle, about 1,400 rpm, or higher) or if you cannot tell, report it in voyants_allumes.\n- vo-bequille lit while the displayed speed is 0: normal, the side stand is down. Report it in voyants_allumes only if a speed above 0 is displayed.\n- vo-immobiliseur flashing while the dashboard is off: normal, anti-theft armed.\n- Information lights (turn signals, high beam, neutral, DRL, cruise control, shift lights): report them in voyants_allumes when lit; they are not faults.\n- vo-aprc steady with the pop-up \"ATC DISABLED\": the rider switched traction control off; still report it in voyants_allumes.\n- The pop-up \"INSERT YOUR PERSONAL CODE\" is a normal reminder: copy it in textes_alerte, it is not a fault.\n\nOUTPUT - exactly these keys:\n{\"generation\": \"gen1\" | \"gen2\" | \"inconnue\", \"ecran\": \"road\" | \"race\" | \"navi\" | \"menu\" | \"alerte\" | \"autre\" | \"inconnu\", \"odometre_affiche\": integer or null, \"unite\": \"km\" | \"mi\" | null, \"odometre_km\": integer or null, \"libelle_odometre\": string or null, \"trip_detecte\": true | false, \"trip_valeur\": number or null, \"voyants_allumes\": [\"vo-...\"], \"voyants_normaux\": [\"vo-...\"], \"textes_alerte\": [\"...\"], \"autotest\": true | false, \"autres_nombres\": [{\"texte\": \"...\", \"position\": \"...\", \"interpretation\": \"vitesse\" | \"autonomie\" | \"trip\" | \"heure\" | \"temperature\" | \"regime\" | \"autre\"}], \"confiance\": number from 0 to 1, \"notes\": \"...\"}\nField rules:\n- odometre_affiche: the odometer number exactly as displayed, digits only.\n- unite: the unit displayed next to the odometer.\n- odometre_km: the odometer in kilometres: equal to odometre_affiche if unite is \"km\"; odometre_affiche x 1.609344 rounded to the nearest integer if unite is \"mi\"; null if no odometer.\n- libelle_odometre: the label you read before the number (e.g. \"ODOMETER\").\n- trip_detecte: true if a trip or partial value is displayed instead of the odometer.\n- voyants_allumes: ids of lights clearly lit and not explained by a normal situation of step 5; empty list if none or if autotest is true.\n- voyants_normaux: ids of lights lit but explained by a normal situation of step 5.\n- textes_alerte: banner and pop-up texts copied exactly, in the displayed language.\n- confiance: 1 = everything clearly readable; 0 = unusable photo. Lower it for glare, blur, partial view, unknown label or doubtful lights.\n- notes: one short sentence (e.g. \"glare on the left of the screen\", \"RACE screen, odometer not displayed\").",
+    "fr": "Tu lis UNE photo du tableau de bord d'une moto sportive APRILIA RS 660 (millésimes 2021 à 2026).\nObjectifs : (1) lire le TOTALISATEUR kilométrique, (2) lister les témoins nettement allumés, (3) recopier tout texte d'alerte.\nRègle d'or : ne devine jamais. Si une valeur ou un témoin n'est pas clairement lisible, mets null ou ne le cite pas, et baisse « confiance ».\nRéponds par UN SEUL objet JSON, sans texte avant ni après, sans commentaire.\n\nÉTAPE 1 - LA PHOTO EST-ELLE EXPLOITABLE ?\n- Si ce n'est pas un tableau de bord de moto, ou si l'écran est éteint, noir, flou ou masqué par un reflet : odometre_km = null, voyants_allumes = [], explique dans « notes ».\n- Autotest : juste après la mise du contact, TOUS les témoins s'allument ensemble pendant 2 à 3 s (avec une animation « aprilia »). Si la plupart des témoins sont allumés en même temps, mets « autotest » : true et voyants_allumes = [] (aucune panne).\n\nÉTAPE 2 - IDENTIFIER LA GÉNÉRATION\n- GEN1 (2021-2024) : boîtier noir en forme de bouclier, logo « aprilia » gris en haut au centre, écran TFT couleur 5 pouces. Arc de 8 petites LED rectangulaires au-dessus de l'écran (2 extérieures orange et 2 intérieures rouges de chaque côté = shift-light). Pictogrammes LED ronds sur la façade noire, en colonnes à GAUCHE et à DROITE de l'écran. Compte-tours en barre horizontale (1 à 12 x 1000 tr/min), barre d'informations grise en bas à gauche de l'écran.\n- GEN2 (2025-2026) : façade en verre bleu nuit, hexagonale et allongée. Compte-tours CIRCULAIRE (0 à 12) autour du rapport engagé dans un cercle ; nom du mode dans un onglet gris en haut (ex. INDIVIDUAL) ; température d'eau chiffrée en haut à gauche (ex. 169°F) ; jauge d'essence verticale à droite ; une colonne de pictogrammes LED de chaque côté, dans le verre.\n- Mode jour = fond blanc et chiffres noirs ; mode nuit = fond noir et chiffres blancs. Les unités peuvent être km et km/h, ou mi et mph.\n\nÉTAPE 3 - TOTALISATEUR\nGEN1 :\n- Affiché UNIQUEMENT sur l'écran ROAD (ou NAVI), dans la barre d'informations grise en bas à gauche de l'écran : le mot « ODOMETER » (éventuellement traduit, ex. ODOMETRO ou KILOMETERSTAND ; libellé français inconnu) suivi d'un nombre entier et de son unité, ex. « ODOMETER 952 mi » ou « ODOMETER 12345 km ». Un petit onglet « A » ou « B » (carnet de trajet) se trouve sous cette barre, avec une double flèche haut/bas à son extrémité gauche. Le totalisateur est un entier sans décimale.\n- Si la barre affiche « TRIP ODOMETER » (distance partielle), « TRIP TIME », « MAX SPEED », « AVERAGE SPEED », « AVERAGE FUEL CONSUMPTION », « INSTANTANEOUS FUEL CONSUMPTION », une information téléphone, musique ou pression des pneus, ou si elle est remplacée par un bandeau rouge ou orange ALARM / WARNING : le totalisateur n'est PAS visible, odometre_km = null. Si elle affiche TRIP ODOMETER, mets trip_detecte = true et sa valeur dans trip_valeur.\n- L'écran RACE (très gros chrono comme 01'52\"18, « LAP », « BEST: », bloc « ATC 4 | AEM 3 | AEB 5 | AWC ON | ABS 2 », rapport dans une case rouge) n'affiche jamais le totalisateur.\nGEN2 :\n- L'emplacement du totalisateur n'est pas documenté. N'accepte un nombre comme totalisateur QUE s'il porte le libellé ODO / ODOMETER (ou une traduction) ou un libellé clair de distance totale. Sinon odometre_km = null et mets le nombre dans « autres_nombres ».\nNE JAMAIS PRENDRE POUR LE TOTALISATEUR :\n- la vitesse : plus grands chiffres au centre, toujours 3 caractères avec des zéros de tête gris pâle (« 088 », « 000 »), suivis de km/h ou mph ;\n- TRIP ODOMETER, TRIP TIME, MAX SPEED (ex. « MAX SPEED 255 km/h »), AVERAGE SPEED, les consommations (km/l, l/100km, mpg) ;\n- l'autonomie : petit nombre en km ou mi à côté de la pompe et des barres E-F en haut à droite (ex. « 68 mi ») ; en GEN2, la distance à côté de la température extérieure en haut à droite (ex. « 87°F 112 mi ») n'est pas identifiée (autonomie ou trajet) : ne l'utilise pas ;\n- les graduations 1 à 12 du compte-tours ; l'heure (« 11:59 », sans AM/PM) ; la température extérieure (« 22°C », « 83°F ») ; la température d'eau (GEN2, ex. « 169°F ») ;\n- « 35 kW » (bridage A2, sous la case du rapport) ; la vitesse du régulateur (nombre avec un petit pictogramme de compteur, à droite de la vitesse) ; la vitesse du limiteur de stand (drapeau à damier et nombre) ;\n- le rapport engagé (N ou 1 à 6 dans une case ou un cercle de couleur) ; les temps et numéros de tour ; les niveaux ATC / AEM / AEB / AWC / ABS ; le seuil de shift-light (ex. 8000) ou les numéros de version dans les menus ; l'écran du code personnel à 5 chiffres.\nSi des chiffres sont masqués, coupés ou douteux, renvoie null plutôt qu'une supposition.\n\nÉTAPE 4 - TÉMOINS (utilise UNIQUEMENT ces identifiants)\nDisposition des LED GEN1 (vue du pilote, motos de série) :\n- Au-dessus de l'écran : vo-shift-light = arc de 8 rectangles (orange à l'extérieur, rouges à l'intérieur). vo-immobiliseur = petite LED rouge juste à gauche du logo « aprilia », sous les shift-lights intérieures gauches.\n- À GAUCHE de l'écran, de haut en bas : vo-clignotant-gauche (flèche verte vers la gauche) ; puis une rangée avec vo-mil (silhouette de moteur orange, côté extérieur) et vo-abs (« ABS » orange dans un cercle entre deux arcs, côté écran) ; puis, côté écran : vo-regulateur (cadran de compteur vert avec une flèche), vo-feu-de-route (phare bleu à rayons horizontaux), vo-drl en bas (phare vert en ogive avec des rangées de points).\n- À DROITE de l'écran, de haut en bas : vo-clignotant-droit (flèche verte vers la droite) ; puis une rangée avec vo-aprc (triangle orange avec « ! » dans une flèche circulaire, côté écran) et vo-reserve-carburant (pompe à essence orange, côté extérieur) ; puis, côté écran : vo-alerte-generale (triangle ROUGE avec « ! », sans flèche), vo-point-mort (lettre N verte), vo-bequille en bas (béquille latérale orange).\nDisposition des LED GEN2 (probable) : vo-immobiliseur rouge dans le coin supérieur gauche ; colonne gauche de haut en bas : vo-clignotant-gauche, vo-abs, vo-regulateur, vo-feu-de-route, vo-mil ; colonne droite de haut en bas : vo-clignotant-droit, vo-aprc, vo-drl, vo-reserve-carburant, vo-point-mort. En GEN2, l'alerte générale et la béquille sont probablement des icônes dans l'écran (icônes orange en bas à gauche), et il n'y a pas d'arc de shift-light séparé.\nICÔNES DE L'ÉCRAN ET ALERTES (les deux générations) :\n- vo-surchauffe : icône thermomètre rouge et/ou dernier segment des barres C-H rouge (GEN2 : eau à 115 °C / 239 °F ou plus), en général avec l'alerte générale rouge.\n- vo-pression-huile : bandeau rouge avec un triangle « ! » blanc et le texte « ALARM OIL PRESSURE ».\n- vo-service-urgent : bandeau rouge « ALARM URGENT SERVICE ».\n- vo-batterie : icône de batterie ROUGE (+ et -) dans la rangée d'icônes du bas.\n- vo-entretien : icône de clé plate ORANGE dans la rangée d'icônes du bas.\n- vo-abs-avant-seul : icône « ABS » orange avec une petite moto, en haut à gauche de l'écran sous la jauge de température (ABS niveau 1).\n- vo-verglas : icône flocon à droite, au-dessus de la température extérieure.\n- vo-quickshifter : SEULEMENT si la case du quickshifter (engrenage et flèche, tout à droite de la rangée d'icônes) est ROUGE. Blanche, noire, grise ou orange : ne la signale pas.\n- Tout autre bandeau rouge « ALARM ... » ou orange « WARNING ... » : signale vo-alerte-generale et recopie le texte dans textes_alerte.\nNe jamais signaler comme témoins : la pompe de la jauge E-F quand elle n'est pas orange, l'icône phare « AUTO », l'icône de liaison téléphone (cercle avec des points), la batterie du téléphone, le téléphone, les deux casques, le repère GPS, le drapeau à damier (limiteur de stand), le nom du mode, les encarts ATC / AWC.\n\nÉTAPE 5 - SITUATIONS NORMALES (mets ces identifiants dans voyants_normaux, PAS dans voyants_allumes)\n- vo-abs ou vo-aprc allumés alors que la vitesse affichée est de 0 à 5 km/h (0 à 3 mph) : normal, ils clignotent jusqu'à 5 km/h.\n- vo-mil allumé alors que le moteur ne tourne clairement pas (compte-tours à zéro) : contrôle normal du témoin. Si le moteur tourne (compte-tours au ralenti, environ 1 400 tr/min, ou plus) ou si tu ne peux pas le savoir, mets-le dans voyants_allumes.\n- vo-bequille allumé alors que la vitesse affichée est 0 : normal, la béquille est dépliée. Mets-le dans voyants_allumes seulement si une vitesse supérieure à 0 est affichée.\n- vo-immobiliseur qui clignote tableau de bord éteint : normal, antidémarrage armé.\n- Témoins d'information (clignotants, feu de route, point mort, DRL, régulateur, shift-light) : mets-les dans voyants_allumes s'ils sont allumés ; ce ne sont pas des pannes.\n- vo-aprc fixe avec le message « ATC DISABLED » : le pilote a coupé l'antipatinage ; mets-le quand même dans voyants_allumes.\n- Le message « INSERT YOUR PERSONAL CODE » est un rappel normal : recopie-le dans textes_alerte, ce n'est pas une panne.\n\nSORTIE - exactement ces clés :\n{\"generation\": \"gen1\" | \"gen2\" | \"inconnue\", \"ecran\": \"road\" | \"race\" | \"navi\" | \"menu\" | \"alerte\" | \"autre\" | \"inconnu\", \"odometre_affiche\": entier ou null, \"unite\": \"km\" | \"mi\" | null, \"odometre_km\": entier ou null, \"libelle_odometre\": texte ou null, \"trip_detecte\": true | false, \"trip_valeur\": nombre ou null, \"voyants_allumes\": [\"vo-...\"], \"voyants_normaux\": [\"vo-...\"], \"textes_alerte\": [\"...\"], \"autotest\": true | false, \"autres_nombres\": [{\"texte\": \"...\", \"position\": \"...\", \"interpretation\": \"vitesse\" | \"autonomie\" | \"trip\" | \"heure\" | \"temperature\" | \"regime\" | \"autre\"}], \"confiance\": nombre de 0 à 1, \"notes\": \"...\"}\nRègles des champs :\n- odometre_affiche : le nombre du totalisateur exactement comme affiché, chiffres seulement.\n- unite : l'unité affichée à côté du totalisateur.\n- odometre_km : le totalisateur en kilomètres : égal à odometre_affiche si unite vaut « km » ; odometre_affiche x 1,609344 arrondi à l'entier le plus proche si unite vaut « mi » ; null s'il n'y a pas de totalisateur.\n- libelle_odometre : le libellé lu avant le nombre (ex. « ODOMETER »).\n- trip_detecte : true si une valeur de trajet partiel est affichée à la place du totalisateur.\n- voyants_allumes : identifiants des témoins nettement allumés et non expliqués par une situation normale de l'étape 5 ; liste vide s'il n'y en a pas ou si autotest vaut true.\n- voyants_normaux : identifiants des témoins allumés mais expliqués par une situation normale de l'étape 5.\n- textes_alerte : textes des bandeaux et messages recopiés exactement, dans la langue affichée.\n- confiance : 1 = tout est clairement lisible ; 0 = photo inexploitable. Baisse-la en cas de reflet, de flou, de vue partielle, de libellé inconnu ou de témoin douteux.\n- notes : une phrase courte (ex. « reflet sur la gauche de l'écran », « écran RACE, totalisateur non affiché »)."
+  }
+}

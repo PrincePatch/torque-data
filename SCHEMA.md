@@ -97,10 +97,12 @@ Coût d'une opération = Σ `prix.moy` × (quantité utilisée ÷ `par.valeur`),
   "identite": { "marque": "Aprilia", "modele": "RS 660", "constructeur": "Piaggio & C. S.p.A.", "categorie": "sportive" },
   "versions": [
     { "id": "standard", "nom": Texte, "millesimes": [2021, …], "puissance_kw": 73.5, "puissance_ch": 100, "couple_nm": 67, "note": Texte },
-    { "id": "a2", "nom": Texte, "puissance_kw": 35, "permis": "A2", … },
+    { "id": "a2", "nom": Texte, "puissance_kw": 35, "permis": "A2", … ,
+      "variantes": [ { "millesimes": [2025], "puissance_kw": 35, "puissance_ch": 47.5, "couple_nm": 62, "note": Texte, "confiance", "sources" } ] },
     { "id": "factory", … }, { "id": "extrema", … }, { "id": "limited-edition", … }
   ],
   "millesimes": [ { "annee": 2025, "changements": Texte, "sources": […] } ],
+  // `variantes` d'une version : valeurs qui changent selon le millésime (puissance 2025+…) ; elles remplacent celles de la version pour ces années.
   "caracteristiques": [
     { "id": "cylindree", "groupe": "moteur", "libelle": Texte, "valeur": 659, "unite": "cm3", "texte": Texte?, "millesimes"?, "versions"?, "confiance", "sources" }
   ],

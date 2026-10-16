@@ -1,0 +1,2939 @@
+{
+  "version_schema": 1,
+  "maj": "2026-10-16",
+  "sources": [
+    {
+      "id": "src-1000ps-comparatif-2023-2024",
+      "titre": "1000PS — comparatif RS 660 2024 / RS 660 2023",
+      "type": "presse",
+      "url": "https://www.1000ps.com/en-gb/comparison/292810/aprilia-rs-660-2024-vs-aprilia-rs-660-2023",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-1000ps-de-annonce-35kw",
+      "titre": "1000PS.de — annonce de concessionnaire RS 660 35 kW",
+      "type": "revendeur",
+      "url": "https://www.1000ps.de/gebrauchtes-motorrad-3538405-aprilia-rs-660-35kw?pos=4",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-1000ps-rappel-poignee-2025",
+      "titre": "1000PS, rappel Aprilia 2025 : remplacement de la poignée sur RS et Tuono",
+      "type": "presse",
+      "url": "https://www.1000ps.de/businessnews-id-3013470-aprilia-rueckruf-2025-austausch-des-handgriffs-bei-rs-und-tuono",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-1000ps-rs660-2025",
+      "titre": "1000PS — fiche Aprilia RS 660 (2025)",
+      "type": "presse",
+      "url": "https://www.1000ps.com/en-us/model/9956/aprilia-rs-660/2025",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-1000ps-rs660-35kw",
+      "titre": "1000PS — annonce Aprilia RS 660 35 kW",
+      "type": "autre",
+      "url": "https://www.1000ps.de/gebrauchtes-motorrad-3472192-aprilia-rs-660-35kw",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-1000ps-rs660-factory",
+      "titre": "1000PS — fiche Aprilia RS 660 Factory",
+      "type": "presse",
+      "url": "https://www.1000ps.com/en-gb/model/12745/aprilia-rs-660-factory",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-3as-blog-2026",
+      "titre": "3AS Racing : coût d'une révision moto par marque en 2026",
+      "type": "revendeur",
+      "url": "https://blog.3as-racing.com/cout-revision-moto-par-marque-2026/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-3as-filtre-huile",
+      "titre": "3AS Racing : filtre à huile d'origine Aprilia 1A023538",
+      "type": "revendeur",
+      "url": "https://www.3as-racing.com/filtre-a-huile-moto-origine-piaggio-aprilia-660-rs-tuono-2020-1000-rsv-4-2011-1000-tuono-v4-2011-1100-tuono-2015-11-p-689705",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-af-pompe-eau",
+      "titre": "ApriliaForum : Tuono & RS 660 waterpump & oil seal replacement",
+      "type": "forum",
+      "url": "https://www.apriliaforum.com/forums/archive/index.php/t-366005.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-af1-kit-vidange",
+      "titre": "AF1 Racing : kit de vidange RS 660 (joint 831393)",
+      "type": "revendeur",
+      "url": "https://www.af1racing.com/af1-racing-liquimoly-oil-change-kit-rs660",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-af1-rizoma-diabolos-m6",
+      "titre": "AF1 Racing : diabolos Rizoma M6",
+      "type": "revendeur",
+      "url": "https://www.af1racing.com/af1-rzsc010b-rizoma-swingarm-spools-m6-black",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-af1-tuono660-tools",
+      "titre": "AF1 Racing : outils Tuono 660 / RS 660",
+      "type": "revendeur",
+      "url": "https://www.af1racing.com/tuono-660-tools",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-akrapovic-notice-rs660",
+      "titre": "Akrapovič — notice Racing Line Aprilia RS 660 (D250.1.00.0000 A, 01/2021)",
+      "type": "fabricant",
+      "url": "https://d1sfhav1wboke3.azureedge.net/ImageServer/Apim2Media/Documents/21328/95948583-f4be-438a-aa9d-8a10a77ef582.pdf",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-allianz-hivernage",
+      "titre": "Allianz, conseils pour l'hivernage d'une moto",
+      "type": "autre",
+      "url": "https://www.allianz.fr/assurance-particulier/vehicules/assurance-2-roues/conseils-pratiques/hivernage-moto.html",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-allianz-retroviseur",
+      "titre": "Allianz — Rétroviseur moto : ce que dit la loi",
+      "type": "autre",
+      "url": "https://www.allianz.fr/assurance-particulier/vehicules/assurance-2-roues/conseils-pratiques/retroviseur-moto.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-allopneus-liste",
+      "titre": "Allopneus — liste des pneus moto",
+      "type": "revendeur",
+      "url": "https://www.allopneus.com/liste/pneu-moto",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-allopneus-power6",
+      "titre": "Allopneus : Michelin Power 6 180/55 R17",
+      "type": "revendeur",
+      "url": "https://www.allopneus.com/produit/pneu-moto/michelin/sport-route/power-6/180-55-r17-73w/0006519027",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-allopneus-power6-av",
+      "titre": "Allopneus : Michelin Power 6 120/70 R17",
+      "type": "revendeur",
+      "url": "https://www.allopneus.com/produit/pneu-moto/michelin/sport-route/power-6/120-70-r17-58w/0006519023",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-allopneus-rosso-iv",
+      "titre": "Allopneus : Pirelli Diablo Rosso IV 180/55 R17",
+      "type": "revendeur",
+      "url": "https://www.allopneus.com/produit/pneu-moto/pirelli/sport-route/diablo-rosso-iv/180-55r17-73-w/0005741668",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-allopneus-rosso-iv-av",
+      "titre": "Allopneus : Pirelli Diablo Rosso IV 120/70 R17",
+      "type": "revendeur",
+      "url": "https://www.allopneus.com/produit/pneu-moto/pirelli/sport-route/diablo-rosso-iv/120-70r17-58-w/0005741665",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-allopneus-rosso-iv-corsa",
+      "titre": "Allopneus : Pirelli Diablo Rosso IV Corsa 180/55 R17",
+      "type": "revendeur",
+      "url": "https://www.allopneus.com/produit/pneu-moto/pirelli/sport-route/diablo-rosso-iv-corsa/180-55r17-73-w/0005940232",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-allopneus-s23",
+      "titre": "Allopneus : Bridgestone Battlax S23 180/55 R17",
+      "type": "revendeur",
+      "url": "https://www.allopneus.com/produit/pneu-moto/bridgestone/sport-route/battlax-s23/180-55-r17-73w/0006519009",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-an-qe-72516",
+      "titre": "Assemblée nationale — question écrite n° 72516 (silencieux non homologués)",
+      "type": "officiel",
+      "url": "https://www.assemblee-nationale.fr/dyn/12/questions/QANR5L12QE72516.pdf",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-an-qe-74237",
+      "titre": "Assemblée nationale — question écrite n° 74237",
+      "type": "officiel",
+      "url": "https://www.assemblee-nationale.fr/dyn/12/questions/QANR5L12QE74237.pdf",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-aprilia-2s0022694",
+      "titre": "aprilia.com — Échappement homologué SC-Project 2S0022694",
+      "type": "officiel",
+      "url": "https://www.aprilia.com/fr_FR/accessoires/accessoires/performance/echappement-homologu%C3%A9-sc-project-2s0022694/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-aprilia-magasinenligne-2s002397",
+      "titre": "aprilia-magasinenligne.fr — Système d'échappement SC-Project pour Aprilia RS 660 / Tuono 660 Factory 25",
+      "type": "revendeur",
+      "url": "https://www.aprilia-magasinenligne.fr/roadster/tuono-660-factory-2021-kv-ks-zt-ksm/51272/systeme-d-echappement-sc-project-pour-aprilia-rs-660/factory/tuono-600-factory-25?c=118848",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-apriliaforum-autonomie",
+      "titre": "ApriliaForum, « Tuono 660: range on a full tank? » (résumé de moteur de recherche)",
+      "type": "forum",
+      "url": "https://www.apriliaforum.com/forums/archive/index.php/t-377504.html",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-apriliaforum-bequille",
+      "titre": "ApriliaForum : béquille arrière RS 660 (bras oscillant large)",
+      "type": "forum",
+      "url": "https://www.apriliaforum.com/forums/archive/index.php/t-366829.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-apriliaforum-cle-entretien",
+      "titre": "ApriliaForum, « Removing the Service Wrench Icon » (résumé de moteur de recherche)",
+      "type": "forum",
+      "url": "https://www.apriliaforum.com/forums/archive/index.php/t-384335.html",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-apriliaforum-couples",
+      "titre": "ApriliaForum — feuille de couples de serrage RS 660 postée par un membre",
+      "type": "forum",
+      "url": "https://www.apriliaforum.com/forums/attachment.php?attachmentid=464366",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-apriliaforum-ecu-upmap",
+      "titre": "ApriliaForum — fil t-364826 (calculateur 11MP, UpMap)",
+      "type": "forum",
+      "url": "https://www.apriliaforum.com/forums/archive/index.php/t-364826.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-apriliaforum-filtre-m20",
+      "titre": "ApriliaForum — fil t-377832 (filetage du filtre à huile M20x1)",
+      "type": "forum",
+      "url": "https://www.apriliaforum.com/forums/archive/index.php/t-377832.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-apriliaforum-intervalles",
+      "titre": "ApriliaForum, « RS660 Service Intervals » (résumé de moteur de recherche)",
+      "type": "forum",
+      "url": "https://www.apriliaforum.com/forums/archive/index.php/t-374065.html",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-apriliaforum-mil-quickshifter",
+      "titre": "ApriliaForum, « RS660 Check Engine Light & Quickshifter » (résumé de moteur de recherche)",
+      "type": "forum",
+      "url": "https://www.apriliaforum.com/forums/archive/index.php/t-363847.html",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-apriliaforum-prise-diag",
+      "titre": "ApriliaForum — fil t-364851 (connecteur sous la selle, prise USB)",
+      "type": "forum",
+      "url": "https://www.apriliaforum.com/forums/archive/index.php/t-364851.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-apriliaforum-vidange",
+      "titre": "ApriliaForum : bouchon de vidange RS 660 (douille 17 mm)",
+      "type": "forum",
+      "url": "https://www.apriliaforum.com/forums/archive/index.php/t-379805.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-apriliav4-forum",
+      "titre": "apriliav4.it : forum, tagliando Tuono 660",
+      "type": "forum",
+      "url": "https://www.apriliav4.it/forum/viewtopic.php?t=69198",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-aspecialparts",
+      "titre": "Aprilia Special Parts : boutique (plaquettes adaptables RS 660)",
+      "type": "revendeur",
+      "url": "https://www.aspecialparts.com/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-aspecialparts-2b000214",
+      "titre": "Aprilia Special Parts : plaquettes AV Aprilia 2B000214",
+      "type": "revendeur",
+      "url": "https://www.aspecialparts.com/shop/braking-system/aprilia-2b000214-front-brake-pads-rs-660-tuono-660-caponord-1200/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-aspecialparts-cales",
+      "titre": "Aprilia Special Parts : kit de cales de soupapes 2R000552",
+      "type": "revendeur",
+      "url": "https://www.aspecialparts.com/shop/engine/spare-parts/aprilia-660-engine-valve-shim-kit-2r000552/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-aspecialparts-cornets",
+      "titre": "ASpecialParts — notice kit de cornets d'admission Aprilia RS660 / Tuono 660",
+      "type": "fabricant",
+      "url": "https://www.aspecialparts.com/manuals/installation-manual-aprilia-rs660-tuono-660-velocity-stacks-kit/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-aspecialparts-ecrou-ar",
+      "titre": "Aprilia Special Parts : écrou d'axe de roue AR AP8125763",
+      "type": "revendeur",
+      "url": "https://www.aspecialparts.com/shop/chassis/wheels/rear-wheel-axle-nut-ap8125763/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-aspecialparts-kit-did",
+      "titre": "Aprilia Special Parts : kit chaîne DID RS 660 / Tuono 660 17/43",
+      "type": "revendeur",
+      "url": "https://www.aspecialparts.com/shop/transmission/transmission-kit/did-chain-kit-aprilia-rs660-tuono-660-17-43/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-assurland-vent",
+      "titre": "Assurland, conduire une moto par vents forts",
+      "type": "autre",
+      "url": "https://www.assurland.com/assurance-moto/conduite/temps/vents-forts.html",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-atelier-du-motard",
+      "titre": "Atelier du Motard (Beerwiller) : tarifs",
+      "type": "revendeur",
+      "url": "https://atelierdumotard.fr/tarifs-et-informations/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-autocar-india",
+      "titre": "Autocar India — caractéristiques RS 660",
+      "type": "presse",
+      "url": "https://www.autocarindia.com/bikes/aprilia/rs-660/specifications",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-bds-obdstar-iscan",
+      "titre": "bds.lt — OBDSTAR iScan, outil de diagnostic pour motos Aprilia",
+      "type": "revendeur",
+      "url": "https://bds.lt/en/iscan-diagnostic-tool-for-aprilia-motorcycles-obdstar",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-bike-urious-2021",
+      "titre": "Bike-urious — premier essai RS 660 2021",
+      "type": "presse",
+      "url": "https://www.bike-urious.com/first-ride-review-2021-aprilia-rs660/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-bike-urious-rs660",
+      "titre": "Bike-urious — What do you want to know: 2021 Aprilia RS660",
+      "type": "presse",
+      "url": "https://bike-urious.com/what-do-you-want-to-know-2021-aprilia-rs660",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-bikeleague",
+      "titre": "BikeLeague — Aprilia RS 660",
+      "type": "presse",
+      "url": "https://www.bikeleague.in/?p=36456",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-biketeile-bmc-race",
+      "titre": "Biketeile-Service — BMC Racing FM01117RACE Aprilia RS660",
+      "type": "revendeur",
+      "url": "https://www.biketeile-service.de/en/motorcycleparts/wearingparts/filter/airfilter/bmcracingairfilterfm01117raceforapriliars660.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-billiger-power-gp2",
+      "titre": "billiger.de — pneus de course (Michelin Power GP2)",
+      "type": "revendeur",
+      "url": "https://www.billiger.de/bestseller/106083/574298-rennreifen",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-blackmoto",
+      "titre": "Blackmoto : prestations atelier",
+      "type": "revendeur",
+      "url": "https://www.blackmoto.ch/dienstleistungen1/index",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-bmc-fm01117",
+      "titre": "BMC Air Filters — FM01117",
+      "type": "fabricant",
+      "url": "https://www.bmcairfilters.com/en/products/engine-filter/bike/panel/fm01117",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-bmf-garantie",
+      "titre": "British Motorcyclists Federation, entretien d'une moto sous garantie",
+      "type": "autre",
+      "url": "https://www.britishmotorcyclists.co.uk/service-motorcycles-under-warranty/",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-bragaboys",
+      "titre": "Braga Boys Motos (Madrid) : prix de la main-d'œuvre",
+      "type": "revendeur",
+      "url": "https://www.bragaboysmotos.es/index.php/taller/precios-mano-de-obra",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-brocks-sprint",
+      "titre": "Brock's Performance : Sprint Filter RS 660 2021-2026",
+      "type": "revendeur",
+      "url": "https://brocksperformance.com/sprint-filter-p14-aprilia-rs660-21-26-tuono-21-26/",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-bt-moto-2021-2024",
+      "titre": "BT Moto — 2021-2024 Aprilia RS 660 / Tuono 660 Stage 1",
+      "type": "fabricant",
+      "url": "https://bt-moto.com/product/2021-2024-aprilia-rs-660-tuono-660-stage-1",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-bt-moto-2026",
+      "titre": "BT Moto — 2026 Aprilia RS 660 / Tuono 660 Stage 1 performance calibration",
+      "type": "fabricant",
+      "url": "https://bt-moto.com/product/2026-aprilia-rs-660--tuono-660-stage-1-performance-calibration",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-california-regina-ka042",
+      "titre": "California Motorcycles : kit chaîne Regina 520 ZRE (KA042)",
+      "type": "revendeur",
+      "url": "https://california-motorcycles.com/en/products/p12301735",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-caradisiac-ct",
+      "titre": "Caradisiac — Contrôle technique : tout ce qu'il faut savoir sur sa mise en application",
+      "type": "presse",
+      "url": "https://www.caradisiac.com/controle-technique-tout-ce-qu-il-faut-savoir-sur-sa-mise-en-application-208248.htm",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-cartegrise-sonometre",
+      "titre": "cartegrise.com — Contrôle technique moto 2025 : le sonomètre (sept. 2025)",
+      "type": "autre",
+      "url": "https://www.cartegrise.com/blog/2025/09/controle-technique-moto-2025-le-sonometre-nouvelle-bete-noire-des-motards",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-castrol",
+      "titre": "Castrol : huiles moto (partenaire cité par le groupe Piaggio)",
+      "type": "fabricant",
+      "url": "https://castrol.com/en/global/corporate/products/motorcycle.html",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-catalogue-gpc-2020-eu",
+      "titre": "Catalogue de pièces d'origine (aprilia.genuine-parts-catalogue.com) : RS 660 2020 Euro 5 ABS, version UE (machine_id 384)",
+      "type": "revendeur",
+      "url": "https://aprilia.genuine-parts-catalogue.com/aprilia-motorcycle/660-APRILIA-MOTORCYCLES/RS/2020/RS-660-4T-8V-Euro-5-ABS/3202",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-catalogue-gpc-2025",
+      "titre": "Catalogue de pièces d'origine (aprilia.genuine-parts-catalogue.com) : RS 660 2025 E5+ (machine_id 405)",
+      "type": "revendeur",
+      "url": "https://aprilia.genuine-parts-catalogue.com/aprilia-motorcycle/660-APRILIA-MOTORCYCLES/RS/2025/RS-660-4T-E5+/3301",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-cbcmoto-rhinomoto",
+      "titre": "CBC Moto — RhinoMoto supports de rétroviseurs en bout de guidon Aprilia RS 660 / RS 457",
+      "type": "revendeur",
+      "url": "https://cbcmoto.com/products/rhinomoto-mirror-mount-bar-ends-for-aprilia-rs-660-rs-457",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-cbcmoto-upmap",
+      "titre": "CBC Moto — Why choose UpMap / Gabro to flash your ECU",
+      "type": "revendeur",
+      "url": "https://cbcmoto.com/blogs/faq/why-choose-upmap-gabro-to-flash-your-ecu",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-codes-rousseau-ct",
+      "titre": "Codes Rousseau, contrôle technique moto en 2026",
+      "type": "autre",
+      "url": "https://public.codesrousseau.fr/conseils-pratiques/984-controle-technique-moto-le-ct-2-roues-2026.html",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-commons-rs660-arriere-droit",
+      "titre": "Wikimedia Commons — « Aprilia RS 660 (1) », photo 3/4 arrière droit (Cjp24, CC BY-SA 4.0), consultée pour le côté de l'étrier arrière, non reproduite",
+      "type": "autre",
+      "url": "https://commons.wikimedia.org/wiki/File:Aprilia_RS_660_(1).jpg",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-continental-age-pneu",
+      "titre": "Continental, âge des pneus",
+      "type": "fabricant",
+      "url": "https://www.continental-tires.com/fr/fr/tire-knowledge/tire-age/",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-cyclebitz-cle-filtre",
+      "titre": "Cyclebitz : clé à filtre 68 mm / 14 pans (Hiflo HF138)",
+      "type": "revendeur",
+      "url": "https://www.cyclebitz.com/oil_filter_wrench_65mm_14flute-11570.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-cyclegear-07bb03sp",
+      "titre": "Cycle Gear : Brembo 07BB03SP",
+      "type": "revendeur",
+      "url": "https://www.cyclegear.com/parts/brembo-sp-rear-brake-pads-07bb03sp",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-cyclegear-2025",
+      "titre": "CycleGear — pièces RS 660 2025 (batterie)",
+      "type": "revendeur",
+      "url": "https://www.cyclegear.com/motorcycle/2025-aprilia-rs-660?page=15",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-cyclegear-kn138",
+      "titre": "Cycle Gear : filtre à huile K&N KN-138",
+      "type": "revendeur",
+      "url": "https://www.cyclegear.com/parts/kn-oil-filter-kn-138",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-cyclegear-puig-sliders-axe",
+      "titre": "Cycle Gear — Puig axle sliders front Aprilia RS 660 / Tuono 660",
+      "type": "revendeur",
+      "url": "https://www.cyclegear.com/parts/puig-axle-sliders-front-aprilia-rs-660-tuono-660-2021-2022",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-cyclegear-rizoma-3d",
+      "titre": "Cycle Gear — Rizoma 3D brake lever Aprilia RS 660 / RSV4 1100",
+      "type": "revendeur",
+      "url": "https://www.cyclegear.com/parts/rizoma-3d-brake-lever-aprilia-rs-660-rsv4-1100-2021-2022",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-cyclenews-2025",
+      "titre": "Cycle News — RS 660 et RS 660 Factory 2025 (105 ch)",
+      "type": "presse",
+      "url": "https://www.cyclenews.com/2025/03/article/aprilia-release-revised-rs-660-factory-now-with-105-hp-for-2025",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-dafy-hivernage",
+      "titre": "Dafy Moto, comment hiverner sa moto",
+      "type": "revendeur",
+      "url": "https://www.dafy-moto.com/comment-hiverner-sa-moto.html",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-dekra-pneus-froid",
+      "titre": "DEKRA, pneus moto et démarrage à froid (résumé de recherche)",
+      "type": "autre",
+      "url": "https://www.dekra-roadsafety.com/en/motorcycle-tires-cold-start-warning/",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-dennis-kirk-regina",
+      "titre": "Dennis Kirk : chaîne Regina 520ZRE (Tuono 660)",
+      "type": "revendeur",
+      "url": "https://www.denniskirk.com/2024-aprilia-tuono-660",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-dgccrf-garanties",
+      "titre": "DGCCRF, FAQ garanties légales de conformité (octobre 2023)",
+      "type": "officiel",
+      "url": "https://artois.ufcquechoisir.fr/wp-content/uploads/sites/115/2025/06/DGCCRF-163-FAQ-garanties-l%C3%A9gales-conformit%C3%A9-Octobre-2023.pdf",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-digischool-a2",
+      "titre": "Digischool — Permis A2 : quelle puissance ?",
+      "type": "autre",
+      "url": "https://www.digischool.fr/articles/moto/permis-a2-puissance/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-dna-filtre-air",
+      "titre": "Motodracing : filtre à air DNA Aprilia RS 660",
+      "type": "revendeur",
+      "url": "https://www.motodracing.com/dna-aprilia-rs-660-air-filter",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-easyparts-arrow-collecteur",
+      "titre": "EasyParts — Collecteur catalysé Arrow Aprilia RS / Tuono 660 E5 2021-2023",
+      "type": "revendeur",
+      "url": "https://www.easyparts.com/Collector-catalytic-ARROW-Aprilia-RS-Tuono-660-E5-2021-2023-p33885810",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-ebay-afam",
+      "titre": "eBay : kit chaîne AFAM RS 660 (A520XSR-G, pignon, couronne)",
+      "type": "revendeur",
+      "url": "https://www.ebay.de/itm/266450816332",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-ebay-csp-pneumatici",
+      "titre": "eBay.de — boutique CSP Pneumatici (trains de pneus)",
+      "type": "revendeur",
+      "url": "https://www.ebay.de/str/csppneumaticisrl",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-ebay-mra-racing",
+      "titre": "eBay.de — Bulle MRA Racing « R » Aprilia RS 660 (Motodak)",
+      "type": "revendeur",
+      "url": "https://www.ebay.de/itm/356100336310",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-ebay-rosso-iv",
+      "titre": "eBay.de — Pirelli Diablo Rosso IV 120/70 ZR17",
+      "type": "revendeur",
+      "url": "https://www.ebay.de/itm/276636601179",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-ebay-s23",
+      "titre": "eBay.de — Bridgestone Battlax S23 (train 120/70 + 180/55)",
+      "type": "revendeur",
+      "url": "https://www.ebay.de/itm/286735231341",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-ecologie-ct",
+      "titre": "Ministère de la Transition écologique, contrôle technique des véhicules",
+      "type": "officiel",
+      "url": "https://www.ecologie.gouv.fr/dossiers/securite-prevention-garantir-deplacements-surs-tous/savoir-controle-technique-vehicules",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-edr-arrow-competition-evo",
+      "titre": "EDR Performance — Arrow Complete Competition Evo Titanium Aprilia Tuono 660 2021-2022",
+      "type": "revendeur",
+      "url": "https://edrperformance.com/products/arrow-complete-competition-evo-titanium-exhaust-aprilia-tuono-660-2021-2022",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-edr-irc-quickshifter",
+      "titre": "EDR Performance — IRC Aprilia RS 660 quickshifter avec blip assist (GP shift)",
+      "type": "revendeur",
+      "url": "https://edrperformance.com/products/irc-aprilia-rs-660-quickshifter-w-blip-assist-gp-shift",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-edr-reflash",
+      "titre": "EDR Performance — Aprilia ECU re-flash",
+      "type": "revendeur",
+      "url": "https://edrperformance.com/products/aprilia-ecu-re-flash",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-eplaque-support",
+      "titre": "eplaque — support de plaque moto (règles)",
+      "type": "revendeur",
+      "url": "https://www.eplaque.fr/plaque-immatriculation/support-plaque-moto",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-epm-andreani",
+      "titre": "EPM Performance — cartouche Andreani pour fourche RS 660 (code 2B01126)",
+      "type": "revendeur",
+      "url": "https://epmperformance.com/products/andreani-misano-evo-2-fork-cartridge-kit-rs-660-fork-code-on-axle-clamp-2b01126-rs-660-fork-code-on-axle-clamp-2b01126-305-a21e",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-epm-andreani-305-a21e",
+      "titre": "EPM Performance — Andreani Misano Evo 2, RS 660 code de fourche 2B01126 (305/A21E)",
+      "type": "revendeur",
+      "url": "https://epmperformance.com/products/andreani-misano-evo-2-fork-cartridge-kit-rs-660-fork-code-on-axle-clamp-2b01126-rs-660-fork-code-on-axle-clamp-2b01126-305-a21e",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-eurlex-reglement-2023-822",
+      "titre": "Règlement (UE) 2023/822 prolongeant le règlement d'exemption automobile 461/2010",
+      "type": "officiel",
+      "url": "https://eur-lex.europa.eu/eli/reg/2023/822/oj",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-evotech-grille-radiateur",
+      "titre": "Evotech Performance — grille de radiateur Aprilia RS660 2021",
+      "type": "fabricant",
+      "url": "https://evotech-performance.com/products/ep-radiator-guard-aprilia-rs660-2021",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-evotech-notice-grille-radiateur",
+      "titre": "Evotech — notice grille de radiateur RS660 (015267)",
+      "type": "fabricant",
+      "url": "https://evotech-instructions.s3.eu-west-2.amazonaws.com/instructions/015267+aprilia+rs660+radiator+guard+instructions.pdf",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-evotech-notice-tail-tidy",
+      "titre": "Evotech — notice support de plaque RS 660 (PRN015278)",
+      "type": "fabricant",
+      "url": "https://www.af1racing.com/prodimages/st3/ET660TailTidy_d7.pdf",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-evotech-quad-lock",
+      "titre": "Evotech Performance — support compatible Quad Lock Aprilia RS660 2021",
+      "type": "fabricant",
+      "url": "https://evotech-performance.com/products/ep-quad-lock-compatible-sat-nav-mount-aprilia-rs660-2021",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-evotech-sp-connect",
+      "titre": "Evotech Performance — support compatible SP Connect Aprilia RS660 2021",
+      "type": "fabricant",
+      "url": "https://evotech-performance.com/products/ep-sp-connect-compatible-sat-nav-mount-aprilia-rs660-2021",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-evotech-tail-tidy-2021",
+      "titre": "Evotech Performance — Tail tidy Aprilia RS660 2021-2024",
+      "type": "fabricant",
+      "url": "https://evotech-performance.com/collections/all/products/evotech-aprilia-rs660-tail-tidy-2021",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-evotech-tail-tidy-2025",
+      "titre": "Evotech Performance — Tail tidy Aprilia RS 660 2025+",
+      "type": "fabricant",
+      "url": "https://evotech-performance.com/products/evotech-tail-tidy-aprilia-rs-660-2025",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-gabro-oil-cooler",
+      "titre": "Gabro Racing — notice du kit radiateur d’huile RS 660",
+      "type": "fabricant",
+      "url": "https://www.gabroracing.com/wp-content/uploads/Installation-Manual-RS660-Oil-Cooler-Kit-v01.pdf",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-gabro-oil-cooler-notice",
+      "titre": "Gabro Racing — notice kit radiateur d'huile RS660 (v01)",
+      "type": "fabricant",
+      "url": "https://www.gabroracing.com/wp-content/uploads/Installation-Manual-RS660-Oil-Cooler-Kit-v01.pdf",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-garage-caussade",
+      "titre": "Garage Caussade Pneus : tarifs de montage de pneus moto",
+      "type": "revendeur",
+      "url": "https://garage-caussade-pneus.com/pneus-pneumatiques/tarif-montage-pneus-moto/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-garagemetrics-be",
+      "titre": "Garagemetrics : taux horaire des garages belges (auto)",
+      "type": "autre",
+      "url": "https://www.garagemetrics.be/articles/taux-horaire-atelier-guide-garages-belges",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-garagerevs",
+      "titre": "GarageRevs : taux de main-d'œuvre des garages au Royaume-Uni",
+      "type": "autre",
+      "url": "https://garagerevs.com/blog/garage-operations/how-much-to-charge-for-labour",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-gb-racing-ec-rs660-2025",
+      "titre": "GB Racing — set de couvercles moteur secondaires RS 660 2025 (EC-RS660-2025-SET-GBR)",
+      "type": "fabricant",
+      "url": "https://lbank-gbracing.dc02.gob2b.com/Catalogue/BY-BIKE-MODEL/APRILIA/RS-660-2025/RS-660-Secondary-Engine-Cover-SET-2025-EC-RS660-2025-SET-GBR",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-gearboxmotors",
+      "titre": "Gearboxmotors (Aarau) : prix de l'heure",
+      "type": "revendeur",
+      "url": "https://www.gearboxmotors.ch/Preise-Stunde/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-gegshop-evotech-peak-design",
+      "titre": "GEG Shop — Evotech support compatible Peak Design Aprilia RS660 2021",
+      "type": "revendeur",
+      "url": "https://gegshop.nl/products/ep-peak-design-compatible-sat-nav-mount-aprilia-rs660-2021",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-gm-tsb-pression",
+      "titre": "Bulletin GM publié par la NHTSA — pression des pneus et température",
+      "type": "autre",
+      "url": "https://static.nhtsa.gov/odi/tsbs/2022/MC-10213757-9999.pdf",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-gmh-performance",
+      "titre": "GMH Performance : tarifs",
+      "type": "revendeur",
+      "url": "https://gmhperformance.fr/tarifs/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-hd-larochesuryon",
+      "titre": "Harley-Davidson La Roche-sur-Yon : tarifs atelier 2026",
+      "type": "revendeur",
+      "url": "https://hd-larochesuryon.com/latelier/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-hhr-brembo",
+      "titre": "HHR — Brembo (maîtres-cylindres RCS Corsa Corta)",
+      "type": "revendeur",
+      "url": "https://hhr.webshopmanager.com/b-159771-1461228-brembo.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-hhr-extreme-components-gp-evo",
+      "titre": "HHR Performance — Extreme Components GP EVO rearsets (standard et inversé) RS660 / Tuono 660 2020-2022",
+      "type": "revendeur",
+      "url": "https://hhrperformance.com/products/extreme-components-gp-evo-rearsets-kit-std-and-reverse-shifting-aluminium-black-heel-aprilia-rs660-tuono-660-2020-2022",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-hhr-filtres-air",
+      "titre": "HHR Performance : filtres à air RS 660",
+      "type": "revendeur",
+      "url": "https://hhrperformance.com/c-1461280-air-filters.html",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-hintaopas-m9rr",
+      "titre": "Hintaopas.fi — Metzeler 180/55 ZR17 (comparateur)",
+      "type": "revendeur",
+      "url": "https://hintaopas.fi/s/metzeler-180-55-zr17/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-hotbikes-2s0022694",
+      "titre": "Hot Bikes — Échappement homologué SC-Project (Aprilia 2S0022694)",
+      "type": "revendeur",
+      "url": "https://eshop.hotbikes.fr/produit/echappement-homologue-sc-project/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-hsbk-marelli-race-ecu",
+      "titre": "HSBK Racing — Aprilia Racing RS 660 Marelli race ECU",
+      "type": "revendeur",
+      "url": "https://www.hsbkracing.com/parts-and-apparel/aprilia/rs-660/electrical/aprilia-racing-rs-660-marelli-race-ecu",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-iamabiker-2020",
+      "titre": "iamabiker — présentation de la RS 660 (TFT 5 pouces)",
+      "type": "presse",
+      "url": "https://iamabiker.com/stephen/2020/aprilia-rs-660-debuts-on-international-website-launching-soon/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-idgarages-2023",
+      "titre": "idGarages : baromètre de l'entretien auto 2023",
+      "type": "autre",
+      "url": "https://www.idgarages.com/fr-fr/a-propos/barometre-entretien-auto-2023",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-idgarages-2026",
+      "titre": "idGarages : baromètre de l'entretien auto 2026",
+      "type": "autre",
+      "url": "https://www.idgarages.com/fr-fr/a-propos/barometre-entretien-auto-2026",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-infotaller",
+      "titre": "Infotaller : main-d'œuvre horaire des ateliers en Espagne",
+      "type": "presse",
+      "url": "https://www.infotaller.tv/reparacion/estas-cobrando-lo-justo-en-tu-taller-asi-esta-la-mano-de-obra-por-hora-en-2025.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-insella-2025",
+      "titre": "InSella, premier contact RS 660 et RS 660 Factory 2025",
+      "type": "presse",
+      "url": "https://www.insella.it/primo_contatto/aprilia-rs-660-rs-660-factory-2025",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-ixtem-puig-20605n",
+      "titre": "ixtem moto — Puig support de plaque 20605N Aprilia RS 660",
+      "type": "revendeur",
+      "url": "https://ixtem-moto.com/en/puig-plate-bracket-20605n-aprilia-rs-660.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-ixtem-puig-r-racer",
+      "titre": "ixtem moto — Bulle Puig R-Racer 20571 Aprilia RS 660",
+      "type": "revendeur",
+      "url": "https://ixtem-moto.com/en/bulle-puig-r-racer-20571-aprilia-rs-660.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-ixtem-sw-motech-pro-blaze",
+      "titre": "ixtem moto — SW-Motech PRO BLAZE sacoches Aprilia Tuono / RS 660",
+      "type": "revendeur",
+      "url": "https://ixtem-moto.com/en/sw-motech-pro-blaze-aprilia-tuono-rs-660-panniers.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-jpcycles-07bb20sp",
+      "titre": "J&P Cycles : Brembo 07BB20SP",
+      "type": "revendeur",
+      "url": "https://www.jpcycles.com/product/brembo-sp-rear-brake-pads-07bb20sp",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-jpcycles-07bb38sa",
+      "titre": "J&P Cycles : Brembo 07BB38SA",
+      "type": "revendeur",
+      "url": "https://www.jpcycles.com/product/brembo-sa-front-brake-pads-07bb38sa",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-jpcycles-fa266hh",
+      "titre": "J&P Cycles : EBC FA266HH",
+      "type": "revendeur",
+      "url": "https://www.jpcycles.com/product/ebc-fa266hh-double-h-sintered-rear-brake-pads-open-1",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-jpcycles-hf138",
+      "titre": "J&P Cycles : HifloFiltro HF138RC",
+      "type": "revendeur",
+      "url": "https://www.jpcycles.com/product/hiflofiltro-hiflo-oil-fltr-hf138-rce",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-jpcycles-jtr703",
+      "titre": "J&P Cycles : couronne JT JTR703",
+      "type": "revendeur",
+      "url": "https://www.jpcycles.com/product/jt-sprockets-520-steel-rear-sprocket-aprilia-rs-660-tuono-660-tuareg-660-pegaso-650-bmw-g650-xmoto",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-justice-fr-a2",
+      "titre": "justice.fr — Permis moto A2 (puissance intermédiaire)",
+      "type": "officiel",
+      "url": "https://www.justice.fr/fiche/permis-moto-permis-a2moto-puissance-intermediaire",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-kn-al-6620",
+      "titre": "K&N — AL-6620 replacement air filter",
+      "type": "fabricant",
+      "url": "https://www.knfilters.com/co/al-6620-replacement-air-filter",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-kn-al6620",
+      "titre": "K&N : AL-6620 (remplace 2B006532, croise BMC FM01117)",
+      "type": "fabricant",
+      "url": "https://www.knfilters.co.uk/al-6620-replacement-air-filter",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-kn-filtre-huile",
+      "titre": "K&N : filtres à huile Aprilia RS 660",
+      "type": "fabricant",
+      "url": "https://www.knfilters.com/oil-filters/aprilia/rs660",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-la-becanerie",
+      "titre": "La Bécanerie : boutique en ligne (prix lus dans les listes de produits)",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-la-becanerie-rs660",
+      "titre": "La Bécanerie : fiche technique et pièces Aprilia RS 660",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/aprilia-rs-660.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-labecanerie-sacoches",
+      "titre": "La Bécanerie — sacoches de selle (page 3)",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/moto/bagagerie/bagagerie-souple/sacoche-de-selle/?p=3",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lautomobiliste-plaques",
+      "titre": "L'Automobiliste — le flou juridique sur les plaques d'immatriculation moto (mai 2026)",
+      "type": "presse",
+      "url": "https://lautomobiliste.fr/01/05/2026/ce-flou-juridique-sur-les-plaques-dimmatriculation-piege-des-milliers-de-motards-chaque-annee/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-bequille-ar-bikelift",
+      "titre": "La Bécanerie : béquille arrière Bike-Lift RS-17",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/bequille-arriere-noire-bike-lift-rs-17.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-bequille-ar-blackway",
+      "titre": "La Bécanerie : béquille d'atelier arrière renforcée",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/bequille-datelier-rouge-renforce-universel-pour-larriere.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-bequille-av-bikelift",
+      "titre": "La Bécanerie : béquille avant Bike-Lift",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/bequille-de-stand-avant-bike-lift-rouge.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-bequille-av-te",
+      "titre": "La Bécanerie : béquille avant sous té de fourche Bike-Lift",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/bequille-avant-sous-te-de-fourche-bike-lift-rouge-universelle.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-bmc-fm01117",
+      "titre": "La Bécanerie : filtre à air BMC FM01117 (RS 660 2020-2022)",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/filtre-a-air-bmc-fm01117-aprilia-rs-660-20-22.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-bougie-1a015311",
+      "titre": "La Bécanerie : bougie NGK MR9DI-7 sous référence Aprilia 1A015311",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/bougie-ngk-mr9di-7-1a015311-pour-aprilia-1100-rsv4-660-rs.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-bsli04",
+      "titre": "La Bécanerie : batterie BS Battery BSLi-04 lithium",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/batterie-bs-battery-bsli-04-12v-4ah-lithium.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-cle-dyna-12",
+      "titre": "La Bécanerie : clé dynamométrique 1/2\" JBM 40-210 Nm",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/cle-dynamometrique-1-2-jbm-430mm-40-210nm.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-cle-dyna-14",
+      "titre": "La Bécanerie : clé dynamométrique 1/4\" JBM 5-25 Nm",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/cle-dynamometrique-1-4-jbm-235mm-5-25nm.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-cle-dyna-38",
+      "titre": "La Bécanerie : clé dynamométrique 3/8\" JBM 20-120 Nm",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/cle-dynamometrique-3-8-jbm-420mm-20-120nm.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-dot4-motorex",
+      "titre": "La Bécanerie : liquide de frein Motorex DOT 4 1 L",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/liquide-de-frein-motorex-dot-4-1l.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-dot4-motul",
+      "titre": "La Bécanerie : liquide de frein Motul DOT 4 LV 500 mL",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/liquide-de-frein-dot-4-lv-motul-brake-fluid-500ml.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-dot4-silkolene",
+      "titre": "La Bécanerie : liquide de frein Silkolene Universal DOT 4 500 mL",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/liquide-de-frein-silkolene-universal-dot-4-500ml.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-filtre-air-origine",
+      "titre": "La Bécanerie : filtre à air 2B006532",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/filtre-a-air-2b006532-pour-aprilia-660-rs-tuono-20-.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-fusibles",
+      "titre": "La Bécanerie : assortiment de 10 fusibles enfichables 7,5 à 30 A",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/assortiment-de-10-fusibles-plats-enfichables-75-10-15-20-25-30a.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-hf138",
+      "titre": "La Bécanerie : filtre à huile HifloFiltro HF138",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/filtre-a-huile-hiflofiltro-hf138.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-hf138rc",
+      "titre": "La Bécanerie : filtre à huile HifloFiltro HF138RC",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/filtre-a-huile-hiflofiltro-racing-hf138rc.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-hfa6113",
+      "titre": "La Bécanerie : filtre à air HifloFiltro HFA6113",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/filtre-a-air-hiflofiltro-hfa6113.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-huile-fourche-bardahl",
+      "titre": "La Bécanerie : huile de fourche Bardahl XTF SAE 7,5W 500 mL",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/huile-de-fourche-bardahl-xtf-fork-oil-sae-75w-500-ml.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-huiles-4t",
+      "titre": "La Bécanerie : huiles moteur 4 temps",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/outillage/lubrifiant/huile-moteur/huile-moteur/pour-moteur-4-temps/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-jauges-epaisseur",
+      "titre": "La Bécanerie : jauges d'épaisseur JBM 0,05-1 mm",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/jauges-d-epaisseur-metrique-jbm-005-1-mm.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-joint-couvre-culasse",
+      "titre": "La Bécanerie : joint de cache culbuteur 1A011919 (RS et Tuono 660)",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/joint-de-cache-culbuteur-1a011919-pour-aprilia-660-rs-tuono-20-.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-joint-puits-bougie",
+      "titre": "La Bécanerie : joint de puits de bougie d'origine Aprilia Tuareg 660",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/joint-de-puits-de-bougie-d-origine-aprilia-tuareg-660-de-2021-.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-joint-vidange",
+      "titre": "La Bécanerie : joint de bouchon de vidange 831393 (Aprilia 660 RS, Tuono)",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/joint-de-bouchon-de-vidange-831393-pour-aprilia-660-rs-tuono-20-gilera-gp-800-07-11.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-kit-afam",
+      "titre": "La Bécanerie : kit chaîne AFAM 17x43",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/kit-chaine-afam-17x43-pour-aprilia-660-rs-20-21-tuono-21-.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-kit-did",
+      "titre": "La Bécanerie : kit chaîne DID 520VX3 17x43 RS 660 2020-2024",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/kit-chaine-did-chaine-couleur-acier-520vx3-couronne-acier-17x43-fermeture-rivet-aprilia-rs660-20-24.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-kit-ek",
+      "titre": "La Bécanerie : kit chaîne EK/PBR 520 ZVX3 17x43x110 RS 660 2020-2025",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/kit-chaine-ek-pbr-17x43-110m-chaine-520-zvx3-or-couronne-acier-renforce-aprilia-rs-660-20-25.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-kn-al6620",
+      "titre": "La Bécanerie : filtre à air K&N AL-6620 (RS 660 2020-2026)",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/filtre-a-air-kn-al-6620-aprilia-rs-660-20-26.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-mallette-108",
+      "titre": "La Bécanerie : mallette d'outils à cliquet JBM 108 pièces",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/mallette-doutils-a-cliquet-jbm-108-pieces.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-mallette-59",
+      "titre": "La Bécanerie : mallette d'outils à cliquet JBM 59 pièces",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/mallette-doutils-a-cliquet-jbm-59-pieces.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-motocool",
+      "titre": "La Bécanerie : liquide de refroidissement Motul Motocool Expert 1 L",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/liquide-de-refroidissement-motul-motocool-expert-1l.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-motorex-m30",
+      "titre": "La Bécanerie : liquide de refroidissement Motorex Coolant M3.0 1 L",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/liquide-de-refroidissement-motorex-coolant-m30-1l-1.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-motul-300v-4l",
+      "titre": "La Bécanerie : Motul 300V Road Racing 10W-50 4 L",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/huile-moteur-4t-motul-300v-road-racing-10w50-4l.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-motul-7100-1l",
+      "titre": "La Bécanerie : Motul 7100 4T 10W-50 1 L",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/huile-moteur-4t-motul-7100-10w50-1l.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-motul-7100-4l",
+      "titre": "La Bécanerie : Motul 7100 4T 10W-50 4 L",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/huile-moteur-4t-motul-7100-10w50-4l.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-motul-c1",
+      "titre": "La Bécanerie : nettoyant chaîne Motul C1 Chain Clean 400 mL",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/nettoyant-chaine-motul-c1-chain-clean-400ml.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-motul-c2",
+      "titre": "La Bécanerie : lubrifiant chaîne Motul C2 Chain Lube Road 400 mL",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/lubrifiant-chaine-motul-c2-chain-lube-road-400ml.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-ng-1780g",
+      "titre": "La Bécanerie : disque de frein NG Brakes 1780G",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/disque-de-frein-ng-brakes-1780g-flottant.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-ngk-mr9di7",
+      "titre": "La Bécanerie : bougie NGK MR9DI-7",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/bougie-dallumage-ngk-mr9di-7.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-optimate-lithium",
+      "titre": "La Bécanerie : chargeur Optimate Lithium LiFePO4 0,8 A",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/chargeur-batterie-tecmate-optimate-lithium-lifepo4-08-a.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-plaquettes-07bb2065",
+      "titre": "La Bécanerie : plaquettes Brembo 07BB20 65 (origine)",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/plaquettes-de-frein-d-origine-brembo-metal-fritte-07bb2065.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-plaquettes-07bb3884",
+      "titre": "La Bécanerie : plaquettes Brembo 07BB38 84 (origine)",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/plaquettes-de-frein-brembo-07bb38-84-origine-avant-arriere.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-plaquettes-rs660",
+      "titre": "La Bécanerie : plaquettes de frein Aprilia RS 660",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/moto/freinage/plaquette/aprilia-rs-660/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-pompe-purge",
+      "titre": "La Bécanerie : pompe à purger le liquide de frein",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/pompe-a-purger-liquide-de-frein.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-power-gp2",
+      "titre": "La Bécanerie : Michelin Power GP2 120/70 ZR17",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/pneu-moto-avant-michelin-power-gp2-120-70-zr-17-58w-tl.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-power-gp2-ar",
+      "titre": "La Bécanerie : Michelin Power GP2 180/55 ZR17",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/pneu-moto-arriere-michelin-power-gp2-180-55-zr-17-73w-tl.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-power6",
+      "titre": "La Bécanerie : Michelin Power 6 180/55 ZR17",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/pneu-arriere-moto-michelin-power-6-180-55-zr-17-73w-tl.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-recipient-purge",
+      "titre": "La Bécanerie : récipient de purge de frein Draper",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/recipient-de-purge-de-frein-draper.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-rive-biketek",
+      "titre": "La Bécanerie : rive et dérive chaîne BikeTek",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/rive-et-derive-chaine-biketek.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-rive-did",
+      "titre": "La Bécanerie : rive-dérive chaîne DID KM500R",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/rive-derive-chaine-did-km500r.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-rosso-iv",
+      "titre": "La Bécanerie : Pirelli Diablo Rosso IV 120/70 ZR17",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/pneu-avant-moto-pirelli-diablo-rosso-iv-120-70-zr-17-58w-tl.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-rosso-iv-ar",
+      "titre": "La Bécanerie : Pirelli Diablo Rosso IV 180/55 ZR17",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/pneu-arriere-moto-pirelli-diablo-rosso-iv-180-55-zr-17-73w-tl.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-rosso-iv-corsa",
+      "titre": "La Bécanerie : Pirelli Diablo Rosso IV Corsa 120/70 ZR17",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/pneu-avant-moto-pirelli-diablo-rosso-iv-corsa-120-70-zr-17-58w-tl.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-rosso-iv-corsa-ar",
+      "titre": "La Bécanerie : Pirelli Diablo Rosso IV Corsa 180/55 ZR17",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/pneu-arriere-moto-pirelli-diablo-rosso-iv-corsa-180-55-zr-17-73w-tl.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-sbs-900rst",
+      "titre": "La Bécanerie : plaquettes SBS 900RST",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/plaquettes-de-frein-sinterise-sbs-900rst.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-seringue",
+      "titre": "La Bécanerie : seringue de vidange Bardahl 350 mL",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/seringue-de-vidange-bardahl-350-ml.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-spi-fourche",
+      "titre": "La Bécanerie : joints spi de fourche NOK/Athena 41x53x8/10,5",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/joints-spis-de-fourche-nok-athena-41x53x8-105-mm.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-trw-mcb856sv",
+      "titre": "La Bécanerie : plaquettes TRW MCB856SV",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/plaquettes-de-frein-trw-metal-fritte-mcb856sv.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-ytz10s",
+      "titre": "La Bécanerie : batterie Yuasa YTZ10S",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/batterie-gel-yuasa-ytz10s-12v-86ah.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lb-ytz10s-gel",
+      "titre": "La Bécanerie : batterie Power Thunder YTZ10S",
+      "type": "revendeur",
+      "url": "https://www.la-becanerie.com/batterie-power-thunder-ytz10s-12v86ah.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-legifrance-arrete-ct-2023",
+      "titre": "Arrêté du 23/10/2023 sur le contrôle technique des véhicules de catégorie L (Légifrance)",
+      "type": "officiel",
+      "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048242538",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-leovince-14369eu",
+      "titre": "LeoVince — 14369EU LV Pro Aprilia RS 660 2021-2024",
+      "type": "fabricant",
+      "url": "https://www.leovince.com/en-hu/product/14369eu-lv-pro-aprilia-rs-660-2021-2024",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-leovince-14370eu",
+      "titre": "LeoVince — 14370EU LV Pro carbone Aprilia RS 660 2021-2024",
+      "type": "fabricant",
+      "url": "https://www.leovince.com/en-be/product/14370eu-lv-pro-carbon-fiber-aprilia-rs-660-2021-2024",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lepermislibre-retroviseurs",
+      "titre": "Le Permis Libre — rétroviseurs obligatoires",
+      "type": "autre",
+      "url": "https://lepermislibre.fr/code-route/cours/retroviseurs-obligatoires-gauche-droit-interieur",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lerepairedesmotards-2016-silencieux",
+      "titre": "Le Repaire des Motards — réglementation des émissions sonores et silencieux (2016)",
+      "type": "presse",
+      "url": "https://www.lerepairedesmotards.com/actualites/2016/actu_160613-reglementation-emissions-sonores-silencieux-motos.php",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-lerepairedesmotards-2020-rs660",
+      "titre": "Le Repaire des Motards — Sportive Aprilia RS 660 : prix et caractéristiques (2020)",
+      "type": "presse",
+      "url": "https://www.lerepairedesmotards.com/actualites/2020/sportive-aprilia-rs-660-prix-caracteristiques.php",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-litineraire-ct",
+      "titre": "L'Itinéraire — Contrôle technique moto : les règles",
+      "type": "autre",
+      "url": "https://www.l-itineraire.com/guide-voiture/controle-technique-moto-regles",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-maintenanceschedule",
+      "titre": "maintenanceschedule.com : Aprilia RS 660 maintenance",
+      "type": "autre",
+      "url": "https://maintenanceschedule.com/aprilia-rs-660-maintenance/",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-manuel-atelier",
+      "titre": "Manuel d’atelier « Service Station Manual » RS 660 - Tuono 660 (2Q000453, 2021)",
+      "type": "officiel",
+      "url": "https://www.manualslib.com/manual/3876358/Aprilia-Rs-660-2021.html",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-manuel-proprietaire",
+      "titre": "Manuel du propriétaire RS 660 (2Q000420, éd. 03_11/2020, millésime 2021)",
+      "type": "officiel",
+      "url": "https://www.manualslib.com/manual/2510707/Aprilia-Rs-660-2020.html",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-manuel-rsv4-2021",
+      "titre": "Manuel du propriétaire RSV4 1100 (2Q000439, éd. 03/2021) : même famille de tableau de bord que la RS 660 2025+",
+      "type": "officiel",
+      "url": "https://www.scribd.com/document/836561146/RSV4-1100-FACTORY-E5-OWNER-MANUAL",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-matmut-histovec",
+      "titre": "Matmut, HistoVec et véhicules d'occasion",
+      "type": "autre",
+      "url": "https://www.matmut.fr/assurance/auto/conseils/histovec-vehicules-occasion",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-mcn-essai-2021",
+      "titre": "MCN, essai RS 660 (12/05/2021, via PressReader)",
+      "type": "presse",
+      "url": "https://www.pressreader.com/uk/mcn-uk/20210512/283210151115458",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-mcn-essai-longue-duree",
+      "titre": "MCN, essai longue durée RS 660 (page payante, lue via résumé)",
+      "type": "presse",
+      "url": "https://www.motorcyclenews.com/mcn-motorycles/aprilia-rs660-long-term-test",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-mcn-rouler-froid",
+      "titre": "MCN, Riding clinic : rouler par temps froid (2017)",
+      "type": "presse",
+      "url": "https://motorcyclenews.com/news/2017/february/riding-clinic-riding-in-the-cold-",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-mcn-rs660",
+      "titre": "MCN : avis de propriétaires RS 660",
+      "type": "presse",
+      "url": "https://www.motorcyclenews.com/bike-reviews/aprilia/rs660/2020/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-mecaservices92",
+      "titre": "Mécaservices 92 : tarifs moteur et transmission",
+      "type": "revendeur",
+      "url": "https://mecaservices92.com/services/moteur-transmission/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-mecaservices92-freins",
+      "titre": "Mécaservices 92 : tarifs freins",
+      "type": "revendeur",
+      "url": "https://mecaservices92.com/services/freins/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-mecaservices92-partie-cycle",
+      "titre": "Mécaservices 92 : tarifs partie-cycle (pneus)",
+      "type": "revendeur",
+      "url": "https://mecaservices92.com/services/partie-cycle/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-mecatechnic-motul-stabilizer",
+      "titre": "Mecatechnic, fiche du stabilisateur d'essence Motul Stabilizer",
+      "type": "revendeur",
+      "url": "https://www.mecatechnic.com/fr-FR/stabilisateur-essence-motul-stabilizer-250-ml_UD10211.htm",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-mecazen-pression",
+      "titre": "Mecazen, pression des pneus et température",
+      "type": "autre",
+      "url": "https://mecazen.fr/blog/?p=6898",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-mecazen-rain-scr1",
+      "titre": "Mecazen — Pirelli Diablo Rain SCR1 120/70 R17",
+      "type": "revendeur",
+      "url": "https://mecazen.fr/pneus/marques/pirelli/diablo-rain-scr1/120-70-r17/8019227224382",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-megabikes-factory",
+      "titre": "Megabikes — RS 660 Factory",
+      "type": "revendeur",
+      "url": "https://megabikes.ie/aprilia-rs-666",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-michelin-faq-moto",
+      "titre": "Michelin UK — FAQ pneus moto",
+      "type": "fabricant",
+      "url": "https://michelin.co.uk/faq-motorbike",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-michelin-pression-piste",
+      "titre": "Michelin — pression des pneus moto sur piste",
+      "type": "fabricant",
+      "url": "https://www.michelinman.com/motorcycle/tips-and-advice/tips-to-take-care-of-motorcycle-tires/tire-pressure-on-track",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-mieloch-1a015311",
+      "titre": "Mieloch : bougie Aprilia 1A015311 (NGK MR9DI-7)",
+      "type": "revendeur",
+      "url": "https://mieloch.pl/en/swieca-zaplonowa-aprilia-ngk-mr9di-7",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-mittaletku-hel",
+      "titre": "Mittaletku.fi — durite de frein HEL (RS 660 ABS 2021-2023)",
+      "type": "revendeur",
+      "url": "https://mittaletku.fi/en/trade-2/page/486",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-mivv-rs660",
+      "titre": "Mivv — Aprilia RS 660 ready for track and road with Mivv",
+      "type": "fabricant",
+      "url": "https://mivv.com/fr/aprilia-rs-660-ready-for-track-and-road-with-mivv/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-moniteur-automobile-a2",
+      "titre": "Moniteur Automobile, annonce RS 660 (débridage de la version A2)",
+      "type": "presse",
+      "url": "https://www.moniteurautomobile.be/detail-id--11548620--/occasion.html",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-moto-mader",
+      "titre": "Moto Mader : atelier",
+      "type": "revendeur",
+      "url": "https://www.moto-mader.ch/de/werkstatt",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-moto-net-ct-calendrier",
+      "titre": "Moto-Net — calendrier et modalités du contrôle technique moto à partir d'avril 2024",
+      "type": "presse",
+      "url": "https://moto-net.com/article/calendrier-et-modalites-du-controle-technique-moto-a-partir-d-avril-2024.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-moto-net-rs660-coursifiee",
+      "titre": "Moto-Net — Contact avec une RS660 « coursifiée » par Aprilia France (2021)",
+      "type": "presse",
+      "url": "https://moto-net.com/article/contact-avec-une-rs660-coursifiee-par-aprilia-france.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-motodealers-35kw",
+      "titre": "Motodealers — fiche RS 660 35 kW (2021)",
+      "type": "autre",
+      "url": "https://motodealers.co.uk/bikes/aprilia/rs-660-35kw/2021/specs",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-motodealers-mot",
+      "titre": "motodealers.co.uk, résultats du contrôle technique britannique (MOT) des RS 660",
+      "type": "autre",
+      "url": "https://motodealers.co.uk/mot/aprilia/rs-660",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-motodealers-rs660-2021",
+      "titre": "Motodealers — fiche technique Aprilia RS 660 2021",
+      "type": "autre",
+      "url": "https://motodealers.co.uk/bikes/aprilia/rs-660/2021/specs",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-motodracing-bs",
+      "titre": "Motodracing : batterie BS Battery BSLi-04/06",
+      "type": "revendeur",
+      "url": "https://www.motodracing.com/bs-battery-bsli-04-06-lithium-motorcycle-battery-lifepo4-280-ca",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-motodracing-galfer-fd475",
+      "titre": "Motodracing : Galfer FD475G1375",
+      "type": "revendeur",
+      "url": "https://www.motodracing.com/galfer-motorcycle-brake-pads-street-fd475g1375-front-2-pc",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-motodracing-gb-racing",
+      "titre": "Motodracing — GB Racing couvercles moteur Aprilia RS 660",
+      "type": "revendeur",
+      "url": "https://motodracing.com/gb-racing-aprilia-rs-660-engine-covers",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-motodynamic-fe-a21rst660",
+      "titre": "Motodynamic : notice FE-A21RST660-LP (support de plaque RS660 / Tuono 660)",
+      "type": "fabricant",
+      "url": "https://www.motodynamic.com/installation/FE-A21RST660-LP.pdf",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-motomachines-sbv",
+      "titre": "Moto Machines : trousse SBV Tools pour Aprilia 660",
+      "type": "revendeur",
+      "url": "https://www.motomachines.com/products/sbv-tools-motorcycle-tool-kit-for-aprilia-660-motorcycles",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-motomillion-akrapovic-s-a6r5",
+      "titre": "Motomillion — Akrapovič S-A6R5-APLC Racing Line Aprilia RS660",
+      "type": "revendeur",
+      "url": "https://www.motomillion.com/products/akrapovic-s-a6r5-aplc-racing-line-full-exhaust-system-for-aprilia-rs660",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-motonet-garantie",
+      "titre": "Moto-Net, garantie moto : durée et conditions des constructeurs",
+      "type": "presse",
+      "url": "https://www.moto-net.com/article/garantie-moto-le-point-sur-la-duree-et-les-conditions-des-constructeurs.html",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-motool-ohlins-sag",
+      "titre": "Motool / Slacker, guide de l'enfoncement (sag) avec un technicien Öhlins",
+      "type": "autre",
+      "url": "https://cdn.shopify.com/s/files/1/1866/4961/files/Motool_with_cover.pdf?2374",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-motoplanete-a2",
+      "titre": "Motoplanète — fiche RS 660 A2",
+      "type": "presse",
+      "url": "https://www.motoplanete.com/occasion-moto/764742/RS-660-A2/fiche.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-motoplanete-annonce-35kw",
+      "titre": "Motoplanète — annonce RS 660 35 kW",
+      "type": "autre",
+      "url": "https://www.motoplanete.com/occasion-moto/764935/RS-660-35KW/fiche.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-motoplanete-plaques",
+      "titre": "Motoplanète — Immatriculation moto : quelles sont les normes ?",
+      "type": "presse",
+      "url": "https://www.motoplanete.com/actualite-moto/articles/18625/immatriculation-moto-quelles-sont-les-normes/page.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-motorbox-eicma-2024",
+      "titre": "Motorbox — RS 660 et RS 660 Factory, EICMA 2024",
+      "type": "presse",
+      "url": "https://www.motorbox.com/moto/magazine-moto/moto-novita/aprilia-rs-660-rs-660-factory-eicma-2024-tutte-le-novita",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-motorcycle-com-2021",
+      "titre": "Motorcycle.com — fiche technique RS 660 2021",
+      "type": "presse",
+      "url": "https://www.motorcycle.com/specs/aprilia/sport/2021/rs/660/detail.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-motorcycle-com-2025",
+      "titre": "Motorcycle.com — fiche technique RS 660 2025",
+      "type": "presse",
+      "url": "https://www.motorcycle.com/specs/aprilia/sport/2025/rs-660/base/detail.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-motorcycle-com-2025-factory",
+      "titre": "Motorcycle.com — fiche technique RS 660 Factory 2025",
+      "type": "presse",
+      "url": "https://www.motorcycle.com/specs/aprilia/sport/2025/rs-660/factory/detail.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-motorcycle-com-2025-presentation",
+      "titre": "Motorcycle.com, présentation RS 660 et RS 660 Factory 2025 (05/11/2024)",
+      "type": "presse",
+      "url": "https://www.motorcycle.com/bikes/new-model-preview/2025-aprilia-rs660-and-rs660-factory-first-look-44611273",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-motorcycle-com-extrema-2024",
+      "titre": "Motorcycle.com, essai RS 660 Extrema 2024",
+      "type": "presse",
+      "url": "https://www.motorcycle.com/bikes/manufacturer/aprilia/2024-aprilia-rs-660-extrema-review-44597479",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-motorcycle-com-factory-2026",
+      "titre": "Motorcycle.com, essai RS 660 Factory 2026 (photo réelle du tableau de bord 2025+)",
+      "type": "presse",
+      "url": "https://www.motorcycle.com/bikes/manufacturer/aprilia/2026-aprilia-rs-660-factory-review-44659906",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-motorcycle-com-rs660-2021",
+      "titre": "Motorcycle.com — fiche technique Aprilia RS 660 2021",
+      "type": "presse",
+      "url": "https://www.motorcycle.com/specs/aprilia/sport/2021/rs/660/detail.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-motorcycles-news-rappel-poignee-2025",
+      "titre": "motorcycles.news, rappel Aprilia 2025 : poignée gauche (REACH)",
+      "type": "presse",
+      "url": "https://www.motorcycles.news/en/aprilia-recall-2025-handle/",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-motorrad-rappel-bielles",
+      "titre": "Motorrad, rappel RS 660 / Tuono 660 : les bielles imposent un remplacement du moteur",
+      "type": "presse",
+      "url": "https://www.motorradonline.de/ratgeber/aprilia-rs-660-tuono-660-rueckruf-problem-pleuel-fuehren-zu-motortausch/",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-motorradundreisen-2021",
+      "titre": "Motorrad & Reisen — base de données RS 660 2021-2024",
+      "type": "presse",
+      "url": "https://www.motorradundreisen.de/motorraddatenbank/aprilia/rs-660-2021-2022-2024-3226.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-motorradundreisen-35kw",
+      "titre": "Motorrad & Reisen — base de données RS 660 35 kW",
+      "type": "presse",
+      "url": "https://www.motorradundreisen.de/motorraddatenbank/aprilia/rs-660-35kw-13669.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-motorradundreisen-extrema",
+      "titre": "Motorrad & Reisen — essai RS 660 Extrema",
+      "type": "presse",
+      "url": "https://www.motorradundreisen.de/motorraeder/aprilia-rs-660-extrema-sportler-ambitionen/6935/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-motorradundreisen-rappels",
+      "titre": "Motorrad & Reisen, liste des rappels Aprilia (KBA)",
+      "type": "autre",
+      "url": "https://www.motorradundreisen.de/motorrad-rueckrufe/aprilia/",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-motoryk-rs660",
+      "titre": "Motoryk, fiche fiabilité Aprilia RS 660",
+      "type": "autre",
+      "url": "https://motoryk.com/bikes/aprilia/rs-660",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-motostorm-akrapovic-homologue",
+      "titre": "Motostorm — Akrapovič ligne complète homologuée Aprilia RS 660",
+      "type": "revendeur",
+      "url": "https://www.motostorm.it/en/accessories/motorcycle-shock-absorbers/akrapovic-approved-full-exhaust-aprilia-rs-660.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-motostorm-andreani-305-a11e",
+      "titre": "Motostorm — Cartouches Andreani Misano Evo 2 Aprilia RS 660",
+      "type": "revendeur",
+      "url": "https://www.motostorm.it/en/accessories/exhaust/andreani-misano-evo-2-cartridge-aprilia-rs-660.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-motostorm-arrow-indy-race-ece",
+      "titre": "Motostorm — Arrow Indy Race ECE silencieux RS 660",
+      "type": "revendeur",
+      "url": "https://www.motostorm.it/en/accessories/handlebar/arrow-indy-race-ece-titanium-silencer-rs-660.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-motostorm-hf138",
+      "titre": "Motostorm : filtre à huile Hiflo HF138",
+      "type": "revendeur",
+      "url": "https://www.motostorm.it/fr/accessoires/guidon/hi-flo-oil-filter-hf138.html",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-motostorm-rizoma-stealth",
+      "titre": "Motostorm — Rizoma Stealth paire de rétroviseurs Aprilia RS660",
+      "type": "revendeur",
+      "url": "https://www.motostorm.it/fr/accessoires/guidon/rizoma-stealth-mirrors-pair-aprilia-rs660-grey.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-motostorm-serie-oro",
+      "titre": "Motostorm : disques Brembo Serie Oro RS 660",
+      "type": "revendeur",
+      "url": "https://www.motostorm.it/en/accessories/exhaust/brembo-serie-oro-floating-disks-aprilia-rs-660.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-motostorm-tappezzeria",
+      "titre": "Motostorm — Housse de selle Tappezzeria Italia Ultra Grip Aprilia RS660",
+      "type": "revendeur",
+      "url": "https://www.motostorm.it/en/accessories/bike-protectors/seat-cover-ultra-grip-aprilia-rs660-black.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-motostorm-zard",
+      "titre": "Motostorm — Kit Zard Aprilia RS 660 homologué Euro 5",
+      "type": "revendeur",
+      "url": "https://www.motostorm.it/en/accessories/exhaust/zard-kit-for-the-aprilia-rs-660-euro-5-homologated.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-motovation-evotech-prn015288",
+      "titre": "Motovation — Evotech Performance tampons de cadre Aprilia RS660 (PRN015288)",
+      "type": "revendeur",
+      "url": "https://www.motovationusa.com/frame-sliders-by-evotech-performance-aprilia-rs660-PRN015288-018346",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-motovation-gilles-fxr",
+      "titre": "Motovation — Gilles Tooling FXR commandes reculées Aprilia RS660 (FXR-A03-B)",
+      "type": "revendeur",
+      "url": "https://motovationusa.com/fxr-adjustable-rearsets-by-gilles-tooling-aprilia-rs660-FXR-A03-B",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-motovation-rizoma-bs545b",
+      "titre": "Motovation — Rizoma BS545B caches de rétroviseurs Aprilia RS660",
+      "type": "revendeur",
+      "url": "https://www.motovationusa.com/mirror-block-off-plates-by-rizoma-aprilia-rs660-BS545B",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-motovation-rizoma-lbj750b",
+      "titre": "Motovation — Rizoma 3D levier de frein repliable LBJ750B",
+      "type": "revendeur",
+      "url": "https://www.motovationusa.com/-3d-folding-brake-lever-by-rizoma-LBJ750B",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-motovation-rizoma-lcj203",
+      "titre": "Motovation — Rizoma 3D levier d'embrayage repliable LCJ203",
+      "type": "revendeur",
+      "url": "https://motovationusa.com/-3d-folding-clutch-lever-by-rizoma-LCJ203",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-motovation-rizoma-lp310b",
+      "titre": "Motovation — Rizoma LP310B adaptateur pour rétroviseurs en bout de guidon",
+      "type": "revendeur",
+      "url": "https://www.motovationusa.com/rizoma-adapter-for-bar-end-mirrors-and-proguard-lp310b.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-motovation-rizoma-pts801b",
+      "titre": "Motovation — Rizoma kit support de plaque PTS801B Aprilia RS660",
+      "type": "revendeur",
+      "url": "https://motovationusa.com/rizoma-license-plate-tail-tidy-kit-aprilia-rs660-PTS801B",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-motovation-rizoma-ptu041b",
+      "titre": "Motovation — Rizoma Flat-Out tail tidy PTU041B Aprilia RS660 / Tuono 660",
+      "type": "revendeur",
+      "url": "https://motovationusa.com/-flat-out-tail-tidy-kit-by-rizoma-aprilia-rs660-tuono-660-PTU041B",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-mpartz-kit-did",
+      "titre": "mpartz : kit chaîne DID RS 660 2020-2023",
+      "type": "revendeur",
+      "url": "https://www.mpartz.com/chain-kit-did-aprilia-rs660-2020-2023-p-42259",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-msf-tclocs",
+      "titre": "Motorcycle Safety Foundation, liste de contrôle T-CLOCS (copie USMC)",
+      "type": "autre",
+      "url": "https://www.mcbhawaii.marines.mil/Portals/114/WebDocuments/Safety/T-CLOCSChecklistMotorcycleInspection.pdf",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-nhtsa-21v502",
+      "titre": "NHTSA — rappel 21V-502 (bielles, RS 660 et Tuono 660 2021)",
+      "type": "officiel",
+      "url": "https://static.nhtsa.gov/odi/rcl/2021/RCAK-21V502-5394.pdf",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-nhtsa-21v502-rapport",
+      "titre": "NHTSA, rappel 21V-502 : rapport de défaut Part 573 du constructeur",
+      "type": "officiel",
+      "url": "https://static.nhtsa.gov/odi/rcl/2021/RCLRPT-21V502-8145.PDF",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-nhtsa-api-rappels",
+      "titre": "NHTSA, API publique des rappels (RS 660, millésimes 2021 à 2026)",
+      "type": "officiel",
+      "url": "https://api.nhtsa.gov/recalls/recallsByVehicle?make=APRILIA&model=RS%20660&modelYear=2021",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-nhtsa-plaintes",
+      "titre": "NHTSA, plaintes de propriétaires de RS 660 (déclarations non vérifiées par la NHTSA)",
+      "type": "autre",
+      "url": "https://api.nhtsa.gov/complaints/complaintsByVehicle?make=APRILIA&model=RS%20660&modelYear=2022",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-nhtsa-tsb-pads",
+      "titre": "NHTSA — bulletin technique Aprilia 2021 (outil PADS)",
+      "type": "officiel",
+      "url": "https://static.nhtsa.gov/odi/tsbs/2021/MC-10190117-0001.pdf",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-nilssons-gilles-ppc12",
+      "titre": "Nilssons — Gilles PPC-12-KIT-B caches de fixation passager",
+      "type": "revendeur",
+      "url": "https://nilssons-pristest.nyehandel.se/sv/products/16202447",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-notice-akrapovic-rs660",
+      "titre": "Notice Akrapovič Racing Line Aprilia RS 660 (D250.1.00.0000 A, 01/2021)",
+      "type": "fabricant",
+      "url": "https://d1sfhav1wboke3.azureedge.net/ImageServer/Apim2Media/Documents/21328/95948583-f4be-438a-aa9d-8a10a77ef582.pdf",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-nrbike-rs660-p1",
+      "titre": "NRBike — catalogue RS 660, page 1 (prix affichés HT export)",
+      "type": "revendeur",
+      "url": "https://nrbike.fr/votre-moto/aprilia/rs-660.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-nrbike-rs660-p2",
+      "titre": "NRBike — catalogue RS 660, page 2 (prix affichés HT export)",
+      "type": "revendeur",
+      "url": "https://nrbike.fr/585-rs-660?page=2",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-nrbike-rs660-p3",
+      "titre": "NRBike — catalogue RS 660, page 3 (prix affichés HT export)",
+      "type": "revendeur",
+      "url": "https://nrbike.fr/585-rs-660?page=3",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-nrbike-rs660-p4",
+      "titre": "NRBike — catalogue RS 660, page 4 (prix affichés HT export)",
+      "type": "revendeur",
+      "url": "https://nrbike.fr/585-rs-660?page=4",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-oem-bike-parts-rs660-2021",
+      "titre": "OEM Bike Parts — RS 660 4T 8V E5 ABS 2020 (EMEA), batterie lithium 2D000579",
+      "type": "revendeur",
+      "url": "https://oem-bike-parts.com/en/parts/aprilia/motorbike/rs-660/2021/rs-660-4t-8v-e5-abs-2020-emea-eu/electrical-systems-central-electrical-system/p/2d000579-piaggiogroup-lithium-battery",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-ohlins-ap660",
+      "titre": "Öhlins — AP 660 (STX 46 Supersport)",
+      "type": "fabricant",
+      "url": "https://www.ohlins.eu/de/products/motorcycle/ap-660--7164/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-olv-motors",
+      "titre": "OLV Motors : tarifs",
+      "type": "revendeur",
+      "url": "https://www.olv-motors.fr/en/pricing",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-opp-07bb37sc",
+      "titre": "OPP Racing : Brembo 07BB37SC",
+      "type": "revendeur",
+      "url": "https://www.oppracing.com/product_display/14522521-brembo-serie-oro-brake-pad-set-sc-sintered-compound-roadracing-front-07bb37sc/",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-ornikar-histovec",
+      "titre": "Ornikar, HistoVec",
+      "type": "autre",
+      "url": "https://www.ornikar.com/permis/autour-voiture/achat/occasion/histovec",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-partseurope-gilles-fxr",
+      "titre": "PartsEurope — Gilles Tooling FXR (produit 16230585)",
+      "type": "revendeur",
+      "url": "https://partseurope.eu/en/product/16230585",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-partseurope-ohlins-nix30",
+      "titre": "PartsEurope — Öhlins kit cartouches NIX30 (04130173)",
+      "type": "revendeur",
+      "url": "https://www.partseurope.eu/en/product/cartridge-kit-nix30/04130173",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-partseurope-rosso-iv",
+      "titre": "PartsEurope — Pirelli Diablo Rosso IV",
+      "type": "revendeur",
+      "url": "https://www.partseurope.eu/en/product/diablo-rossotm-iv-tire/03010912",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-paultan-extrema",
+      "titre": "Paultan — RS 660 Extrema 2023 (100 ch, 166 kg)",
+      "type": "presse",
+      "url": "https://paultan.org/2022/11/17/2023-aprilia-rs660-extrema-100-hp-166-kg",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-piaggio-limited-edition",
+      "titre": "Piaggio Group — RS 660 Limited Edition (Twins Cup MotoAmerica)",
+      "type": "fabricant",
+      "url": "https://wide.piaggiogroup.com/en/articles/products/aprilia-rs-660-limited-edition-tribute-to-the-victories-in-the-twins-cup-motoamerica-championship/index.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-piaggio-wide-accessoires-rs660",
+      "titre": "Piaggio WIDE — A wide range of original accessories for the new Aprilia RS 660",
+      "type": "officiel",
+      "url": "https://wide.piaggiogroup.com/en/articles/accessories/a-wide-range-of-original-accessories-developed-for-the-new-aprilia-rs-660/index.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-piecesetpneus-chaine",
+      "titre": "Pièces et Pneus (blog), entretien de la chaîne après la pluie",
+      "type": "revendeur",
+      "url": "https://blog.piecesetpneus.com/?p=158584",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-piecesetpneus-pression",
+      "titre": "Pièces et Pneus (blog), pression des pneus moto par temps froid",
+      "type": "revendeur",
+      "url": "https://blog.piecesetpneus.com/?p=157381",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-pirelli-supercorsa-v4-sp",
+      "titre": "Pirelli, Diablo Supercorsa V4 SP (pressions à chaud sur piste)",
+      "type": "fabricant",
+      "url": "https://www.pirelli.com/tyres/en-ww/motorcycle/catalogue/product/diablo-supercorsa-v4-sp-new",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-pistonheads",
+      "titre": "PistonHeads : forum, révision RS 660",
+      "type": "forum",
+      "url": "https://www.pistonheads.com/gassing/topic.asp?h=0&f=74&t=2007335",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-pit-bull-rs660",
+      "titre": "Pit Bull : béquilles Aprilia RS 660",
+      "type": "fabricant",
+      "url": "https://www.pit-bull.com/aprilia-rs-660",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-pogliani-filtre-huile",
+      "titre": "Pogliani : filtre d'huile d'origine 1A023538",
+      "type": "revendeur",
+      "url": "https://shop.pogliani.com/fr/306079-filtre-d-huile-d-origine-1a023538-aprilia-rs-660-rsv4-tuono-660-v4.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-prix-carburant-stockage",
+      "titre": "prix-carburant.eu, durée de stockage du carburant et immobilisation",
+      "type": "autre",
+      "url": "https://prix-carburant.eu/article/carburant-immobilisation-duree-stockage-qualite",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-puig-de-rs660-2023",
+      "titre": "Puig Hi-Tech Parts (DE) — Aprilia RS 660 2023",
+      "type": "fabricant",
+      "url": "https://puighitechparts.de/en/bikes/aprilia/rs-660/2023",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-quotidianomotori-limited",
+      "titre": "Quotidiano Motori — Aprilia RS 660 Limited Edition",
+      "type": "presse",
+      "url": "https://www.quotidianomotori.com/moto/aprilia-rs-660-limited-edition/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-rappelconso",
+      "titre": "RappelConso, jeu de données ouvert des rappels de produits (France)",
+      "type": "officiel",
+      "url": "https://data.economie.gouv.fr/explore/dataset/rappelconso-v2-gtin-trie/",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-reactiveparts-lightech-levage",
+      "titre": "Reactive Parts — Lightech Aprilia RS660 2020 kit de levage (embouts de tendeurs)",
+      "type": "revendeur",
+      "url": "https://reactiveparts.com/performance/chain-adjuster-kits/aprilia/aprilia-rs660/lightech-aprilia-rs660-2020-swingarm-lifter-kit.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-reactiveparts-ohlins-nix30",
+      "titre": "Reactive Parts — Öhlins Aprilia RS660 2021 NIX 30 front fork cartridge kit",
+      "type": "revendeur",
+      "url": "https://reactiveparts.com/ohlins-aprilia-rs660-2021-nix-30-front-fork-cartridge-kit.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-reactiveparts-rg-lp0299",
+      "titre": "Reactive Parts — R&G Racing tail tidy Aprilia RS660 2021 / Tuono 660 2021",
+      "type": "revendeur",
+      "url": "https://reactiveparts.com/r-g-racing-aprilia-rs660-2021-660-tuono-2021-tail-tidy.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-reddit-tuareg",
+      "titre": "Reddit r/Aprilia : Tuareg 660 maintenance cheat sheet (même moteur)",
+      "type": "forum",
+      "url": "https://www.reddit.com/r/Aprilia/comments/1qg17de/aprilia_tuareg_660_maintenance_cheat_sheet_specs/",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-reglement-168-2013-art57",
+      "titre": "Règlement (UE) 168/2013, article 57 : accès aux informations de réparation (version britannique reprise du texte UE)",
+      "type": "officiel",
+      "url": "https://www.legislation.gov.uk/eur/2013/168/article/57",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-reifen-power-gp2",
+      "titre": "reifen.com (AT) — Michelin Power GP 2 180/55 ZR17 73W arrière",
+      "type": "revendeur",
+      "url": "https://www.reifen.com/en-at/18055-zr17-73w-michelin-power-gp-2-rear-3528703002253",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-reifen-rain-scr1",
+      "titre": "reifen.com (DE) — Pirelli Diablo Rain SCR1 120/70 R17 avant NHS",
+      "type": "revendeur",
+      "url": "https://www.reifen.com/en-de/12070-r17-pirelli-diablo-rain-scr1-front-nhs-8019227224382",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-repaire-factory-2025",
+      "titre": "Le Repaire des Motards, RS 660 Factory 2025",
+      "type": "presse",
+      "url": "https://www.lerepairedesmotards.com/actualites/2024/sportive-aprilia-rs-660-factory.php",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-repaire-forum-2023",
+      "titre": "Le Repaire des Motards : forum, entretien RS / Tuono 660 (2023)",
+      "type": "forum",
+      "url": "http://www.lerepairedesmotards.com/forum/read.php?2,3279836",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-repaire-forum-2025",
+      "titre": "Le Repaire des Motards : forum, révisions RS / Tuono 660 (mai 2025)",
+      "type": "forum",
+      "url": "http://www.lerepairedesmotards.com/forum/read.php?3,3383284,page=1",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-repaire-garantie-hors-reseau",
+      "titre": "Le Repaire des Motards, garantie constructeur et entretien hors réseau",
+      "type": "presse",
+      "url": "https://www.lerepairedesmotards.com/droit/garantie-constructeur-entretien-hors-reseau.php",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-repaire-motards-fiche",
+      "titre": "Le Repaire des Motards — fiche technique Aprilia RS 660",
+      "type": "presse",
+      "url": "https://www.lerepairedesmotards.com/technique/fiches/tech-aprilia-rs-660.php",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-repaire-rappel-660",
+      "titre": "Le Repaire des Motards, rappel Aprilia RS 660 et Tuono 660 (2021)",
+      "type": "presse",
+      "url": "https://www.lerepairedesmotards.com/actualites/2021/rappel-moto-aprilia-rs-tuono-660.php",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-retzmoto-filtre-huile",
+      "titre": "Retzmoto : filtre à huile Aprilia 857187",
+      "type": "revendeur",
+      "url": "https://www.retzmoto.com/pieces-groupe-piaggio/aprilia/rs-660/178796_aprilia_filtre-huile-aprilia-rsv4-tuono-v4-rs660-tuono-660-857187.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-retzmoto-rs660",
+      "titre": "Retzmoto — pièces et accessoires Aprilia RS 660 (TVA non précisée)",
+      "type": "revendeur",
+      "url": "https://www.retzmoto.com/pieces-groupe-piaggio/aprilia/rs-660/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-revzilla-arrow-collecteurs",
+      "titre": "RevZilla — Arrow exhaust headers Aprilia RS660 2021-2023",
+      "type": "revendeur",
+      "url": "https://www.revzilla.com/motorcycle/arrow-exhaust-headers-aprilia-rs660-2021-2023",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-revzilla-dna",
+      "titre": "RevZilla — DNA air filter Aprilia RS 660 / Tuono 660 2021-2024",
+      "type": "revendeur",
+      "url": "https://www.revzilla.com/motorcycle/dna-air-filter-aprilia-rs-660-tuono-660-2021-2024",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-revzilla-fa630hh",
+      "titre": "RevZilla : EBC FA630HH",
+      "type": "revendeur",
+      "url": "https://www.revzilla.com/motorcycle/ebc-fa630hh-double-h-sintered-front-brake-pads-1787316026",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-revzilla-gilles-fxr",
+      "titre": "RevZilla — Gilles Tooling FXR rearsets Aprilia RS 660 / Tuono 660 2021-2024",
+      "type": "revendeur",
+      "url": "https://www.revzilla.com/motorcycle/gilles-tooling-fxr-rearsets-aprilia-rs-660-tuono-660-2021-2024",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-rg-browsebike-rs660-2025",
+      "titre": "R&G Racing — accessoires Aprilia RS660 2025",
+      "type": "fabricant",
+      "url": "https://www.rg-racing.com/browsebike/Aprilia/RS660/2025",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-rg-cp0510-notice",
+      "titre": "R&G : notice CP0510BL, tampons de protection RS660 2021-",
+      "type": "fabricant",
+      "url": "https://assets4.rg-racing.com/Images/files/CP/CP0510/CP0510BL-FITTING-INSTRUCTIONS-APRILIA-RS660-2021-.pdf",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-rg-cp0511-notice",
+      "titre": "R&G Racing — notice CP0511BL (tampons Aero avec perçage RS660), hébergée par Bellissimoto",
+      "type": "fabricant",
+      "url": "https://www.bellissimoto.com/image/catalog/RG%20racing/CP0511BL_Fitting.pdf",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-rg-diabolos-bucci",
+      "titre": "R&G Racing — page diabolos (Bucci BR12GP) citant CR0052BK",
+      "type": "fabricant",
+      "url": "https://www.rg-racing.com/browsetype/Cotton_Reels/Bucci/BR12GP",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-rg-diabolos-rs660",
+      "titre": "R&G Racing — diabolos (cotton reels) Aprilia RS660",
+      "type": "fabricant",
+      "url": "https://www.rg-racing.com/browsetype/Cotton_Reels/Aprilia/RS660",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-rg-ecc0320r-notice",
+      "titre": "R&G : notice ECC0320R, couvre-carter RS660 / Tuono 660",
+      "type": "fabricant",
+      "url": "https://assets5.rg-racing.com/Images/files/Fitting-Instructions/ECC0320R-FITTING-INSTRUCTIONS.pdf",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-rg-lp0299-notice",
+      "titre": "R&G Racing — notice de montage LP0299BK (RS660 / Tuono 660 2021-)",
+      "type": "fabricant",
+      "url": "https://assets1.rg-racing.com/Images/files/LP/LP0299/LP0299BK-FITTING-INSTRUCTIONS-APRILIA-RS660-TUONO-660-2021-.pdf",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-rg-tail-tidy-rs660",
+      "titre": "R&G Racing — supports de plaque Aprilia RS660",
+      "type": "fabricant",
+      "url": "https://rg-racing.com/browsetype/Tail_Tidies/Aprilia/RS660",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-rider-2025",
+      "titre": "Rider Magazine — présentation RS 660 et RS 660 Factory 2025",
+      "type": "presse",
+      "url": "https://ridermagazine.com/2025-aprilia-rs-660-and-rs-660-factory-preview/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-rider-magazine-2021",
+      "titre": "Rider Magazine — 2021 Aprilia RS 660 first ride review",
+      "type": "presse",
+      "url": "https://ridermagazine.com/2020/10/26/2021-aprilia-rs-660-first-ride-review/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-rider-magazine-2025",
+      "titre": "Rider Magazine — 2025 Aprilia RS 660 and RS 660 Factory preview",
+      "type": "presse",
+      "url": "https://ridermagazine.com/2024/12/16/2025-aprilia-rs-660-and-rs-660-factory-preview/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-rockymountain-rs660-2025",
+      "titre": "Rocky Mountain ATV/MC — pièces Aprilia RS 660 2025",
+      "type": "revendeur",
+      "url": "https://www.rockymountainatvmc.com/parts/2025-aprilia-rs-660",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-rubbex-power6",
+      "titre": "Rubbex (LU) — Michelin Power 6 180/55 ZR17 73W arrière",
+      "type": "revendeur",
+      "url": "https://www.rubbex.com/en-lu/18055-zr17-73w-michelin-power-6-rear-3528706913181",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-sbv-tools",
+      "titre": "SBV Tools : trousse d'outils Aprilia (embout 14 mm pour l'axe AV)",
+      "type": "revendeur",
+      "url": "https://sbvtools.com/product/aprilia-motorcycle-tool-set/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-sc-project-2s002397",
+      "titre": "SC-Project — 2S002397 ligne 2-1 avec silencieux SC1-X carbone, RS 660 2025-2026",
+      "type": "fabricant",
+      "url": "https://shop.sc-project.com/en/brands/mufflers-and-exhaust-systems-for-aprilia-motorcycles-sc-project/rs-660-2025-2026/2s002397-2-1-full-exhaust-system-with-sc1-x-carbon-fibre-exhaust",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-sc-project-a23c-pac90c",
+      "titre": "SC-Project — ligne 2-1 inox avec silencieux SC1-R carbone, RS 660 2025",
+      "type": "fabricant",
+      "url": "https://shop.sc-project.com/en/brands/aprilia/rs-660-2025/a23c-ac90c-2-1-stainless-steel-full-exhaust-system-with-sc1-r-carbon-exhaust",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-sc-project-rs660-2020-2024",
+      "titre": "SC-Project — Aprilia RS 660 2020-2024 (catalogue)",
+      "type": "fabricant",
+      "url": "https://shop.sc-project.com/en/brands/aprilia/rs-660-2020-2023",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-sc-project-rs660-2025",
+      "titre": "SC-Project — Aprilia RS 660 2025 (catalogue)",
+      "type": "fabricant",
+      "url": "https://shop.sc-project.com/en/brands/aprilia/rs-660-2025",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-scegliauto-vidange",
+      "titre": "Scegliauto — tutoriel vidange Aprilia RS 660",
+      "type": "video",
+      "url": "https://www.scegliauto.com/en/video/aprilia/moto_tutorial/38754/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-selectra-assurance-hivernage",
+      "titre": "Selectra, assurance moto et hivernage",
+      "type": "autre",
+      "url": "https://selectra.info/assurance/actualites/marche/moto-hivernage-resilier-assurance-risques",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-service-public-ct-moto",
+      "titre": "Service-public.fr, contrôle technique des deux-roues motorisés",
+      "type": "officiel",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F37538?lang=en",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-service-public-f16875",
+      "titre": "Service-public.gouv.fr — Débridage d'une moto (F16875, vérifiée le 10/06/2025)",
+      "type": "officiel",
+      "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16875",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-sicurmoto",
+      "titre": "Sicurmoto : heures facturées par les réseaux officiels",
+      "type": "presse",
+      "url": "https://www.sicurmoto.it/manutenzione-e-fai-da-te/riparazioni-moto-le-reti-ufficiali-fatturano-piu-ore-delle-autorizzate/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-smartwerkstatt",
+      "titre": "smartwerkstatt.cloud : taux horaires des ateliers moto en Allemagne (2026)",
+      "type": "autre",
+      "url": "https://smartwerkstatt.cloud/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-speedway-rg-aero",
+      "titre": "Speedway — Tampons de protection R&G Racing Aero noir Aprilia RS660",
+      "type": "revendeur",
+      "url": "https://www.speedway.fr/280443-tampons-de-protection-rg-racing-aero-noir-aprilia-rs660.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-speedway-rs660",
+      "titre": "Speedway — accessoires Aprilia RS 660",
+      "type": "revendeur",
+      "url": "https://www.speedway.fr/moto/aprilia/rs-660",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-sportsbikeshop-rg-cr0085",
+      "titre": "Sportsbikeshop — R&G diabolos décalés CR0085BK",
+      "type": "revendeur",
+      "url": "https://www.sportsbikeshop.co.uk/motorcycle_parts/content_prod/678799",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-sprocketcenter-kit-superlite",
+      "titre": "Sprocket Center — kit chaîne 520 Superlite RSX Aprilia RS660 20-24",
+      "type": "revendeur",
+      "url": "https://sprocketcenter.com/i-30500914-520-chain-kit-superlite-rsx-sprocket-set-with-choice-of-chain-aprilia-rs660-20-24.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-sprocketcenter-rs660",
+      "titre": "Sprocket Center : RS 660 2020-2026 (17/43)",
+      "type": "revendeur",
+      "url": "https://sprocketcenter.com/c-1392962-660-RS-2020-2026.html",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-stewarts",
+      "titre": "Stewarts Motorcycles : taux de main-d'œuvre",
+      "type": "revendeur",
+      "url": "https://www.stewarts-motorcycles.co.uk/labourRatesStewartsMotorcycleRepairs.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-stg-fa630v",
+      "titre": "Sportbike Track Gear : EBC FA630V RS 660",
+      "type": "revendeur",
+      "url": "https://www.sportbiketrackgear.com/ebc-2021-2023-aprilia-rs-660-semi-sintered-front-brake-pads/",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-suncoast-rs660",
+      "titre": "Suncoast Cycle Sports, page RS 660 (retours d'atelier)",
+      "type": "revendeur",
+      "url": "https://suncoastcyclesports.com/RS660",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-sw-motech-pro-blaze",
+      "titre": "SW-Motech — PRO BLAZE H (fiche produit)",
+      "type": "fabricant",
+      "url": "https://sw-motech.eu/en/p/4052572286470",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-teknik-ohlins-ap660",
+      "titre": "Teknik Motorsport — Öhlins AP660 STX 46 Supersport pour Aprilia RS 660",
+      "type": "revendeur",
+      "url": "https://www.teknikmotorsport.com/ohlins-ap660-stx-46-supersport-shock-rear-for-aprilia-rs-660-2021-2022-2023-2024-2025",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-thingiverse-caches-retros",
+      "titre": "Thingiverse — caches de trous de rétroviseurs RS 660 (impression 3D)",
+      "type": "autre",
+      "url": "https://www.thingiverse.com/thing:6184105",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-touring-apres-hiver",
+      "titre": "Touring, entretien de la moto après l'hiver",
+      "type": "autre",
+      "url": "https://www.touring.be/fr/articles/entretien-moto-apres-hiver",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-transport-canada-2021414",
+      "titre": "Transport Canada, rappel 2021414 (bielles, Tuono 660)",
+      "type": "officiel",
+      "url": "https://data.tc.gc.ca/v1.3/api/eng/vehicle-recall-database/recall-summary/recall-number/2021414?format=json",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-tripleclampmoto-dna",
+      "titre": "Triple Clamp Moto — filtre DNA Aprilia RS 660 / Tuono 660",
+      "type": "revendeur",
+      "url": "https://tripleclampmoto.ca/products/filter-for-aprillia-rs-660-20-23-tuono-660-21-23-tuono-660-factory-22-23",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-tripleclampmoto-ohlins-ttx",
+      "titre": "Triple Clamp Moto — Öhlins Hypersport TTX GP AP 468",
+      "type": "revendeur",
+      "url": "https://oceania.tripleclampmoto.ca/products/ohlins-hypersport-ttx-gp-shock-ap-468",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-tsb-batterie-lithium-2024",
+      "titre": "Bulletin Piaggio A_240070_TC_EN — batterie lithium 2D000579 (2024)",
+      "type": "officiel",
+      "url": "https://static.nhtsa.gov/odi/tsbs/2024/MC-10251562-0001.pdf",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-tsb-bielles-2021",
+      "titre": "Communication technique Aprilia A_210742_TC_EN (02/07/2021) : lancement de la campagne bielles 660",
+      "type": "officiel",
+      "url": "https://static.nhtsa.gov/odi/tsbs/2021/MC-10200062-0001.pdf",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-tsb-ecu-2021",
+      "titre": "Bulletin Piaggio A_210321_TC_EN — mise à jour de la cartographie ECU (2021)",
+      "type": "officiel",
+      "url": "https://static.nhtsa.gov/odi/tsbs/2021/MC-10190117-0001.pdf",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-tsb-ecu-2021-suivi-a",
+      "titre": "Communication technique Aprilia A_210573_TC_EN (24/05/2021) : mise à jour de la cartographie ECU",
+      "type": "officiel",
+      "url": "https://static.nhtsa.gov/odi/tsbs/2021/MC-10195394-0001.pdf",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-tsb-ecu-2021-suivi-b",
+      "titre": "Communication technique Aprilia A_210574_TC_EN (24/05/2021) : mise à jour de la cartographie ECU",
+      "type": "officiel",
+      "url": "https://static.nhtsa.gov/odi/tsbs/2021/MC-10195395-0001.pdf",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-tsb-ecu-2023",
+      "titre": "Communication technique Aprilia A_230339_TC_EN (21/03/2023) : calibration moteur RS 660 Euro 5",
+      "type": "officiel",
+      "url": "https://static.nhtsa.gov/odi/tsbs/2023/MC-10233974-0001.pdf",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-tsb-frein-arriere-2022",
+      "titre": "Bulletin Piaggio A_221169_TC_EN — frein arrière bruyant RS et Tuono 660 (2022)",
+      "type": "officiel",
+      "url": "https://static.nhtsa.gov/odi/tsbs/2022/MC-10229606-0001.pdf",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-tsb-jeu-soupapes-2021",
+      "titre": "Bulletin Piaggio A_210393_RC_EN — jeu aux soupapes d’échappement (2021)",
+      "type": "officiel",
+      "url": "https://static.nhtsa.gov/odi/tsbs/2021/MC-10191958-0001.pdf",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-tsb-levier-selecteur-2022",
+      "titre": "Bulletin Piaggio A_220510_TC_EN — levier de sélecteur RS, Tuono et Tuareg 660 (2022)",
+      "type": "officiel",
+      "url": "https://static.nhtsa.gov/odi/tsbs/2022/MC-10213696-0001.pdf",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-tsb-pmp4-2025",
+      "titre": "Communication technique Aprilia A_250254_TC_EN (07/04/2025) : calibration du boîtier multimédia PMP4 (RS et Tuono 660 Euro 5+)",
+      "type": "officiel",
+      "url": "https://static.nhtsa.gov/odi/tsbs/2025/MC-11018163-0001.pdf",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-tsb-tableau-de-bord-2021",
+      "titre": "Communication technique Aprilia A_210664_TC_EN (10/06/2021) : calibration du tableau de bord RS 660 et Tuono 660",
+      "type": "officiel",
+      "url": "https://static.nhtsa.gov/odi/tsbs/2021/MC-10199071-0001.pdf",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-twistedthrottle-givi-easylock",
+      "titre": "Twisted Throttle — Givi Easy-Lock bague spécifique Aprilia / Triumph (tableau d'applications)",
+      "type": "revendeur",
+      "url": "https://twistedthrottle.com/shop/luggage/tank-bags-accessories/tank-bag-rings-mounts/givi-easy-lock-bike-specific-bottom-ring-for-aprilia-and-triumph-consult-application-chart-to-confirm-fit/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-twotyres-hf138",
+      "titre": "Two Tyres : filtre HifloFiltro HF138 (clé de 68 mm)",
+      "type": "revendeur",
+      "url": "https://twotyres.co.uk/product/hf138-hiflofiltro-motorcycle-oil-filter/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-ultimate-essai-2021",
+      "titre": "Ultimate Motorcycling, essai RS 660 2021 (photo réelle du tableau de bord)",
+      "type": "presse",
+      "url": "https://ultimatemotorcycling.com/2020/10/26/2021-aprilia-rs-660-review-18-fast-facts-from-the-canyons/",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-ultimate-motorcycling-2021",
+      "titre": "Ultimate Motorcycling, présentation RS 660 2021 (affichages et capteur de luminosité)",
+      "type": "presse",
+      "url": "https://ultimatemotorcycling.com/2020/10/15/2021-aprilia-rs-660-preview-18-fast-facts-plus-specs-and-photos/",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-ultimate-motorcycling-2025",
+      "titre": "Ultimate Motorcycling — 2025 Aprilia RS 660 Factory first look: 10 fast facts",
+      "type": "presse",
+      "url": "https://ultimatemotorcycling.com/2025/03/13/2025-aprilia-rs-660-factory-first-look-10-fast-facts",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-ultimate-motorcycling-pirelli",
+      "titre": "Ultimate Motorcycling — essai Pirelli Diablo Rosso Corsa II (Laguna Seca, 2018)",
+      "type": "presse",
+      "url": "https://ultimatemotorcycling.com/2018/07/02/pirelli-diablo-rosso-corsa-ii-review-laguna-seca-and-road-tested/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-v4forum-stundensatz",
+      "titre": "v4-forum.de : Stundensatz in der Werkstatt (2025)",
+      "type": "forum",
+      "url": "https://v4-forum.de/threads/stundensatz-in-der-werkstatt.29497/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-v4forum-wartung-p3",
+      "titre": "v4-forum.de : Wartungskosten 660er (page 3)",
+      "type": "forum",
+      "url": "https://v4-forum.de/threads/wartungskosten-660er.21673/page-3",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-v4forum-wartung-p4",
+      "titre": "v4-forum.de : Wartungskosten 660er (page 4)",
+      "type": "forum",
+      "url": "https://v4-forum.de/threads/wartungskosten-660er.21673/page-4",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-viamichelin-vent",
+      "titre": "ViaMichelin, vents violents : quelle conduite adopter",
+      "type": "autre",
+      "url": "https://www.viamichelin.fr/magazine/article/vents-violents-quelle-conduite-adopter",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-video-hormigaz-tableau-de-bord",
+      "titre": "HormigaZ (YouTube), tableau de bord, menus et commandes de la RS 660 en détail (06/03/2021)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=d9gLPTkOZPA",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-video-regulateur-2025",
+      "titre": "motogringojeff (YouTube), régulateur de vitesse des Aprilia 660 Factory 2025-2026 (15/07/2025)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=hYgpK676hkM",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-vinci-vent",
+      "titre": "Vinci Autoroutes, conduire par grand vent",
+      "type": "autre",
+      "url": "https://www.vinci-autoroutes.com/fr/conseils/securite/conduire-en-toute-securite-sur-autoroute-par-grand-vent/",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-viperclub-pirelli-froid",
+      "titre": "Viper Club (forum), température minimale d'utilisation citée pour un pneu Pirelli Diablo Corsa",
+      "type": "forum",
+      "url": "https://www.viperclub.org/vca/goto/post?id=3239246",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-virgilio",
+      "titre": "Virgilio Motori : tarifs horaires des mécaniciens",
+      "type": "presse",
+      "url": "https://www.virgilio.it/motori/info-utili/meccanico-e-tariffe-orarie-quanto-ci-costa-la-manodopera/73537/",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-visordown-2026",
+      "titre": "Visordown — nouvelles livrées Factory 2026 (RSV4, RS 660, Tuono)",
+      "type": "presse",
+      "url": "https://www.visordown.com/news/aprilia-gives-factory-rsv4-rs660-tuono-v4-and-tuono-660-new-graphics-2026",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-visordown-extrema",
+      "titre": "Visordown — présentation de la RS 660 Extrema 2023",
+      "type": "presse",
+      "url": "https://www.visordown.com/news/new-bikes/aprilia-reveals-new-special-edition-rs-660-extrema-2023",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-visordown-limited-edition",
+      "titre": "Visordown — RS 660 Limited Edition",
+      "type": "presse",
+      "url": "https://www.visordown.com/news/new-bikes/aprilia-launches-stars-and-stripes-paint-job-rs-660-limited-edition",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-webbikeworld-akrapovic-2021",
+      "titre": "WebBikeWorld — Akrapovič has two new exhaust options for 2021 Aprilia RS 660",
+      "type": "presse",
+      "url": "https://www.webbikeworld.com/akrapovic-has-two-new-exhaust-options-for-2021-aprilia-rs-660",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-wemoto-bougie",
+      "titre": "Wemoto : bougie NGK pour RS 660 2022",
+      "type": "revendeur",
+      "url": "https://www.wemoto.fr/moto/aprilia/rs-1/659/2022/37221/bougie-ngk",
+      "consulte": "2026-10-15"
+    },
+    {
+      "id": "src-wikipedia-rs660",
+      "titre": "Wikipedia (EN) — Aprilia RS660",
+      "type": "autre",
+      "url": "https://en.wikipedia.org/wiki/Aprilia_RS660",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-woodcraft-50-0760",
+      "titre": "Woodcraft — kit de tampons 50-0760 Aprilia RS 660 2021",
+      "type": "fabricant",
+      "url": "https://woodcraft-cfm.com/products/50-0760-aprilia-rs-660-2021-frame-slider-kit",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-woodcraft-pions",
+      "titre": "Woodcraft : tableau des pions de béquille avant",
+      "type": "fabricant",
+      "url": "https://www.sportbiketrackgear.com/product_images/product_pdf/woodcraft-front-stand-pin-chart.pdf",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-wrs-akrapovic-s-a6r4",
+      "titre": "WRS.it — Akrapovič ligne complète carbone homologuée Aprilia RS 660 2021-2024",
+      "type": "revendeur",
+      "url": "https://www.wrs.it/en/complete-exhaust-system/330465-akrapovic-carbon-complete-exhaust-approved-aprilia-rs-660-2021-2024.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-wrs-arrow-indy-race",
+      "titre": "WRS.it — Arrow silencieux carbone Indy Race Aprilia RS 660 2020-2024",
+      "type": "revendeur",
+      "url": "https://www.wrs.it/en/silencers/343287-arrow-carbon-silencer-indy-race-aprilia-rs-660-2020-2024-8019799113282.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-wrs-bonamici-a006",
+      "titre": "WRS.it — Bonamici Racing commandes reculées Aprilia RS 660 2020-2026",
+      "type": "revendeur",
+      "url": "https://www.wrs.it/en/rear-sets/501296-bonamici-racing-adjustable-rearsets-aprilia-rs-660-2020-2026.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-wrs-galfer-df669wa",
+      "titre": "WRS.it — Galfer DF669WA disque arrière fixe Aprilia RS 660 2021-2023",
+      "type": "revendeur",
+      "url": "https://www.wrs.it/en/brake-discs/382426-df669wa-galfer-rear-fixed-disc-aprilia-rs-660-2021-2023.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-wrs-rg-grille-radiateur",
+      "titre": "WRS.it — Grille de radiateur R&G Pro Aprilia RS 660 2021-2024",
+      "type": "revendeur",
+      "url": "https://www.wrs.it/en/radiator-covers/442592-pro-radiator-protection-grille-rg-aprilia-rs-660-2021-2024.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-wrs-rg-protections-fourche",
+      "titre": "WRS.it — R&G paire de protections de fourche Aprilia RS 660 2021",
+      "type": "revendeur",
+      "url": "https://www.wrs.it/en/frame-protections/343698-rg-pair-of-fork-guards-black-aprilia-rs-660-2021.html",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-youtube-jetprime-canister",
+      "titre": "How to install Jetprime ByPass Removal Canister System for Aprilia RS 660 / Tuono 660 (YouTube)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=dx-tITFHPBQ",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-youtube-ohlins-install",
+      "titre": "YouTube : 2021 Aprilia RS 660 Ohlins install (SkwidVids, 2022)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=g9StKwf_WPY",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-youtube-plaquettes-rs660",
+      "titre": "YouTube — Aprilia RS660 / Tuono 660 Brake Pad Change (N. Uselmann, 2022)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=jSUyIwY_YM0",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-youtube-sc-project-crt",
+      "titre": "SC-Project CRT Full Exhaust for Aprilia RS/Tuono 660 (A23-AC36TR) (YouTube)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=GCTvR_TXTo8",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-youtube-sc-project-rs660",
+      "titre": "YouTube — SC Project install on 2021 Aprilia RS 660 (SkwidVids, 2022)",
+      "type": "video",
+      "url": "https://www.youtube.com/watch?v=xYic0LAWIr0",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-youtube-vidange",
+      "titre": "YouTube — vidange RS 660 (short)",
+      "type": "video",
+      "url": "https://www.youtube.com/shorts/BmwTNxx-nQY",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-zabikers-2021",
+      "titre": "ZA Bikers — essai RS 660",
+      "type": "presse",
+      "url": "https://www.zabikers.co.za/?p=348766",
+      "consulte": "2026-10-16"
+    },
+    {
+      "id": "src-zenith-pneus-froid",
+      "titre": "Zenith Motorcycles, montée en température des pneus par temps froid",
+      "type": "revendeur",
+      "url": "https://zenithmotorcycles.co.uk/?p=4170",
+      "consulte": "2026-10-15"
+    }
+  ]
+}

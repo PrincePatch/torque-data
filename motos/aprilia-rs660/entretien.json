@@ -1,0 +1,3474 @@
+{
+  "version_schema": 1,
+  "maj": "2026-10-16",
+  "operations": [
+    {
+      "id": "op-vidange-huile-filtre",
+      "titre": {
+        "fr": "Vidange de l'huile moteur et du filtre",
+        "en": "Engine oil and filter change"
+      },
+      "categorie": "moteur",
+      "type": "remplacer",
+      "intervalle": {
+        "km": 10000,
+        "mois": 12,
+        "premiere_km": 1000,
+        "severe": {
+          "km": 5000,
+          "mois": 6
+        },
+        "piste": {
+          "km": 5000,
+          "mois": 6
+        },
+        "repetition": "les_deux_premier_atteint"
+      },
+      "gravite": 4,
+      "resume": {
+        "fr": "Remplacer l'huile moteur (SAE 10W-50 de synthèse, API SL, JASO MA2 : 2,7 L avec le filtre) et la cartouche de filtre, et contrôler le joint du bouchon de vidange. Première vidange à 1 000 km (fin de rodage), puis tous les 10 000 km ou 12 mois."
+      },
+      "pourquoi": {
+        "fr": "La même huile lubrifie le moteur, la boîte de vitesses et l'embrayage à bain d'huile. Elle se charge de particules d'usure et vieillit même quand la moto roule peu : le délai de 12 mois s'applique même si le kilométrage n'est pas atteint. La vidange de 1 000 km évacue les particules du rodage ; toutes les performances ne sont autorisées qu'après cette révision."
+      },
+      "symptomes": {
+        "fr": "Aucun signe fiable avant les dégâts : le niveau peut rester correct avec une huile usée. Indices : huile noire, limaille en morceaux (et non en poudre fine) sur l'aimant du bouchon de vidange, icône d'entretien (clé) au tableau de bord quand l'échéance est dépassée."
+      },
+      "si_neglige": {
+        "fr": "Usure accélérée des paliers, de la distribution et de la boîte ; une huile non conforme JASO MA2 peut faire patiner l'embrayage. À terme, casse moteur, la réparation la plus chère de la moto. Une vidange en retard peut aussi justifier un refus de prise en charge sous garantie."
+      },
+      "pieces": [
+        {
+          "id": "pc-filtre-huile",
+          "quantite": 1
+        },
+        {
+          "id": "pc-joint-vidange",
+          "quantite": 1
+        }
+      ],
+      "consommables": [
+        {
+          "id": "cs-huile-moteur",
+          "quantite": {
+            "valeur": 2.7,
+            "unite": "L"
+          },
+          "note": {
+            "fr": "Quantité du manuel avec le filtre ; d'autres sources donnent 2,3 L : finir à la jauge."
+          }
+        }
+      ],
+      "outils": [
+        "ou-bequille-arriere",
+        "ou-cle-allen-4",
+        "ou-douille-17",
+        "ou-cle-filtre-huile",
+        "ou-jeu-douilles",
+        "ou-cle-dynamometrique-5-25",
+        "ou-bac-vidange",
+        "ou-entonnoir"
+      ],
+      "procedure": "pr-vidange-huile-filtre",
+      "composants": [
+        "co-bouchon-vidange",
+        "co-filtre-huile",
+        "co-jauge-huile"
+      ],
+      "duree_diy_min": 60,
+      "temps_atelier_h": 0.5,
+      "duree_diy_confiance": "incertain",
+      "temps_atelier_confiance": "incertain",
+      "difficulte": 2,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "garantie": {
+        "fr": "Le manuel du propriétaire réserve la vidange et le filtre au réseau Aprilia (p. 142) et exige des révisions faites à l'heure pour garder la garantie (p. 190). Pendant la garantie (2 ans en France), la faire en concession lors des révisions, ou garder facture, références de l'huile et du filtre, kilométrage et photos."
+      },
+      "groupe_revision": [
+        "revision-1000",
+        "revision-10000",
+        "revision-20000",
+        "revision-30000",
+        "revision-40000",
+        "revision-12-mois",
+        "revision-24-mois"
+      ],
+      "note": {
+        "fr": "Quantité : 2,7 L avec le filtre selon les manuels propriétaire (p. 182) et atelier (p. 60). Un fabricant de kit radiateur d'huile (Gabro) indique 2,3 L et une facture de propriétaire mentionne 2,32 L : verser progressivement, faire tourner le moteur quelques minutes, attendre 30 s, puis ajuster à la jauge (moto droite sur ses deux roues, bouchon-jauge posé sans être vissé) sans jamais dépasser MAX. Acheter un bidon de 4 L. Filtre rempli au tiers d'huile neuve, joint huilé, serré à 15 Nm ; bouchon de vidange à 20 Nm ; bas de carénage à déposer. Durée DIY et temps atelier : estimations (aucun barème publié pour cette opération seule). La révision des 1 000 km, vidange comprise, compte 90 min au barème."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p140",
+        "src-manuel-proprietaire#p141",
+        "src-manuel-proprietaire#p142",
+        "src-manuel-proprietaire#p182",
+        "src-manuel-proprietaire#p190",
+        "src-manuel-proprietaire#p191",
+        "src-manuel-proprietaire#p192",
+        "src-manuel-proprietaire#p193",
+        "src-manuel-atelier#p44",
+        "src-manuel-atelier#p55",
+        "src-manuel-atelier#p59",
+        "src-manuel-atelier#p60",
+        "src-manuel-atelier#p61",
+        "src-gabro-oil-cooler",
+        "src-v4forum-wartung-p4",
+        "src-youtube-vidange"
+      ]
+    },
+    {
+      "id": "op-controle-filtre-air",
+      "titre": {
+        "fr": "Contrôle du filtre à air",
+        "en": "Air filter inspection"
+      },
+      "categorie": "admission",
+      "type": "controler",
+      "intervalle": {
+        "km": 20000,
+        "decalage_km": 10000,
+        "severe": {
+          "km": 10000,
+          "decalage_km": 5000
+        },
+        "piste": {
+          "km": 10000,
+          "decalage_km": 5000
+        },
+        "repetition": "km_seulement"
+      },
+      "gravite": 2,
+      "resume": {
+        "fr": "À 10 000 puis 30 000 km, déposer le réservoir et le couvercle de la boîte à air pour contrôler et nettoyer l'élément filtrant. Le filtre se remplace aux paliers de 20 000 et 40 000 km (opération distincte)."
+      },
+      "pourquoi": {
+        "fr": "Le filtre arrête la poussière avant les cylindres. Encrassé, il freine l'admission d'air ; déchiré ou mal posé, il laisse entrer des abrasifs qui usent cylindres et segments."
+      },
+      "symptomes": {
+        "fr": "Peu de signes au guidon : reprises moins franches et consommation en hausse quand le filtre est très chargé. Seul le contrôle visuel tranche : élément très sale, déformé, déchiré, joint mal en place."
+      },
+      "si_neglige": {
+        "fr": "Usure prématurée du moteur si de la poussière passe, baisse de performances si le filtre est colmaté. Sur routes poussiéreuses, le manuel divise l'intervalle par deux."
+      },
+      "pieces": [],
+      "consommables": [],
+      "outils": [
+        "ou-tournevis-cruciforme",
+        "ou-tournevis-dynamometrique-1-5",
+        "ou-pince-colliers"
+      ],
+      "procedure": "pr-filtre-air",
+      "composants": [
+        "co-reservoir-carburant",
+        "co-boite-a-air",
+        "co-filtre-air"
+      ],
+      "duree_diy_min": 75,
+      "temps_atelier_h": 0.5,
+      "duree_diy_confiance": "incertain",
+      "temps_atelier_confiance": "incertain",
+      "difficulte": 3,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "garantie": {
+        "fr": "Le manuel du propriétaire réserve le contrôle et le remplacement du filtre à air au réseau Aprilia (p. 144). Pendant la garantie, le faire lors des révisions en concession."
+      },
+      "groupe_revision": [
+        "revision-10000",
+        "revision-30000"
+      ],
+      "note": {
+        "fr": "Accès : vider le réservoir au maximum puis le déposer, débrancher le capteur de température d'air d'admission, retirer les 11 vis du couvercle (1 à 1,2 Nm au remontage : vis dans du plastique). Nettoyer aussi le filtre de reniflard si besoin. Durée DIY et temps atelier : estimations (aucun barème publié pour cette opération seule)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p144",
+        "src-manuel-proprietaire#p190",
+        "src-manuel-proprietaire#p191",
+        "src-manuel-atelier#p55",
+        "src-manuel-atelier#p61",
+        "src-manuel-atelier#p62",
+        "src-manuel-atelier#p64"
+      ]
+    },
+    {
+      "id": "op-remplacement-filtre-air",
+      "titre": {
+        "fr": "Remplacement du filtre à air",
+        "en": "Air filter replacement"
+      },
+      "categorie": "admission",
+      "type": "remplacer",
+      "intervalle": {
+        "km": 20000,
+        "severe": {
+          "km": 10000
+        },
+        "piste": {
+          "km": 10000
+        },
+        "repetition": "km_seulement"
+      },
+      "gravite": 2,
+      "resume": {
+        "fr": "Remplacer l'élément filtrant de la boîte à air (polyester d'origine) tous les 20 000 km, tous les 10 000 km en usage sévère. Même accès que pour le contrôle : réservoir et couvercle de la boîte à air déposés."
+      },
+      "pourquoi": {
+        "fr": "L'élément d'origine en polyester se colmate peu à peu et le tableau prévoit son remplacement à intervalle fixe. Un filtre lavable du commerce suit les consignes de son fabricant."
+      },
+      "symptomes": {
+        "fr": "Reprises moins franches et consommation en hausse quand le filtre est très chargé ; élément très sale ou abîmé au contrôle."
+      },
+      "si_neglige": {
+        "fr": "Admission d'air réduite (moteur moins vif, consommation en hausse) et risque de laisser passer de la poussière vers les cylindres."
+      },
+      "pieces": [
+        {
+          "id": "pc-filtre-air",
+          "quantite": 1
+        }
+      ],
+      "consommables": [],
+      "outils": [
+        "ou-tournevis-cruciforme",
+        "ou-tournevis-dynamometrique-1-5",
+        "ou-pince-colliers"
+      ],
+      "procedure": "pr-filtre-air",
+      "composants": [
+        "co-reservoir-carburant",
+        "co-boite-a-air",
+        "co-filtre-air",
+        "co-capteur-temperature-admission"
+      ],
+      "duree_diy_min": 75,
+      "temps_atelier_h": 0.5,
+      "duree_diy_confiance": "incertain",
+      "temps_atelier_confiance": "incertain",
+      "difficulte": 3,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "garantie": {
+        "fr": "Le manuel du propriétaire réserve le contrôle et le remplacement du filtre à air au réseau Aprilia (p. 144). Pendant la garantie, le faire lors des révisions en concession."
+      },
+      "groupe_revision": [
+        "revision-20000",
+        "revision-40000"
+      ],
+      "note": {
+        "fr": "Le plus économique est de le grouper avec les bougies (révision des 20 000 km) : réservoir et boîte à air sont déjà déposés. Vis du couvercle à 1 à 1,2 Nm. Durée DIY et temps atelier : estimations (aucun barème publié pour cette opération seule)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p144",
+        "src-manuel-proprietaire#p181",
+        "src-manuel-proprietaire#p190",
+        "src-manuel-proprietaire#p191",
+        "src-manuel-atelier#p55",
+        "src-manuel-atelier#p61",
+        "src-manuel-atelier#p62"
+      ]
+    },
+    {
+      "id": "op-bougies",
+      "titre": {
+        "fr": "Remplacement des bougies",
+        "en": "Spark plug replacement"
+      },
+      "categorie": "allumage",
+      "type": "remplacer",
+      "intervalle": {
+        "km": 20000,
+        "severe": {
+          "km": 10000
+        },
+        "piste": {
+          "km": 10000
+        },
+        "repetition": "km_seulement"
+      },
+      "gravite": 2,
+      "resume": {
+        "fr": "Remplacer les 2 bougies iridium NGK MR9DI-7 (écartement 0,7 à 0,8 mm, serrage 12 Nm) tous les 20 000 km, tous les 10 000 km en usage sévère. Accès long : réservoir, boîte à air complète, canister et bobines crayon à déposer."
+      },
+      "pourquoi": {
+        "fr": "Les électrodes s'usent et l'écartement augmente : l'étincelle devient moins franche. Le tableau d'entretien ne prévoit qu'un remplacement, sans contrôle intermédiaire."
+      },
+      "symptomes": {
+        "fr": "Démarrage plus long, ralenti irrégulier, ratés ou trous à l'accélération, consommation en hausse. Ces signes ont d'autres causes possibles (sur les premières séries, voir aussi les mises à jour du calculateur)."
+      },
+      "si_neglige": {
+        "fr": "Ratés d'allumage, combustion moins complète et encrassement : moto moins agréable et plus gourmande, sans casse directe."
+      },
+      "pieces": [
+        {
+          "id": "pc-bougie",
+          "quantite": 2
+        }
+      ],
+      "consommables": [],
+      "outils": [
+        "ou-tournevis-cruciforme",
+        "ou-tournevis-dynamometrique-1-5",
+        "ou-pince-colliers",
+        "ou-cle-bougie",
+        "ou-cle-dynamometrique-5-25"
+      ],
+      "procedure": "pr-bougies",
+      "composants": [
+        "co-reservoir-carburant",
+        "co-boite-a-air",
+        "co-canister",
+        "co-bobines",
+        "co-bougies"
+      ],
+      "duree_diy_min": 120,
+      "temps_atelier_h": 0.5,
+      "duree_diy_confiance": "incertain",
+      "temps_atelier_confiance": "incertain",
+      "difficulte": 3,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "garantie": {
+        "fr": "Le manuel du propriétaire réserve le contrôle et le remplacement des bougies au réseau Aprilia (p. 144). Pendant la garantie, les faire remplacer lors de la révision des 20 000 km."
+      },
+      "groupe_revision": [
+        "revision-20000",
+        "revision-40000"
+      ],
+      "note": {
+        "fr": "Joints de puits de bougie (pc-joint-puits-bougie) : à remplacer s'ils sont abîmés. Visser les bougies à la main avant de serrer. Taille de la clé à bougie non confirmée (16 mm probable) : vérifier avant de commencer. Durée DIY et temps atelier : estimations (aucun barème publié pour cette opération seule)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p144",
+        "src-manuel-proprietaire#p186",
+        "src-manuel-proprietaire#p187",
+        "src-manuel-proprietaire#p190",
+        "src-manuel-proprietaire#p191",
+        "src-manuel-atelier#p40",
+        "src-manuel-atelier#p55",
+        "src-manuel-atelier#p57",
+        "src-manuel-atelier#p58"
+      ]
+    },
+    {
+      "id": "op-jeu-soupapes",
+      "titre": {
+        "fr": "Contrôle et réglage du jeu aux soupapes",
+        "en": "Valve clearance check and adjustment"
+      },
+      "categorie": "moteur",
+      "type": "regler",
+      "intervalle": {
+        "km": 20000,
+        "severe": {
+          "km": 10000
+        },
+        "piste": {
+          "km": 10000
+        },
+        "repetition": "km_seulement"
+      },
+      "gravite": 4,
+      "resume": {
+        "fr": "Mesurer le jeu des 8 soupapes (admission 0,10 à 0,15 mm, échappement 0,10 à 0,20 mm) et remplacer les pastilles hors tolérance, tous les 20 000 km. Intervention lourde : réservoir, flancs, boîte à air, corps de papillon, canister et couvre-culasse à déposer ; outils de calage Aprilia pour le réglage."
+      },
+      "pourquoi": {
+        "fr": "Avec l'usure, le jeu entre came et poussoir évolue. Trop faible, il empêche la soupape de bien se fermer ; trop grand, il rend la distribution bruyante. Sur les RS 660 de 2021, une campagne Aprilia a déjà porté sur le jeu des soupapes d'échappement."
+      },
+      "symptomes": {
+        "fr": "Cliquetis de distribution plus marqué (jeu trop grand) ; démarrage difficile à chaud, ralenti instable ou perte de compression (jeu trop faible). Un jeu qui se réduit est souvent silencieux : seule la mesure le révèle."
+      },
+      "si_neglige": {
+        "fr": "Soupape qui ne ferme plus complètement : perte de compression, soupape et siège brûlés, réparation de culasse coûteuse. C'est l'échéance la plus lourde du plan, souvent repoussée."
+      },
+      "pieces": [
+        {
+          "id": "pc-joint-couvre-culasse",
+          "quantite": 1
+        }
+      ],
+      "consommables": [],
+      "outils": [
+        "ou-tournevis-cruciforme",
+        "ou-tournevis-dynamometrique-1-5",
+        "ou-pince-colliers",
+        "ou-cales-epaisseur",
+        "ou-micrometre",
+        "ou-embout-torx-t40",
+        "ou-cle-dynamometrique-5-25",
+        "ou-sp-021044y",
+        "ou-sp-021043y",
+        "ou-sp-020851y",
+        "ou-sp-669n5",
+        "ou-sp-736-10-10-1"
+      ],
+      "procedure": "pr-jeu-soupapes",
+      "composants": [
+        "co-reservoir-carburant",
+        "co-boite-a-air",
+        "co-canister",
+        "co-couvre-culasse"
+      ],
+      "duree_diy_min": 240,
+      "temps_atelier_h": 3.0,
+      "duree_diy_confiance": "incertain",
+      "temps_atelier_confiance": "une_source",
+      "difficulte": 5,
+      "faisable_soi_meme": false,
+      "outillage_special": true,
+      "garantie": {
+        "fr": "Échéance de la révision des 20 000 km : à faire en concession pendant la garantie. Sur une 2021, demander aussi si la campagne PA0ZZQ2101 (jeu des soupapes d'échappement) a été faite."
+      },
+      "groupe_revision": [
+        "revision-20000",
+        "revision-40000"
+      ],
+      "note": {
+        "fr": "Temps atelier : environ 3 h pour le contrôle seul selon un mécanicien (forum) ; compter environ 1 h de plus si des pastilles doivent être changées (concessionnaire). Dans la révision des 20 000 km (190 min au barème), le contrôle est compris, pas le réglage. Pastilles de 1,75 à 3,15 mm par pas de 0,025 mm, épaisseur imprimée vers le haut : seules celles hors tolérance se remplacent (prix unitaire non trouvé). Après réglage : pâte au bisulfure de molybdène (cs-pate-montage) sur cames et poussoirs, couvre-culasse à 10 Nm. Durée DIY : estimation (environ 3 h pour le contrôle seul, 4 à 6 h avec réglage)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p191",
+        "src-manuel-atelier#p18",
+        "src-manuel-atelier#p40",
+        "src-manuel-atelier#p49",
+        "src-manuel-atelier#p55",
+        "src-manuel-atelier#p77",
+        "src-manuel-atelier#p78",
+        "src-manuel-atelier#p79",
+        "src-tsb-jeu-soupapes-2021",
+        "src-v4forum-wartung-p4",
+        "src-repaire-forum-2025"
+      ]
+    },
+    {
+      "id": "op-chaine-entretien",
+      "titre": {
+        "fr": "Entretien de la chaîne (contrôle, nettoyage, tension, graissage)",
+        "en": "Chain maintenance (check, clean, adjust, lube)"
+      },
+      "categorie": "transmission",
+      "type": "lubrifier",
+      "intervalle": {
+        "km": 1000,
+        "mois": 12,
+        "severe": {
+          "km": 500,
+          "mois": 6
+        },
+        "piste": {
+          "km": 500,
+          "mois": 6
+        },
+        "repetition": "les_deux_premier_atteint"
+      },
+      "gravite": 3,
+      "resume": {
+        "fr": "Tous les 1 000 km : contrôler l'usure et la flèche (environ 30 mm, mesurée à 250 mm de l'axe de roue, moto sur sa béquille latérale, point mort), nettoyer, régler si besoin, puis graisser avec un lubrifiant compatible joints toriques. Plus souvent sous la pluie, sur route poussiéreuse et après chaque lavage."
+      },
+      "pourquoi": {
+        "fr": "La chaîne à joints toriques (520, 110 maillons) garde sa graisse interne, mais galets et dents ont besoin d'un lubrifiant extérieur propre. Une flèche hors réglage use pignon et couronne. La chaîne s'allonge en servant : lors de l'essai longue durée de MCN, elle a été retendue 2 fois en environ 9 600 km."
+      },
+      "symptomes": {
+        "fr": "Bruit de chaîne, à-coups à la reprise des gaz, chaîne sèche ou rouillée, flèche qui varie sur un tour de roue (maillons grippés ou écrasés), chaîne qui touche le dessous du bras oscillant."
+      },
+      "si_neglige": {
+        "fr": "Usure rapide de la chaîne, du pignon et de la couronne (kit à remplacer), maillons grippés ; une chaîne trop détendue peut sauter de la couronne, une chaîne trop tendue charge les roulements de sortie de boîte et de roue."
+      },
+      "pieces": [],
+      "consommables": [
+        {
+          "id": "cs-nettoyant-chaine",
+          "quantite": {
+            "valeur": 0.1,
+            "unite": "piece"
+          },
+          "note": {
+            "fr": "Fraction de l'aérosol, du flacon ou du tube par intervention : estimation."
+          }
+        },
+        {
+          "id": "cs-lubrifiant-chaine",
+          "quantite": {
+            "valeur": 0.1,
+            "unite": "piece"
+          },
+          "note": {
+            "fr": "Fraction de l'aérosol, du flacon ou du tube par intervention : estimation."
+          }
+        }
+      ],
+      "outils": [
+        "ou-bequille-arriere",
+        "ou-diabolos-m6",
+        "ou-brosse-chaine",
+        "ou-regle-graduee",
+        "ou-jauge-usure-chaine",
+        "ou-douille-26",
+        "ou-jeu-cles-plates",
+        "ou-cle-dynamometrique-40-210"
+      ],
+      "procedure": "pr-chaine-entretien",
+      "composants": [
+        "co-chaine",
+        "co-point-mesure-fleche",
+        "co-tendeur-chaine-gauche",
+        "co-tendeur-chaine-droit",
+        "co-axe-roue-arriere",
+        "co-pignon",
+        "co-couronne",
+        "co-patin-chaine"
+      ],
+      "mesure": "me-fleche-chaine",
+      "mesures": [
+        "me-fleche-chaine",
+        "me-etat-chaine"
+      ],
+      "duree_diy_min": 30,
+      "temps_atelier_h": 0.2,
+      "duree_diy_confiance": "incertain",
+      "temps_atelier_confiance": "incertain",
+      "difficulte": 2,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "garantie": {
+        "fr": "Le manuel du propriétaire décrit le nettoyage et le graissage (p. 178) mais réserve le réglage de la tension et toute autre intervention sur la chaîne au réseau Aprilia (p. 177)."
+      },
+      "groupe_revision": [
+        "revision-1000",
+        "revision-10000",
+        "revision-20000",
+        "revision-30000",
+        "revision-40000",
+        "revision-12-mois",
+        "revision-24-mois"
+      ],
+      "note": {
+        "fr": "Jamais de jet haute pression, de vapeur ni de solvant très inflammable : pétrole, gazole ou nettoyant compatible joints toriques. Ne pas rouler juste après le graissage. Réglage : repères des tendeurs identiques des deux côtés, écrou d'axe de roue resserré à 120 Nm, flèche recontrôlée. Intervalle de 12 mois : colonnes 12 et 24 mois du tableau. Quantités de nettoyant et de lubrifiant : environ un dixième d'aérosol par entretien (estimation). Durée DIY et temps atelier : estimations (aucun barème publié pour cette opération seule)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p175",
+        "src-manuel-proprietaire#p176",
+        "src-manuel-proprietaire#p177",
+        "src-manuel-proprietaire#p178",
+        "src-manuel-proprietaire#p190",
+        "src-manuel-proprietaire#p191",
+        "src-manuel-atelier#p37",
+        "src-manuel-atelier#p55",
+        "src-manuel-atelier#p312",
+        "src-manuel-atelier#p313",
+        "src-mcn-essai-longue-duree"
+      ]
+    },
+    {
+      "id": "op-cable-embrayage",
+      "titre": {
+        "fr": "Contrôle et lubrification du câble d'embrayage",
+        "en": "Clutch cable check and lubrication"
+      },
+      "categorie": "transmission",
+      "type": "lubrifier",
+      "intervalle": {
+        "km": 10000,
+        "mois": 12,
+        "premiere_km": 1000,
+        "severe": {
+          "km": 5000,
+          "mois": 6
+        },
+        "piste": {
+          "km": 5000,
+          "mois": 6
+        },
+        "repetition": "les_deux_premier_atteint"
+      },
+      "gravite": 3,
+      "resume": {
+        "fr": "Lubrifier le câble d'embrayage à chaque révision (1 000 km, puis tous les 10 000 km ou 12 mois). Avant de rouler, vérifier la garde au levier (1 à 3 mm) et l'état du câble, au guidon comme côté moteur."
+      },
+      "pourquoi": {
+        "fr": "Un câble sec durcit le levier et s'use dans sa gaine. Sans garde, l'embrayage peut patiner ; avec trop de garde, il débraye mal."
+      },
+      "symptomes": {
+        "fr": "Levier dur ou qui accroche, point de patinage qui se déplace, vitesses qui craquent à l'arrêt, moto qui avance embrayage tiré, brins effilochés visibles."
+      },
+      "si_neglige": {
+        "fr": "Câble qui casse en roulant (plus d'embrayage), embrayage qui patine et s'use. Le manuel impose de remplacer un câble effiloché."
+      },
+      "pieces": [],
+      "consommables": [],
+      "outils": [
+        "ou-jeu-cles-plates",
+        "ou-jeu-douilles"
+      ],
+      "procedure": "pr-cable-embrayage",
+      "composants": [
+        "co-cable-embrayage",
+        "co-levier-embrayage",
+        "co-reglage-levier-embrayage",
+        "co-tendeur-cable-embrayage"
+      ],
+      "duree_diy_min": 15,
+      "temps_atelier_h": 0.2,
+      "duree_diy_confiance": "incertain",
+      "temps_atelier_confiance": "incertain",
+      "difficulte": 1,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "garantie": {
+        "fr": "Point des révisions programmées : le manuel demande de les faire aux échéances, même si le kilométrage n'est pas atteint, pour garder la garantie (p. 190). Pendant la garantie, le faire faire en concession ou chez un professionnel qui suit le plan Aprilia, avec facture détaillée."
+      },
+      "groupe_revision": [
+        "revision-1000",
+        "revision-10000",
+        "revision-20000",
+        "revision-30000",
+        "revision-40000",
+        "revision-12-mois",
+        "revision-24-mois"
+      ],
+      "note": {
+        "fr": "Réglage fin par la vis du levier, puis par le tendeur côté moteur si besoin. Essai moteur tournant, embrayage tiré et 1re engagée : la moto ne doit ni avancer, ni caler, ni patiner. Lubrifiant non précisé par Aprilia. Le câble se lubrifie aussi après chaque lavage (p. 173). Durée DIY et temps atelier : estimations (aucun barème publié pour cette opération seule)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p107",
+        "src-manuel-proprietaire#p119",
+        "src-manuel-proprietaire#p173",
+        "src-manuel-proprietaire#p191",
+        "src-manuel-atelier#p55",
+        "src-manuel-atelier#p84",
+        "src-manuel-atelier#p85"
+      ]
+    },
+    {
+      "id": "op-controle-transmission",
+      "titre": {
+        "fr": "Contrôle du pignon, de la couronne et du patin de chaîne",
+        "en": "Sprockets and chain slider inspection"
+      },
+      "categorie": "transmission",
+      "type": "controler",
+      "intervalle": {
+        "km": 10000,
+        "severe": {
+          "km": 5000
+        },
+        "piste": {
+          "km": 5000
+        },
+        "repetition": "km_seulement"
+      },
+      "gravite": 3,
+      "resume": {
+        "fr": "Tous les 10 000 km, contrôler les dents du pignon (17 dents) et de la couronne (43 dents), l'allongement de la chaîne et l'usure du patin de chaîne sur le bras oscillant."
+      },
+      "pourquoi": {
+        "fr": "Chaîne, pignon et couronne s'usent ensemble ; le patin protège le bras oscillant du frottement de la chaîne. Ce contrôle décide du remplacement du kit."
+      },
+      "symptomes": {
+        "fr": "Dents pointues ou en crochet, allongement de 3 % mesuré sur 8 maillons, galets abîmés, patin entaillé, chaîne qui touche le bras oscillant."
+      },
+      "si_neglige": {
+        "fr": "Kit usé jusqu'au saut ou à la casse de la chaîne, patin percé et bras oscillant entaillé."
+      },
+      "pieces": [],
+      "consommables": [],
+      "outils": [
+        "ou-bequille-arriere",
+        "ou-jauge-usure-chaine"
+      ],
+      "procedure": "pr-controle-transmission",
+      "composants": [
+        "co-chaine",
+        "co-pignon",
+        "co-couronne",
+        "co-patin-chaine"
+      ],
+      "mesure": "me-etat-chaine",
+      "duree_diy_min": 15,
+      "temps_atelier_h": 0.2,
+      "duree_diy_confiance": "incertain",
+      "temps_atelier_confiance": "incertain",
+      "difficulte": 2,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "garantie": {
+        "fr": "Point des révisions programmées : le manuel demande de les faire aux échéances, même si le kilométrage n'est pas atteint, pour garder la garantie (p. 190). Pendant la garantie, le faire faire en concession ou chez un professionnel qui suit le plan Aprilia, avec facture détaillée."
+      },
+      "groupe_revision": [
+        "revision-10000",
+        "revision-20000",
+        "revision-30000",
+        "revision-40000"
+      ],
+      "note": {
+        "fr": "Galets abîmés, axes desserrés ou joints toriques manquants : remplacer chaîne, pignon et couronne ensemble (op-kit-chaine). Patin fixé par 2 vis M5 serrées à 2 Nm. Durée DIY et temps atelier : estimations (aucun barème publié pour cette opération seule)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p177",
+        "src-manuel-proprietaire#p191",
+        "src-manuel-atelier#p37",
+        "src-manuel-atelier#p55",
+        "src-manuel-atelier#p309",
+        "src-manuel-atelier#p310"
+      ]
+    },
+    {
+      "id": "op-controle-amortisseur-biellettes",
+      "titre": {
+        "fr": "Contrôle de l'amortisseur arrière et des biellettes",
+        "en": "Rear shock and linkage inspection"
+      },
+      "categorie": "suspensions",
+      "type": "controler",
+      "intervalle": {
+        "km": 20000,
+        "mois": 12,
+        "severe": {
+          "km": 10000,
+          "mois": 6
+        },
+        "piste": {
+          "km": 10000,
+          "mois": 6
+        },
+        "repetition": "les_deux_premier_atteint"
+      },
+      "gravite": 3,
+      "resume": {
+        "fr": "Contrôler l'amortisseur arrière (fuite, tige, fixations) et les roulements et articulations de la suspension arrière (biellettes) : à 20 000 et 40 000 km et tous les 12 mois."
+      },
+      "pourquoi": {
+        "fr": "Roulements et articulations de la suspension arrière travaillent à chaque bosse et prennent du jeu ; un amortisseur qui fuit perd son freinage hydraulique."
+      },
+      "symptomes": {
+        "fr": "Arrière qui pompe ou talonne, bruit sourd sur les bosses, jeu dans la suspension arrière, traces d'huile sur le corps de l'amortisseur."
+      },
+      "si_neglige": {
+        "fr": "Tenue de route dégradée, en particulier en courbe et en duo ; roulements qui grippent puis abîment leurs logements."
+      },
+      "pieces": [],
+      "consommables": [],
+      "outils": [],
+      "procedure": "pr-controle-amortisseur-biellettes",
+      "composants": [
+        "co-amortisseur",
+        "co-bras-oscillant"
+      ],
+      "temps_atelier_h": 0.5,
+      "temps_atelier_confiance": "incertain",
+      "difficulte": 3,
+      "faisable_soi_meme": false,
+      "outillage_special": false,
+      "garantie": {
+        "fr": "Point des révisions programmées : le manuel demande de les faire aux échéances, même si le kilométrage n'est pas atteint, pour garder la garantie (p. 190). Pendant la garantie, le faire faire en concession ou chez un professionnel qui suit le plan Aprilia, avec facture détaillée."
+      },
+      "groupe_revision": [
+        "revision-20000",
+        "revision-40000",
+        "revision-12-mois",
+        "revision-24-mois"
+      ],
+      "note": {
+        "fr": "Écrous de fixation de l'amortisseur : M10 autofreinés, 50 Nm. Le tableau comporte aussi, aux mêmes échéances, une ligne « Raked » dont le sens n'est pas élucidé : demander à l'atelier ce qu'elle recouvre. L'amortisseur d'origine est l'élément le plus critiqué par les propriétaires (confort, ressort jugé mou pour la piste). Temps atelier : estimation."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p191",
+        "src-manuel-atelier#p38",
+        "src-manuel-atelier#p55",
+        "src-suncoast-rs660"
+      ]
+    },
+    {
+      "id": "op-reglage-general",
+      "titre": {
+        "fr": "Réglage général de la moto (« set up »)",
+        "en": "Motorcycle set-up check"
+      },
+      "categorie": "controle",
+      "type": "controler",
+      "intervalle": {
+        "km": 10000,
+        "premiere_km": 1000,
+        "severe": {
+          "km": 5000
+        },
+        "piste": {
+          "km": 5000
+        },
+        "repetition": "km_seulement"
+      },
+      "gravite": 2,
+      "resume": {
+        "fr": "Ligne « Motorcycle set up » du tableau d'entretien, cochée à 1 000 km puis à chaque palier de 10 000 km : vérification des réglages de la moto par l'atelier. Le manuel n'en détaille pas le contenu."
+      },
+      "pourquoi": {
+        "fr": "Rattraper les réglages qui dérivent avec les kilomètres ; ce point complète les contrôles détaillés de la révision."
+      },
+      "symptomes": {
+        "fr": "Aucun qui lui soit propre : signaler à l'atelier tout réglage qui a changé (commandes, garde d'embrayage, position des leviers, suspensions)."
+      },
+      "si_neglige": {
+        "fr": "Petits défauts de réglage non corrigés. Enjeu faible pris isolément, mais le point fait partie des révisions exigées pour la garantie."
+      },
+      "pieces": [],
+      "consommables": [],
+      "outils": [],
+      "composants": [],
+      "faisable_soi_meme": false,
+      "outillage_special": false,
+      "garantie": {
+        "fr": "Point des révisions programmées : le manuel demande de les faire aux échéances, même si le kilométrage n'est pas atteint, pour garder la garantie (p. 190). Pendant la garantie, le faire faire en concession ou chez un professionnel qui suit le plan Aprilia, avec facture détaillée."
+      },
+      "groupe_revision": [
+        "revision-1000",
+        "revision-10000",
+        "revision-20000",
+        "revision-30000",
+        "revision-40000"
+      ],
+      "note": {
+        "fr": "Contenu non détaillé par Aprilia : demander à l'atelier ce qui a été vérifié. Pas de temps propre : compris dans le temps de chaque révision."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p191",
+        "src-manuel-atelier#p55"
+      ]
+    },
+    {
+      "id": "op-controle-direction",
+      "titre": {
+        "fr": "Contrôle de la direction (roulements et jeu)",
+        "en": "Steering head bearings and play check"
+      },
+      "categorie": "direction",
+      "type": "controler",
+      "intervalle": {
+        "km": 10000,
+        "mois": 12,
+        "premiere_km": 1000,
+        "severe": {
+          "km": 5000,
+          "mois": 6
+        },
+        "piste": {
+          "km": 5000,
+          "mois": 6
+        },
+        "repetition": "les_deux_premier_atteint"
+      },
+      "gravite": 5,
+      "resume": {
+        "fr": "Vérifier que la direction tourne librement d'une butée à l'autre, sans point dur, et que les roulements de colonne n'ont pas de jeu : à 1 000 km, puis tous les 10 000 km ou 12 mois. Le manuel demande aussi un contrôle rapide de la direction avant chaque départ."
+      },
+      "pourquoi": {
+        "fr": "Des roulements de direction usés ou mal serrés dégradent la précision et la stabilité ; un roulement marqué crée un point dur en ligne droite."
+      },
+      "symptomes": {
+        "fr": "Point dur ou crans au centre, guidonnage ou louvoiement, claquement au freinage, jeu en tirant la fourche d'avant en arrière, roue avant levée."
+      },
+      "si_neglige": {
+        "fr": "Instabilité et guidonnage à haute vitesse, tenue de cap imprécise : risque de chute. Roulements à remplacer et serrage à refaire en atelier."
+      },
+      "pieces": [],
+      "consommables": [],
+      "outils": [
+        "ou-bequille-arriere",
+        "ou-diabolos-m6",
+        "ou-bequille-avant"
+      ],
+      "procedure": "pr-controle-direction",
+      "composants": [
+        "co-colonne-direction",
+        "co-te-superieur",
+        "co-fourche"
+      ],
+      "duree_diy_min": 15,
+      "temps_atelier_h": 0.3,
+      "duree_diy_confiance": "incertain",
+      "temps_atelier_confiance": "incertain",
+      "difficulte": 2,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "garantie": {
+        "fr": "Point des révisions programmées : le manuel demande de les faire aux échéances, même si le kilométrage n'est pas atteint, pour garder la garantie (p. 190). Pendant la garantie, le faire faire en concession ou chez un professionnel qui suit le plan Aprilia, avec facture détaillée."
+      },
+      "groupe_revision": [
+        "revision-1000",
+        "revision-10000",
+        "revision-20000",
+        "revision-30000",
+        "revision-40000",
+        "revision-12-mois",
+        "revision-24-mois"
+      ],
+      "note": {
+        "fr": "Le réglage du serrage de la colonne se fait en atelier, avec l'outil Aprilia AP8140190 (couples dans couples.json). Après toute chute, Aprilia demande un contrôle en concession. Durée DIY et temps atelier : estimations (aucun barème publié pour cette opération seule)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p8",
+        "src-manuel-proprietaire#p107",
+        "src-manuel-proprietaire#p191",
+        "src-manuel-atelier#p24",
+        "src-manuel-atelier#p55"
+      ]
+    },
+    {
+      "id": "op-controle-roues-roulements",
+      "titre": {
+        "fr": "Contrôle des roues et des roulements de roues",
+        "en": "Wheels and wheel bearings check"
+      },
+      "categorie": "roues",
+      "type": "controler",
+      "intervalle": {
+        "km": 10000,
+        "mois": 12,
+        "premiere_km": 1000,
+        "severe": {
+          "km": 5000,
+          "mois": 6
+        },
+        "piste": {
+          "km": 5000,
+          "mois": 6
+        },
+        "repetition": "les_deux_premier_atteint"
+      },
+      "gravite": 5,
+      "resume": {
+        "fr": "Contrôler l'état des jantes (fissures, chocs, voile), le jeu et la rotation libre des roulements de roues et le serrage des axes : à 1 000 km, puis tous les 10 000 km ou 12 mois."
+      },
+      "pourquoi": {
+        "fr": "Un roulement de roue usé prend du jeu et chauffe ; une jante choquée peut fuir (pneus sans chambre) ou se fissurer."
+      },
+      "symptomes": {
+        "fr": "Grondement qui varie avec la vitesse, jeu latéral en secouant la roue levée, roue qui ne tourne pas librement, perte de pression lente sur une roue."
+      },
+      "si_neglige": {
+        "fr": "Roulement qui grippe ou se désagrège, roue qui prend du jeu : instabilité et risque de chute. Une jante abîmée peut provoquer une crevaison lente."
+      },
+      "pieces": [],
+      "consommables": [],
+      "outils": [
+        "ou-bequille-arriere",
+        "ou-diabolos-m6",
+        "ou-bequille-avant"
+      ],
+      "procedure": "pr-controle-roues-roulements",
+      "composants": [
+        "co-roue-avant",
+        "co-roue-arriere",
+        "co-axe-roue-avant",
+        "co-axe-roue-arriere"
+      ],
+      "duree_diy_min": 20,
+      "temps_atelier_h": 0.3,
+      "duree_diy_confiance": "incertain",
+      "temps_atelier_confiance": "incertain",
+      "difficulte": 2,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "garantie": {
+        "fr": "Point des révisions programmées : le manuel demande de les faire aux échéances, même si le kilométrage n'est pas atteint, pour garder la garantie (p. 190). Pendant la garantie, le faire faire en concession ou chez un professionnel qui suit le plan Aprilia, avec facture détaillée."
+      },
+      "groupe_revision": [
+        "revision-1000",
+        "revision-10000",
+        "revision-20000",
+        "revision-30000",
+        "revision-40000",
+        "revision-12-mois",
+        "revision-24-mois"
+      ],
+      "note": {
+        "fr": "Couples des axes : avant 65 Nm (vis de bridage 18 Nm), écrou arrière 120 Nm. Le remplacement des roulements demande extracteur et poinçons (outils Aprilia 020376Y, 020358Y, 020414Y) : atelier. Garder les roues phoniques de l'ABS propres. Durée DIY et temps atelier : estimations (aucun barème publié pour cette opération seule)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p108",
+        "src-manuel-proprietaire#p191",
+        "src-manuel-atelier#p22",
+        "src-manuel-atelier#p23",
+        "src-manuel-atelier#p37",
+        "src-manuel-atelier#p55"
+      ]
+    },
+    {
+      "id": "op-diagnostic-outil",
+      "titre": {
+        "fr": "Diagnostic à l'outil Aprilia",
+        "en": "Diagnosis with the Aprilia tool"
+      },
+      "categorie": "electricite",
+      "type": "diagnostic",
+      "intervalle": {
+        "km": 10000,
+        "mois": 12,
+        "premiere_km": 1000,
+        "severe": {
+          "km": 5000,
+          "mois": 6
+        },
+        "piste": {
+          "km": 5000,
+          "mois": 6
+        },
+        "repetition": "les_deux_premier_atteint"
+      },
+      "gravite": 3,
+      "resume": {
+        "fr": "À chaque révision, l'atelier branche l'outil de diagnostic Aprilia sur la prise diagnostic pour lire les défauts mémorisés, vérifier les paramètres et mettre à jour la calibration de la moto."
+      },
+      "pourquoi": {
+        "fr": "Le manuel d'atelier impose ce contrôle à chaque entretien. Des défauts intermittents (ABS, centrale inertielle, sondes lambda, capteurs) restent en mémoire sans toujours allumer un témoin, et Aprilia a publié des calibrations correctives pour la RS 660 (2021, 2023, 2025)."
+      },
+      "symptomes": {
+        "fr": "Témoin moteur, ABS, a-PRC ou alerte générale allumé ; message de service au tableau de bord ; ralenti irrégulier sur les premières séries."
+      },
+      "si_neglige": {
+        "fr": "Défauts non détectés et calibrations correctives non appliquées. Un entretien fait hors réseau ne comprend pas ce passage à l'outil."
+      },
+      "pieces": [],
+      "consommables": [],
+      "outils": [
+        "ou-sp-020922y",
+        "ou-sp-021017y"
+      ],
+      "composants": [
+        "co-prise-diagnostic",
+        "co-calculateur",
+        "co-centrale-inertielle",
+        "co-modulateur-abs",
+        "co-sonde-lambda",
+        "co-tableau-de-bord"
+      ],
+      "temps_atelier_h": 0.4,
+      "temps_atelier_confiance": "incertain",
+      "faisable_soi_meme": false,
+      "outillage_special": true,
+      "garantie": {
+        "fr": "Fait en concession avec l'outil Aprilia (P.A.D.S.) ; c'est aussi le moment où les campagnes et mises à jour en attente sont appliquées."
+      },
+      "groupe_revision": [
+        "revision-1000",
+        "revision-10000",
+        "revision-20000",
+        "revision-30000",
+        "revision-40000",
+        "revision-12-mois",
+        "revision-24-mois"
+      ],
+      "note": {
+        "fr": "Temps atelier hors révision : estimation, d'après des factures allemandes où une mise à jour logicielle ajoute environ 40 à 50 €. Dans une révision, le temps est compris dans le barème."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p191",
+        "src-manuel-atelier#p55",
+        "src-tsb-ecu-2021",
+        "src-tsb-ecu-2023",
+        "src-tsb-pmp4-2025",
+        "src-v4forum-wartung-p4"
+      ]
+    },
+    {
+      "id": "op-controle-freins",
+      "titre": {
+        "fr": "Contrôle des freins (disques, plaquettes, circuits)",
+        "en": "Brake system, discs and pads check"
+      },
+      "categorie": "freins",
+      "type": "controler",
+      "intervalle": {
+        "a_chaque_sortie": true,
+        "km": 10000,
+        "mois": 12,
+        "premiere_km": 1000,
+        "severe": {
+          "km": 5000,
+          "mois": 6
+        },
+        "piste": {
+          "km": 5000,
+          "mois": 6
+        },
+        "repetition": "les_deux_premier_atteint"
+      },
+      "gravite": 5,
+      "resume": {
+        "fr": "Avant chaque sortie : fonctionnement des freins, course des leviers, fuites et usure des plaquettes (coup d'œil sur les étriers). À 1 000 km, puis tous les 10 000 km ou 12 mois : contrôle complet des disques (épaisseur, voile), des plaquettes, des durites et des étriers."
+      },
+      "pourquoi": {
+        "fr": "Les plaquettes s'usent à chaque freinage et le manuel demande de surveiller leur usure surtout avant chaque sortie. Un disque trop mince ou voilé, une durite abîmée ou une fuite réduisent le freinage."
+      },
+      "symptomes": {
+        "fr": "Levier ou pédale spongieux ou à longue course, bruit métallique ou étincelles à l'étrier (garniture épuisée), vibrations au freinage (disque voilé), traces de liquide, sifflement du frein arrière (sujet connu, traité par un bulletin Aprilia)."
+      },
+      "si_neglige": {
+        "fr": "Le support métallique de la plaquette attaque le disque : freinage dégradé et disques à remplacer en plus des plaquettes. Une fuite ou un disque trop mince peut provoquer une perte de freinage."
+      },
+      "pieces": [],
+      "consommables": [],
+      "outils": [
+        "ou-micrometre"
+      ],
+      "procedure": "pr-controle-freins",
+      "composants": [
+        "co-etrier-avant",
+        "co-plaquettes-avant",
+        "co-disque-avant",
+        "co-durite-frein-avant",
+        "co-capteur-abs-avant",
+        "co-etrier-arriere",
+        "co-plaquettes-arriere",
+        "co-disque-arriere"
+      ],
+      "mesure": "me-epaisseur-plaquettes-avant",
+      "mesures": [
+        "me-epaisseur-plaquettes-avant",
+        "me-epaisseur-plaquettes-arriere"
+      ],
+      "duree_diy_min": 15,
+      "temps_atelier_h": 0.3,
+      "duree_diy_confiance": "incertain",
+      "temps_atelier_confiance": "incertain",
+      "difficulte": 1,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "garantie": {
+        "fr": "Point des révisions programmées : le manuel demande de les faire aux échéances, même si le kilométrage n'est pas atteint, pour garder la garantie (p. 190). Pendant la garantie, le faire faire en concession ou chez un professionnel qui suit le plan Aprilia, avec facture détaillée."
+      },
+      "groupe_revision": [
+        "revision-1000",
+        "revision-10000",
+        "revision-20000",
+        "revision-30000",
+        "revision-40000",
+        "revision-12-mois",
+        "revision-24-mois"
+      ],
+      "note": {
+        "fr": "Cotes : remplacer les plaquettes vers 1,5 mm de garniture (ou témoin d'usure disparu) ; épaisseur minimale des disques 4,0 mm à l'avant et 4,5 mm à l'arrière ; voile maximal 0,15 mm à l'avant et 0,1 mm à l'arrière. Contrôle visuel : étriers avant par le haut côté arrière, étrier arrière par le bas côté arrière. Durée DIY et temps atelier : estimations (aucun barème publié pour cette opération seule)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p106",
+        "src-manuel-proprietaire#p107",
+        "src-manuel-proprietaire#p168",
+        "src-manuel-proprietaire#p169",
+        "src-manuel-proprietaire#p191",
+        "src-manuel-atelier#p55",
+        "src-manuel-atelier#p349",
+        "src-manuel-atelier#p352",
+        "src-tsb-frein-arriere-2022"
+      ]
+    },
+    {
+      "id": "op-controle-refroidissement",
+      "titre": {
+        "fr": "Contrôle du circuit de refroidissement",
+        "en": "Cooling system check"
+      },
+      "categorie": "refroidissement",
+      "type": "controler",
+      "intervalle": {
+        "km": 10000,
+        "severe": {
+          "km": 5000
+        },
+        "piste": {
+          "km": 5000
+        },
+        "repetition": "km_seulement"
+      },
+      "gravite": 4,
+      "resume": {
+        "fr": "Tous les 10 000 km : contrôler le radiateur (ailettes, propreté), les durites et colliers, l'absence de fuite (raccords, pompe à eau), le bouchon et le fonctionnement de l'électroventilateur."
+      },
+      "pourquoi": {
+        "fr": "Une fuite, un radiateur colmaté ou un ventilateur en panne font monter la température du moteur, surtout à l'arrêt et en ville par forte chaleur."
+      },
+      "symptomes": {
+        "fr": "Alerte de surchauffe (liquide à 115 °C ou plus), niveau du vase d'expansion qui baisse, traces de liquide rouge ou dépôts sur les raccords, ventilateur qui ne se déclenche pas dans les embouteillages."
+      },
+      "si_neglige": {
+        "fr": "Surchauffe pouvant endommager le moteur. Le manuel conseille aussi de laver souvent le radiateur au jet à basse pression pour éviter les surchauffes."
+      },
+      "pieces": [],
+      "consommables": [],
+      "outils": [],
+      "procedure": "pr-controle-refroidissement",
+      "composants": [
+        "co-radiateur",
+        "co-ventilateur",
+        "co-vase-expansion",
+        "co-bouchon-radiateur"
+      ],
+      "duree_diy_min": 15,
+      "temps_atelier_h": 0.3,
+      "duree_diy_confiance": "incertain",
+      "temps_atelier_confiance": "incertain",
+      "difficulte": 2,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "garantie": {
+        "fr": "Point des révisions programmées : le manuel demande de les faire aux échéances, même si le kilométrage n'est pas atteint, pour garder la garantie (p. 190). Pendant la garantie, le faire faire en concession ou chez un professionnel qui suit le plan Aprilia, avec facture détaillée."
+      },
+      "groupe_revision": [
+        "revision-10000",
+        "revision-20000",
+        "revision-30000",
+        "revision-40000"
+      ],
+      "note": {
+        "fr": "Ne jamais ouvrir le bouchon du radiateur moteur chaud : le liquide est sous pression et très chaud. En cas d'alerte de surchauffe, suivre la procédure du manuel (fiche du témoin). Durée DIY et temps atelier : estimations (aucun barème publié pour cette opération seule)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p8",
+        "src-manuel-proprietaire#p31",
+        "src-manuel-proprietaire#p127",
+        "src-manuel-proprietaire#p145",
+        "src-manuel-proprietaire#p191",
+        "src-manuel-atelier#p55"
+      ]
+    },
+    {
+      "id": "op-controle-contacteurs-securite",
+      "titre": {
+        "fr": "Contrôle des contacteurs de sécurité",
+        "en": "Safety switches check"
+      },
+      "categorie": "electricite",
+      "type": "controler",
+      "intervalle": {
+        "km": 10000,
+        "mois": 12,
+        "premiere_km": 1000,
+        "severe": {
+          "km": 5000,
+          "mois": 6
+        },
+        "piste": {
+          "km": 5000,
+          "mois": 6
+        },
+        "repetition": "les_deux_premier_atteint"
+      },
+      "gravite": 4,
+      "resume": {
+        "fr": "Vérifier le contacteur de béquille latérale, les contacteurs de feu stop (levier et pédale), le contacteur d'embrayage, le coupe-circuit et la poignée de gaz : à 1 000 km, puis tous les 10 000 km ou 12 mois. Béquille, coupe-circuit et feu stop se vérifient aussi d'un geste avant chaque départ."
+      },
+      "pourquoi": {
+        "fr": "Ces contacteurs empêchent de partir béquille dépliée, signalent le freinage aux autres usagers et permettent de couper le moteur en urgence."
+      },
+      "symptomes": {
+        "fr": "Témoin de béquille incohérent, feu stop qui ne s'allume pas avec l'un des deux freins, démarrage refusé ou moteur qui ne coupe pas au coupe-circuit, poignée de gaz qui ne revient pas seule."
+      },
+      "si_neglige": {
+        "fr": "Départ béquille dépliée (chute au premier virage à gauche), feu stop muet (risque de choc arrière), coupe-circuit inopérant en cas d'urgence."
+      },
+      "pieces": [],
+      "consommables": [],
+      "outils": [],
+      "procedure": "pr-controle-contacteurs-securite",
+      "composants": [
+        "co-contacteur-bequille",
+        "co-bequille",
+        "co-contacteur-stop-arriere",
+        "co-pedale-frein",
+        "co-levier-frein-avant",
+        "co-levier-embrayage",
+        "co-bascule-demarrage",
+        "co-poignee-gaz"
+      ],
+      "duree_diy_min": 10,
+      "temps_atelier_h": 0.2,
+      "duree_diy_confiance": "incertain",
+      "temps_atelier_confiance": "incertain",
+      "difficulte": 1,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "garantie": {
+        "fr": "Point des révisions programmées : le manuel demande de les faire aux échéances, même si le kilométrage n'est pas atteint, pour garder la garantie (p. 190). Pendant la garantie, le faire faire en concession ou chez un professionnel qui suit le plan Aprilia, avec facture détaillée."
+      },
+      "groupe_revision": [
+        "revision-1000",
+        "revision-10000",
+        "revision-20000",
+        "revision-30000",
+        "revision-40000",
+        "revision-12-mois",
+        "revision-24-mois"
+      ],
+      "note": {
+        "fr": "Libellé du tableau : béquille, stop, embrayage, « extra negative stroke », commande des gaz. Durée DIY et temps atelier : estimations (aucun barème publié pour cette opération seule)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p107",
+        "src-manuel-proprietaire#p108",
+        "src-manuel-proprietaire#p123",
+        "src-manuel-proprietaire#p191",
+        "src-manuel-atelier#p55"
+      ]
+    },
+    {
+      "id": "op-liquide-frein",
+      "titre": {
+        "fr": "Remplacement du liquide de frein (avant et arrière)",
+        "en": "Brake fluid change (front and rear)"
+      },
+      "categorie": "freins",
+      "type": "purger",
+      "intervalle": {
+        "mois": 24,
+        "severe": {
+          "mois": 12
+        },
+        "piste": {
+          "mois": 12
+        },
+        "repetition": "mois_seulement"
+      },
+      "gravite": 5,
+      "resume": {
+        "fr": "Renouveler le liquide DOT 4 des circuits avant et arrière tous les 24 mois (12 mois en usage sévère), quel que soit le kilométrage. Le niveau, lui, se contrôle avant chaque sortie et à chaque révision."
+      },
+      "pourquoi": {
+        "fr": "Le liquide de frein est hygroscopique : il absorbe l'humidité de l'air, ce qui abaisse son point d'ébullition et favorise la corrosion des étriers, des maître-cylindres et du modulateur ABS."
+      },
+      "symptomes": {
+        "fr": "Liquide foncé dans les bocaux, levier qui s'allonge après des freinages appuyés (descente de col, piste), course à vide plus longue."
+      },
+      "si_neglige": {
+        "fr": "Liquide qui bout lors de freinages répétés : levier qui vient au guidon et perte de freinage. Corrosion interne coûteuse (pistons, modulateur ABS)."
+      },
+      "pieces": [],
+      "consommables": [
+        {
+          "id": "cs-liquide-frein",
+          "quantite": {
+            "valeur": 0.5,
+            "unite": "L"
+          },
+          "note": {
+            "fr": "Volume du circuit non publié : estimation, un flacon de 500 mL suffit en général."
+          }
+        }
+      ],
+      "outils": [
+        "ou-kit-purge-frein",
+        "ou-seringue",
+        "ou-tournevis-cruciforme",
+        "ou-cle-allen-4"
+      ],
+      "procedure": "pr-purge-liquide-frein",
+      "composants": [
+        "co-reservoir-frein-avant",
+        "co-reservoir-frein-arriere",
+        "co-etrier-avant",
+        "co-vis-purge-avant",
+        "co-etrier-arriere",
+        "co-vis-purge-arriere",
+        "co-maitre-cylindre-arriere",
+        "co-modulateur-abs"
+      ],
+      "duree_diy_min": 60,
+      "temps_atelier_h": 0.7,
+      "duree_diy_confiance": "incertain",
+      "temps_atelier_confiance": "incertain",
+      "difficulte": 3,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "garantie": {
+        "fr": "Le manuel du propriétaire confie la purge au réseau Aprilia (p. 149). Échéance de la révision des 24 mois : à faire en concession pendant la garantie."
+      },
+      "groupe_revision": [
+        "revision-24-mois"
+      ],
+      "note": {
+        "fr": "ABS : le manuel d'atelier décrit pour l'avant une purge assistée par l'outil de diagnostic (fonction « FRONT BLEEDING »), suivie d'une purge classique ; une purge classique seule suffit probablement si aucune bulle d'air n'est entrée dans le modulateur (non confirmé). Bocal avant à l'horizontale, bocal arrière derrière le flanc arrière. Protéger la peinture : liquide corrosif. Temps : estimations ; au barème, la révision des 24 mois compte 50 min de plus que celle des 12 mois pour remplacer les deux liquides (frein et refroidissement)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p147",
+        "src-manuel-proprietaire#p148",
+        "src-manuel-proprietaire#p149",
+        "src-manuel-proprietaire#p192",
+        "src-manuel-proprietaire#p193",
+        "src-manuel-atelier#p55",
+        "src-manuel-atelier#p359",
+        "src-manuel-atelier#p360"
+      ]
+    },
+    {
+      "id": "op-liquide-refroidissement",
+      "titre": {
+        "fr": "Remplacement du liquide de refroidissement",
+        "en": "Coolant change"
+      },
+      "categorie": "refroidissement",
+      "type": "remplacer",
+      "intervalle": {
+        "mois": 24,
+        "severe": {
+          "mois": 12
+        },
+        "piste": {
+          "mois": 12
+        },
+        "repetition": "mois_seulement"
+      },
+      "gravite": 4,
+      "resume": {
+        "fr": "Vidanger et remplacer le liquide de refroidissement tous les 24 mois (12 mois en usage sévère), moteur froid : antigel rouge prêt à l'emploi, éthylène glycol à inhibiteurs organiques, 1,8 ± 0,2 L."
+      },
+      "pourquoi": {
+        "fr": "Les inhibiteurs de corrosion s'épuisent avec le temps : un liquide usé attaque la pompe à eau, le radiateur et les passages du moteur, et protège moins bien du gel."
+      },
+      "symptomes": {
+        "fr": "Liquide terne, brunâtre ou chargé de dépôts dans le vase d'expansion ; souvent aucun symptôme avant la corrosion."
+      },
+      "si_neglige": {
+        "fr": "Corrosion interne, pompe à eau et radiateur abîmés, surchauffe ; gel du circuit si le mélange est trop dilué."
+      },
+      "pieces": [],
+      "consommables": [
+        {
+          "id": "cs-liquide-refroidissement",
+          "quantite": {
+            "valeur": 1.8,
+            "unite": "L"
+          },
+          "note": {
+            "fr": "Capacité du manuel : 1,8 ± 0,2 L ; prévoir 2 L."
+          }
+        }
+      ],
+      "outils": [
+        "ou-cle-allen-4",
+        "ou-cle-allen-2-5",
+        "ou-cle-allen-3",
+        "ou-jeu-embouts-torx",
+        "ou-douille-8",
+        "ou-bac-vidange",
+        "ou-entonnoir",
+        "ou-pince-colliers"
+      ],
+      "procedure": "pr-vidange-liquide-refroidissement",
+      "composants": [
+        "co-vase-expansion",
+        "co-bouchon-radiateur",
+        "co-radiateur",
+        "co-vis-vidange-refroidissement"
+      ],
+      "duree_diy_min": 120,
+      "temps_atelier_h": 0.8,
+      "duree_diy_confiance": "incertain",
+      "temps_atelier_confiance": "incertain",
+      "difficulte": 3,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "garantie": {
+        "fr": "Échéance de la révision des 24 mois : à faire en concession pendant la garantie, ou garder la facture d'un liquide aux normes ASTM D3306, D4656, D4985 et CUNA NC 956-16."
+      },
+      "groupe_revision": [
+        "revision-24-mois"
+      ],
+      "note": {
+        "fr": "Accès : flancs et bas de carénage déposés, vis de vidange côté gauche (récupérer la rondelle). Procédure de purge de l'air et couple de la vis de vidange non trouvés : recontrôler le niveau, moteur froid, après le premier trajet. Avec un antigel pur, mélanger à 50 % d'eau distillée (jusqu'à 60 % d'antigel s'il gèle). Temps : estimations ; au barème, la révision des 24 mois compte 50 min de plus que celle des 12 mois pour les deux liquides."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p145",
+        "src-manuel-proprietaire#p146",
+        "src-manuel-proprietaire#p182",
+        "src-manuel-proprietaire#p192",
+        "src-manuel-proprietaire#p193",
+        "src-manuel-atelier#p55",
+        "src-manuel-atelier#p371",
+        "src-manuel-atelier#p376"
+      ]
+    },
+    {
+      "id": "op-huile-fourche",
+      "titre": {
+        "fr": "Remplacement de l'huile de fourche",
+        "en": "Fork oil change"
+      },
+      "categorie": "suspensions",
+      "type": "remplacer",
+      "intervalle": {
+        "km": 40000,
+        "mois": 48,
+        "severe": {
+          "km": 20000,
+          "mois": 24
+        },
+        "piste": {
+          "km": 20000,
+          "mois": 24
+        },
+        "repetition": "les_deux_premier_atteint"
+      },
+      "gravite": 3,
+      "resume": {
+        "fr": "Vidanger et remplir les deux fourreaux de la fourche inversée KYB de 41 mm : huile SAE 7.5W, 468 cm³ par fourreau, niveau à 98 mm. Tous les 40 000 km ou 4 ans, au premier atteint (20 000 km ou 2 ans en usage sévère)."
+      },
+      "pourquoi": {
+        "fr": "L'huile de fourche se dégrade et se charge de particules : l'amortissement devient moins constant et l'avant moins précis."
+      },
+      "symptomes": {
+        "fr": "Fourche qui plonge davantage au freinage, rebonds mal contrôlés, réglage de détente qui semble sans effet, huile noire à la vidange."
+      },
+      "si_neglige": {
+        "fr": "Amortissement dégradé, freinages et appuis en courbe moins sûrs, usure accélérée des joints spi et des bagues."
+      },
+      "pieces": [],
+      "consommables": [
+        {
+          "id": "cs-huile-fourche",
+          "quantite": {
+            "valeur": 0.936,
+            "unite": "L"
+          },
+          "note": {
+            "fr": "2 × 468 cm³ (fourche KYB)."
+          }
+        }
+      ],
+      "outils": [
+        "ou-leve-moto-colonne",
+        "ou-bequille-arriere",
+        "ou-sp-020888s",
+        "ou-seringue",
+        "ou-regle-graduee",
+        "ou-cle-dynamometrique"
+      ],
+      "procedure": "pr-huile-fourche",
+      "composants": [
+        "co-fourche"
+      ],
+      "duree_diy_min": 180,
+      "temps_atelier_h": 1.5,
+      "duree_diy_confiance": "incertain",
+      "temps_atelier_confiance": "une_source",
+      "difficulte": 4,
+      "faisable_soi_meme": false,
+      "outillage_special": true,
+      "garantie": {
+        "fr": "Point des révisions programmées : le manuel demande de les faire aux échéances, même si le kilométrage n'est pas atteint, pour garder la garantie (p. 190). Pendant la garantie, le faire faire en concession ou chez un professionnel qui suit le plan Aprilia, avec facture détaillée."
+      },
+      "groupe_revision": [
+        "revision-40000"
+      ],
+      "note": {
+        "fr": "Temps atelier déduit du barème Aprilia : la révision des 40 000 km (280 min) ne diffère de celle des 20 000 km (190 min) que par l'huile de fourche, soit 90 min. Niveau mesuré sans ressort ni tube de précharge, fourche comprimée et verticale, identique des deux côtés. Si les joints spi suintent, les remplacer à cette occasion (pc-joints-spi-fourche). RS 660 Factory (2025+, fourche Öhlins NIX30) : huile, quantité et intervalle non trouvés ; l'intervalle ci-dessus est celui de la fourche KYB, à faire confirmer par le concessionnaire ou un centre Öhlins. Durée DIY : estimation."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p190",
+        "src-manuel-proprietaire#p192",
+        "src-manuel-proprietaire#p193",
+        "src-manuel-atelier#p55",
+        "src-manuel-atelier#p57",
+        "src-manuel-atelier#p252"
+      ]
+    },
+    {
+      "id": "op-controle-joints-spi-fourche",
+      "titre": {
+        "fr": "Contrôle des joints spi de fourche",
+        "en": "Fork seals check"
+      },
+      "categorie": "suspensions",
+      "type": "controler",
+      "intervalle": {
+        "km": 20000,
+        "decalage_km": 10000,
+        "severe": {
+          "km": 10000,
+          "decalage_km": 5000
+        },
+        "piste": {
+          "km": 10000,
+          "decalage_km": 5000
+        },
+        "repetition": "km_seulement"
+      },
+      "gravite": 4,
+      "resume": {
+        "fr": "À 10 000 et 30 000 km, contrôler l'étanchéité des joints spi : tubes propres, aucune trace ni anneau d'huile après avoir comprimé la fourche plusieurs fois. Un coup d'œil régulier aux tubes de fourche fait aussi partie des contrôles courants."
+      },
+      "pourquoi": {
+        "fr": "Un joint spi usé ou entaillé (insectes, gravillons) laisse fuir l'huile de fourche, qui peut couler sur l'étrier et le disque."
+      },
+      "symptomes": {
+        "fr": "Film ou anneau d'huile sur le tube, traces sur le fourreau ou sur l'étrier, fourche qui s'enfonce plus qu'avant."
+      },
+      "si_neglige": {
+        "fr": "Huile sur le disque et les plaquettes (freinage avant fortement réduit, plaquettes à remplacer) et amortissement qui se dégrade à mesure que l'huile se perd."
+      },
+      "pieces": [],
+      "consommables": [],
+      "outils": [],
+      "procedure": "pr-controle-joints-spi-fourche",
+      "composants": [
+        "co-fourche"
+      ],
+      "duree_diy_min": 10,
+      "temps_atelier_h": 0.2,
+      "duree_diy_confiance": "incertain",
+      "temps_atelier_confiance": "incertain",
+      "difficulte": 1,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "garantie": {
+        "fr": "Point des révisions programmées : le manuel demande de les faire aux échéances, même si le kilométrage n'est pas atteint, pour garder la garantie (p. 190). Pendant la garantie, le faire faire en concession ou chez un professionnel qui suit le plan Aprilia, avec facture détaillée."
+      },
+      "groupe_revision": [
+        "revision-10000",
+        "revision-30000"
+      ],
+      "note": {
+        "fr": "Une fuite impose de remplacer les joints (pc-joints-spi-fourche) : démontage et vidange de la fourche, outils Aprilia de pose (AP8140145, AP8140146, AP8140149), donc atelier. Aucun défaut de joints spi propre à la RS 660 n'a été signalé. Durée DIY et temps atelier : estimations (aucun barème publié pour cette opération seule)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p115",
+        "src-manuel-proprietaire#p192",
+        "src-manuel-atelier#p49",
+        "src-manuel-atelier#p55"
+      ]
+    },
+    {
+      "id": "op-reglage-phare",
+      "titre": {
+        "fr": "Contrôle du réglage du phare",
+        "en": "Headlight aim check"
+      },
+      "categorie": "eclairage",
+      "type": "controler",
+      "intervalle": {
+        "km": 10000,
+        "severe": {
+          "km": 5000
+        },
+        "piste": {
+          "km": 5000
+        },
+        "repetition": "km_seulement"
+      },
+      "gravite": 3,
+      "resume": {
+        "fr": "Tous les 10 000 km, vérifier la hauteur du faisceau : moto sur sol plat à 10 m d'un mur, pilote assis, feu de croisement allumé ; le faisceau doit arriver un peu sous la hauteur du phare, vers 9/10 de celle-ci."
+      },
+      "pourquoi": {
+        "fr": "Trop haut, le phare éblouit les autres usagers ; trop bas, il raccourcit la portée de nuit. Un passager ou des bagages relèvent le faisceau."
+      },
+      "symptomes": {
+        "fr": "Appels de phares des véhicules croisés, route mal éclairée de nuit, faisceau qui éclaire le haut des arbres ou seulement la route juste devant la roue."
+      },
+      "si_neglige": {
+        "fr": "Visibilité de nuit réduite ou éblouissement des autres usagers."
+      },
+      "pieces": [],
+      "consommables": [],
+      "outils": [],
+      "procedure": "pr-reglage-phare",
+      "composants": [
+        "co-phare",
+        "co-reglage-phare"
+      ],
+      "duree_diy_min": 15,
+      "temps_atelier_h": 0.3,
+      "duree_diy_confiance": "incertain",
+      "temps_atelier_confiance": "incertain",
+      "difficulte": 1,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "garantie": {
+        "fr": "Point des révisions programmées : le manuel demande de les faire aux échéances, même si le kilométrage n'est pas atteint, pour garder la garantie (p. 190). Pendant la garantie, le faire faire en concession ou chez un professionnel qui suit le plan Aprilia, avec facture détaillée."
+      },
+      "groupe_revision": [
+        "revision-10000",
+        "revision-20000",
+        "revision-30000",
+        "revision-40000"
+      ],
+      "note": {
+        "fr": "Croisement : 2 vis à l'arrière de la tête de fourche, sous l'habillage intérieur (serrer = monter le faisceau). Route : 1 vis sous le bloc optique (serrer = baisser). Respecter la réglementation locale. Type d'outil non relevé. Durée DIY et temps atelier : estimations (aucun barème publié pour cette opération seule)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p164",
+        "src-manuel-proprietaire#p165",
+        "src-manuel-proprietaire#p166",
+        "src-manuel-proprietaire#p192",
+        "src-manuel-atelier#p55",
+        "src-manuel-atelier#p85",
+        "src-manuel-atelier#p86"
+      ]
+    },
+    {
+      "id": "op-serrage-boulonnerie",
+      "titre": {
+        "fr": "Contrôle du serrage de la boulonnerie",
+        "en": "Nut and bolt tightness check"
+      },
+      "categorie": "controle",
+      "type": "controler",
+      "intervalle": {
+        "km": 10000,
+        "premiere_km": 1000,
+        "severe": {
+          "km": 5000
+        },
+        "piste": {
+          "km": 5000
+        },
+        "repetition": "km_seulement"
+      },
+      "gravite": 4,
+      "resume": {
+        "fr": "À 1 000 km puis tous les 10 000 km, contrôler au couple du manuel d'atelier le serrage des fixations principales (axes de roues, étriers, couronne, guidon, repose-pieds). Avant chaque départ, vérifier d'un coup d'œil qu'aucun élément n'est desserré."
+      },
+      "pourquoi": {
+        "fr": "Vibrations et cycles de chauffe desserrent la visserie, surtout pendant le rodage. Au contrôle technique britannique des RS 660, les éléments desserrés figurent parmi les remarques les plus fréquentes."
+      },
+      "symptomes": {
+        "fr": "Nouveaux claquements ou vibrations, pièce qui bouge à la main, traces de frottement ou de rouille autour d'une vis."
+      },
+      "si_neglige": {
+        "fr": "Perte d'un élément en roulant ; sur un axe de roue ou un étrier, risque de chute."
+      },
+      "pieces": [],
+      "consommables": [],
+      "outils": [
+        "ou-jeu-douilles",
+        "ou-jeu-embouts-allen",
+        "ou-cle-dynamometrique-5-25",
+        "ou-cle-dynamometrique",
+        "ou-cle-dynamometrique-40-210"
+      ],
+      "procedure": "pr-serrage-boulonnerie",
+      "composants": [
+        "co-axe-roue-avant",
+        "co-axe-roue-arriere",
+        "co-vis-etrier",
+        "co-ecrous-couronne",
+        "co-guidon-gauche",
+        "co-guidon-droit",
+        "co-repose-pied-pilote"
+      ],
+      "duree_diy_min": 45,
+      "temps_atelier_h": 0.5,
+      "duree_diy_confiance": "incertain",
+      "temps_atelier_confiance": "incertain",
+      "difficulte": 2,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "garantie": {
+        "fr": "Point des révisions programmées : le manuel demande de les faire aux échéances, même si le kilométrage n'est pas atteint, pour garder la garantie (p. 190). Pendant la garantie, le faire faire en concession ou chez un professionnel qui suit le plan Aprilia, avec facture détaillée."
+      },
+      "groupe_revision": [
+        "revision-1000",
+        "revision-10000",
+        "revision-20000",
+        "revision-30000",
+        "revision-40000"
+      ],
+      "note": {
+        "fr": "Valeurs dans couples.json (exemples : axe avant 65 Nm, écrou d'axe arrière 120 Nm, étriers avant 50 Nm, demi-guidons 46 Nm, repose-pieds pilote 45 Nm). Les vis pré-enduites de frein-filet se remplacent par des vis neuves après desserrage. Durée DIY et temps atelier : estimations (aucun barème publié pour cette opération seule)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p108",
+        "src-manuel-proprietaire#p191",
+        "src-manuel-atelier#p20",
+        "src-manuel-atelier#p21",
+        "src-manuel-atelier#p22",
+        "src-manuel-atelier#p24",
+        "src-manuel-atelier#p32",
+        "src-manuel-atelier#p37",
+        "src-manuel-atelier#p55",
+        "src-motodealers-mot"
+      ]
+    },
+    {
+      "id": "op-controle-fonctionnement-general",
+      "titre": {
+        "fr": "Contrôle du fonctionnement général",
+        "en": "General operation check"
+      },
+      "categorie": "controle",
+      "type": "controler",
+      "intervalle": {
+        "km": 10000,
+        "mois": 12,
+        "premiere_km": 1000,
+        "severe": {
+          "km": 5000,
+          "mois": 6
+        },
+        "piste": {
+          "km": 5000,
+          "mois": 6
+        },
+        "repetition": "les_deux_premier_atteint"
+      },
+      "gravite": 3,
+      "resume": {
+        "fr": "À chaque révision, essai général de la moto : démarrage, ralenti, tableau de bord et témoins, éclairage, avertisseur, commandes et passages de vitesses. Le manuel ne détaille pas le contenu de cette ligne."
+      },
+      "pourquoi": {
+        "fr": "Repérer les anomalies qui n'apparaissent qu'en fonctionnement, avant qu'elles ne s'aggravent."
+      },
+      "symptomes": {
+        "fr": "Tout comportement nouveau : témoin allumé, bruit, vitesse qui passe mal (la 2e en particulier), levier de sélecteur qui prend du jeu, ralenti instable."
+      },
+      "si_neglige": {
+        "fr": "Défauts détectés trop tard. Le manuel recommande de signaler toute petite anomalie sans attendre la révision suivante."
+      },
+      "pieces": [],
+      "consommables": [],
+      "outils": [],
+      "composants": [
+        "co-tableau-de-bord",
+        "co-boite-fusibles",
+        "co-phare",
+        "co-klaxon"
+      ],
+      "duree_diy_min": 10,
+      "temps_atelier_h": 0.3,
+      "duree_diy_confiance": "incertain",
+      "temps_atelier_confiance": "incertain",
+      "difficulte": 1,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "garantie": {
+        "fr": "Point des révisions programmées : le manuel demande de les faire aux échéances, même si le kilométrage n'est pas atteint, pour garder la garantie (p. 190). Pendant la garantie, le faire faire en concession ou chez un professionnel qui suit le plan Aprilia, avec facture détaillée."
+      },
+      "groupe_revision": [
+        "revision-1000",
+        "revision-10000",
+        "revision-20000",
+        "revision-30000",
+        "revision-40000",
+        "revision-12-mois",
+        "revision-24-mois"
+      ],
+      "note": {
+        "fr": "Durée DIY et temps atelier : estimations (aucun barème publié pour cette opération seule)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p106",
+        "src-manuel-proprietaire#p190",
+        "src-manuel-proprietaire#p191",
+        "src-manuel-atelier#p55",
+        "src-tsb-levier-selecteur-2022",
+        "src-nhtsa-plaintes"
+      ]
+    },
+    {
+      "id": "op-controle-pression-pneus",
+      "titre": {
+        "fr": "Contrôle de la pression des pneus",
+        "en": "Tyre pressure check"
+      },
+      "categorie": "pneus",
+      "type": "controler",
+      "intervalle": {
+        "a_chaque_sortie": true,
+        "mois": 1,
+        "repetition": "mois_seulement"
+      },
+      "gravite": 5,
+      "resume": {
+        "fr": "Mesurer la pression à froid, pneus à température ambiante : 2,5 bar à l'avant et 2,8 bar à l'arrière, en solo comme en duo. Avant de rouler, en particulier avant et après un long trajet."
+      },
+      "pourquoi": {
+        "fr": "Sous-gonflé, un pneu chauffe, s'use vite et peut glisser ou déjanter en courbe ; surgonflé, il rebondit et perd de l'adhérence. La pression baisse avec le temps et avec le froid (environ 0,1 bar pour 10 °C)."
+      },
+      "symptomes": {
+        "fr": "Direction lourde ou floue, moto qui tombe à l'intérieur des virages, usure anormale des bords ou du centre, pneu visiblement écrasé."
+      },
+      "si_neglige": {
+        "fr": "Perte d'adhérence et de stabilité, risque de chute, usure prématurée et échauffement du pneu."
+      },
+      "pieces": [],
+      "consommables": [],
+      "outils": [
+        "ou-manometre-pneus"
+      ],
+      "procedure": "pr-pneus-pression-usure",
+      "composants": [
+        "co-valve-avant",
+        "co-valve-arriere",
+        "co-roue-avant",
+        "co-roue-arriere"
+      ],
+      "mesure": "me-pression-avant",
+      "mesures": [
+        "me-pression-avant",
+        "me-pression-arriere"
+      ],
+      "duree_diy_min": 5,
+      "temps_atelier_h": 0.1,
+      "duree_diy_confiance": "incertain",
+      "temps_atelier_confiance": "incertain",
+      "difficulte": 1,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "groupe_revision": [
+        "revision-1000",
+        "revision-10000",
+        "revision-20000",
+        "revision-30000",
+        "revision-40000",
+        "revision-12-mois",
+        "revision-24-mois"
+      ],
+      "note": {
+        "fr": "Ne jamais dégonfler un pneu chaud pour retrouver la valeur à froid. Piste : partir de la pression route à froid, suivre les valeurs à chaud du manufacturier du pneu, puis remettre les pressions route. Rappel mensuel : choix de l'application (le manuel demande un contrôle régulier sans fixer de fréquence) ; une règle relance aussi le contrôle après 14 jours sans mesure. Valeurs du manuel 2021, non vérifiées sur un manuel 2025."
+      },
+      "confiance": "incertain",
+      "sources": [
+        "src-manuel-proprietaire#p106",
+        "src-manuel-proprietaire#p107",
+        "src-manuel-proprietaire#p142",
+        "src-manuel-proprietaire#p186",
+        "src-manuel-proprietaire#p192",
+        "src-michelin-faq-moto",
+        "src-michelin-pression-piste"
+      ]
+    },
+    {
+      "id": "op-controle-usure-pneus",
+      "titre": {
+        "fr": "Contrôle de l'usure et de l'état des pneus",
+        "en": "Tyre wear and condition check"
+      },
+      "categorie": "pneus",
+      "type": "controler",
+      "intervalle": {
+        "a_chaque_sortie": true,
+        "km": 1000,
+        "repetition": "km_seulement"
+      },
+      "gravite": 5,
+      "resume": {
+        "fr": "Avant chaque sortie, regarder l'état des pneus (coupures, hernies, corps étrangers dans les sculptures, bouchons de valve en place) ; environ tous les 1 000 km, mesurer la profondeur des sculptures : 2 mm minimum à l'avant comme à l'arrière, jamais moins que le minimum légal."
+      },
+      "pourquoi": {
+        "fr": "Les sculptures évacuent l'eau ; un pneu usé, coupé ou durci par l'âge perd son adhérence même s'il reste de la gomme."
+      },
+      "symptomes": {
+        "fr": "Témoins d'usure affleurants, bande de roulement aplatie au centre ou bords arrachés, craquelures sur les flancs, pertes de pression répétées."
+      },
+      "si_neglige": {
+        "fr": "Aquaplaning et perte d'adhérence, crevaison ou éclatement ; rouler sous le minimum légal est une infraction."
+      },
+      "pieces": [],
+      "consommables": [],
+      "outils": [
+        "ou-jauge-profondeur-pneus"
+      ],
+      "procedure": "pr-pneus-pression-usure",
+      "composants": [
+        "co-roue-avant",
+        "co-roue-arriere"
+      ],
+      "mesure": "me-profondeur-pneu-avant",
+      "mesures": [
+        "me-profondeur-pneu-avant",
+        "me-profondeur-pneu-arriere"
+      ],
+      "duree_diy_min": 5,
+      "temps_atelier_h": 0.1,
+      "duree_diy_confiance": "incertain",
+      "temps_atelier_confiance": "incertain",
+      "difficulte": 1,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "groupe_revision": [
+        "revision-1000",
+        "revision-10000",
+        "revision-20000",
+        "revision-30000",
+        "revision-40000",
+        "revision-12-mois",
+        "revision-24-mois"
+      ],
+      "note": {
+        "fr": "Remplacer aussi un pneu perforé de plus de 5 mm sur la bande de roulement ou durci par l'âge ; au-delà de 10 ans de fabrication (code DOT), le remplacer. Mesure tous les 1 000 km : choix de l'application ; le manuel demande un contrôle visuel avant chaque sortie et à chaque révision."
+      },
+      "confiance": "incertain",
+      "sources": [
+        "src-manuel-proprietaire#p107",
+        "src-manuel-proprietaire#p143",
+        "src-manuel-proprietaire#p144",
+        "src-manuel-proprietaire#p192",
+        "src-continental-age-pneu"
+      ]
+    },
+    {
+      "id": "op-niveau-huile",
+      "titre": {
+        "fr": "Contrôle du niveau d'huile moteur",
+        "en": "Engine oil level check"
+      },
+      "categorie": "moteur",
+      "type": "controler",
+      "intervalle": {
+        "a_chaque_sortie": true,
+        "km": 1000,
+        "mois": 1,
+        "repetition": "les_deux_premier_atteint"
+      },
+      "gravite": 4,
+      "resume": {
+        "fr": "Contrôler le niveau à la jauge moteur chaud (après une quinzaine de kilomètres hors agglomération), moto droite sur ses deux roues et sur sol plat, bouchon-jauge posé sans être vissé : le niveau doit être proche du repère MAX."
+      },
+      "pourquoi": {
+        "fr": "Le moteur peut consommer un peu d'huile ou fuir ; rouler sous le MIN comme au-dessus du MAX peut l'endommager gravement."
+      },
+      "symptomes": {
+        "fr": "Niveau au MIN ou en dessous, traces d'huile sous la moto ou sur le moteur, alerte de pression d'huile au tableau de bord (arrêter le moteur)."
+      },
+      "si_neglige": {
+        "fr": "Manque d'huile : usure rapide puis serrage ou casse du moteur. Un excès d'huile peut aussi causer des dégâts selon le manuel."
+      },
+      "pieces": [],
+      "consommables": [],
+      "outils": [],
+      "procedure": "pr-niveau-huile",
+      "composants": [
+        "co-jauge-huile"
+      ],
+      "mesure": "me-niveau-huile",
+      "duree_diy_min": 5,
+      "temps_atelier_h": 0.1,
+      "duree_diy_confiance": "incertain",
+      "temps_atelier_confiance": "incertain",
+      "difficulte": 1,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "note": {
+        "fr": "Ne pas faire chauffer le moteur au ralenti à l'arrêt pour ce contrôle. Appoint avec une huile SAE 10W-50 API SL JASO MA2, sans additif, sans dépasser MAX. Le manuel place ce contrôle dans les vérifications avant départ ; le rappel tous les 1 000 km ou chaque mois est un choix de l'application."
+      },
+      "confiance": "incertain",
+      "sources": [
+        "src-manuel-proprietaire#p107",
+        "src-manuel-proprietaire#p140",
+        "src-manuel-proprietaire#p141",
+        "src-manuel-proprietaire#p142",
+        "src-manuel-atelier#p58",
+        "src-manuel-atelier#p59"
+      ]
+    },
+    {
+      "id": "op-niveau-liquide-frein",
+      "titre": {
+        "fr": "Contrôle des niveaux de liquide de frein",
+        "en": "Brake fluid level check"
+      },
+      "categorie": "freins",
+      "type": "controler",
+      "intervalle": {
+        "a_chaque_sortie": true,
+        "mois": 1,
+        "repetition": "mois_seulement"
+      },
+      "gravite": 5,
+      "resume": {
+        "fr": "Vérifier que le liquide est au-dessus du repère MIN dans le bocal avant (guidon tourné pour mettre le bocal à l'horizontale) et dans le bocal arrière (moto droite)."
+      },
+      "pourquoi": {
+        "fr": "Le niveau baisse normalement avec l'usure des plaquettes ; une baisse rapide signale une fuite."
+      },
+      "symptomes": {
+        "fr": "Niveau proche du MIN ou en dessous, liquide foncé, levier ou pédale spongieux, traces sous les bocaux ou aux étriers."
+      },
+      "si_neglige": {
+        "fr": "Entrée d'air dans le circuit et perte de freinage si le niveau descend trop ; une fuite non traitée peut vider un circuit."
+      },
+      "pieces": [],
+      "consommables": [],
+      "outils": [
+        "ou-tournevis-cruciforme",
+        "ou-cle-allen-4"
+      ],
+      "procedure": "pr-niveau-liquide-frein",
+      "composants": [
+        "co-reservoir-frein-avant",
+        "co-reservoir-frein-arriere"
+      ],
+      "mesure": "me-niveau-liquide-frein-avant",
+      "mesures": [
+        "me-niveau-liquide-frein-avant",
+        "me-niveau-liquide-frein-arriere"
+      ],
+      "duree_diy_min": 5,
+      "temps_atelier_h": 0.1,
+      "duree_diy_confiance": "incertain",
+      "temps_atelier_confiance": "incertain",
+      "difficulte": 1,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "groupe_revision": [
+        "revision-1000",
+        "revision-10000",
+        "revision-20000",
+        "revision-30000",
+        "revision-40000",
+        "revision-12-mois"
+      ],
+      "note": {
+        "fr": "Sous MIN : contrôler d'abord l'usure des plaquettes et des disques, puis chercher une fuite. Ne compléter jusqu'à MAX qu'avec des plaquettes neuves. DOT 4 uniquement, corrosif pour la peinture. Appoint à l'arrière : flanc arrière à déposer. Contrôle avant départ selon le manuel ; rappel mensuel : choix de l'application."
+      },
+      "confiance": "incertain",
+      "sources": [
+        "src-manuel-proprietaire#p106",
+        "src-manuel-proprietaire#p107",
+        "src-manuel-proprietaire#p147",
+        "src-manuel-proprietaire#p148",
+        "src-manuel-proprietaire#p149",
+        "src-manuel-proprietaire#p192"
+      ]
+    },
+    {
+      "id": "op-niveau-liquide-refroidissement",
+      "titre": {
+        "fr": "Contrôle du niveau de liquide de refroidissement",
+        "en": "Coolant level check"
+      },
+      "categorie": "refroidissement",
+      "type": "controler",
+      "intervalle": {
+        "a_chaque_sortie": true,
+        "mois": 1,
+        "repetition": "mois_seulement"
+      },
+      "gravite": 4,
+      "resume": {
+        "fr": "Moteur froid, moto droite sur sol plat : depuis le côté gauche, regarder le vase d'expansion à travers l'ouverture du carénage intérieur droit ; le niveau doit être entre LOW et FULL. Ne pas rouler sous LOW."
+      },
+      "pourquoi": {
+        "fr": "Un niveau qui baisse signale une fuite ou une perte par le bouchon ; sans liquide, le moteur surchauffe."
+      },
+      "symptomes": {
+        "fr": "Niveau sous LOW, traces de liquide rouge, température qui monte vite, alerte de surchauffe."
+      },
+      "si_neglige": {
+        "fr": "Surchauffe et dégâts moteur ; par grand froid, un mélange trop dilué peut geler dans le circuit."
+      },
+      "pieces": [],
+      "consommables": [],
+      "outils": [],
+      "procedure": "pr-niveau-liquide-refroidissement",
+      "composants": [
+        "co-vase-expansion"
+      ],
+      "mesure": "me-niveau-liquide-refroidissement",
+      "duree_diy_min": 5,
+      "temps_atelier_h": 0.1,
+      "duree_diy_confiance": "incertain",
+      "temps_atelier_confiance": "incertain",
+      "difficulte": 1,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "groupe_revision": [
+        "revision-1000",
+        "revision-10000",
+        "revision-20000",
+        "revision-30000",
+        "revision-40000",
+        "revision-12-mois"
+      ],
+      "note": {
+        "fr": "Appoint côté droit par la trappe de visite (1 vis), moteur froid, avec le liquide prescrit (rouge, prêt à l'emploi). Le manuel ne place pas ce contrôle dans la liste avant départ ; contrôle avant de rouler et rappel mensuel : choix de l'application (la fiche de contrôles conseille une fois par semaine)."
+      },
+      "confiance": "incertain",
+      "sources": [
+        "src-manuel-proprietaire#p144",
+        "src-manuel-proprietaire#p145",
+        "src-manuel-proprietaire#p146",
+        "src-manuel-proprietaire#p192"
+      ]
+    },
+    {
+      "id": "op-controle-eclairage",
+      "titre": {
+        "fr": "Contrôle de l'éclairage et de l'avertisseur",
+        "en": "Lights and horn check"
+      },
+      "categorie": "eclairage",
+      "type": "controler",
+      "intervalle": {
+        "a_chaque_sortie": true
+      },
+      "gravite": 4,
+      "resume": {
+        "fr": "Avant chaque sortie : feux de croisement et de route, feux de jour, clignotants, feu arrière, feu stop avec chacun des deux freins, éclairage de plaque et avertisseur. Au contact, tous les témoins doivent s'allumer environ 3 s."
+      },
+      "pourquoi": {
+        "fr": "Voir et être vu : un feu stop ou un clignotant muet expose à un choc arrière ou latéral."
+      },
+      "symptomes": {
+        "fr": "Feu éteint ou faible, clignotement rapide, témoin qui reste allumé, plusieurs fonctions coupées d'un coup (fusible grillé)."
+      },
+      "si_neglige": {
+        "fr": "Moto moins visible et signalisation trompeuse pour les autres usagers ; un feu obligatoire hors service est aussi une infraction."
+      },
+      "pieces": [],
+      "consommables": [],
+      "outils": [
+        "ou-pince-fusibles"
+      ],
+      "procedure": "pr-controle-eclairage",
+      "composants": [
+        "co-phare",
+        "co-feu-arriere",
+        "co-clignotants-arriere",
+        "co-contacteur-stop-arriere",
+        "co-klaxon",
+        "co-boite-fusibles"
+      ],
+      "duree_diy_min": 5,
+      "temps_atelier_h": 0.1,
+      "duree_diy_confiance": "incertain",
+      "temps_atelier_confiance": "incertain",
+      "difficulte": 1,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "note": {
+        "fr": "Éclairage entièrement à LED : aucune ampoule à changer, un bloc défaillant se remplace en entier en concession. Les feux s'allument automatiquement dès que la roue arrière dépasse 1 km/h. Remplacer un fusible uniquement par un fusible de même calibre."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p88",
+        "src-manuel-proprietaire#p106",
+        "src-manuel-proprietaire#p108",
+        "src-manuel-proprietaire#p158",
+        "src-manuel-proprietaire#p163",
+        "src-manuel-proprietaire#p164",
+        "src-manuel-proprietaire#p187"
+      ]
+    },
+    {
+      "id": "op-plaquettes-avant",
+      "titre": {
+        "fr": "Remplacement des plaquettes de frein avant",
+        "en": "Front brake pads replacement"
+      },
+      "categorie": "freins",
+      "type": "remplacer",
+      "intervalle": {},
+      "gravite": 5,
+      "resume": {
+        "fr": "Remplacer les plaquettes des deux étriers avant (2 jeux) dès qu'une garniture atteint environ 1,5 mm ou que son témoin d'usure n'est plus visible. Pas d'intervalle fixe : déclenché par la mesure de l'épaisseur."
+      },
+      "pourquoi": {
+        "fr": "Vers 1,5 mm, la garniture n'a plus de réserve : l'échauffement augmente et le support métallique approche du disque."
+      },
+      "symptomes": {
+        "fr": "Bruit métallique ou étincelles au freinage, levier qui s'allonge, niveau de liquide qui baisse, garniture fine vue par le haut de l'étrier."
+      },
+      "si_neglige": {
+        "fr": "Le support métallique raye le disque : freinage fortement dégradé et disques coûteux à remplacer en plus des plaquettes."
+      },
+      "pieces": [
+        {
+          "id": "pc-plaquettes-avant",
+          "quantite": 2
+        }
+      ],
+      "consommables": [
+        {
+          "id": "cs-nettoyant-freins",
+          "quantite": {
+            "valeur": 0.1,
+            "unite": "piece"
+          },
+          "note": {
+            "fr": "Fraction de l'aérosol, du flacon ou du tube par intervention : estimation."
+          }
+        }
+      ],
+      "outils": [
+        "ou-embout-torx-t30",
+        "ou-douille-allen-8",
+        "ou-cle-dynamometrique",
+        "ou-pince-chasse-goupille",
+        "ou-repousse-piston"
+      ],
+      "procedure": "pr-plaquettes-avant",
+      "composants": [
+        "co-etrier-avant",
+        "co-plaquettes-avant",
+        "co-axe-plaquettes",
+        "co-goupille-axe",
+        "co-ressort-plaquettes",
+        "co-pistons",
+        "co-vis-etrier",
+        "co-reservoir-frein-avant"
+      ],
+      "mesure": "me-epaisseur-plaquettes-avant",
+      "duree_diy_min": 45,
+      "temps_atelier_h": 0.6,
+      "duree_diy_confiance": "incertain",
+      "temps_atelier_confiance": "incertain",
+      "difficulte": 3,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "garantie": {
+        "fr": "Le manuel demande de faire remplacer toutes les plaquettes en concession, avec des plaquettes d'origine (ABS) (p. 169). Pendant la garantie, garder facture et référence en cas de remplacement hors réseau."
+      },
+      "note": {
+        "fr": "Toujours changer les deux étriers ensemble. Débloquer l'axe de plaquettes (Torx T30) avant de déposer l'étrier ; ressort remonté flèche vers le haut, goupille remise ; vis d'étrier à 50 Nm. Pomper le levier avant de rouler, puis freiner en douceur une centaine de kilomètres (consigne de rodage de la moto neuve, appliquée par extension). Axe, ressort et goupille (pc-goupille-plaquettes-avant) à changer s'ils sont marqués ou corrodés. Durée DIY et temps atelier : estimations (aucun barème publié pour cette opération seule)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p120",
+        "src-manuel-proprietaire#p168",
+        "src-manuel-proprietaire#p169",
+        "src-manuel-atelier#p23",
+        "src-manuel-atelier#p353",
+        "src-manuel-atelier#p354",
+        "src-manuel-atelier#p358",
+        "src-youtube-plaquettes-rs660"
+      ]
+    },
+    {
+      "id": "op-plaquettes-arriere",
+      "titre": {
+        "fr": "Remplacement des plaquettes de frein arrière",
+        "en": "Rear brake pads replacement"
+      },
+      "categorie": "freins",
+      "type": "remplacer",
+      "intervalle": {},
+      "gravite": 5,
+      "resume": {
+        "fr": "Remplacer les plaquettes de l'étrier arrière dès qu'une garniture atteint environ 1,5 mm ou que son témoin d'usure n'est plus visible. Pas d'intervalle fixe : déclenché par la mesure de l'épaisseur."
+      },
+      "pourquoi": {
+        "fr": "Vers 1,5 mm, la garniture n'a plus de réserve : l'échauffement augmente et le support métallique approche du disque."
+      },
+      "symptomes": {
+        "fr": "Bruit métallique au freinage, pédale qui s'enfonce davantage, garniture fine vue par le bas de l'étrier. Un sifflement seul est un sujet connu, traité par un bulletin Aprilia."
+      },
+      "si_neglige": {
+        "fr": "Disque arrière rayé puis à remplacer, freinage arrière dégradé."
+      },
+      "pieces": [
+        {
+          "id": "pc-plaquettes-arriere",
+          "quantite": 1
+        }
+      ],
+      "consommables": [
+        {
+          "id": "cs-nettoyant-freins",
+          "quantite": {
+            "valeur": 0.1,
+            "unite": "piece"
+          },
+          "note": {
+            "fr": "Fraction de l'aérosol, du flacon ou du tube par intervention : estimation."
+          }
+        },
+        {
+          "id": "cs-frein-filet-moyen",
+          "quantite": {
+            "valeur": 0.05,
+            "unite": "piece"
+          },
+          "note": {
+            "fr": "Fraction de l'aérosol, du flacon ou du tube par intervention : estimation."
+          }
+        }
+      ],
+      "outils": [
+        "ou-jeu-douilles",
+        "ou-cle-dynamometrique",
+        "ou-pince-chasse-goupille",
+        "ou-repousse-piston"
+      ],
+      "procedure": "pr-plaquettes-arriere",
+      "composants": [
+        "co-etrier-arriere",
+        "co-plaquettes-arriere",
+        "co-capteur-abs-arriere",
+        "co-reservoir-frein-arriere"
+      ],
+      "mesure": "me-epaisseur-plaquettes-arriere",
+      "duree_diy_min": 30,
+      "temps_atelier_h": 0.5,
+      "duree_diy_confiance": "incertain",
+      "temps_atelier_confiance": "incertain",
+      "difficulte": 2,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "garantie": {
+        "fr": "Le manuel demande de faire remplacer toutes les plaquettes en concession, avec des plaquettes d'origine (ABS) (p. 169). Pendant la garantie, garder facture et référence en cas de remplacement hors réseau."
+      },
+      "note": {
+        "fr": "Dégager le faisceau du capteur ABS arrière avant de déposer l'étrier (2 vis M8 à 25 Nm, avec frein-filet). Noter le sens du ressort de sécurité. Sifflement : bulletin A_221169 (plaques anti-vibration, jeu du support d'étrier). Axe et goupille (pc-axe-plaquettes-arriere) à changer s'ils sont usés. Taille de clé des vis d'étrier non relevée. Durée DIY et temps atelier : estimations (aucun barème publié pour cette opération seule)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p168",
+        "src-manuel-proprietaire#p169",
+        "src-manuel-atelier#p38",
+        "src-manuel-atelier#p355",
+        "src-manuel-atelier#p356",
+        "src-manuel-atelier#p358",
+        "src-tsb-frein-arriere-2022"
+      ]
+    },
+    {
+      "id": "op-disques-frein",
+      "titre": {
+        "fr": "Remplacement des disques de frein",
+        "en": "Brake discs replacement"
+      },
+      "categorie": "freins",
+      "type": "remplacer",
+      "intervalle": {},
+      "gravite": 5,
+      "resume": {
+        "fr": "Remplacer un disque sous son épaisseur minimale (4,0 mm à l'avant, 4,5 mm à l'arrière), si son voile dépasse la limite (0,15 mm à l'avant, 0,1 mm à l'arrière) ou s'il est fissuré. Les deux disques avant se changent ensemble, avec des plaquettes neuves."
+      },
+      "pourquoi": {
+        "fr": "Un disque aminci chauffe davantage et freine moins bien ; un disque voilé fait vibrer le levier."
+      },
+      "symptomes": {
+        "fr": "Vibrations ou pulsations au freinage, sillons profonds, rebord marqué au bord de la piste de freinage, épaisseur mesurée sous la cote."
+      },
+      "si_neglige": {
+        "fr": "Freinage moins puissant et moins régulier, surchauffe, risque de fissure du disque."
+      },
+      "pieces": [
+        {
+          "id": "pc-disque-avant",
+          "quantite": 2
+        },
+        {
+          "id": "pc-plaquettes-avant",
+          "quantite": 2
+        }
+      ],
+      "consommables": [
+        {
+          "id": "cs-nettoyant-freins",
+          "quantite": {
+            "valeur": 0.1,
+            "unite": "piece"
+          },
+          "note": {
+            "fr": "Fraction de l'aérosol, du flacon ou du tube par intervention : estimation."
+          }
+        }
+      ],
+      "outils": [
+        "ou-bequille-arriere",
+        "ou-diabolos-m6",
+        "ou-bequille-avant",
+        "ou-douille-allen-14",
+        "ou-douille-allen-8",
+        "ou-cle-dynamometrique",
+        "ou-micrometre"
+      ],
+      "procedure": "pr-disques-frein",
+      "composants": [
+        "co-disque-avant",
+        "co-disque-arriere",
+        "co-roue-avant",
+        "co-axe-roue-avant",
+        "co-vis-etrier"
+      ],
+      "duree_diy_min": 120,
+      "temps_atelier_h": 1.25,
+      "duree_diy_confiance": "incertain",
+      "temps_atelier_confiance": "incertain",
+      "difficulte": 3,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "note": {
+        "fr": "Pièces listées pour l'avant, cas le plus courant : 2 disques et 2 jeux de plaquettes. Pour l'arrière : 1 disque (pc-disque-arriere, prix non trouvé) et le jeu de plaquettes arrière. Vis de disque M8 à 25 Nm (6 par disque avant, 5 à l'arrière). Roue avant déposée : axe 65 Nm, vis de bridage 18 Nm, étriers 50 Nm. Durée DIY et temps atelier : estimations (aucun barème publié pour cette opération seule)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p168",
+        "src-manuel-atelier#p22",
+        "src-manuel-atelier#p37",
+        "src-manuel-atelier#p274",
+        "src-manuel-atelier#p349",
+        "src-manuel-atelier#p352",
+        "src-manuel-atelier#p353"
+      ]
+    },
+    {
+      "id": "op-pneu-avant",
+      "titre": {
+        "fr": "Remplacement du pneu avant",
+        "en": "Front tyre replacement"
+      },
+      "categorie": "pneus",
+      "type": "remplacer",
+      "intervalle": {},
+      "gravite": 5,
+      "resume": {
+        "fr": "Remplacer le pneu avant (120/70 ZR17 58W, sans chambre) quand la sculpture atteint 2 mm (ou le minimum légal s'il est plus élevé), s'il est perforé de plus de 5 mm sur la bande de roulement, abîmé ou durci par l'âge."
+      },
+      "pourquoi": {
+        "fr": "Le pneu avant guide la moto et porte l'essentiel du freinage : son adhérence conditionne la sécurité, surtout sur le mouillé."
+      },
+      "symptomes": {
+        "fr": "Profondeur sous 2 mm, profil déformé (pointe ou marches d'escalier), direction qui tombe dans les virages, craquelures, gomme durcie."
+      },
+      "si_neglige": {
+        "fr": "Perte d'adhérence au freinage et en courbe, aquaplaning, risque de chute."
+      },
+      "pieces": [
+        {
+          "id": "pc-pneu-avant",
+          "quantite": 1
+        }
+      ],
+      "consommables": [],
+      "outils": [
+        "ou-bequille-arriere",
+        "ou-diabolos-m6",
+        "ou-bequille-avant",
+        "ou-douille-allen-14",
+        "ou-douille-allen-8",
+        "ou-cle-dynamometrique",
+        "ou-maillet-plastique"
+      ],
+      "procedure": "pr-depose-roue-avant",
+      "composants": [
+        "co-roue-avant",
+        "co-axe-roue-avant",
+        "co-vis-etrier",
+        "co-valve-avant"
+      ],
+      "mesure": "me-profondeur-pneu-avant",
+      "duree_diy_min": 45,
+      "temps_atelier_h": 0.4,
+      "duree_diy_confiance": "incertain",
+      "temps_atelier_confiance": "incertain",
+      "difficulte": 3,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "note": {
+        "fr": "Soi-même : dépose et repose de la roue (axe 65 Nm, vis de bridage 18 Nm, étriers 50 Nm, pomper le levier) ; montage et équilibrage du pneu par un professionnel, comme le demande le manuel. Changer la valve si elle est abîmée (pc-valve-pneu). Rouler prudemment les premiers kilomètres (film de démoulage). Âge : remplacer au-delà de 10 ans de fabrication (code DOT). Pas d'intervalle kilométrique : aucune durée de vie fiable publiée pour ce pneu sur la RS 660. Durée DIY et temps atelier : estimations (aucun barème publié pour cette opération seule)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p143",
+        "src-manuel-proprietaire#p144",
+        "src-manuel-proprietaire#p186",
+        "src-manuel-atelier#p22",
+        "src-manuel-atelier#p23",
+        "src-manuel-atelier#p274",
+        "src-manuel-atelier#p275",
+        "src-continental-age-pneu",
+        "src-mecaservices92-partie-cycle"
+      ]
+    },
+    {
+      "id": "op-pneu-arriere",
+      "titre": {
+        "fr": "Remplacement du pneu arrière",
+        "en": "Rear tyre replacement"
+      },
+      "categorie": "pneus",
+      "type": "remplacer",
+      "intervalle": {},
+      "gravite": 5,
+      "resume": {
+        "fr": "Remplacer le pneu arrière (180/55 ZR17 73W, ou 180/60 ZR17 75W homologué, sans chambre) quand la sculpture atteint 2 mm (ou le minimum légal s'il est plus élevé), s'il est perforé de plus de 5 mm sur la bande de roulement, abîmé ou durci par l'âge."
+      },
+      "pourquoi": {
+        "fr": "Le pneu arrière transmet la puissance au sol ; usé, il glisse à l'accélération et sur le mouillé."
+      },
+      "symptomes": {
+        "fr": "Profondeur sous 2 mm, bande de roulement aplatie au centre ou bords arrachés, glisses à l'accélération, craquelures, gomme durcie."
+      },
+      "si_neglige": {
+        "fr": "Perte d'adhérence à l'accélération et en courbe, aquaplaning, risque de chute."
+      },
+      "pieces": [
+        {
+          "id": "pc-pneu-arriere",
+          "quantite": 1
+        }
+      ],
+      "consommables": [],
+      "outils": [
+        "ou-bequille-arriere",
+        "ou-diabolos-m6",
+        "ou-douille-26",
+        "ou-jeu-cles-plates",
+        "ou-cle-dynamometrique-40-210",
+        "ou-maillet-plastique"
+      ],
+      "procedure": "pr-depose-roue-arriere",
+      "composants": [
+        "co-roue-arriere",
+        "co-axe-roue-arriere",
+        "co-valve-arriere",
+        "co-diabolos"
+      ],
+      "mesure": "me-profondeur-pneu-arriere",
+      "duree_diy_min": 45,
+      "temps_atelier_h": 0.5,
+      "duree_diy_confiance": "incertain",
+      "temps_atelier_confiance": "incertain",
+      "difficulte": 3,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "note": {
+        "fr": "Soi-même : dépose et repose de la roue (détendre la chaîne, écrou d'axe douille 26 mm, axe sorti côté droit avec les tendeurs ; repose avec réglage de la chaîne, écrou à 120 Nm, pomper la pédale) ; montage et équilibrage du pneu par un professionnel. Changer la valve si elle est abîmée (pc-valve-pneu). Rouler prudemment les premiers kilomètres. Âge : remplacer au-delà de 10 ans de fabrication (code DOT). Pas d'intervalle kilométrique : aucune durée de vie fiable publiée pour ce pneu sur la RS 660. Durée DIY et temps atelier : estimations (aucun barème publié pour cette opération seule)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p143",
+        "src-manuel-proprietaire#p144",
+        "src-manuel-proprietaire#p186",
+        "src-manuel-atelier#p37",
+        "src-manuel-atelier#p283",
+        "src-manuel-atelier#p284",
+        "src-manuel-atelier#p285",
+        "src-continental-age-pneu",
+        "src-mecaservices92-partie-cycle"
+      ]
+    },
+    {
+      "id": "op-kit-chaine",
+      "titre": {
+        "fr": "Remplacement du kit chaîne (chaîne, pignon, couronne)",
+        "en": "Chain and sprockets kit replacement"
+      },
+      "categorie": "transmission",
+      "type": "remplacer",
+      "intervalle": {},
+      "gravite": 4,
+      "resume": {
+        "fr": "Remplacer ensemble la chaîne 520 de 110 maillons (attache rivée), le pignon de 17 dents et la couronne de 43 dents quand la chaîne est usée (allongement de 3 % sur 8 maillons, galets abîmés, axes desserrés, joints toriques manquants, maillons grippés) ou que les dents sont usées."
+      },
+      "pourquoi": {
+        "fr": "Une chaîne neuve sur des pignons usés, ou l'inverse, s'use très vite : le manuel impose de remplacer l'ensemble. La démultiplication 17/43 et le nombre de maillons ne doivent pas être modifiés."
+      },
+      "symptomes": {
+        "fr": "Flèche qui varie sur un tour de roue, retensions de plus en plus fréquentes, tendeurs en bout de course, dents en crochet, bruit et à-coups."
+      },
+      "si_neglige": {
+        "fr": "Chaîne qui saute ou casse : blocage possible de la roue arrière, carter et bras oscillant endommagés, risque de chute."
+      },
+      "pieces": [
+        {
+          "id": "pc-kit-chaine",
+          "quantite": 1
+        }
+      ],
+      "consommables": [
+        {
+          "id": "cs-frein-filet-moyen",
+          "quantite": {
+            "valeur": 0.05,
+            "unite": "piece"
+          },
+          "note": {
+            "fr": "Fraction de l'aérosol, du flacon ou du tube par intervention : estimation."
+          }
+        },
+        {
+          "id": "cs-lubrifiant-chaine",
+          "quantite": {
+            "valeur": 0.1,
+            "unite": "piece"
+          },
+          "note": {
+            "fr": "Fraction de l'aérosol, du flacon ou du tube par intervention : estimation."
+          }
+        }
+      ],
+      "outils": [
+        "ou-bequille-arriere",
+        "ou-diabolos-m6",
+        "ou-derive-chaine",
+        "ou-douille-26",
+        "ou-jeu-douilles",
+        "ou-jeu-cles-plates",
+        "ou-cle-dynamometrique",
+        "ou-cle-dynamometrique-40-210",
+        "ou-jauge-usure-chaine"
+      ],
+      "procedure": "pr-kit-chaine",
+      "composants": [
+        "co-chaine",
+        "co-pignon",
+        "co-vis-pignon",
+        "co-couronne",
+        "co-ecrous-couronne",
+        "co-tendeur-chaine-gauche",
+        "co-tendeur-chaine-droit",
+        "co-axe-roue-arriere",
+        "co-patin-chaine"
+      ],
+      "mesure": "me-etat-chaine",
+      "duree_diy_min": 150,
+      "temps_atelier_h": 1.25,
+      "duree_diy_confiance": "incertain",
+      "temps_atelier_confiance": "incertain",
+      "difficulte": 4,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "garantie": {
+        "fr": "Le manuel du propriétaire réserve le remplacement de la chaîne au réseau Aprilia (p. 177-178)."
+      },
+      "note": {
+        "fr": "Couples : écrous de couronne 50 Nm, vis de pignon 50 Nm avec frein-filet, écrou d'axe 120 Nm. Riveter l'attache sans écraser les joints toriques. Contrôler le patin de chaîne (pc-patin-chaine) au passage. Aucune durée de vie fiable n'est publiée pour la RS 660 : le remplacement se décide sur l'état de la chaîne, pas au kilométrage. Durée DIY et temps atelier : estimations (aucun barème publié pour cette opération seule)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p175",
+        "src-manuel-proprietaire#p176",
+        "src-manuel-proprietaire#p177",
+        "src-manuel-proprietaire#p178",
+        "src-manuel-atelier#p37",
+        "src-manuel-atelier#p43",
+        "src-manuel-atelier#p308",
+        "src-manuel-atelier#p309",
+        "src-manuel-atelier#p310"
+      ]
+    },
+    {
+      "id": "op-batterie",
+      "titre": {
+        "fr": "Contrôle et charge de la batterie",
+        "en": "Battery check and charging"
+      },
+      "categorie": "electricite",
+      "type": "controler",
+      "intervalle": {},
+      "gravite": 3,
+      "resume": {
+        "fr": "Tester la batterie lithium (bouton TEST : 5 ou 6 témoins = prête ; ou tension au repos au multimètre, au moins 12,4 V) et la recharger avec un chargeur compatible lithium quand il le faut, en particulier pendant une immobilisation et par grand froid."
+      },
+      "pourquoi": {
+        "fr": "La batterie lithium d'origine se dégrade si elle reste déchargée, et l'électronique de bord la vide lentement à l'arrêt. Aprilia a publié en 2024 un bulletin après des démarrages ratés et des batteries abîmées par le froid, des chargeurs au plomb, des boosters ou des mainteneurs."
+      },
+      "symptomes": {
+        "fr": "Démarreur lent, icône batterie au tableau de bord, 4 témoins ou moins au bouton TEST, tension sous 12,4 V au repos, démarrage impossible par temps froid."
+      },
+      "si_neglige": {
+        "fr": "Batterie lithium détruite (remplacement coûteux), moto immobilisée ; un chargeur inadapté peut aussi l'endommager."
+      },
+      "pieces": [],
+      "consommables": [
+        {
+          "id": "cs-graisse-bornes",
+          "quantite": {
+            "valeur": 0.05,
+            "unite": "piece"
+          },
+          "note": {
+            "fr": "Fraction de l'aérosol, du flacon ou du tube par intervention : estimation."
+          }
+        }
+      ],
+      "outils": [
+        "ou-multimetre",
+        "ou-chargeur-lithium",
+        "ou-jeu-douilles",
+        "ou-cle-allen-4"
+      ],
+      "procedure": "pr-batterie",
+      "composants": [
+        "co-batterie",
+        "co-bouton-test-batterie",
+        "co-fusible-principal",
+        "co-regulateur"
+      ],
+      "mesure": "me-tension-batterie",
+      "duree_diy_min": 15,
+      "temps_atelier_h": 0.3,
+      "duree_diy_confiance": "incertain",
+      "temps_atelier_confiance": "incertain",
+      "difficulte": 1,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "note": {
+        "fr": "Le bulletin Piaggio de 2024 prime sur le manuel de 2020 : chargeur lithium uniquement (14 à 15 V, 2 A au maximum), jamais de booster ni de chargeur au plomb, pas de mainteneur branché en permanence ; à l'arrêt, charge d'environ 30 min tous les 2 mois, au minimum tous les 6 mois. Le manuel propose aussi de retirer le fusible principal de 30 A au-delà de 15 jours d'arrêt (remet l'horloge à zéro). Dépose : contact coupé, borne − d'abord ; repose : borne + d'abord. Sous 0 °C : réveiller la batterie (30 s sur le chargeur ou feux allumés 1 à 2 min), démarreur 5 s au maximum par essai. Pas d'intervalle fixe : déclenché par la mesure de tension et par les règles d'immobilisation et de froid. RS 660 standard 2025+ : type de batterie non confirmé. Durée DIY et temps atelier : estimations (aucun barème publié pour cette opération seule)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p151",
+        "src-manuel-proprietaire#p152",
+        "src-manuel-proprietaire#p153",
+        "src-manuel-proprietaire#p154",
+        "src-manuel-proprietaire#p155",
+        "src-manuel-proprietaire#p156",
+        "src-manuel-proprietaire#p157",
+        "src-tsb-batterie-lithium-2024"
+      ]
+    },
+    {
+      "id": "op-lavage",
+      "titre": {
+        "fr": "Lavage de la moto",
+        "en": "Motorcycle washing"
+      },
+      "categorie": "nettoyage",
+      "type": "nettoyer",
+      "intervalle": {},
+      "gravite": 2,
+      "resume": {
+        "fr": "Laver à l'eau à basse pression avec un shampooing dilué (2 à 4 %), rincer et sécher, après avoir couvert les prises d'air et la sortie d'échappement. En hiver, rincer le sel à l'eau froide juste après avoir roulé."
+      },
+      "pourquoi": {
+        "fr": "Sel, pollution, insectes et fientes attaquent peinture, aluminium, visserie et chaîne ; un radiateur encrassé refroidit moins bien."
+      },
+      "symptomes": {
+        "fr": "Traces blanches de sel, points de rouille sur la visserie ou la chaîne, ailettes du radiateur bouchées."
+      },
+      "si_neglige": {
+        "fr": "Corrosion de la visserie, des raccords et de la chaîne, dégâts esthétiques, risque de surchauffe si le radiateur est colmaté."
+      },
+      "pieces": [],
+      "consommables": [
+        {
+          "id": "cs-shampooing",
+          "quantite": {
+            "valeur": 0.1,
+            "unite": "piece"
+          },
+          "note": {
+            "fr": "Fraction de l'aérosol, du flacon ou du tube par intervention : estimation."
+          }
+        }
+      ],
+      "outils": [
+        "ou-bequille-arriere"
+      ],
+      "procedure": "pr-lavage",
+      "composants": [
+        "co-radiateur",
+        "co-chaine"
+      ],
+      "duree_diy_min": 45,
+      "duree_diy_confiance": "incertain",
+      "difficulte": 1,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "note": {
+        "fr": "Jamais de haute pression ni de vapeur (joints, joints spi, freins, électricité, selle), ni de lavage en plein soleil ou sur carrosserie chaude ; eau à moins de 40 °C sur les plastiques. Après le lavage : freiner plusieurs fois pour sécher les disques, puis lubrifier chaîne, articulations, câble d'embrayage et contacteur à clé. Pas d'intervalle constructeur : laver souvent en ville, en bord de mer et sur routes salées. Durée : estimation."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p8",
+        "src-manuel-proprietaire#p9",
+        "src-manuel-proprietaire#p170",
+        "src-manuel-proprietaire#p171",
+        "src-manuel-proprietaire#p172",
+        "src-manuel-proprietaire#p173"
+      ]
+    },
+    {
+      "id": "op-lubrification-articulations",
+      "titre": {
+        "fr": "Lubrification des articulations et des commandes",
+        "en": "Pivot and controls lubrication"
+      },
+      "categorie": "controle",
+      "type": "lubrifier",
+      "intervalle": {},
+      "gravite": 2,
+      "resume": {
+        "fr": "Graisser les articulations des leviers de frein et d'embrayage, de la pédale de frein, du sélecteur et de la béquille latérale, et lubrifier câble d'embrayage et contacteur à clé : après chaque lavage, après la pluie et dès qu'une commande devient dure."
+      },
+      "pourquoi": {
+        "fr": "L'eau et le lavage chassent la graisse des articulations ; une commande sèche durcit, grince et s'use."
+      },
+      "symptomes": {
+        "fr": "Levier ou pédale dur, qui grince ou revient mal, béquille qui ne remonte pas franchement sous l'effet de son ressort, clé qui tourne mal."
+      },
+      "si_neglige": {
+        "fr": "Commandes moins précises, usure des axes ; une béquille qui remonte mal peut toucher le sol en virage."
+      },
+      "pieces": [],
+      "consommables": [
+        {
+          "id": "cs-graisse",
+          "quantite": {
+            "valeur": 0.05,
+            "unite": "piece"
+          },
+          "note": {
+            "fr": "Fraction de l'aérosol, du flacon ou du tube par intervention : estimation."
+          }
+        }
+      ],
+      "outils": [],
+      "procedure": "pr-lubrification-articulations",
+      "composants": [
+        "co-levier-frein-avant",
+        "co-levier-embrayage",
+        "co-cable-embrayage",
+        "co-pedale-frein",
+        "co-selecteur",
+        "co-bequille",
+        "co-contacteur-cle"
+      ],
+      "duree_diy_min": 15,
+      "duree_diy_confiance": "incertain",
+      "difficulte": 1,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "note": {
+        "fr": "Graisse préconisée : savon lithium-calcium, additifs extrême pression, très hydrofuge. Ne pas graisser les surfaces de freinage ni les contacteurs électriques. Pas d'intervalle constructeur : après chaque lavage selon le manuel, et en cas de besoin lors du contrôle avant départ des leviers et de la béquille. Durée : estimation."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p107",
+        "src-manuel-proprietaire#p108",
+        "src-manuel-proprietaire#p173",
+        "src-manuel-proprietaire#p193"
+      ]
+    },
+    {
+      "id": "op-hivernage",
+      "titre": {
+        "fr": "Préparation à l'hivernage",
+        "en": "Winter storage preparation"
+      },
+      "categorie": "stockage",
+      "type": "controler",
+      "intervalle": {},
+      "gravite": 3,
+      "resume": {
+        "fr": "Avant une immobilisation de plusieurs mois : faire d'abord les entretiens dus, laver et sécher, lubrifier chaîne et commandes, gérer la batterie, gonfler les pneus, lever la moto les deux roues décollées, boucher la sortie d'échappement et couvrir d'une housse respirante, dans un local sec à température stable."
+      },
+      "pourquoi": {
+        "fr": "Une moto qui dort se dégrade : batterie qui se décharge, humidité et corrosion, pneus qui se marquent, essence qui vieillit. Le manuel conseille de faire révisions et réparations avant de remiser, parce qu'on les oublie ensuite."
+      },
+      "symptomes": {
+        "fr": "Sans objet : opération à prévoir en fin de saison."
+      },
+      "si_neglige": {
+        "fr": "Batterie lithium détruite, corrosion de la chaîne et de la visserie, pneus marqués, démarrage difficile au printemps."
+      },
+      "pieces": [],
+      "consommables": [],
+      "outils": [
+        "ou-bequille-arriere",
+        "ou-diabolos-m6",
+        "ou-bequille-avant",
+        "ou-manometre-pneus",
+        "ou-chargeur-lithium",
+        "ou-multimetre",
+        "ou-pince-fusibles",
+        "ou-cle-allen-4"
+      ],
+      "procedure": "pr-hivernage",
+      "composants": [
+        "co-batterie",
+        "co-fusible-principal",
+        "co-reservoir-carburant",
+        "co-echappement"
+      ],
+      "mesure": "me-tension-batterie",
+      "duree_diy_min": 90,
+      "duree_diy_confiance": "incertain",
+      "difficulte": 2,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "note": {
+        "fr": "Batterie : la déposer ou retirer le fusible principal de 30 A au-delà de 15 jours ; selon le bulletin Piaggio de 2024, pas de mainteneur, mais une charge d'environ 30 min tous les 2 mois avec un chargeur lithium. Carburant : le manuel ne donne pas de consigne ; des sources non constructeur conseillent un plein avec stabilisant. La vidange reste due tous les 12 mois, même moto remisée. Retirer le sac de l'échappement avant de redémarrer. Durée : estimation."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p157",
+        "src-manuel-proprietaire#p169",
+        "src-manuel-proprietaire#p170",
+        "src-manuel-proprietaire#p190",
+        "src-tsb-batterie-lithium-2024",
+        "src-dafy-hivernage",
+        "src-allianz-hivernage",
+        "src-prix-carburant-stockage"
+      ]
+    },
+    {
+      "id": "op-remise-en-route",
+      "titre": {
+        "fr": "Remise en route après immobilisation",
+        "en": "Return to service after storage"
+      },
+      "categorie": "stockage",
+      "type": "controler",
+      "intervalle": {},
+      "gravite": 3,
+      "resume": {
+        "fr": "Après une longue immobilisation : retirer le sac de l'échappement, nettoyer, tester et recharger la batterie puis la reposer (borne + d'abord), faire le plein, refaire toutes les vérifications avant départ (pressions, freins, chaîne, niveaux, éclairage), puis rouler quelques kilomètres à allure modérée, loin de la circulation."
+      },
+      "pourquoi": {
+        "fr": "Pressions, batterie et freins évoluent pendant l'arrêt ; le premier trajet sert d'essai."
+      },
+      "symptomes": {
+        "fr": "Pneus dégonflés, batterie faible (démarreur lent, icône batterie), chaîne sèche ou rouillée, freins qui collent ou grincent au premier freinage."
+      },
+      "si_neglige": {
+        "fr": "Départ avec des pneus sous-gonflés ou des freins défaillants, démarrage impossible, moteur démarré avec la sortie d'échappement bouchée."
+      },
+      "pieces": [],
+      "consommables": [],
+      "outils": [
+        "ou-manometre-pneus",
+        "ou-chargeur-lithium",
+        "ou-multimetre",
+        "ou-pince-fusibles"
+      ],
+      "procedure": "pr-remise-en-route",
+      "composants": [
+        "co-echappement",
+        "co-batterie",
+        "co-fusible-principal",
+        "co-reservoir-carburant"
+      ],
+      "mesure": "me-tension-batterie",
+      "duree_diy_min": 45,
+      "duree_diy_confiance": "incertain",
+      "difficulte": 1,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "note": {
+        "fr": "Si la dernière vidange date de plus de 12 mois, ou les liquides de frein et de refroidissement de plus de 24 mois, faire ces opérations avant de reprendre la route. Essence vieille de plusieurs mois sans stabilisant : envisager de la renouveler (conseil non constructeur). Durée : estimation."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p153",
+        "src-manuel-proprietaire#p170",
+        "src-manuel-proprietaire#p190",
+        "src-manuel-proprietaire#p192",
+        "src-tsb-batterie-lithium-2024",
+        "src-touring-apres-hiver",
+        "src-prix-carburant-stockage"
+      ]
+    },
+    {
+      "id": "op-mise-a-jour-logiciel",
+      "titre": {
+        "fr": "Mises à jour logicielles et campagnes (concession)",
+        "en": "Software updates and campaigns (dealer)"
+      },
+      "categorie": "electricite",
+      "type": "diagnostic",
+      "intervalle": {},
+      "gravite": 3,
+      "resume": {
+        "fr": "Faire vérifier en concession, par numéro de cadre, les rappels, campagnes et mises à jour logicielles en attente (calculateur, tableau de bord, module multimédia PMP4) et les faire appliquer avec l'outil Aprilia."
+      },
+      "pourquoi": {
+        "fr": "Aprilia a publié plusieurs calibrations correctives : erreur P1401 et ralenti sur les premières RS 660 (2021), calibration du tableau de bord (2021), calibration moteur Euro 5 (2023), module PMP4 qui pouvait bloquer le calculateur à l'appairage (2025). Un entretien fait hors réseau ne les applique pas."
+      },
+      "symptomes": {
+        "fr": "Témoin moteur intempestif à la mise du contact, ralenti irrégulier, hésitations, défauts d'affichage ; sur 2025+ avec PMP4, blocage après un appairage lancé depuis le téléphone."
+      },
+      "si_neglige": {
+        "fr": "Défauts connus non corrigés ; avec le PMP4, risque de blocage irréversible du calculateur (en attendant, appairer depuis le tableau de bord)."
+      },
+      "pieces": [],
+      "consommables": [],
+      "outils": [
+        "ou-sp-020922y",
+        "ou-sp-021017y"
+      ],
+      "composants": [
+        "co-calculateur",
+        "co-tableau-de-bord",
+        "co-prise-diagnostic"
+      ],
+      "temps_atelier_h": 0.4,
+      "temps_atelier_confiance": "incertain",
+      "faisable_soi_meme": false,
+      "outillage_special": true,
+      "garantie": {
+        "fr": "Rappels, campagnes et mises à jour se font en concession avec l'outil Aprilia (P.A.D.S.), à la livraison, à une révision ou au premier passage en atelier."
+      },
+      "note": {
+        "fr": "À demander à l'achat d'une occasion et à chaque passage en concession. Temps atelier : estimation (une mise à jour a été facturée environ 40 à 50 € en Allemagne). Le rappel des bielles et la campagne de jeu aux soupapes (2021) sont décrits dans la fiche fiabilité."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p55",
+        "src-tsb-ecu-2021",
+        "src-tsb-ecu-2021-suivi-a",
+        "src-tsb-ecu-2021-suivi-b",
+        "src-tsb-tableau-de-bord-2021",
+        "src-tsb-ecu-2023",
+        "src-tsb-pmp4-2025",
+        "src-v4forum-wartung-p4"
+      ]
+    },
+    {
+      "id": "op-reglage-suspensions-charge",
+      "titre": {
+        "fr": "Réglage des suspensions selon la charge",
+        "en": "Suspension set-up for load"
+      },
+      "categorie": "suspensions",
+      "type": "regler",
+      "intervalle": {},
+      "gravite": 3,
+      "resume": {
+        "fr": "Adapter la précharge et la détente de l'amortisseur arrière à la charge (passager, bagages), puis revenir au réglage standard en solo : à l'arrière, ressort de 145,5 ± 2 mm et détente ouverte de 5 clics ; à l'avant, précharge entièrement desserrée et détente ouverte de 18 clics."
+      },
+      "pourquoi": {
+        "fr": "Avec un passager, l'arrière s'enfonce : la géométrie change, la direction s'allège et le phare monte. Le manuel indique que la fourche standard convient moto chargée : on agit surtout à l'arrière."
+      },
+      "symptomes": {
+        "fr": "Arrière qui talonne ou s'affaisse en duo, direction légère, moto qui pompe ; ou moto trop ferme et sautillante en solo après un réglage pour le duo."
+      },
+      "si_neglige": {
+        "fr": "Tenue de route dégradée et talonnements en duo, phare qui éblouit."
+      },
+      "pieces": [],
+      "consommables": [],
+      "outils": [
+        "ou-cle-allen-4",
+        "ou-cle-ergot",
+        "ou-tournevis-plat",
+        "ou-regle-graduee"
+      ],
+      "procedure": "pr-reglage-suspensions",
+      "composants": [
+        "co-amortisseur",
+        "co-precharge-amortisseur",
+        "co-reglage-detente-amortisseur",
+        "co-reglages-fourche"
+      ],
+      "duree_diy_min": 30,
+      "temps_atelier_h": 0.3,
+      "duree_diy_confiance": "incertain",
+      "temps_atelier_confiance": "incertain",
+      "difficulte": 2,
+      "faisable_soi_meme": true,
+      "outillage_special": false,
+      "note": {
+        "fr": "Règle Aprilia : si l'on augmente la précharge, augmenter aussi le freinage en détente. Compter clics et tours depuis la position fermée, sans forcer en butée ; même réglage sur les deux tubes de fourche. Aucune correspondance kilos → tours n'est publiée : en duo, augmenter la précharge arrière d'environ 1 à 2 tours au plus (le réglage « sport » du manuel, +2 tours, est réservé au circuit) et vérifier l'enfoncement (environ 30 mm à l'arrière selon un technicien Öhlins) ; ces repères sont des estimations, pas des données Aprilia. Accès : selles et flanc arrière gauche déposés, clé à ergot pour la bague. RS 660 Factory (Öhlins) : réglages non couverts par le manuel 2020. Durée DIY et temps atelier : estimations (aucun barème publié pour cette opération seule)."
+      },
+      "confiance": "incertain",
+      "sources": [
+        "src-manuel-proprietaire#p111",
+        "src-manuel-proprietaire#p112",
+        "src-manuel-proprietaire#p113",
+        "src-manuel-proprietaire#p114",
+        "src-manuel-proprietaire#p115",
+        "src-manuel-proprietaire#p116",
+        "src-manuel-proprietaire#p117",
+        "src-manuel-proprietaire#p118",
+        "src-motool-ohlins-sag"
+      ]
+    }
+  ],
+  "revisions": [
+    {
+      "id": "revision-1000",
+      "titre": {
+        "fr": "Révision des 1 000 km (fin de rodage)",
+        "en": "1,000 km service (end of running-in)"
+      },
+      "km": 1000,
+      "operations": [
+        "op-vidange-huile-filtre",
+        "op-chaine-entretien",
+        "op-cable-embrayage",
+        "op-controle-direction",
+        "op-controle-roues-roulements",
+        "op-diagnostic-outil",
+        "op-controle-freins",
+        "op-controle-fonctionnement-general",
+        "op-controle-contacteurs-securite",
+        "op-controle-pression-pneus",
+        "op-controle-usure-pneus",
+        "op-niveau-liquide-frein",
+        "op-niveau-liquide-refroidissement",
+        "op-reglage-general",
+        "op-serrage-boulonnerie"
+      ],
+      "temps_atelier_h": 1.5,
+      "repetition": "une_fois",
+      "note": {
+        "fr": "Une seule fois. 90 min au barème Aprilia, temps de gestion compris ; une facture allemande indique aussi 1,5 h. Toutes les performances ne sont autorisées qu'après cette révision."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p190",
+        "src-manuel-proprietaire#p191",
+        "src-manuel-proprietaire#p192",
+        "src-manuel-atelier#p55",
+        "src-manuel-proprietaire#p120",
+        "src-v4forum-wartung-p3"
+      ]
+    },
+    {
+      "id": "revision-10000",
+      "titre": {
+        "fr": "Révision des 10 000 km",
+        "en": "10,000 km service"
+      },
+      "km": 10000,
+      "operations": [
+        "op-vidange-huile-filtre",
+        "op-chaine-entretien",
+        "op-cable-embrayage",
+        "op-controle-direction",
+        "op-controle-roues-roulements",
+        "op-diagnostic-outil",
+        "op-controle-freins",
+        "op-controle-fonctionnement-general",
+        "op-controle-contacteurs-securite",
+        "op-controle-pression-pneus",
+        "op-controle-usure-pneus",
+        "op-niveau-liquide-frein",
+        "op-niveau-liquide-refroidissement",
+        "op-reglage-general",
+        "op-serrage-boulonnerie",
+        "op-controle-filtre-air",
+        "op-controle-transmission",
+        "op-controle-refroidissement",
+        "op-controle-joints-spi-fourche",
+        "op-reglage-phare"
+      ],
+      "temps_atelier_h": 1.83,
+      "note": {
+        "fr": "110 min au barème Aprilia (temps de gestion compris), confirmé par un concessionnaire et des factures."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p190",
+        "src-manuel-proprietaire#p191",
+        "src-manuel-proprietaire#p192",
+        "src-manuel-atelier#p55",
+        "src-v4forum-wartung-p3",
+        "src-v4forum-wartung-p4"
+      ]
+    },
+    {
+      "id": "revision-20000",
+      "titre": {
+        "fr": "Révision des 20 000 km",
+        "en": "20,000 km service"
+      },
+      "km": 20000,
+      "operations": [
+        "op-vidange-huile-filtre",
+        "op-chaine-entretien",
+        "op-cable-embrayage",
+        "op-controle-direction",
+        "op-controle-roues-roulements",
+        "op-diagnostic-outil",
+        "op-controle-freins",
+        "op-controle-fonctionnement-general",
+        "op-controle-contacteurs-securite",
+        "op-controle-pression-pneus",
+        "op-controle-usure-pneus",
+        "op-niveau-liquide-frein",
+        "op-niveau-liquide-refroidissement",
+        "op-reglage-general",
+        "op-serrage-boulonnerie",
+        "op-remplacement-filtre-air",
+        "op-bougies",
+        "op-jeu-soupapes",
+        "op-controle-transmission",
+        "op-controle-amortisseur-biellettes",
+        "op-controle-refroidissement",
+        "op-reglage-phare"
+      ],
+      "temps_atelier_h": 3.17,
+      "note": {
+        "fr": "190 min au barème Aprilia, contrôle du jeu aux soupapes compris ; environ 1 h de plus si des pastilles doivent être changées (concessionnaire). Le tableau prévoit aussi à ce palier une ligne « Raked », dont le sens n'est pas élucidé."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p190",
+        "src-manuel-proprietaire#p191",
+        "src-manuel-proprietaire#p192",
+        "src-manuel-atelier#p55",
+        "src-v4forum-wartung-p4"
+      ]
+    },
+    {
+      "id": "revision-30000",
+      "titre": {
+        "fr": "Révision des 30 000 km",
+        "en": "30,000 km service"
+      },
+      "km": 30000,
+      "operations": [
+        "op-vidange-huile-filtre",
+        "op-chaine-entretien",
+        "op-cable-embrayage",
+        "op-controle-direction",
+        "op-controle-roues-roulements",
+        "op-diagnostic-outil",
+        "op-controle-freins",
+        "op-controle-fonctionnement-general",
+        "op-controle-contacteurs-securite",
+        "op-controle-pression-pneus",
+        "op-controle-usure-pneus",
+        "op-niveau-liquide-frein",
+        "op-niveau-liquide-refroidissement",
+        "op-reglage-general",
+        "op-serrage-boulonnerie",
+        "op-controle-filtre-air",
+        "op-controle-transmission",
+        "op-controle-refroidissement",
+        "op-controle-joints-spi-fourche",
+        "op-reglage-phare"
+      ],
+      "temps_atelier_h": 1.83,
+      "note": {
+        "fr": "Même contenu que la révision des 10 000 km : 110 min au barème Aprilia."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p190",
+        "src-manuel-proprietaire#p191",
+        "src-manuel-proprietaire#p192",
+        "src-manuel-atelier#p55"
+      ]
+    },
+    {
+      "id": "revision-40000",
+      "titre": {
+        "fr": "Révision des 40 000 km",
+        "en": "40,000 km service"
+      },
+      "km": 40000,
+      "operations": [
+        "op-vidange-huile-filtre",
+        "op-chaine-entretien",
+        "op-cable-embrayage",
+        "op-controle-direction",
+        "op-controle-roues-roulements",
+        "op-diagnostic-outil",
+        "op-controle-freins",
+        "op-controle-fonctionnement-general",
+        "op-controle-contacteurs-securite",
+        "op-controle-pression-pneus",
+        "op-controle-usure-pneus",
+        "op-niveau-liquide-frein",
+        "op-niveau-liquide-refroidissement",
+        "op-reglage-general",
+        "op-serrage-boulonnerie",
+        "op-remplacement-filtre-air",
+        "op-bougies",
+        "op-jeu-soupapes",
+        "op-controle-transmission",
+        "op-controle-amortisseur-biellettes",
+        "op-controle-refroidissement",
+        "op-reglage-phare",
+        "op-huile-fourche"
+      ],
+      "temps_atelier_h": 4.67,
+      "note": {
+        "fr": "Contenu des 20 000 km plus le remplacement de l'huile de fourche : 280 min au barème Aprilia. Le tableau constructeur s'arrête à 40 000 km ; reprendre ensuite le cycle à partir de 10 000 km est une déduction, non écrite dans le manuel."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p190",
+        "src-manuel-proprietaire#p191",
+        "src-manuel-proprietaire#p192",
+        "src-manuel-atelier#p55"
+      ]
+    },
+    {
+      "id": "revision-12-mois",
+      "titre": {
+        "fr": "Révision annuelle (12 mois)",
+        "en": "Annual service (12 months)"
+      },
+      "mois": 12,
+      "operations": [
+        "op-vidange-huile-filtre",
+        "op-chaine-entretien",
+        "op-cable-embrayage",
+        "op-controle-direction",
+        "op-controle-roues-roulements",
+        "op-diagnostic-outil",
+        "op-controle-freins",
+        "op-controle-fonctionnement-general",
+        "op-controle-contacteurs-securite",
+        "op-controle-pression-pneus",
+        "op-controle-usure-pneus",
+        "op-niveau-liquide-frein",
+        "op-niveau-liquide-refroidissement",
+        "op-controle-amortisseur-biellettes"
+      ],
+      "temps_atelier_h": 1.33,
+      "note": {
+        "fr": "Échéance de temps, à respecter même si le kilométrage n'est pas atteint : 80 min au barème Aprilia. Quand une révision kilométrique tombe en même temps, l'atelier combine les deux contenus. Le tableau y prévoit aussi la ligne « Raked »."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p190",
+        "src-manuel-proprietaire#p191",
+        "src-manuel-proprietaire#p192",
+        "src-manuel-atelier#p55"
+      ]
+    },
+    {
+      "id": "revision-24-mois",
+      "titre": {
+        "fr": "Révision des 24 mois",
+        "en": "24-month service"
+      },
+      "mois": 24,
+      "operations": [
+        "op-vidange-huile-filtre",
+        "op-chaine-entretien",
+        "op-cable-embrayage",
+        "op-controle-direction",
+        "op-controle-roues-roulements",
+        "op-diagnostic-outil",
+        "op-controle-freins",
+        "op-controle-fonctionnement-general",
+        "op-controle-contacteurs-securite",
+        "op-controle-pression-pneus",
+        "op-controle-usure-pneus",
+        "op-controle-amortisseur-biellettes",
+        "op-liquide-frein",
+        "op-liquide-refroidissement"
+      ],
+      "temps_atelier_h": 2.17,
+      "note": {
+        "fr": "Contenu de la révision annuelle, avec remplacement des liquides de frein et de refroidissement au lieu du contrôle de leur niveau : 130 min au barème Aprilia."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p190",
+        "src-manuel-proprietaire#p191",
+        "src-manuel-proprietaire#p192",
+        "src-manuel-atelier#p55"
+      ]
+    }
+  ]
+}

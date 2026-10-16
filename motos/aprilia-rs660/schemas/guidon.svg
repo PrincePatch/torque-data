@@ -1,0 +1,160 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+<!-- Torque - commodos gauche et droit vus du pilote (Gen1 2021-2024) - dessin original, licence CC BY 4.0. Aucun logo, aucune photo ni vue éclatée reproduite. -->
+<style>
+.trait{fill:none;stroke:#1d2229;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.carene{fill:#6c7d96;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.sombre{fill:#474f5c;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.moteur{fill:#7b8490;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.mecanique{fill:#aab3bf;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.metal{fill:#c9cfd8;stroke:#1d2229;stroke-width:2.5;stroke-linejoin:round}
+.echappement{fill:#8d8a85;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.pneu{fill:#373c44;stroke:#8d97a6;stroke-width:3}
+.detail{fill:none;stroke:#1d2229;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.detail-clair{fill:none;stroke:#c3cad4;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.optique{fill:#e3ebf4;stroke:#1d2229;stroke-width:2.5;stroke-linejoin:round}
+.feu{fill:#d8463f;stroke:#1d2229;stroke-width:2.5;stroke-linejoin:round}
+.orange{fill:#e8901f;stroke:#1d2229;stroke-width:2.5;stroke-linejoin:round}
+.vitre{fill:#9cc3e8;fill-opacity:.35;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.cache{fill:#e8901f;fill-opacity:.16;stroke:#d9731a;stroke-width:2.5;stroke-dasharray:9 6;stroke-linejoin:round}
+.depose{fill:none;stroke:#8d97a6;stroke-width:2.5;stroke-dasharray:12 8;stroke-linejoin:round}
+.sol{fill:none;stroke:#8d97a6;stroke-width:2;stroke-dasharray:4 10;stroke-linecap:round}
+.cote{fill:none;stroke:#d9731a;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.fleche{fill:#d9731a;stroke:none}
+.cote-texte{fill:#d9731a;font-family:Arial,Helvetica,sans-serif;font-weight:bold}
+.fluide{fill:#c08a2a;fill-opacity:.85;stroke:#1d2229;stroke-width:2}
+.liquide-frein{fill:#d9b44a;fill-opacity:.7;stroke:#1d2229;stroke-width:2}
+.chaine{fill:none;stroke:#1d2229;stroke-width:12;stroke-linejoin:round}
+.chaine-maillons{fill:none;stroke:#aab3bf;stroke-width:6;stroke-dasharray:7 5;stroke-linejoin:round}
+.vert{fill:#3fae5a;stroke:#1d2229;stroke-width:2.5}
+.rouge{fill:#d8463f;stroke:#1d2229;stroke-width:2.5}
+.bleu{fill:#3f7fd8;stroke:#1d2229;stroke-width:2.5}
+.ecran{fill:#20262e;stroke:#1d2229;stroke-width:3}
+
+.boitier{fill:#2b3039;stroke:#8d97a6;stroke-width:4;stroke-linejoin:round}
+.tft{fill:#eef1f5;stroke:#1d2229;stroke-width:3}
+.led{fill:#1b1f25;stroke:#59606b;stroke-width:2}
+.seg{fill:#1d2229}
+.seg-gris{fill:#c3cad4}
+.teal{fill:#2e9c94;stroke:#1d2229;stroke-width:2}
+.barre-info{fill:#8e97a3;stroke:#1d2229;stroke-width:2}
+.place{fill:#59606b}
+.place-clair{fill:#eef1f5}
+.bouton{fill:#5a6270;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.symbole{fill:none;stroke:#e6eaf0;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+</style>
+<g transform="translate(0 130)">
+<g id="co-guidon-gauche">
+<rect class="mecanique" x="90" y="500" width="470" height="44" rx="10"/>
+<rect class="sombre" x="110" y="488" width="330" height="68" rx="24"/>
+<rect class="metal" x="66" y="490" width="44" height="64" rx="14"/>
+</g>
+<line class="detail-clair" x1="140" y1="494" x2="140" y2="550" style="stroke-width:1.5"/>
+<line class="detail-clair" x1="172" y1="494" x2="172" y2="550" style="stroke-width:1.5"/>
+<line class="detail-clair" x1="204" y1="494" x2="204" y2="550" style="stroke-width:1.5"/>
+<line class="detail-clair" x1="236" y1="494" x2="236" y2="550" style="stroke-width:1.5"/>
+<line class="detail-clair" x1="268" y1="494" x2="268" y2="550" style="stroke-width:1.5"/>
+<line class="detail-clair" x1="300" y1="494" x2="300" y2="550" style="stroke-width:1.5"/>
+<line class="detail-clair" x1="332" y1="494" x2="332" y2="550" style="stroke-width:1.5"/>
+<line class="detail-clair" x1="364" y1="494" x2="364" y2="550" style="stroke-width:1.5"/>
+<line class="detail-clair" x1="396" y1="494" x2="396" y2="550" style="stroke-width:1.5"/>
+<g id="co-cable-embrayage">
+<path class="trait" d="M552,470 C520,560 486,640 440,770" style="stroke-width:12"/>
+<path class="trait" d="M552,470 C520,560 486,640 440,770" style="stroke:#6b7380;stroke-width:6"/>
+</g>
+<g id="co-levier-embrayage">
+<path class="metal" d="M560,430 C470,410 300,400 150,412 C130,414 120,428 136,436 C300,430 470,436 556,462 Z"/>
+</g>
+<g id="co-reglage-levier-embrayage">
+<circle class="mecanique" cx="566" cy="446" r="20"/>
+<line class="detail" x1="552" y1="446" x2="580" y2="446"/>
+<line class="detail" x1="566" y1="432" x2="566" y2="460"/>
+</g>
+<g id="co-commodo-gauche">
+<path class="sombre" d="M560,262 C600,236 720,236 748,262 L760,640 C736,676 604,676 572,640 Z"/>
+</g>
+<g id="co-selecteur-regulateur">
+<rect class="bouton" x="634" y="214" width="52" height="34" rx="10"/>
+<circle class="metal" cx="660" cy="210" r="12"/>
+</g>
+<g id="co-inverseur-phare">
+<rect class="bouton" x="578" y="270" width="60" height="44" rx="10"/>
+<g transform="translate(591 275) scale(0.7083)" fill="none" stroke="#e6eaf0" stroke-linecap="round" stroke-linejoin="round"><path d="M23,11 C34,11 41,16 41,24 C41,32 34,37 23,37 Z M5,14 H17 M5,20 H17 M5,26 H17 M5,32 H17" stroke-width="3"/></g>
+</g>
+<g id="co-pave-mode">
+<g id="co-bouton-mode-up">
+<rect class="bouton" x="636" y="304" width="60" height="52" rx="12"/>
+<path class="symbole" d="M654,338 L666,322 L678,338"/>
+</g>
+<g id="co-bouton-mode-down">
+<rect class="bouton" x="636" y="406" width="60" height="52" rx="12"/>
+<path class="symbole" d="M654,424 L666,440 L678,424"/>
+</g>
+<g id="co-bouton-mode-right">
+<rect class="bouton" x="688" y="355" width="60" height="52" rx="12"/>
+<path class="symbole" d="M710,369 L726,381 L710,393"/>
+</g>
+<g id="co-bouton-mode-set">
+<rect class="bouton" x="584" y="355" width="60" height="52" rx="12"/>
+<path class="symbole" d="M604,381 A10,10 0 1,0 624,381 A10,10 0 1,0 604,381"/>
+</g>
+</g>
+<g id="co-commande-clignotants">
+<rect class="bouton" x="600" y="488" width="132" height="46" rx="14"/>
+<path class="symbole" d="M626,511 L640,500 V522 Z M706,511 L692,500 V522 Z"/>
+</g>
+<g id="co-bouton-klaxon">
+<rect class="bouton" x="618" y="568" width="96" height="52" rx="14"/>
+<path class="symbole" d="M646,594 H654 L670,582 V606 L654,594 M678,586 C684,590 684,598 678,602"/>
+</g>
+<g id="co-guidon-droit">
+<rect class="mecanique" x="1040" y="500" width="470" height="44" rx="10"/>
+<rect class="metal" x="1490" y="490" width="44" height="64" rx="14"/>
+</g>
+<g id="co-poignee-gaz">
+<rect class="sombre" x="1160" y="488" width="330" height="68" rx="24"/>
+<line class="detail-clair" x1="1190" y1="494" x2="1190" y2="550" style="stroke-width:1.5"/>
+<line class="detail-clair" x1="1222" y1="494" x2="1222" y2="550" style="stroke-width:1.5"/>
+<line class="detail-clair" x1="1254" y1="494" x2="1254" y2="550" style="stroke-width:1.5"/>
+<line class="detail-clair" x1="1286" y1="494" x2="1286" y2="550" style="stroke-width:1.5"/>
+<line class="detail-clair" x1="1318" y1="494" x2="1318" y2="550" style="stroke-width:1.5"/>
+<line class="detail-clair" x1="1350" y1="494" x2="1350" y2="550" style="stroke-width:1.5"/>
+<line class="detail-clair" x1="1382" y1="494" x2="1382" y2="550" style="stroke-width:1.5"/>
+<line class="detail-clair" x1="1414" y1="494" x2="1414" y2="550" style="stroke-width:1.5"/>
+<line class="detail-clair" x1="1446" y1="494" x2="1446" y2="550" style="stroke-width:1.5"/>
+</g>
+<g id="co-levier-frein-avant">
+<path class="metal" d="M1040,430 C1130,410 1300,400 1450,412 C1470,414 1480,428 1464,436 C1300,430 1130,436 1044,462 Z"/>
+</g>
+<g id="co-molette-levier-frein">
+<circle class="orange" cx="1036" cy="452" r="20"/>
+<line class="detail" x1="1022" y1="452" x2="1050" y2="452"/>
+<line class="detail" x1="1036" y1="438" x2="1036" y2="466"/>
+</g>
+<g id="co-reservoir-frein-avant">
+<rect class="liquide-frein" x="1090" y="268" width="120" height="110" rx="14"/>
+<rect class="sombre" x="1080" y="254" width="140" height="24" rx="6"/>
+<circle class="metal" cx="1100" cy="266" r="5"/>
+<circle class="metal" cx="1200" cy="266" r="5"/>
+<line class="detail" x1="1100" y1="316" x2="1200" y2="316"/>
+<line class="detail" x1="1100" y1="352" x2="1200" y2="352"/>
+<rect class="mecanique" x="1130" y="378" width="40" height="40"/>
+</g>
+<g id="co-commodo-droit">
+<path class="sombre" d="M852,262 C880,236 1000,236 1040,262 L1028,640 C996,676 864,676 840,640 Z"/>
+</g>
+<g id="co-bouton-drl">
+<rect class="bouton" x="898" y="286" width="88" height="58" rx="14"/>
+<g transform="translate(922 295) scale(0.8333)" fill="none" stroke="#e6eaf0" stroke-linecap="round" stroke-linejoin="round"><path d="M23,11 C34,11 41,16 41,24 C41,32 34,37 23,37 Z M5,15 H7 M11,15 H13 M5,24 H7 M11,24 H13 M5,33 H7 M11,33 H13" stroke-width="3.2"/></g>
+</g>
+<g id="co-bascule-demarrage">
+<rect class="bouton" x="892" y="380" width="100" height="132" rx="18"/>
+<line class="detail-clair" x1="898" y1="446" x2="986" y2="446"/>
+<path class="symbole" d="M928,412 A16,16 0 1,1 956,412 M926,398 L958,426"/>
+<path class="symbole" d="M956,474 A16,16 0 1,1 942,464 M938,456 L944,464 L936,469"/>
+</g>
+<g id="co-bouton-riding-mode">
+<rect class="bouton" x="898" y="548" width="88" height="58" rx="14"/>
+<path class="symbole" d="M920,590 A22,22 0 0,1 964,590 M942,590 L954,574"/>
+</g>
+</g>
+</svg>

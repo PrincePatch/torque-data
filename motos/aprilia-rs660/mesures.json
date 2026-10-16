@@ -1,0 +1,432 @@
+{
+  "version_schema": 1,
+  "maj": "2026-10-16",
+  "mesures": [
+    {
+      "id": "me-pression-avant",
+      "libelle": {
+        "fr": "Pression du pneu avant",
+        "en": "Front tyre pressure"
+      },
+      "type": "nombre",
+      "unite": "bar",
+      "pas": 0.05,
+      "cible": "pressions",
+      "roue": "avant",
+      "seuils": {
+        "alerte_ecart": 0.1
+      },
+      "operation": "op-controle-pression-pneus",
+      "aide": {
+        "fr": "Mesurer pneus froids, à température ambiante, avant de rouler (une mesure à chaud est faussée), avec un manomètre fiable, puis remettre le bouchon de valve. Valeur Aprilia : 2,5 bar à l’avant, en solo comme en duo. Ne jamais dégonfler un pneu chaud pour retrouver la valeur à froid. La pression varie d’environ 0,1 bar pour 10 °C : la régler à la température extérieure réelle. Le seuil d’alerte de 0,1 bar d’écart avec la valeur constructeur est un choix de l’application : Aprilia ne publie pas de tolérance."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p142",
+        "src-manuel-proprietaire#p186",
+        "src-michelin-faq-moto",
+        "src-gm-tsb-pression"
+      ]
+    },
+    {
+      "id": "me-pression-arriere",
+      "libelle": {
+        "fr": "Pression du pneu arrière",
+        "en": "Rear tyre pressure"
+      },
+      "type": "nombre",
+      "unite": "bar",
+      "pas": 0.05,
+      "cible": "pressions",
+      "roue": "arriere",
+      "seuils": {
+        "alerte_ecart": 0.1
+      },
+      "operation": "op-controle-pression-pneus",
+      "aide": {
+        "fr": "Mesurer pneus froids, à température ambiante, avant de rouler (une mesure à chaud est faussée), avec un manomètre fiable, puis remettre le bouchon de valve. Valeur Aprilia : 2,8 bar à l’arrière, en solo comme en duo. Ne jamais dégonfler un pneu chaud pour retrouver la valeur à froid. La pression varie d’environ 0,1 bar pour 10 °C : la régler à la température extérieure réelle. Le seuil d’alerte de 0,1 bar d’écart avec la valeur constructeur est un choix de l’application : Aprilia ne publie pas de tolérance."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p142",
+        "src-manuel-proprietaire#p186",
+        "src-michelin-faq-moto",
+        "src-gm-tsb-pression"
+      ]
+    },
+    {
+      "id": "me-fleche-chaine",
+      "libelle": {
+        "fr": "Flèche de la chaîne",
+        "en": "Chain slack"
+      },
+      "type": "nombre",
+      "unite": "mm",
+      "pas": 1,
+      "valeur_cible": 30,
+      "operation": "op-chaine-entretien",
+      "aide": {
+        "fr": "Moteur coupé, moto sur la béquille latérale, boîte au point mort. Mesurer la flèche verticale du brin inférieur à 250 mm du centre de l’axe de roue arrière, sur la ligne entre le pignon et la couronne. Valeur Aprilia : environ 30 mm. Faire avancer la moto et mesurer en plusieurs points : la flèche doit être constante sur un tour de roue ; sinon, des maillons sont grippés ou écrasés et la chaîne est à remplacer. La chaîne ne doit pas toucher le dessous du bras oscillant. Aprilia ne publie pas de tolérance chiffrée autour de 30 mm : régler si la flèche s’en écarte. Après réglage, l’écrou d’axe se serre à 120 Nm."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-proprietaire#p176", "src-manuel-atelier#p312", "src-manuel-atelier#p313"]
+    },
+    {
+      "id": "me-etat-chaine",
+      "libelle": {
+        "fr": "État de la chaîne",
+        "en": "Chain condition"
+      },
+      "type": "choix",
+      "choix": [
+        {
+          "id": "bonne",
+          "libelle": {
+            "fr": "Propre, lubrifiée, flèche régulière",
+            "en": "Clean, lubricated, even slack"
+          },
+          "gravite": 0
+        },
+        {
+          "id": "seche-sale",
+          "libelle": {
+            "fr": "Sèche ou encrassée",
+            "en": "Dry or dirty"
+          },
+          "gravite": 1,
+          "operation": "op-chaine-entretien"
+        },
+        {
+          "id": "corrodee",
+          "libelle": {
+            "fr": "Maillons secs ou corrodés",
+            "en": "Dry or corroded links"
+          },
+          "gravite": 2,
+          "operation": "op-chaine-entretien"
+        },
+        {
+          "id": "points-durs",
+          "libelle": {
+            "fr": "Maillons grippés ou écrasés (flèche irrégulière)",
+            "en": "Seized or kinked links (uneven slack)"
+          },
+          "gravite": 4,
+          "operation": "op-kit-chaine"
+        },
+        {
+          "id": "usee",
+          "libelle": {
+            "fr": "Usée : galets abîmés, axes desserrés, joints toriques manquants, allongement de 3 % ou dents usées",
+            "en": "Worn: damaged rollers, loose pins, missing O-rings, 3% stretch or worn teeth"
+          },
+          "gravite": 4,
+          "operation": "op-kit-chaine"
+        }
+      ],
+      "operation": "op-chaine-entretien",
+      "aide": {
+        "fr": "Contrôler les galets, les axes, les joints toriques, les maillons (secs, corrodés, écrasés ou grippés), les dents du pignon et de la couronne et le patin de chaîne. Si les galets sont abîmés, les axes desserrés ou les joints toriques endommagés ou manquants, remplacer l’ensemble chaîne, pignon et couronne. L’allongement se mesure sur 8 maillons avec une jauge (Ognibene 529510001 selon le manuel d’atelier) : à 3 %, la chaîne est à remplacer. Nettoyer au pétrole ou au gazole (jamais au nettoyeur haute pression, à la vapeur ni avec un solvant très inflammable) et lubrifier avec une graisse en spray pour chaînes à joints toriques ; ne pas rouler juste après."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p176",
+        "src-manuel-proprietaire#p177",
+        "src-manuel-proprietaire#p178",
+        "src-manuel-atelier#p309",
+        "src-manuel-atelier#p310"
+      ]
+    },
+    {
+      "id": "me-profondeur-pneu-avant",
+      "libelle": {
+        "fr": "Profondeur de sculpture du pneu avant",
+        "en": "Front tyre tread depth"
+      },
+      "type": "nombre",
+      "unite": "mm",
+      "pas": 0.1,
+      "roue": "avant",
+      "min": 2,
+      "seuils": {
+        "danger_bas": 2
+      },
+      "operation": "op-pneu-avant",
+      "aide": {
+        "fr": "Mesurer avec une jauge de profondeur dans les rainures, en plusieurs points du pneu. Minimum Aprilia : 2 mm (3 mm aux États-Unis), jamais moins que le minimum légal du pays. Remplacer aussi un pneu durci par l’âge, ou perforé de plus de 5 mm sur la bande de roulement, même s’il reste de la gomme."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-proprietaire#p143", "src-manuel-proprietaire#p144"]
+    },
+    {
+      "id": "me-profondeur-pneu-arriere",
+      "libelle": {
+        "fr": "Profondeur de sculpture du pneu arrière",
+        "en": "Rear tyre tread depth"
+      },
+      "type": "nombre",
+      "unite": "mm",
+      "pas": 0.1,
+      "roue": "arriere",
+      "min": 2,
+      "seuils": {
+        "danger_bas": 2
+      },
+      "operation": "op-pneu-arriere",
+      "aide": {
+        "fr": "Mesurer avec une jauge de profondeur dans les rainures, en plusieurs points du pneu, en particulier au centre de la bande de roulement. Minimum Aprilia : 2 mm (3 mm aux États-Unis), jamais moins que le minimum légal du pays. Remplacer aussi un pneu durci par l’âge, ou perforé de plus de 5 mm sur la bande de roulement."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-proprietaire#p143", "src-manuel-proprietaire#p144"]
+    },
+    {
+      "id": "me-epaisseur-plaquettes-avant",
+      "libelle": {
+        "fr": "Épaisseur des plaquettes avant (garniture)",
+        "en": "Front brake pad lining thickness"
+      },
+      "type": "nombre",
+      "unite": "mm",
+      "pas": 0.1,
+      "min": 1.5,
+      "seuils": {
+        "danger_bas": 1.5
+      },
+      "operation": "op-plaquettes-avant",
+      "aide": {
+        "fr": "Contrôle visuel, moto sur sa béquille : regarder les étriers avant par le haut, côté arrière, et estimer la garniture restante (sans le support métallique) de chaque plaquette. Dès qu’une plaquette avant ou arrière atteint environ 1,5 mm, ou qu’un témoin d’usure n’est plus visible, le manuel demande de faire remplacer toutes les plaquettes, par des plaquettes d’origine. Un bruit métallique au freinage signale un support en contact avec le disque. Contrôle à faire de préférence avant chaque sortie."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-proprietaire#p168", "src-manuel-proprietaire#p169"]
+    },
+    {
+      "id": "me-epaisseur-plaquettes-arriere",
+      "libelle": {
+        "fr": "Épaisseur des plaquettes arrière (garniture)",
+        "en": "Rear brake pad lining thickness"
+      },
+      "type": "nombre",
+      "unite": "mm",
+      "pas": 0.1,
+      "min": 1.5,
+      "seuils": {
+        "danger_bas": 1.5
+      },
+      "operation": "op-plaquettes-arriere",
+      "aide": {
+        "fr": "Contrôle visuel, moto sur sa béquille : regarder l’étrier arrière par le bas, côté arrière, et estimer la garniture restante (sans le support métallique) de chaque plaquette. Dès qu’une plaquette avant ou arrière atteint environ 1,5 mm, ou qu’un témoin d’usure n’est plus visible, le manuel demande de faire remplacer toutes les plaquettes, par des plaquettes d’origine."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-proprietaire#p168", "src-manuel-proprietaire#p169"]
+    },
+    {
+      "id": "me-niveau-huile",
+      "libelle": {
+        "fr": "Niveau d’huile moteur",
+        "en": "Engine oil level"
+      },
+      "type": "choix",
+      "choix": [
+        {
+          "id": "au-max",
+          "libelle": {
+            "fr": "Au repère MAX (environ)",
+            "en": "At MAX mark (approx.)"
+          },
+          "gravite": 0
+        },
+        {
+          "id": "entre",
+          "libelle": {
+            "fr": "Entre MIN et MAX",
+            "en": "Between MIN and MAX"
+          },
+          "gravite": 1
+        },
+        {
+          "id": "sous-min",
+          "libelle": {
+            "fr": "Au MIN ou en dessous",
+            "en": "At or below MIN"
+          },
+          "gravite": 4
+        },
+        {
+          "id": "au-dessus-max",
+          "libelle": {
+            "fr": "Au-dessus du MAX",
+            "en": "Above MAX"
+          },
+          "gravite": 4
+        }
+      ],
+      "operation": "op-niveau-huile",
+      "aide": {
+        "fr": "Contrôler moteur chaud, de préférence après environ 15 km hors agglomération (ne pas faire chauffer le moteur au ralenti à l’arrêt). Couper le moteur et attendre quelques secondes, moto droite sur ses deux roues (pas sur la béquille latérale), sur un sol plat. Dévisser le bouchon-jauge, l’essuyer, le reposer sans le visser, puis le ressortir et lire : le niveau doit être à peu près au MAX. Ne jamais rouler sous le MIN ni au-dessus du MAX (risque de dégâts moteur graves). Appoint avec une huile SAE 10W-50 API SL JASO MA2, sans additif."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p140",
+        "src-manuel-proprietaire#p141",
+        "src-manuel-proprietaire#p142",
+        "src-manuel-atelier#p58",
+        "src-manuel-atelier#p59"
+      ]
+    },
+    {
+      "id": "me-niveau-liquide-frein-avant",
+      "libelle": {
+        "fr": "Niveau de liquide de frein avant",
+        "en": "Front brake fluid level"
+      },
+      "type": "choix",
+      "choix": [
+        {
+          "id": "entre-min-max",
+          "libelle": {
+            "fr": "Entre MIN et MAX",
+            "en": "Between MIN and MAX"
+          },
+          "gravite": 0
+        },
+        {
+          "id": "proche-min",
+          "libelle": {
+            "fr": "Juste au-dessus de MIN",
+            "en": "Just above MIN"
+          },
+          "gravite": 2
+        },
+        {
+          "id": "sous-min",
+          "libelle": {
+            "fr": "Sous MIN",
+            "en": "Below MIN"
+          },
+          "gravite": 5
+        }
+      ],
+      "operation": "op-niveau-liquide-frein",
+      "aide": {
+        "fr": "Moto sur sa béquille, guidon tourné à fond pour mettre le bocal à l’horizontale (à droite selon le manuel du propriétaire, à gauche selon le manuel d’atelier : l’important est que le bocal soit horizontal). Le niveau doit être au-dessus du repère MIN. Il baisse normalement avec l’usure des plaquettes : sous MIN, contrôler d’abord l’usure des plaquettes et des disques, puis rechercher une fuite. Ne compléter jusqu’à MAX qu’avec des plaquettes neuves, sinon le liquide débordera au prochain changement de plaquettes. Liquide DOT 4 uniquement, corrosif pour la peinture. Si la course à vide du levier ou de la pédale devient trop longue, faire purger le circuit."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p147",
+        "src-manuel-proprietaire#p148",
+        "src-manuel-proprietaire#p151",
+        "src-manuel-atelier#p81"
+      ]
+    },
+    {
+      "id": "me-niveau-liquide-frein-arriere",
+      "libelle": {
+        "fr": "Niveau de liquide de frein arrière",
+        "en": "Rear brake fluid level"
+      },
+      "type": "choix",
+      "choix": [
+        {
+          "id": "entre-min-max",
+          "libelle": {
+            "fr": "Entre MIN et MAX",
+            "en": "Between MIN and MAX"
+          },
+          "gravite": 0
+        },
+        {
+          "id": "proche-min",
+          "libelle": {
+            "fr": "Juste au-dessus de MIN",
+            "en": "Just above MIN"
+          },
+          "gravite": 2
+        },
+        {
+          "id": "sous-min",
+          "libelle": {
+            "fr": "Sous MIN",
+            "en": "Below MIN"
+          },
+          "gravite": 5
+        }
+      ],
+      "operation": "op-niveau-liquide-frein",
+      "aide": {
+        "fr": "Moto droite, de sorte que le liquide soit à l’horizontale dans le bocal, au niveau du bouchon. Pour l’appoint, il faut déposer le flanc arrière (vis haute et vis basse) puis libérer le bocal. Le niveau doit être au-dessus du repère MIN. Il baisse normalement avec l’usure des plaquettes : sous MIN, contrôler d’abord l’usure des plaquettes et des disques, puis rechercher une fuite. Ne compléter jusqu’à MAX qu’avec des plaquettes neuves, sinon le liquide débordera au prochain changement de plaquettes. Liquide DOT 4 uniquement, corrosif pour la peinture. Si la course à vide du levier ou de la pédale devient trop longue, faire purger le circuit."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p147",
+        "src-manuel-proprietaire#p149",
+        "src-manuel-proprietaire#p150",
+        "src-manuel-proprietaire#p151",
+        "src-manuel-atelier#p83"
+      ]
+    },
+    {
+      "id": "me-niveau-liquide-refroidissement",
+      "libelle": {
+        "fr": "Niveau de liquide de refroidissement",
+        "en": "Coolant level"
+      },
+      "type": "choix",
+      "choix": [
+        {
+          "id": "entre",
+          "libelle": {
+            "fr": "Entre LOW et FULL",
+            "en": "Between LOW and FULL"
+          },
+          "gravite": 0
+        },
+        {
+          "id": "au-low",
+          "libelle": {
+            "fr": "Au repère LOW",
+            "en": "At LOW mark"
+          },
+          "gravite": 2
+        },
+        {
+          "id": "sous-low",
+          "libelle": {
+            "fr": "Sous LOW ou vase vide",
+            "en": "Below LOW or empty"
+          },
+          "gravite": 4
+        }
+      ],
+      "operation": "op-niveau-liquide-refroidissement",
+      "aide": {
+        "fr": "Moteur coupé et froid, moto droite sur ses deux roues, sol plat. Regarder depuis le côté gauche de la moto, à travers l’ouverture du carénage intérieur droit : le niveau du vase d’expansion doit être entre FULL et LOW. Ne pas rouler sous LOW. Appoint côté droit : retirer la vis de la trappe de visite, ouvrir le bouchon et compléter avec le liquide prescrit (rouge, prêt à l’emploi). Ne jamais ouvrir le circuit moteur chaud."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-proprietaire#p144", "src-manuel-proprietaire#p145", "src-manuel-proprietaire#p146"]
+    },
+    {
+      "id": "me-tension-batterie",
+      "libelle": {
+        "fr": "Tension de la batterie au repos",
+        "en": "Battery resting voltage"
+      },
+      "type": "nombre",
+      "unite": "V",
+      "pas": 0.01,
+      "seuils": {
+        "alerte_bas": 12.4
+      },
+      "operation": "op-batterie",
+      "aide": {
+        "fr": "Au multimètre, directement sur les bornes, contact coupé, batterie au repos (attendre 1 à 2 h après une charge). Sous 12,4 V, une recharge est nécessaire. Batterie lithium : chargeur lithium (14 à 15 V, 2 A au maximum selon le bulletin Piaggio de 2024), jamais de booster ni plus de 15 V. Le bouton TEST de la batterie d’origine indique aussi l’état de charge : 5-6 LED prête, 3-4 recharge conseillée, 1-2 recharge nécessaire, 0 défaut."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p154",
+        "src-manuel-proprietaire#p155",
+        "src-manuel-proprietaire#p156",
+        "src-tsb-batterie-lithium-2024"
+      ]
+    }
+  ]
+}

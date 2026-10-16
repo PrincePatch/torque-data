@@ -1,0 +1,1168 @@
+{
+  "version_schema": 1,
+  "maj": "2026-10-16",
+  "carenages": [
+    {
+      "id": "ca-selle-passager",
+      "nom": {
+        "fr": "Selle passager / capot de selle",
+        "en": "Passenger seat / seat cowl"
+      },
+      "cote": "centre",
+      "fixations": [
+        {
+          "nombre": 1,
+          "type": "serrure",
+          "note": {
+            "fr": "Serrure à clé sous la coque arrière, côté gauche : tourner la clé dans le sens horaire et soulever. Aucune vis."
+          }
+        }
+      ],
+      "prealables": [],
+      "procedure": "pr-depose-selle-passager",
+      "pieges": [
+        {
+          "fr": "Au remontage, glisser les pattes arrière sous la coque puis appuyer à l'avant pour verrouiller."
+        }
+      ],
+      "composant": "co-kit-outils",
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p100",
+        "src-manuel-proprietaire#p101",
+        "src-manuel-atelier#p380"
+      ]
+    },
+    {
+      "id": "ca-selle-pilote",
+      "nom": {
+        "fr": "Selle pilote",
+        "en": "Rider seat"
+      },
+      "cote": "centre",
+      "fixations": [
+        {
+          "type": "emboitement",
+          "note": {
+            "fr": "Aucune vis : soulever l'arrière puis tirer vers l'arrière pour dégager l'avant."
+          }
+        }
+      ],
+      "prealables": [
+        "ca-selle-passager"
+      ],
+      "procedure": "pr-depose-selle-pilote",
+      "pieges": [],
+      "composant": "co-batterie",
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p101",
+        "src-motodynamic-fe-a21rst660"
+      ]
+    },
+    {
+      "id": "ca-plateau-documents",
+      "nom": {
+        "fr": "Compartiment à documents (plateau sous la selle)",
+        "en": "Document compartment (under-seat tray)"
+      },
+      "cote": "centre",
+      "fixations": [
+        {
+          "nombre": 2,
+          "type": "vis",
+          "note": {
+            "fr": "2 vis d'après le manuel du propriétaire ; une notice d'accessoiriste décrit un plateau à 4 vis (douille 10 mm au centre, 8 mm sur les côtés)."
+          },
+          "confiance": "incertain"
+        }
+      ],
+      "prealables": [
+        "ca-selle-passager",
+        "ca-selle-pilote"
+      ],
+      "procedure": "pr-batterie",
+      "pieges": [],
+      "composant": "co-batterie",
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-proprietaire#p152",
+        "src-motodynamic-fe-a21rst660"
+      ]
+    },
+    {
+      "id": "ca-flanc-arriere-gauche",
+      "nom": {
+        "fr": "Flanc arrière gauche (panneau non peint sous la selle)",
+        "en": "Left rear side panel"
+      },
+      "cote": "gauche",
+      "fixations": [
+        {
+          "nombre": 2,
+          "type": "vis",
+          "empreinte": "Allen 4 mm",
+          "note": {
+            "fr": "1 vis haute + 1 vis basse d'après les manuels ; une notice d'accessoiriste en compte 3 (1 basse, 2 hautes). Empreinte 4 mm d'après cette notice."
+          },
+          "confiance": "une_source"
+        },
+        {
+          "nombre": 2,
+          "type": "ergot",
+          "note": {
+            "fr": "Plus un point d'accroche en haut."
+          }
+        }
+      ],
+      "prealables": [
+        "ca-selle-passager",
+        "ca-selle-pilote"
+      ],
+      "procedure": "pr-depose-flancs-arriere",
+      "pieges": [
+        {
+          "fr": "Tirer le bas vers l'extérieur, puis reculer le panneau pour libérer les ergots."
+        }
+      ],
+      "composant": "co-fusible-principal",
+      "note": {
+        "fr": "Donne accès au fusible principal 30 A et à la vis de détente de l'amortisseur."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p112",
+        "src-manuel-proprietaire#p113",
+        "src-manuel-proprietaire#p149",
+        "src-manuel-proprietaire#p150",
+        "src-manuel-proprietaire#p161",
+        "src-manuel-proprietaire#p162",
+        "src-manuel-atelier#p395",
+        "src-motodynamic-fe-a21rst660"
+      ]
+    },
+    {
+      "id": "ca-flanc-arriere-droit",
+      "nom": {
+        "fr": "Flanc arrière droit (panneau non peint sous la selle)",
+        "en": "Right rear side panel"
+      },
+      "cote": "droit",
+      "fixations": [
+        {
+          "nombre": 2,
+          "type": "vis",
+          "empreinte": "Allen 4 mm",
+          "note": {
+            "fr": "1 vis haute + 1 vis basse d'après les manuels ; une notice d'accessoiriste en compte 3 (1 basse, 2 hautes). Empreinte 4 mm d'après cette notice."
+          },
+          "confiance": "une_source"
+        },
+        {
+          "nombre": 2,
+          "type": "ergot",
+          "note": {
+            "fr": "Plus un point d'accroche en haut."
+          }
+        }
+      ],
+      "prealables": [
+        "ca-selle-passager",
+        "ca-selle-pilote"
+      ],
+      "procedure": "pr-depose-flancs-arriere",
+      "pieges": [
+        {
+          "fr": "Tirer le bas vers l'extérieur, puis reculer le panneau pour libérer les ergots."
+        }
+      ],
+      "composant": "co-reservoir-frein-arriere",
+      "note": {
+        "fr": "Donne accès au réservoir de liquide de frein arrière."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p112",
+        "src-manuel-proprietaire#p113",
+        "src-manuel-proprietaire#p149",
+        "src-manuel-proprietaire#p150",
+        "src-manuel-proprietaire#p161",
+        "src-manuel-proprietaire#p162",
+        "src-manuel-atelier#p395",
+        "src-motodynamic-fe-a21rst660"
+      ]
+    },
+    {
+      "id": "ca-coque-arriere",
+      "nom": {
+        "fr": "Coque arrière peinte (monobloc)",
+        "en": "Painted tail cowl (one piece)"
+      },
+      "cote": "centre",
+      "fixations": [
+        {
+          "nombre": 4,
+          "type": "vis",
+          "empreinte": "Allen 4 mm",
+          "note": {
+            "fr": "2 vis par côté."
+          }
+        }
+      ],
+      "prealables": [
+        "ca-selle-passager",
+        "ca-selle-pilote",
+        "ca-flanc-arriere-gauche",
+        "ca-flanc-arriere-droit"
+      ],
+      "procedure": "pr-depose-coque-arriere",
+      "pieges": [
+        {
+          "fr": "Soulever puis sortir vers l'arrière."
+        }
+      ],
+      "composant": "co-feu-arriere",
+      "confiance": "une_source",
+      "sources": [
+        "src-motodynamic-fe-a21rst660"
+      ]
+    },
+    {
+      "id": "ca-poignee-arriere",
+      "nom": {
+        "fr": "Poignée arrière",
+        "en": "Rear grab handle"
+      },
+      "cote": "centre",
+      "fixations": [
+        {
+          "nombre": 4,
+          "type": "vis",
+          "note": {
+            "fr": "M8 (18 Nm), bagues « T » aux 3 fixations hautes ; empreinte non documentée."
+          }
+        }
+      ],
+      "prealables": [
+        "ca-selle-passager",
+        "ca-selle-pilote"
+      ],
+      "procedure": "pr-depose-poignee-arriere",
+      "pieges": [],
+      "composant": "co-feu-arriere",
+      "note": {
+        "fr": "Préalable à la dépose du feu arrière et de la serrure."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p36",
+        "src-manuel-atelier#p412"
+      ]
+    },
+    {
+      "id": "ca-bloc-serrure-selle",
+      "nom": {
+        "fr": "Bloc serrure de selle",
+        "en": "Seat lock assembly"
+      },
+      "cote": "gauche",
+      "fixations": [
+        {
+          "nombre": 2,
+          "type": "vis",
+          "empreinte": "Allen 4 mm"
+        },
+        {
+          "nombre": 1,
+          "type": "cable",
+          "note": {
+            "fr": "Décrocher le câble d'ouverture."
+          }
+        }
+      ],
+      "prealables": [
+        "ca-selle-passager",
+        "ca-selle-pilote",
+        "ca-poignee-arriere",
+        "ca-flanc-arriere-gauche"
+      ],
+      "procedure": "pr-pose-support-plaque",
+      "pieges": [],
+      "composant": "co-serrure-selle",
+      "confiance": "une_source",
+      "sources": [
+        "src-motodynamic-fe-a21rst660",
+        "src-manuel-atelier#p391"
+      ]
+    },
+    {
+      "id": "ca-support-plaque",
+      "nom": {
+        "fr": "Support de plaque",
+        "en": "Number plate holder"
+      },
+      "cote": "centre",
+      "fixations": [
+        {
+          "nombre": 1,
+          "type": "vis",
+          "note": {
+            "fr": "Vis centrale."
+          }
+        },
+        {
+          "nombre": 2,
+          "type": "vis",
+          "note": {
+            "fr": "Vis latérales avec bagues « T »."
+          }
+        },
+        {
+          "nombre": 1,
+          "type": "connecteur",
+          "note": {
+            "fr": "Faisceau des clignotants arrière et de l'éclaireur de plaque : noter son cheminement."
+          }
+        }
+      ],
+      "prealables": [
+        "ca-selle-passager",
+        "ca-selle-pilote",
+        "ca-flanc-arriere-gauche",
+        "ca-flanc-arriere-droit"
+      ],
+      "procedure": "pr-pose-support-plaque",
+      "pieges": [],
+      "composant": "co-clignotants-arriere",
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p401",
+        "src-evotech-notice-tail-tidy"
+      ]
+    },
+    {
+      "id": "ca-garde-boue-arriere",
+      "nom": {
+        "fr": "Garde-boue arrière / bavette sous la coque",
+        "en": "Rear mudguard under the tail"
+      },
+      "cote": "centre",
+      "fixations": [
+        {
+          "nombre": 2,
+          "type": "vis",
+          "empreinte": "Torx T30",
+          "note": {
+            "fr": "À l'avant, avec écrou de 10 mm au-dessus (notice d'accessoiriste) ; le manuel d'atelier indique 2 vis."
+          }
+        },
+        {
+          "nombre": 1,
+          "type": "vis",
+          "empreinte": "Torx",
+          "note": {
+            "fr": "À l'extrémité arrière (taille non précisée)."
+          }
+        },
+        {
+          "nombre": 1,
+          "type": "connecteur",
+          "note": {
+            "fr": "Connecteur 4 voies blanc (clignotants + éclaireur de plaque)."
+          }
+        }
+      ],
+      "prealables": [
+        "ca-selle-passager",
+        "ca-selle-pilote",
+        "ca-flanc-arriere-gauche",
+        "ca-flanc-arriere-droit"
+      ],
+      "procedure": "pr-pose-support-plaque",
+      "pieges": [],
+      "composant": "co-clignotants-arriere",
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p402",
+        "src-motodynamic-fe-a21rst660"
+      ]
+    },
+    {
+      "id": "ca-feu-arriere",
+      "nom": {
+        "fr": "Feu arrière LED",
+        "en": "LED tail light"
+      },
+      "cote": "centre",
+      "fixations": [
+        {
+          "nombre": 2,
+          "type": "vis",
+          "note": {
+            "fr": "Vis latérales."
+          }
+        },
+        {
+          "nombre": 1,
+          "type": "vis",
+          "note": {
+            "fr": "Vis haute."
+          }
+        },
+        {
+          "nombre": 1,
+          "type": "connecteur"
+        }
+      ],
+      "prealables": [
+        "ca-poignee-arriere",
+        "ca-flanc-arriere-gauche",
+        "ca-flanc-arriere-droit"
+      ],
+      "procedure": "pr-depose-feu-arriere",
+      "pieges": [],
+      "composant": "co-feu-arriere",
+      "note": {
+        "fr": "Le manuel du propriétaire renvoie au concessionnaire."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p393",
+        "src-manuel-atelier#p394",
+        "src-manuel-proprietaire#p166"
+      ]
+    },
+    {
+      "id": "ca-cache-reservoir",
+      "nom": {
+        "fr": "Cache avant du réservoir",
+        "en": "Front tank cover"
+      },
+      "cote": "centre",
+      "fixations": [
+        {
+          "nombre": 2,
+          "type": "vis",
+          "note": {
+            "fr": "Empreinte non documentée. Le réservoir lui-même tient ensuite par 2 vis AV (avec bagues) et 1 vis AR (avec bague)."
+          }
+        }
+      ],
+      "prealables": [
+        "ca-selle-passager",
+        "ca-selle-pilote"
+      ],
+      "procedure": "pr-depose-cache-reservoir",
+      "pieges": [],
+      "composant": "co-calculateur",
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p403",
+        "src-manuel-atelier#p404"
+      ]
+    },
+    {
+      "id": "ca-carenage-interieur-gauche",
+      "nom": {
+        "fr": "Carénage intérieur gauche (dans la tête de fourche)",
+        "en": "Left inner fairing panel (inside the nose)"
+      },
+      "cote": "gauche",
+      "fixations": [
+        {
+          "nombre": 1,
+          "type": "vis",
+          "empreinte": "Cruciforme"
+        },
+        {
+          "nombre": 1,
+          "type": "vis",
+          "empreinte": "Allen 2,5 mm",
+          "note": {
+            "fr": "Vis haute, sous le rétroviseur."
+          }
+        },
+        {
+          "nombre": 3,
+          "type": "vis",
+          "empreinte": "Allen 2,5 mm",
+          "note": {
+            "fr": "Vis basses."
+          }
+        }
+      ],
+      "prealables": [],
+      "procedure": "pr-depose-carenages-interieurs",
+      "pieges": [
+        {
+          "fr": "Soulever vers le haut et vers l'arrière pour dégager."
+        }
+      ],
+      "composant": "co-reglage-phare",
+      "confiance": "ok",
+      "sources": [
+        "src-rg-cp0510-notice",
+        "src-rg-ecc0320r-notice",
+        "src-manuel-atelier#p396"
+      ]
+    },
+    {
+      "id": "ca-carenage-interieur-droit",
+      "nom": {
+        "fr": "Carénage intérieur droit (dans la tête de fourche)",
+        "en": "Right inner fairing panel (inside the nose)"
+      },
+      "cote": "droit",
+      "fixations": [
+        {
+          "nombre": 1,
+          "type": "vis",
+          "empreinte": "Cruciforme"
+        },
+        {
+          "nombre": 1,
+          "type": "vis",
+          "empreinte": "Allen 2,5 mm",
+          "note": {
+            "fr": "Vis haute, sous le rétroviseur."
+          }
+        },
+        {
+          "nombre": 3,
+          "type": "vis",
+          "empreinte": "Allen 2,5 mm",
+          "note": {
+            "fr": "Vis basses."
+          }
+        }
+      ],
+      "prealables": [],
+      "procedure": "pr-depose-carenages-interieurs",
+      "pieges": [
+        {
+          "fr": "Soulever vers le haut et vers l'arrière pour dégager."
+        }
+      ],
+      "composant": "co-reglage-phare",
+      "confiance": "ok",
+      "sources": [
+        "src-rg-cp0510-notice",
+        "src-rg-ecc0320r-notice",
+        "src-manuel-atelier#p396"
+      ]
+    },
+    {
+      "id": "ca-flanc-gauche",
+      "nom": {
+        "fr": "Flanc principal gauche",
+        "en": "Left main side panel"
+      },
+      "cote": "gauche",
+      "fixations": [
+        {
+          "nombre": 1,
+          "type": "vis",
+          "empreinte": "Allen 4 mm"
+        },
+        {
+          "nombre": 1,
+          "type": "vis",
+          "empreinte": "Douille 8 mm"
+        },
+        {
+          "nombre": 3,
+          "type": "vis",
+          "empreinte": "Torx",
+          "note": {
+            "fr": "Entourage de radiateur (taille non précisée)."
+          }
+        },
+        {
+          "nombre": 1,
+          "type": "rivet",
+          "note": {
+            "fr": "Rivet plastique à pion central sous le phare : desserrer le pion avant d'extraire."
+          }
+        },
+        {
+          "nombre": 4,
+          "type": "vis",
+          "empreinte": "Allen 4 mm"
+        }
+      ],
+      "prealables": [
+        "ca-carenage-interieur-gauche"
+      ],
+      "procedure": "pr-depose-flancs",
+      "pieges": [
+        {
+          "fr": "Soutenir le panneau et dégager les pattes de positionnement sous le phare : tirer sans les dégager les casse."
+        },
+        {
+          "fr": "Au remontage, aligner les clips de l'avant du flanc sur le nez de carénage."
+        }
+      ],
+      "composant": "co-regulateur",
+      "note": {
+        "fr": "Le manuel d'atelier décrit le flanc en 2 parties (vis basses + vis hautes), 2 clips + 1 vis sous le phare + 4 vis extérieures."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-rg-cp0510-notice",
+        "src-rg-ecc0320r-notice",
+        "src-manuel-atelier#p397",
+        "src-manuel-atelier#p398",
+        "src-notice-akrapovic-rs660"
+      ]
+    },
+    {
+      "id": "ca-flanc-droit",
+      "nom": {
+        "fr": "Flanc principal droit",
+        "en": "Right main side panel"
+      },
+      "cote": "droit",
+      "fixations": [
+        {
+          "nombre": 1,
+          "type": "vis",
+          "empreinte": "Allen 4 mm"
+        },
+        {
+          "nombre": 1,
+          "type": "vis",
+          "empreinte": "Douille 8 mm"
+        },
+        {
+          "nombre": 3,
+          "type": "vis",
+          "empreinte": "Torx",
+          "note": {
+            "fr": "Entourage de radiateur (taille non précisée)."
+          }
+        },
+        {
+          "nombre": 1,
+          "type": "rivet",
+          "note": {
+            "fr": "Rivet plastique à pion central sous le phare : desserrer le pion avant d'extraire."
+          }
+        },
+        {
+          "nombre": 4,
+          "type": "vis",
+          "empreinte": "Allen 4 mm"
+        }
+      ],
+      "prealables": [
+        "ca-carenage-interieur-droit"
+      ],
+      "procedure": "pr-depose-flancs",
+      "pieges": [
+        {
+          "fr": "Soutenir le panneau et dégager les pattes de positionnement sous le phare : tirer sans les dégager les casse."
+        },
+        {
+          "fr": "Au remontage, aligner les clips de l'avant du flanc sur le nez de carénage."
+        }
+      ],
+      "composant": "co-vase-expansion",
+      "note": {
+        "fr": "Le manuel d'atelier décrit le flanc en 2 parties (vis basses + vis hautes), 2 clips + 1 vis sous le phare + 4 vis extérieures."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-rg-cp0510-notice",
+        "src-rg-ecc0320r-notice",
+        "src-manuel-atelier#p397",
+        "src-manuel-atelier#p398",
+        "src-notice-akrapovic-rs660"
+      ]
+    },
+    {
+      "id": "ca-sabot",
+      "nom": {
+        "fr": "Bas de carénage (sabot)",
+        "en": "Belly pan"
+      },
+      "cote": "centre",
+      "fixations": [
+        {
+          "nombre": 6,
+          "type": "vis",
+          "empreinte": "Allen 4 mm",
+          "note": {
+            "fr": "3 par côté d'après un forum et la notice Akrapovič ; le manuel d'atelier en compte 8 ; R&G indique 4 vis restantes une fois les flancs déposés."
+          },
+          "confiance": "incertain"
+        }
+      ],
+      "prealables": [],
+      "procedure": "pr-depose-sabot",
+      "pieges": [
+        {
+          "fr": "Soutenir le sabot par-dessous."
+        },
+        {
+          "fr": "Avant de l'abaisser, dégager la durite de mise à l'air du vase d'expansion (clip intérieur droit), le fil du capteur de béquille (2 clips côté gauche) et la durite de mise à l'air d'essence (au centre)."
+        }
+      ],
+      "composant": "co-filtre-huile",
+      "confiance": "ok",
+      "sources": [
+        "src-af-pompe-eau",
+        "src-notice-akrapovic-rs660",
+        "src-rg-cp0510-notice",
+        "src-manuel-atelier#p403"
+      ]
+    },
+    {
+      "id": "ca-carenage-sous-phare",
+      "nom": {
+        "fr": "Petit carénage central sous le feu de route",
+        "en": "Small centre panel under the high beam"
+      },
+      "cote": "centre",
+      "fixations": [
+        {
+          "nombre": 1,
+          "type": "vis",
+          "empreinte": "Allen 4 mm"
+        },
+        {
+          "nombre": 2,
+          "type": "vis",
+          "empreinte": "Allen 3 mm"
+        }
+      ],
+      "prealables": [],
+      "procedure": "pr-depose-tete-de-fourche",
+      "pieges": [],
+      "composant": "co-reglage-phare",
+      "confiance": "une_source",
+      "sources": [
+        "src-af-pompe-eau"
+      ]
+    },
+    {
+      "id": "ca-carenage-radiateur-droit",
+      "nom": {
+        "fr": "Carénage intérieur droit (radiateur / vase d'expansion)",
+        "en": "Right inner radiator panel (expansion tank)"
+      },
+      "cote": "droit",
+      "fixations": [
+        {
+          "nombre": 3,
+          "type": "vis",
+          "note": {
+            "fr": "Empreinte non documentée."
+          }
+        }
+      ],
+      "prealables": [
+        "ca-carenage-interieur-droit",
+        "ca-flanc-droit"
+      ],
+      "procedure": "pr-depose-carenages-radiateur",
+      "pieges": [
+        {
+          "fr": "Dégager la durite de mise à l'air du vase et décrocher le vase (2 points) sans le vider."
+        }
+      ],
+      "composant": "co-vase-expansion",
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p398",
+        "src-manuel-atelier#p399"
+      ]
+    },
+    {
+      "id": "ca-carenage-radiateur-gauche",
+      "nom": {
+        "fr": "Carénage intérieur gauche (porte-régulateur)",
+        "en": "Left inner radiator panel (regulator holder)"
+      },
+      "cote": "gauche",
+      "fixations": [
+        {
+          "nombre": 3,
+          "type": "vis",
+          "note": {
+            "fr": "Empreinte non documentée."
+          }
+        },
+        {
+          "nombre": 1,
+          "type": "collier"
+        }
+      ],
+      "prealables": [
+        "ca-carenage-interieur-gauche",
+        "ca-flanc-gauche"
+      ],
+      "procedure": "pr-depose-carenages-radiateur",
+      "pieges": [
+        {
+          "fr": "Pour les écrous du régulateur, tenir la vis côté intérieur."
+        }
+      ],
+      "composant": "co-regulateur",
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p399",
+        "src-manuel-atelier#p400"
+      ]
+    },
+    {
+      "id": "ca-bulle",
+      "nom": {
+        "fr": "Bulle (haut de tête de fourche)",
+        "en": "Windscreen (top fairing)"
+      },
+      "cote": "centre",
+      "fixations": [
+        {
+          "nombre": 4,
+          "type": "vis",
+          "note": {
+            "fr": "Vis TBEI M4 avec rondelles."
+          }
+        }
+      ],
+      "prealables": [],
+      "procedure": "pr-depose-bulle",
+      "pieges": [
+        {
+          "fr": "Récupérer les rondelles."
+        },
+        {
+          "fr": "Contrôler le réglage des phares au remontage."
+        }
+      ],
+      "composant": "co-tableau-de-bord",
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p390",
+        "src-manuel-atelier#p21"
+      ]
+    },
+    {
+      "id": "ca-tete-de-fourche",
+      "nom": {
+        "fr": "Tête de fourche et bloc optique",
+        "en": "Front fairing and headlight unit"
+      },
+      "cote": "centre",
+      "fixations": [
+        {
+          "nombre": 4,
+          "type": "ecrou",
+          "note": {
+            "fr": "Rétroviseurs : 2 écrous chacun."
+          }
+        },
+        {
+          "nombre": 4,
+          "type": "vis",
+          "note": {
+            "fr": "Bloc optique ↔ support d'instruments."
+          }
+        },
+        {
+          "nombre": 1,
+          "type": "connecteur",
+          "note": {
+            "fr": "Connecteur du bloc optique."
+          }
+        },
+        {
+          "nombre": 8,
+          "type": "vis",
+          "note": {
+            "fr": "Bloc optique ↔ tête de fourche."
+          }
+        }
+      ],
+      "prealables": [
+        "ca-carenage-interieur-gauche",
+        "ca-carenage-interieur-droit",
+        "ca-flanc-gauche",
+        "ca-flanc-droit",
+        "ca-retroviseur-gauche",
+        "ca-retroviseur-droit"
+      ],
+      "procedure": "pr-depose-tete-de-fourche",
+      "pieges": [],
+      "composant": "co-phare",
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p386",
+        "src-manuel-atelier#p388",
+        "src-manuel-atelier#p389"
+      ]
+    },
+    {
+      "id": "ca-retroviseur-gauche",
+      "nom": {
+        "fr": "Rétroviseur gauche",
+        "en": "Left mirror"
+      },
+      "cote": "gauche",
+      "fixations": [
+        {
+          "nombre": 2,
+          "type": "ecrou",
+          "note": {
+            "fr": "Sur goujons de la tête de fourche, accès par l'arrière ; taille non confirmée (M6 probable)."
+          }
+        }
+      ],
+      "prealables": [],
+      "procedure": "pr-depose-retroviseurs",
+      "pieges": [
+        {
+          "fr": "Version USA : clignotants intégrés au rétroviseur, connecteurs à débrancher sur le support d'instruments."
+        },
+        {
+          "fr": "Ne pas rouler sans rétroviseurs."
+        }
+      ],
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p386",
+        "src-manuel-proprietaire#p167"
+      ]
+    },
+    {
+      "id": "ca-retroviseur-droit",
+      "nom": {
+        "fr": "Rétroviseur droit",
+        "en": "Right mirror"
+      },
+      "cote": "droit",
+      "fixations": [
+        {
+          "nombre": 2,
+          "type": "ecrou",
+          "note": {
+            "fr": "Sur goujons de la tête de fourche, accès par l'arrière ; taille non confirmée (M6 probable)."
+          }
+        }
+      ],
+      "prealables": [],
+      "procedure": "pr-depose-retroviseurs",
+      "pieges": [
+        {
+          "fr": "Version USA : clignotants intégrés au rétroviseur, connecteurs à débrancher sur le support d'instruments."
+        },
+        {
+          "fr": "Ne pas rouler sans rétroviseurs."
+        }
+      ],
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p386",
+        "src-manuel-proprietaire#p167"
+      ]
+    },
+    {
+      "id": "ca-garde-boue-avant",
+      "nom": {
+        "fr": "Garde-boue avant",
+        "en": "Front mudguard"
+      },
+      "cote": "centre",
+      "fixations": [
+        {
+          "nombre": 4,
+          "type": "vis",
+          "note": {
+            "fr": "M5 avec rondelles, 2 par côté."
+          }
+        }
+      ],
+      "prealables": [],
+      "procedure": "pr-depose-garde-boue-avant",
+      "pieges": [
+        {
+          "fr": "Décrocher le guide-câble lié à la durite de frein."
+        }
+      ],
+      "composant": "co-roue-avant",
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p410",
+        "src-manuel-atelier#p28"
+      ]
+    },
+    {
+      "id": "ca-cache-pignon",
+      "nom": {
+        "fr": "Cache pignon de sortie de boîte",
+        "en": "Front sprocket cover"
+      },
+      "cote": "gauche",
+      "fixations": [
+        {
+          "nombre": 3,
+          "type": "vis",
+          "note": {
+            "fr": "Avec bagues « T » ; empreinte non documentée."
+          }
+        }
+      ],
+      "prealables": [],
+      "procedure": "pr-kit-chaine",
+      "pieges": [
+        {
+          "fr": "Au remontage, repositionner le reniflard dans le cache."
+        }
+      ],
+      "composant": "co-pignon",
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p308"
+      ]
+    },
+    {
+      "id": "ca-leche-roue-arriere",
+      "nom": {
+        "fr": "Garde-boue de roue arrière (lèche-roue) et cache de bras oscillant",
+        "en": "Rear hugger and swingarm cover"
+      },
+      "cote": "centre",
+      "fixations": [
+        {
+          "nombre": 4,
+          "type": "vis",
+          "empreinte": "Torx",
+          "note": {
+            "fr": "Cache de bras : environ 4 vis, taille non précisée."
+          }
+        }
+      ],
+      "prealables": [],
+      "pieges": [],
+      "composant": "co-amortisseur",
+      "note": {
+        "fr": "Roue arrière déposée d'abord ; nécessaire pour atteindre la fixation basse de l'amortisseur."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-youtube-ohlins-install"
+      ]
+    },
+    {
+      "id": "ca-cache-support-durite",
+      "nom": {
+        "fr": "Cache du support de durite (au-dessus du couvercle d'alternateur)",
+        "en": "Hose bracket cover (above alternator cover)"
+      },
+      "cote": "gauche",
+      "fixations": [
+        {
+          "nombre": 2,
+          "type": "vis",
+          "empreinte": "Torx T25"
+        },
+        {
+          "nombre": 1,
+          "type": "vis",
+          "empreinte": "Douille six pans 5 mm longue",
+          "note": {
+            "fr": "Vis voisine."
+          }
+        }
+      ],
+      "prealables": [],
+      "pieges": [],
+      "composant": "co-carter-alternateur",
+      "confiance": "une_source",
+      "sources": [
+        "src-af-pompe-eau"
+      ]
+    },
+    {
+      "id": "ca-couvercle-instruments",
+      "nom": {
+        "fr": "Couvercle d'instrumentation",
+        "en": "Instrument cover"
+      },
+      "cote": "centre",
+      "fixations": [
+        {
+          "nombre": 2,
+          "type": "vis",
+          "note": {
+            "fr": "Plus une bague supérieure ; empreinte non documentée."
+          }
+        }
+      ],
+      "prealables": [],
+      "pieges": [],
+      "composant": "co-tableau-de-bord",
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p387",
+        "src-manuel-atelier#p412"
+      ]
+    },
+    {
+      "id": "ca-trappe-vase-expansion",
+      "nom": {
+        "fr": "Trappe d'accès au bouchon du vase d'expansion",
+        "en": "Expansion tank cap access flap"
+      },
+      "cote": "droit",
+      "fixations": [
+        {
+          "nombre": 1,
+          "type": "vis"
+        }
+      ],
+      "prealables": [],
+      "procedure": "pr-niveau-liquide-refroidissement",
+      "pieges": [],
+      "composant": "co-vase-expansion",
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p146"
+      ]
+    },
+    {
+      "id": "ca-capot-fusible-principal",
+      "nom": {
+        "fr": "Capot du fusible principal",
+        "en": "Main fuse cover"
+      },
+      "cote": "gauche",
+      "fixations": [
+        {
+          "nombre": 2,
+          "type": "vis"
+        },
+        {
+          "nombre": 1,
+          "type": "connecteur",
+          "note": {
+            "fr": "Débrancher le connecteur pour atteindre le fusible."
+          }
+        }
+      ],
+      "prealables": [
+        "ca-selle-passager",
+        "ca-selle-pilote",
+        "ca-flanc-arriere-gauche"
+      ],
+      "procedure": "pr-remplacement-fusible",
+      "pieges": [],
+      "composant": "co-fusible-principal",
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p161",
+        "src-manuel-proprietaire#p162"
+      ]
+    }
+  ]
+}

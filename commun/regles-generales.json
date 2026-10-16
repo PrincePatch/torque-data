@@ -1,0 +1,272 @@
+{
+  "version_schema": 1,
+  "maj": "2026-10-16",
+  "regles": [
+    {
+      "id": "rg-verglas",
+      "titre": { "fr": "Risque de verglas", "en": "Black ice risk" },
+      "condition": { "tous": [ { "variable": "meteo.temp_min_24h", "op": "<=", "valeur": 3 } ] },
+      "message": { "fr": "Températures de 3 °C ou moins dans les 24 h : risque de verglas, surtout le matin, à l'ombre et sur les ponts." },
+      "conseil": { "fr": "Roulez avec douceur, sans freinage ni manœuvre brusques. Si possible, attendez que la température remonte, ou renoncez à rouler." },
+      "gravite": 4,
+      "urgence": 75,
+      "operations": [],
+      "mesures": [],
+      "duree_validite_h": 24,
+      "confiance": "une_source",
+      "sources": ["src-manuel-proprietaire#p31", "src-manuel-proprietaire#p128"]
+    },
+    {
+      "id": "rg-neige",
+      "titre": { "fr": "Neige annoncée", "en": "Snow forecast" },
+      "condition": { "tous": [ { "variable": "meteo.neige_24h_cm", "op": ">", "valeur": 0 } ] },
+      "message": { "fr": "De la neige est annoncée dans les 24 h." },
+      "conseil": { "fr": "Sur neige, glace ou boue : vitesse modérée, ni freinage ni manœuvre brusques. Des pneus sport ou piste n'adhèrent pas sur route gelée : le plus sûr est de ne pas rouler. Les routes seront probablement salées : rincez la moto à l'eau froide après usage." },
+      "gravite": 4,
+      "urgence": 80,
+      "operations": [],
+      "mesures": [],
+      "duree_validite_h": 24,
+      "confiance": "une_source",
+      "sources": ["src-manuel-proprietaire#p8", "src-manuel-proprietaire#p128", "src-mcn-rouler-froid"]
+    },
+    {
+      "id": "rg-gel-liquide-refroidissement",
+      "titre": { "fr": "Gel : liquide de refroidissement", "en": "Frost: coolant" },
+      "condition": { "tous": [ { "variable": "meteo.gel_72h", "op": "==", "valeur": true } ] },
+      "message": { "fr": "Du gel est prévu dans les 3 jours." },
+      "conseil": { "fr": "Contrôlez le niveau du liquide de refroidissement moteur froid et vérifiez que le mélange protège contre le gel : point de congélation indiqué sur l'étiquette du produit, concentration d'antigel à respecter selon le constructeur, dilution à l'eau distillée." },
+      "gravite": 3,
+      "urgence": 45,
+      "operations": ["op-niveau-liquide-refroidissement"],
+      "mesures": ["me-niveau-liquide-refroidissement"],
+      "duree_validite_h": 72,
+      "confiance": "une_source",
+      "sources": ["src-manuel-proprietaire#p145", "src-manuel-proprietaire#p146"]
+    },
+    {
+      "id": "rg-froid-pression",
+      "titre": { "fr": "Froid : la pression des pneus baisse", "en": "Cold: tyre pressure drops" },
+      "condition": { "tous": [ { "variable": "meteo.temp_min_24h", "op": "<", "valeur": 10 } ] },
+      "message": { "fr": "La pression des pneus baisse d'environ 0,1 bar par tranche de 10 °C : des pneus gonflés à 20 °C ont environ 0,25 bar de moins à 0 °C." },
+      "conseil": { "fr": "Contrôlez la pression à froid, à la température extérieure réelle, et réglez la valeur du constructeur. Ne dégonflez jamais un pneu chaud." },
+      "gravite": 2,
+      "urgence": 55,
+      "operations": ["op-controle-pression-pneus"],
+      "mesures": ["me-pression-avant", "me-pression-arriere"],
+      "duree_validite_h": 24,
+      "confiance": "une_source",
+      "sources": ["src-gm-tsb-pression", "src-mecazen-pression", "src-piecesetpneus-pression", "src-michelin-faq-moto", "src-manuel-proprietaire#p142"]
+    },
+    {
+      "id": "rg-canicule",
+      "titre": { "fr": "Forte chaleur", "en": "Heatwave" },
+      "condition": { "tous": [ { "variable": "meteo.temp_max_24h", "op": ">=", "valeur": 30 } ] },
+      "message": { "fr": "Plus de 30 °C prévus : une pression mesurée en plein soleil ou pneus chauds paraît trop haute (de 0,1 à 0,2 bar de plus qu'à 20 °C)." },
+      "conseil": { "fr": "Mesurez la pression le matin, à l'ombre, pneus froids, et ne dégonflez jamais à chaud. Dans les bouchons, surveillez la température moteur et coupez le moteur aux longs arrêts. Ne lavez pas la moto en plein soleil ni carrosserie chaude." },
+      "gravite": 2,
+      "urgence": 40,
+      "operations": ["op-controle-pression-pneus"],
+      "mesures": ["me-pression-avant", "me-pression-arriere"],
+      "duree_validite_h": 24,
+      "confiance": "incertain",
+      "sources": ["src-michelin-faq-moto", "src-gm-tsb-pression", "src-manuel-proprietaire#p8", "src-manuel-proprietaire#p127", "src-manuel-proprietaire#p142"]
+    },
+    {
+      "id": "rg-pluie-prevue",
+      "titre": { "fr": "Pluie annoncée", "en": "Rain forecast" },
+      "condition": { "tous": [ { "variable": "meteo.pluie_24h_mm", "op": ">=", "valeur": 1 } ] },
+      "message": { "fr": "Pluie prévue dans les 24 h : adhérence et freinage réduits." },
+      "conseil": { "fr": "Vitesse modérée, distances de sécurité allongées, ni freinage ni manœuvre brusques. Après un long moment sans freiner sous la pluie, le premier freinage est moins efficace : freinez de temps en temps pour sécher les disques. Vérifiez l'usure des pneus avant de partir." },
+      "gravite": 3,
+      "urgence": 60,
+      "operations": ["op-controle-usure-pneus"],
+      "mesures": ["me-profondeur-pneu-avant", "me-profondeur-pneu-arriere"],
+      "duree_validite_h": 24,
+      "confiance": "incertain",
+      "sources": ["src-manuel-proprietaire#p128", "src-manuel-proprietaire#p132"]
+    },
+    {
+      "id": "rg-pluie-chaine",
+      "titre": { "fr": "Après la pluie : la chaîne", "en": "After rain: the chain" },
+      "condition": { "tous": [ { "variable": "meteo.pluie_passee_24h_mm", "op": ">=", "valeur": 2 } ] },
+      "message": { "fr": "Il a plu ces dernières 24 h." },
+      "conseil": { "fr": "Si vous avez roulé sous la pluie : essuyez et séchez la chaîne, puis lubrifiez-la avec un produit adapté (chaîne à joints toriques) ; ne roulez pas juste après la lubrification. Nettoyage au pétrole ou au kérosène, jamais au jet haute pression ni à la vapeur. Si de la rouille apparaît, entretenez-la plus souvent." },
+      "gravite": 2,
+      "urgence": 55,
+      "operations": ["op-chaine-entretien"],
+      "mesures": ["me-etat-chaine"],
+      "duree_validite_h": 48,
+      "confiance": "incertain",
+      "sources": ["src-manuel-proprietaire#p173", "src-manuel-proprietaire#p175", "src-manuel-proprietaire#p178", "src-piecesetpneus-chaine"]
+    },
+    {
+      "id": "rg-sel-routes",
+      "titre": { "fr": "Routes salées probables", "en": "Salted roads likely" },
+      "condition": { "tous": [
+        { "variable": "date.saison", "op": "dans", "valeur": ["automne", "hiver", "printemps"] },
+        { "un_de": [
+          { "variable": "meteo.temp_min_24h", "op": "<=", "valeur": 3 },
+          { "variable": "meteo.neige_24h_cm", "op": ">", "valeur": 0 }
+        ] }
+      ] },
+      "message": { "fr": "Gel ou neige en saison froide : les routes sont probablement salées. Le sel attaque le cadre, la chaîne, la visserie et les pièces moteur." },
+      "conseil": { "fr": "Après chaque sortie, rincez à l'eau froide (l'eau chaude renforce l'effet du sel), sans haute pression ni vapeur ; lavez le radiateur au jet basse pression ; nettoyez les disques de frein avec un détergent non corrosif ; séchez, puis lubrifiez chaîne, leviers, pédales, câble d'embrayage et contacteur à clé. Tant que les disques sont mouillés, le freinage est moins efficace : actionnez les freins plusieurs fois." },
+      "gravite": 3,
+      "urgence": 55,
+      "operations": ["op-lavage", "op-chaine-entretien", "op-lubrification-articulations"],
+      "mesures": [],
+      "duree_validite_h": 48,
+      "confiance": "incertain",
+      "sources": ["src-manuel-proprietaire#p8", "src-manuel-proprietaire#p9", "src-manuel-proprietaire#p10", "src-manuel-proprietaire#p133", "src-manuel-proprietaire#p170", "src-manuel-proprietaire#p173", "src-allianz-hivernage"]
+    },
+    {
+      "id": "rg-vent-fort",
+      "titre": { "fr": "Vent fort", "en": "Strong wind" },
+      "condition": { "tous": [
+        { "variable": "meteo.rafales_max_24h_kmh", "op": ">=", "valeur": 50 },
+        { "variable": "meteo.rafales_max_24h_kmh", "op": "<", "valeur": 70 }
+      ] },
+      "message": { "fr": "Rafales de 50 km/h ou plus annoncées : la moto demande des corrections régulières." },
+      "conseil": { "fr": "Réduisez la vitesse, méfiez-vous des ponts, des viaducs et des dépassements de poids lourds. Les motos carénées sont plus sensibles au vent latéral. Consultez la vigilance météo." },
+      "gravite": 3,
+      "urgence": 60,
+      "operations": [],
+      "mesures": [],
+      "duree_validite_h": 24,
+      "confiance": "incertain",
+      "sources": ["src-assurland-vent", "src-vinci-vent", "src-viamichelin-vent"]
+    },
+    {
+      "id": "rg-vent-tres-fort",
+      "titre": { "fr": "Vent violent", "en": "Severe wind" },
+      "condition": { "tous": [ { "variable": "meteo.rafales_max_24h_kmh", "op": ">=", "valeur": 70 } ] },
+      "message": { "fr": "Rafales de 70 km/h ou plus : la moto devient difficile à tenir, avec un risque de renversement vers 80 à 100 km/h." },
+      "conseil": { "fr": "Reportez le trajet si possible. Garez la moto à l'abri, sur un sol plat et dur : elle peut être renversée à l'arrêt." },
+      "gravite": 4,
+      "urgence": 80,
+      "operations": [],
+      "mesures": [],
+      "duree_validite_h": 24,
+      "confiance": "incertain",
+      "sources": ["src-assurland-vent", "src-vinci-vent", "src-viamichelin-vent"]
+    },
+    {
+      "id": "rg-humidite-stockage",
+      "titre": { "fr": "Humidité et moto à l'arrêt", "en": "Humidity while parked" },
+      "condition": { "tous": [
+        { "variable": "meteo.humidite_moy_24h", "op": ">=", "valeur": 85 },
+        { "variable": "moto.jours_immobilisee", "op": ">=", "valeur": 7 }
+      ] },
+      "message": { "fr": "Air très humide et moto à l'arrêt depuis plus d'une semaine." },
+      "conseil": { "fr": "Stockez la moto dans un local sec, sans chauffage ni fortes variations de température, à l'abri du soleil, sous une housse respirante (ni plastique ni imperméable). Pour un arrêt long, protégez la sortie d'échappement avec un sac plastique, à retirer avant de démarrer. En bord de mer ou en air salin, nettoyez plus souvent. Un peu de buée dans le phare après la pluie ou un lavage est normale." },
+      "gravite": 2,
+      "urgence": 25,
+      "operations": ["op-lavage"],
+      "mesures": [],
+      "duree_validite_h": 72,
+      "confiance": "incertain",
+      "sources": ["src-manuel-proprietaire#p169", "src-manuel-proprietaire#p170", "src-manuel-proprietaire#p171"]
+    },
+    {
+      "id": "rg-preparation-hiver",
+      "titre": { "fr": "Rouler l'hiver : préparer la moto", "en": "Riding through winter: prepare the bike" },
+      "condition": { "tous": [
+        { "variable": "date.saison", "op": "==", "valeur": "automne" },
+        { "variable": "moto.hivernage", "op": "==", "valeur": false }
+      ] },
+      "message": { "fr": "Automne : vous roulez l'hiver, c'est le moment de préparer la moto au froid." },
+      "conseil": { "fr": "Contrôlez la profondeur des sculptures (au moins le minimum du constructeur), testez la batterie, vérifiez le niveau et la protection antigel du liquide de refroidissement, l'éclairage et le réglage du phare (les jours raccourcissent)." },
+      "gravite": 2,
+      "urgence": 25,
+      "operations": ["op-controle-usure-pneus", "op-batterie", "op-niveau-liquide-refroidissement", "op-controle-eclairage", "op-reglage-phare"],
+      "mesures": ["me-profondeur-pneu-avant", "me-profondeur-pneu-arriere", "me-tension-batterie"],
+      "duree_validite_h": 720,
+      "confiance": "incertain",
+      "sources": ["src-manuel-proprietaire#p144", "src-manuel-proprietaire#p145", "src-manuel-proprietaire#p154", "src-manuel-proprietaire#p165"]
+    },
+    {
+      "id": "rg-hivernage",
+      "titre": { "fr": "Préparer l'hivernage", "en": "Prepare winter storage" },
+      "condition": { "tous": [
+        { "variable": "date.saison", "op": "==", "valeur": "automne" },
+        { "variable": "moto.hivernage", "op": "==", "valeur": true }
+      ] },
+      "message": { "fr": "Automne : vous remisez votre moto l'hiver. Préparez-la avant de l'arrêter." },
+      "conseil": { "fr": "Faites les révisions et réparations avant de remiser (on oublie de les faire après). Lavez et séchez (sel rincé à l'eau froide), lubrifiez chaîne et commandes. Faites le plein avec un stabilisant, puis roulez quelques kilomètres pour le faire circuler. Gonflez les pneus ; si possible, levez la moto sur béquilles avant et arrière, roues décollées. Local sec et non chauffé, housse respirante, sac plastique sur la sortie d'échappement (à retirer avant de démarrer). Batterie : suivez les consignes du constructeur. L'assurance responsabilité civile reste obligatoire." },
+      "gravite": 2,
+      "urgence": 40,
+      "operations": ["op-hivernage", "op-lavage", "op-chaine-entretien", "op-lubrification-articulations", "op-batterie"],
+      "mesures": [],
+      "duree_validite_h": 720,
+      "confiance": "ok",
+      "sources": ["src-manuel-proprietaire#p169", "src-manuel-proprietaire#p170", "src-dafy-hivernage", "src-allianz-hivernage", "src-prix-carburant-stockage", "src-selectra-assurance-hivernage"]
+    },
+    {
+      "id": "rg-remise-en-route-printemps",
+      "titre": { "fr": "Remise en route", "en": "Back on the road" },
+      "condition": { "tous": [
+        { "variable": "date.saison", "op": "==", "valeur": "printemps" },
+        { "variable": "moto.jours_immobilisee", "op": ">=", "valeur": 30 }
+      ] },
+      "message": { "fr": "Printemps et moto à l'arrêt depuis plus d'un mois : faites la remise en route avant de repartir." },
+      "conseil": { "fr": "Retirez le sac de l'échappement. Batterie : testez-la et chargez-la si besoin. Faites le plein (essence de plus de 1 à 3 mois sans stabilisant : envisagez de la renouveler). Pneus : pression à froid (elle a presque toujours baissé), usure, âge. Freins : niveaux, fuites, plaquettes (liquide de plus de 2 ans : à remplacer). Chaîne : tension, rouille, nettoyage et graissage. Niveaux d'huile et de liquide de refroidissement. Feux, klaxon, béquille et son contacteur. Puis quelques kilomètres d'essai à allure modérée, loin de la circulation. Vérifiez l'assurance et, le cas échéant, le contrôle technique." },
+      "gravite": 3,
+      "urgence": 70,
+      "operations": ["op-remise-en-route", "op-batterie", "op-controle-pression-pneus", "op-controle-usure-pneus", "op-controle-freins", "op-niveau-liquide-frein", "op-chaine-entretien", "op-niveau-huile", "op-niveau-liquide-refroidissement", "op-controle-eclairage"],
+      "mesures": ["me-pression-avant", "me-pression-arriere", "me-tension-batterie"],
+      "duree_validite_h": 336,
+      "confiance": "incertain",
+      "sources": ["src-manuel-proprietaire#p170", "src-manuel-proprietaire#p192", "src-touring-apres-hiver", "src-prix-carburant-stockage", "src-mecatechnic-motul-stabilizer"]
+    },
+    {
+      "id": "rg-immobilisation-longue",
+      "titre": { "fr": "Moto à l'arrêt depuis plus d'un mois", "en": "Bike unused for over a month" },
+      "condition": { "tous": [
+        { "variable": "moto.jours_immobilisee", "op": ">=", "valeur": 30 },
+        { "variable": "date.saison", "op": "!=", "valeur": "printemps" },
+        { "un_de": [
+          { "variable": "date.saison", "op": "==", "valeur": "ete" },
+          { "variable": "moto.hivernage", "op": "==", "valeur": false }
+        ] }
+      ] },
+      "message": { "fr": "La moto n'a pas roulé depuis plus de 30 jours." },
+      "conseil": { "fr": "L'essence E10 sans additif commence à vieillir après environ un mois : ajoutez un stabilisant ou roulez ; après 3 mois, envisagez de l'essence fraîche. Chargez la batterie selon les consignes du constructeur. Les pneus perdent de la pression : contrôlez-la avant de repartir, puis faites un tour des freins, de la chaîne et des niveaux. Les échéances au temps (huile tous les 12 mois, liquides tous les 24 mois) courent même moto arrêtée." },
+      "gravite": 2,
+      "urgence": 35,
+      "operations": ["op-batterie", "op-controle-pression-pneus", "op-remise-en-route"],
+      "mesures": ["me-pression-avant", "me-pression-arriere", "me-tension-batterie"],
+      "duree_validite_h": 168,
+      "confiance": "incertain",
+      "sources": ["src-mecatechnic-motul-stabilizer", "src-prix-carburant-stockage", "src-touring-apres-hiver", "src-manuel-proprietaire#p190", "src-manuel-proprietaire#p192"]
+    },
+    {
+      "id": "rg-pas-de-releve",
+      "titre": { "fr": "Kilométrage à mettre à jour", "en": "Mileage needs updating" },
+      "condition": { "tous": [ { "variable": "moto.jours_sans_releve", "op": ">=", "valeur": 30 } ] },
+      "message": { "fr": "Aucun relevé du compteur depuis plus de 30 jours : les échéances d'entretien sont calculées sur un kilométrage estimé." },
+      "conseil": { "fr": "Prenez une photo du tableau de bord, totalisateur visible, ou saisissez le kilométrage." },
+      "gravite": 1,
+      "urgence": 30,
+      "operations": [],
+      "mesures": [],
+      "duree_validite_h": 168,
+      "confiance": "incertain",
+      "sources": []
+    },
+    {
+      "id": "rg-pression-non-controlee",
+      "titre": { "fr": "Pression non contrôlée depuis 2 semaines", "en": "Tyre pressure not checked for 2 weeks" },
+      "condition": { "tous": [ { "variable": "mesure.me-pression-avant.age_jours", "op": ">=", "valeur": 14 } ] },
+      "message": { "fr": "Votre dernier relevé de pression date de plus de 2 semaines." },
+      "conseil": { "fr": "Contrôlez la pression à froid, à température ambiante : Michelin conseille de le faire toutes les 2 semaines, et le constructeur avant et après tout long trajet." },
+      "gravite": 3,
+      "urgence": 50,
+      "operations": ["op-controle-pression-pneus"],
+      "mesures": ["me-pression-avant", "me-pression-arriere"],
+      "duree_validite_h": 72,
+      "confiance": "ok",
+      "sources": ["src-michelin-faq-moto", "src-manuel-proprietaire#p142"]
+    }
+  ]
+}

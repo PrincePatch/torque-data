@@ -1,0 +1,2826 @@
+{
+  "version_schema": 1,
+  "maj": "2026-10-16",
+  "id": "aprilia-rs660",
+  "identite": {
+    "marque": "Aprilia",
+    "modele": "RS 660",
+    "constructeur": "Piaggio & C. S.p.A.",
+    "categorie": "sportive"
+  },
+  "versions": [
+    {
+      "id": "standard",
+      "nom": {
+        "fr": "RS 660",
+        "en": "RS 660"
+      },
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "puissance_kw": 73.5,
+      "puissance_ch": 100,
+      "couple_nm": 67,
+      "note": {
+        "fr": "Puissance et couple des millésimes 2021 à 2024 (Euro 5) : 100 ch (73,5 kW) à 10 500 tr/min et 67 Nm à 8 500 tr/min. À partir de 2025 (Euro 5+, corps de papillon de 52 mm) : 105 ch ; le couple 2025 diffère selon les sources (67, 68 ou 70 Nm), voir les caractéristiques."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-repaire-motards-fiche",
+        "src-1000ps-rs660-2025",
+        "src-motoplanete-a2",
+        "src-cyclenews-2025"
+      ],
+      "variantes": [
+        {
+          "millesimes": [
+            2025,
+            2026
+          ],
+          "puissance_ch": 105,
+          "note": {
+            "fr": "Euro 5+ (corps de papillon de 52 mm) : 105 ch ; couple 67, 68 ou 70 Nm selon les sources.",
+            "en": "Euro 5+ (52 mm throttle bodies): 105 hp; torque 67, 68 or 70 Nm depending on the source."
+          },
+          "confiance": "ok",
+          "sources": [
+            "src-1000ps-rs660-2025",
+            "src-cyclenews-2025"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "nom": {
+        "fr": "RS 660 35 kW (permis A2)",
+        "en": "RS 660 35 kW (A2 licence)"
+      },
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "puissance_kw": 35,
+      "permis": "A2",
+      "note": {
+        "fr": "Version homologuée d’usine, limitée électroniquement (cartographie) à 35 kW ; bridage et débridage se font en concession (formalités de carte grise à vérifier auprès du concessionnaire). Puissance publiée : 34,3 kW (46,9 ch) à 6 000 tr/min pour 2021-2023 ; 35 kW (47,6 ch) à 5 500 tr/min pour 2024 ; 35 kW (47,5 ch) et 62 Nm à 5 500 tr/min pour 2025 (60 Nm selon une annonce de concessionnaire). Poids et pneus identiques à la version pleine puissance. Millésime 2026 : aucune source trouvée sur cette version."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-motorradundreisen-35kw",
+        "src-motodealers-35kw",
+        "src-motoplanete-a2",
+        "src-motorbox-eicma-2024"
+      ],
+      "variantes": [
+        {
+          "millesimes": [
+            2021,
+            2022,
+            2023
+          ],
+          "puissance_kw": 34.3,
+          "puissance_ch": 46.9,
+          "confiance": "une_source",
+          "sources": [
+            "src-motorradundreisen-35kw"
+          ]
+        },
+        {
+          "millesimes": [
+            2024
+          ],
+          "puissance_kw": 35,
+          "puissance_ch": 47.6,
+          "confiance": "une_source",
+          "sources": [
+            "src-motodealers-35kw"
+          ]
+        },
+        {
+          "millesimes": [
+            2025
+          ],
+          "puissance_kw": 35,
+          "puissance_ch": 47.5,
+          "couple_nm": 62,
+          "confiance": "une_source",
+          "sources": [
+            "src-motorbox-eicma-2024"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "limited-edition",
+      "nom": {
+        "fr": "RS 660 Limited Edition",
+        "en": "RS 660 Limited Edition"
+      },
+      "millesimes": [
+        2022
+      ],
+      "puissance_kw": 73.5,
+      "puissance_ch": 100,
+      "couple_nm": 67,
+      "note": {
+        "fr": "Série limitée à 1 500 exemplaires numérotés, livrée « stars & stripes » (titre MotoAmerica Twins Cup). Capot de selle monoplace, tête de fourche et bulle plus grandes, logiciel de shifter permettant la sélection inversée (type course). Performances identiques à la RS 660."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-piaggio-limited-edition",
+        "src-visordown-limited-edition"
+      ]
+    },
+    {
+      "id": "extrema",
+      "nom": {
+        "fr": "RS 660 Extrema",
+        "en": "RS 660 Extrema"
+      },
+      "millesimes": [
+        2023,
+        2024
+      ],
+      "puissance_kw": 73.5,
+      "puissance_ch": 100,
+      "couple_nm": 67,
+      "note": {
+        "fr": "166 kg à sec (3 kg de moins que la RS 660). Silencieux SC-Project homologué (sortie à droite au lieu de sous le moteur), garde-boue avant et sabot en carbone, capot de selle monoplace (selle passager fournie), shifter en sélection inversée ; 100 ch et 67 Nm inchangés. PTAC 397 kg et charge utile 217 kg selon une seule source : vérifier le champ F.2 de la carte grise. Une fiche 2025 existe chez 1000PS, non confirmée."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-paultan-extrema",
+        "src-visordown-extrema",
+        "src-motorradundreisen-extrema"
+      ]
+    },
+    {
+      "id": "factory",
+      "nom": {
+        "fr": "RS 660 Factory",
+        "en": "RS 660 Factory"
+      },
+      "millesimes": [
+        2025,
+        2026
+      ],
+      "puissance_ch": 105,
+      "note": {
+        "fr": "Version apparue en 2025 avec le moteur Euro 5+ (105 ch) : fourche Öhlins NIX30 Ø 43 mm et amortisseur Öhlins STX 46 entièrement réglables, batterie lithium allégée, selle bicolore. Poids en ordre de marche annoncé : 183 kg. Couple annoncé : 70 Nm à 8 400 tr/min (1000PS), 67 ou 68 Nm selon d’autres fiches. 2026 : nouveaux coloris seulement. Aucun manuel Factory consulté : données d’entretien des suspensions Öhlins introuvables."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-cyclenews-2025",
+        "src-rider-2025",
+        "src-megabikes-factory",
+        "src-1000ps-rs660-factory",
+        "src-visordown-2026"
+      ]
+    }
+  ],
+  "millesimes": [
+    {
+      "annee": 2021,
+      "changements": {
+        "fr": "Première année de commercialisation (présentée à l’EICMA 2019, livraisons fin 2020) : 100 ch et 67 Nm, corps de papillon de 48 mm, Euro 5, électronique a-PRC complète, TFT couleur, éclairage LED avec feux de virage, batterie lithium, pneus Pirelli Diablo Rosso Corsa II. Campagnes 2021 : rappel 21V-502 (bielles, remplacement du moteur sur une partie des motos produites), bulletin sur le jeu aux soupapes d’échappement, mises à jour de la cartographie ECU (défaut P1401)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire",
+        "src-motorcycle-com-2021",
+        "src-nhtsa-21v502",
+        "src-tsb-jeu-soupapes-2021",
+        "src-tsb-ecu-2021"
+      ]
+    },
+    {
+      "annee": 2022,
+      "changements": {
+        "fr": "Lancement de la série limitée Limited Edition (1 500 exemplaires). Bulletin technique sur le levier de sélecteur (lot limité de motos E5)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-piaggio-limited-edition",
+        "src-visordown-limited-edition",
+        "src-tsb-levier-selecteur-2022"
+      ]
+    },
+    {
+      "annee": 2023,
+      "changements": {
+        "fr": "Lancement de l’Extrema (166 kg à sec, silencieux SC-Project homologué, pièces en carbone, capot de selle monoplace). Version piste Trofeo (non homologuée pour la route), hors du périmètre de l’application."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-paultan-extrema",
+        "src-visordown-extrema",
+        "src-wikipedia-rs660"
+      ]
+    },
+    {
+      "annee": 2024,
+      "changements": {
+        "fr": "Aucun changement technique identifié (fiches 2023 et 2024 identiques) ; nouveaux coloris."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-1000ps-comparatif-2023-2024"
+      ]
+    },
+    {
+      "annee": 2025,
+      "changements": {
+        "fr": "Homologation Euro 5+ : corps de papillon de 52 mm (48 mm auparavant), 105 ch. Launch control (ALC) et un profil pilote supplémentaire. Nouveau TFT couleur 5 pouces à collage optique et commodos rétroéclairés. Carénage redessiné avec ailerons. Cadre inchangé. Pneus annoncés : Pirelli Diablo Rosso IV Corsa (une source). Nouvelle version Factory (suspensions Öhlins). Version 35 kW toujours proposée. Aucun manuel 2025 consulté : capacités, réglages et type de batterie de la version standard restent à confirmer."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-cyclenews-2025",
+        "src-rider-2025",
+        "src-motorbox-eicma-2024",
+        "src-motorcycle-com-2025",
+        "src-motorradundreisen-35kw"
+      ]
+    },
+    {
+      "annee": 2026,
+      "changements": {
+        "fr": "Nouveaux coloris (dont Factory jaune, blanc et rouge), pas de changement mécanique annoncé."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-visordown-2026"
+      ]
+    }
+  ],
+  "caracteristiques": [
+    {
+      "id": "type-moteur",
+      "groupe": "moteur",
+      "libelle": {
+        "fr": "Type de moteur",
+        "en": "Engine type"
+      },
+      "texte": {
+        "fr": "Bicylindre en ligne transversal, 4 temps, refroidissement liquide, double arbre à cames en tête, 4 soupapes par cylindre"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p180",
+        "src-manuel-atelier#p18"
+      ]
+    },
+    {
+      "id": "cylindree",
+      "groupe": "moteur",
+      "libelle": {
+        "fr": "Cylindrée",
+        "en": "Displacement"
+      },
+      "valeur": 659,
+      "unite": "cm3",
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p180"
+      ]
+    },
+    {
+      "id": "alesage",
+      "groupe": "moteur",
+      "libelle": {
+        "fr": "Alésage",
+        "en": "Bore"
+      },
+      "valeur": 81,
+      "unite": "mm",
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p180"
+      ]
+    },
+    {
+      "id": "course",
+      "groupe": "moteur",
+      "libelle": {
+        "fr": "Course",
+        "en": "Stroke"
+      },
+      "valeur": 63.93,
+      "unite": "mm",
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p180"
+      ]
+    },
+    {
+      "id": "rapport-volumetrique",
+      "groupe": "moteur",
+      "libelle": {
+        "fr": "Rapport volumétrique",
+        "en": "Compression ratio"
+      },
+      "valeur": 13.5,
+      "unite": ":1",
+      "texte": {
+        "fr": "13,5 ± 0,5 : 1"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p180"
+      ]
+    },
+    {
+      "id": "distribution",
+      "groupe": "moteur",
+      "libelle": {
+        "fr": "Distribution",
+        "en": "Valve train"
+      },
+      "texte": {
+        "fr": "Chaîne Morse sur les arbres à cames d’admission et d’échappement, poussoirs à godet, jeu réglé par pastilles calibrées"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p181",
+        "src-manuel-atelier#p18"
+      ]
+    },
+    {
+      "id": "jeu-soupapes-admission",
+      "groupe": "moteur",
+      "libelle": {
+        "fr": "Jeu aux soupapes d’admission",
+        "en": "Intake valve clearance"
+      },
+      "texte": {
+        "fr": "0,10 – 0,15 mm"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p18",
+        "src-manuel-atelier#p77"
+      ]
+    },
+    {
+      "id": "jeu-soupapes-echappement",
+      "groupe": "moteur",
+      "libelle": {
+        "fr": "Jeu aux soupapes d’échappement",
+        "en": "Exhaust valve clearance"
+      },
+      "texte": {
+        "fr": "0,10 – 0,20 mm"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p18",
+        "src-manuel-atelier#p77"
+      ]
+    },
+    {
+      "id": "pastilles-soupapes",
+      "groupe": "moteur",
+      "libelle": {
+        "fr": "Pastilles de réglage du jeu",
+        "en": "Valve clearance shims"
+      },
+      "texte": {
+        "fr": "Pastilles calibrées de 1,75 à 3,15 mm par pas d’environ 0,025 mm, à monter épaisseur imprimée vers le haut"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p78",
+        "src-manuel-atelier#p79"
+      ]
+    },
+    {
+      "id": "ralenti",
+      "groupe": "moteur",
+      "libelle": {
+        "fr": "Régime de ralenti",
+        "en": "Idle speed"
+      },
+      "valeur": 1400,
+      "unite": "tr/min",
+      "texte": {
+        "fr": "1 400 ± 100 tr/min"
+      },
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p180",
+        "src-manuel-atelier#p18"
+      ]
+    },
+    {
+      "id": "regime-maxi",
+      "groupe": "moteur",
+      "libelle": {
+        "fr": "Régime à la vitesse maximale",
+        "en": "Engine speed at top speed"
+      },
+      "valeur": 10500,
+      "unite": "tr/min",
+      "texte": {
+        "fr": "10 500 ± 100 tr/min (valeur du manuel ; c’est aussi le régime de puissance maximale annoncé pour 2021-2024)"
+      },
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p180",
+        "src-manuel-atelier#p18"
+      ]
+    },
+    {
+      "id": "alimentation",
+      "groupe": "moteur",
+      "libelle": {
+        "fr": "Alimentation",
+        "en": "Fuel system"
+      },
+      "texte": {
+        "fr": "Injection électronique, 1 injecteur par cylindre, 2 corps papillon motorisés (ride-by-wire) avec cornets d’admission de longueur fixe, 1 prise d’air dynamique, multicartographie"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p184"
+      ]
+    },
+    {
+      "id": "diametre-papillons",
+      "groupe": "moteur",
+      "libelle": {
+        "fr": "Diamètre des corps papillon",
+        "en": "Throttle body diameter"
+      },
+      "valeur": 48,
+      "unite": "mm",
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p184"
+      ]
+    },
+    {
+      "id": "diametre-papillons-euro5plus",
+      "groupe": "moteur",
+      "libelle": {
+        "fr": "Diamètre des corps papillon (Euro 5+)",
+        "en": "Throttle body diameter (Euro 5+)"
+      },
+      "valeur": 52,
+      "unite": "mm",
+      "millesimes": [
+        2025,
+        2026
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-cyclenews-2025",
+        "src-rider-2025",
+        "src-motorbox-eicma-2024"
+      ]
+    },
+    {
+      "id": "homologation-euro5",
+      "groupe": "moteur",
+      "libelle": {
+        "fr": "Norme antipollution",
+        "en": "Emission standard"
+      },
+      "texte": {
+        "fr": "Euro 5"
+      },
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "confiance": "une_source",
+      "sources": [
+        "src-oem-bike-parts-rs660-2021"
+      ]
+    },
+    {
+      "id": "homologation-euro5plus",
+      "groupe": "moteur",
+      "libelle": {
+        "fr": "Norme antipollution (2025+)",
+        "en": "Emission standard (2025+)"
+      },
+      "texte": {
+        "fr": "Euro 5+"
+      },
+      "millesimes": [
+        2025,
+        2026
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-cyclenews-2025",
+        "src-rider-2025",
+        "src-motorbox-eicma-2024"
+      ]
+    },
+    {
+      "id": "puissance-maxi",
+      "groupe": "moteur",
+      "libelle": {
+        "fr": "Puissance maximale",
+        "en": "Maximum power"
+      },
+      "valeur": 100,
+      "unite": "ch",
+      "texte": {
+        "fr": "100 ch (73,5 kW) à 10 500 tr/min"
+      },
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "versions": [
+        "standard",
+        "limited-edition",
+        "extrema"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-repaire-motards-fiche",
+        "src-1000ps-rs660-2025",
+        "src-paultan-extrema",
+        "src-piaggio-limited-edition"
+      ]
+    },
+    {
+      "id": "couple-maxi",
+      "groupe": "moteur",
+      "libelle": {
+        "fr": "Couple maximal",
+        "en": "Maximum torque"
+      },
+      "valeur": 67,
+      "unite": "Nm",
+      "texte": {
+        "fr": "67 Nm à 8 500 tr/min"
+      },
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "versions": [
+        "standard",
+        "limited-edition",
+        "extrema"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-repaire-motards-fiche",
+        "src-motoplanete-a2",
+        "src-paultan-extrema"
+      ]
+    },
+    {
+      "id": "puissance-maxi-euro5plus",
+      "groupe": "moteur",
+      "libelle": {
+        "fr": "Puissance maximale (Euro 5+)",
+        "en": "Maximum power (Euro 5+)"
+      },
+      "valeur": 105,
+      "unite": "ch",
+      "texte": {
+        "fr": "105 ch ; régime annoncé : 10 500 tr/min (1000PS) ou 10 400 tr/min (Cycle News)"
+      },
+      "millesimes": [
+        2025,
+        2026
+      ],
+      "versions": [
+        "standard",
+        "factory"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-cyclenews-2025",
+        "src-1000ps-rs660-2025",
+        "src-rider-2025"
+      ]
+    },
+    {
+      "id": "couple-maxi-euro5plus",
+      "groupe": "moteur",
+      "libelle": {
+        "fr": "Couple maximal (Euro 5+)",
+        "en": "Maximum torque (Euro 5+)"
+      },
+      "texte": {
+        "fr": "Valeurs contradictoires : 67 Nm à 8 500 tr/min (1000PS, standard), 68 Nm à 8 500 tr/min (motorcycle.com) ou 70 Nm à 8 400 tr/min (1000PS, Factory)"
+      },
+      "millesimes": [
+        2025,
+        2026
+      ],
+      "versions": [
+        "standard",
+        "factory"
+      ],
+      "confiance": "incertain",
+      "sources": [
+        "src-1000ps-rs660-2025",
+        "src-motorcycle-com-2025",
+        "src-1000ps-rs660-factory"
+      ]
+    },
+    {
+      "id": "puissance-a2",
+      "groupe": "moteur",
+      "libelle": {
+        "fr": "Puissance maximale (version 35 kW)",
+        "en": "Maximum power (35 kW version)"
+      },
+      "valeur": 34.3,
+      "unite": "kW",
+      "texte": {
+        "fr": "34,3 kW (46,9 ch) à 6 000 tr/min"
+      },
+      "millesimes": [
+        2021,
+        2022,
+        2023
+      ],
+      "versions": [
+        "a2"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-motorradundreisen-35kw",
+        "src-motodealers-35kw"
+      ]
+    },
+    {
+      "id": "puissance-a2-2024",
+      "groupe": "moteur",
+      "libelle": {
+        "fr": "Puissance maximale (version 35 kW, 2024)",
+        "en": "Maximum power (35 kW version, 2024)"
+      },
+      "valeur": 35,
+      "unite": "kW",
+      "texte": {
+        "fr": "35 kW (47,6 ch) à 5 500 tr/min"
+      },
+      "millesimes": [
+        2024
+      ],
+      "versions": [
+        "a2"
+      ],
+      "confiance": "une_source",
+      "sources": [
+        "src-motorradundreisen-35kw"
+      ]
+    },
+    {
+      "id": "puissance-a2-2025",
+      "groupe": "moteur",
+      "libelle": {
+        "fr": "Puissance maximale (version 35 kW, 2025)",
+        "en": "Maximum power (35 kW version, 2025)"
+      },
+      "valeur": 35,
+      "unite": "kW",
+      "texte": {
+        "fr": "35 kW (47,5 ch) à 5 500 tr/min"
+      },
+      "millesimes": [
+        2025
+      ],
+      "versions": [
+        "a2"
+      ],
+      "confiance": "une_source",
+      "sources": [
+        "src-motorradundreisen-35kw"
+      ]
+    },
+    {
+      "id": "couple-a2-2025",
+      "groupe": "moteur",
+      "libelle": {
+        "fr": "Couple maximal (version 35 kW, 2025)",
+        "en": "Maximum torque (35 kW version, 2025)"
+      },
+      "valeur": 62,
+      "unite": "Nm",
+      "texte": {
+        "fr": "62 Nm à 5 500 tr/min (Motorrad & Reisen) ; 60 Nm selon une annonce de concessionnaire"
+      },
+      "millesimes": [
+        2025
+      ],
+      "versions": [
+        "a2"
+      ],
+      "confiance": "incertain",
+      "sources": [
+        "src-motorradundreisen-35kw",
+        "src-1000ps-de-annonce-35kw"
+      ]
+    },
+    {
+      "id": "refroidissement",
+      "groupe": "moteur",
+      "libelle": {
+        "fr": "Refroidissement",
+        "en": "Cooling"
+      },
+      "texte": {
+        "fr": "Liquide : thermostat 3 voies, radiateur avec électroventilateur, vase d’expansion, pompe centrifuge"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p181"
+      ]
+    },
+    {
+      "id": "lubrification",
+      "groupe": "moteur",
+      "libelle": {
+        "fr": "Lubrification",
+        "en": "Lubrication"
+      },
+      "texte": {
+        "fr": "Carter humide, échangeur de chaleur coaxial au filtre à huile, pompe trochoïdale, filtre à cartouche externe"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p181"
+      ]
+    },
+    {
+      "id": "filtre-air",
+      "groupe": "moteur",
+      "libelle": {
+        "fr": "Filtre à air",
+        "en": "Air filter"
+      },
+      "texte": {
+        "fr": "Élément filtrant en polyester, dans la boîte à air sous le réservoir"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p181",
+        "src-manuel-atelier#p61"
+      ]
+    },
+    {
+      "id": "demarrage",
+      "groupe": "moteur",
+      "libelle": {
+        "fr": "Démarrage",
+        "en": "Starting"
+      },
+      "texte": {
+        "fr": "Électrique"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p181"
+      ]
+    },
+    {
+      "id": "allumage",
+      "groupe": "moteur",
+      "libelle": {
+        "fr": "Allumage",
+        "en": "Ignition"
+      },
+      "texte": {
+        "fr": "Bobines crayon ; 2 bougies NGK IR MR9DI-7 (iridium), écartement 0,7 – 0,8 mm"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p186",
+        "src-manuel-proprietaire#p187",
+        "src-manuel-atelier#p19"
+      ]
+    },
+    {
+      "id": "reservoir",
+      "groupe": "moteur",
+      "libelle": {
+        "fr": "Réservoir de carburant",
+        "en": "Fuel tank"
+      },
+      "valeur": 15,
+      "unite": "L",
+      "texte": {
+        "fr": "15 L, réserve comprise"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p109",
+        "src-manuel-proprietaire#p182",
+        "src-manuel-atelier#p19"
+      ]
+    },
+    {
+      "id": "reserve-carburant",
+      "groupe": "moteur",
+      "libelle": {
+        "fr": "Réserve de carburant",
+        "en": "Fuel reserve"
+      },
+      "valeur": 3.5,
+      "unite": "L",
+      "texte": {
+        "fr": "3,5 L selon le manuel ; 4 L selon Le Repaire des Motards et 4,2 L selon la fiche motorcycle.com 2025 : la valeur la plus prudente est retenue"
+      },
+      "confiance": "incertain",
+      "sources": [
+        "src-manuel-proprietaire#p109",
+        "src-manuel-atelier#p19",
+        "src-repaire-motards-fiche",
+        "src-motorcycle-com-2025"
+      ]
+    },
+    {
+      "id": "carburant",
+      "groupe": "moteur",
+      "libelle": {
+        "fr": "Carburant",
+        "en": "Fuel"
+      },
+      "texte": {
+        "fr": "Sans plomb 95 RON, 10 % d’éthanol au maximum (E5 ou E10 ; E85 interdit). Ne pas ajouter d’additif"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p109",
+        "src-manuel-proprietaire#p110",
+        "src-manuel-proprietaire#p184"
+      ]
+    },
+    {
+      "id": "consommation",
+      "groupe": "moteur",
+      "libelle": {
+        "fr": "Consommation normalisée",
+        "en": "Rated fuel consumption"
+      },
+      "texte": {
+        "fr": "Valeurs publiées par des bases de données : 4,9 L/100 km (2021-2024), 4,1 L/100 km (version 35 kW 2025), 4,8 L/100 km (Factory 2026)"
+      },
+      "confiance": "incertain",
+      "sources": [
+        "src-motorradundreisen-35kw",
+        "src-1000ps-rs660-factory"
+      ]
+    },
+    {
+      "id": "embrayage",
+      "groupe": "transmission",
+      "libelle": {
+        "fr": "Embrayage",
+        "en": "Clutch"
+      },
+      "texte": {
+        "fr": "Multidisque à bain d’huile, anti-dribble (slipper) et anti-broutement, commande mécanique par câble (levier à gauche) ; garde au levier de 1 à 3 mm"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p181",
+        "src-manuel-proprietaire#p119",
+        "src-manuel-atelier#p18"
+      ]
+    },
+    {
+      "id": "boite",
+      "groupe": "transmission",
+      "libelle": {
+        "fr": "Boîte de vitesses",
+        "en": "Gearbox"
+      },
+      "valeur": 6,
+      "unite": "rapports",
+      "texte": {
+        "fr": "6 rapports ; shifter AQS en montée et en descente sans embrayage (actif au-dessus d’environ 3 000 tr/min, montée gaz ouverts)"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p183",
+        "src-manuel-proprietaire#p96"
+      ]
+    },
+    {
+      "id": "rapport-primaire",
+      "groupe": "transmission",
+      "libelle": {
+        "fr": "Transmission primaire",
+        "en": "Primary drive ratio"
+      },
+      "texte": {
+        "fr": "39/80 (engrenages)"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p182",
+        "src-manuel-atelier#p18"
+      ]
+    },
+    {
+      "id": "rapports-boite",
+      "groupe": "transmission",
+      "libelle": {
+        "fr": "Rapports de boîte",
+        "en": "Gear ratios"
+      },
+      "texte": {
+        "fr": "1re 17/46 · 2e 16/33 · 3e 24/39 · 4e 19/26 · 5e 21/25 · 6e 22/23"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p182",
+        "src-manuel-proprietaire#p183",
+        "src-manuel-atelier#p18"
+      ]
+    },
+    {
+      "id": "transmission-finale",
+      "groupe": "transmission",
+      "libelle": {
+        "fr": "Transmission finale",
+        "en": "Final drive ratio"
+      },
+      "texte": {
+        "fr": "17/43 ; le manuel interdit de modifier le rapport final ou le nombre de maillons"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p175",
+        "src-manuel-proprietaire#p183"
+      ]
+    },
+    {
+      "id": "pignon-sortie-boite",
+      "groupe": "transmission",
+      "libelle": {
+        "fr": "Pignon de sortie de boîte",
+        "en": "Front sprocket"
+      },
+      "valeur": 17,
+      "unite": "dents",
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p175"
+      ]
+    },
+    {
+      "id": "couronne",
+      "groupe": "transmission",
+      "libelle": {
+        "fr": "Couronne",
+        "en": "Rear sprocket"
+      },
+      "valeur": 43,
+      "unite": "dents",
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p175"
+      ]
+    },
+    {
+      "id": "chaine",
+      "groupe": "transmission",
+      "libelle": {
+        "fr": "Chaîne",
+        "en": "Chain"
+      },
+      "texte": {
+        "fr": "Regina 520 ZRA (modèle 520 - 135 - ZRA), pas 520, attache rivée, joints toriques"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p175",
+        "src-manuel-proprietaire#p183",
+        "src-manuel-atelier#p19"
+      ]
+    },
+    {
+      "id": "chaine-maillons",
+      "groupe": "transmission",
+      "libelle": {
+        "fr": "Nombre de maillons",
+        "en": "Chain links"
+      },
+      "valeur": 110,
+      "unite": "maillons",
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p175",
+        "src-manuel-atelier#p19"
+      ]
+    },
+    {
+      "id": "fleche-chaine",
+      "groupe": "transmission",
+      "libelle": {
+        "fr": "Flèche de la chaîne",
+        "en": "Chain slack"
+      },
+      "valeur": 30,
+      "unite": "mm",
+      "texte": {
+        "fr": "Environ 30 mm sur le brin inférieur, mesurée à 250 mm du centre de l’axe de roue arrière, moto sur la béquille latérale, point mort"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p176",
+        "src-manuel-atelier#p312"
+      ]
+    },
+    {
+      "id": "cadre",
+      "groupe": "partie-cycle",
+      "libelle": {
+        "fr": "Cadre",
+        "en": "Frame"
+      },
+      "texte": {
+        "fr": "Cadre en aluminium à structure composite réglable, avec éléments moulés"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p184",
+        "src-manuel-atelier#p20"
+      ]
+    },
+    {
+      "id": "angle-colonne",
+      "groupe": "partie-cycle",
+      "libelle": {
+        "fr": "Angle de colonne",
+        "en": "Rake angle"
+      },
+      "valeur": 24.1,
+      "unite": "°",
+      "texte": {
+        "fr": "24,1° (mesuré sur cadre nu)"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p184",
+        "src-manuel-atelier#p20"
+      ]
+    },
+    {
+      "id": "chasse",
+      "groupe": "partie-cycle",
+      "libelle": {
+        "fr": "Chasse",
+        "en": "Trail"
+      },
+      "valeur": 104.6,
+      "unite": "mm",
+      "confiance": "ok",
+      "sources": [
+        "src-repaire-motards-fiche",
+        "src-1000ps-rs660-factory"
+      ]
+    },
+    {
+      "id": "cotes-cadre",
+      "groupe": "partie-cycle",
+      "libelle": {
+        "fr": "Cotes du cadre nu",
+        "en": "Bare frame dimensions"
+      },
+      "texte": {
+        "fr": "Cote A : 655,5 mm ; cote B : 337,5 mm"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p20"
+      ]
+    },
+    {
+      "id": "fourche",
+      "groupe": "partie-cycle",
+      "libelle": {
+        "fr": "Fourche",
+        "en": "Front fork"
+      },
+      "texte": {
+        "fr": "Fourche inversée hydraulique KYB (Kayaba), tubes Ø 41 mm, réglable en précharge et en détente (un réglage en compression est annoncé par certaines fiches mais absent du manuel)"
+      },
+      "versions": [
+        "standard",
+        "a2",
+        "limited-edition",
+        "extrema"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p185",
+        "src-manuel-proprietaire#p116",
+        "src-cyclenews-2025",
+        "src-rider-2025"
+      ]
+    },
+    {
+      "id": "debattement-avant",
+      "groupe": "partie-cycle",
+      "libelle": {
+        "fr": "Débattement avant",
+        "en": "Front travel"
+      },
+      "valeur": 120,
+      "unite": "mm",
+      "versions": [
+        "standard",
+        "a2",
+        "limited-edition",
+        "extrema"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p185"
+      ]
+    },
+    {
+      "id": "fourche-factory",
+      "groupe": "partie-cycle",
+      "libelle": {
+        "fr": "Fourche (Factory)",
+        "en": "Front fork (Factory)"
+      },
+      "texte": {
+        "fr": "Öhlins NIX30, tubes Ø 43 mm, entièrement réglable"
+      },
+      "versions": [
+        "factory"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-cyclenews-2025",
+        "src-rider-2025"
+      ]
+    },
+    {
+      "id": "amortisseur",
+      "groupe": "partie-cycle",
+      "libelle": {
+        "fr": "Amortisseur arrière",
+        "en": "Rear shock"
+      },
+      "texte": {
+        "fr": "Monoamortisseur à bonbonne séparée (piggyback) relié au cadre par rotules, réglable en précharge, longueur et détente hydraulique ; marque non indiquée par le manuel (Kayaba selon Cycle News)"
+      },
+      "versions": [
+        "standard",
+        "a2",
+        "limited-edition",
+        "extrema"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p185",
+        "src-manuel-proprietaire#p111",
+        "src-cyclenews-2025"
+      ]
+    },
+    {
+      "id": "course-amortisseur",
+      "groupe": "partie-cycle",
+      "libelle": {
+        "fr": "Course de l’amortisseur",
+        "en": "Shock stroke"
+      },
+      "valeur": 52,
+      "unite": "mm",
+      "versions": [
+        "standard",
+        "a2",
+        "limited-edition",
+        "extrema"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p185"
+      ]
+    },
+    {
+      "id": "debattement-arriere",
+      "groupe": "partie-cycle",
+      "libelle": {
+        "fr": "Débattement à la roue arrière",
+        "en": "Rear wheel travel"
+      },
+      "valeur": 130,
+      "unite": "mm",
+      "versions": [
+        "standard",
+        "a2",
+        "limited-edition",
+        "extrema"
+      ],
+      "confiance": "une_source",
+      "sources": [
+        "src-repaire-motards-fiche"
+      ]
+    },
+    {
+      "id": "amortisseur-factory",
+      "groupe": "partie-cycle",
+      "libelle": {
+        "fr": "Amortisseur arrière (Factory)",
+        "en": "Rear shock (Factory)"
+      },
+      "texte": {
+        "fr": "Öhlins STX 46, entièrement réglable"
+      },
+      "versions": [
+        "factory"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-cyclenews-2025",
+        "src-rider-2025"
+      ]
+    },
+    {
+      "id": "bras-oscillant",
+      "groupe": "partie-cycle",
+      "libelle": {
+        "fr": "Bras oscillant",
+        "en": "Swingarm"
+      },
+      "texte": {
+        "fr": "Aluminium, asymétrique"
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-repaire-motards-fiche"
+      ]
+    },
+    {
+      "id": "identification",
+      "groupe": "partie-cycle",
+      "libelle": {
+        "fr": "Numéros d’identification",
+        "en": "Identification numbers"
+      },
+      "texte": {
+        "fr": "Numéro de cadre (VIN) frappé sur le côté droit de la colonne de direction ; numéro moteur frappé sur le carter, à l’arrière, près de l’amortisseur"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p103"
+      ]
+    },
+    {
+      "id": "longueur",
+      "groupe": "dimensions",
+      "libelle": {
+        "fr": "Longueur hors tout",
+        "en": "Overall length"
+      },
+      "valeur": 1995,
+      "unite": "mm",
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p180",
+        "src-manuel-atelier#p18"
+      ]
+    },
+    {
+      "id": "largeur",
+      "groupe": "dimensions",
+      "libelle": {
+        "fr": "Largeur (au guidon)",
+        "en": "Width (at handlebar)"
+      },
+      "valeur": 745,
+      "unite": "mm",
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p180",
+        "src-manuel-atelier#p18"
+      ]
+    },
+    {
+      "id": "hauteur",
+      "groupe": "dimensions",
+      "libelle": {
+        "fr": "Hauteur (à la bulle)",
+        "en": "Height (to windscreen)"
+      },
+      "valeur": 1150,
+      "unite": "mm",
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p180",
+        "src-manuel-atelier#p18"
+      ]
+    },
+    {
+      "id": "empattement",
+      "groupe": "dimensions",
+      "libelle": {
+        "fr": "Empattement",
+        "en": "Wheelbase"
+      },
+      "valeur": 1370,
+      "unite": "mm",
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p180",
+        "src-manuel-atelier#p18"
+      ]
+    },
+    {
+      "id": "hauteur-selle",
+      "groupe": "dimensions",
+      "libelle": {
+        "fr": "Hauteur de selle",
+        "en": "Seat height"
+      },
+      "valeur": 820,
+      "unite": "mm",
+      "confiance": "ok",
+      "sources": [
+        "src-repaire-motards-fiche",
+        "src-1000ps-rs660-2025",
+        "src-motoplanete-a2"
+      ]
+    },
+    {
+      "id": "garde-au-sol",
+      "groupe": "dimensions",
+      "libelle": {
+        "fr": "Garde au sol",
+        "en": "Ground clearance"
+      },
+      "valeur": 155,
+      "unite": "mm",
+      "texte": {
+        "fr": "Non publiée par Aprilia : 155 mm (Autocar India) ou 160 mm (BikeLeague) ; la valeur basse est retenue"
+      },
+      "confiance": "incertain",
+      "sources": [
+        "src-autocar-india",
+        "src-bikeleague"
+      ]
+    },
+    {
+      "id": "poids-ordre-marche",
+      "groupe": "dimensions",
+      "libelle": {
+        "fr": "Poids en ordre de marche",
+        "en": "Kerb weight"
+      },
+      "valeur": 183,
+      "unite": "kg",
+      "texte": {
+        "fr": "Le manuel indique aussi « weight fully loaded » 258 kg, valeur au sens non précisé qui n’est pas le PTAC"
+      },
+      "versions": [
+        "standard",
+        "a2"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p180",
+        "src-manuel-atelier#p18",
+        "src-cyclenews-2025",
+        "src-motorradundreisen-35kw"
+      ]
+    },
+    {
+      "id": "poids-ordre-marche-factory",
+      "groupe": "dimensions",
+      "libelle": {
+        "fr": "Poids en ordre de marche (Factory)",
+        "en": "Kerb weight (Factory)"
+      },
+      "valeur": 183,
+      "unite": "kg",
+      "texte": {
+        "fr": "Annoncé identique à la RS 660 : le gain de la batterie allégée est compensé par la bonbonne de l’amortisseur Öhlins"
+      },
+      "versions": [
+        "factory"
+      ],
+      "confiance": "une_source",
+      "sources": [
+        "src-1000ps-rs660-factory"
+      ]
+    },
+    {
+      "id": "poids-sec",
+      "groupe": "dimensions",
+      "libelle": {
+        "fr": "Poids à sec",
+        "en": "Dry weight"
+      },
+      "valeur": 169,
+      "unite": "kg",
+      "versions": [
+        "standard",
+        "a2"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-repaire-motards-fiche",
+        "src-1000ps-rs660-2025",
+        "src-wikipedia-rs660",
+        "src-motorradundreisen-35kw"
+      ]
+    },
+    {
+      "id": "poids-sec-extrema",
+      "groupe": "dimensions",
+      "libelle": {
+        "fr": "Poids à sec (Extrema)",
+        "en": "Dry weight (Extrema)"
+      },
+      "valeur": 166,
+      "unite": "kg",
+      "versions": [
+        "extrema"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-paultan-extrema",
+        "src-visordown-extrema"
+      ]
+    },
+    {
+      "id": "places",
+      "groupe": "dimensions",
+      "libelle": {
+        "fr": "Nombre de places",
+        "en": "Seats"
+      },
+      "valeur": 2,
+      "unite": "places",
+      "texte": {
+        "fr": "2 places ; Limited Edition, Extrema et Factory sont livrées avec un capot de selle monoplace : le passager doit utiliser la selle passager"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p182",
+        "src-manuel-proprietaire#p101",
+        "src-paultan-extrema"
+      ]
+    },
+    {
+      "id": "ptac",
+      "groupe": "dimensions",
+      "libelle": {
+        "fr": "Poids total maximal autorisé (PTAC)",
+        "en": "Maximum permitted weight"
+      },
+      "valeur": 393,
+      "unite": "kg",
+      "texte": {
+        "fr": "« Maximum weight limit » du manuel ; la valeur exacte de chaque moto figure au champ F.2 de la carte grise"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p182",
+        "src-manuel-atelier#p19",
+        "src-motorradundreisen-35kw"
+      ]
+    },
+    {
+      "id": "ptac-extrema",
+      "groupe": "dimensions",
+      "libelle": {
+        "fr": "PTAC (Extrema)",
+        "en": "Maximum permitted weight (Extrema)"
+      },
+      "valeur": 397,
+      "unite": "kg",
+      "versions": [
+        "extrema"
+      ],
+      "confiance": "une_source",
+      "sources": [
+        "src-motorradundreisen-extrema"
+      ]
+    },
+    {
+      "id": "charge-utile",
+      "groupe": "dimensions",
+      "libelle": {
+        "fr": "Charge utile maximale",
+        "en": "Maximum payload"
+      },
+      "valeur": 210,
+      "unite": "kg",
+      "texte": {
+        "fr": "Pilote, passager, bagages et accessoires compris (393 − 183 kg)"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p180",
+        "src-manuel-proprietaire#p182",
+        "src-motorradundreisen-35kw"
+      ]
+    },
+    {
+      "id": "charge-utile-extrema",
+      "groupe": "dimensions",
+      "libelle": {
+        "fr": "Charge utile maximale (Extrema)",
+        "en": "Maximum payload (Extrema)"
+      },
+      "valeur": 217,
+      "unite": "kg",
+      "versions": [
+        "extrema"
+      ],
+      "confiance": "une_source",
+      "sources": [
+        "src-motorradundreisen-extrema"
+      ]
+    },
+    {
+      "id": "a-prc",
+      "groupe": "electronique",
+      "libelle": {
+        "fr": "Électronique a-PRC",
+        "en": "a-PRC electronics"
+      },
+      "texte": {
+        "fr": "AEM (cartographies moteur), AEB (frein moteur), ABS en courbe, ATC (antipatinage), AWC (anti-wheeling), AQS (shifter montée et descente), ACC (régulateur de vitesse), PIT (limiteur de vitesse des stands, en mode RACE, selon les marchés)"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p183",
+        "src-manuel-atelier#p18",
+        "src-manuel-proprietaire#p84",
+        "src-cyclenews-2025"
+      ]
+    },
+    {
+      "id": "launch-control",
+      "groupe": "electronique",
+      "libelle": {
+        "fr": "Launch control (ALC)",
+        "en": "Launch control (ALC)"
+      },
+      "texte": {
+        "fr": "Ajouté en 2025"
+      },
+      "millesimes": [
+        2025,
+        2026
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-cyclenews-2025",
+        "src-wikipedia-rs660"
+      ]
+    },
+    {
+      "id": "centrale-inertielle",
+      "groupe": "electronique",
+      "libelle": {
+        "fr": "Centrale inertielle",
+        "en": "Inertial platform"
+      },
+      "texte": {
+        "fr": "Centrale inertielle 6 axes"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-cyclenews-2025",
+        "src-manuel-proprietaire#p160"
+      ]
+    },
+    {
+      "id": "modes-conduite",
+      "groupe": "electronique",
+      "libelle": {
+        "fr": "Modes de conduite",
+        "en": "Riding modes"
+      },
+      "texte": {
+        "fr": "5 modes : Commute, Dynamic et Individual (affichage ROAD), Challenge et Time Attack (affichage RACE) ; Individual et Time Attack sont personnalisables"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p33",
+        "src-manuel-proprietaire#p38"
+      ]
+    },
+    {
+      "id": "profil-pilote-2025",
+      "groupe": "electronique",
+      "libelle": {
+        "fr": "Profil pilote supplémentaire",
+        "en": "Additional rider profile"
+      },
+      "texte": {
+        "fr": "Un profil pilote personnalisable de plus à partir de 2025"
+      },
+      "millesimes": [
+        2025,
+        2026
+      ],
+      "confiance": "une_source",
+      "sources": [
+        "src-cyclenews-2025",
+        "src-wikipedia-rs660"
+      ]
+    },
+    {
+      "id": "tableau-de-bord",
+      "groupe": "electronique",
+      "libelle": {
+        "fr": "Tableau de bord",
+        "en": "Dashboard"
+      },
+      "texte": {
+        "fr": "TFT couleur 5 pouces, fond jour ou nuit automatique (capteur de luminosité)"
+      },
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-iamabiker-2020",
+        "src-motorradundreisen-2021",
+        "src-manuel-proprietaire#p24"
+      ]
+    },
+    {
+      "id": "tableau-de-bord-2025",
+      "groupe": "electronique",
+      "libelle": {
+        "fr": "Tableau de bord (2025+)",
+        "en": "Dashboard (2025+)"
+      },
+      "texte": {
+        "fr": "Nouveau TFT couleur 5 pouces à collage optique, commodos rétroéclairés"
+      },
+      "millesimes": [
+        2025,
+        2026
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-cyclenews-2025",
+        "src-motorbox-eicma-2024",
+        "src-rider-2025"
+      ]
+    },
+    {
+      "id": "eclairage",
+      "groupe": "electronique",
+      "libelle": {
+        "fr": "Éclairage",
+        "en": "Lighting"
+      },
+      "texte": {
+        "fr": "100 % LED, avec 2 feux de virage actifs à partir de 25° d’inclinaison quand les feux de croisement sont allumés"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p164",
+        "src-manuel-proprietaire#p187"
+      ]
+    },
+    {
+      "id": "frein-avant",
+      "groupe": "freins",
+      "libelle": {
+        "fr": "Frein avant",
+        "en": "Front brake"
+      },
+      "texte": {
+        "fr": "2 disques Ø 320 mm, étriers radiaux 4 pistons Ø 32 mm (2 plaquettes par étrier), maître-cylindre radial, durites tressées. 2025-2026 : étriers « monobloc » annoncés par une seule base de données, non confirmé"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p185",
+        "src-manuel-atelier#p20"
+      ]
+    },
+    {
+      "id": "frein-arriere",
+      "groupe": "freins",
+      "libelle": {
+        "fr": "Frein arrière",
+        "en": "Rear brake"
+      },
+      "texte": {
+        "fr": "Disque Ø 220 mm, étrier 2 pistons Ø 34 mm, maître-cylindre à réservoir intégré, durite tressée"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p185",
+        "src-manuel-atelier#p20"
+      ]
+    },
+    {
+      "id": "abs",
+      "groupe": "freins",
+      "libelle": {
+        "fr": "ABS",
+        "en": "ABS"
+      },
+      "texte": {
+        "fr": "ABS en courbe à 3 niveaux, avec anti-soulèvement de la roue arrière ; le niveau 1 n’agit que sur la roue avant, sans fonction en courbe"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-cyclenews-2025",
+        "src-manuel-proprietaire#p87"
+      ]
+    },
+    {
+      "id": "disque-avant-epaisseur-mini",
+      "groupe": "freins",
+      "libelle": {
+        "fr": "Épaisseur minimale des disques avant",
+        "en": "Front disc minimum thickness"
+      },
+      "valeur": 4.0,
+      "unite": "mm",
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p352"
+      ]
+    },
+    {
+      "id": "disque-arriere-epaisseur-mini",
+      "groupe": "freins",
+      "libelle": {
+        "fr": "Épaisseur minimale du disque arrière",
+        "en": "Rear disc minimum thickness"
+      },
+      "valeur": 4.5,
+      "unite": "mm",
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p349"
+      ]
+    },
+    {
+      "id": "disque-avant-voile-maxi",
+      "groupe": "freins",
+      "libelle": {
+        "fr": "Voile maximal des disques avant",
+        "en": "Front disc maximum runout"
+      },
+      "valeur": 0.15,
+      "unite": "mm",
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p352"
+      ]
+    },
+    {
+      "id": "disque-arriere-voile-maxi",
+      "groupe": "freins",
+      "libelle": {
+        "fr": "Voile maximal du disque arrière",
+        "en": "Rear disc maximum runout"
+      },
+      "valeur": 0.1,
+      "unite": "mm",
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p349"
+      ]
+    },
+    {
+      "id": "plaquettes-limite-usure",
+      "groupe": "freins",
+      "libelle": {
+        "fr": "Limite d’usure des plaquettes",
+        "en": "Brake pad wear limit"
+      },
+      "valeur": 1.5,
+      "unite": "mm",
+      "texte": {
+        "fr": "Garniture d’environ 1,5 mm, ou témoin d’usure invisible : faire remplacer toutes les plaquettes (plaquettes d’origine exigées par le manuel)"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p169"
+      ]
+    },
+    {
+      "id": "jante-avant",
+      "groupe": "roues",
+      "libelle": {
+        "fr": "Jante avant",
+        "en": "Front rim"
+      },
+      "texte": {
+        "fr": "3,50 × 17 pouces, alliage"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p186"
+      ]
+    },
+    {
+      "id": "jante-arriere",
+      "groupe": "roues",
+      "libelle": {
+        "fr": "Jante arrière",
+        "en": "Rear rim"
+      },
+      "texte": {
+        "fr": "5,50 × 17 pouces, alliage"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p186"
+      ]
+    },
+    {
+      "id": "pneu-avant",
+      "groupe": "roues",
+      "libelle": {
+        "fr": "Pneu avant",
+        "en": "Front tyre"
+      },
+      "texte": {
+        "fr": "120/70 ZR17 (58W)"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p186"
+      ]
+    },
+    {
+      "id": "pneu-arriere",
+      "groupe": "roues",
+      "libelle": {
+        "fr": "Pneu arrière",
+        "en": "Rear tyre"
+      },
+      "texte": {
+        "fr": "180/55 ZR17 (73W) ou 180/60 ZR17 (75W)"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p186"
+      ]
+    },
+    {
+      "id": "type-pneus",
+      "groupe": "roues",
+      "libelle": {
+        "fr": "Type de pneus",
+        "en": "Tyre type"
+      },
+      "texte": {
+        "fr": "Tubeless (sans chambre à air) ; ne jamais monter de chambre à air"
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p142",
+        "src-manuel-proprietaire#p143"
+      ]
+    },
+    {
+      "id": "monte-origine",
+      "groupe": "roues",
+      "libelle": {
+        "fr": "Pneus d’origine",
+        "en": "Original tyres"
+      },
+      "texte": {
+        "fr": "Pirelli Diablo Rosso Corsa II"
+      },
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-motorcycle-com-2021",
+        "src-bike-urious-2021",
+        "src-zabikers-2021",
+        "src-motorradundreisen-35kw"
+      ]
+    },
+    {
+      "id": "monte-origine-2025",
+      "groupe": "roues",
+      "libelle": {
+        "fr": "Pneus d’origine (2025+)",
+        "en": "Original tyres (2025+)"
+      },
+      "texte": {
+        "fr": "Pirelli Diablo Rosso IV Corsa"
+      },
+      "millesimes": [
+        2025,
+        2026
+      ],
+      "confiance": "une_source",
+      "sources": [
+        "src-motorcycle-com-2025",
+        "src-motorcycle-com-2025-factory"
+      ]
+    }
+  ],
+  "fluides": [
+    {
+      "id": "huile-moteur",
+      "libelle": {
+        "fr": "Huile moteur",
+        "en": "Engine oil"
+      },
+      "norme": "SAE 10W-50, API SL, JASO MA2 (base synthétique)",
+      "capacite": {
+        "valeur": 2.7,
+        "unite": "L"
+      },
+      "capacite_note": {
+        "fr": "Vidange avec remplacement du filtre : 2 700 cm³ (manuel). Capacité sans filtre non publiée. Un fabricant de kit radiateur d’huile (Gabro) indique 2,3 L : toujours finir le remplissage à la jauge (niveau proche de MAX, moteur chaud). Le groupe Piaggio recommande les produits de son partenaire Castrol."
+      },
+      "consommable": "cs-huile-moteur",
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p182",
+        "src-manuel-proprietaire#p192",
+        "src-manuel-proprietaire#p193",
+        "src-manuel-atelier#p19",
+        "src-manuel-atelier#p56",
+        "src-manuel-atelier#p60",
+        "src-gabro-oil-cooler"
+      ]
+    },
+    {
+      "id": "liquide-refroidissement",
+      "libelle": {
+        "fr": "Liquide de refroidissement",
+        "en": "Coolant"
+      },
+      "norme": "Antigel éthylène glycol à inhibiteurs organiques, rouge, prêt à l’emploi — ASTM D3306, ASTM D4656, ASTM D4985, CUNA NC 956-16",
+      "capacite": {
+        "valeur": 1.8,
+        "unite": "L"
+      },
+      "capacite_note": {
+        "fr": "1,8 ± 0,2 L. Mélange 50 % eau distillée et 50 % antigel, à garder même l’été ; jusqu’à 60 % d’antigel s’il gèle. Ne jamais ouvrir le circuit moteur chaud."
+      },
+      "consommable": "cs-liquide-refroidissement",
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p145",
+        "src-manuel-proprietaire#p182",
+        "src-manuel-proprietaire#p193",
+        "src-manuel-atelier#p19"
+      ]
+    },
+    {
+      "id": "liquide-frein",
+      "libelle": {
+        "fr": "Liquide de frein",
+        "en": "Brake fluid"
+      },
+      "norme": "DOT 4 synthétique — SAE J1703, FMVSS 116, ISO 4925, CUNA NC 956 DOT4",
+      "capacite_note": {
+        "fr": "Quantité non publiée par Aprilia (circuits avant et arrière séparés). Liquide hygroscopique et corrosif pour la peinture. L’embrayage est à câble : il n’y a pas de liquide d’embrayage."
+      },
+      "consommable": "cs-liquide-frein",
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p147",
+        "src-manuel-proprietaire#p148",
+        "src-manuel-proprietaire#p181",
+        "src-manuel-proprietaire#p193"
+      ]
+    },
+    {
+      "id": "huile-fourche",
+      "libelle": {
+        "fr": "Huile de fourche",
+        "en": "Fork oil"
+      },
+      "norme": "SAE 7.5W",
+      "capacite": {
+        "valeur": 468,
+        "unite": "mL"
+      },
+      "capacite_note": {
+        "fr": "468 cm³ par fourreau (936 cm³ pour les deux). Niveau : 98 mm depuis le bord du fourreau, sans ressort ni tube de précharge, fourche comprimée et parfaitement verticale ; même niveau des deux côtés. Fourche KYB des versions standard, A2, Limited Edition et Extrema."
+      },
+      "consommable": "cs-huile-fourche",
+      "versions": [
+        "standard",
+        "a2",
+        "limited-edition",
+        "extrema"
+      ],
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p193",
+        "src-manuel-atelier#p57",
+        "src-manuel-atelier#p252"
+      ]
+    },
+    {
+      "id": "huile-fourche-factory",
+      "libelle": {
+        "fr": "Huile de fourche (Factory, Öhlins)",
+        "en": "Fork oil (Factory, Öhlins)"
+      },
+      "capacite_note": {
+        "fr": "Fourche Öhlins NIX30 : type d’huile, quantité et niveau introuvables (aucun manuel Factory consulté). Faire réaliser l’entretien par un concessionnaire ou un centre Öhlins."
+      },
+      "versions": [
+        "factory"
+      ],
+      "confiance": "incertain",
+      "sources": [
+        "src-cyclenews-2025",
+        "src-rider-2025"
+      ]
+    },
+    {
+      "id": "essence",
+      "libelle": {
+        "fr": "Carburant",
+        "en": "Fuel"
+      },
+      "norme": "Sans plomb 95 RON, E10 maximum (E5 et E10 autorisés, E85 interdit), sans additif",
+      "capacite": {
+        "valeur": 15,
+        "unite": "L"
+      },
+      "capacite_note": {
+        "fr": "Réservoir de 15 L, réserve comprise. Réserve de 3,5 L selon le manuel ; d’autres fiches donnent 4 L (Le Repaire des Motards) ou 4,2 L (motorcycle.com, 2025)."
+      },
+      "consommable": "cs-essence",
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p109",
+        "src-manuel-proprietaire#p110",
+        "src-manuel-proprietaire#p182",
+        "src-manuel-proprietaire#p184",
+        "src-manuel-atelier#p19",
+        "src-repaire-motards-fiche",
+        "src-motorcycle-com-2025"
+      ]
+    }
+  ],
+  "pneus": {
+    "avant": {
+      "dimension": "120/70 ZR17",
+      "indice": "58W",
+      "jante": "3.50 x 17",
+      "monte_origine": {
+        "fr": "Pirelli Diablo Rosso Corsa II (2021-2024) ; Pirelli Diablo Rosso IV Corsa annoncé pour 2025-2026 (une source)",
+        "en": "Pirelli Diablo Rosso Corsa II (2021-2024); Pirelli Diablo Rosso IV Corsa reported for 2025-2026 (single source)"
+      },
+      "profondeur_mini_mm": 2,
+      "note": {
+        "fr": "Pneu sans chambre (tubeless). Profondeur minimale Aprilia : 2 mm (3 mm aux États-Unis), et jamais moins que le minimum légal du pays. Remplacer le pneu s’il est perforé de plus de 5 mm sur la bande de roulement ou durci par l’âge ; équilibrer la roue après toute réparation."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p142",
+        "src-manuel-proprietaire#p143",
+        "src-manuel-proprietaire#p144",
+        "src-manuel-proprietaire#p186",
+        "src-motorcycle-com-2021",
+        "src-motorcycle-com-2025"
+      ]
+    },
+    "arriere": {
+      "dimension": "180/55 ZR17",
+      "indice": "73W",
+      "jante": "5.50 x 17",
+      "monte_origine": {
+        "fr": "Pirelli Diablo Rosso Corsa II (2021-2024) ; Pirelli Diablo Rosso IV Corsa annoncé pour 2025-2026 (une source)",
+        "en": "Pirelli Diablo Rosso Corsa II (2021-2024); Pirelli Diablo Rosso IV Corsa reported for 2025-2026 (single source)"
+      },
+      "profondeur_mini_mm": 2,
+      "note": {
+        "fr": "Dimension alternative homologuée : 180/60 ZR17 (75W). Pneu sans chambre (tubeless). Profondeur minimale Aprilia : 2 mm (3 mm aux États-Unis), et jamais moins que le minimum légal du pays. Remplacer le pneu s’il est perforé de plus de 5 mm sur la bande de roulement ou durci par l’âge."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p142",
+        "src-manuel-proprietaire#p143",
+        "src-manuel-proprietaire#p144",
+        "src-manuel-proprietaire#p186",
+        "src-motorcycle-com-2021",
+        "src-motorcycle-com-2025"
+      ]
+    }
+  },
+  "pressions": [
+    {
+      "id": "solo",
+      "libelle": {
+        "fr": "Pilote seul",
+        "en": "Rider only"
+      },
+      "avant_bar": 2.5,
+      "arriere_bar": 2.8,
+      "a_froid": true,
+      "condition": {
+        "passager": false
+      },
+      "note": {
+        "fr": "Pneus froids, à température ambiante : 250 kPa (36,3 psi) à l’avant, 280 kPa (40,6 psi) à l’arrière. Valeurs du manuel 2021, non vérifiées sur un manuel 2025."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p142",
+        "src-manuel-proprietaire#p186",
+        "src-motoplanete-a2"
+      ]
+    },
+    {
+      "id": "duo",
+      "libelle": {
+        "fr": "Pilote et passager",
+        "en": "Rider and passenger"
+      },
+      "avant_bar": 2.5,
+      "arriere_bar": 2.8,
+      "a_froid": true,
+      "condition": {
+        "passager": true
+      },
+      "note": {
+        "fr": "Aprilia ne prévoit aucune majoration en duo : mêmes pressions qu’en solo, pneus froids."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p186",
+        "src-motoplanete-a2"
+      ]
+    },
+    {
+      "id": "piste",
+      "libelle": {
+        "fr": "Piste (indicatif)",
+        "en": "Track (indicative)"
+      },
+      "avant_bar": 2.1,
+      "arriere_bar": 1.8,
+      "a_froid": false,
+      "condition": {
+        "usage": "piste"
+      },
+      "millesimes": [
+        2021,
+        2022,
+        2023,
+        2024
+      ],
+      "note": {
+        "fr": "Aucune valeur Aprilia. Cible à chaud recommandée par des représentants Pirelli pour le Diablo Rosso Corsa II (monte d’origine 2021-2024) sur circuit, lors d’un essai sur une autre moto : 31 psi à l’avant, 26 psi à l’arrière. Ne vaut que pour ce pneu. Partir de la pression route à froid, ajuster d’après la mesure à chaud sans dégonfler en cours de session, et remettre les pressions route après la piste."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-ultimate-motorcycling-pirelli",
+        "src-michelin-pression-piste"
+      ]
+    }
+  ],
+  "charge": {
+    "poids_ordre_marche_kg": 183,
+    "poids_sec_kg": 169,
+    "ptac_kg": 393,
+    "charge_utile_max_kg": 210,
+    "bagages_max_kg": {
+      "fr": "Aucune limite Aprilia trouvée pour les bagages : ils comptent dans les 210 kg de charge utile, avec le pilote, le passager et les accessoires."
+    },
+    "note": {
+      "fr": "Extrema : PTAC de 397 kg et charge utile de 217 kg selon une seule source ; le PTAC exact de chaque moto figure au champ F.2 de la carte grise. Le « weight fully loaded » de 258 kg imprimé dans le manuel n’est pas le PTAC. La béquille latérale ne doit porter ni le pilote ni le passager."
+    },
+    "confiance": "ok",
+    "sources": [
+      "src-manuel-proprietaire#p134",
+      "src-manuel-proprietaire#p180",
+      "src-manuel-proprietaire#p182",
+      "src-manuel-atelier#p19",
+      "src-motorradundreisen-35kw",
+      "src-motorradundreisen-extrema"
+    ]
+  },
+  "electricite": {
+    "batterie": {
+      "fr": "Lithium (LiFePO4) BS Battery BSLi-04, 12 V, 48 Wh, 280 A (réf. Aprilia 2D000579), sans entretien hormis le contrôle de charge (bouton TEST : 5-6 LED prête, 3-4 recharge conseillée, 1-2 recharge nécessaire, 0 défaut). Plage d’utilisation : −20 °C à +55 °C. Alternative plomb citée par le manuel : Yuasa YTZ10S 12 V 8,6 Ah (caractéristiques) ou Yuasa YT12A-BS (chapitre batterie, pour un usage prolongé hors de cette plage) ; pour monter une batterie plomb, retirer l’entretoise du porte-fusibles secondaires (3 vis). Factory 2025-2026 : batterie lithium allégée (modèle non trouvé). RS 660 standard 2025-2026 : type non confirmé (un revendeur indique une YT12A-BS)."
+    },
+    "batterie_piece": "pc-batterie",
+    "fusibles": [
+      {
+        "repere": "A",
+        "calibre_a": 7.5,
+        "role": {
+          "fr": "Feu de position arrière, klaxon, éclairage de plaque, rétroéclairage (selon équipement)",
+          "en": "Rear position light, horn, licence plate light, backlight (if fitted)"
+        },
+        "position": {
+          "fr": "Boîtes à fusibles secondaires, sous la selle pilote (partie centrale)"
+        },
+        "confiance": "ok",
+        "sources": [
+          "src-manuel-proprietaire#p159",
+          "src-manuel-proprietaire#p160",
+          "src-manuel-proprietaire#p161",
+          "src-manuel-proprietaire#p163",
+          "src-manuel-proprietaire#p187"
+        ]
+      },
+      {
+        "repere": "B",
+        "calibre_a": 5,
+        "role": {
+          "fr": "Alimentation du tableau de bord, clignotants",
+          "en": "Instrument panel power, turn indicators"
+        },
+        "position": {
+          "fr": "Boîtes à fusibles secondaires, sous la selle pilote (partie centrale)"
+        },
+        "confiance": "ok",
+        "sources": [
+          "src-manuel-proprietaire#p159",
+          "src-manuel-proprietaire#p160",
+          "src-manuel-proprietaire#p161",
+          "src-manuel-proprietaire#p163",
+          "src-manuel-proprietaire#p187"
+        ]
+      },
+      {
+        "repere": "C",
+        "calibre_a": 5,
+        "role": {
+          "fr": "Plus après contact : ECU, ABS, tableau de bord, commodo gauche, relais de démarrage, centrale inertielle",
+          "en": "Key-on power: ECU, ABS, instrument panel, left switchgear, main start relay, inertial platform"
+        },
+        "position": {
+          "fr": "Boîtes à fusibles secondaires, sous la selle pilote (partie centrale)"
+        },
+        "confiance": "ok",
+        "sources": [
+          "src-manuel-proprietaire#p159",
+          "src-manuel-proprietaire#p160",
+          "src-manuel-proprietaire#p161",
+          "src-manuel-proprietaire#p163",
+          "src-manuel-proprietaire#p187"
+        ]
+      },
+      {
+        "repere": "D",
+        "calibre_a": 7.5,
+        "role": {
+          "fr": "Plus permanent de l’ECU",
+          "en": "ECU permanent power"
+        },
+        "position": {
+          "fr": "Boîtes à fusibles secondaires, sous la selle pilote (partie centrale)"
+        },
+        "confiance": "ok",
+        "sources": [
+          "src-manuel-proprietaire#p159",
+          "src-manuel-proprietaire#p160",
+          "src-manuel-proprietaire#p161",
+          "src-manuel-proprietaire#p163",
+          "src-manuel-proprietaire#p187"
+        ]
+      },
+      {
+        "repere": "E",
+        "calibre_a": 5,
+        "role": {
+          "fr": "Plus après contact : AMP, prise de diagnostic (OBD), antivol",
+          "en": "Key-on power: AMP, OBD socket, anti-theft system"
+        },
+        "position": {
+          "fr": "Boîtes à fusibles secondaires, sous la selle pilote (partie centrale)"
+        },
+        "confiance": "ok",
+        "sources": [
+          "src-manuel-proprietaire#p159",
+          "src-manuel-proprietaire#p160",
+          "src-manuel-proprietaire#p161",
+          "src-manuel-proprietaire#p163",
+          "src-manuel-proprietaire#p187"
+        ]
+      },
+      {
+        "repere": "F",
+        "calibre_a": 5,
+        "role": {
+          "fr": "Plus après contact : phare (charge)",
+          "en": "Key-on power: headlight (load)"
+        },
+        "position": {
+          "fr": "Boîtes à fusibles secondaires, sous la selle pilote (partie centrale)"
+        },
+        "confiance": "ok",
+        "sources": [
+          "src-manuel-proprietaire#p159",
+          "src-manuel-proprietaire#p160",
+          "src-manuel-proprietaire#p161",
+          "src-manuel-proprietaire#p163",
+          "src-manuel-proprietaire#p187"
+        ]
+      },
+      {
+        "repere": "G",
+        "calibre_a": 2,
+        "role": {
+          "fr": "Plus après contact : prise USB",
+          "en": "Key-on power: USB socket"
+        },
+        "position": {
+          "fr": "Boîtes à fusibles secondaires, sous la selle pilote (partie centrale)"
+        },
+        "confiance": "ok",
+        "sources": [
+          "src-manuel-proprietaire#p159",
+          "src-manuel-proprietaire#p160",
+          "src-manuel-proprietaire#p161",
+          "src-manuel-proprietaire#p163",
+          "src-manuel-proprietaire#p187"
+        ]
+      },
+      {
+        "repere": "H",
+        "calibre_a": 15,
+        "role": {
+          "fr": "Relais de ventilateur, ECU, relais de pompe à essence, sondes lambda, injecteurs et bobines gauche et droite, électrovanne d’air secondaire",
+          "en": "Fan relay, ECU, fuel pump relay, left and right lambda probes, injectors and coils, secondary air valve"
+        },
+        "position": {
+          "fr": "Boîtes à fusibles secondaires, sous la selle pilote (partie centrale)"
+        },
+        "confiance": "ok",
+        "sources": [
+          "src-manuel-proprietaire#p159",
+          "src-manuel-proprietaire#p160",
+          "src-manuel-proprietaire#p161",
+          "src-manuel-proprietaire#p163",
+          "src-manuel-proprietaire#p187"
+        ]
+      },
+      {
+        "repere": "I",
+        "calibre_a": 5,
+        "role": {
+          "fr": "Pré-équipement antivol, alimentation OBD",
+          "en": "Anti-theft provision, OBD power"
+        },
+        "position": {
+          "fr": "Boîtes à fusibles secondaires, sous la selle pilote (partie centrale)"
+        },
+        "confiance": "ok",
+        "sources": [
+          "src-manuel-proprietaire#p159",
+          "src-manuel-proprietaire#p160",
+          "src-manuel-proprietaire#p161",
+          "src-manuel-proprietaire#p163",
+          "src-manuel-proprietaire#p187"
+        ]
+      },
+      {
+        "repere": "J",
+        "calibre_a": 7.5,
+        "role": {
+          "fr": "Ventilateur",
+          "en": "Cooling fan"
+        },
+        "position": {
+          "fr": "Boîtes à fusibles secondaires, sous la selle pilote (partie centrale)"
+        },
+        "confiance": "ok",
+        "sources": [
+          "src-manuel-proprietaire#p159",
+          "src-manuel-proprietaire#p160",
+          "src-manuel-proprietaire#p161",
+          "src-manuel-proprietaire#p163",
+          "src-manuel-proprietaire#p187"
+        ]
+      },
+      {
+        "repere": "K",
+        "calibre_a": 20,
+        "role": {
+          "fr": "ABS",
+          "en": "ABS"
+        },
+        "position": {
+          "fr": "Boîtes à fusibles secondaires, sous la selle pilote (partie centrale)"
+        },
+        "confiance": "ok",
+        "sources": [
+          "src-manuel-proprietaire#p159",
+          "src-manuel-proprietaire#p160",
+          "src-manuel-proprietaire#p161",
+          "src-manuel-proprietaire#p163",
+          "src-manuel-proprietaire#p187"
+        ]
+      },
+      {
+        "repere": "M",
+        "calibre_a": 30,
+        "role": {
+          "fr": "Fusible principal : charge de la batterie et tous les circuits de la moto",
+          "en": "Main fuse: battery charging and all vehicle circuits"
+        },
+        "position": {
+          "fr": "Derrière le flanc arrière gauche, sous la selle pilote, dans un boîtier à capot (fusible de rechange N à côté)"
+        },
+        "confiance": "ok",
+        "sources": [
+          "src-manuel-proprietaire#p159",
+          "src-manuel-proprietaire#p160",
+          "src-manuel-proprietaire#p161",
+          "src-manuel-proprietaire#p163",
+          "src-manuel-proprietaire#p187"
+        ]
+      }
+    ],
+    "alternateur_w": 360,
+    "eclairage": {
+      "fr": "100 % LED, aucune ampoule remplaçable : feux de route et de croisement 18 W / 27 W, feux de jour 2 W / 10 W, clignotants 2,7 W, feu arrière et stop 0,5 W / 2,3 W, éclairage de plaque 0,67 W. Deux feux de virage s’allument, feux de croisement allumés, à partir de 25° d’inclinaison. Les feux s’allument dès que la roue arrière dépasse 1 km/h (même moteur arrêté, contact mis) et restent allumés 30 s après son arrêt. Phare, feu arrière, clignotants arrière et éclairage de plaque se remplacent en bloc, en concession."
+    },
+    "note": {
+      "fr": "Allumage par bobines crayon ; charge par volant magnétique à aimants terres rares. Fusibles de rechange (L) dans les boîtes secondaires. En cas de panne, contrôler les fusibles secondaires du plus petit au plus gros calibre, puis le principal ; toujours remplacer par un fusible de même calibre et ne jamais réparer un fusible. Retirer le fusible de 30 A remet à zéro l’horloge, les trips et le chrono. Recharge de la batterie lithium : le bulletin Piaggio de 2024 impose un chargeur lithium (14 à 15 V, 2 A au maximum), sans mainteneur de charge, sans booster ni chargeur plomb ; le manuel de 2020 tolérait un chargeur plomb 12 V sans désulfatation (2 A pendant 2 h, jamais plus de 15 V). En cas de doute, suivre le bulletin, plus récent."
+    },
+    "confiance": "ok",
+    "sources": [
+      "src-manuel-proprietaire#p151",
+      "src-manuel-proprietaire#p152",
+      "src-manuel-proprietaire#p154",
+      "src-manuel-proprietaire#p155",
+      "src-manuel-proprietaire#p156",
+      "src-manuel-proprietaire#p157",
+      "src-manuel-proprietaire#p158",
+      "src-manuel-proprietaire#p163",
+      "src-manuel-proprietaire#p164",
+      "src-manuel-proprietaire#p187",
+      "src-manuel-atelier#p19",
+      "src-tsb-batterie-lithium-2024",
+      "src-oem-bike-parts-rs660-2021",
+      "src-cyclegear-2025",
+      "src-megabikes-factory"
+    ]
+  },
+  "suspensions": {
+    "fourche": {
+      "type": {
+        "fr": "Standard, A2, Limited Edition et Extrema : fourche inversée hydraulique KYB, tubes Ø 41 mm, débattement 120 mm, réglable en précharge et en détente. Factory 2025-2026 : fourche Öhlins NIX30, tubes Ø 43 mm, entièrement réglable."
+      },
+      "reglages": [
+        {
+          "id": "fourche-precharge",
+          "libelle": {
+            "fr": "Précharge du ressort (écrou supérieur de chaque tube)",
+            "en": "Spring preload (top nut, each leg)"
+          },
+          "origine": {
+            "fr": "Entièrement desserrée (réglage route et réglage sport)",
+            "en": "Fully loosened (road and sport settings)"
+          },
+          "versions": [
+            "standard",
+            "a2",
+            "limited-edition",
+            "extrema"
+          ],
+          "confiance": "ok",
+          "sources": [
+            "src-manuel-proprietaire#p116",
+            "src-manuel-proprietaire#p117",
+            "src-manuel-proprietaire#p118"
+          ]
+        },
+        {
+          "id": "fourche-detente",
+          "libelle": {
+            "fr": "Détente hydraulique (vis supérieure de chaque tube)",
+            "en": "Rebound damping (top screw, each leg)"
+          },
+          "origine": {
+            "fr": "Route : dévisser de 18 clics depuis la position fermée à fond ; sport (circuit uniquement) : 10 clics",
+            "en": "Road: 18 clicks out from fully closed; sport (track only): 10 clicks"
+          },
+          "versions": [
+            "standard",
+            "a2",
+            "limited-edition",
+            "extrema"
+          ],
+          "confiance": "ok",
+          "sources": [
+            "src-manuel-proprietaire#p117",
+            "src-manuel-proprietaire#p118"
+          ]
+        },
+        {
+          "id": "fourche-depassement-tubes",
+          "libelle": {
+            "fr": "Dépassement des tubes au-dessus du té supérieur (hors capuchon)",
+            "en": "Fork tube protrusion above top yoke"
+          },
+          "origine": {
+            "fr": "2 crans (route et sport) ; réglage réservé au concessionnaire",
+            "en": "2 notches (road and sport); dealer adjustment only"
+          },
+          "versions": [
+            "standard",
+            "a2",
+            "limited-edition",
+            "extrema"
+          ],
+          "confiance": "ok",
+          "sources": [
+            "src-manuel-proprietaire#p117",
+            "src-manuel-proprietaire#p118"
+          ]
+        },
+        {
+          "id": "fourche-compression",
+          "libelle": {
+            "fr": "Compression hydraulique",
+            "en": "Compression damping"
+          },
+          "note": {
+            "fr": "Réglage annoncé par Le Repaire des Motards et 1000PS, absent du manuel : non confirmé."
+          },
+          "versions": [
+            "standard",
+            "a2",
+            "limited-edition",
+            "extrema"
+          ],
+          "confiance": "incertain",
+          "sources": [
+            "src-repaire-motards-fiche",
+            "src-1000ps-rs660-2025"
+          ]
+        },
+        {
+          "id": "fourche-factory-precharge",
+          "libelle": {
+            "fr": "Précharge du ressort (Öhlins NIX30)",
+            "en": "Spring preload (Öhlins NIX30)"
+          },
+          "note": {
+            "fr": "Réglage d’origine introuvable (aucun manuel Factory consulté)."
+          },
+          "versions": [
+            "factory"
+          ],
+          "confiance": "ok",
+          "sources": [
+            "src-cyclenews-2025",
+            "src-rider-2025"
+          ]
+        },
+        {
+          "id": "fourche-factory-compression",
+          "libelle": {
+            "fr": "Compression hydraulique (Öhlins NIX30)",
+            "en": "Compression damping (Öhlins NIX30)"
+          },
+          "note": {
+            "fr": "Réglage d’origine introuvable (aucun manuel Factory consulté)."
+          },
+          "versions": [
+            "factory"
+          ],
+          "confiance": "ok",
+          "sources": [
+            "src-cyclenews-2025",
+            "src-rider-2025"
+          ]
+        },
+        {
+          "id": "fourche-factory-detente",
+          "libelle": {
+            "fr": "Détente hydraulique (Öhlins NIX30)",
+            "en": "Rebound damping (Öhlins NIX30)"
+          },
+          "note": {
+            "fr": "Réglage d’origine introuvable (aucun manuel Factory consulté)."
+          },
+          "versions": [
+            "factory"
+          ],
+          "confiance": "ok",
+          "sources": [
+            "src-cyclenews-2025",
+            "src-rider-2025"
+          ]
+        }
+      ],
+      "note": {
+        "fr": "Compter les clics ou les tours toujours depuis la position la plus dure (vissée à fond dans le sens horaire), sans forcer en butée, et régler les deux tubes à l’identique. Si la précharge augmente, augmenter aussi le frein en détente. Le réglage standard convient à la moto partiellement ou totalement chargée ; les réglages « sport » sont réservés au circuit. Avant d’acheter une cartouche pour la fourche standard, vérifier le code gravé sur le pied de fourche (un revendeur signale une fourche codée 2B01126 sur des RS 660 2023)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p115",
+        "src-manuel-proprietaire#p116",
+        "src-manuel-proprietaire#p117",
+        "src-manuel-proprietaire#p118",
+        "src-manuel-proprietaire#p185",
+        "src-cyclenews-2025",
+        "src-rider-2025",
+        "src-epm-andreani"
+      ]
+    },
+    "amortisseur": {
+      "type": {
+        "fr": "Standard, A2, Limited Edition et Extrema : monoamortisseur à bonbonne séparée (piggyback) relié au cadre par rotules, réglable en précharge, longueur et détente, course de 52 mm ; marque non indiquée par le manuel (Kayaba selon Cycle News). Factory 2025-2026 : Öhlins STX 46, entièrement réglable."
+      },
+      "reglages": [
+        {
+          "id": "amortisseur-precharge",
+          "libelle": {
+            "fr": "Précharge du ressort (bague de réglage et contre-bague, clé à ergot)",
+            "en": "Spring preload (adjuster and lock rings, C-spanner)"
+          },
+          "origine": {
+            "fr": "Route : longueur du ressort A = 145,5 ± 2 mm ; sport (circuit uniquement) : serrer de 2 tours depuis 145,5 mm",
+            "en": "Road: spring length A = 145.5 ± 2 mm; sport (track only): tighten 2 turns from 145.5 mm"
+          },
+          "versions": [
+            "standard",
+            "a2",
+            "limited-edition",
+            "extrema"
+          ],
+          "confiance": "ok",
+          "sources": [
+            "src-manuel-proprietaire#p113",
+            "src-manuel-proprietaire#p114",
+            "src-manuel-proprietaire#p115"
+          ]
+        },
+        {
+          "id": "amortisseur-longueur",
+          "libelle": {
+            "fr": "Longueur de l’amortisseur (B)",
+            "en": "Shock length (B)"
+          },
+          "origine": {
+            "fr": "306 ± 2 mm (route et sport)",
+            "en": "306 ± 2 mm (road and sport)"
+          },
+          "versions": [
+            "standard",
+            "a2",
+            "limited-edition",
+            "extrema"
+          ],
+          "confiance": "ok",
+          "sources": [
+            "src-manuel-proprietaire#p114",
+            "src-manuel-proprietaire#p115"
+          ]
+        },
+        {
+          "id": "amortisseur-detente",
+          "libelle": {
+            "fr": "Détente hydraulique (vis de réglage)",
+            "en": "Rebound damping (adjuster screw)"
+          },
+          "origine": {
+            "fr": "Route : ouvrir de 5 clics depuis la position fermée à fond ; sport (circuit uniquement) : 2 clics",
+            "en": "Road: 5 clicks out from fully closed; sport (track only): 2 clicks"
+          },
+          "versions": [
+            "standard",
+            "a2",
+            "limited-edition",
+            "extrema"
+          ],
+          "confiance": "ok",
+          "sources": [
+            "src-manuel-proprietaire#p114",
+            "src-manuel-proprietaire#p115"
+          ]
+        },
+        {
+          "id": "amortisseur-factory-precharge",
+          "libelle": {
+            "fr": "Précharge du ressort (Öhlins STX 46)",
+            "en": "Spring preload (Öhlins STX 46)"
+          },
+          "note": {
+            "fr": "Réglage d’origine introuvable (aucun manuel Factory consulté)."
+          },
+          "versions": [
+            "factory"
+          ],
+          "confiance": "ok",
+          "sources": [
+            "src-cyclenews-2025",
+            "src-rider-2025"
+          ]
+        },
+        {
+          "id": "amortisseur-factory-compression",
+          "libelle": {
+            "fr": "Compression hydraulique (Öhlins STX 46)",
+            "en": "Compression damping (Öhlins STX 46)"
+          },
+          "note": {
+            "fr": "Réglage d’origine introuvable (aucun manuel Factory consulté)."
+          },
+          "versions": [
+            "factory"
+          ],
+          "confiance": "ok",
+          "sources": [
+            "src-cyclenews-2025",
+            "src-rider-2025"
+          ]
+        },
+        {
+          "id": "amortisseur-factory-detente",
+          "libelle": {
+            "fr": "Détente hydraulique (Öhlins STX 46)",
+            "en": "Rebound damping (Öhlins STX 46)"
+          },
+          "note": {
+            "fr": "Réglage d’origine introuvable (aucun manuel Factory consulté)."
+          },
+          "versions": [
+            "factory"
+          ],
+          "confiance": "ok",
+          "sources": [
+            "src-cyclenews-2025",
+            "src-rider-2025"
+          ]
+        }
+      ],
+      "note": {
+        "fr": "Accès : déposer la selle passager, la selle pilote et le flanc gauche (vis haute et vis basse). Compter les clics depuis la position la plus dure (sens horaire), sans forcer en butée. Si la précharge augmente, augmenter aussi le frein en détente. Le réglage standard vise un usage routier normal ; les réglages « sport » sont réservés au circuit. Aucune règle Aprilia ne relie la charge transportée à un nombre de tours de précharge."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p111",
+        "src-manuel-proprietaire#p112",
+        "src-manuel-proprietaire#p113",
+        "src-manuel-proprietaire#p114",
+        "src-manuel-proprietaire#p115",
+        "src-manuel-proprietaire#p185",
+        "src-cyclenews-2025",
+        "src-rider-2025"
+      ]
+    }
+  },
+  "plausibilite": {
+    "km_par_jour_max": 1000,
+    "km_max_compteur": 999999
+  },
+  "avertissement": {
+    "fr": "Application indépendante, non affiliée à Aprilia ni à Piaggio & C. S.p.A. Les noms « Aprilia » et « RS 660 » sont cités uniquement pour identifier le modèle. Données réunies à partir de sources publiques, sans garantie : en cas de doute, le manuel officiel et le concessionnaire font foi.",
+    "en": "Independent app, not affiliated with Aprilia or Piaggio & C. S.p.A. The names “Aprilia” and “RS 660” are used only to identify the model. Data compiled from public sources, without warranty: when in doubt, the official manual and the dealer prevail."
+  }
+}

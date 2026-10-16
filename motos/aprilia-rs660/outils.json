@@ -1,0 +1,2021 @@
+{
+  "version_schema": 1,
+  "maj": "2026-10-16",
+  "outils": [
+    {
+      "id": "ou-cle-allen-4",
+      "nom": {
+        "fr": "Clé six pans 4 mm (en T)",
+        "en": "4 mm hex key (T-handle)"
+      },
+      "taille": "4 mm",
+      "categorie": "cle-allen",
+      "niveau": "courant",
+      "operations": [
+        "op-vidange-huile-filtre",
+        "op-niveau-liquide-frein",
+        "op-liquide-frein",
+        "op-batterie",
+        "op-reglage-suspensions-charge",
+        "op-liquide-refroidissement",
+        "op-hivernage"
+      ],
+      "note": {
+        "fr": "Vis du bas de carénage (environ 3 par côté), des flancs arrière (fusible principal, réservoir de frein AR, réglage de détente de l'amortisseur), de la coque arrière et des flancs principaux. Nombre exact de vis du sabot non confirmé (6 ou 8)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-rg-cp0510-notice",
+        "src-af-pompe-eau",
+        "src-motodynamic-fe-a21rst660",
+        "src-notice-akrapovic-rs660"
+      ]
+    },
+    {
+      "id": "ou-jeu-embouts-allen",
+      "nom": {
+        "fr": "Jeu de clés et embouts six pans (2,5 à 14 mm)",
+        "en": "Hex key and bit set (2.5 to 14 mm)"
+      },
+      "taille": "2,5 / 3 / 4 / 5 / 8 / 14 mm",
+      "categorie": "cle-allen",
+      "niveau": "courant",
+      "operations": [
+        "op-vidange-huile-filtre",
+        "op-plaquettes-avant",
+        "op-liquide-frein",
+        "op-batterie",
+        "op-liquide-refroidissement",
+        "op-reglage-suspensions-charge",
+        "op-pneu-avant"
+      ],
+      "note": {
+        "fr": "Tailles utiles sur la RS 660 : 2,5 mm (carénage intérieur), 3 mm (petit carénage sous le phare), 4 mm (sabot, flancs, coque arrière), 5 mm (divers), 8 mm (vis d'étriers AV, en douille), 14 mm courte (axe de roue AV, en douille). Voir les entrées par taille."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-rg-cp0510-notice",
+        "src-af-pompe-eau",
+        "src-motodynamic-fe-a21rst660",
+        "src-notice-akrapovic-rs660",
+        "src-youtube-plaquettes-rs660",
+        "src-sbv-tools"
+      ]
+    },
+    {
+      "id": "ou-douille-allen-8",
+      "nom": {
+        "fr": "Douille six pans 8 mm",
+        "en": "8 mm hex bit socket"
+      },
+      "taille": "8 mm",
+      "categorie": "embout",
+      "niveau": "courant",
+      "operations": [
+        "op-plaquettes-avant",
+        "op-disques-frein",
+        "op-pneu-avant",
+        "op-controle-roues-roulements",
+        "op-controle-amortisseur-biellettes"
+      ],
+      "note": {
+        "fr": "Vis des étriers avant (TCC M10 × 55, 50 Nm) ; tient aussi la vis inférieure de l'amortisseur (avec une douille de 15 mm)."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-youtube-plaquettes-rs660",
+        "src-youtube-ohlins-install",
+        "src-manuel-atelier#p23"
+      ]
+    },
+    {
+      "id": "ou-embout-torx-t30",
+      "nom": {
+        "fr": "Embout Torx T30",
+        "en": "Torx T30 bit"
+      },
+      "taille": "T30",
+      "categorie": "embout",
+      "niveau": "courant",
+      "operations": [
+        "op-plaquettes-avant"
+      ],
+      "note": {
+        "fr": "Axe des plaquettes avant : le débloquer avant de déposer l'étrier, il peut être très serré. Sert aussi aux vis avant du garde-boue arrière."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-youtube-plaquettes-rs660",
+        "src-motodynamic-fe-a21rst660"
+      ]
+    },
+    {
+      "id": "ou-tournevis-cruciforme",
+      "nom": {
+        "fr": "Tournevis cruciforme (court)",
+        "en": "Phillips screwdriver (short)"
+      },
+      "categorie": "tournevis",
+      "niveau": "courant",
+      "operations": [
+        "op-niveau-liquide-frein",
+        "op-liquide-frein",
+        "op-controle-filtre-air",
+        "op-remplacement-filtre-air"
+      ],
+      "note": {
+        "fr": "Couvercle du réservoir de frein avant (2 vis), vis du carénage intérieur, 11 vis du couvercle de boîte à air (cruciformes selon un accessoiriste)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p149",
+        "src-rg-cp0510-notice"
+      ]
+    },
+    {
+      "id": "ou-douille-17",
+      "nom": {
+        "fr": "Douille 17 mm (6 pans)",
+        "en": "17 mm socket (6-point)"
+      },
+      "taille": "17 mm",
+      "categorie": "douille",
+      "niveau": "courant",
+      "operations": [
+        "op-vidange-huile-filtre"
+      ],
+      "note": {
+        "fr": "Bouchon de vidange (20 Nm). Taille relevée sur un bouchon accessoire ; l'auteur pense que le bouchon d'origine est identique."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-apriliaforum-vidange"
+      ]
+    },
+    {
+      "id": "ou-cle-filtre-huile",
+      "nom": {
+        "fr": "Clé à filtre cloche 68 mm / 14 pans",
+        "en": "68 mm / 14-flute oil filter wrench"
+      },
+      "taille": "68 mm, 14 pans, carré 3/8\"",
+      "categorie": "vidange",
+      "niveau": "courant",
+      "operations": [
+        "op-vidange-huile-filtre"
+      ],
+      "note": {
+        "fr": "Pour la cartouche HF138 / 857187 / 1A023538, serrée à 15 Nm."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-cyclebitz-cle-filtre",
+        "src-twotyres-hf138"
+      ]
+    },
+    {
+      "id": "ou-douille-26",
+      "nom": {
+        "fr": "Douille 26 mm (6 pans)",
+        "en": "26 mm socket (6-point)"
+      },
+      "taille": "26 mm",
+      "categorie": "douille",
+      "niveau": "courant",
+      "operations": [
+        "op-chaine-entretien",
+        "op-kit-chaine",
+        "op-pneu-arriere",
+        "op-controle-roues-roulements"
+      ],
+      "note": {
+        "fr": "Écrou d'axe de roue arrière M20 × 1,5, serré à 120 Nm. Les écrous accessoires peuvent demander 27 mm (titane) ou 28 mm (alu)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-aspecialparts-ecrou-ar",
+        "src-motomachines-sbv"
+      ]
+    },
+    {
+      "id": "ou-douille-10",
+      "nom": {
+        "fr": "Douille 10 mm",
+        "en": "10 mm socket"
+      },
+      "taille": "10 mm",
+      "categorie": "douille",
+      "niveau": "courant",
+      "operations": [
+        "op-batterie"
+      ],
+      "note": {
+        "fr": "Vis centrale du plateau sous la selle (s'il est présent), écrou du garde-boue arrière, contre-écrous sous les supports de leviers."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-motodynamic-fe-a21rst660"
+      ]
+    },
+    {
+      "id": "ou-douille-8",
+      "nom": {
+        "fr": "Douille 8 mm",
+        "en": "8 mm socket"
+      },
+      "taille": "8 mm",
+      "categorie": "douille",
+      "niveau": "courant",
+      "operations": [
+        "op-batterie",
+        "op-liquide-refroidissement"
+      ],
+      "note": {
+        "fr": "Vis latérales du plateau sous la selle (s'il est présent), une vis de chaque flanc principal, 8 vis du couvercle d'alternateur (12 Nm)."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-motodynamic-fe-a21rst660",
+        "src-rg-cp0510-notice",
+        "src-af-pompe-eau"
+      ]
+    },
+    {
+      "id": "ou-jeu-douilles",
+      "nom": {
+        "fr": "Coffret cliquet et douilles",
+        "en": "Ratchet and socket set"
+      },
+      "categorie": "douille",
+      "niveau": "courant",
+      "prix": {
+        "min": 69.6,
+        "moy": 69.6,
+        "max": 105.6,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "ok",
+        "sources": [
+          "src-lb-mallette-59",
+          "src-lb-mallette-108"
+        ]
+      },
+      "operations": [
+        "op-vidange-huile-filtre",
+        "op-batterie",
+        "op-chaine-entretien",
+        "op-cable-embrayage",
+        "op-serrage-boulonnerie"
+      ],
+      "note": {
+        "fr": "Base de l'outillage : vérifier qu'il contient les douilles de 8, 10 et 17 mm et des clés mixtes."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-lb-mallette-59",
+        "src-lb-mallette-108"
+      ]
+    },
+    {
+      "id": "ou-jeu-cles-plates",
+      "nom": {
+        "fr": "Jeu de clés plates ou mixtes",
+        "en": "Spanner set"
+      },
+      "categorie": "cle",
+      "niveau": "courant",
+      "operations": [
+        "op-cable-embrayage",
+        "op-chaine-entretien",
+        "op-kit-chaine"
+      ],
+      "note": {
+        "fr": "Contre-écrou et tendeur du câble d'embrayage (côté droit du moteur), contre-écrous et vis de réglage des tendeurs de chaîne : tailles non relevées, à mesurer sur la moto."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p84",
+        "src-manuel-atelier#p312"
+      ]
+    },
+    {
+      "id": "ou-cle-dynamometrique-5-25",
+      "nom": {
+        "fr": "Clé dynamométrique 1/4\" 5-25 Nm",
+        "en": "1/4\" torque wrench 5-25 Nm"
+      },
+      "taille": "5-25 Nm",
+      "categorie": "cle-dynamometrique",
+      "niveau": "courant",
+      "prix": {
+        "min": 49.2,
+        "moy": 49.2,
+        "max": 49.2,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "ok",
+        "sources": [
+          "src-lb-cle-dyna-14"
+        ]
+      },
+      "operations": [
+        "op-vidange-huile-filtre",
+        "op-bougies",
+        "op-serrage-boulonnerie"
+      ],
+      "note": {
+        "fr": "Filtre à huile 15 Nm, bouchon de vidange 20 Nm, bougies 12 Nm, vis M6 10 à 12 Nm."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p44",
+        "src-manuel-atelier#p40"
+      ]
+    },
+    {
+      "id": "ou-cle-dynamometrique",
+      "nom": {
+        "fr": "Clé dynamométrique 3/8\" 20-120 Nm (clé principale)",
+        "en": "3/8\" torque wrench 20-120 Nm (main wrench)"
+      },
+      "taille": "20-120 Nm",
+      "categorie": "cle-dynamometrique",
+      "niveau": "courant",
+      "prix": {
+        "min": 67.2,
+        "moy": 67.2,
+        "max": 67.2,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "ok",
+        "sources": [
+          "src-lb-cle-dyna-38"
+        ]
+      },
+      "operations": [
+        "op-plaquettes-avant",
+        "op-plaquettes-arriere",
+        "op-disques-frein",
+        "op-chaine-entretien",
+        "op-kit-chaine",
+        "op-pneu-avant",
+        "op-pneu-arriere",
+        "op-vidange-huile-filtre",
+        "op-serrage-boulonnerie"
+      ],
+      "note": {
+        "fr": "Étriers AV 50 Nm, étrier AR 25 Nm, disques 25 Nm, couronne 50 Nm, axe AV 65 Nm, écrou d'axe AR 120 Nm (en haut de plage : une clé 40-210 Nm est plus confortable)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p22",
+        "src-manuel-atelier#p37"
+      ]
+    },
+    {
+      "id": "ou-bequille-arriere",
+      "nom": {
+        "fr": "Béquille d'atelier arrière",
+        "en": "Rear paddock stand"
+      },
+      "taille": "supports en L ou en V, pour diabolos M6",
+      "categorie": "levage",
+      "niveau": "courant",
+      "prix": {
+        "min": 45.0,
+        "moy": 58.4,
+        "max": 89.99,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "ok",
+        "sources": [
+          "src-lb-bequille-ar-blackway",
+          "src-lb-bequille-ar-bikelift",
+          "src-la-becanerie"
+        ]
+      },
+      "operations": [
+        "op-chaine-entretien",
+        "op-kit-chaine",
+        "op-pneu-arriere",
+        "op-controle-roues-roulements",
+        "op-hivernage",
+        "op-lavage"
+      ],
+      "note": {
+        "fr": "Bras oscillant large : certaines béquilles doivent être presque à leur largeur maximale."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-pit-bull-rs660",
+        "src-apriliaforum-bequille"
+      ]
+    },
+    {
+      "id": "ou-diabolos-m6",
+      "nom": {
+        "fr": "Diabolos de bras oscillant M6",
+        "en": "M6 swingarm spools"
+      },
+      "taille": "M6",
+      "categorie": "levage",
+      "niveau": "courant",
+      "operations": [
+        "op-chaine-entretien",
+        "op-kit-chaine",
+        "op-pneu-arriere",
+        "op-hivernage"
+      ],
+      "note": {
+        "fr": "Filetage M6 sur le bras oscillant (ex. Pit Bull F0013-000, Rizoma). Prix non relevé."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-pit-bull-rs660",
+        "src-af1-rizoma-diabolos-m6"
+      ]
+    },
+    {
+      "id": "ou-manometre-pneus",
+      "nom": {
+        "fr": "Manomètre de pression des pneus",
+        "en": "Tyre pressure gauge"
+      },
+      "categorie": "mesure",
+      "niveau": "courant",
+      "operations": [
+        "op-controle-pression-pneus",
+        "op-hivernage",
+        "op-remise-en-route"
+      ],
+      "note": {
+        "fr": "Pressions à froid : avant 2,5 bar, arrière 2,8 bar. Prix non relevé."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p186"
+      ]
+    },
+    {
+      "id": "ou-jauge-profondeur-pneus",
+      "nom": {
+        "fr": "Jauge de profondeur de sculpture",
+        "en": "Tread depth gauge"
+      },
+      "categorie": "mesure",
+      "niveau": "courant",
+      "operations": [
+        "op-controle-usure-pneus"
+      ],
+      "note": {
+        "fr": "Profondeur minimale 2 mm avant et arrière, ou le minimum légal s'il est plus élevé. Prix non relevé."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p144"
+      ]
+    },
+    {
+      "id": "ou-regle-graduee",
+      "nom": {
+        "fr": "Réglet gradué",
+        "en": "Steel rule"
+      },
+      "categorie": "mesure",
+      "niveau": "courant",
+      "operations": [
+        "op-chaine-entretien",
+        "op-reglage-suspensions-charge"
+      ],
+      "note": {
+        "fr": "Flèche du brin inférieur de chaîne (environ 30 mm, mesurée à 250 mm de l'axe AR, moto sur la béquille latérale) ; longueur du ressort d'amortisseur (145,5 ± 2 mm)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p176",
+        "src-manuel-proprietaire#p114"
+      ]
+    },
+    {
+      "id": "ou-brosse-chaine",
+      "nom": {
+        "fr": "Brosse de nettoyage de chaîne",
+        "en": "Chain cleaning brush"
+      },
+      "categorie": "nettoyage",
+      "niveau": "courant",
+      "operations": [
+        "op-chaine-entretien"
+      ],
+      "note": {
+        "fr": "Nettoyage au pétrole ou au gazole avant graissage. Prix non relevé."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p178"
+      ]
+    },
+    {
+      "id": "ou-repousse-piston",
+      "nom": {
+        "fr": "Repousse-piston ou levier plastique",
+        "en": "Piston spreader or plastic lever"
+      },
+      "categorie": "freins",
+      "niveau": "courant",
+      "operations": [
+        "op-plaquettes-avant",
+        "op-plaquettes-arriere"
+      ],
+      "note": {
+        "fr": "Repousser les pistons après les avoir nettoyés, seulement si l'autre étrier est encore monté. Pomper le levier avant de rouler."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p353"
+      ]
+    },
+    {
+      "id": "ou-pince-chasse-goupille",
+      "nom": {
+        "fr": "Pince et petit chasse-goupille",
+        "en": "Pliers and small pin punch"
+      },
+      "categorie": "freins",
+      "niveau": "courant",
+      "operations": [
+        "op-plaquettes-avant",
+        "op-plaquettes-arriere"
+      ],
+      "note": {
+        "fr": "Goupille de sécurité de l'axe de plaquettes avant, anneau d'arrêt de l'axe arrière."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p353",
+        "src-youtube-plaquettes-rs660"
+      ]
+    },
+    {
+      "id": "ou-pince-fusibles",
+      "nom": {
+        "fr": "Pince à fusibles",
+        "en": "Fuse puller"
+      },
+      "categorie": "electricite",
+      "niveau": "courant",
+      "operations": [
+        "op-controle-eclairage",
+        "op-hivernage",
+        "op-remise-en-route"
+      ],
+      "note": {
+        "fr": "Fusibles secondaires sous la selle pilote, fusible principal 30 A derrière le flanc arrière gauche. Prix non relevé."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p158",
+        "src-manuel-proprietaire#p161"
+      ]
+    },
+    {
+      "id": "ou-chargeur-lithium",
+      "nom": {
+        "fr": "Chargeur-mainteneur compatible lithium",
+        "en": "Lithium-compatible battery charger"
+      },
+      "categorie": "electricite",
+      "niveau": "courant",
+      "prix": {
+        "min": 75.9,
+        "moy": 79.0,
+        "max": 169.0,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "ok",
+        "sources": [
+          "src-lb-optimate-lithium",
+          "src-la-becanerie"
+        ]
+      },
+      "operations": [
+        "op-batterie",
+        "op-hivernage",
+        "op-remise-en-route"
+      ],
+      "note": {
+        "fr": "Batterie LiFePO4 : pas de désulfatation ni de charge pulsée, jamais plus de 15 V (2 A pendant 2 h en charge normale)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p156"
+      ]
+    },
+    {
+      "id": "ou-multimetre",
+      "nom": {
+        "fr": "Multimètre",
+        "en": "Multimeter"
+      },
+      "categorie": "electricite",
+      "niveau": "courant",
+      "operations": [
+        "op-batterie",
+        "op-hivernage",
+        "op-remise-en-route"
+      ],
+      "note": {
+        "fr": "Tension au repos à mesurer 1 à 2 h après la charge : recharger si elle est sous 12,4 V. Prix non relevé."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p156"
+      ]
+    },
+    {
+      "id": "ou-bac-vidange",
+      "nom": {
+        "fr": "Bac de vidange (3 L minimum)",
+        "en": "Drain pan (3 L minimum)"
+      },
+      "categorie": "vidange",
+      "niveau": "courant",
+      "operations": [
+        "op-vidange-huile-filtre",
+        "op-liquide-refroidissement"
+      ],
+      "note": {
+        "fr": "2,7 L d'huile à récupérer ; huile usagée à rapporter en déchetterie. Prix non relevé."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p142"
+      ]
+    },
+    {
+      "id": "ou-entonnoir",
+      "nom": {
+        "fr": "Entonnoir propre",
+        "en": "Clean funnel"
+      },
+      "categorie": "vidange",
+      "niveau": "courant",
+      "operations": [
+        "op-vidange-huile-filtre",
+        "op-liquide-refroidissement"
+      ],
+      "note": {
+        "fr": "Prix non relevé."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p142"
+      ]
+    },
+    {
+      "id": "ou-cle-allen-2-5",
+      "nom": {
+        "fr": "Clé six pans 2,5 mm",
+        "en": "2.5 mm hex key"
+      },
+      "taille": "2,5 mm",
+      "categorie": "cle-allen",
+      "niveau": "complet",
+      "operations": [
+        "op-liquide-refroidissement"
+      ],
+      "note": {
+        "fr": "Carénage intérieur dans la tête de fourche : 1 vis haute sous le rétroviseur et 3 vis basses par côté. Sert aussi à la dépose de la ligne d'échappement."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-rg-cp0510-notice",
+        "src-rg-ecc0320r-notice",
+        "src-notice-akrapovic-rs660"
+      ]
+    },
+    {
+      "id": "ou-cle-allen-3",
+      "nom": {
+        "fr": "Clé six pans 3 mm",
+        "en": "3 mm hex key"
+      },
+      "taille": "3 mm",
+      "categorie": "cle-allen",
+      "niveau": "complet",
+      "operations": [
+        "op-liquide-refroidissement"
+      ],
+      "note": {
+        "fr": "2 vis du petit carénage central sous le feu de route."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-af-pompe-eau"
+      ]
+    },
+    {
+      "id": "ou-cle-allen-5",
+      "nom": {
+        "fr": "Clé six pans 5 mm",
+        "en": "5 mm hex key"
+      },
+      "taille": "5 mm",
+      "categorie": "cle-allen",
+      "niveau": "complet",
+      "operations": [],
+      "note": {
+        "fr": "Vis diverses ; une douille six pans 5 mm longue est nécessaire près du couvercle d'alternateur."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-af-pompe-eau"
+      ]
+    },
+    {
+      "id": "ou-douille-allen-14",
+      "nom": {
+        "fr": "Douille six pans 14 mm courte",
+        "en": "14 mm stubby hex bit socket"
+      },
+      "taille": "14 mm",
+      "categorie": "embout",
+      "niveau": "complet",
+      "operations": [
+        "op-pneu-avant",
+        "op-controle-roues-roulements",
+        "op-disques-frein"
+      ],
+      "note": {
+        "fr": "Axe de roue avant M16, serré à 65 Nm."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-sbv-tools",
+        "src-af1-tuono660-tools"
+      ]
+    },
+    {
+      "id": "ou-embout-torx-t25",
+      "nom": {
+        "fr": "Embout Torx T25",
+        "en": "Torx T25 bit"
+      },
+      "taille": "T25",
+      "categorie": "embout",
+      "niveau": "complet",
+      "operations": [],
+      "note": {
+        "fr": "2 vis du cache de support de durite au-dessus du couvercle d'alternateur (accès à la pompe à eau)."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-af-pompe-eau"
+      ]
+    },
+    {
+      "id": "ou-embout-torx-t40",
+      "nom": {
+        "fr": "Embout Torx T40",
+        "en": "Torx T40 bit"
+      },
+      "taille": "T40",
+      "categorie": "embout",
+      "niveau": "complet",
+      "operations": [
+        "op-jeu-soupapes"
+      ],
+      "note": {
+        "fr": "Vis du pignon d'arbre à cames d'admission (avec une clé Torx à tête sphérique) ; dépose de la ligne d'échappement."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p69",
+        "src-notice-akrapovic-rs660"
+      ]
+    },
+    {
+      "id": "ou-jeu-embouts-torx",
+      "nom": {
+        "fr": "Jeu d'embouts Torx",
+        "en": "Torx bit set"
+      },
+      "categorie": "embout",
+      "niveau": "complet",
+      "operations": [
+        "op-controle-amortisseur-biellettes",
+        "op-liquide-refroidissement"
+      ],
+      "note": {
+        "fr": "Vis de l'entourage de radiateur (taille non précisée), garde-boue arrière de roue et cache de bras oscillant."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-rg-cp0510-notice",
+        "src-youtube-ohlins-install"
+      ]
+    },
+    {
+      "id": "ou-douille-15",
+      "nom": {
+        "fr": "Douille 15 mm",
+        "en": "15 mm socket"
+      },
+      "taille": "15 mm",
+      "categorie": "douille",
+      "niveau": "complet",
+      "operations": [
+        "op-controle-amortisseur-biellettes"
+      ],
+      "note": {
+        "fr": "Écrou de la fixation inférieure de l'amortisseur (vis tenue par une douille six pans 8 mm). Roue AR et cache de bras à déposer d'abord."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-youtube-ohlins-install"
+      ]
+    },
+    {
+      "id": "ou-cle-13",
+      "nom": {
+        "fr": "Douille et clé 13 mm",
+        "en": "13 mm socket and spanner"
+      },
+      "taille": "13 mm",
+      "categorie": "douille",
+      "niveau": "complet",
+      "operations": [],
+      "note": {
+        "fr": "Boulons moteur (pose de tampons de protection), dépose de la ligne d'échappement."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-rg-cp0510-notice",
+        "src-notice-akrapovic-rs660"
+      ]
+    },
+    {
+      "id": "ou-douille-14",
+      "nom": {
+        "fr": "Douille 14 mm",
+        "en": "14 mm socket"
+      },
+      "taille": "14 mm",
+      "categorie": "douille",
+      "niveau": "complet",
+      "operations": [],
+      "note": {
+        "fr": "Boulons moteur (pose de tampons de protection)."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-rg-cp0510-notice"
+      ]
+    },
+    {
+      "id": "ou-cle-17",
+      "nom": {
+        "fr": "Clé plate 17 mm",
+        "en": "17 mm spanner"
+      },
+      "taille": "17 mm",
+      "categorie": "cle",
+      "niveau": "complet",
+      "operations": [],
+      "note": {
+        "fr": "Sondes lambda (M12, 25 Nm) et dépose de la ligne d'échappement ; repérer la sonde droite avant dépose."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-notice-akrapovic-rs660"
+      ]
+    },
+    {
+      "id": "ou-douilles-longues",
+      "nom": {
+        "fr": "Douilles longues (six pans 5 mm, 8 mm)",
+        "en": "Deep sockets (5 mm hex, 8 mm)"
+      },
+      "categorie": "douille",
+      "niveau": "complet",
+      "operations": [],
+      "note": {
+        "fr": "Couvercle de pompe à eau (M6, 12 Nm) et couvercle d'alternateur (8 vis, douille 8 mm, 12 Nm)."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-af-pompe-eau"
+      ]
+    },
+    {
+      "id": "ou-cle-dynamometrique-40-210",
+      "nom": {
+        "fr": "Clé dynamométrique 1/2\" 40-210 Nm",
+        "en": "1/2\" torque wrench 40-210 Nm"
+      },
+      "taille": "40-210 Nm",
+      "categorie": "cle-dynamometrique",
+      "niveau": "complet",
+      "prix": {
+        "min": 76.8,
+        "moy": 76.8,
+        "max": 105.12,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "ok",
+        "sources": [
+          "src-lb-cle-dyna-12",
+          "src-la-becanerie"
+        ]
+      },
+      "operations": [
+        "op-chaine-entretien",
+        "op-kit-chaine",
+        "op-pneu-arriere",
+        "op-controle-amortisseur-biellettes",
+        "op-controle-direction"
+      ],
+      "note": {
+        "fr": "Écrou d'axe AR 120 Nm, axe de bras oscillant 110 Nm, écrou de té supérieur 100 Nm ; écrou d'embrayage 175 Nm et vis de rotor 195 Nm en démontage moteur."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p37",
+        "src-manuel-atelier#p24",
+        "src-manuel-atelier#p45"
+      ]
+    },
+    {
+      "id": "ou-tournevis-dynamometrique-1-5",
+      "nom": {
+        "fr": "Tournevis dynamométrique 1-5 Nm",
+        "en": "Torque screwdriver 1-5 Nm"
+      },
+      "taille": "1-5 Nm",
+      "categorie": "cle-dynamometrique",
+      "niveau": "complet",
+      "operations": [
+        "op-controle-filtre-air",
+        "op-remplacement-filtre-air",
+        "op-bougies"
+      ],
+      "note": {
+        "fr": "11 vis du couvercle de boîte à air serrées à 1-1,2 Nm (plastique), capteurs 0,5 à 1,2 Nm. Prix non relevé."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p30"
+      ]
+    },
+    {
+      "id": "ou-bequille-avant",
+      "nom": {
+        "fr": "Béquille d'atelier avant",
+        "en": "Front paddock stand"
+      },
+      "categorie": "levage",
+      "niveau": "complet",
+      "prix": {
+        "min": 56.2,
+        "moy": 59.9,
+        "max": 144.9,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "ok",
+        "sources": [
+          "src-lb-bequille-av-bikelift",
+          "src-la-becanerie"
+        ]
+      },
+      "operations": [
+        "op-pneu-avant",
+        "op-controle-roues-roulements",
+        "op-controle-direction",
+        "op-hivernage"
+      ],
+      "note": {
+        "fr": "Modèle sous les fourreaux ou sous le té de fourche ; s'utilise avec la béquille arrière."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p170"
+      ]
+    },
+    {
+      "id": "ou-leve-moto-colonne",
+      "nom": {
+        "fr": "Lève-moto avant par la colonne de direction",
+        "en": "Headstock front stand"
+      },
+      "taille": "pion Pit Bull n° 46 / Woodcraft 19 mm",
+      "categorie": "levage",
+      "niveau": "complet",
+      "operations": [
+        "op-pneu-avant",
+        "op-huile-fourche",
+        "op-controle-joints-spi-fourche",
+        "op-controle-direction"
+      ],
+      "note": {
+        "fr": "Un propriétaire signale qu'un pion n° 31 est très juste (câbles sous le té inférieur, bouchon de colonne difficile à retirer). Prix non relevé."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-pit-bull-rs660",
+        "src-woodcraft-pions",
+        "src-lb-bequille-av-te"
+      ]
+    },
+    {
+      "id": "ou-kit-purge-frein",
+      "nom": {
+        "fr": "Kit de purge des freins",
+        "en": "Brake bleeding kit"
+      },
+      "categorie": "freins",
+      "niveau": "complet",
+      "prix": {
+        "min": 14.29,
+        "moy": 44.7,
+        "max": 44.7,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "ok",
+        "sources": [
+          "src-lb-recipient-purge",
+          "src-lb-pompe-purge"
+        ]
+      },
+      "operations": [
+        "op-liquide-frein"
+      ],
+      "note": {
+        "fr": "Tuyau transparent et bocal, ou pompe à purger. Taille de la vis de purge non relevée. Purge AV avec ABS : le manuel d'atelier prévoit un cycle de la pompe ABS à l'outil de diagnostic, puis une purge classique."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p359",
+        "src-manuel-atelier#p360"
+      ]
+    },
+    {
+      "id": "ou-seringue",
+      "nom": {
+        "fr": "Seringue de remplissage",
+        "en": "Filling syringe"
+      },
+      "categorie": "atelier",
+      "niveau": "complet",
+      "prix": {
+        "min": 11.9,
+        "moy": 11.9,
+        "max": 61.1,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "ok",
+        "sources": [
+          "src-lb-seringue",
+          "src-la-becanerie"
+        ]
+      },
+      "operations": [
+        "op-huile-fourche",
+        "op-liquide-frein"
+      ],
+      "note": {
+        "fr": "Réglage du niveau d'huile de fourche (98 mm) et appoints."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p252"
+      ]
+    },
+    {
+      "id": "ou-cales-epaisseur",
+      "nom": {
+        "fr": "Jeu de cales d'épaisseur",
+        "en": "Feeler gauge set"
+      },
+      "taille": "0,05 à 0,30 mm au moins",
+      "categorie": "mesure",
+      "niveau": "complet",
+      "prix": {
+        "min": 5.76,
+        "moy": 5.76,
+        "max": 25.0,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "ok",
+        "sources": [
+          "src-lb-jauges-epaisseur",
+          "src-la-becanerie"
+        ]
+      },
+      "operations": [
+        "op-jeu-soupapes"
+      ],
+      "note": {
+        "fr": "Mesure entre came et poussoir : admission 0,10-0,15 mm, échappement 0,10-0,20 mm. Écartement des bougies 0,7-0,8 mm."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p77"
+      ]
+    },
+    {
+      "id": "ou-micrometre",
+      "nom": {
+        "fr": "Micromètre 0-25 mm",
+        "en": "0-25 mm micrometer"
+      },
+      "taille": "0-25 mm",
+      "categorie": "mesure",
+      "niveau": "complet",
+      "operations": [
+        "op-jeu-soupapes",
+        "op-disques-frein"
+      ],
+      "note": {
+        "fr": "Mesure de l'épaisseur des pastilles de soupapes et des disques (minimum 4,0 mm AV, 4,5 mm AR). Usage déduit, non cité par une source. Prix non relevé."
+      },
+      "confiance": "incertain",
+      "sources": [
+        "src-manuel-atelier#p78",
+        "src-manuel-atelier#p349"
+      ]
+    },
+    {
+      "id": "ou-cle-bougie",
+      "nom": {
+        "fr": "Clé à bougie et rallonge",
+        "en": "Spark plug socket and extension"
+      },
+      "taille": "16 mm (probable)",
+      "categorie": "douille",
+      "niveau": "complet",
+      "operations": [
+        "op-bougies"
+      ],
+      "note": {
+        "fr": "Le manuel parle d'une « clé à bougie spéciale ». 16 mm est probable pour une NGK de la série MR, non confirmé : mesurer. Prix non relevé."
+      },
+      "confiance": "incertain",
+      "sources": [
+        "src-manuel-atelier#p58"
+      ]
+    },
+    {
+      "id": "ou-derive-chaine",
+      "nom": {
+        "fr": "Dérive-chaîne et riveteuse 520",
+        "en": "520 chain breaker and riveting tool"
+      },
+      "taille": "pas 520",
+      "categorie": "chaine",
+      "niveau": "complet",
+      "prix": {
+        "min": 28.99,
+        "moy": 56.2,
+        "max": 225.0,
+        "devise": "EUR",
+        "par": {
+          "valeur": 1,
+          "unite": "piece"
+        },
+        "date": "2026-10-16",
+        "confiance": "ok",
+        "sources": [
+          "src-lb-rive-biketek",
+          "src-lb-rive-did",
+          "src-la-becanerie"
+        ]
+      },
+      "operations": [
+        "op-kit-chaine"
+      ],
+      "note": {
+        "fr": "Chaîne à attache rivée : presser la plaque extérieure sans excès, puis riveter."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p310",
+        "src-manuel-proprietaire#p175"
+      ]
+    },
+    {
+      "id": "ou-jauge-usure-chaine",
+      "nom": {
+        "fr": "Jauge d'usure de chaîne",
+        "en": "Chain wear gauge"
+      },
+      "categorie": "chaine",
+      "niveau": "complet",
+      "ref_aprilia": "Ognibene 529510001",
+      "operations": [
+        "op-controle-transmission",
+        "op-chaine-entretien",
+        "op-kit-chaine"
+      ],
+      "note": {
+        "fr": "Mesure sur 8 maillons ; remplacer la chaîne à 3 % d'allongement. Instrument Ognibene listé par le manuel d'atelier. Prix non relevé."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p309"
+      ]
+    },
+    {
+      "id": "ou-cle-ergot",
+      "nom": {
+        "fr": "Clé à ergot (crochet)",
+        "en": "Hook (C) spanner"
+      },
+      "categorie": "suspension",
+      "niveau": "complet",
+      "operations": [
+        "op-reglage-suspensions-charge"
+      ],
+      "note": {
+        "fr": "Bague de précharge et contre-bague de l'amortisseur arrière (flanc arrière gauche à déposer). Taille non relevée."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-proprietaire#p113"
+      ]
+    },
+    {
+      "id": "ou-tournevis-plat",
+      "nom": {
+        "fr": "Tournevis plat (vis de détente)",
+        "en": "Flat screwdriver (rebound screws)"
+      },
+      "categorie": "suspension",
+      "niveau": "complet",
+      "operations": [
+        "op-reglage-suspensions-charge"
+      ],
+      "note": {
+        "fr": "Vis de détente de la fourche et de l'amortisseur, comptées en clics depuis la position fermée : type d'empreinte non relevé."
+      },
+      "confiance": "incertain",
+      "sources": [
+        "src-manuel-proprietaire#p116"
+      ]
+    },
+    {
+      "id": "ou-arrache-roulement",
+      "nom": {
+        "fr": "Arrache-roulement et extracteur de joint",
+        "en": "Bearing puller and seal extractor"
+      },
+      "categorie": "roulements",
+      "niveau": "complet",
+      "operations": [
+        "op-controle-roues-roulements"
+      ],
+      "note": {
+        "fr": "Roulements de roues ; garniture mécanique de pompe à eau. Prix non relevé."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p276",
+        "src-af-pompe-eau"
+      ]
+    },
+    {
+      "id": "ou-pince-circlips",
+      "nom": {
+        "fr": "Pince à circlips",
+        "en": "Circlip pliers"
+      },
+      "categorie": "roulements",
+      "niveau": "complet",
+      "operations": [
+        "op-controle-roues-roulements"
+      ],
+      "note": {
+        "fr": "Circlips des roulements de roues. Prix non relevé."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p276"
+      ]
+    },
+    {
+      "id": "ou-pince-colliers",
+      "nom": {
+        "fr": "Pince à colliers et coupe-colliers",
+        "en": "Hose clamp pliers and cable-tie cutter"
+      },
+      "categorie": "atelier",
+      "niveau": "complet",
+      "operations": [
+        "op-bougies",
+        "op-remplacement-filtre-air",
+        "op-liquide-refroidissement"
+      ],
+      "note": {
+        "fr": "Colliers du réservoir, du canister et des durites. Prix non relevé."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p62",
+        "src-manuel-atelier#p88"
+      ]
+    },
+    {
+      "id": "ou-maillet-plastique",
+      "nom": {
+        "fr": "Maillet plastique",
+        "en": "Plastic mallet"
+      },
+      "categorie": "atelier",
+      "niveau": "complet",
+      "operations": [
+        "op-pneu-arriere",
+        "op-pneu-avant"
+      ],
+      "note": {
+        "fr": "Extraction et remise en place des axes de roue. Prix non relevé."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p283"
+      ]
+    },
+    {
+      "id": "ou-cric-moteur",
+      "nom": {
+        "fr": "Cric ou support moteur",
+        "en": "Engine jack or support"
+      },
+      "categorie": "levage",
+      "niveau": "complet",
+      "operations": [],
+      "note": {
+        "fr": "Soutenir le moteur pour déposer les boulons moteur (pose de tampons de protection). Prix non relevé."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-rg-cp0510-notice"
+      ]
+    },
+    {
+      "id": "ou-tire-ressort-echappement",
+      "nom": {
+        "fr": "Tire-ressort d'échappement",
+        "en": "Exhaust spring puller"
+      },
+      "categorie": "atelier",
+      "niveau": "complet",
+      "operations": [],
+      "note": {
+        "fr": "Dépose de la ligne d'échappement d'origine. Prix non relevé."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-notice-akrapovic-rs660"
+      ]
+    },
+    {
+      "id": "ou-pince-a-denuder",
+      "nom": {
+        "fr": "Pince à dénuder",
+        "en": "Wire stripper"
+      },
+      "categorie": "electricite",
+      "niveau": "complet",
+      "operations": [],
+      "note": {
+        "fr": "Pose d'accessoires électriques (support de plaque, clignotants). Outil générique ajouté pour les fiches de modifications ; besoin non vérifié dans les sources de l'entretien. Prix non relevé."
+      },
+      "confiance": "incertain"
+    },
+    {
+      "id": "ou-sp-021044y",
+      "nom": {
+        "fr": "Levier de désarmement d'arbre à cames d'admission",
+        "en": "Intake camshaft release lever"
+      },
+      "categorie": "special",
+      "niveau": "special",
+      "ref_aprilia": "021044Y",
+      "operations": [
+        "op-jeu-soupapes"
+      ],
+      "note": {
+        "fr": "Réglage du jeu aux soupapes d'admission."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p49",
+        "src-manuel-atelier#p74"
+      ]
+    },
+    {
+      "id": "ou-sp-021043y",
+      "nom": {
+        "fr": "Piges de calage d'arbres à cames (2 pièces)",
+        "en": "Camshaft timing pins (2 pcs)"
+      },
+      "categorie": "special",
+      "niveau": "special",
+      "ref_aprilia": "021043Y",
+      "operations": [
+        "op-jeu-soupapes"
+      ],
+      "note": {
+        "fr": "Calage de la distribution."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p49",
+        "src-manuel-atelier#p71"
+      ]
+    },
+    {
+      "id": "ou-sp-020851y",
+      "nom": {
+        "fr": "Pige de calage d'arbre à cames",
+        "en": "Camshaft timing pin"
+      },
+      "categorie": "special",
+      "niveau": "special",
+      "ref_aprilia": "020851Y",
+      "operations": [
+        "op-jeu-soupapes"
+      ],
+      "note": {
+        "fr": "Calage de la distribution."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p49",
+        "src-manuel-atelier#p71"
+      ]
+    },
+    {
+      "id": "ou-sp-669n5",
+      "nom": {
+        "fr": "Clé dynamométrique à cliquet, attache rectangulaire",
+        "en": "Torque wrench with rectangular fitting"
+      },
+      "categorie": "special",
+      "niveau": "special",
+      "ref_aprilia": "669N/5 (Beta)",
+      "operations": [
+        "op-jeu-soupapes"
+      ],
+      "note": {
+        "fr": "Vis du pignon d'arbre à cames (outil Beta)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p49",
+        "src-manuel-atelier#p69"
+      ]
+    },
+    {
+      "id": "ou-sp-736-10-10-1",
+      "nom": {
+        "fr": "Porte-embout pour clé à attache rectangulaire",
+        "en": "Bit holder for rectangular-fitting torque wrench"
+      },
+      "categorie": "special",
+      "niveau": "special",
+      "ref_aprilia": "736/10.10-1 (Stahlwille)",
+      "operations": [
+        "op-jeu-soupapes"
+      ],
+      "note": {
+        "fr": "S'utilise avec la clé 669N/5 (outil Stahlwille)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p49",
+        "src-manuel-atelier#p69"
+      ]
+    },
+    {
+      "id": "ou-sp-9100896",
+      "nom": {
+        "fr": "Bloque-cloche d'embrayage",
+        "en": "Clutch holding tool"
+      },
+      "categorie": "special",
+      "niveau": "special",
+      "ref_aprilia": "9100896",
+      "operations": [],
+      "note": {
+        "fr": "Écrou d'embrayage (175 Nm)."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p45",
+        "src-manuel-atelier#p49"
+      ]
+    },
+    {
+      "id": "ou-sp-021036y",
+      "nom": {
+        "fr": "Outil de blocage du vilebrequin côté volant",
+        "en": "Crankshaft locking tool (flywheel side)"
+      },
+      "categorie": "special",
+      "niveau": "special",
+      "ref_aprilia": "021036Y",
+      "operations": [],
+      "note": {
+        "fr": "Démontage moteur. Désignation lue dans la liste des outils spéciaux ; correspondance code-désignation à confirmer."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p49"
+      ]
+    },
+    {
+      "id": "ou-sp-021037y",
+      "nom": {
+        "fr": "Outil de pose du joint de pompe à eau",
+        "en": "Water pump seal installer"
+      },
+      "categorie": "special",
+      "niveau": "special",
+      "ref_aprilia": "021037Y",
+      "operations": [],
+      "note": {
+        "fr": "Pompe à eau. Correspondance code-désignation à confirmer."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p49"
+      ]
+    },
+    {
+      "id": "ou-sp-021038y",
+      "nom": {
+        "fr": "Étrier de support du vilebrequin",
+        "en": "Crankshaft support bracket"
+      },
+      "categorie": "special",
+      "niveau": "special",
+      "ref_aprilia": "021038Y",
+      "operations": [],
+      "note": {
+        "fr": "Démontage moteur. Correspondance code-désignation à confirmer."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p49"
+      ]
+    },
+    {
+      "id": "ou-sp-020431y",
+      "nom": {
+        "fr": "Extracteur de joints de queues de soupapes",
+        "en": "Valve stem seal extractor"
+      },
+      "categorie": "special",
+      "niveau": "special",
+      "ref_aprilia": "020431Y",
+      "operations": [],
+      "note": {
+        "fr": "Culasse. Correspondance code-désignation à confirmer."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p49"
+      ]
+    },
+    {
+      "id": "ou-sp-021039y",
+      "nom": {
+        "fr": "Gabarit de distance du capteur de vilebrequin",
+        "en": "Pick-up sensor gap gauge"
+      },
+      "categorie": "special",
+      "niveau": "special",
+      "ref_aprilia": "021039Y",
+      "operations": [],
+      "note": {
+        "fr": "Allumage. Correspondance code-désignation à confirmer."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p49"
+      ]
+    },
+    {
+      "id": "ou-sp-021040y",
+      "nom": {
+        "fr": "Outil de pose du joint d'arbre de sortie de boîte",
+        "en": "Output shaft seal installer"
+      },
+      "categorie": "special",
+      "niveau": "special",
+      "ref_aprilia": "021040Y",
+      "operations": [],
+      "note": {
+        "fr": "Joint côté pignon. Correspondance code-désignation à confirmer."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p49"
+      ]
+    },
+    {
+      "id": "ou-sp-021041y",
+      "nom": {
+        "fr": "Support moteur pour chevalet",
+        "en": "Engine stand bracket"
+      },
+      "categorie": "special",
+      "niveau": "special",
+      "ref_aprilia": "021041Y",
+      "operations": [],
+      "note": {
+        "fr": "Démontage moteur. Correspondance code-désignation à confirmer."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p49"
+      ]
+    },
+    {
+      "id": "ou-sp-021042y",
+      "nom": {
+        "fr": "Poinçon pour joints et roulements d'embrayage et de sélecteur",
+        "en": "Clutch and selector shaft seal/bearing punch"
+      },
+      "categorie": "special",
+      "niveau": "special",
+      "ref_aprilia": "021042Y",
+      "operations": [],
+      "note": {
+        "fr": "Boîte de vitesses. Correspondance code-désignation à confirmer."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p49"
+      ]
+    },
+    {
+      "id": "ou-sp-020980y",
+      "nom": {
+        "fr": "Collier à segments",
+        "en": "Piston ring compressor"
+      },
+      "categorie": "special",
+      "niveau": "special",
+      "ref_aprilia": "020980Y",
+      "operations": [],
+      "note": {
+        "fr": "Pistons. Correspondance code-désignation à confirmer."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p49"
+      ]
+    },
+    {
+      "id": "ou-sp-ap8140179",
+      "nom": {
+        "fr": "Support de pose et dépose des soupapes",
+        "en": "Valve removal/installation support"
+      },
+      "categorie": "special",
+      "niveau": "special",
+      "ref_aprilia": "AP8140179",
+      "operations": [],
+      "note": {
+        "fr": "Culasse. Correspondance code-désignation à confirmer."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p49"
+      ]
+    },
+    {
+      "id": "ou-sp-020853y",
+      "nom": {
+        "fr": "Compresseur de ressorts de soupapes d'admission",
+        "en": "Intake valve spring compressor"
+      },
+      "categorie": "special",
+      "niveau": "special",
+      "ref_aprilia": "020853Y",
+      "operations": [],
+      "note": {
+        "fr": "Culasse. Correspondance code-désignation à confirmer."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p49"
+      ]
+    },
+    {
+      "id": "ou-sp-020854y",
+      "nom": {
+        "fr": "Compresseur de ressorts de soupapes d'échappement",
+        "en": "Exhaust valve spring compressor"
+      },
+      "categorie": "special",
+      "niveau": "special",
+      "ref_aprilia": "020854Y",
+      "operations": [],
+      "note": {
+        "fr": "Culasse. Correspondance code-désignation à confirmer."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p49"
+      ]
+    },
+    {
+      "id": "ou-sp-020713y",
+      "nom": {
+        "fr": "Extracteur de volant (rotor)",
+        "en": "Flywheel (rotor) puller"
+      },
+      "categorie": "special",
+      "niveau": "special",
+      "ref_aprilia": "020713Y",
+      "operations": [],
+      "note": {
+        "fr": "Alternateur. Correspondance code-désignation à confirmer."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p49"
+      ]
+    },
+    {
+      "id": "ou-sp-020712y",
+      "nom": {
+        "fr": "Poignée de dépose du couvercle de volant",
+        "en": "Flywheel cover removal handle"
+      },
+      "categorie": "special",
+      "niveau": "special",
+      "ref_aprilia": "020712Y",
+      "operations": [],
+      "note": {
+        "fr": "Alternateur. Correspondance code-désignation à confirmer."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p49"
+      ]
+    },
+    {
+      "id": "ou-sp-020376y",
+      "nom": {
+        "fr": "Manche pour adaptateurs",
+        "en": "Handle for adaptors"
+      },
+      "categorie": "special",
+      "niveau": "special",
+      "ref_aprilia": "020376Y",
+      "operations": [
+        "op-controle-roues-roulements"
+      ],
+      "note": {
+        "fr": "Pose des roulements et joints de roue, avec l'adaptateur 020358Y."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p280"
+      ]
+    },
+    {
+      "id": "ou-sp-020358y",
+      "nom": {
+        "fr": "Adaptateur 37 × 40 mm",
+        "en": "37 x 40 mm adaptor"
+      },
+      "categorie": "special",
+      "niveau": "special",
+      "ref_aprilia": "020358Y",
+      "operations": [
+        "op-controle-roues-roulements"
+      ],
+      "note": {
+        "fr": "Roulements et joints de roue avant, avec le manche 020376Y."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p280"
+      ]
+    },
+    {
+      "id": "ou-sp-020414y",
+      "nom": {
+        "fr": "Poinçon 28 mm",
+        "en": "28 mm punch"
+      },
+      "categorie": "special",
+      "niveau": "special",
+      "ref_aprilia": "020414Y",
+      "operations": [
+        "op-controle-roues-roulements"
+      ],
+      "note": {
+        "fr": "Roulements. Correspondance code-désignation à confirmer."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p49"
+      ]
+    },
+    {
+      "id": "ou-sp-ap8140190",
+      "nom": {
+        "fr": "Outil de serrage de la direction",
+        "en": "Steering adjustment tool"
+      },
+      "categorie": "special",
+      "niveau": "special",
+      "ref_aprilia": "AP8140190",
+      "operations": [
+        "op-controle-direction"
+      ],
+      "note": {
+        "fr": "Écrou de réglage de la colonne : pré-serrage 60 Nm, puis 40 ± 5 Nm."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p24",
+        "src-manuel-atelier#p49"
+      ]
+    },
+    {
+      "id": "ou-sp-ap8140145",
+      "nom": {
+        "fr": "Outil de pose des joints de fourche",
+        "en": "Fork seal installer"
+      },
+      "categorie": "special",
+      "niveau": "special",
+      "ref_aprilia": "AP8140145",
+      "operations": [
+        "op-huile-fourche",
+        "op-controle-joints-spi-fourche"
+      ],
+      "note": {
+        "fr": "Fourche Kayaba. Correspondance code-désignation à confirmer."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p49"
+      ]
+    },
+    {
+      "id": "ou-sp-ap8140146",
+      "nom": {
+        "fr": "Masse de frappe (pose des joints de fourche)",
+        "en": "Slide hammer weight (fork seals)"
+      },
+      "categorie": "special",
+      "niveau": "special",
+      "ref_aprilia": "AP8140146",
+      "operations": [
+        "op-huile-fourche",
+        "op-controle-joints-spi-fourche"
+      ],
+      "note": {
+        "fr": "Fourche Kayaba. Correspondance code-désignation à confirmer."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p49"
+      ]
+    },
+    {
+      "id": "ou-sp-ap8140149",
+      "nom": {
+        "fr": "Protection de montage (fourche)",
+        "en": "Fork assembly protector"
+      },
+      "categorie": "special",
+      "niveau": "special",
+      "ref_aprilia": "AP8140149",
+      "operations": [
+        "op-huile-fourche",
+        "op-controle-joints-spi-fourche"
+      ],
+      "note": {
+        "fr": "Fourche Kayaba. Correspondance code-désignation à confirmer."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p49"
+      ]
+    },
+    {
+      "id": "ou-sp-020888s",
+      "nom": {
+        "fr": "Collier pour tube de précharge (fourche)",
+        "en": "Preload tube collar (fork)"
+      },
+      "categorie": "special",
+      "niveau": "special",
+      "ref_aprilia": "020888S",
+      "operations": [
+        "op-huile-fourche"
+      ],
+      "note": {
+        "fr": "Fourche Kayaba. Correspondance code-désignation à confirmer."
+      },
+      "confiance": "une_source",
+      "sources": [
+        "src-manuel-atelier#p49"
+      ]
+    },
+    {
+      "id": "ou-sp-020922y",
+      "nom": {
+        "fr": "Outil de diagnostic Aprilia",
+        "en": "Aprilia diagnostic tool"
+      },
+      "categorie": "diagnostic",
+      "niveau": "special",
+      "ref_aprilia": "020922Y",
+      "operations": [
+        "op-diagnostic-outil",
+        "op-mise-a-jour-logiciel",
+        "op-liquide-frein"
+      ],
+      "note": {
+        "fr": "Lecture des défauts, mise à jour de la calibration à chaque entretien, purge ABS avant (« FRONT BLEEDING »). Outil de concession."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p53",
+        "src-manuel-atelier#p55",
+        "src-manuel-atelier#p360"
+      ]
+    },
+    {
+      "id": "ou-sp-021017y",
+      "nom": {
+        "fr": "Câble OBD pour véhicules Euro 5",
+        "en": "OBD cable for Euro 5 vehicles"
+      },
+      "categorie": "diagnostic",
+      "niveau": "special",
+      "ref_aprilia": "021017Y",
+      "operations": [
+        "op-diagnostic-outil",
+        "op-mise-a-jour-logiciel",
+        "op-liquide-frein"
+      ],
+      "note": {
+        "fr": "Relie l'outil de diagnostic 020922Y à la moto."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p53"
+      ]
+    }
+  ]
+}

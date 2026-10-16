@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" width="1600" height="1000">
+<!-- Torque - plaquettes AV : coupe de l'étrier radial et pièces déposées - dessin original, licence CC BY 4.0. Aucun logo, aucune photo ni vue éclatée reproduite. -->
+<style>
+.trait{fill:none;stroke:#1d2229;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.carene{fill:#6c7d96;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.sombre{fill:#474f5c;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.moteur{fill:#7b8490;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.mecanique{fill:#aab3bf;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.metal{fill:#c9cfd8;stroke:#1d2229;stroke-width:2.5;stroke-linejoin:round}
+.echappement{fill:#8d8a85;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.pneu{fill:#373c44;stroke:#8d97a6;stroke-width:3}
+.detail{fill:none;stroke:#1d2229;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.detail-clair{fill:none;stroke:#c3cad4;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.optique{fill:#e3ebf4;stroke:#1d2229;stroke-width:2.5;stroke-linejoin:round}
+.feu{fill:#d8463f;stroke:#1d2229;stroke-width:2.5;stroke-linejoin:round}
+.orange{fill:#e8901f;stroke:#1d2229;stroke-width:2.5;stroke-linejoin:round}
+.vitre{fill:#9cc3e8;fill-opacity:.35;stroke:#1d2229;stroke-width:3;stroke-linejoin:round}
+.cache{fill:#e8901f;fill-opacity:.16;stroke:#d9731a;stroke-width:2.5;stroke-dasharray:9 6;stroke-linejoin:round}
+.depose{fill:none;stroke:#8d97a6;stroke-width:2.5;stroke-dasharray:12 8;stroke-linejoin:round}
+.sol{fill:none;stroke:#8d97a6;stroke-width:2;stroke-dasharray:4 10;stroke-linecap:round}
+.cote{fill:none;stroke:#d9731a;stroke-width:3;stroke-linecap:round;stroke-linejoin:round}
+.fleche{fill:#d9731a;stroke:none}
+.cote-texte{fill:#d9731a;font-family:Arial,Helvetica,sans-serif;font-weight:bold}
+.fluide{fill:#c08a2a;fill-opacity:.85;stroke:#1d2229;stroke-width:2}
+.liquide-frein{fill:#d9b44a;fill-opacity:.7;stroke:#1d2229;stroke-width:2}
+.chaine{fill:none;stroke:#1d2229;stroke-width:12;stroke-linejoin:round}
+.chaine-maillons{fill:none;stroke:#aab3bf;stroke-width:6;stroke-dasharray:7 5;stroke-linejoin:round}
+.vert{fill:#3fae5a;stroke:#1d2229;stroke-width:2.5}
+.rouge{fill:#d8463f;stroke:#1d2229;stroke-width:2.5}
+.bleu{fill:#3f7fd8;stroke:#1d2229;stroke-width:2.5}
+.ecran{fill:#20262e;stroke:#1d2229;stroke-width:3}
+</style>
+<g id="co-disque-avant">
+<rect class="metal" x="788" y="610" width="24" height="380"/>
+</g>
+<g id="co-fourche">
+<rect class="mecanique" x="1010" y="905" width="190" height="85" rx="8"/>
+</g>
+<g id="co-etrier-avant">
+<polygon class="sombre" points="470,560 712,560 712,640 650,640 650,830 712,830 712,900 470,900"/>
+<polygon class="sombre" points="1130,560 888,560 888,640 950,640 950,830 888,830 888,900 1130,900"/>
+<rect class="depose" x="710" y="640" width="76" height="190"/>
+<rect class="depose" x="814" y="640" width="76" height="190"/>
+<rect class="depose" x="440" y="580" width="720" height="20" rx="6"/>
+</g>
+<g id="co-pistons">
+<rect class="metal" x="652" y="670" width="56" height="140" rx="6"/>
+<rect class="metal" x="892" y="670" width="56" height="140" rx="6"/>
+<line class="cote" x1="694" y1="740" x2="618" y2="740" style="stroke-width:6"/>
+<polygon class="fleche" points="596,740 618,727.9 618,752.1"/>
+<line class="cote" x1="906" y1="740" x2="982" y2="740" style="stroke-width:6"/>
+<polygon class="fleche" points="1004,740 982,752.1 982,727.9"/>
+</g>
+<g id="co-vis-etrier">
+<rect class="metal" x="1058" y="548" width="24" height="440"/>
+<rect class="mecanique" x="1044" y="520" width="52" height="34" rx="4"/>
+<polygon class="sombre" points="1081,537 1075.5,527.5 1064.5,527.5 1059,537 1064.5,546.5 1075.5,546.5"/>
+</g>
+<g id="co-plaquettes-avant">
+<rect class="metal" x="712" y="290" width="18" height="190"/>
+<rect class="metal" x="708" y="254" width="26" height="56" rx="8"/>
+<circle class="sombre" cx="721" cy="276" r="8"/>
+<rect class="echappement" x="730" y="318" width="56" height="154" rx="4"/>
+<rect class="metal" x="870" y="290" width="18" height="190"/>
+<rect class="metal" x="866" y="254" width="26" height="56" rx="8"/>
+<circle class="sombre" cx="879" cy="276" r="8"/>
+<rect class="echappement" x="814" y="318" width="56" height="154" rx="4"/>
+<line class="cote" x1="800" y1="548" x2="800" y2="514" style="stroke-width:6"/>
+<polygon class="fleche" points="800,492 812.1,514 787.9,514"/>
+</g>
+<line class="depose" x1="721" y1="486" x2="721" y2="636" style="stroke-width:2"/>
+<line class="depose" x1="879" y1="486" x2="879" y2="636" style="stroke-width:2"/>
+<g id="co-ressort-plaquettes">
+<path class="trait" d="M670,214 L716,214 L740,190 L860,190 L884,214 L930,214" style="stroke:#1d2229;stroke-width:13"/>
+<path class="trait" d="M670,214 L716,214 L740,190 L860,190 L884,214 L930,214" style="stroke:#c9cfd8;stroke-width:7"/>
+<line class="cote" x1="800" y1="186" x2="800" y2="158" style="stroke-width:5"/>
+<polygon class="fleche" points="800,140 809.9,158 790.1,158"/>
+</g>
+<g id="co-axe-plaquettes">
+<rect class="metal" x="300" y="80" width="700" height="22" rx="6"/>
+<rect class="mecanique" x="272" y="72" width="32" height="38" rx="4"/>
+<path class="sombre" d="M280,91 L288,83 L296,91 L288,99 Z"/>
+<line class="cote" x1="560" y1="134" x2="364" y2="134" style="stroke-width:6"/>
+<polygon class="fleche" points="340,134 364,120.8 364,147.2"/>
+</g>
+<g id="co-goupille-axe">
+<path class="trait" d="M1030,80 C1070,60 1090,92 1062,112 C1042,124 1020,118 1012,102" style="stroke-width:8"/>
+<path class="trait" d="M1030,80 C1070,60 1090,92 1062,112 C1042,124 1020,118 1012,102" style="stroke:#c9cfd8;stroke-width:4"/>
+</g>
+<g id="cote-usure-plaquette">
+<rect class="metal" x="1300" y="340" width="30" height="300"/>
+<rect class="echappement" x="1330" y="370" width="110" height="240"/>
+<line class="cote" x1="1352" y1="330" x2="1352" y2="650" style="stroke-width:3;stroke-dasharray:8 6"/>
+<line class="cote" x1="1284" y1="690" x2="1316" y2="690" style="stroke-width:3"/>
+<polygon class="fleche" points="1330,690 1316,697.7 1316,682.3"/>
+<line class="cote" x1="1398" y1="690" x2="1366" y2="690" style="stroke-width:3"/>
+<polygon class="fleche" points="1352,690 1366,682.3 1366,697.7"/>
+<line class="cote" x1="1330" y1="650" x2="1330" y2="705" style="stroke-width:2"/>
+<text class="cote-texte" x="1341" y="750" font-size="36" text-anchor="middle">1,5 mm</text>
+</g>
+</svg>

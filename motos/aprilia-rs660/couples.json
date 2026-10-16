@@ -1,0 +1,1772 @@
+{
+  "version_schema": 1,
+  "maj": "2026-10-16",
+  "couples": [
+    {
+      "id": "cp-ecrous-retroviseurs",
+      "element": {
+        "fr": "Écrous de fixation des rétroviseurs",
+        "en": "Mirror mounting nuts"
+      },
+      "valeur_nm": 4,
+      "filetage": "M6",
+      "nombre": 4,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Écrous à embase."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p21"]
+    },
+    {
+      "id": "cp-fixations-tete-de-fourche",
+      "element": {
+        "fr": "Vis de fixation de la tête de fourche",
+        "en": "Top fairing fastening screws"
+      },
+      "valeur_nm": 0.5,
+      "filetage": "M4",
+      "nombre": 4,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Vis TBEI."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p21"]
+    },
+    {
+      "id": "cp-axe-roue-avant",
+      "element": {
+        "fr": "Axe de roue avant",
+        "en": "Front wheel axle"
+      },
+      "valeur_nm": 65,
+      "filetage": "M16",
+      "nombre": 1,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Voir aussi la vis de blocage de l’axe dans le pied de fourche (18 Nm). Factory 2026 : axe de roue avant de référence différente selon un revendeur, couple non vérifié."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p22", "src-manuel-atelier#p274"]
+    },
+    {
+      "id": "cp-vis-blocage-axe-avant",
+      "element": {
+        "fr": "Vis de blocage de l’axe de roue avant (pied de fourche)",
+        "en": "Front axle pinch screw (fork foot)"
+      },
+      "valeur_nm": 18,
+      "filetage": "M8",
+      "nombre": 1,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Valeur de la fourche KYB (non vérifiée pour la fourche Öhlins de la Factory)."
+      },
+      "versions": ["standard", "a2", "limited-edition", "extrema"],
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p23"]
+    },
+    {
+      "id": "cp-disques-avant",
+      "element": {
+        "fr": "Vis des disques de frein avant",
+        "en": "Front brake disc screws"
+      },
+      "valeur_nm": 25,
+      "filetage": "M8",
+      "nombre": 12,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Vis à tête hexagonale à embase M8 × 20, 6 par disque."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p22", "src-manuel-atelier#p274"]
+    },
+    {
+      "id": "cp-capteur-abs-avant",
+      "element": {
+        "fr": "Vis du capteur ABS avant",
+        "en": "Front ABS sensor screw"
+      },
+      "valeur_nm": 6,
+      "filetage": "M5",
+      "nombre": 1,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p23"]
+    },
+    {
+      "id": "cp-etriers-avant",
+      "element": {
+        "fr": "Vis de fixation des étriers de frein avant",
+        "en": "Front brake caliper mounting bolts"
+      },
+      "valeur_nm": 50,
+      "filetage": "M10",
+      "nombre": 4,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Vis TCC M10 × 55, 2 par étrier. Pomper le levier avant de rouler."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p23", "src-youtube-plaquettes-rs660", "src-apriliaforum-couples"]
+    },
+    {
+      "id": "cp-bouchons-fourche",
+      "element": {
+        "fr": "Bouchons de fourche",
+        "en": "Fork caps"
+      },
+      "valeur_nm": 22.5,
+      "nombre": 2,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Fourche KYB (non vérifié pour la fourche Öhlins de la Factory)."
+      },
+      "versions": ["standard", "a2", "limited-edition", "extrema"],
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p22"]
+    },
+    {
+      "id": "cp-contre-ecrous-bouchons-fourche",
+      "element": {
+        "fr": "Contre-écrous des bouchons de fourche",
+        "en": "Fork cap lock nuts"
+      },
+      "valeur_nm": 15,
+      "nombre": 2,
+      "freinfilet": "aucun",
+      "versions": ["standard", "a2", "limited-edition", "extrema"],
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p23"]
+    },
+    {
+      "id": "cp-vis-cartouche-fourche",
+      "element": {
+        "fr": "Vis de fixation du plongeur (pied de fourche)",
+        "en": "Fork plunger fastening screws"
+      },
+      "valeur_nm": 22.5,
+      "nombre": 2,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "« Plunger fastening screw » dans le manuel."
+      },
+      "versions": ["standard", "a2", "limited-edition", "extrema"],
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p23"]
+    },
+    {
+      "id": "cp-te-superieur-tubes",
+      "element": {
+        "fr": "Vis de serrage du té supérieur sur les tubes de fourche",
+        "en": "Upper yoke to fork tube clamp screws"
+      },
+      "valeur_nm": 25,
+      "filetage": "M8",
+      "nombre": 2,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Vis SHC M8 × 40."
+      },
+      "versions": ["standard", "a2", "limited-edition", "extrema"],
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p24", "src-apriliaforum-couples"]
+    },
+    {
+      "id": "cp-te-inferieur-tubes",
+      "element": {
+        "fr": "Vis de serrage du té inférieur sur les tubes de fourche",
+        "en": "Lower yoke to fork tube clamp screws"
+      },
+      "valeur_nm": 25,
+      "filetage": "M8",
+      "nombre": 4,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Vis SHC M8 × 35."
+      },
+      "versions": ["standard", "a2", "limited-edition", "extrema"],
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p24", "src-apriliaforum-couples"]
+    },
+    {
+      "id": "cp-bouchon-te-superieur",
+      "element": {
+        "fr": "Bouchon de fixation du té supérieur",
+        "en": "Upper yoke fixing cap"
+      },
+      "valeur_nm": 100,
+      "nombre": 1,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p24"]
+    },
+    {
+      "id": "cp-ecrou-reglage-direction",
+      "element": {
+        "fr": "Écrou de réglage de la colonne de direction",
+        "en": "Steering head adjusting ring nut"
+      },
+      "valeur_nm": 40,
+      "plage_nm": [35, 45],
+      "nombre": 1,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Pré-serrer à 60 Nm avec l’outil spécifique (AP8140190), braquer à fond à gauche et à droite pour mettre les roulements en place, desserrer, puis serrer à 40 ± 5 Nm. Le contre-écrou supérieur se serre à la main. Contrôle : roue avant décollée, la résistance à la rotation du guidon, mesurée au bout de la poignée, doit être de 250 ± 100 g dans les deux sens."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p24",
+        "src-manuel-atelier#p258",
+        "src-manuel-atelier#p259",
+        "src-manuel-atelier#p260"
+      ]
+    },
+    {
+      "id": "cp-butees-direction",
+      "element": {
+        "fr": "Écrous autofreinés des butées de direction",
+        "en": "Steering stop pin self-locking nuts"
+      },
+      "valeur_nm": 25,
+      "filetage": "M8",
+      "nombre": 2,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p24"]
+    },
+    {
+      "id": "cp-demi-guidons",
+      "element": {
+        "fr": "Vis de fixation des demi-guidons",
+        "en": "Clip-on handlebar screws"
+      },
+      "valeur_nm": 46,
+      "filetage": "M10",
+      "nombre": 2,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Vis Torx à tête bombée M10 × 55."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p24"]
+    },
+    {
+      "id": "cp-contrepoids-guidon",
+      "element": {
+        "fr": "Vis des contrepoids de guidon",
+        "en": "Handlebar end weight screws"
+      },
+      "valeur_nm": 6,
+      "filetage": "M5",
+      "nombre": 2,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Valeur non imprimée dans le manuel (« ... Nm ») : le manuel renvoie alors au couple générique, soit 6 Nm pour une vis M5 (vis SHC M5 × 50)."
+      },
+      "confiance": "incertain",
+      "sources": ["src-manuel-atelier#p24", "src-manuel-atelier#p20"]
+    },
+    {
+      "id": "cp-commodos",
+      "element": {
+        "fr": "Vis des commodos droit et gauche",
+        "en": "Right and left switchgear screws"
+      },
+      "valeur_nm": 4,
+      "filetage": "M5",
+      "nombre": 2,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Une vis par commodo."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p24"]
+    },
+    {
+      "id": "cp-commande-embrayage",
+      "element": {
+        "fr": "Vis de fixation de la commande d’embrayage au guidon",
+        "en": "Clutch control mounting screw"
+      },
+      "valeur_nm": 10,
+      "filetage": "M6",
+      "nombre": 1,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p25"]
+    },
+    {
+      "id": "cp-maitre-cylindre-avant",
+      "element": {
+        "fr": "Vis de fixation du maître-cylindre de frein avant",
+        "en": "Front brake master cylinder screws"
+      },
+      "valeur_nm": 10,
+      "filetage": "M6",
+      "nombre": 2,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p25"]
+    },
+    {
+      "id": "cp-support-tableau-de-bord",
+      "element": {
+        "fr": "Vis du support de tableau de bord sur le cadre",
+        "en": "Instrument cluster bracket screws"
+      },
+      "valeur_nm": 6.5,
+      "filetage": "M6",
+      "nombre": 4,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Vis TCCIC M6 × 20."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p26"]
+    },
+    {
+      "id": "cp-berceau-selle",
+      "element": {
+        "fr": "Vis de fixation du cadre arrière (support de selle)",
+        "en": "Saddle mounting frame screws"
+      },
+      "valeur_nm": 50,
+      "filetage": "M10",
+      "nombre": 2,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Vis SHC M10 × 30."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p27"]
+    },
+    {
+      "id": "cp-axe-berceau-selle",
+      "element": {
+        "fr": "Écrou autofreiné de l’axe du cadre arrière",
+        "en": "Saddle mounting frame pin self-locking nut"
+      },
+      "valeur_nm": 50,
+      "filetage": "M10",
+      "nombre": 1,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p27"]
+    },
+    {
+      "id": "cp-supports-moteur-m8",
+      "element": {
+        "fr": "Vis des supports moteur sur le cadre (M8)",
+        "en": "Engine bracket to frame screws (M8)"
+      },
+      "valeur_nm": 25,
+      "filetage": "M8",
+      "nombre": 4,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Vis M8 × 20."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p27"]
+    },
+    {
+      "id": "cp-supports-moteur-m10",
+      "element": {
+        "fr": "Vis des supports moteur sur le cadre (M10)",
+        "en": "Engine bracket to frame screws (M10)"
+      },
+      "valeur_nm": 50,
+      "filetage": "M10",
+      "nombre": 4,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p27"]
+    },
+    {
+      "id": "cp-axe-moteur",
+      "element": {
+        "fr": "Écrou de l’axe moteur sur le cadre",
+        "en": "Engine pin to frame nut"
+      },
+      "valeur_nm": 50,
+      "filetage": "M12",
+      "nombre": 1,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p27"]
+    },
+    {
+      "id": "cp-carenage-interieur-radiateur",
+      "element": {
+        "fr": "Vis du carénage intérieur sur le radiateur",
+        "en": "Inner fairing to radiator screws"
+      },
+      "valeur_nm": 18,
+      "filetage": "M5",
+      "nombre": 4,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Valeur imprimée dans le manuel, inhabituelle pour une vis M5 de carénage (couple générique M5 : 6 Nm) : la faire confirmer avant de serrer."
+      },
+      "confiance": "incertain",
+      "sources": ["src-manuel-atelier#p27"]
+    },
+    {
+      "id": "cp-garde-boue-avant",
+      "element": {
+        "fr": "Vis du garde-boue avant",
+        "en": "Front mudguard screws"
+      },
+      "valeur_nm": 3,
+      "filetage": "M5",
+      "nombre": 4,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p28"]
+    },
+    {
+      "id": "cp-raccords-reniflard-reservoir",
+      "element": {
+        "fr": "Raccords de mise à l’air du réservoir",
+        "en": "Fuel tank breather couplings"
+      },
+      "valeur_nm": 3,
+      "filetage": "M7",
+      "nombre": 2,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p28"]
+    },
+    {
+      "id": "cp-pompe-essence",
+      "element": {
+        "fr": "Vis de la bride de pompe à essence",
+        "en": "Fuel pump flange screws"
+      },
+      "valeur_nm": 4,
+      "filetage": "M5",
+      "nombre": 6,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Vis à embase M5 × 15."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p28"]
+    },
+    {
+      "id": "cp-bouchon-reservoir",
+      "element": {
+        "fr": "Vis du bouchon de réservoir et de son plateau",
+        "en": "Fuel cap and tray screws"
+      },
+      "valeur_nm": 4,
+      "filetage": "M5",
+      "nombre": 7,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p29"]
+    },
+    {
+      "id": "cp-contacteur-cle",
+      "element": {
+        "fr": "Vis SHC du contacteur à clé",
+        "en": "Ignition switch SHC screw"
+      },
+      "valeur_nm": 20,
+      "filetage": "M8",
+      "nombre": 1,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Vis M8 × 40. L’autre vis du contacteur est une vis à tête cassable, serrée jusqu’à rupture de la tête."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p29"]
+    },
+    {
+      "id": "cp-capteur-temperature-air",
+      "element": {
+        "fr": "Vis du capteur de température d’air (boîte à air)",
+        "en": "Intake air temperature sensor screws"
+      },
+      "valeur_nm": 0.65,
+      "plage_nm": [0.5, 0.8],
+      "nombre": 2,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Vis autotaraudeuses dans le plastique."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p30"]
+    },
+    {
+      "id": "cp-couvercle-boite-a-air",
+      "element": {
+        "fr": "Vis du couvercle de boîte à air",
+        "en": "Air box lid screws"
+      },
+      "valeur_nm": 1.1,
+      "plage_nm": [1, 1.2],
+      "filetage": "M5",
+      "nombre": 11,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Vis TCB à embase M5 × 20 dans du plastique : serrer très légèrement."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p30", "src-manuel-atelier#p61"]
+    },
+    {
+      "id": "cp-support-soupape-boite-a-air",
+      "element": {
+        "fr": "Vis du support de soupape de purge (boîte à air)",
+        "en": "Air box bleed valve bracket screw"
+      },
+      "valeur_nm": 1.1,
+      "plage_nm": [1, 1.2],
+      "filetage": "M5",
+      "nombre": 1,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p30"]
+    },
+    {
+      "id": "cp-base-boite-a-air-canister",
+      "element": {
+        "fr": "Vis de la base de boîte à air sur le support de canister",
+        "en": "Air box base to canister bracket screw"
+      },
+      "valeur_nm": 1.1,
+      "plage_nm": [1, 1.2],
+      "filetage": "M5",
+      "nombre": 1,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Vis spéciale TBEI M5 × 25."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p30"]
+    },
+    {
+      "id": "cp-capteur-pression-air",
+      "element": {
+        "fr": "Vis du capteur de pression d’air (corps papillon)",
+        "en": "Air pressure sensor screw (throttle body)"
+      },
+      "valeur_nm": 1.1,
+      "plage_nm": [1, 1.2],
+      "nombre": 1,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Vis autotaraudeuse."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p30"]
+    },
+    {
+      "id": "cp-radiateur-support",
+      "element": {
+        "fr": "Vis de fixation du radiateur sur son support",
+        "en": "Radiator to bracket screws"
+      },
+      "valeur_nm": 6,
+      "filetage": "M6",
+      "nombre": 2,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p31"]
+    },
+    {
+      "id": "cp-ventilateur-radiateur",
+      "element": {
+        "fr": "Vis du ventilateur sur le radiateur",
+        "en": "Cooling fan to radiator screws"
+      },
+      "valeur_nm": 7.5,
+      "filetage": "M6",
+      "nombre": 3,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p31"]
+    },
+    {
+      "id": "cp-sondes-lambda",
+      "element": {
+        "fr": "Sondes lambda",
+        "en": "Lambda probes"
+      },
+      "valeur_nm": 25,
+      "filetage": "M12",
+      "nombre": 2,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Ne pas inverser les sondes gauche et droite ; débrancher leurs connecteurs avant de les dévisser."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p31", "src-notice-akrapovic-rs660", "src-youtube-sc-project-rs660"]
+    },
+    {
+      "id": "cp-ecrous-collecteur-echappement",
+      "element": {
+        "fr": "Écrous de bride du collecteur d’échappement",
+        "en": "Exhaust manifold flange nuts"
+      },
+      "valeur_nm": 13,
+      "filetage": "M7",
+      "nombre": 4,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p32", "src-notice-akrapovic-rs660"]
+    },
+    {
+      "id": "cp-repose-pieds-pilote",
+      "element": {
+        "fr": "Vis des platines repose-pieds pilote sur le carter",
+        "en": "Rider footpeg plate to crankcase screws"
+      },
+      "valeur_nm": 45,
+      "filetage": "M10",
+      "nombre": 2,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Vis TE à embase."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p32"]
+    },
+    {
+      "id": "cp-repose-pieds-passager",
+      "element": {
+        "fr": "Vis des repose-pieds passager",
+        "en": "Passenger footpeg screws"
+      },
+      "valeur_nm": 25,
+      "filetage": "M8",
+      "nombre": 4,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Vis SHC M8 × 45."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p32"]
+    },
+    {
+      "id": "cp-axe-levier-selecteur",
+      "element": {
+        "fr": "Écrou de l’axe du levier de sélecteur",
+        "en": "Gear lever pin nut"
+      },
+      "valeur_nm": 25,
+      "filetage": "M8",
+      "nombre": 1,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p33"]
+    },
+    {
+      "id": "cp-rotule-biellette-selecteur",
+      "element": {
+        "fr": "Rotule de la biellette de sélecteur sur le levier",
+        "en": "Gear linkage ball joint on lever"
+      },
+      "valeur_nm": 8.5,
+      "filetage": "M6",
+      "nombre": 1,
+      "freinfilet": "moyen",
+      "note": {
+        "fr": "Loctite 243."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p33"]
+    },
+    {
+      "id": "cp-vis-levier-selecteur",
+      "element": {
+        "fr": "Vis de serrage du levier de sélecteur (bulletin 2022)",
+        "en": "Gear lever clamp screw (2022 service bulletin)"
+      },
+      "valeur_nm": 17,
+      "nombre": 1,
+      "freinfilet": "moyen",
+      "note": {
+        "fr": "Bulletin Piaggio A_220510_TC_EN (lot limité de RS, Tuono et Tuareg 660 E5) : contrôler le serrage à 15 Nm et tirer 2 ou 3 fois sur le levier ; s’il tient, appliquer de la Loctite 243 et serrer à 17 Nm ; s’il bouge, faire remplacer le levier (réf. 2B011144). Vérifier l’usure des cannelures."
+      },
+      "confiance": "ok",
+      "sources": ["src-tsb-levier-selecteur-2022"]
+    },
+    {
+      "id": "cp-axe-pedale-frein",
+      "element": {
+        "fr": "Axe de la pédale de frein arrière",
+        "en": "Rear brake pedal pivot pin"
+      },
+      "valeur_nm": 25,
+      "filetage": "M8",
+      "nombre": 1,
+      "note": {
+        "fr": "Avec frein-filet (type non précisé par le manuel)."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p33"]
+    },
+    {
+      "id": "cp-maitre-cylindre-arriere",
+      "element": {
+        "fr": "Vis du maître-cylindre de frein arrière",
+        "en": "Rear brake master cylinder screws"
+      },
+      "valeur_nm": 8,
+      "filetage": "M6",
+      "nombre": 2,
+      "note": {
+        "fr": "Vis TE à embase M6 × 16. Avec frein-filet (type non précisé par le manuel)."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p33"]
+    },
+    {
+      "id": "cp-axe-bequille-support",
+      "element": {
+        "fr": "Axe de béquille latérale sur son support",
+        "en": "Side stand pin to bracket"
+      },
+      "valeur_nm": 12,
+      "nombre": 1,
+      "freinfilet": "moyen",
+      "note": {
+        "fr": "Loctite 243."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p34"]
+    },
+    {
+      "id": "cp-ecrou-axe-bequille",
+      "element": {
+        "fr": "Écrou de l’axe de béquille latérale",
+        "en": "Side stand pin nut"
+      },
+      "valeur_nm": 30,
+      "filetage": "M10",
+      "nombre": 1,
+      "freinfilet": "moyen",
+      "note": {
+        "fr": "Loctite 243."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p34"]
+    },
+    {
+      "id": "cp-bequille-carter",
+      "element": {
+        "fr": "Vis du support de béquille sur le carter moteur",
+        "en": "Side stand bracket to crankcase screws"
+      },
+      "valeur_nm": 45,
+      "filetage": "M10",
+      "nombre": 2,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p34"]
+    },
+    {
+      "id": "cp-regulateur-tension",
+      "element": {
+        "fr": "Vis du régulateur de tension",
+        "en": "Voltage regulator screws"
+      },
+      "valeur_nm": 6,
+      "filetage": "M6",
+      "nombre": 2,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Vis à tête bombée six pans creux M6 × 30."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p35"]
+    },
+    {
+      "id": "cp-klaxon",
+      "element": {
+        "fr": "Vis de fixation du klaxon",
+        "en": "Horn mounting screw"
+      },
+      "valeur_nm": 15,
+      "filetage": "M8",
+      "nombre": 1,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p35"]
+    },
+    {
+      "id": "cp-cables-relais-demarreur",
+      "element": {
+        "fr": "Vis des câbles du relais de démarreur",
+        "en": "Starter relay cable screws"
+      },
+      "valeur_nm": 4,
+      "filetage": "M5",
+      "nombre": 2,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p35"]
+    },
+    {
+      "id": "cp-masse-moteur",
+      "element": {
+        "fr": "Vis du câble de masse sur le moteur",
+        "en": "Engine ground cable screws"
+      },
+      "valeur_nm": 10,
+      "filetage": "M6",
+      "nombre": 2,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p35"]
+    },
+    {
+      "id": "cp-centrale-inertielle",
+      "element": {
+        "fr": "Vis de la centrale inertielle",
+        "en": "Inertial platform screws"
+      },
+      "valeur_nm": 7.5,
+      "filetage": "M6",
+      "nombre": 2,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Vis TEFL M6 × 25."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p35"]
+    },
+    {
+      "id": "cp-poignees-arriere",
+      "element": {
+        "fr": "Vis des poignées passager",
+        "en": "Rear grab handle screws"
+      },
+      "valeur_nm": 18,
+      "filetage": "M8",
+      "nombre": 4,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p36"]
+    },
+    {
+      "id": "cp-couronne",
+      "element": {
+        "fr": "Écrous de couronne",
+        "en": "Rear sprocket nuts"
+      },
+      "valeur_nm": 50,
+      "filetage": "M10",
+      "nombre": 5,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p37", "src-manuel-atelier#p282"]
+    },
+    {
+      "id": "cp-disque-arriere",
+      "element": {
+        "fr": "Vis du disque de frein arrière",
+        "en": "Rear brake disc screws"
+      },
+      "valeur_nm": 25,
+      "filetage": "M8",
+      "nombre": 5,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Vis TE à embase M8 × 20, à serrer dans l’ordre indiqué par le manuel (A-B-C-D-E)."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p37", "src-manuel-atelier#p282", "src-manuel-atelier#p350"]
+    },
+    {
+      "id": "cp-ecrou-axe-roue-arriere",
+      "element": {
+        "fr": "Écrou d’axe de roue arrière",
+        "en": "Rear wheel axle nut"
+      },
+      "valeur_nm": 120,
+      "filetage": "M20",
+      "nombre": 1,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Serrer après avoir réglé la chaîne et bloqué les contre-écrous des tendeurs, puis recontrôler la flèche."
+      },
+      "confiance": "ok",
+      "sources": [
+        "src-manuel-atelier#p37",
+        "src-manuel-atelier#p282",
+        "src-manuel-atelier#p313",
+        "src-tsb-frein-arriere-2022",
+        "src-apriliaforum-couples"
+      ]
+    },
+    {
+      "id": "cp-axe-bras-oscillant",
+      "element": {
+        "fr": "Écrou autofreiné de l’axe de bras oscillant",
+        "en": "Swingarm pivot self-locking nut"
+      },
+      "valeur_nm": 110,
+      "filetage": "M16",
+      "nombre": 1,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Le manuel imprime « 4,33 lbf ft » par erreur ; 110 Nm valent environ 81 lbf ft."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p37"]
+    },
+    {
+      "id": "cp-patin-chaine",
+      "element": {
+        "fr": "Vis du patin de chaîne",
+        "en": "Chain slider screws"
+      },
+      "valeur_nm": 2,
+      "filetage": "M5",
+      "nombre": 2,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Vis SHC à embase M5 × 16."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p37"]
+    },
+    {
+      "id": "cp-amortisseur",
+      "element": {
+        "fr": "Écrous de fixation de l’amortisseur arrière",
+        "en": "Rear shock mounting nuts"
+      },
+      "valeur_nm": 50,
+      "filetage": "M10",
+      "nombre": 2,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Écrous autofreinés à embase."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p38"]
+    },
+    {
+      "id": "cp-etrier-arriere",
+      "element": {
+        "fr": "Vis de fixation de l’étrier de frein arrière",
+        "en": "Rear brake caliper mounting screws"
+      },
+      "valeur_nm": 25,
+      "filetage": "M8",
+      "nombre": 2,
+      "note": {
+        "fr": "Vis TE à embase. Avec frein-filet (type non précisé par le manuel)."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p38"]
+    },
+    {
+      "id": "cp-capteur-abs-arriere",
+      "element": {
+        "fr": "Vis du capteur ABS arrière",
+        "en": "Rear ABS sensor screw"
+      },
+      "valeur_nm": 6,
+      "filetage": "M5",
+      "nombre": 1,
+      "note": {
+        "fr": "Vis TBEI M5 × 16. Avec frein-filet (type non précisé par le manuel)."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p39"]
+    },
+    {
+      "id": "cp-carter-m10",
+      "element": {
+        "fr": "Vis d’assemblage des demi-carters M10 (serrage angulaire)",
+        "en": "Crankcase half M10 screws (angle tightening)"
+      },
+      "valeur_nm": 20,
+      "filetage": "M10",
+      "nombre": 6,
+      "freinfilet": "aucun",
+      "graisse": {
+        "fr": "Huile moteur sur les filets"
+      },
+      "note": {
+        "fr": "Vis M10 × 65. Serrage en 3 étapes : 15 Nm, puis 20 Nm + 30°, puis encore 30° (couple résultant d’environ 65 Nm)."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p39"]
+    },
+    {
+      "id": "cp-carter-m8",
+      "element": {
+        "fr": "Vis d’assemblage des demi-carters M8",
+        "en": "Crankcase half M8 screws"
+      },
+      "valeur_nm": 25,
+      "plage_nm": [22.5, 27.5],
+      "filetage": "M8",
+      "nombre": 15,
+      "freinfilet": "aucun",
+      "graisse": {
+        "fr": "Huile moteur sur les filets"
+      },
+      "note": {
+        "fr": "M8 × 45 (2), M8 × 50 (9), M8 × 60 (4)."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p39"]
+    },
+    {
+      "id": "cp-carter-m6",
+      "element": {
+        "fr": "Vis d’assemblage des demi-carters M6",
+        "en": "Crankcase half M6 screws"
+      },
+      "valeur_nm": 12,
+      "plage_nm": [10.8, 13.2],
+      "filetage": "M6",
+      "nombre": 8,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "M6 × 70 (1), M6 × 40 (3), M6 × 30 (4)."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p39"]
+    },
+    {
+      "id": "cp-gicleurs-pistons",
+      "element": {
+        "fr": "Vis des gicleurs de lubrification des pistons",
+        "en": "Piston oil jet screws"
+      },
+      "valeur_nm": 6,
+      "plage_nm": [5.4, 6.6],
+      "filetage": "M5",
+      "nombre": 2,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p39"]
+    },
+    {
+      "id": "cp-arretoirs-roulements",
+      "element": {
+        "fr": "Vis des arrêtoirs de roulements",
+        "en": "Bearing stopper screws"
+      },
+      "valeur_nm": 10,
+      "plage_nm": [9, 11],
+      "nombre": 3,
+      "note": {
+        "fr": "Vis à tête fraisée. Vis pré-enduite de frein-filet : la remplacer par une vis neuve après desserrage."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p39"]
+    },
+    {
+      "id": "cp-goujons-carter",
+      "element": {
+        "fr": "Goujons du carter",
+        "en": "Crankcase stud bolts"
+      },
+      "valeur_nm": 20,
+      "plage_nm": [18, 22],
+      "filetage": "M10",
+      "nombre": 6,
+      "note": {
+        "fr": "Goujons pré-enduits de frein-filet. Hauteur de montage H = 63,5 ± 0,5 mm."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p39"]
+    },
+    {
+      "id": "cp-bougies",
+      "element": {
+        "fr": "Bougies",
+        "en": "Spark plugs"
+      },
+      "valeur_nm": 12,
+      "nombre": 2,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "NGK IR MR9DI-7, écartement 0,7 – 0,8 mm."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p40"]
+    },
+    {
+      "id": "cp-couvre-culasse",
+      "element": {
+        "fr": "Vis du couvre-culasse",
+        "en": "Cylinder head cover screws"
+      },
+      "valeur_nm": 10,
+      "nombre": 4,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p40"]
+    },
+    {
+      "id": "cp-bobines",
+      "element": {
+        "fr": "Vis de fixation des bobines",
+        "en": "Ignition coil screws"
+      },
+      "valeur_nm": 12,
+      "filetage": "M6",
+      "nombre": 2,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Vis TE à embase M6 × 16."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p40"]
+    },
+    {
+      "id": "cp-chapeaux-arbres-a-cames",
+      "element": {
+        "fr": "Vis du chapeau de paliers d’arbres à cames",
+        "en": "Cam tower screws"
+      },
+      "valeur_nm": 11,
+      "nombre": 12,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Serrer dans l’ordre prescrit par le manuel d’atelier."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p40", "src-manuel-atelier#p74"]
+    },
+    {
+      "id": "cp-sonde-temperature-eau",
+      "element": {
+        "fr": "Sonde de température de liquide de refroidissement",
+        "en": "Coolant temperature sensor"
+      },
+      "valeur_nm": 20,
+      "nombre": 1,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p41"]
+    },
+    {
+      "id": "cp-couvercle-thermostat",
+      "element": {
+        "fr": "Vis du couvercle de thermostat",
+        "en": "Thermostat cover screws"
+      },
+      "valeur_nm": 6,
+      "filetage": "M5",
+      "nombre": 5,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p41"]
+    },
+    {
+      "id": "cp-couvercle-air-secondaire",
+      "element": {
+        "fr": "Vis du couvercle d’air secondaire",
+        "en": "Secondary air cover screws"
+      },
+      "valeur_nm": 6,
+      "filetage": "M5",
+      "nombre": 3,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p41"]
+    },
+    {
+      "id": "cp-goujons-culasse",
+      "element": {
+        "fr": "Goujons de culasse",
+        "en": "Cylinder head stud bolts"
+      },
+      "valeur_nm": 10,
+      "filetage": "M10",
+      "nombre": 4,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p41"]
+    },
+    {
+      "id": "cp-ecrous-culasse",
+      "element": {
+        "fr": "Écrous de culasse (serrage angulaire)",
+        "en": "Cylinder head nuts (angle tightening)"
+      },
+      "valeur_nm": 30,
+      "filetage": "M10",
+      "nombre": 6,
+      "freinfilet": "aucun",
+      "graisse": {
+        "fr": "Molykote G-Rapid Plus"
+      },
+      "note": {
+        "fr": "Pré-serrage à 30 Nm, puis serrage angulaire de 180°."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p41"]
+    },
+    {
+      "id": "cp-pignons-arbres-a-cames",
+      "element": {
+        "fr": "Vis Torx des pignons d’arbres à cames",
+        "en": "Camshaft gear Torx screws"
+      },
+      "valeur_nm": 30,
+      "nombre": 4,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p41"]
+    },
+    {
+      "id": "cp-support-patin-tendeur",
+      "element": {
+        "fr": "Vis du support de patin de tendeur de chaîne de distribution",
+        "en": "Timing chain tensioner slider support screw"
+      },
+      "valeur_nm": 18.5,
+      "filetage": "M8",
+      "nombre": 1,
+      "note": {
+        "fr": "Vis pré-enduite de frein-filet : la remplacer par une vis neuve après desserrage."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p41"]
+    },
+    {
+      "id": "cp-bouchon-distribution",
+      "element": {
+        "fr": "Bouchon (système de distribution)",
+        "en": "Timing system cap"
+      },
+      "valeur_nm": 20,
+      "nombre": 1,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p41"]
+    },
+    {
+      "id": "cp-vis-speciale-distribution",
+      "element": {
+        "fr": "Vis spéciale (système de distribution)",
+        "en": "Timing system special screw"
+      },
+      "valeur_nm": 25,
+      "nombre": 1,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p41"]
+    },
+    {
+      "id": "cp-vis-bielles",
+      "element": {
+        "fr": "Vis de bielles (serrage angulaire)",
+        "en": "Connecting rod screws (angle tightening)"
+      },
+      "valeur_nm": 20,
+      "nombre": 4,
+      "freinfilet": "aucun",
+      "graisse": {
+        "fr": "Huile Pankl"
+      },
+      "note": {
+        "fr": "Serrage en 2 étapes : 15 Nm, puis 20 Nm + 110°."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p42"]
+    },
+    {
+      "id": "cp-plaque-retenue-selection",
+      "element": {
+        "fr": "Vis de la plaque de retenue (sélection)",
+        "en": "Gear selector retention plate screws"
+      },
+      "valeur_nm": 12,
+      "nombre": 2,
+      "note": {
+        "fr": "Vis pré-enduite de frein-filet : la remplacer par une vis neuve après desserrage."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p43"]
+    },
+    {
+      "id": "cp-tambour-selection",
+      "element": {
+        "fr": "Vis du tambour de sélection",
+        "en": "Gear selector drum screw"
+      },
+      "valeur_nm": 25,
+      "nombre": 1,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p43"]
+    },
+    {
+      "id": "cp-capteur-rapport-engage",
+      "element": {
+        "fr": "Vis du capteur de rapport engagé",
+        "en": "Gear position sensor screws"
+      },
+      "valeur_nm": 6,
+      "nombre": 2,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p43"]
+    },
+    {
+      "id": "cp-vis-speciale-selection",
+      "element": {
+        "fr": "Vis spéciale (sélection)",
+        "en": "Gear selector special screw"
+      },
+      "valeur_nm": 12,
+      "nombre": 1,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p43"]
+    },
+    {
+      "id": "cp-pignon",
+      "element": {
+        "fr": "Vis du pignon de sortie de boîte",
+        "en": "Front sprocket screw"
+      },
+      "valeur_nm": 50,
+      "filetage": "M10",
+      "nombre": 1,
+      "note": {
+        "fr": "Vis TE à embase M10 × 25. Avec frein-filet (type non précisé par le manuel)."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p43", "src-manuel-atelier#p308"]
+    },
+    {
+      "id": "cp-filtre-huile",
+      "element": {
+        "fr": "Filtre à huile (cartouche)",
+        "en": "Oil filter (cartridge)"
+      },
+      "valeur_nm": 15,
+      "nombre": 1,
+      "freinfilet": "aucun",
+      "graisse": {
+        "fr": "Huile moteur sur le joint du filtre"
+      },
+      "note": {
+        "fr": "Remplir le filtre neuf au tiers d’huile avant montage ; ne jamais réutiliser un filtre."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p44", "src-manuel-atelier#p60", "src-apriliaforum-couples"]
+    },
+    {
+      "id": "cp-raccord-filtre-huile",
+      "element": {
+        "fr": "Raccord du filtre à huile",
+        "en": "Oil filter union"
+      },
+      "valeur_nm": 28.5,
+      "nombre": 1,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p44"]
+    },
+    {
+      "id": "cp-capteur-pression-huile",
+      "element": {
+        "fr": "Capteur de pression d’huile",
+        "en": "Oil pressure sensor"
+      },
+      "valeur_nm": 13,
+      "nombre": 1,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p44"]
+    },
+    {
+      "id": "cp-bouchon-carter",
+      "element": {
+        "fr": "Bouchon de carter",
+        "en": "Crankcase cap"
+      },
+      "valeur_nm": 20,
+      "nombre": 1,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p44"]
+    },
+    {
+      "id": "cp-clapet-pression-huile",
+      "element": {
+        "fr": "Clapet de régulation de pression d’huile",
+        "en": "Oil pressure regulation valve"
+      },
+      "valeur_nm": 42,
+      "nombre": 1,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p44"]
+    },
+    {
+      "id": "cp-bouchon-vidange",
+      "element": {
+        "fr": "Bouchon de vidange d’huile moteur",
+        "en": "Engine oil drain plug"
+      },
+      "valeur_nm": 20,
+      "nombre": 1,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Contrôler et, si nécessaire, remplacer le joint à chaque vidange."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p44", "src-manuel-atelier#p60"]
+    },
+    {
+      "id": "cp-carter-huile",
+      "element": {
+        "fr": "Vis du carter d’huile",
+        "en": "Oil sump screws"
+      },
+      "valeur_nm": 12,
+      "filetage": "M6",
+      "nombre": 10,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p44"]
+    },
+    {
+      "id": "cp-pompe-huile",
+      "element": {
+        "fr": "Vis de fixation de la pompe à huile",
+        "en": "Oil pump screws"
+      },
+      "valeur_nm": 6,
+      "filetage": "M5",
+      "nombre": 2,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p44"]
+    },
+    {
+      "id": "cp-pignon-pompe-huile",
+      "element": {
+        "fr": "Vis du pignon de pompe à huile",
+        "en": "Oil pump gear screw"
+      },
+      "valeur_nm": 12,
+      "nombre": 1,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p44"]
+    },
+    {
+      "id": "cp-couvercle-pompe-eau",
+      "element": {
+        "fr": "Vis du couvercle de pompe à eau",
+        "en": "Water pump cover screws"
+      },
+      "valeur_nm": 12,
+      "filetage": "M6",
+      "nombre": 5,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p45"]
+    },
+    {
+      "id": "cp-turbine-pompe-eau",
+      "element": {
+        "fr": "Turbine de pompe à eau",
+        "en": "Water pump impeller"
+      },
+      "valeur_nm": 4.5,
+      "nombre": 1,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p45"]
+    },
+    {
+      "id": "cp-ecrou-embrayage",
+      "element": {
+        "fr": "Écrou de la noix d’embrayage",
+        "en": "Clutch hub nut"
+      },
+      "valeur_nm": 175,
+      "nombre": 1,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p45"]
+    },
+    {
+      "id": "cp-ressorts-embrayage",
+      "element": {
+        "fr": "Vis des ressorts d’embrayage",
+        "en": "Clutch spring screws"
+      },
+      "valeur_nm": 10,
+      "filetage": "M6",
+      "nombre": 3,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p45"]
+    },
+    {
+      "id": "cp-levier-commande-embrayage-moteur",
+      "element": {
+        "fr": "Vis du levier de commande d’embrayage (côté moteur)",
+        "en": "Clutch actuating lever screw (engine side)"
+      },
+      "valeur_nm": 10,
+      "filetage": "M6",
+      "nombre": 1,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Vis TE à embase M6 × 20."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p46"]
+    },
+    {
+      "id": "cp-couvercle-embrayage",
+      "element": {
+        "fr": "Vis du couvercle d’embrayage",
+        "en": "Clutch cover screws"
+      },
+      "valeur_nm": 12,
+      "nombre": 8,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p46"]
+    },
+    {
+      "id": "cp-couvercle-alternateur",
+      "element": {
+        "fr": "Vis du couvercle d’alternateur",
+        "en": "Flywheel cover screws"
+      },
+      "valeur_nm": 12,
+      "filetage": "M6",
+      "nombre": 8,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p47"]
+    },
+    {
+      "id": "cp-bouchon-couvercle-alternateur",
+      "element": {
+        "fr": "Bouchon du couvercle d’alternateur",
+        "en": "Flywheel cover cap"
+      },
+      "valeur_nm": 20,
+      "nombre": 1,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p47"]
+    },
+    {
+      "id": "cp-demarreur",
+      "element": {
+        "fr": "Vis du démarreur",
+        "en": "Starter motor screws"
+      },
+      "valeur_nm": 12,
+      "filetage": "M6",
+      "nombre": 2,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Vis M6 × 35."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p47"]
+    },
+    {
+      "id": "cp-plaque-couronne-demarreur",
+      "element": {
+        "fr": "Vis de la plaque de retenue de la couronne de démarreur",
+        "en": "Starter ring gear retaining plate screw"
+      },
+      "valeur_nm": 12,
+      "filetage": "M6",
+      "nombre": 1,
+      "freinfilet": "aucun",
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p47"]
+    },
+    {
+      "id": "cp-rotor-alternateur",
+      "element": {
+        "fr": "Vis du rotor d’alternateur (volant)",
+        "en": "Flywheel rotor screw"
+      },
+      "valeur_nm": 195,
+      "filetage": "M14",
+      "nombre": 1,
+      "freinfilet": "aucun",
+      "note": {
+        "fr": "Vis M14 × 30."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p47"]
+    },
+    {
+      "id": "cp-stator",
+      "element": {
+        "fr": "Vis du stator",
+        "en": "Stator screws"
+      },
+      "valeur_nm": 10,
+      "filetage": "M6",
+      "nombre": 3,
+      "note": {
+        "fr": "Vis SHC M6 × 30. Vis pré-enduite de frein-filet : la remplacer par une vis neuve après desserrage."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p47"]
+    },
+    {
+      "id": "cp-roue-libre",
+      "element": {
+        "fr": "Vis de la roue libre sur le rotor",
+        "en": "Freewheel to rotor screws"
+      },
+      "valeur_nm": 14,
+      "filetage": "M6",
+      "nombre": 3,
+      "note": {
+        "fr": "Vis SHC M6 × 18. Vis pré-enduite de frein-filet : la remplacer par une vis neuve après desserrage."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p47"]
+    },
+    {
+      "id": "cp-plaque-faisceau-stator",
+      "element": {
+        "fr": "Vis de la plaque support du faisceau de stator",
+        "en": "Stator harness plate screws"
+      },
+      "valeur_nm": 3,
+      "filetage": "M5",
+      "nombre": 2,
+      "note": {
+        "fr": "Vis M5 × 14. Vis pré-enduite de frein-filet : la remplacer par une vis neuve après desserrage."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p47"]
+    },
+    {
+      "id": "cp-generique-m4",
+      "element": {
+        "fr": "Vis M4 sans couple spécifique",
+        "en": "M4 screw without specific torque"
+      },
+      "valeur_nm": 3,
+      "filetage": "M4",
+      "note": {
+        "fr": "Couple générique Aprilia pour les vis TE, TEFL, SHC, TBEI, TCC et TS, à utiliser seulement quand aucune valeur spécifique n’est donnée."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p20"]
+    },
+    {
+      "id": "cp-generique-m5",
+      "element": {
+        "fr": "Vis M5 sans couple spécifique",
+        "en": "M5 screw without specific torque"
+      },
+      "valeur_nm": 6,
+      "filetage": "M5",
+      "note": {
+        "fr": "Couple générique Aprilia pour les vis TE, TEFL, SHC, TBEI, TCC et TS, à utiliser seulement quand aucune valeur spécifique n’est donnée."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p20"]
+    },
+    {
+      "id": "cp-generique-m6",
+      "element": {
+        "fr": "Vis M6 sans couple spécifique",
+        "en": "M6 screw without specific torque"
+      },
+      "valeur_nm": 10,
+      "filetage": "M6",
+      "note": {
+        "fr": "Couple générique Aprilia pour les vis TE, TEFL, SHC, TBEI, TCC et TS, à utiliser seulement quand aucune valeur spécifique n’est donnée."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p20"]
+    },
+    {
+      "id": "cp-generique-m8",
+      "element": {
+        "fr": "Vis M8 sans couple spécifique",
+        "en": "M8 screw without specific torque"
+      },
+      "valeur_nm": 25,
+      "filetage": "M8",
+      "note": {
+        "fr": "Couple générique Aprilia pour les vis TE, TEFL, SHC, TBEI, TCC et TS, à utiliser seulement quand aucune valeur spécifique n’est donnée."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p20"]
+    },
+    {
+      "id": "cp-generique-m10",
+      "element": {
+        "fr": "Vis M10 sans couple spécifique",
+        "en": "M10 screw without specific torque"
+      },
+      "valeur_nm": 50,
+      "filetage": "M10",
+      "note": {
+        "fr": "Couple générique Aprilia pour les vis TE, TEFL, SHC, TBEI, TCC et TS, à utiliser seulement quand aucune valeur spécifique n’est donnée."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p20"]
+    },
+    {
+      "id": "cp-generique-m12",
+      "element": {
+        "fr": "Vis M12 sans couple spécifique",
+        "en": "M12 screw without specific torque"
+      },
+      "valeur_nm": 80,
+      "filetage": "M12",
+      "note": {
+        "fr": "Couple générique Aprilia pour les vis TE, TEFL, SHC, TBEI, TCC et TS, à utiliser seulement quand aucune valeur spécifique n’est donnée."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p20"]
+    },
+    {
+      "id": "cp-autotaraudeuse-petite",
+      "element": {
+        "fr": "Vis autotaraudeuses dans le plastique (Ø 2,9 et 3,9 mm)",
+        "en": "Self-tapping screws in plastic (2.9 and 3.9 mm)"
+      },
+      "valeur_nm": 2,
+      "note": {
+        "fr": "Couple générique Aprilia, sauf valeur spécifique."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p21"]
+    },
+    {
+      "id": "cp-autotaraudeuse-grande",
+      "element": {
+        "fr": "Vis autotaraudeuses dans le plastique (Ø 4,2 et 5 mm)",
+        "en": "Self-tapping screws in plastic (4.2 and 5 mm)"
+      },
+      "valeur_nm": 3,
+      "note": {
+        "fr": "Couple générique Aprilia, sauf valeur spécifique."
+      },
+      "confiance": "ok",
+      "sources": ["src-manuel-atelier#p21"]
+    }
+  ]
+}

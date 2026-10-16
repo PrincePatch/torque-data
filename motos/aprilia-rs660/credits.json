@@ -1,0 +1,56 @@
+{
+  "version_schema": 1,
+  "maj": "2026-10-16",
+  "images": [],
+  "schemas": {
+    "auteur": "Torque",
+    "licence": "CC BY 4.0",
+    "url_licence": "https://creativecommons.org/licenses/by/4.0/",
+    "fichiers": [
+      "schemas/profil-gauche.svg",
+      "schemas/profil-droit.svg",
+      "schemas/dessus.svg",
+      "schemas/tableau-de-bord.svg",
+      "schemas/guidon.svg",
+      "schemas/arriere-chaine.svg",
+      "schemas/chaine-fleche.svg",
+      "schemas/vidange.svg",
+      "schemas/purge-frein.svg",
+      "schemas/plaquettes.svg",
+      "schemas/batterie.svg"
+    ],
+    "pictos": [
+      "commun/pictos/abs-avant.svg",
+      "commun/pictos/abs.svg",
+      "commun/pictos/alerte.svg",
+      "commun/pictos/aprc.svg",
+      "commun/pictos/batterie.svg",
+      "commun/pictos/bequille.svg",
+      "commun/pictos/carburant.svg",
+      "commun/pictos/cle-entretien.svg",
+      "commun/pictos/clignotant-droit.svg",
+      "commun/pictos/clignotant-gauche.svg",
+      "commun/pictos/drl.svg",
+      "commun/pictos/feu-croisement.svg",
+      "commun/pictos/feu-route.svg",
+      "commun/pictos/frein.svg",
+      "commun/pictos/huile.svg",
+      "commun/pictos/immobiliseur.svg",
+      "commun/pictos/moteur.svg",
+      "commun/pictos/phare-auto.svg",
+      "commun/pictos/pit-limiteur.svg",
+      "commun/pictos/pneu.svg",
+      "commun/pictos/point-mort.svg",
+      "commun/pictos/quickshifter.svg",
+      "commun/pictos/regulateur.svg",
+      "commun/pictos/shift-light.svg",
+      "commun/pictos/temperature.svg",
+      "commun/pictos/traction.svg",
+      "commun/pictos/verglas.svg"
+    ],
+    "note": {
+      "fr": "Dessins vectoriels originaux réalisés pour Torque : aucune photo, vue éclatée, page de manuel ni logo n'est reproduit ou embarqué. Les pictogrammes de voyants sont redessinés dans le style des symboles ISO 7000 / ISO 2575, sans reprise de fichier existant.",
+      "en": "Original vector drawings made for Torque: no photo, exploded view, manual page or logo is reproduced or embedded. Warning-light pictograms are redrawn in the style of ISO 7000 / ISO 2575 symbols, without reusing any existing file."
+    }
+  }
+}
